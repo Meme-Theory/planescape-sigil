@@ -174,6 +174,15 @@ agents load at session start — restart or use `/agents` after edits):
 - **`abishai`** (5th-lawyer / SRD-lawyer) — 5e-2014 + 5e-2024; SRD quotes ship
   attribution; 2014 encounter budgets stay refused.
 
+A third stands apart from the bar: **`morte`** (mimir-steward / skullwright) —
+Mimir's ENGINE STEWARD, the formalized named-session. Invoke as the primary
+session agent for any Mimir work (pours, dimension design, gate/store/parse
+maintenance, V&V, curation rounds); it carries the pour playbook + the spine's
+throughline at `.claude/agent-memory/morte/` (state header + round records),
+so session handoffs cost nothing. Never calls `record_ruling`/`force` (mint
+law); law offers go through `build/family/rule-effect-handoff.md` and the
+cross-agent ledger in project memory.
+
 Both return docket-shaped verdicts, never invent die faces, and keep persistent
 memory at `.claude/agent-memory/<name>/` (`MEMORY.md` index + full trials in
 `trials/`, primed with live verified sessions). **Record law:** `.claude/rules/`
@@ -185,7 +194,9 @@ format, rules require. Their grep-able page-cited law caches live at
 **Agent mint-shapes** live at `.claude/agent-templates/` — `dm.md` (campaign-bound
 director; ancestor = `encounter-director`), `mvp.md` (NPC → agent promotion; the
 bar + ceremony are in its header), `rules-lawyer.md` (the lemure/abishai pattern
-for a new view's lawyer). Mint = copy below the header comment to
+for a new view's lawyer), `engine-steward.md` (the morte pattern: one steward per
+family engine, agent-memory as the session throughline — mint Mechanus/Modron
+stewards from it when their sessions retire). Mint = copy below the header comment to
 `.claude/agents/<name>.md`, fill every `<angle>`, seed agent-memory, reload via
 `/agents`. Lane law holds at mint time: no minted agent gets `force` or
 `record_ruling` — fiat and dockets stay the DM's voice.
