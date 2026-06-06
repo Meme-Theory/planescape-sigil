@@ -1,0 +1,746 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Planescape Wiki</sitename>
+    <dbname>planescape</dbname>
+    <base>https://planescape.fandom.com/wiki/Planescape_Wiki</base>
+    <generator>MediaWiki 1.43.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Planescape Wiki</namespace>
+      <namespace key="5" case="first-letter">Planescape Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Yggdrasil</title>
+    <ns>0</ns>
+    <id>1476</id>
+    <revision>
+      <id>7325</id>
+      <parentid>2047</parentid>
+      <timestamp>2026-06-02T14:32:51Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <minor/>
+      <origin>7325</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="16854" sha1="5j7ap9ngpj99yzsw7fve6bc7h6u3nr3" xml:space="preserve">{{GA}}
+{{Otheruses4|a planar pathway in the [[Great Wheel cosmology]]|the [[World Tree cosmology]] version|World Tree}}
+{{Plant
+| image         = Yggdrasil_linnorm-3e.jpg
+| caption       = An adventurer fighting a [[linnorm]] on the branches of Yggdrasil.
+| name          = Yggdrasil
+| othernames    = World Ash&lt;br /&gt;World Tree&lt;br /&gt;Tree of Life
+| nicknames     = 
+| type          = Tree, planar pathway
+| location      = [[Outer Planes]], [[Astral Plane]], [[Prime Material plane]]
+| basicrefs     = &lt;ref name="PS-DM2e-p45"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|45}}&lt;/ref&gt;&lt;ref name="PC-LB2e-p6"&gt;{{Cite book/Planes of Conflict/Liber Benevolentiae|6}}&lt;/ref&gt;&lt;ref name="Dn196-p12"&gt;{{Cite dungeon/196/Backdrop: Moonshae Isles|12}}&lt;/ref&gt;
+| useon         = 
+| origin        = 
+| value         = 
+| usage         = 
+| consumedby    = 
+| poisonousto   = 
+| lifespan      = 
+| genrefs       = 
+| height        = {{SI|23|mi|k}}
+| trunkdiameter = {{SIrange|1200|4000|ft}}
+| leaftype      = 
+| leafcolor     = Blue-black
+| flowercolor   = 
+| color         = 
+| stemcolor     = 
+| distinctions  = 
+| appearrefs    = &lt;ref name="Dn149-p63"&gt;{{Cite dungeon/149/Enemies of My Enemy|63}}&lt;/ref&gt;&lt;ref name="EDWP3e-p38-40"&gt;{{Cite book/Expedition to the Demonweb Pits|38-40}}&lt;/ref&gt;&lt;ref name="PC-TL2e-p42-43"&gt;{{Cite book/Planes of Chaos/The Travelogue|42-43}}&lt;/ref&gt;
+| first         = 
+| based         = [[wikipedia:en:Yggdrasil|Yggdrasil]] (Norse)
+}}
+'''Yggdrasil''', also known as the '''World Ash''', was a cosmic plane-spanning tree that linked the [[Prime Material Plane]] through the [[Astral Plane]] to the [[Outer Planes]] that were important to the [[Norse pantheon]].&lt;ref name="MotP1e-72"&gt;{{Cite book/Manual of the Planes 1st edition|72}}&lt;/ref&gt;&lt;ref name=MG5e-p44"&gt;{{Cite book/Dungeon Master's Guide 5th edition|44}}&lt;/ref&gt;
+{{quote
+|Down the tree is easy; back up is hard.
+|[[Tisk]] the [[ratatosk]]&lt;ref name="PC-TL2e-p42-43" /&gt;
+}}
+
+==Description==
+Yggdrasil was a silver-barked [[ash]] tree. Its leaves were blue-black and oval shaped and its rough bark resembled flaking gray clay.&lt;ref name="PC-TL2e-p42-43" /&gt; It was made of a type of divine wood that was immune to [[fire]], although fallen branches and leaves could be safely used for cooking fires. Spiraling along the main trunk, planks and sets of steps were carved or mounted onto the tree to facilitate traffic. The tree was surrounded by sky in all directions.&lt;ref name="EDWP3e-p38-40" /&gt; It produced seeds, but they were known to be sterile by the [[elf|elven]] inhabitants of [[Arborea]] and [[Alfheim]].&lt;ref name="ICGS2e-p51"&gt;{{Cite book/In the Cage: A Guide to Sigil|51}}&lt;/ref&gt;
+
+The entire tree was {{SI|23|mi|k|long=yes}} tall, with a {{SIAdj|15|mi|k|adj=wide}} canopy. Its trunk was {{SI|4000|ft|long=yes}} in diameter at the bottom, but tapered down to a diameter of {{SI|1200|ft|long=yes}} at the point where it started to branch. All branches of the tree resembled enormous trees themselves, extending for up to {{SI|10|mi|k|long=yes}}.&lt;ref name="EDWP3e-p38-40" /&gt; Many, but not all of them ended in two-way ''[[portal]]s'', which resembled the [[color pool]]s of the Astral Plane. Since there were many dead ends along the tree's branches, traveling without a guide or directions often resulted in long detours.&lt;ref name="PC-TL2e-p42-43" /&gt;&lt;ref name="PWH2e-p42-43"&gt;{{Cite book/The Planewalker's Handbook|42-43}}&lt;/ref&gt;
+
+Climbing the tree was difficult, but it was possible to get better footing by wearing [[dagger boots|spiked boots]]. The trip was made more perilous by the fact that [[Gravity plane|gravity]] was not constant along the tree. Throughout most of the trajectory, it pointed towards the center of the tree's trunk, but it slowly changed to match its destination plane as one approached a ''portal''. It was usually possible to predict when gravity would change by observing the direction of the moss growth along the trunk.&lt;ref name="PC-TL2e-p42-43" /&gt;
+
+Day and night followed an erratic cycle around the tree. During the day, sunlight percolated through the leaves, but provided full illumination until, at sunset, the sun appeared to move beyond a foggy horizon. At night, the tree was illuminated by countless stars that hung from the branches themselves.&lt;ref name="EDWP3e-p38-40" /&gt;
+
+It was possible to reach out for one of those stars by climbing to the end of a branch. If grabbed, the star functioned like an ''[[Ioun stone]]'', casting a continuous ''[[daylight]]'' spell around its wearer, and holding on to its magic for up to 30 days after being separated from the tree. However, unless the attempt was performed by or in the company of a [[dwarf]], a worshiper of the Norse pantheon, or a mortal with a [[chaotic good]] disposition, reaching out to a star immediately triggered the break of dawn and caused the star to disappear. It was not understood why the stars of Yggdrasil were always out of reach to some people.&lt;ref name="EDWP3e-p38-40" /&gt;
+
+==Cosmography==
+[[File:Yggdrasil2Hades.jpg|right|thumb|300px|''Yggdrasil's planar connections.'']]
+Yggdrasil was so massive that it could almost be considered a plane in its own right.&lt;ref name="Dn149-p63" /&gt; It even had certain planar characteristics of its own, such as a mild affinity towards [[chaos]] and a mild enhancement of plant- and [[:Category:Chaotic spells|chaotic]]-related [[spells]].&lt;ref name="EDWP3e-p38-40" /&gt;
+
+The tree's roots were in [[Niflheim]] (the second layer of [[Hades]]), and its crown was in [[Ysgard (layer)|Ysgard]] (the homonymous first layer of [[Ysgard]]) as described by the [[Great Wheel cosmology]] model. Other roots and branches penetrated the Prime planes where Norse [[deities]] were recognized, allowing travelers to climb the tree until they reached a portal very similar to a ''[[color pool]]'' and step through to their destination.&lt;ref name="MotP1e-72" /&gt;
+
+The entry point into Niflheim was usually a favorite among travelers because it avoided the first layer of [[Oinos]], a frequent battleground of the [[Blood War]].&lt;ref name="PC-LM2e-p45" /&gt;
+
+At the other end of Yggdrasil was the first layer of the plane of Ysgard, the home of the rest of the Norse pantheon. Ysgard contained many realms including [[Jotunheim]], [[Alfheim]], [[Vanaheim]], and the grand realm that gave the layer its name, [[Asgard]].&lt;ref name="MotP1e-95"&gt;{{Cite book/Manual of the Planes 1st edition|95}}&lt;/ref&gt; The tree also extended its branches to the second layer, [[Muspelheim]].&lt;ref name="OHG2e-p138"&gt;{{Cite book/On Hallowed Ground|138}}&lt;/ref&gt; All of these divine domains were near (in a cosmic sense) to the World Ash for easy access but often required a trek of hundreds or thousands of miles/kilometers to reach the tree.&lt;ref name="PC-TL2e-p42-43" /&gt;&lt;ref name="MotP1e-94"&gt;{{Cite book/Manual of the Planes 1st edition|94}}&lt;/ref&gt;
+
+Once on Yggdrasil, it was said that a trip from the Prime to either Asgard or Niflheim took at least 100 days, but there was no record of any mortal ever successfully completing the journey.&lt;ref name="MotP1e-95" /&gt;&lt;ref name="Dr90-p37"&gt;{{Cite dragon/90/Plane Facts on Gladsheim|37}}&lt;/ref&gt; On the other hand, trips between Outer Planes rarely took longer than a week. In both cases, those trips were not without risks, either from the tree's inhabitants, from the risk of falling into the Astral Plane as a result of losing contact with the tree's branches, or from simply walking into the wrong destination by mistake.&lt;ref name="PC-TL2e-p42-43" /&gt; Falling from Yggdrasil into lower locations was rarely fatal, but could cause substantial damage as a falling creature tumbled through branches.&lt;ref name="EDWP3e-p38-40" /&gt;
+
+The tree touched all layers of the [[Beastlands (plane)|Beastlands]] and [[Elysium]], except [[Belierin]], since all portals leading in and out that layer had been sealed.&lt;ref name="PC-LB2e-p6" /&gt;&lt;ref name="PC-PG2e-p4"&gt;{{Cite book/Planes of Conflict/A Player's Guide to Conflict|4}}&lt;/ref&gt;&lt;ref name="PC-LB2e-p61"&gt;{{Cite book/Planes of Conflict/Liber Benevolentiae|61}}&lt;/ref&gt; The reasons why Yggdrasil connected with the Beastlands were unclear, since no Norse deities claimed realms in that plane. It was speculated that the wilderness and life-giving properties of the plane were sufficient to root the tree there.&lt;ref name="PC-LB2e-p6" /&gt;
+
+[[File:Yggdrasil_map-3e.jpg|thumb|left|350px|''A representation of Yggdrasil showing some of its connections and distances.'']]
+Other branches of Yggdrasil connected to the vicinity of [[Glorium]] and the realm of the [[Norns]] in the [[Outlands]]&lt;ref name="PPO2e-p18"&gt;{{Cite book/A Player's Primer to the Outlands|18}}&lt;/ref&gt;&lt;ref name="PCS-SB2e-p16,40"&gt;{{Cite book/Planescape Campaign Setting/Sigil and Beyond|16,40}}&lt;/ref&gt; and to [[Winter's Hall]] in [[Pandemonium]]. The tree also extended a branch into [[Arvandor]] in the [[Arvandor (layer)|first layer]] of Arborea, near a village known as [[the Gnarl]].&lt;ref name="PC-TL2e-p42-43" /&gt;&lt;ref name="PC-BC2e-p104"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|104}}&lt;/ref&gt; A branch also extended to [[Limbo]], connecting to a relatively stable forested island known as [[Pinwheel]].&lt;ref name="PWH2e-p23"&gt;{{Cite book/The Planewalker's Handbook|23}}&lt;/ref&gt;
+
+Relatively easy to find connections along the branches included [[Sigil]], the [[Shadowfell]], and the [[Iron Wastes]], the [[Layers of the Abyss#Layer 23: The Iron Wastes|23{{rd}} layer]] of the [[Abyss]]. In addition to those, Yggdrasil was connected to every Outer Plane, including [[Mount Celestia]], [[Mechanus]], and even the [[Styx]], but ''portals'' to those locations were few and much more difficult to find.&lt;ref name="EDWP3e-p38-40" /&gt; The total number of ''portals'' was ultimately unknown, since the tree had not been thoroughly explored by any mortal.&lt;ref name="PWH2e-p12"&gt;{{Cite book/The Planewalker's Handbook|12}}&lt;/ref&gt;
+
+The exact exit point of most ''portals'' was impossible to predict, since currents from the Astral Plane often shifted the position of the branches, causing the tree to bend as if swaying under the wind.&lt;ref name="PC-TL2e-p42-43" /&gt;
+
+If a traveler died while on Yggdrasil, their soul was claimed by [[valkyrie]]s. In such cases, ''[[Resurrection (spell)|resurrection]]'' magic only worked if granted by a Norse [[deity]].&lt;ref name="EDWP3e-p38-40" /&gt;
+
+==Inhabitants==
+The entry point into Niflheim was guarded by [[Nidhogg]], a creature that was sometimes described as a gargantuan, very ancient [[red dragon]],&lt;ref name="PC-LM2e-p45" /&gt;&lt;ref name="MotP1e-106"&gt;{{Cite book/Manual of the Planes 1st edition|106}}&lt;/ref&gt; and other times as a serpent.&lt;ref name="FDD2e-p63-64"&gt;{{Cite book/For Duty &amp; Deity|63-64}}&lt;/ref&gt;&lt;ref name="CR3e-p142"&gt;{{Cite book/Champions of Ruin|142}}&lt;/ref&gt;&lt;ref name="VGATM2e-p121"&gt;{{Cite book/Volo's Guide to All Things Magical|121}}&lt;/ref&gt; The World Ash and the dragon were perpetually in conflict as Nidhogg tried to sever the inter-planar link to Ysgard by chewing through the roots in order to feed her countless children. Yggdrasil responded by putting down new roots as fast as the dragon could eat them.&lt;ref name="MotP1e-106" /&gt; All this took place in sight of the feast hall of [[Hel]], Norse goddess and guardian of the dead.&lt;ref name="MotP1e-105"&gt;{{Cite book/Manual of the Planes 1st edition|105}}&lt;/ref&gt;&lt;ref name="PC-LM2e-p45"&gt;{{Cite book/Planes of Conflict/Liber Malevolentiae|45}}&lt;/ref&gt; The dragon usually ignored travelers coming up and down the roots, but fiercely defended herself and her offspring if disturbed.&lt;ref name="PC-LM2e-p45" /&gt;
+
+[[Viper tree]]s and [[linnorm]]s were said to be the bastard offspring of Nidhogg. Both infested some of the thinner and lower branches of the tree.&lt;ref name="EDWP3e-p38-40" /&gt; Viper trees were also commonly found in [[Azzagrat]], but some specimens were brought to [[Thay]] by [[Red Wizard]]s.&lt;ref name="FDD2e-p63-64" /&gt;
+
+[[File:Ratatosk-3e.jpg|thumb|250px|''A ratatosk inhabitant of Yggdrasil.'' ]]
+Some of the most important inhabitants of Yggdrasil were the [[ratatosk]]s, humanoid-looking giant flying squirrels who worked as messengers or guides between the planes touched by the tree. In order to hire them for any service, a bribe in the form of pods from Yggdrasil itself was typically acceptable.&lt;ref name="PC-MS2e-p22-23"&gt;{{Cite book/Planes of Chaos/Monstrous Supplement|22-23}}&lt;/ref&gt;&lt;ref name="PC-TL2e-p42-43" /&gt; The ratatosk frequently delivered threats from the dragons in Niflheim to other inhabitants of the tree, which included giant [[stag]]s that grazed on the leaves and [[giant eagle]]s that nested on the branches.&lt;ref name="MotP1e-95" /&gt;
+
+The branches of Yggdrasil were also inhabited by numerous tree-dwelling creatures, such as [[abrian]]s, birds of prey, [[darkweaver]]s, [[giant raven]]s, and [[spider]]s.&lt;ref name="PC-LB2e-p6" /&gt;&lt;ref name="Dn149-p63" /&gt;&lt;ref name="EDWP3e-p38-40" /&gt; The bark was inhabited by enormous [[beetle]]s and the leaves fed entire herds of [[boar]].&lt;ref name="PC-TL2e-p42-43" /&gt; In addition, bandits and [[fiend]]s commonly preyed on unwary travelers. Some of the most important junctures were patrolled by [[per]]s, but they lacked sufficient numbers to monitor the entire tree.&lt;ref name="PC-LB2e-p6" /&gt;&lt;ref name="MC-PSI2e-p84-85"&gt;{{Cite book/Monstrous Compendium Planescape Appendix|84-85}}&lt;/ref&gt; [[Angel]]s guarded the ''portals'' located in some of the upper branches and [[yugoloth]]s guarded some of the ones in lower branches.&lt;ref name="PC-TL2e-p42-43" /&gt; A few [[hag]]s were known to inhabit cottages along the lower branches.&lt;ref name="EDWP3e-p38-40" /&gt;
+
+The most frequently encountered travelers along Yggdrasil included [[bariaur]]s, [[Ysgardian dwarves]] and [[elves]], [[Fire giant|fire]] and [[frost giant]]s, [[giant owl]]s, valkyries, and [[winter wolf|winter wolves]].&lt;ref name="EDWP3e-p38-40" /&gt;
+
+==History==
+A branch of Yggdrasil was a preferred trajectory of the [[Great Modron March]] as it moved from Ysgard to Limbo.&lt;ref name="GMM2e-p62"&gt;{{Cite book/The Great Modron March|62}}&lt;/ref&gt;
+
+==Rumors &amp; Legends==
+The [[Athar (faction)|Athar]] maintained that the Norse pantheon drew its power from Yggdrasil itself. Legends also claimed that the day when Nidhogg finally managed to completely destroy the tree's roots would bring about the end of Yggdrasil and of the Norse pantheon.&lt;ref name="PC-TL2e-p42-43" /&gt;
+
+The Ratatosk considered Yggdrasil itself to be their patron [[deity]]&lt;ref name="PoC-p107"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|107}}&lt;/ref&gt; and viewed the tree as a feminine entity.&lt;ref name="PC-MS2e-p22-23"/&gt;
+
+==Appendix==
+===See Also===
+* [[Yggdrasil's Child]], a tree from the island of [[Ruathym]] that was said to have grown from a fertile seed of Yggdrasil. Although it did not function as a portal as of the late 15{{th}} century [[DR]], the tree possessed certain powers.&lt;ref name="Dn196-p12" /&gt;
+* [[Yggdrasil's Child (Garden)]], a [[wildspace]]-born tree that grew throughout the entire planet [[Garden]] and held it together.&lt;ref name="RS2e-p44-45"&gt;{{Cite book/Realmspace|44-45}}&lt;/ref&gt;
+
+===Appearances===
+:;Adventures
+::''[[The Great Modron March]]'' • ''[[Dead Gods]]'' • ''[[Expedition to the Demonweb Pits]]'' • [[Dungeon magazine 149#Enemies of My Enemy|''Dungeon'' #149, “Enemies of My Enemy”]]
+:;{{Refonly}}
+::&lt;small&gt;''[[For Duty &amp; Deity]]''&lt;/small&gt;
+:;Card Games
+::''[[Blood Wars]]''
+
+===External Links===
+* {{FRW}}
+
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:Cosmology]]
+[[Category:Trees]]
+[[Category:Locations in Niflheim]]
+[[Category:Locations in Hades]]
+[[Category:Locations in Ysgard]]
+[[Category:Locations in Ysgard (layer)]]
+[[Category:Locations in Alfheim]]
+[[Category:Locations in Asgard]]
+[[Category:Locations in Jotunheim]]
+[[Category:Locations in Vanaheim]]
+[[Category:Locations in Muspelheim]]
+[[Category:Locations in Limbo]]
+[[Category:Locations in the Beastlands (plane)]]
+[[Category:Locations in Krigala]]
+[[Category:Locations in Brux]]
+[[Category:Locations in Karasuthra]]
+[[Category:Locations in Elysium]]
+[[Category:Locations in Amoria]]
+[[Category:Locations in Eronia]]
+[[Category:Locations in Thalasia]]
+[[Category:Locations in Winter's Hall]]
+[[Category:Locations in Pandesmos]]
+[[Category:Locations in Pandemonium]]
+[[Category:Locations in the Outlands]]
+[[Category:Locations in Arborea]]
+[[Category:Locations in Arvandor (layer)]]
+[[Category:Locations in Arvandor]]
+[[Category:Locations in Sigil]]
+[[Category:Locations in the Shadowfell]]
+[[Category:Locations in the Iron Wastes]]
+[[Category:Locations in the Abyss]]
+[[Category:Locations in Mount Celestia]]
+[[Category:Locations in Mechanus]]
+[[Category:Locations on the River Styx]]
+[[Category:Locations in the Astral Plane]]
+[[Category:Locations in the Prime Material Plane]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Planar pathways]]
+[[Category:Inhabitants]]
+[[Category:Deities]]
+[[Category:Inhabitants of feminine gender]]</text>
+      <sha1>5j7ap9ngpj99yzsw7fve6bc7h6u3nr3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ysgard</title>
+    <ns>0</ns>
+    <id>578</id>
+    <revision>
+      <id>930</id>
+      <parentid>929</parentid>
+      <timestamp>2023-01-05T02:35:06Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>929</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="14765" sha1="qvbk69sdkqhl92f5pjj32fcqmfiy918" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Ysgard
+| othernames        = Gladsheim
+| symbol            = Ysgard.png
+| demonym           = Ysgardian
+| natives           = [[Bariaur]]s&lt;br /&gt;[[Deva]]s&lt;br /&gt;[[Fire giant]]s&lt;br /&gt;[[Firre]]s&lt;br /&gt;[[Frost giant]]s&lt;br /&gt;[[Ghaele]]s&lt;br /&gt;[[Hollyphant]]s&lt;br /&gt;[[Lillend]]s&lt;br /&gt;[[Planetar]]s
+| languages         = 
+| color-pool-color  = Indigo
+| color-pool-image  = ColorPoolYsgard.png
+| fork-material     = [[Gold]]
+| fork-note         = G
+| fork-audio        = G4.ogg
+| basicrefs         = &lt;ref name="MotP1e-95"&gt;{{Cite book/Manual of the Planes 1st edition|95}}&lt;/ref&gt;&lt;ref name="MotP1e-94"&gt;{{Cite book/Manual of the Planes 1st edition|94}}&lt;/ref&gt;&lt;ref name="Dr120-p42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;&lt;ref name="PoCh2e-p109-128"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|109-128}}&lt;/ref&gt;&lt;ref name="MotP3e-p90-92"&gt;{{Cite book/Manual of the Planes 3rd edition|90-92}}&lt;/ref&gt;&lt;ref name="MotP1e-62"&gt;{{Cite book/Manual of the Planes 1st edition|62}}&lt;/ref&gt;&lt;ref name="MotP3e-p49"&gt;{{Cite book/Manual of the Planes 3rd edition|49}}&lt;/ref&gt;&lt;ref name="DMG5e-p47"&gt;{{Cite book/Dungeon Master's Guide 5th edition|47}}&lt;/ref&gt;
+| type-GW           = [[Outer plane]]
+| shape-size-GW     = Three layers filled with rivers of earth
+| gravity-GW        = Objective directional: normal to one side of a river
+| time-GW           = Normal
+| morphic-GW        = Highly on large scale
+| element-energy-GW = Minor [[Positive energy|positive]]-dominant
+| alignment-GW      = {{alignment grid|off|off|on|off|off|on|off|off|off}}
+| magical-GW        = Normal with special cases
+| layers-GW         = [[Ysgard (layer)|Ysgard]]&lt;br /&gt;[[Muspelheim]]&lt;br /&gt;[[Nidavellir]]
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="MotP1e-73"&gt;{{Cite book/Manual of the Planes 1st edition|73}}&lt;/ref&gt;&lt;ref name="MotP1e-75"&gt;{{Cite book/Manual of the Planes 1st edition|75}}&lt;/ref&gt;&lt;ref name="MotP1e-78-82"&gt;{{Cite book/Manual of the Planes 1st edition|78-82}}&lt;/ref&gt;&lt;ref name="MotP1e-94" /&gt;&lt;ref name="MotP3e-p90-92" /&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| usethe            = 
+| useon             = 
+}}The '''Heroic Domains of Ysgard''',&lt;ref name="DMG5e-p58"&gt;{{Cite book/Dungeon Master's Guide 5th edition|58}}&lt;/ref&gt; also referred to as '''Gladsheim''',&lt;ref name="OHG-140"&gt;{{Cite book/On Hallowed Ground|140}}&lt;/ref&gt; was the [[Great Wheel]] plane straddling the alignments of [[chaotic good]] and [[chaotic neutral]]. Like the Greek influence on [[Arborea]], much of this plane was heavily dominated by the gods of the [[Norse pantheon]]&lt;ref name="MotP1e-94" /&gt; who had little interaction with the people of [[Toril]]. The primary exception was [[Tyr]], the Norse god of war and law who became known and widely worshiped as the God of Justice in the [[Forgotten Realms]].&lt;ref name="CotR-15-16"&gt;{{Cite book/Cyclopedia of the Realms|15-16}}&lt;/ref&gt;
+
+Some characteristics of this plane were ascribed to the [[World Tree cosmology]] planes of [[Arvandor]],&lt;ref name="PGtF-143"&gt;{{Cite book/Player's Guide to Faerûn|143}}&lt;/ref&gt; [[Brightwater]],&lt;ref name="PGtF-146"&gt;{{Cite book/Player's Guide to Faerûn|146}}&lt;/ref&gt; [[Gates of the Moon]],&lt;ref name="PGtF-154"&gt;{{Cite book/Player's Guide to Faerûn|154}}&lt;/ref&gt; and [[Jotunheim]]&lt;ref name="PGtF-160"&gt;{{Cite book/Player's Guide to Faerûn|160}}&lt;/ref&gt; when that cosmology model became popular. When the [[Spellplague]] hit the cosmos, Brightwater merged with the Gates of the Moon which survived,&lt;ref name="FRCG-63"&gt;{{Cite book/Forgotten Realms Campaign Guide|63}}&lt;/ref&gt; along with Arvandor.&lt;ref name="FRCG-62"&gt;{{Cite book/Forgotten Realms Campaign Guide|62}}&lt;/ref&gt; Jotunheim was cast into the [[Elemental Chaos]] but only parts of it survived&lt;ref name="FRCG-67"&gt;{{Cite book/Forgotten Realms Campaign Guide|67}}&lt;/ref&gt; as described by the [[World Axis cosmology]] model.
+
+{{Quote
+|It is a ''perfect'' day to die — just like yesterday, and the day before...
+|Hrafnul the Bold, Ysgardian [[petitioner]].&lt;ref name="PoC-A-p102"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|102}}&lt;/ref&gt;
+}}
+
+==Description==
+The three layers of Gladsheim consisted of tremendous rivers of earth and stone that formed cosmic arches through the void, like very tightly packed asteroid belts. Millions of miles/kilometers wide, each river was made up of gigantic chunks of matter that bumped and ground against each other at a glacial but noticeable pace, raising up mountains and opening vast chasms. These "earthbergs" all shared the same gravity field and most were inhabitable on the top side while the underside of the rivers burned with a radiant fire that provided a ruddy light to the rivers below. Earthquakes and landslides were a commonly occurring danger in Gladsheim as the landscape slowly buckled and broke under the influence of chaos.&lt;ref name="MotP1e-94" /&gt;
+
+Multiple rough-hewn landings of the [[Infinite Staircase]] connected to each of Gladsheim's three layers.&lt;ref name="MotP3e-p90-92" /&gt;
+
+===Ysgard===
+{{/Imagemap}}
+{{Main|Ysgard (layer)}}
+The name of this layer was also the name of the confederation of godly domains known as [[Asgard]], home of the Norse pantheon,&lt;ref name="MotP1e-94" /&gt; or Ysgard in the Norse tongue.&lt;ref name="OHG-140" /&gt; Each realm was the size of a Prime plane empire and they were drawn together by the proximity of [[Yggdrasil]] the World Ash.&lt;ref name="MotP1e-94" /&gt; Like [[Mount Olympus]], Yggdrasil was a multiplanar conduit connecting Gladsheim directly to [[Hades#Niflheim|Niflheim]] in [[Hades]] and Alternate [[Prime Material Plane]]s without passing through the [[Astral Plane]], much like the [[World Tree]] in the [[World Tree cosmology]].&lt;ref name="PGtF-140"&gt;{{Cite book/Player's Guide to Faerûn|140}}&lt;/ref&gt; The usual ''color pools'' connecting Asgard to the Astral Plane existed but were little used. Portals in the guise of wells connected this layer to the neighboring planes of [[Arborea]], [[Limbo]], and [[Concordant Opposition]]. In addition to Yggdrasil, the Norse gods controlled and carefully guarded a portal directly to the Prime plane where they were the strongest, called the Bifrost or the rainbow bridge.&lt;ref name="MotP1e-95" /&gt;
+
+Other known realms adjacent to Asgard were [[Vanaheim]] (home of the [[vanir]]), [[Alfheim]] (fairyland, known for its chaotic elven spirits), and Jotenheim (home of the giants).&lt;ref name="MotP1e-95" /&gt;
+
+===Muspelheim===
+{{Main|Muspelheim}}
+The earthbergs of this layer were reversed (or alternatively, gravity was reversed) so the flaming side was up and the earthen side down. [[Surtur]] and the [[fire giant]]s made their home here and guarded the barriers that lead to Asgard and its neighboring realms.&lt;ref name="MotP1e-94" /&gt;
+
+===Nidavellir===
+{{Main|Nidavellir}}
+The rivers of earth were in such close proximity in this layer that the entire sky was filled with fire, making it appear to travelers that they were in underground caverns and passages with a river of fire for a ceiling.&lt;ref name="MotP1e-94-95"&gt;{{Cite book/Manual of the Planes 1st edition|94-95}}&lt;/ref&gt;
+
+==Inhabitants==
+[[Hollyphant]]s and [[planetar]]s were fairly plentiful in Gladsheim but many of the other [[Upper plane]] regulars avoided it. Wildlife included [[bear]]s, wild [[boar]]s, [[stag]]s and other woodland creatures, all bigger and tougher than their Prime plane counterparts.&lt;ref name="MotP1e-95" /&gt; [[Giant]]s of all kinds lived mostly in Jotunheim but could be encountered just about anywhere. The giants of Gladsheim were generally more intelligent and better equipped (with giant-sized magic weapons) than those found on the [[Prime Material Plane]]. Some were accomplished [[cleric]]s and [[mage]]s, and [[illusionist]]s who could even fool the gods.&lt;ref name="MotP1e-96"&gt;{{Cite book/Manual of the Planes 1st edition|96}}&lt;/ref&gt; In addition, some [[deva]]s and [[celestial eladrin]] made their homes on this plane.&lt;ref name="MotP3e-p90-92" /&gt;
+
+==Realms==
+[[File:Gladsheim - Tyr's realm.jpg|thumb|250px|right|''Tyr's realm in [[Asgard]] on the first layer of Ysgard.'']]
+* [[Aerdrie Faenya]], [[Seldarine]] Goddess of Air and Weather, had no permanent realm here but wandered among the layers of Gladsheim, where she often stopped at [[Alfheim]], and [[Arborea]] accompanied by dozens of huge birds.&lt;ref name="MotP1e-94,95"&gt;{{Cite book/Manual of the Planes 1st edition|94,95}}&lt;/ref&gt;&lt;ref name="UA1e-113"&gt;{{Cite book/Unearthed Arcana 1st edition|113}}&lt;/ref&gt;&lt;ref name="DD-94"&gt;{{Cite book/Demihuman Deities|94}}&lt;/ref&gt;
+* [[Anhur]], [[Mulhorandi pantheon|Mulhorandi]] God of War, Thunder, Rain, and Storms, kept his realm called [[Netaph]] on the [[Ysgard (layer)|first layer]].&lt;ref name="PPp95"&gt;{{Cite book/Powers and Pantheons|95}}&lt;/ref&gt;&lt;ref name="OHG-86"&gt;{{Cite book/On Hallowed Ground|86-87}}&lt;/ref&gt;
+* [[Annam All-Father]], chief deity and creator of the [[giant]] races, once had a palace called [[Gudheim]] on this plane.&lt;ref name="GC-44,47"&gt;{{Cite book/Giantcraft|44,47}}&lt;/ref&gt;
+* [[Bast]],&lt;ref name="DD1e-50"&gt;{{Cite book/Deities &amp; Demigods 1st edition|50}}&lt;/ref&gt; the [[Mulhorandi]] patron of cats and goddess of hedonistic pleasure, had her realm [[Merratet]] across the sea from Asgard in a vine-covered acropolis on the edge of a desert.&lt;ref name="MotP1e-97"&gt;{{Cite book/Manual of the Planes 1st edition|97}}&lt;/ref&gt;&lt;ref name="P&amp;P-51"&gt;{{Cite book/Powers &amp; Pantheons|51}}&lt;/ref&gt; Bast later absorbed the essence of a minor elven goddess, became known as [[Sharess]],&lt;ref name="FRCSDS-10"&gt;{{Cite web enhancement/Deities|10}}&lt;/ref&gt; and moved to [[Brightwater]].&lt;ref name="FRCS-258"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|258}}&lt;/ref&gt;
+* [[Eilistraee]], the Dark Maiden, had a realm named [[Svartalfheim]] on the Nidavellir level of this plane.&lt;ref name="DD-13"&gt;{{Cite book/Demihuman Deities|13}}&lt;/ref&gt;&lt;ref name="OHG-173"&gt;{{Cite book/On Hallowed Ground|173}}&lt;/ref&gt;
+* [[Hlal]], the [[Draconic pantheon|draconic]] Jester, had a lair know as [[Brassberg]] on Nidavellir.&lt;ref&gt;{{Cite book/Cult of the Dragon|120}}&lt;/ref&gt;
+* [[Marthammor Duin]], the Finder-of-Trails of the [[Morndinsamman|dwarves]], resided in his [[Cavern of Rest]] on Nidavellir.&lt;ref name="DD-74"&gt;{{Cite book/Demihuman Deities|74}}&lt;/ref&gt;
+* The ''[[Seelie Court]]'' of the [[Fey|Faerie]] Queen [[Titania]], including [[Oberon]], [[Caoimhin]], [[Damh]], [[Eachthighern]], [[Emmantiensien]], [[Fionnghuala]], [[Nathair Sgiathach]], [[Sqeulaiche]] and [[Verenestra]], often frequented Ysgard as part of its wanderings.&lt;ref&gt;{{Cite book/Monster Mythology|119}}&lt;/ref&gt;&lt;ref&gt;{{Cite book/On Hallowed Ground|137, 175}}&lt;/ref&gt;
+* [[Selûne]]'s realm, the [[Gates of the Moon]],&lt;ref name="FRCS-258" /&gt; was considered to reside in Gladsheim according to the Great Wheel cosmology.&lt;ref name="CotR-13"&gt;{{Cite book/Cyclopedia of the Realms|13}}&lt;/ref&gt;&lt;ref name="FRA-29"&gt;{{Cite book/Forgotten Realms Adventures|29}}&lt;/ref&gt;
+* [[Sharindlar]], the dwarven Lady of Life and Mercy, held her [[Merciful Court]] in Nidavellir.&lt;ref name="DD-82"&gt;{{Cite book/Demihuman Deities|82}}&lt;/ref&gt;
+* [[Shaundakul]], the Rider of the Winds, maintained a realm called [[Shaunidaur]] on the layer of Ysgard.&lt;ref name="F&amp;A-142"&gt;{{Cite book/Faiths &amp; Avatars|142}}&lt;/ref&gt;
+* [[Soma]], the god of moonlight, plants and prophesy in the [[Vedic]] (Indian) pantheon shared Selûne's realm.&lt;ref name="OHG-170"&gt;{{Cite book/On Hallowed Ground|170}}&lt;/ref&gt;
+* [[Stronmaus]], the giant god of [[the sun|sun]] and sky, resided in a [[cloud palace]] near Gudheim, when he did not stay in the [[Beastlands (plane)|Beastlands]].&lt;ref name="GC-44,47" /&gt;
+* [[Surtur]], king of the [[fire giant]]s, had [[Muspelheim (realm)|a vast realm]] in [[Muspelheim]] with outposts in [[Jotunheim]].&lt;ref name="MotP1e-94,95" /&gt;&lt;ref name="DD1e-121"&gt;{{Cite book/Deities &amp; Demigods 1st edition|121}}&lt;/ref&gt;
+* [[Tarsellis Meunniduin]], [[Seldarine|elven god]] of mountains and [[snow elf]]s, had his realm named the [[Wild Ride]] or the Wild Hunt on the first layer.&lt;ref name="DrM-236-SR"&gt;{{Cite dragon/236/The Seldarine Revisited}}&lt;/ref&gt;&lt;ref group="note"&gt;"The Seldarine Revisited" calls Tarsellis Meunniduin's realm "The Wild Hunt" in the stats block and "The Wild Ride" in the text.&lt;/ref&gt;
+* [[Thrym]], king of the [[frost giant]]s, had his frozen realm in Jotunheim.&lt;ref name="MotP1e-95" /&gt;&lt;ref name="DD1e-123"&gt;{{Cite book/Deities &amp; Demigods 1st edition|123}}&lt;/ref&gt;
+* [[Tyr]] Grimjaws, the Even-Handed, once made his home in [[Valhalla]], a realm in [[Asgard]].&lt;ref name="MotP1e-96" /&gt; However, Tyr was also known to reside in the [[Seven Heavens]].&lt;ref name="CotR-15"&gt;{{Cite book/Cyclopedia of the Realms|15}}&lt;/ref&gt;&lt;ref name="FRA-35"&gt;{{Cite book/Forgotten Realms Adventures|35}}&lt;/ref&gt;
+* [[Uthgar]], the Battle Father, maintained his realm of [[Uthgardtheim]] on the first layer.&lt;ref&gt;{{Cite book/Powers &amp; Pantheons|66}}&lt;/ref&gt;
+* [[Valkur]] the Mighty had his maritime realm, [[Safe Harbor]], on the first layer.&lt;ref&gt;{{Cite book/Powers &amp; Pantheons|66}}&lt;/ref&gt;
+
+==History==
+In the [[1357 DR|Year of the Prince, 1357 DR]], [[Pasha]] [[Abon Duum]] used the power of the [[Catlord (old)|Catlord]] to travel to Tyr's realm in Gladsheim to confront Tyr with the [[Claw of Malar]], apparently seeking to seize the power of the gods. However, "Tyr" was revealed to be [[Conner]] in a cloak, having faked his death and been spirited to Gladsheim. The Catlord stole the Claw of Malar and passed it to Conner, before the real Tyr appeared and took the [[artifact]]. With a warning that he would keep an eye on Conner and the scales of justice, he sent the heroes home while Duum was left to face Justice himself.&lt;ref name="ADDc-16"&gt;{{Cite comic/The Last Betrayal|10-14}}&lt;/ref&gt;
+
+==Appendix==
+===Notes===
+{{Notes}}
+
+===Appearances===
+:;Adventures
+::''[[The Great Modron March]]'' • ''[[For Duty &amp; Deity]]''
+:;Comics
+::''[[The Last Betrayal]]''
+
+===Gallery===
+&lt;gallery&gt;
+Gladsheim Imagine 30.png|A map showcasing Ysgard's structure
+&lt;/gallery&gt;
+
+===References===
+{{Refs|2}}
+
+===Connections===
+{{Ysgard}}
+{{Cosmologies}}
+[[Category:Great Wheel planes]]
+[[Category:Outer Planes]]
+[[Category:Planes of existence]]
+[[Category:Planes of chaos]]
+[[Category:Locations on Yggdrasil]]</text>
+      <sha1>qvbk69sdkqhl92f5pjj32fcqmfiy918</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ysgard/Imagemap</title>
+    <ns>0</ns>
+    <id>695</id>
+    <revision>
+      <id>1184</id>
+      <parentid>1183</parentid>
+      <timestamp>2023-01-05T02:35:22Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1183</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8358" sha1="tsipmmg1kvkdtbyr9jrvw66dvqmevx1" xml:space="preserve">&lt;noinclude&gt;The following image map was generated using information compiled from the following sources:
+* {{Cite book/Manual of the Planes 3rd edition}}
+&lt;/noinclude&gt;&lt;div class="imageMapHighlighter"&gt;
+&lt;imagemap&gt;
+File:Ysgard-3e.jpg|thumb|300px|right|A representation of the layers of Ysgard, according to the Great Wheel Cosmology. Hovering over the map will reveal main features. Clicking will link to the article for that location.
+
+desc none
+poly 574 344 566 346 560 346 562 341 565 340 564 318 562 314 562 309 568 300 573 311 574 317 571 319 571 340 574 340 [[Den of Olidammara]]
+rect 343 230 495 278 [[Den of Olidammara]]
+rect 539 392 680 413 [[Valiant Hall]]
+poly 473 473 445 473 441 468 435 468 434 452 427 459 439 436 459 433 475 442 471 445 485 455 477 460 478 466 472 468 [[Valiant Hall]]
+poly 552 452 611 454 617 463 636 461 642 470 656 469 677 478 683 489 666 499 626 504 583 499 568 494 567 487 548 488 546 484 541 487 522 473 527 458 539 463 550 459 549 454 [[Plain of Ida]]
+poly 195 325 208 314 210 315 216 309 222 308 232 301 250 312 267 319 261 324 255 326 251 333 240 341 230 340 224 348 219 340 216 343 213 335 209 335 206 330 195 329 [[Ysgard (layer)]]
+poly 256 364 266 357 271 359 284 350 290 353 296 353 302 347 310 343 312 340 319 348 322 346 331 355 340 347 342 349 347 348 352 355 358 355 367 362 375 362 377 366 370 370 368 375 359 381 354 379 361 388 352 398 351 403 345 400 340 411 334 407 324 410 320 407 306 408 298 415 294 415 281 402 278 404 268 397 256 392 253 383 244 381 247 378 264 370 [[Ysgard (layer)]]
+rect 122 348 218 384 [[Ysgard (layer)]]
+poly 31 481 37 476 64 467 58 459 71 451 58 437 59 433 85 422 86 420 101 415 102 413 113 414 140 401 145 402 168 401 170 399 176 402 180 400 191 405 202 395 223 413 239 408 254 423 260 423 269 426 272 434 284 435 286 440 291 439 293 440 295 448 303 451 302 455 282 466 272 481 272 475 260 469 246 479 243 475 232 478 228 483 241 490 240 491 217 505 212 515 207 511 188 512 176 521 176 523 171 520 167 523 164 516 152 512 145 515 139 510 115 509 107 514 103 515 99 523 89 512 85 514 77 501 60 493 58 496 53 495 47 491 [[Ysgard (layer)]]
+poly 416 357 420 348 427 349 432 345 441 345 445 342 448 341 455 334 464 338 473 328 480 331 488 326 492 331 497 330 504 335 515 328 521 331 533 323 547 331 554 327 562 331 563 319 561 312 567 299 571 309 571 317 570 319 570 333 577 332 585 338 586 350 573 358 571 354 560 363 553 368 549 366 544 386 535 375 528 374 525 383 516 379 509 381 502 380 496 384 490 393 482 385 475 379 470 382 464 374 459 377 448 373 445 369 441 368 433 372 420 361 [[Ysgard (layer)]]
+poly 337 434 353 427 367 428 374 421 380 426 385 421 415 420 420 412 427 417 435 417 438 411 444 412 452 413 465 404 472 408 482 407 492 395 517 421 531 422 531 430 544 434 548 440 576 442 581 445 615 448 619 449 639 453 661 459 657 465 695 479 695 483 699 488 689 500 678 514 677 523 657 521 646 528 641 523 627 529 611 532 600 547 593 539 581 543 579 537 557 528 541 533 536 525 518 531 507 548 490 544 483 536 470 534 444 516 436 518 432 514 413 514 405 521 404 530 387 519 384 513 368 513 365 510 350 508 347 512 342 501 327 495 322 484 327 480 323 475 339 470 346 463 341 458 336 459 332 446 341 440 344 442 342 439 [[Ysgard (layer)]]
+rect 453 541 589 566 [[Plain of Ida]]
+poly 52 565 55 563 60 557 75 556 78 551 87 550 88 547 102 546 103 544 122 542 127 537 136 532 146 538 156 532 170 520 175 524 188 513 193 512 200 524 209 528 212 535 220 531 225 533 230 530 243 541 261 539 275 530 279 523 282 527 298 507 312 524 322 522 329 538 334 541 334 545 328 547 324 556 321 559 318 557 309 560 306 558 296 576 294 576 289 575 285 584 271 579 269 581 261 580 257 584 247 582 245 584 244 581 241 590 238 593 230 593 227 600 223 598 212 594 204 610 199 608 188 610 185 606 178 606 169 614 162 611 158 610 148 602 137 599 132 602 120 599 116 600 103 591 100 591 91 586 88 587 82 580 77 582 71 575 68 577 [[Muspelheim]]
+poly 309 608 313 601 323 600 327 595 336 600 349 582 358 581 368 572 373 572 383 563 393 560 405 572 411 587 421 587 425 590 433 588 439 594 442 594 447 602 459 603 458 609 459 613 452 626 441 626 434 631 419 630 409 637 394 635 393 633 391 638 380 636 372 641 365 629 366 634 351 633 342 635 337 625 333 624 329 621 321 626 318 617 309 612 [[Muspelheim]]
+poly 477 629 495 622 491 617 494 611 518 605 522 608 529 603 531 605 537 601 546 607 551 604 555 606 572 595 577 594 584 586 599 600 607 595 615 597 623 591 626 595 637 603 651 600 655 604 659 600 667 609 671 607 672 611 684 614 691 614 694 619 712 624 705 643 698 643 698 649 677 652 672 662 654 658 645 658 629 672 597 670 571 673 531 676 528 671 522 670 509 665 509 663 506 658 495 661 486 652 479 636 478 634 [[Muspelheim]]
+rect 97 637 284 671 [[Muspelheim]]
+poly 3 857 12 851 18 858 30 855 35 849 52 849 57 843 70 850 77 848 82 838 88 837 88 829 94 822 104 821 107 815 116 813 126 815 129 824 142 831 140 849 129 850 125 843 127 835 118 831 106 833 97 836 98 852 101 854 105 852 113 851 116 854 113 861 97 861 89 864 93 875 103 875 110 884 118 880 125 885 137 883 154 899 155 908 153 918 158 924 153 932 139 934 134 919 133 913 139 908 139 904 134 903 134 898 131 898 131 899 117 892 108 894 91 889 93 885 83 878 82 872 76 872 60 882 58 888 51 894 44 905 47 906 46 911 44 913 40 931 32 944 24 950 12 974 8 972 8 955 9 953 5 948 10 943 19 929 21 915 31 908 27 908 28 901 32 897 43 872 48 868 51 865 47 861 31 867 17 877 13 874 4 875 [[Nidavellir]]
+poly 167 885 174 883 175 876 181 866 183 861 187 857 191 858 194 858 199 860 202 857 207 856 209 868 215 867 217 875 225 882 229 879 246 883 257 880 268 879 275 878 285 870 285 863 294 864 297 850 288 850 288 847 280 848 273 849 272 858 269 861 267 859 268 848 261 842 250 850 243 842 237 848 226 842 221 835 219 833 223 829 224 822 228 816 236 818 236 825 249 832 254 830 252 826 258 823 262 824 265 833 277 838 296 831 311 832 321 838 329 839 343 833 356 830 372 838 383 836 385 837 412 829 413 825 405 813 410 815 411 807 414 805 417 811 422 802 427 804 425 816 423 827 426 834 434 834 444 855 441 861 447 868 447 886 448 887 451 899 457 894 457 891 462 884 470 884 472 865 478 865 484 861 486 863 485 872 490 878 493 866 498 863 502 867 502 875 509 881 511 871 515 869 517 871 521 882 527 869 527 865 535 858 540 871 547 864 548 866 555 895 558 885 562 886 566 894 572 895 578 915 580 927 590 928 602 922 602 916 613 906 617 907 618 903 627 897 617 883 611 883 607 878 596 877 594 873 597 868 586 854 582 855 578 849 582 839 583 814 590 811 601 808 606 808 612 807 615 809 615 820 616 816 622 821 627 816 633 820 628 824 630 831 626 849 616 848 615 843 609 849 607 841 602 844 596 835 595 829 591 830 590 841 597 856 604 855 607 865 619 865 622 875 629 877 632 887 639 888 645 895 654 895 656 899 665 898 667 900 681 897 697 898 688 886 684 884 678 884 679 877 670 876 673 866 667 866 658 860 656 855 660 845 666 846 668 840 673 836 681 836 692 833 705 843 722 837 723 839 738 833 740 841 735 859 738 870 731 879 722 885 716 877 716 874 710 874 707 872 714 862 712 854 700 851 694 855 689 851 682 851 679 866 687 872 695 873 702 879 705 890 711 895 707 908 677 911 669 908 656 917 664 929 663 933 666 935 674 941 680 940 685 942 688 948 684 953 689 956 687 960 675 967 673 960 667 958 666 954 666 951 661 943 654 941 652 930 637 915 633 916 628 922 620 927 613 926 598 940 590 939 586 941 581 937 577 948 572 950 568 948 563 956 555 951 552 951 547 941 543 953 534 957 533 954 526 958 517 960 508 955 504 961 493 959 490 946 482 960 476 960 473 956 466 959 465 959 460 954 453 954 448 937 445 941 442 940 440 923 432 906 437 898 430 873 427 872 430 867 430 864 423 857 423 848 416 847 412 850 398 853 390 851 388 847 382 850 378 847 374 849 367 851 351 844 347 848 340 849 338 846 326 853 322 851 316 844 311 848 303 863 308 869 307 878 312 875 321 888 322 895 329 898 335 913 336 916 342 929 346 927 351 920 355 925 362 917 365 921 374 923 380 932 378 940 382 943 383 959 378 968 374 968 368 972 368 969 357 972 355 962 350 968 345 969 343 964 334 973 331 967 318 959 315 960 311 957 315 947 312 945 311 937 317 930 320 927 325 927 329 925 326 916 323 903 314 902 312 896 318 896 306 889 299 881 290 888 279 889 251 897 247 895 239 899 236 898 236 904 231 907 238 921 240 923 235 936 229 937 225 957 221 955 213 965 192 951 191 943 188 937 176 929 177 919 170 904 165 897 [[Nidavellir]]
+&lt;/imagemap&gt;
+&lt;/div&gt;
+&lt;noinclude&gt;[[Category:Imagemaps]]&lt;/noinclude&gt;</text>
+      <sha1>tsipmmg1kvkdtbyr9jrvw66dvqmevx1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ysgard (card)</title>
+    <ns>0</ns>
+    <id>269</id>
+    <revision>
+      <id>315</id>
+      <timestamp>2022-02-11T23:04:53Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "[[File:Ysgard card.jpg|thumb|right|300px]]  '''Ysgard''' was a Battlefield card from the [[Blood Wars]] game, depicting [[Ysgard (plane)|Ysgard]].  It was released as part of..."</comment>
+      <origin>315</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="801" sha1="02zefiu25ys5mqsd8snpr97syhef7fh" xml:space="preserve">[[File:Ysgard card.jpg|thumb|right|300px]]
+
+'''Ysgard''' was a Battlefield card from the [[Blood Wars]] game, depicting [[Ysgard (plane)|Ysgard]].
+
+It was released as part of the [[Blood Wars basic set|basic set]], and had a rarity of "common". The artwork was by [[Rob Lazzaretti]].
+
+{| border="1" cellpadding="1" cellspacing="1" style="width: 500px;"
+! scope="col"|Stats
+! scope="col"|Ysgard
+|-
+|Type
+|Battlefield
+|-
+|Alignment
+|Chaotic Neutral
+|-
+|Victory Points
+|2
+|-
+|Random Result
+|8
+|-
+|Description
+|Plane.
+|-
+|Notes
+|During his Opening Phase, an Acting Player who holds this Battlefield in his Victory Pool may send it to the Dead-Book in order to look at each other player's Command Hand and discard one card from each. 💀
+|}
+
+[[Category:Blood Wars cards]]
+[[Category:Blood Wars basic set]]</text>
+      <sha1>02zefiu25ys5mqsd8snpr97syhef7fh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ysgard (layer)</title>
+    <ns>0</ns>
+    <id>270</id>
+    <revision>
+      <id>2592</id>
+      <parentid>316</parentid>
+      <timestamp>2023-08-09T01:28:09Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>316</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="643" sha1="2jg6xd3t7zk4p4og4lb7i68xswrje4q" xml:space="preserve">[[File:Ysgard map.jpg|thumg|right|400px]]
+'''Ysgard''' was the first layer of the plane of [[Ysgard (plane)|Ysgard]].
+
+
+
+== Realms ==
+
+* [[Skeinheim]]
+* [[Steadfast]]
+* [[Alfheim]]
+** [[Frey's Hall]]
+** [[High Grove]]
+** [[Xeno's Tower]]
+* [[Asgard]]
+** [[Himinborg]]
+** [[Bifrost]]
+** [[Valhalla]]
+** [[Gladsheim]]
+* [[Gates of the Moon]]
+** [[Mahogany]]
+** [[Infinite Staircase]]
+* [[Kenyama]]
+* [[Jotunheim]]
+** [[Meerrauk]]
+** [[Okalnir]]
+** [[Utgard]]
+* [[Merratet]]
+** [[Bresiris]]
+** [[Eowr]]
+** [[Rummm]]
+* [[Netaph]]
+* [[Orchard of Immortality]]
+* [[Soul of Music]]
+* [[Vanaheim]]
+** [[Noatun]]
+** [[Sussrumnir]]
+
+
+[[Category:Layers]]</text>
+      <sha1>2jg6xd3t7zk4p4og4lb7i68xswrje4q</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ysgard (plane)</title>
+    <ns>0</ns>
+    <id>267</id>
+    <revision>
+      <id>396</id>
+      <parentid>395</parentid>
+      <timestamp>2022-10-27T14:54:50Z</timestamp>
+      <contributor>
+        <username>Morrow Minders</username>
+        <id>51928130</id>
+      </contributor>
+      <origin>396</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="432" sha1="6f6k8aceprud13p0lgtbddi0uq36mn4" xml:space="preserve">[[File:Ysgard.webp|thumb|400x400px]]
+'''Ysgard''' was one of the [[Outer Planes]], located between [[Arborea]] and [[Limbo]]. It was of chaotic neutral alignment.
+
+== Geography ==
+
+Ysgard was made up of rivers of floating chunks of earth. It had three layers.
+
+== Layers ==
+
+* [[Ysgard (layer)|Ysgard]]
+* [[Muspelheim (layer)|Muspelheim]]
+* [[Nidavellir (layer)|Nidavellir]]
+
+== See also ==
+
+* [[Ysgard (card)]]
+
+[[Category:Planes]]</text>
+      <sha1>6f6k8aceprud13p0lgtbddi0uq36mn4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Zactars</title>
+    <ns>0</ns>
+    <id>2737</id>
+    <revision>
+      <id>6728</id>
+      <parentid>6286</parentid>
+      <timestamp>2025-06-15T09:56:55Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>members</comment>
+      <origin>6728</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2675" sha1="63yt7vrrt8frncouiv9d25ywmgo5ba3" xml:space="preserve">{{Faction
+  | faction        = Zactars
+  | image1         = FactionZactars.png
+  | caption-image1 = 
+  | nickname       = Waiting Ones
+  | philosophy     = The multiverse exists for the benefit of the [[One True Being]].
+  | founded        = 
+  | factol         = Factol [[Zactar]]
+  | sigilhq        = [[Lower Ward]]: The [[Zactar Cathedral]]
+  | homefield      = The [[Abyss]]
+  | allies         = 
+  | enemies        = 
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Zactars''' are a [[faction]] similar to the [[Sign of One]]'s fringe belief in the [[One]]. However, they reverse cause and effect: the One imagines the multiverse into being, while in the Zactars' case, the multiverse exists for the sole purpose of the eventual arrival of the [[One True Being]].
+
+== History ==
+
+Initially known as the Waiting Ones, the faction rose to great prominence under Factol [[Zactar]], an obsessed charismatic man (perhaps a [[cambion]] marquis) born of a human woman and tanar'ri man. His influence was so great that he renamed the faction after himself.
+
+Part of the philosophy that he brought with him to the faction was that the One True Being would, of course, be a female counterpart to himself, because only he would be fit to mate with the One True Being. Therefore she would be born of a human man and a tanar'ri woman -- an [[alu-fiend]].
+
+Around [[27 YFHR]], Zactar vanished one day, and without a charismatic leader, the faction began to fall apart. Rival factions ridiculed their beliefs, and many Waiting Ones just grew tired of waiting. Surviving faction members retreated to the Cathedral as a haven against their rivals, but then they all vanished in a single night.
+
+The [[Fated]] eventually purchased the Cathedral, but under Sigil's laws, should the Zactars ever return, then the Fated's claim on the Cathedral is rendered null.
+
+In [[127 YFHR]], an alu-fiend named [[Umbra]] came to Sigil, with a birthmark on her palm in the shape of the symbol of the Zactars.
+
+== Philosophy ==
+
+Everything in the multiverse is merely filling space until the arrival of the [[One True Being]]. The faction headquarters, the [[Zactar Cathedral]], was built to welcome this being to their rightful place.
+
+== Role ==
+
+== Membership ==
+: ''See also:'' [[List of Zactars members]]
+
+; '''[[Factol]]'''
+
+''Last Factol'':
+* {{NPC|Zactar|monster|male|cambion|||Zactars|ce}}&lt;ref name="dungeon5525"&gt;{{b|Dungeon|Dungeon Magazine 55|page=25}}&lt;/ref&gt;
+
+== Background Information ==
+* The Zactar symbol is a styled Z.
+
+== References ==
+* 2nd Edition
+** {{b|Dungeon|Dungeon Magazine 55|page=18-47, 70}}
+
+&lt;references /&gt;
+
+{{FallenFactions}}
+
+[[Category:Faction]]
+[[Category:Zactars]]</text>
+      <sha1>63yt7vrrt8frncouiv9d25ywmgo5ba3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Zigguraxus</title>
+    <ns>0</ns>
+    <id>588</id>
+    <revision>
+      <id>956</id>
+      <parentid>955</parentid>
+      <timestamp>2023-01-05T02:35:11Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>955</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2791" sha1="nkcsadduam1rmiasnq36oggf68z9y3z" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Zigguraxus
+| othernames        = 
+| symbol            = Acheron.png
+| demonym           = 
+| natives           = [[Untheric pantheon]]
+| languages         = 
+| basicrefs         = &lt;ref name="PGF"/&gt;
+| type-GW           = Realm
+| shape-size-GW     = 
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = [[Avalas]]
+| refs-GW           = &lt;ref name="P&amp;P-102"&gt;{{Cite book/Powers &amp; Pantheons|102}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = Outer Plane
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = &lt;ref name="PGF"&gt;{{Cite book/Player's Guide to Faerûn|165}}&lt;/ref&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| usethe            = 
+| useon             = 
+}}'''Zigguraxus''' was the [[Outer Planes|home plane]] of the [[Untheric pantheon]],&lt;ref name="PGF"/&gt; manifesting as a vast mountain with its peak eternally covered in mist under a starry night.&lt;ref name="TDYK/Hardcover-p109-115"&gt;{{Cite book/The Devil You Know|266}}&lt;/ref&gt;
+
+==Great Wheel cosmology==
+From the viewpoint of the [[Great Wheel cosmology]], Zigguraxus was solely the [[divine realm]] of [[Gilgeam]].&lt;ref name="P&amp;P-102"/&gt;&lt;ref&gt;{{Cite book/On Hallowed Ground|172}}&lt;/ref&gt; It was located on [[Avalas]], the first layer of the [[Great Wheel cosmology#Outer Planes|Outer Plane]] of [[Acheron]].&lt;ref name="P&amp;P-102"/&gt;
+
+==History==
+When the pantheon was dissolved in [[1358 DR]] after the deaths of Gilgeam and [[Ramman]], the plane disappeared from [[Toril]]'s cosmology.&lt;ref name="PGF"/&gt;
+
+In [[1487 DR]], the returned [[god]] [[Enlil]] rebuilt the plane for some purpose.&lt;ref name="TDYK/Hardcover-p444"&gt;{{Cite book/The Devil You Know|444-446}}&lt;/ref&gt;
+
+==Appendix==
+===References===
+{{refs}}
+===Connections===
+{{Acheron}}
+[[Category:Planes of existence]]
+[[Category:World Tree planes]]
+[[Category:Outer Planes]]
+[[Category:Lost dominions]]
+[[Category:Locations in Acheron]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations]]
+[[Category:Locations in the Lower Planes]]
+[[Category:Divine realms]]</text>
+      <sha1>nkcsadduam1rmiasnq36oggf68z9y3z</sha1>
+    </revision>
+  </page>
+</mediawiki>

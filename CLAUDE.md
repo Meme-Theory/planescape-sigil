@@ -74,6 +74,12 @@ py -3.13 smoke_server.py                   # live stdio smoke (loads model, rend
 # Sourcebook pipeline — from repo root (see pipeline/README.md)
 python pipeline/extract/psx.py status      # corpus triage table
 python pipeline/extract/psx.py pilot --slug <slug>   # full single-book run
+
+# Reconstitution — fresh machine, same books, verified end state (/uncage skill)
+py -3.13 pipeline/uncage.py status         # sources/stages triage vs pinned manifest
+py -3.13 pipeline/uncage.py run            # extract → pour → caches (idempotent)
+py -3.13 pipeline/uncage.py verify         # live stores vs pipeline/uncage-manifest.json
+py -3.13 pipeline/uncage.py pin            # CURATOR: re-pin after every pour/adjudication
 ```
 
 **MCP registration (`.mcp.json`):** servers MUST use the py launcher by full path
@@ -432,6 +438,13 @@ Design `pipeline/modron/MODRON.md` · impl `pipeline/modron/modron/` · ledger
 - Artifacts: `build/encounters/<slug>/encounter.md` + `runs/<session_id>.md`.
   `READY` requires the R7 gate (spec passes `plan_only`, every rollables flag
   adjudicated, checklist green). Lineage: cross-validation.md §4 candidate #5.
+- `/uncage` — reconstitute + verify the rig on a fresh machine (hand-off to
+  another DM who owns the books). Drives `pipeline/uncage.py` against
+  `pipeline/uncage-manifest.json` (pinned end-state fingerprints: id sets,
+  edge digests, law_version, source shas). The wiki witness corpus ships
+  in-repo (CC-BY-SA) so gate confidence reconstitutes deterministically.
+  **Curator duty: `pin` + commit the manifest after every pour** — a manifest
+  that lags its stores is an oath sworn to a dead state.
 
 ## Windows gotchas (these cost redos — check before shelling out)
 

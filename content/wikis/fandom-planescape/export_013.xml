@@ -1,0 +1,2802 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Planescape Wiki</sitename>
+    <dbname>planescape</dbname>
+    <base>https://planescape.fandom.com/wiki/Planescape_Wiki</base>
+    <generator>MediaWiki 1.43.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Planescape Wiki</namespace>
+      <namespace key="5" case="first-letter">Planescape Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>House of the Triad</title>
+    <ns>0</ns>
+    <id>1497</id>
+    <revision>
+      <id>2218</id>
+      <parentid>2217</parentid>
+      <timestamp>2023-08-09T01:03:31Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2217</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5131" sha1="st201fg6j544zbctmatupioaznrg2ol" xml:space="preserve">{{Cleanup||11:24, 3 July 2023 (UTC)|Needs past tense, references, rewriting away from source}}
+{{Nofootnotes}}
+{{Otheruses4|the [[World Tree]] plane|the temple in [[Bryn Shander]]|House of the Triad (temple)}}
+{{Plane
+| image             = House_of_the_triad.jpg
+| caption           = The House of the Triad in all its glory.
+| name              = The House of the Triad 
+| othernames        = 
+| natives           = [[Angel]]s, [[Celestial archon|archons]], [[formian]]s
+| languages         = 
+| basicrefs         = &lt;ref name="PGtF-pp159-160" /&gt;
+| type-GW           = 
+| shape-size-GW     = 
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = 
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = [[Celestial Plane]]
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = Alterable
+| element-energy-WT = 
+| alignment-WT      = Strongly law-aligned&lt;br /&gt;Mildly good-aligned
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = &lt;ref name="PGtF-p141"&gt;{{Cite book/Player's Guide to Faerûn|141}}&lt;/ref&gt;&lt;ref name="PGtF-pp159-160"&gt;{{Cite book/Player's Guide to Faerûn|159-160}}&lt;/ref&gt;
+| inhabitants       = 
+| deities           = 
+| locations         = 
+| organizations     = 
+| settlements       = 
+| usethe            = 
+| useon             = 
+}}
+The '''House of the Triad''' exemplifies the rule of law upholding the principles of good. It is a resplendent plane of majestic marble halls, gleaming palaces, and heavenly radiance. 
+
+==Inhabitants==
+The enormous central mountain, [[Celestia]], is the home of the [[celestial archon|archon]]s, ruled by [[Zaphkiel]], and is something of a divine realm itself, though no deity lives there. Many of them live on the other surrounding mountains, serving [[Helm]], [[Ilmater]], [[Torm]], or [[Tyr]]. [[Angel]]s serve the [[Triad]] as well, and take on the bulk of the missions to other planes. Also, [[formian]]s live here and serve both Helm and Siamorphe on occasion, but generally they live ordered lives without interruption from the divine.
+
+==Petitioners==
+Most of the petitioners here are [[lantern archon]]s, who have no planar commitment and can leave the House at will. Those who follow Helm or Siamorphe, or otherwise lean more toward neutrality than good, keep the forms they wore in life. They gain the benefits of immunity to electrical attacks, cannot be petrified, and are able to withstand phyical attacks better than they did in life.
+
+==Deities==
+* '''[[Helm]]''' - The Vigilant One, resides on [[Everwatch]], which is a floating watchtower of the plane. Whenever a visitor comes to this plane, Everwatch is there with its guardian. The guardian, covered in a suit of ''mithral'' full plate, detects the alignment and purposes of visitors and can call heavenly defenders in the case of invasion.
+
+* '''[[Ilmater]]''' - The Crying god, rules on the mountain known as [[Martyrdom]], and has a great open-air temple where the souls of the petitioners are rewarded for their endurance and perseverance in life. No one can feel pain or fatigue here. Ilmater's realm is known as a place of comfort and rest.
+
+* '''[[Torm]]''' - The True Deity's realm is the mountain called [[Trueheart]]. Torm's palace is in the heart of the realm and resembles a huge military fortress, with walls of [[mithral]], battlements of [[diamond]], and gates of [[adamantine]]. It is guarded by legions of [[angel]]s and [[Celestial archon|archons]] serving the cause of good and law. 
+
+* '''[[Tyr]]''' - The Just god rules the third mountain which is crowned with [[The Court]]. This is where the Triad frequently consult. Whenever there is need for a trial amongst the gods, Tyr serves as judge. No one can lie or bluff here. 
+
+* '''[[Siamorphe]]''' - Between the Court and Celestia lies a beautiful valley. This is the realms of Siamorphe, who lives in an Alabaster Palace, surrounded by perfect gardens and fountains.
+
+* '''[[Bahamut]]''' - Co-ruled Mercuria, the second heaven of Celestia, during his time as a [[celestial paragon]]. He returned to Celestia after it had had been cast off onto the [[Astral Sea]] when he replaced Tyr as god of justice.
+
+==Access to the House of the Triad==
+There are no known ''portals'' to or from the House of the Triad, however, it is connected to other [[celestial plane]]s through branches of the [[World Tree]].
+
+==Appendix==
+===References===
+{{Refs}}
+
+===Sources===
+* {{Cite book/Player's Guide to Faerûn|159-160}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:World Tree planes]]
+[[Category:Celestial planes]]
+[[Category:Planes of existence]]
+[[Category:Articles lacking in-text citations]]
+[[Category:Locations on the World Tree]]</text>
+      <sha1>st201fg6j544zbctmatupioaznrg2ol</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Hwhyn</title>
+    <ns>0</ns>
+    <id>2435</id>
+    <revision>
+      <id>4213</id>
+      <parentid>4206</parentid>
+      <timestamp>2023-10-10T05:39:19Z</timestamp>
+      <contributor>
+        <username>BadCatMan</username>
+        <id>3030475</id>
+      </contributor>
+      <origin>4213</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2884" sha1="o56otmqmplwa7b3ub8da893hsa24e3k" xml:space="preserve">{{Person
+| image          = Hwhyn.jpg
+| caption        = Lord Hywyn.
+| name           = Hwhyn
+| alt_spelling   = 
+| titles         = Lord
+| aliases        = 
+| nicknames      = 
+| true name      = 
+| home           = [[Amoria]], [[Elysium]]
+| formerhomes    = 
+| sex            = 
+| gender         = 
+| race           = [[Equinal]]
+| ethnicity      = 
+| occupation     = Ruler
+| age            = 
+| patron deity   = 
+| languages      = 
+| basicrefs      = &lt;ref name="BW" /&gt;&lt;ref name="PoC-LB-p51" /&gt;
+| reckoning      = 
+| dob            = 
+| dobnotes       = 
+| death          = 
+| deathnotes     = 
+| turned         = 
+| turnednotes    = 
+| destroyed      = 
+| destroyednotes = 
+| daterefs       = 
+| parents        = 
+| spouses        = 
+| siblings       = 
+| children       = 
+| familyrefs     = 
+| dynasty        = 
+| start of reign = 
+| end of reign   = 
+| predecessor    = 
+| successor      = [[Vhara]]&lt;ref name="BoED-p144" /&gt;
+| successionrefs = 
+| alignment1e    = 
+| class1e        = 
+| refs1e         = 
+| alignment2e    = 
+| class2e        = 
+| refs2e         = 
+| alignment3e    = 
+| challenge3e    = 
+| class3e        = 
+| refs3e         = 
+| alignment35    = 
+| challenge35    = 
+| class35        = 
+| refs35         = 
+| alignment4e    = 
+| class4e        = 
+| refs4e         = 
+| alignment5e    = 
+| challenge5e    = 
+| class5e        = 
+| refs5e         = 
+}}
+Lord '''Hwhyn''' was an [[equinal]] of [[Amoria]] in the [[Blessed Fields of Elysium]] and a leader of their kind. As the strongest and wisest of the equinals, he represented them among the [[Talisid and the Five Companions|Five Companions]] that collectively ruled the guardinals.
+&lt;ref name="BW"&gt;{{Cite card/Blood Wars|Lord Hwhyn}}&lt;/ref&gt;&lt;ref name="PoC-LB-p51"&gt;{{Cite book/Planes of Conflict/Liber Benevolentiae|51-52}}&lt;/ref&gt;&lt;ref name="MCPA2-p46"&gt;{{Cite book/Monstrous Compendium Planescape Appendix II|46}}&lt;/ref&gt;&lt;ref name="BoED-p144"&gt;{{Cite book/Book of Exalted Deeds|144}}&lt;/ref&gt; He was succeeded by [[Vhara]], the Duchess of the Fields.&lt;ref name="BoED-p144" /&gt;
+
+==Appendix==
+===Appearances===
+{{Appearances
+| adventures          = 
+| adventure refs      = 
+| novels              = 
+| novel refs          = 
+| films               = 
+| film refs           = 
+| comics              = 
+| comic refs          = 
+| gamebooks           = 
+| gamebook refs       = 
+| video games         = 
+| video game refs     = 
+| board games         = 
+| board game refs     = 
+| card games          = ''[[Blood Wars]]''
+| card game refs      = 
+| organized play      = 
+| organized play refs = 
+}}
+
+===References===
+{{Refs}}
+[[Category:Equinals]]
+[[Category:Males]]
+[[Category:Lords and ladies]]
+[[Category:Rulers]]
+[[Category:Inhabitants of Amoria]]
+[[Category:Inhabitants of Elysium]]
+[[Category:Inhabitants of the Outer Planes]]
+[[Category:Inhabitants of the Upper Planes]]
+[[Category:Inhabitants of neutral good alignment]]</text>
+      <sha1>o56otmqmplwa7b3ub8da893hsa24e3k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>In the Abyss</title>
+    <ns>0</ns>
+    <id>527</id>
+    <revision>
+      <id>7052</id>
+      <parentid>7013</parentid>
+      <timestamp>2025-08-27T07:37:44Z</timestamp>
+      <contributor>
+        <username>UnseenServantBot</username>
+        <id>11660122</id>
+      </contributor>
+      <minor/>
+      <comment>dmsguild links</comment>
+      <origin>7052</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3306" sha1="4c94y7zf8zyq8zvgh3yqmtpt2jcods1" xml:space="preserve">{{Book
+| image        = In-The-Abyss-cover.jpg
+| caption      = 
+| code         = TSR2605
+| title        = In the Abyss
+| author       = [[Skip Williams]]
+| editor       = [[David Wise]]
+| cover_artist = [[Robh Ruppel]]
+| inter_artist = [[Scott Burdick]], [[Ned Dameron]], [[Dana Knutson]], [[Alan Pollack]]
+| cartography  = [[Rob Lazzaretti]]
+| typography   = [[Angelika Lokotz]]
+| publisher    = [[TSR, Inc.]]
+| released     = November 1994
+| reprinted    = 
+| type         = Adventure
+| binding      = 
+| pages        = 32
+| languages    = 
+| realm year   = 
+| game_edition = 2
+| isbn10       = 1560769084
+| isbn13       = 978-1560769088
+| series       = 
+| preceded_by  = [[Well of Worlds]]
+| followed_by  = [[The Deva Spark]]
+| source       = 
+| Roll20number = 17270
+}}
+'''''In the Abyss''''' is a Planescape&lt;sup&gt;®&lt;/sup&gt; AD&amp;D 2nd-edition adventure module. 
+
+{{Quote|''Looking for a little extra jink and maybe some excitement? It seems the Doomguard lost track of their coveted ship of chaos. It's flying about the Abyss, driving the local tanar'ri even more barmy than they already are. Several factions want to get their hands on the Doomguard's stake, so there's bound to be a few job offers for bloods looking for a little action.
+Every sod's got a tale to tell about the Abyss - it's the sinkhole of the multiverse, after all, peopled with every kind of scum a body can imagine and a few he can't. Never been there? Well, there's no time like the present.''
+
+''In the Abyss is a PLANESCAPE adventure for a party of four to six characters who are of levels 8 to 10. A simple errand to salvage the lost ship of chaos allows the player characters their first opportunity to explore the most notorious plane of them all. Of course, complications are as inevitable as the tanar'ri!''}}
+
+==Contents==
+* Introduction
+* Chapter 1: The Announcement
+* Chapter 2: In the Abyss
+* Chapter 3: The Ship of Chaos
+
+==Index==
+;Characters:
+:[[Tashad]]
+
+;Creatures:
+:[[tanar'ri]]
+
+;Locations:
+:[[Abyss]]
+
+;Organizations:
+:[[Doomguard]]
+
+==Appendix==
+=== Gallery ===
+&lt;gallery&gt;
+Dragon211Ad-IntheAbyss.jpg|"Paradise it ain't" ad for In The Abyss, from {{b|Dragon|Dragon Magazine 211}}
+&lt;/gallery&gt;
+
+===Credits===
+* '''Designer:''' [[Skip Williams]]
+* '''Editor:''' [[David Wise]]
+* '''Cover Artist:''' [[Robh Ruppel]]
+* '''Color Plates:''' [[Scott Burdick]], [[Ned Dameron]], [[Dana Knutson]], [[Alan Pollack]]
+* '''Cartographer:''' [[Rob Lazzaretti]]
+* '''Typography:''' [[Angelika Lokotz]]
+* '''Border Artist:''' [[Robert Repp]]
+* '''Conceptual Artist:''' [[Dana Knutson]]
+* '''Art Coordinator:''' [[Peggy Cooper]]
+* '''Graphic Design:''' [[Dawn Murin]], [[Dee Barnett]]
+* '''Graphics Coordinator:''' [[Sarah Feggestad]]
+* '''Electronic Prepress Coordination:''' [[Jefferson M. Shelley]]
+* '''Playtesters:''' [[Eric Boily]], [[Steve Greg]], [[Christopher Fredericks]], [[Dean Chamberlain]], [[Justin Hansen]], [[Steven Wilde]]
+
+=== Background Information ===
+* The cover title is made using the [[Fonts|Exocet Heavy]] font.
+
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild}}
+* {{DriveThruRPG}}
+
+===Connections===
+{{Planescape sourcebooks}}
+
+[[Category:Adventures]]
+[[Category:Sourcebooks]]
+[[Category:2nd edition sourcebooks]]
+[[Category:Works by Skip Williams]]
+[[Category:Published in 1994]]</text>
+      <sha1>4c94y7zf8zyq8zvgh3yqmtpt2jcods1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>In the Cage: A Guide to Sigil</title>
+    <ns>0</ns>
+    <id>521</id>
+    <revision>
+      <id>7046</id>
+      <parentid>7014</parentid>
+      <timestamp>2025-08-27T07:35:53Z</timestamp>
+      <contributor>
+        <username>UnseenServantBot</username>
+        <id>11660122</id>
+      </contributor>
+      <minor/>
+      <comment>dmsguild links</comment>
+      <origin>7046</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3853" sha1="3n4wr16zk5jndcni49jrmvtjkkpj6yk" xml:space="preserve">{{Book
+| image        = In-The-Cage-cover.jpg
+| caption      = 
+| code         = TSR2609
+| title        = In the Cage: A Guide to Sigil
+| author       = [[Wolfgang Baur]], [[Rick Swan]]
+| editor       = [[Karen S. Boomgarden]]
+| cover_artist = [[Dana Knutson]]
+| inter_artist = [[Ned Dameron]]
+| cartography  = [[Robert Lazzaretti]]
+| typography   = [[Angelika Lokotz]]
+| publisher    = [[TSR, Inc.]]
+| released     = June [[1995]]
+| reprinted    = 
+| type         = Accessory
+| binding      = 
+| pages        = 128
+| languages    = 
+| realm year   = 
+| game_edition = 2
+| isbn10       = 078690111X
+| isbn13       = 978-0786901111
+| series       = 
+| preceded_by  = [[A Player's Primer to the Outlands]]
+| followed_by  = [[The Factol's Manifesto]]
+| source       = [https://www.amazon.com/Cage-Guide-Sigil-AD-Planescape/dp/078690111X Amazon.com product listing]
+| Roll20number = 17274
+}}
+'''''In the Cage: A Guide to Sigil''''' is a Planescape&lt;sup&gt;®&lt;/sup&gt; AD&amp;D 2nd-edition accessory.
+
+{{Quote|''Welcome to the Cage! That's Sigil, City of Doors - realm of the Lady of Pain, gateway to all planes and possibilities. It's the most coveted burg in the multiverse, and this tome is the key to unlocking its secrets.''
+
+''Now DMs and cutters alike can discover:''
+* ''Little known facts about Sigil's sites and personalities''
+* ''A guide to major portals''
+* ''Maps of famous locales, fiendish and divine''
+* ''Evocative illustrations by DiTerlizzi, Dameron, Ruppel, and Berry''
+* ''An all-new, full-color, poster-sized map of the city, pinpointing place heretofore unseen''
+
+''Which pubs cater to the clueless, and which're quick to put a sod in the dead-book? Where do folks gather to catch an "Execution by Wyrm"? For whom do the Bells of Baphomet toll? Exposing both the low life and glittering highlights, In the Cage is an essential guide for any blood who plans on exploring Sigil's streets - especially any blood who plans to leave under his own power. ''}}
+
+==Contents==
+* A Tout's Guide to Sigil
+* The Lady's Ward
+* The Lower Ward
+* Clerk's Ward
+* Guildhall &amp; Market Wards
+* The Hive
+
+==Appendix==
+=== Gallery ===
+&lt;gallery&gt;
+Dragon218AdIntheCage.jpg|"City of Broken Dreams." In the Cage ad from {{b|Dragon|Dragon Magazine 218}}.
+&lt;/gallery&gt;
+
+===Credits===
+* '''Designers:''' [[Wolfgang Baur]], [[Rick Swan]]
+* '''Editor:''' [[Karen S. Boomgarden]]
+* '''Cover Artist:''' [[Dana Knutson]]
+* '''Interior Artist:''' [[Ned Dameron]]
+* '''Color Plates:''' [[Ned Dameron]], [[Tony DiTerlizzi]], [[Dana Knutson]], [[Robh Ruppel]]
+* '''Cartographer:''' [[Rob Lazzaretti]]
+* '''Typography &amp; Production:''' [[Angelika Lokotz]]
+* '''Graphic Design:''' [[Dawn Murin]], [[Dee Barnett]]
+* '''Art Coodination:''' [[Peggy Cooper]]
+* '''Project Manager:''' [[Andria Hayday]]
+* '''Electronic Prepress Coordinator:''' [[Tim Coumbe]]
+* '''Documents:''' [[Dawn Murin]], [[Sarah Feggestad]]
+* '''Special Thanks:''' [[Rich Baker]], [[Colin McComb]], [[Bill Slavicsek]], [[Ray Vallese]]
+
+=== Background Information ===
+* Page 23 describes the destruction of the [[Expansionists]] and the Mazing of factol [[Vartus Timlin]] as "recent," although other material (including later in this very book) places it a thousand years ago. The page also has a warrant from the [[Lady of Pain]] for the arrest of Timlin which mentions current Harmonium and Mercykiller factols [[Sarin]] and [[Mallin]], although there was never any need for an arrest warrant given she sent Timlin to the Mazes.
+
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild}}
+* {{DriveThruRPG}}
+*[https://www.amazon.com/Cage-Guide-Sigil-AD-Planescape/dp/078690111X Amazon product page]
+
+===Connections===
+{{Planescape sourcebooks}}
+[[Category:Sourcebooks]]
+[[Category:2nd edition sourcebooks]]
+[[Category:Works by Wolfgang Baur]]
+[[Category:Works by Rick Swan]]
+[[Category:Published in 1995]]</text>
+      <sha1>3n4wr16zk5jndcni49jrmvtjkkpj6yk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Incanterium</title>
+    <ns>0</ns>
+    <id>2662</id>
+    <revision>
+      <id>7308</id>
+      <parentid>6382</parentid>
+      <timestamp>2026-05-17T07:01:58Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>template</comment>
+      <origin>7308</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2124" sha1="41p4ah7xt877ag9cl517hunydxbr8o2" xml:space="preserve">{{Faction
+  | faction        = The Incanterium
+  | image1         = 
+  | caption-image1 = 
+  | nickname       = Incantifiers, the Magicians, the Wanters
+  | philosophy     = Who Consume Magic and Its Secrets
+  | founded        = 
+  | factol         = Unknown
+  | sigilhq        = [[Clerk's Ward]]: [[Tower Sorcerous]]
+  | homefield      = 
+  | allies         = 
+  | enemies        = 
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Incanterium''' are a [[faction]], turned [[sect]], turned faction once again. They believe that wizardly magic is the secret to the multiverse.
+
+== History ==
+
+The Incanterium collected every magical item and scrap of magical lore in the Tower Sorcerous, which loomed over the Clerk's Ward. Factions would trade magic for help or knowledge. There came a time when the factions gradually came to be dancing on the Magicians' leash.
+
+Then the Tower Sorcerous vanished. Rumors flew that the [[Lady of Pain]] sent the whole structure to the [[Maze]]s. Centuries passed, and the Incanterium were forgotten.
+
+But some were still left over, wandering the planes, calling themselves '''incantifiers''', pursuing their goal of learning all the magic in the multiverse.
+
+... and then, one day, the Tower Sorcerous reappeared.
+
+== Philosophy ==
+
+Incantifiers believed magic was the ultimate power of the planes: archmages would redefine the laws of their worlds, even gods feared it. You could control the entire multiverse, if only you learned enough magic. It has, after all, been done before.
+
+== Role ==
+
+== Membership ==
+: ''See also'': [[List of Incanterium members]]
+
+== Background Information ==
+
+== References ==
+* 2nd Edition
+** {{b|Planescape|Planescape Monstrous Compendium Appendix II|page=52-53}}
+* 3rd Edition
+** {{b|Dragon|Dragon Magazine 339|page=37-39, Dead Factions}}
+* 5th Edition
+** {{b|Planescape|Planescape: Adventures in the Multiverse|page=28, Sigil and the Outlands}}
+
+
+{{scroll|&lt;references /&gt;}}
+
+{{Sects}}
+{{Factions}}
+{{FallenFactions}}
+
+[[Category:Minor Faction]]
+[[Category:Sect]]
+[[Category:Faction]]
+[[Category:Monster|Incantifier (Sect)]]
+[[Category:Incanterium]]</text>
+      <sha1>41p4ah7xt877ag9cl517hunydxbr8o2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Industrial Stitches</title>
+    <ns>0</ns>
+    <id>2942</id>
+    <revision>
+      <id>5423</id>
+      <timestamp>2024-06-08T22:21:37Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5423</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1169" sha1="08s4hhomz92yx8w0o6ncwhcxejxm5eo" xml:space="preserve">[[File:DitchMap.png|right|300px|Ditch map]]
+
+The '''Industrial Stitches''' are an ore preparation facility and trolley-track switchyard running between the [[Great Foundry]] and the [[Ditch]]. Workers import ore from the cargo brought in from the Ditch, and sort them via various trolley carts intended for various Foundry destinations.
+
+The various criss-crossing tracks resemble a series of catgut-stitched wounds when viewed [[Directions in Sigil|chordwise]], from Sigil's opposite side, giving the location its name.
+
+Given all the filth and industrial waste surrounding the area (and transported through it), the Industrial Stitches are a major contributor to the pollution levels of the Ditch. The practice of dumping waste has brought the ire of the [[Beautification League]], whose protests have required the [[Believers of the Source]] and [[Harmonium]] to post guards along the fences.
+
+The League has sent petitions to the [[Hall of Records]] and filed charges at the [[City Court]], but most simply dismiss them as a lunatic fringe.
+
+
+== References ==
+; 2nd Edition
+* {{b|Polyhedron|Polyhedron Magazine 137|page=14}}
+
+&lt;references /&gt;
+
+[[Category:Lower Ward]]</text>
+      <sha1>08s4hhomz92yx8w0o6ncwhcxejxm5eo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Infinite Staircase</title>
+    <ns>0</ns>
+    <id>1307</id>
+    <revision>
+      <id>2616</id>
+      <parentid>1706</parentid>
+      <timestamp>2023-08-09T01:51:42Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1706</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7410" sha1="bk7pqxbyk5j53zbulp9ahvtbuv7g22r" xml:space="preserve">{{Location
+| image              = Celestial Stairway.jpg
+| caption            = The Celestial Stairway rising from Mount Waterdeep, observed by Luna.
+| name               = Infinite Staircase
+| alt spelling       = 
+| aliases            = Celestial Staircase&lt;br /&gt;Celestial Stairway
+| type               = Planar pathway
+| region             = 
+| size               = 
+| elevation          = 
+| depth              = 
+| capital            = 
+| largest city       = 
+| georefs            = &lt;ref name="FD&amp;D-p17"&gt;{{Cite book/For Duty &amp; Deity|17}}&lt;/ref&gt;&lt;ref name="DMG5e-p58-59"&gt;{{Cite book/Dungeon Master's Guide 5th edition|58-59}}&lt;/ref&gt;
+| demonym            = 
+| population         = 
+| races              = 
+| languages          = 
+| religion           = 
+| alignment          = 
+| socrefs            = 
+| imports            = 
+| exports            = 
+| currency           = 
+| comrefs            = 
+| government         = 
+| rulertype          = 
+| ruler              = 
+| head of state      = 
+| leader1            = 
+| head of government = 
+| leader2            = 
+| executive          = 
+| legislature        = 
+| judiciary          = 
+| allegiances        = 
+| govrefs            = 
+| established        = 
+| start event        = 
+| start date         = 
+| event1             = 
+| date1              = 
+| event2             = 
+| date2              = 
+| event3             = 
+| date3              = 
+| event4             = 
+| date4              = 
+| disestablished     = 
+| end event          = 
+| end date           = 
+| predecessor        = 
+| successor          = 
+| population1        = 
+| popyear1           = 
+| population2        = 
+| popyear2           = 
+| population3        = 
+| popyear3           = 
+| population4        = 
+| popyear4           = 
+| population5        = 
+| popyear5           = 
+| poptable           = 
+| ruler1             = 
+| ruleryear1         = 
+| ruler2             = 
+| ruleryear2         = 
+| ruler3             = 
+| ruleryear3         = 
+| ruler4             = 
+| ruleryear4         = 
+| ruler5             = 
+| ruleryear5         = 
+| rulertable         = 
+| histrefs           = 
+| usethe             = yes
+| useon              = yes
+| inhabitants        = yes
+| locations          = yes
+| organizations      = 
+| settlements        = 
+| roads              = 
+| mountains          = 
+| bodies of water    = 
+| forests            = 
+| events             = 
+| food and drink     = 
+| items              = 
+}}
+The '''Infinite Staircase''', sometimes known to the inhabitants of [[Toril]] as the '''Celestial Staircase'''&lt;ref name="FD&amp;D-p17" /&gt; or the '''Celestial Stairway''', was a network of pathways linking the [[Prime Material Plane|Realms]] with the [[Plane#The_Outer_Planes|plane]]s.&lt;ref name="FD&amp;D-p17" /&gt;&lt;ref name="shadowdale"&gt;{{Cite book/Shadowdale/MMP (1989)|7-8}}&lt;/ref&gt;&lt;ref name="ADDc-22"&gt;{{Cite comic/Total Eclipse|15-16}}&lt;/ref&gt;
+
+{{quote
+|The truth is only visible under moonlight.
+|[[Selenia]]&lt;ref name="PC-TL2e-p48"&gt;{{Cite book/Planes of Chaos/The Travelogue|48}}&lt;/ref&gt;
+}}
+
+==Cosmography==
+From various locations, a stairway led to a nexus, which led to the homes of all the [[god]]s. The network was used by deities to traverse from the Realms to their home planes.&lt;ref name="shadowdale" /&gt;&lt;ref name="ADDc-22" /&gt;
+
+The root or base of the Infinite Staircase was located in [[Selûne]]'s palace of [[Argentil]] in the [[Gates of the Moon]].&lt;ref name="FD&amp;D-p17" /&gt; It only appeared if the moon was full and when the fog from the waters surrounding the palace filled the hall.&lt;ref name="PGF3e-p154-155"&gt;{{Cite book/Player's Guide to Faerûn|154-155}}&lt;/ref&gt; Multiple roughly carved landings of the stairway were also found on each of the three layers of [[Ysgard]].&lt;ref name="MotP3e-p91"&gt;{{Cite book/Manual of the Planes 3rd edition|91}}&lt;/ref&gt;
+
+===Known Entrances===
+Some of the known entrances to the Celestial Stairway could be found:
+* Near the ruins of [[Castle Kilgrave]] in [[Cormyr]]&lt;ref name="shadowdale" /&gt;
+* Near the Temple of [[Lathander]] in [[Shadowdale]]&lt;ref name="S-234"&gt;{{Cite book/Shadowdale/MMP (1989)|234}}&lt;/ref&gt;
+* Near a griffon eyrie on [[Mount Waterdeep]].&lt;ref name="ADDc-22" /&gt;&lt;ref name="W-328"&gt;{{Cite book/Waterdeep|328}}&lt;/ref&gt;
+
+==Description==
+{{fq
+| text   = Oh, the [[River Styx]] is a putrid stream,&lt;br /&gt;
+[[Oceanus]] is too good for me.&lt;br /&gt;
+[[Mount Olympus|Olympus]] takes too long to climb,&lt;br /&gt;
+[[Yggdrasil]] is just a tree.&lt;br /&gt;
+But the Infinite Staircase takes you there.&lt;br /&gt;
+The Grand Old Stair goes ev'rywhere.&lt;br /&gt;
+A few short steps will bring us home… &lt;br&gt;&amp;nbsp;&amp;nbsp;and fulfill our ev'ry dream.&lt;br /&gt;
+| source = Unknown planar poet&lt;ref name="FDD2e-p15"&gt;{{Template:Cite book/For Duty &amp; Deity|15}}&lt;/ref&gt;
+| float  = 
+| width  = 385px
+}}
+The individual stairways, invisible to ordinary people, could only be seen properly by gods or by very powerful mortals potent in [[magic]].&lt;ref name="shadowdale" /&gt;&lt;ref name="ADDc-22" /&gt;&lt;ref name="W-326"&gt;{{Cite book/Waterdeep|326}}&lt;/ref&gt; When made visible to others, they appeared to constantly change shape, such as a long wooden spiral staircase, a marble ladder, a pathway of [[amber]] and [[pearl]], or stranger forms.&lt;ref name="shadowdale" /&gt;&lt;ref name="W-326" /&gt; The goddess Selûne showed it to her friends as a glowing silver ribbon rising into the sky.&lt;ref name="ADDc-22" /&gt;
+
+==History==
+During the [[Time of Troubles]] of the [[1358 DR|Year of Shadows, 1358 DR]], the god [[Helm]] guarded the Stairway and prevented [[Waukeen]] and [[Lliira]] from using it to return to the [[Outlands]] from Shadowdale. Helm, obviously, was not tempted by Waukeen's bribes.&lt;ref name="FD&amp;D-p3"&gt;{{Cite book/For Duty &amp; Deity|3}}&lt;/ref&gt; Later that year, the Celestial Stairway appeared on Mount Waterdeep, seemingly in readiness for someone to pass between the planes and the realms, or because someone already had. [[Luna]], [[avatar]] of the goddess Selûne, was shocked to see the Stairway and made it visible to her friends [[Vajra Valmeyjar]], [[Kyriani Agrivar]], [[Onyx the Invincible]], and [[Timoth Eyesbright]]. Luna thought it signified Lord [[Ao]] was planning something.&lt;ref name="ADDc-22" /&gt;
+
+==Rumors &amp; Legends==
+The connection between the Infinite Staircase and the Gates of the Moon was suspected to be a consequence of the presence of [[Shaundakul]] in the plane.&lt;ref name="PGF3e-p154-155" /&gt;
+
+==Notable Locations==
+[[File:Nowhere_inn-2e.jpg|thumb|300px|''The Nowhere Inn was a popular waypoint for travelers along the Infinite Staircase.'']]
+* The [[Nowhere Inn]], a community of tents and other structures located on one of the stair's wider landings.&lt;ref name="FDD2e-p20-22"&gt;{{Cite book/For Duty &amp; Deity|20-22}}&lt;/ref&gt;
+
+==Inhabitants==
+[[Lillend]]i lived on and guarded the Celestial Stairway.&lt;ref name="FD&amp;D-p17" /&gt;
+
+==Appendix==
+{{Incomplete}}
+===Appearances===
+:;Adventures
+::''[[Tales from the Infinite Staircase]]'' • ''[[For Duty &amp; Deity]]''
+:;Novels
+::[[Shadowdale (novel)|''Shadowdale'']] • [[Waterdeep (novel)|''Waterdeep'']]
+:;Comics
+::''[[Total Eclipse]]''
+
+===Further Reading===
+* {{Cite book/Tales from the Infinite Staircase}}
+
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:Magical locations]]
+[[Category:Locations]]
+[[Category:Planar pathways]]
+[[Category:Locations in the Gates of the Moon]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations in the World Tree planes]]
+[[Category:Locations in Argentil]]</text>
+      <sha1>bk7pqxbyk5j53zbulp9ahvtbuv7g22r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Inner Planes</title>
+    <ns>0</ns>
+    <id>882</id>
+    <revision>
+      <id>7315</id>
+      <parentid>1273</parentid>
+      <timestamp>2026-06-02T12:00:57Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <minor/>
+      <origin>7315</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7670" sha1="20bcudbp5cbfonww62u261i6sozcdgb" xml:space="preserve">[[File:Inner planes-5e.jpg|thumb|300px|''A representation of the elemental and para-elemental planes in relation to the [[Prime Material plane]] and its echoes.'']]
+The '''Inner Planes''' were a subset of the known [[planes of existence]] in the [[Great Wheel cosmology]] model&lt;ref name="MotP1e-5"&gt;{{Cite book/Manual of the Planes 1st edition|5}}&lt;/ref&gt; and the [[World Tree cosmology]] model.&lt;ref name="PGtF-139"&gt;{{Cite book/Player's Guide to Faerûn|139}}&lt;/ref&gt; They were the source of the fundamental building blocks of matter and energy for the entire [[multiverse]].&lt;ref name="DMG5e-p43"&gt;{{Cite book/Dungeon Master's Guide 5th edition|43}}&lt;/ref&gt;&lt;ref name="DMG5e-p52-53"&gt;{{Cite book/Dungeon Master's Guide 5th edition|52-53}}&lt;/ref&gt;
+
+{{quote
+|Believe what you want―fire still burns and wind still blows.
+|Common saying among inner-planar natives.&lt;ref name="IP2e-p4"&gt;{{Cite book/The Inner Planes|4}}&lt;/ref&gt;
+}}
+
+==Description==
+The Inner Planes contained environments that were among the most hostile in the multiverse.&lt;ref name="IP2e-p5"&gt;{{Cite book/The Inner Planes|5}}&lt;/ref&gt; Unlike the [[Outer Planes]], which were built on belief and thought, the Inner Planes were the manifestation of central aspects of physical reality.&lt;ref name="DMG5e-p43" /&gt;&lt;ref name="DMG5e-p52-53" /&gt; As a result of this intense concentration of reality, everything in the Inner Planes, including its inhabitants, felt more vivid and intense, while at the same time more indifferent.&lt;ref name="IP2e-p6"&gt;{{Cite book/The Inner Planes|6}}&lt;/ref&gt;
+
+==Cosmography==
+{{/Imagemap}}
+The term "inner" referred to the placement of the planes at the center of the concentric spheres that made up the Great Wheel model.&lt;ref name="DMG2ed-132"&gt;{{Cite book/Dungeon Master Guide 2nd Edition|132}}&lt;/ref&gt; It was also an allusion to the planes' central role in providing the raw stuff that nurtured the multiverse's existence.&lt;ref name="IP2e-p4" /&gt;&lt;ref name="IP2e-p6" /&gt; They could all be reached from the [[Prime Material Plane]] by traveling through the [[Ethereal plane]].&lt;ref name="MotP1e-22"&gt;{{Cite book/Manual of the Planes 1st edition|22}}&lt;/ref&gt; 
+
+===Great Wheel Cosmology===
+{{See also|Great Wheel cosmology#Inner Planes}}
+There were a total of 18 Inner Planes, which were subdivided into two main groups: six major planes and twelve minor, also called lesser, planes.&lt;ref name="IP2e-p6" /&gt;&lt;ref name="MotP1e-22" /&gt;
+
+The six major Inner Planes included the [[elemental planes]], which contained the four basic types of matter that constituted the materials of every other plane,&lt;ref name="IP2e-p6" /&gt; and the [[energy planes]], which consisted of the two main types of energy that governed life and death.&lt;ref name="IP2e-p8"&gt;{{Cite book/The Inner Planes|8}}&lt;/ref&gt;
+
+The six major Inner planes were:&lt;ref name="IP2e-p6" /&gt;&lt;ref name="IP2e-p8" /&gt;
+
+;Elemental planes:
+:*[[Elemental Plane of Air]];
+:*[[Elemental Plane of Earth]];
+:*[[Elemental Plane of Fire]];
+:*[[Elemental Plane of Water]];
+;Energy planes:
+:*[[Positive Energy Plane]];
+:*[[Negative Energy Plane]].
+
+The twelve minor Inner Planes were located at the intersection between major planes.&lt;ref name="MotP1e-22" /&gt; They could be divided into two main groups: the para-elemental planes, or "paraplanes", which were located at the intersection between elemental planes; and the quasi-elemental planes, or "quasiplanes", which intersected an elemental plane and an energy plane.&lt;ref name="IP2e-p8-9"&gt;{{Cite book/The Inner Planes|8-9}}&lt;/ref&gt;
+
+;Para-elemental planes:
+:*[[Fountains of Creation]], or the Plane of Magma, between Fire and Earth;
+:*[[Swamp of Oblivion]], or the Plane of Ooze, between Earth and Water;
+:*[[Frostfell (plane)|Frostfell]], or the Plane of Ice, between Water and Air;
+:*[[Great Conflagration]], or the Plane of Smoke, between Air and Fire;
+;Positive quasi-elemental planes:
+:*[[Quasi-Elemental Plane of Radiance]], between Fire and Positive Energy;
+:*[[Quasi-Elemental Plane of Minerals]], between Earth and Positive Energy;
+:*[[Quasi-Elemental Plane of Lightning]], between Air and Positive Energy;
+:*[[Quasi-Elemental Plane of Steam]], between Water and Positive Energy;
+;Negative quasi-elemental planes:
+:*[[Quasi-Elemental Plane of Salt]], between Water and Negative Energy;
+:*[[Quasi-Elemental Plane of Dust]], between Earth and Negative Energy;
+:*[[Quasi-Elemental Plane of Ash]], between Fire and Negative Energy;
+:*[[Quasi-Elemental Plane of Vacuum]], between Air and Negative Energy.
+
+Some versions of the Great Wheel cosmology maintained that the elemental planes and paraplanes were surrounded by the [[Elemental Chaos]], a turbulent plane in which all elements merged together, located in the farthest reaches of the Inner Planes.&lt;ref name="DMG5e-p52-53" /&gt;&lt;ref name="PHB5e-p301"&gt;{{Cite book/Player's Handbook 5th edition|301}}&lt;/ref&gt; Those same versions placed the energy planes in a category of their own, where they were seen as enveloping the entire cosmology.&lt;ref name="DMG5e-p43" /&gt;&lt;ref name="PHB5e-p300"&gt;{{Cite book/Player's Handbook 5th edition|300}}&lt;/ref&gt;
+
+===World Tree Cosmology===
+{{See also|World Tree cosmology#Inner Planes}}
+In the [[World Tree cosmology]] model, which became popular with some scholars before the [[Spellplague]], the Inner planes were moved to the roots of the [[World Tree]] and the more appropriate name [[elemental planes]] was used to describe them as a group, but the name "Inner Planes" was still frequently used.&lt;ref name="PGtF-139" /&gt;
+
+===World Axis Cosmology===
+After the Spellplague, most of the matter making up the elemental planes collapsed together to become the [[Elemental Chaos]].&lt;ref name="FRCG-66"&gt;{{Cite book/Forgotten Realms Campaign Guide|66}}&lt;/ref&gt;
+
+==Inhabitants==
+The regions of the Inner Planes that were, in a cosmic sense, closer to the Prime Material Plane were inhabited by creatures that either originated in the Prime or could survive well there, such as [[aarakocra]], [[azer]]s, [[dragon turtle]]s, [[gargoyle]]s, [[genie]]s, [[mephit]]s, [[salamander]]s, and [[xorn]]. The more distant regions, which were dominated by the raw forces of each plane, were increasingly hostile and were only inhabited by [[elemental]]s and spirits that bore less and less resemblance with creatures found in the Material Plane. These distant regions were also believed to be inhabited by the [[archomental]]s.&lt;ref name="DMG5e-p52-53" /&gt;
+
+As a result of the raw elemental intensity of the Inner Planes, many of their inhabitants spent most of their time focused on survival,&lt;ref name="IP2e-p5" /&gt; not caring much for philosophical or metaphysical discussions about their nature and the nature of their homes. Moreover, since each Inner Plane strongly opposed all others, inhabitants of one plane were constantly at odds with the inhabitants of any other plane.&lt;ref name="IP2e-p10-11"&gt;{{Cite book/The Inner Planes|10-11}}&lt;/ref&gt;
+
+Some inhabitants specialized in guiding travelers within and between Inner Planes. The most competent elemental guides could lead a group to a bordering plane from anywhere within their home plane in less than four days, and were capable of guiding a group to any location within the plane in just over a month or less. The need for these services resulted from the the infinite size of the Inner Planes, which could result in unaided travelers traveling forever without reaching anywhere. The prices practiced by the guides, however, were extremely high. They often charged exotic items instead of [[currency]].&lt;ref name="IP2e-p12"&gt;{{Cite book/The Inner Planes|12}}&lt;/ref&gt;
+
+==Appendix==
+===External Links===
+* {{FRW}}
+===References===
+{{Refs}}
+===Connections===
+{{Cosmologies}}
+[[Category:Great Wheel planes]]
+[[Category:World Tree planes]]</text>
+      <sha1>20bcudbp5cbfonww62u261i6sozcdgb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Inner Planes/Imagemap</title>
+    <ns>0</ns>
+    <id>932</id>
+    <revision>
+      <id>1371</id>
+      <parentid>1370</parentid>
+      <timestamp>2023-01-05T02:41:56Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1370</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5095" sha1="agtfemavxqeeyn4yi1hjuogrenqgqf9" xml:space="preserve">&lt;noinclude&gt;The following image map was generated using information compiled from the following sources:
+* {{Cite book/The Inner Planes}}
+* {{Cite book/Dungeon Master's Guide 5th edition}}
+&lt;/noinclude&gt;&lt;div class="imageMapHighlighter"&gt;
+&lt;imagemap&gt;
+File:Inner_planes-2e.jpg|thumb|330px|right|A representation of the Inner Planes according to the [[Great Wheel cosmology]]. Hovering over the map will reveal individual planes. Clicking will link to the article for that location.
+
+desc none
+circle 268 256 123 [[Positive Energy Plane]]
+circle 274 746 124 [[Negative Energy Plane]]
+circle 271 500 87 [[Elemental Plane of Air]]
+poly 180 22 188 51 205 74 226 90 255 97 273 99 305 92 326 77 343 60 349 50 358 24 356 26 340 18 311 11 283 7 260 8 243 10 221 13 202 17 185 22 [[Elemental Plane of Earth]]
+poly 38 163 65 171 82 183 99 201 111 225 116 244 116 262 112 283 103 303 90 318 75 331 64 338 42 346 36 345 25 322 17 288 12 247 12 221 25 179 37 164 [[Elemental Plane of Fire]]
+poly 500 166 472 175 446 195 431 221 425 238 423 256 425 280 432 297 443 314 462 332 475 338 498 347 519 327 532 294 530 267 552 237 536 213 523 206 514 186 508 170 [[Elemental Plane of Water]]
+poly 504 650 475 659 450 677 435 699 426 726 425 748 430 773 440 794 456 811 470 821 477 826 506 832 519 810 531 804 536 771 533 754 551 735 547 709 528 700 524 691 518 684 518 669 508 657 [[Elemental Plane of Water]]
+poly 41 655 64 661 86 674 106 697 116 719 121 741 114 781 102 801 90 814 82 820 71 828 48 836 43 836 33 814 24 787 16 742 18 708 29 667 40 661 39 661 39 662 [[Elemental Plane of Fire]]
+poly 183 978 191 953 206 929 230 909 261 901 288 901 313 910 331 919 345 935 354 950 363 978 329 988 294 992 262 995 231 990 209 986 [[Elemental Plane of Earth]]
+poly 37 161 54 129 78 96 102 71 130 48 161 30 180 22 188 51 177 55 154 69 132 84 116 96 97 118 82 140 65 171 [[Fountains of Creation]]
+poly 70 829 81 853 101 883 120 906 141 923 160 935 174 943 192 951 182 980 156 967 126 949 100 927 78 901 60 875 47 849 41 837 [[Fountains of Creation]]
+poly 478 826 505 833 491 868 479 885 463 907 445 925 427 942 407 956 388 966 363 978 354 949 372 943 404 923 425 904 447 881 463 854 [[Swamp of Oblivion]]
+poly 358 22 384 35 408 49 435 70 451 85 472 112 486 133 496 155 501 167 471 175 461 150 443 122 425 102 403 82 383 68 361 56 348 52 [[Swamp of Oblivion]]
+poly 471 337 499 348 485 380 461 414 437 439 410 461 384 477 358 488 351 460 381 447 412 423 437 397 455 371 [[Frostfell (plane)|Frostfell]]
+poly 359 510 351 539 379 551 415 576 439 599 457 623 467 642 475 659 504 651 488 617 468 589 455 574 440 559 420 543 396 527 369 513 [[Frostfell (plane)|Frostfell]]
+poly 183 511 193 541 163 554 136 573 116 590 99 611 83 637 70 665 61 659 42 656 56 622 81 587 101 565 126 543 153 525 [[Great Conflagration]]
+poly 63 338 76 366 99 399 125 425 141 438 171 456 190 463 181 492 148 476 109 450 79 419 61 395 45 368 37 348 36 347 37 347 [[Great Conflagration]]
+poly 116 98 183 168 197 156 215 145 237 136 255 133 283 133 315 141 335 151 355 168 422 99 407 84 382 68 366 59 348 51 340 65 322 81 303 92 284 98 264 99 240 95 221 86 208 76 196 64 189 51 173 57 159 66 146 73 134 81 125 90 [[Quasi-Elemental Plane of Minerals]]
+poly 65 172 76 147 92 123 103 110 115 99 183 167 169 182 156 204 150 222 145 251 146 278 156 307 169 330 182 344 115 415 99 399 85 378 71 356 63 338 81 328 98 308 107 294 114 274 117 251 110 222 100 202 84 184 [[Quasi-Elemental Plane of Radiance]]
+poly 114 414 183 345 200 359 220 369 239 376 263 379 287 378 313 371 334 360 354 344 422 413 407 428 385 443 373 451 348 462 343 451 330 437 312 424 295 418 276 414 258 415 238 420 214 434 198 451 191 465 166 454 146 442 132 432 [[Quasi-Elemental Plane of Lightning]]
+poly 472 176 463 153 450 132 436 113 422 99 355 169 366 181 376 198 385 218 390 244 390 272 382 300 373 320 365 332 354 343 422 413 439 395 454 371 464 354 471 336 453 325 441 309 429 290 425 276 423 254 427 230 442 201 456 185 [[Quasi-Elemental Plane of Steam]]
+poly 119 589 138 570 157 558 178 546 193 539 205 557 219 568 235 578 247 583 262 586 282 586 302 581 321 572 334 562 345 549 351 540 368 545 390 557 409 571 426 586 359 656 346 644 328 634 301 624 277 621 248 624 227 630 212 638 200 645 194 650 186 657 [[Quasi-Elemental Plane of Vacuum]]
+poly 70 664 82 638 97 614 107 601 119 589 187 657 171 676 159 697 152 719 149 742 151 767 160 796 171 817 186 834 118 904 97 879 86 860 75 843 69 827 92 812 107 795 118 769 120 739 113 710 97 684 81 671 [[Quasi-Elemental Plane of Ash]]
+poly 118 903 186 834 206 850 227 861 245 867 273 870 302 867 324 860 340 852 362 833 428 901 417 913 396 928 377 940 354 951 341 930 326 916 308 908 288 902 269 900 240 906 219 917 203 932 192 951 173 943 153 930 134 916 [[Quasi-Elemental Plane of Dust]]
+poly 359 656 426 587 443 605 458 625 468 643 475 660 453 674 434 698 427 721 425 739 426 759 432 780 442 796 455 812 478 826 464 855 451 873 440 888 428 901 361 833 370 824 385 803 391 786 397 763 398 742 395 717 388 695 378 675 366 661 366 662 365 662 [[Quasi-Elemental Plane of Salt]]
+&lt;/imagemap&gt;
+&lt;/div&gt;&lt;noinclude&gt;
+[[Category:Imagemaps]]&lt;/noinclude&gt;</text>
+      <sha1>agtfemavxqeeyn4yi1hjuogrenqgqf9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Inner planes</title>
+    <ns>0</ns>
+    <id>3312</id>
+    <redirect title="Inner Planes" />
+    <revision>
+      <id>6919</id>
+      <timestamp>2025-08-11T23:42:05Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>redirect</comment>
+      <origin>6919</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="26" sha1="agf4sco6zo0o8g1tl82cuk1sr4rz517" xml:space="preserve">#REDIRECT [[Inner Planes]]</text>
+      <sha1>agf4sco6zo0o8g1tl82cuk1sr4rz517</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Io's Blood Isles</title>
+    <ns>0</ns>
+    <id>2907</id>
+    <revision>
+      <id>6534</id>
+      <parentid>5294</parentid>
+      <timestamp>2025-06-11T04:46:27Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>hh</comment>
+      <origin>6534</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1243" sha1="bu6qchiixnaq7gorosiolqc6dai7c2s" xml:space="preserve">[[File:CouncilofWyrms.png|300px|thumb|right|Council of Wyrms]]
+
+'''Io's Blood Isles''' are an archipelago inhabited primarily by dragons on an unknown world in the [[Prime Material plane]].
+
+== Portals ==
+
+The following portals are known to link to Io's Blood Isles:
+
+* A window in [[Harbinger House]] looks out over the Isles.&lt;ref name="hh52"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=52}}&lt;/ref&gt;
+* The [[Seafarer's Arch]] in the [[Ditch]] links to Io's Blood Isles&lt;ref name="poly137-15"&gt;{{b|Polyhedron|Polyhedron Magazine 137|page=15}}&lt;/ref&gt;
+
+== Gods ==
+
+* [[Io]], the dragon god
+
+
+== Background Information ==
+
+* '''Io's Blood Isles''' is the primary setting for the ''Council of Wyrms'' campaign setting. The name of the world is not known, just the dragons' archipelago.
+* The name is not "the Blood Isles belonging to Io" but "the isles made of Io's Blood." According to local myth, the dragon god Io, in seeing the strife between different species of dragon, said "if blood is to be spilled, let it be mine." He slashed his belly, and the blood fell to earth, forming the island chain.
+
+== External Links ==
+
+== References ==
+&lt;references /&gt;
+
+[[Category:Prime Material worlds]]
+[[Category:Io's Blood Isles]]</text>
+      <sha1>bu6qchiixnaq7gorosiolqc6dai7c2s</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Isis</title>
+    <ns>0</ns>
+    <id>3382</id>
+    <revision>
+      <id>7206</id>
+      <parentid>7194</parentid>
+      <timestamp>2025-12-14T05:32:37Z</timestamp>
+      <contributor>
+        <username>Senlimsghost</username>
+        <id>50355097</id>
+      </contributor>
+      <origin>7206</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1081" sha1="ceevlcevgsjmff1ve2s5a6corndxvab" xml:space="preserve">{{Deity|name=Isis|primordial=|title=Lady of Knowledge|symbol=Eye and teardrop|power=Intermediate Power|pantheon=[[Pharaonic pantheon]]|serves=[[Ra]]|gender=Feminine|realm=[[Gizekhtet]], [[Heliopolis]]; [[Quietude]]|cleric alignments=Good|alignment=Lawful Good|portfolio=Marriage, magic, motherhood}}
+'''Isis''' was an Intermediate Power of the [[Pharaonic pantheon]], the child of [[Geb]] and [[Nut]] and a member of [[Ra]]'s Ennead family.&lt;ref&gt;{{Cite book/On Hallowed Ground|84}}&lt;/ref&gt; She was said to have knowledge of everything between heaven and earth, including Ra's true name and the mysteries of creation.&lt;ref name=":0"&gt;{{Cite book/On Hallowed Ground|88}}&lt;/ref&gt;
+
+Isis had a keen interest in mortals, and granted many gifts to her worshippers including magic and marriage. She ruled the Second Realm of [[Heliopolis]], Gizekhtet, as well as her own private realm [[Quietude]] in [[Elysium]]. Although Heliopolis was home to her husband and many of her faithful, she preferred Quietude for its peaceful community and research opportunities.&lt;ref name=":0" /&gt;
+
+== References ==</text>
+      <sha1>ceevlcevgsjmff1ve2s5a6corndxvab</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>James Wyatt</title>
+    <ns>0</ns>
+    <id>1432</id>
+    <revision>
+      <id>1957</id>
+      <parentid>1956</parentid>
+      <timestamp>2023-01-05T11:08:41Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1956</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1480" sha1="mr5p3n1q3e81oj480jzycmml5hsbu4j" xml:space="preserve">{{DEFAULTSORT:Wyatt, James}}
+{{Real-world person
+| image              = 
+| caption            = 
+| name               = James Wyatt
+| fullname           = 
+| othername          = 
+| nickname           = 
+| pseudonym          = 
+| occupation         = Writer
+| period             = 
+| series             = 
+| media              = 
+| settings           = 
+| works              = yes
+| images             = 
+| home               = 
+| birthplace         = 
+| born               = 
+| died               = 
+| signature-image    = 
+| signature-caption  = 
+}}
+'''James Wyatt''' is an author of several sci-fi and fantasy novels. He has co-authored numerous [[Forgotten Realms]] sourcebooks.
+
+==Works==
+===Sourcebooks===
+* ''[[Monster Compendium: Monsters of Faerûn]]'' (2001)
+* ''[[Defenders of the Faith]]'' (2001)
+* ''[[City of the Spider Queen]]'' (2002)
+* ''[[Book of Exalted Deeds (sourcebook)|Book of Exalted Deeds]]'' (2003)
+* ''[[Draconomicon: The Book of Dragons]]'' (2003)
+* ''[[Player's Guide to Faerûn]]'' (2004)
+* ''[[Cormyr: The Tearing of the Weave]]'' (2007)
+* ''[[Player's Handbook 4th edition]]'' (2008)
+* ''[[Monster Manual 4th edition]]'' (2008)
+* ''[[Player's Handbook 2]]'' (2009)
+
+===Dragon magazine===
+* "Wyrms of the North: Zundaerazylym", [[Dragon magazine 259]] (May 1999)
+* "Ancient Feats and Martial Styles", [[Dragon magazine 315]] (January 2004)
+
+==Appendix==
+===Further Reading===
+*{{Cite dragon/281/Profiles: James Wyatt}}
+{{stub}}
+[[Category: Authors]]</text>
+      <sha1>mr5p3n1q3e81oj480jzycmml5hsbu4j</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Jeff Grubb</title>
+    <ns>0</ns>
+    <id>1427</id>
+    <revision>
+      <id>1947</id>
+      <parentid>1946</parentid>
+      <timestamp>2023-01-05T11:08:39Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1946</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2518" sha1="aegwwwk0f6s4n05pewqpay7msm91pn3" xml:space="preserve">{{DEFAULTSORT:Grubb, Jeff}}
+{{Real-world person
+| image              = 
+| caption            = 
+| name               = Jeff Grubb
+| fullname           = 
+| othername          = 
+| nickname           = 
+| pseudonym          = 
+| occupation         = Author
+| period             = 
+| series             = 
+| media              = 
+| settings           = 
+| works              = yes
+| images             = 
+| home               = 
+| birthplace         = 
+| born               = 
+| died               = 
+| signature-image    = GrubbSig.png
+| signature-caption  = 
+}}
+'''Jeff Grubb''' is the author of several [[Forgotten Realms]] novels and articles. Among his more notable work is [[The Finder's Stone trilogy]], featuring the popular character [[Alias]], which he co-authored with his wife [[Kate Novak]].
+
+==Works==
+===Novels===
+All of the following books were co-authored with Kate Novak.
+
+====[[The Finder's Stone trilogy]]====
+# ''[[Azure Bonds]]''
+# ''[[The Wyvern's Spur]]''
+# ''[[Song of the Saurials]]''
+
+====[[The Harpers series]]====
+* ''[[Masquerades]]''
+* ''[[Finder's Bane]]''
+
+====[[The Lost Gods]]====
+* ''[[Tymora's Luck]]''
+
+===Dragon magazine===
+* ''Awash in Phlogiston'', Dragon #153 (January 1990){{drsup|153/Awash in Phlogiston}}
+* ''Dreamlands: Variant Planes of Dreams'', Dragon #287 (September 2001){{drsup|287/Dreamlands: Variant Planes of Dreams}}
+* ''Next Stop: Eveningstar'', Dragon #157 (May 1990){{drsup|157/Next Stop: Eveningstar}}
+* ''Plane Speaking: Tuning in to the Outer Planes'', Dragon #120 (April 1987){{drsup|120/Plane Speaking}}
+* ''Plane Speaking: The (Positive) Quasi-Elementals!'', Dragon #125 (September 1987){{drsup|125/Plane Speaking: The (Positive) Quasi-Elementals!}}
+* ''Plane Speaking: The (Negative) Quasi-Elementals!'', Dragon #128 (December 1987){{drsup|128/Plane Speaking: The (Negative) Quasi-Elementals!}}
+* ''Sounds of Wonder &amp; Delight'', Dragon #190 (February 1993){{drsup|190/Sounds of Wonder &amp; Delight}}
+* ''Wonders of the Lands of Fate'', Dragon #179 (March 1992){{drsup|179/Wonders of the Land of Fate}}
+* ''Rogue's Gallery'', Dragon Magazine Annual 1997
+
+==Appendix==
+===Gallery===
+&lt;gallery&gt;
+Elminster, Grubb, and Lowder.png|From left to right: [[Elminster]] discusses 12{{th}} century [[DR]] [[Mulhorand]]i pottery with Jeff Grubb and [[James Lowder]] in ''[[Everybody Wants to Run the Realms]]''.
+&lt;/gallery&gt;
+===Further Reading===
+*{{Cite dragon/111/TSR Profiles: Jeff Grubb}}
+*{{Cite dragon/247/Profiles: Jeff Grubb}}
+[[de:Jeff Grubb]]
+[[Category:Authors]]</text>
+      <sha1>aegwwwk0f6s4n05pewqpay7msm91pn3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Jotunheim</title>
+    <ns>0</ns>
+    <id>581</id>
+    <revision>
+      <id>942</id>
+      <parentid>941</parentid>
+      <timestamp>2023-01-05T02:35:09Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>941</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7377" sha1="0i40q2r1q0crsejrconi99oe9r67mqn" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Jotunheim
+| othernames        = Gianthome
+| symbol            = Ysgard.png
+| demonym           = 
+| natives           = [[Giant]]s
+| languages         = 
+| basicrefs         = &lt;ref name="PGtF-p160-161" /&gt;&lt;ref name="Giantcraft-p28"&gt;{{Cite book/Giantcraft|28}}&lt;/ref&gt;
+| type-GW           = Realm
+| shape-size-GW     = 
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = [[Ysgard (layer)|Ysgard]]
+| refs-GW           = &lt;ref name="Poc-BoC2e-p115-116"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|115-116}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = [[Neutral Plane]]
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = Alterable (each realm divinely morphic)
+| element-energy-WT = Varies
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = Mild
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = &lt;ref name="PGtF-140"&gt;{{Cite book/Player's Guide to Faerûn|140}}&lt;/ref&gt;&lt;ref name="PGtF-p160-161" /&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| based             = [[wikipedia:en:Jötunheimr|Jotunheim]] (Norse)
+| usethe            = 
+| useon             = 
+}}
+'''Jotunheim''' (meaning '''Gianthome''' in the [[Giant language]]&lt;ref name="Giantcraft-p28" /&gt;) was the [[Neutral Planes|Neutral]] [[Outer Planes|Outer Plane]] of the [[World Tree cosmology]] that served as the final resting place of [[giant]]s and the location of the realms of the [[giant pantheon]].&lt;ref name="PGtF-140" /&gt;&lt;ref name="PGtF-p160-161" /&gt;
+
+In the [[Great Wheel cosmology]] it was the [[divine realm]] only of the gods of the [[Frost giant|frost]] and [[fire giant]]s, [[Thrym]] and [[Surtr]], respectively. It was located on [[Ysgard]]'s [[Ysgard (layer)|first layer]].&lt;ref name="Poc-BoC2e-p115-116" /&gt;
+
+==Description==
+===Cosmography===
+Usually, Jotunheim bordered the realms of [[Asgard]] and [[Vanaheim]].&lt;ref name="MotP1e-pp94-96"&gt;{{Cite book/Manual of the Planes 1st edition|95-96}}&lt;/ref&gt; The Iving River, the largest river in all of Asgard, served as the border between it and Jotunheim.&lt;ref name="Poc-BoC2e-p112"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|112}}&lt;/ref&gt;&lt;ref name="MotP1e-pp94-96" /&gt; The realm of [[Muspelheim]] was situated behind a barrier of continually active volcanoes.&lt;ref name="PGtF-p160-161" /&gt;
+
+===Geography===
+This plane consisted of a glaciers, snow-capped mountains, volcanoes, and desolate plains.&lt;ref name="Poc-BoC2e-p115-116" /&gt; Much of the landscape was dotted with [[menhir]]s and forests of towering [[pine]] and [[oak]] trees.&lt;ref name="PGtF-p160-161" /&gt; Some described the vegetation on this plain as sickly, such as yellowing [[mistletoe]] and scraggly weeds.&lt;ref name="Poc-BoC2e-p115-116" /&gt;
+
+==Notable Locations==
+* [[Gudheim|'''Gudheim''']]''',''' the crystal palace of [[Annam All-Father]] before he departed to the [[Hidden Realm]] in the [[Outlands]] in his exile.&lt;ref name="GC2e-p44"&gt;{{Cite book/Giantcraft|44}}&lt;/ref&gt;
+* '''Fimbulwinter''', sometimes known as Jotunheim, was the domain of the giant god [[Thrym]] in the World Tree cosmology. Some claimed he maintained no permanent palace in the realm,&lt;ref name="PGtF-p160-161" /&gt; while others believed he had a massive palace of ice.&lt;ref name="FB-p56"&gt;{{Cite book/Frostburn|56}}&lt;/ref&gt; 
+* '''Florallium''', the domain of the giant goddess [[Iallanis]]. It was large, peaceful palace full of gardens and crystal springs. It was an unspoken rule that the domain was a neutral territory for Jotunheim's deities and [[petitioners]], a place where peaces could be negotiated.&lt;ref name="Poc-BoC2e-p115-116" /&gt;
+* [[Meerrauk|'''Meerrauk''']], an enormous underground city. In the Great Wheel cosmology, Surtur was said to reside within it.&lt;ref name="Poc-BoC2e-p115-116" /&gt;
+* '''Okalnir ''' a beer-hall ran by a frost giant named [[Brimir]]. It was typically very active in the summer time, but quite deserted during winter.&lt;ref name="Poc-BoC2e-p115-116" /&gt;
+* '''River Iving''', a river that connected the planes of Jotunheim with Asgard. A clan of [[mountain giant]]s ran a ferry that transported travelers along it.&lt;ref name="Poc-BoC2e-p115-116" /&gt;
+* '''[[Shatterstone]]''', the domain of the [[ogre]] god [[Vaprak]]. It was a pitiful cave at the base of a great cliff.&lt;ref name="PGtF-p160-161" /&gt;
+* '''The [[Steading]]''', the domain of the giant god [[Grolantor]]. A large wooden house that stood on the foothills of one of Jotunheim's many mountains.&lt;ref name="PGtF-p160-161" /&gt;
+* '''Stormhold''', the domain of the giant god [[Stronmaus]]. A massive white cloud, atop which stood a palace made of various precious metals and gems, that roamed across Jotunheim bringing rain and light storms.&lt;ref name="PGtF-p160-161" /&gt;
+* '''[[Thraotor]]''', the domain of the giant god [[Memnor]]. A massive thunderhead cloud, atop which stood a palace of [[adamantine]], that roamed across Jotunheim spreading violent storms in its wake.&lt;ref name="PGtF-p160-161"&gt;{{Cite book/Player's Guide to Faerûn|160-161}}&lt;/ref&gt;
+* '''Utgard''', a major city and fortress that was guarded by various illusions and camouflage. It was ruled by a giant king named [[Utgard-Loki]].&lt;ref name="Poc-BoC2e-p115-116" /&gt;
+* [[Well of Mimir]], a legendary magical well that was situated close to one of [[Yggdrasil]]'s roots.&lt;ref name="Poc-BoC2e-p115-116" /&gt;&lt;ref name="MotP1e-pp94-96" /&gt;
+* '''Woodhaven''', the domain of the giant goddess [[Hiatea]]. It was a large collection of great longhouses within the heart of a massive oak forest.&lt;ref name="PGtF-p160-161" /&gt;
+
+==Inhabitants==
+The giants who inhabited Jotunheim were noted as being somewhat smarter than their relatives on the [[Material Plane]] and they were said to possess giant-sized [[Magical item|magical items]] with the power to affect a [[deity]].&lt;ref name="MotP1e-pp94-96" /&gt; Some considered them to be a low form of [[quasi-deity]].&lt;ref name="DaD-p200"&gt;{{Cite book/Deities and Demigods|200}}&lt;/ref&gt;
+
+One could also find [[fensir]],&lt;ref name="PGtF-p160-161" /&gt; [[Ysgardian dwarves]], and [[gnomes]] within this realm. Though the latter two were detested by the resident giants. The dwarves often brought wares from their home layer of [[Nidavellir]] and charged double what they normally would.&lt;ref name="Poc-BoC2e-p115-116" /&gt;
+
+Notable animals within this realm included [[roc]]s and [[winter wolves]] that were the size of [[elephant]]s.&lt;ref name="PGtF-p160-161" /&gt;
+
+==Appendix==
+{{Incomplete}}
+===Appearances===
+:;Card Games
+::''[[Blood Wars]]''
+===References===
+{{Refs}}
+===Connections===
+{{Ysgard}}
+{{Cosmologies}}
+[[Category:World Tree planes]]
+[[Category:Neutral planes]]
+[[Category:Outer Planes]]
+[[Category:Divine realms]]
+[[Category:Locations in Ysgard]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations in the Upper Planes]]
+[[Category:Locations on Yggdrasil]]</text>
+      <sha1>0i40q2r1q0crsejrconi99oe9r67mqn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Jovar</title>
+    <ns>0</ns>
+    <id>301</id>
+    <revision>
+      <id>350</id>
+      <parentid>349</parentid>
+      <timestamp>2022-02-12T12:32:08Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>/* Realms */</comment>
+      <origin>350</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="168" sha1="6pi4lyqrysu17nur5crol4ep059ndpe" xml:space="preserve">'''Jovar''', the Glittering Heaven, was the sixth layer of the plane of [[Mount Celestia]].
+
+== Realms ==
+
+* [[Yetsirah]]
+** [[Bridge of al-Sihal]]
+
+[[Category:Layers]]</text>
+      <sha1>6pi4lyqrysu17nur5crol4ep059ndpe</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Kara-Tur</title>
+    <ns>0</ns>
+    <id>3077</id>
+    <redirect title="Forgotten Realms" />
+    <revision>
+      <id>5868</id>
+      <timestamp>2025-05-14T02:32:14Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>redirect</comment>
+      <origin>5868</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30" sha1="5wben4pwlkwvkbck33g4amiclfpszbc" xml:space="preserve">#REDIRECT [[Forgotten Realms]]</text>
+      <sha1>5wben4pwlkwvkbck33g4amiclfpszbc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Karasuthra</title>
+    <ns>0</ns>
+    <id>210</id>
+    <revision>
+      <id>2580</id>
+      <parentid>234</parentid>
+      <timestamp>2023-08-09T01:28:07Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>234</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="248" sha1="msplu2i9fkxkzyy0f8s0auhlwfpy5kn" xml:space="preserve">'''Karasuthra''' was the third layer of the plane of The [[Beastlands]].
+
+
+
+== Realms ==
+
+* [[Labyrinth of Fiery Doom]]
+* [[Misty Valley]]
+* [[Owl Lord's Soar]]
+* [[Stormhold]]
+* [[Zhan]]
+* [[Black Desert]]
+* [[Forgotten Lake]]
+
+[[Category:Layers]]</text>
+      <sha1>msplu2i9fkxkzyy0f8s0auhlwfpy5kn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Key to the City of Doors</title>
+    <ns>0</ns>
+    <id>2921</id>
+    <revision>
+      <id>5349</id>
+      <timestamp>2024-04-09T18:38:25Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5349</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="743" sha1="0rceu44ylvg1r11fejx99bru55ms4un" xml:space="preserve">The '''Key to the City of Doors''' is a powerful magical item with the ability to turn any bounded space into a two-way portal to [[Sigil]] (or, if the user is within Sigil, to a plane of their choosing), but it will only do so three times.
+
+The Key is an oversized skeleton key branded with the [[Lady of Pain]]'s head.
+
+The Lady granted this Key to a group of heroes who helped defeat [[Vecna]] and eject him from the city.
+
+== Background Information ==
+
+[[File:KeyofPain card.jpg|200px|right]]
+The description of the item matches the appearance of a Blood Wars artifact card, [[The Key of Pain]]. They may be intended to represent the same item.
+
+== References ==
+
+* {{b|D&amp;D|Die Vecna Die!|pdf=17483|page=150-151}}
+
+[[Category:Magic items]]</text>
+      <sha1>0rceu44ylvg1r11fejx99bru55ms4un</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Khalas</title>
+    <ns>0</ns>
+    <id>184</id>
+    <revision>
+      <id>204</id>
+      <timestamp>2022-02-07T23:18:46Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "'''Khalas''' was the first layer of the plane of [[Gehenna]].  It was known as the "Gentle Land", and was covered in rivers and pools of lava. The [[River Styx]] flowed throug..."</comment>
+      <origin>204</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="379" sha1="gtpomsap1io8bvhfsfa40zh55uotee3" xml:space="preserve">'''Khalas''' was the first layer of the plane of [[Gehenna]].
+
+It was known as the "Gentle Land", and was covered in rivers and pools of lava. The [[River Styx]] flowed through the land.
+
+== Realms ==
+
+* [[Bridge at Khalas]]
+* [[Fo Ling Po]]
+* [[Abomination's Lair]]
+* [[Aknuthrak]]
+* [[Cheisin]]
+* [[Corriegrave]]
+* [[Teardrop Palace]]
+* [[Throne of Blood]]
+
+[[Category:Layers]]</text>
+      <sha1>gtpomsap1io8bvhfsfa40zh55uotee3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Khin-Oin</title>
+    <ns>0</ns>
+    <id>252</id>
+    <revision>
+      <id>297</id>
+      <timestamp>2022-02-11T18:45:51Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "[[File:Khin-Oin.jpg|thumb|right|300px]] '''The Wasting Tower of Khin-Oin''' was a site in the [[Oinos]] layer of The [[Gray Waste]] plane. It was a [[Yugoloth]] site, made fro..."</comment>
+      <origin>297</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="397" sha1="2903cp0nti5gwo2isgdonlmriy0nlci" xml:space="preserve">[[File:Khin-Oin.jpg|thumb|right|300px]]
+'''The Wasting Tower of Khin-Oin''' was a site in the [[Oinos]] layer of The [[Gray Waste]] plane. It was a [[Yugoloth]] site, made from the flayed spine of the first god who tried to cross the yugoloth people. It stretched twenty miles above the ground and twenty miles below.
+
+== See also ==
+
+* [[The Wasting Tower of Khin-Oin (card)]]
+
+[[Category:Sites]]</text>
+      <sha1>2903cp0nti5gwo2isgdonlmriy0nlci</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Knife in the River</title>
+    <ns>0</ns>
+    <id>2940</id>
+    <revision>
+      <id>5418</id>
+      <timestamp>2024-05-24T02:11:27Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5418</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2072" sha1="gu56lghvu21brb82n1hwnrckjwtv5u5" xml:space="preserve">[[File:DitchMap.png|right|300px|Ditch map]]
+
+The '''Knife in the River''' is an ancient pockmarked triangle of metal plunged tip-first into the waters of the [[Ditch]]. The top edge is sheared and twisted. Like a knife, one edge remains sharp, despite the rust.
+
+== History ==
+
+The first vessel to enter [[Sigil]] via the [[Seafarer's Arch]] was a resplendent ship, its aristocratic crew of [[arcane]] under the command of an imposing [[giff]] admiral. Unfortunately the ship was wider than the Ditch, and so it ran aground.
+
+Mere moments later, the [[Lady of Pain]] appeared, and advanced on the ship.
+
+The arcane crew, the giff admiral, and the [[Spellweaver]] mage let loose enough destructive force to topple Sigil from the Spire. The barrage let loose from the ship's bombard is said to have been heard all the way out to the [[gate-town]]s. The blast did what no one thought possible: it wounded the Lady, shearing one of the blades off the halo of knives around her face.
+
+Before her blade had met the water of the Ditch, her shadow sliced the ship into pieces to clear the waterway. Even today, people call an anonymous shriek in the night "the Lady's satisfaction."
+
+The rubble, now called the [[Arcane Remains]], poke out of the water like broken ribs, with most Cagers too fearful of whatever may have earned the Lady's wrath to search the rubble. And not far from the Remains lies what's left of the Lady's lost blade, buried point-first in the Ditch: the Knife in the River.
+
+== Background Information ==
+* The Knife, in reference, seems to be far larger than would be assumes if it were "just" a knife from the Lady's head. The Ditch is deep enough to allow ships to travel through it, so the Knife is at least long enough to be plunged into the Ditch's bottom, and still have a substantial part of it sticking out of the water.
+* The "Knife in the River" is a play on the common phrase "a fork in the road."
+
+== References ==
+; 2nd Edition
+* {{b|Polyhedron|Polyhedron Magazine 137|page=15-16}}
+
+&lt;references /&gt;
+
+[[Category:Lower Ward]]
+[[Category:Hive Ward]]</text>
+      <sha1>gu56lghvu21brb82n1hwnrckjwtv5u5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Krangath</title>
+    <ns>0</ns>
+    <id>189</id>
+    <revision>
+      <id>209</id>
+      <timestamp>2022-02-07T23:49:55Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "'''Krangath''' was the fourth layer of the plane of [[Gehenna]].  == Realms ==  * [[The Night Below]] ** [[Cold Fever]]  [[Category:Layers]]"</comment>
+      <origin>209</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="140" sha1="meuik5b6rirm2brec2o5dc2853bj02t" xml:space="preserve">'''Krangath''' was the fourth layer of the plane of [[Gehenna]].
+
+== Realms ==
+
+* [[The Night Below]]
+** [[Cold Fever]]
+
+[[Category:Layers]]</text>
+      <sha1>meuik5b6rirm2brec2o5dc2853bj02t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Kriegstanz</title>
+    <ns>0</ns>
+    <id>2898</id>
+    <revision>
+      <id>6322</id>
+      <parentid>5218</parentid>
+      <timestamp>2025-06-06T20:16:59Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>6322</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="868" sha1="j0bxg0jp848icxs2lcs2xy009a8wheg" xml:space="preserve">The '''kriegstanz''' -- or "undeclared war" -- is the battle over the beliefs of [[Sigil]]'s inhabitants by its factions, under the belief that whoever controls Sigil controls the multiverse.&lt;ref name="pcs-sab54"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1|page=54}}&lt;/ref&gt;&lt;ref name="teb2"&gt;{{b|Planescape|The Eternal Boundary|pdf=17300|page=2}}&lt;/ref&gt;
+
+[[Jemorille]] the Exile claims to control the city by ensuring that no faction ever gains too much power over another, and by preventing offenders from coming to the [[Lady of Pain]]'s attention, she is as much his pawn as anyone else.&lt;ref name="uncaged50"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=50}}&lt;/ref&gt;
+
+
+== Background Information ==
+
+* Although translated in text as "undeclared war," ''kriegstanz'' is German for "war dance."
+
+== References ==
+
+&lt;references /&gt;
+
+[[Category:Faction]]</text>
+      <sha1>j0bxg0jp848icxs2lcs2xy009a8wheg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Krigala</title>
+    <ns>0</ns>
+    <id>208</id>
+    <revision>
+      <id>2582</id>
+      <parentid>232</parentid>
+      <timestamp>2023-08-09T01:28:07Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>232</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="293" sha1="qit9k36xxysjkgrykcdo3k63swb7sie" xml:space="preserve">'''Krigala''' was the first layer of the plane of The [[Beastlands]].
+
+
+
+== Realms ==
+
+* [[Signpost]]
+* [[Triberove]]
+* [[Forbidden Plateau]]
+* [[Standing Stones]]
+* [[Filchnest]]
+* [[Goldenroost]]
+* [[Skerrit's Glade]]
+* [[Grove of the Unicorns]]
+* [[Ilifar-in-the-Wind]]
+
+[[Category:Layers]]</text>
+      <sha1>qit9k36xxysjkgrykcdo3k63swb7sie</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Krynn</title>
+    <ns>0</ns>
+    <id>2876</id>
+    <revision>
+      <id>7290</id>
+      <parentid>6529</parentid>
+      <timestamp>2026-02-27T21:57:07Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <minor/>
+      <comment>Added external link.</comment>
+      <origin>7290</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4522" sha1="5lw9k1r0106eof1nvuyym6ldo2iqp6q" xml:space="preserve">[[File:DragonlanceLogo2e.png|300px|thumb|right|Dragonlance (AD&amp;D 2nd Edition)]]
+
+'''Krynn''' is the primary inhabited world found within [[w:c:spelljammer:Krynnspace|Krynnspace]] on the [[Prime Material plane]].&lt;ref name="pwhb33"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|page=33}}&lt;/ref&gt;
+
+
+== Personalities ==
+
+The following planar personalities came from Krynn:
+
+* Sir [[Cleve]]&lt;ref name="uncaged16"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=16}}&lt;/ref&gt;
+* [[Hav'run Thain]]&lt;ref name="tftis21"&gt;{{b|Planescape|Tales from the Infinite Staircase|pdf=17291|page=21}}&lt;/ref&gt;
+* [[Nagaro]]&lt;ref name="pptto23"&gt;{{b|Planescape|A Player's Primer to the Outlands|pdf=17301|page=23}}&lt;/ref&gt;
+* Lord [[Porpen]]&lt;ref name="uncaged40"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=40}}&lt;/ref&gt;
+* [[Sargeantus Goldenhilt]]&lt;ref name="poclb33"&gt;{{b|Planescape|Planes of Conflict|pdf=17278|page=33, ''Liber Benevolentiae''}}&lt;/ref&gt;
+* [[Sruce]]&lt;ref name="fm31"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=31}}&lt;/ref&gt;
+* [[Tarholt]]&lt;ref name="pscssab80"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=80, ''Sigil and Beyond''}}&lt;/ref&gt;&lt;ref name="itc45"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=45}}&lt;/ref&gt;&lt;ref name="uncaged100"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=100}}&lt;/ref&gt;
+* [[Tarholtson]]&lt;ref name="pscssab80"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=80, ''Sigil and Beyond''}}&lt;/ref&gt;&lt;ref name="itc45"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=45}}&lt;/ref&gt;&lt;ref name="uncaged100"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=100}}&lt;/ref&gt;
+* [[Traban]]&lt;ref name="pscssab80"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=80, ''Sigil and Beyond''}}&lt;/ref&gt;&lt;ref name="itc45"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=45}}&lt;/ref&gt;&lt;ref name="uncaged100"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=100}}&lt;/ref&gt;
+* [[Trabanson]]&lt;ref name="pscssab80"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=80, ''Sigil and Beyond''}}&lt;/ref&gt;&lt;ref name="itc45"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=45}}&lt;/ref&gt;&lt;ref name="uncaged100"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=100}}&lt;/ref&gt;
+* The [[Vagis]]&lt;ref name="tftis21"&gt;{{b|Planescape|Tales from the Infinite Staircase|pdf=17291|page=21}}&lt;/ref&gt;
+* The [[Warlock of Ooze]]&lt;ref name="tip84"&gt;{{b|Planescape|The Inner Planes|pdf=17296|page=84}}&lt;/ref&gt;
+
+
+== Portals ==
+
+Krynn natives have a habit of referring to all planes outside their own as the [[Abyss]], not having any idea as to the full breadth of the multiverse.
+
+Interestingly, in late [[128 YFHR]], Krynn became inaccessible, with its previous location being filled by creatures of Chaos. Some claim the world itself vanished, but who could move an entire world?&lt;ref name="gtte16"&gt;{{b|Planescape|A Guide to the Ethereal Plane|pdf=17293|page=16}}&lt;/ref&gt;
+
+The following portals are known to link to Krynn:
+
+* A window in [[Harbinger House]] looks out over Krynn.&lt;ref name="hh52"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=52}}&lt;/ref&gt;
+* The [[Seafarer's Arch]] in the [[Ditch]] links to the rapids below a canyon in the [[w:c:dragonlance:Khalkist Mountain Range|Khalkist Mountains]]&lt;ref name="poly137-15"&gt;{{b|Polyhedron|Polyhedron Magazine 137|page=15}}&lt;/ref&gt;
+
+== Gods ==
+
+: See also: [[Krynnish powers]]&lt;ref name="ohg164"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=164}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+; Good
+* [[Paladine]] (Greater)
+* [[Mishakal]] (Greater)
+* [[Branchala]] (Intermediate)
+* [[Habbakuk]] (Intermediate)
+* [[Kiri-Jolith]] (Intermediate)
+* [[Majere]] (Intermediate)
+* [[Solinari]] (Intermediate)
+
+; Neutrality
+* [[Gilean]] (Greater)
+* [[Reorx]] (Greater)
+* [[Chislev]] (Intermediate)
+* [[Lunitari]] (Intermediate)
+* [[Shinare]] (Intermediate)
+* [[Sirrion]] (Intermediate)
+* [[Zivilyn]] (Intermediate)
+
+; Evil
+* [[Takhisis]] (Greater)
+* [[Sargonnas]] (Greater)
+* [[Chemosh]] (Intermediate)
+* [[Hiddukei]] (Intermediate)
+* [[Morgion]] (Intermediate)
+* [[Nuitari]] (Intermediate)
+* [[Zeboim]] (Intermediate)
+
+
+== Background Information ==
+
+'''Krynn''' is the primary setting for the ''[[Dragonlance]]'' campaign setting.
+
+== External Links ==
+* [[w:c:dragonlance:Krynn|Krynn]] on the ''Dragonlance Wiki''
+* {{FRW}}
+* [[w:c:spelljammer:Krynn|Krynn]] on the ''Spelljammer Wiki''
+
+== References ==
+&lt;references /&gt;
+
+[[Category:Prime Material worlds]]
+[[Category:Krynn]]</text>
+      <sha1>5lw9k1r0106eof1nvuyym6ldo2iqp6q</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>LEGO Dungeons &amp; Dragons Minifigures</title>
+    <ns>0</ns>
+    <id>2956</id>
+    <revision>
+      <id>5482</id>
+      <parentid>5481</parentid>
+      <timestamp>2024-09-20T18:51:17Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>5482</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2207" sha1="kiowwr54r0q9uqt96jexttf9gbufw9w" xml:space="preserve">{{Comic
+| image        = LegoDNDFigs.png
+| caption      = 
+| title        = LEGO Dungeons &amp; Dragons Minifigures
+| author       = 
+| editor       = 
+| cover_artist = 
+| penciller    = 
+| letterer     = 
+| inks         = 
+| colorist     = 
+| publisher    = [[wikipedia:en:Lego|Lego]]
+| volume       = 
+| type         = Tie-in merchandise
+| languages    = 
+| story arc    = 
+| realm year   = 
+| edition1     = 
+| released1    = 1st September [[2024]]
+| binding1     = 
+| pages1       = 
+| isbn10-1     = 
+| isbn13-1     = 
+| cite1        = 
+| edition2     = 
+| released2    = 
+| binding2     = 
+| pages2       = 
+| isbn10-2     = 
+| isbn13-2     = 
+| cite2        = 
+| series       = 
+| preceded_by  = 
+| followed_by  = ''[[Book Tabs: Planescape: Adventures in the Multiverse]]''
+| source       = 
+}}
+'''''LEGO Dungeons &amp; Dragons Minifigures''''' (#71047) are a set produced by Lego. Each mystery box contains one of 12 D&amp;D-themed minifigs. Seven of the figures are generic adventurers, with one generic monster, and the remaining five are specific powerful D&amp;D characters.
+
+The adventurers are:
+* 71047-01: [[Dwarf]] barbarian
+* 71047-02: [[Gith]] warlock
+* 71047-03: [[Tiefling]] sorcerer
+* 71047-04: Dragonborn paladin
+* 71047-05: [[Halfling]] druid
+* 71047-06: Aarakocra ranger
+* 71047-09: [[Elf]] bard
+
+The monster:
+* 71047-07: A [[illithid|mind flayer]]
+
+The power-players are:
+* 71047-08: Strahd von Zarovich
+* 71047-10: The [[Lady of Pain]]
+* 71047-11: Szass Tam
+* 71047-12: [[Tasha]] the Witch Queen
+
+The most relevant character to ''Planescape'' fans is the Lady of Pain, and possibly the tiefling sorcerer.
+
+The Lady of Pain is given a transparent pedestal to indicate her floating above the streets of Sigil. She has two [[Cubic Gate]]s, each emblazoned with the symbol of [[Arcadia]].&lt;ref name="designinglop"&gt;[https://www.brickfanatics.com/lego-dnd-tasha-the-witch-queen-lady-of-pain/ LEGO D&amp;D secrets: Tasha the Witch Queen &amp; The Lady of Pain]&lt;/ref&gt;
+
+
+==Cover Gallery==
+&lt;gallery captionalign=center&gt;
+&lt;/gallery&gt;
+==Appendix==
+===External Links===
+* [https://www.lego.com/en-us/product/dungeons-dragons-71047 from LEGO]
+
+==Notes==
+{{Notes}}
+
+===References===
+{{Refs}}
+
+[[Category:Published in 2024]]</text>
+      <sha1>kiowwr54r0q9uqt96jexttf9gbufw9w</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lady's Ward</title>
+    <ns>0</ns>
+    <id>2733</id>
+    <redirect title="The Lady&#039;s Ward" />
+    <revision>
+      <id>4813</id>
+      <timestamp>2024-02-07T15:34:52Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>redirect</comment>
+      <origin>4813</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="29" sha1="8qpyasnv70blhaqkb3cvtimsibosuyz" xml:space="preserve">#REDIRECT [[The Lady's Ward]]</text>
+      <sha1>8qpyasnv70blhaqkb3cvtimsibosuyz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lady of Pain</title>
+    <ns>0</ns>
+    <id>2717</id>
+    <revision>
+      <id>7197</id>
+      <parentid>6811</parentid>
+      <timestamp>2025-12-11T17:20:41Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>alignment</comment>
+      <origin>7197</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13423" sha1="padckoavrijyokqugw60cyd3rebk2hx" xml:space="preserve">{{Character
+ | name         = Lady of Pain
+ | image        = LadyofPainMartinMottet.jpg
+ | imagecaption = Image by Martin Mottet
+ | aliases      = Her Serenity
+ | relatives    = 
+ | affiliation  = [[Sigil]]
+ | occupation   = 
+ | marital      = 
+ | birthDate    = 
+ | birthPlace   = 
+ | deathDate    = 
+ | deathPlace   = 
+ | species      = Unknown, possibly unique
+ | gender       = Female
+ | height       = 
+ | weight       = 
+ | eyes         = 
+ | alignment    = True Neutral
+ | faction      =
+ | class        =
+ | level        =
+ | portrayedby  = 
+ | appearsin    = 
+ | debut        = ''[[Planescape Campaign Setting]]''
+ 
+}}
+
+Her Serenity, the '''Lady of Pain''', is an enigmatic figure who rules over [[Sigil]]. She largely doesn't care for the day-to-day operation of the city, happy to leave that to groups like the [[Fraternity of Order]], [[Harmonium]], and [[Mercykillers]]. What rules she has are few:
+
+[[File:LadyofPainLineart.png|thumb|right|The Lady of Pain's stamp, used on official documents]]
+
+# Keep the peace.
+## Don't threaten the safety of the city or its portals
+## Don't question the Lady's power
+# Don't worship her.
+# No gods within the city.&lt;ref name="pscssab6365"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=63-65, Sigil and Beyond}}&lt;/ref&gt;
+
+Additionally, she seems to have a distaste for the [[mercane]], who feel distinctly uncomfortable within Sigil, although they are not barred to entry&lt;ref name="psmca10"&gt;{{b|Planescape|Planescape Monstrous Compendium Appendix|page=10}}&lt;/ref&gt;. This distaste came to most peoples' awareness during the events surrounding the creation of the [[Arcane Remains]] in the [[Ditch]].&lt;ref name="poly137"&gt;{{b|Polyhedron|Polyhedron Magazine 137|page=14-17}}&lt;/ref&gt;
+
+She is always silent; whenever she makes a pronouncement to the public, she does so via her [[dabus]] attendants, who are as inextricably part of the city as she is.
+
+The Lady appears as a tall woman with a bladed headdress surrounding her face, although the blades are actually a part of her face.&lt;ref name="dvd130"&gt;{{b|D&amp;D|Die Vecna Die!|pdf=17483|nip=1|page=130}}&lt;/ref&gt; Her body form cannot be determined as she wears long robes, but is presumed to be humanoid. She at least seems to have arms, although they remain tucked into the sleeves of her robe. She never walks, but floats above the city street. The [[Lady's Ward]] (never the "Lady's Ward" always "The Lady's Ward") is named after her, simply because most of her appearances seemed to be in this Ward.&lt;ref name="pscssab79"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=79, Sigil and Beyond}}&lt;/ref&gt;
+
+== History ==
+As far as anyone knows, the Lady has always been part of Sigil. The Guvners and Signers suggest she created the city.
+
+A long time ago, no one is sure when, the Lady was on her rounds, floating through the streets. A little girl ran up to her, big smile on her face, and said something to the Lady. Either the Lady was very moved, or did not notice the young girl at all, but she escaped the encounter unscathed. The event is celebrated annually as the Day of [[Grace]], the Sigilian celebration of the New Year.&lt;ref name="poly127-23"&gt;{{b|Polygon|Polygon Magazine 127|page=23, The Day of Grace: Sigil's New Year Holiday}}&lt;/ref&gt;
+
+At some point in prehistory, the powerful wizard [[Gifad]] attempted a vast spell, woven into the streets of the [[Ward of Masks]], which would grant him control over the city. At the climax of the spell, the Lady appeared, trapping him in a [[Labyrinth Stone]], and telepathically telling him, ''None but you may unlock this jewel, and then only from without. Thus you are snared, till eons hence.'' The gem is then cast into the Lower Planes.&lt;ref name="fw112113"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=112-113}}&lt;/ref&gt;
+
+* Approx [[prehistory|10,000 BFHR]]: The wizard [[Shekelor]] retrieved the Labyrinth Stone and attempted to repeat Gifad's spell, but failed. For his efforts, he was burned from within in front of the [[City Courts]].&lt;ref name="itc73"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=73}}&lt;/ref&gt;&lt;ref name="uncaged63"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=63}}&lt;/ref&gt;&lt;ref name="fw34"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=34}}&lt;/ref&gt;
+
+* [[Prehistory|3373 BFHR]]: Worship of [[Aoskar]], the God of Portals, rises to a degree that people begin to question the Lady's power. She destroys [[Aoskar]], his body left to float lifeless in the [[Astral Plane]]. His [[Shattered Temple|temple]] is shattered, his worship is forbidden, his image eradicated.&lt;ref name="dttu28"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|page=28}}&lt;/ref&gt;
+
+* [[874 BFHR]]: The [[Expansionist]] factol [[Vartus Timlin]] is [[Maze]]d while taking a break from a meeting where he was planning a takeover of Sigil.&lt;ref name="itc73"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=73}}&lt;/ref&gt;&lt;ref name="uncaged42"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=42}}&lt;/ref&gt;&lt;ref name="uncaged89"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=89}}&lt;/ref&gt;
+
+* [[503 BFHR]]: The [[Great Upheaval]]: After the city's 50 [[faction]]s devolved to fighting in the streets, the Lady makes one of her rare pronouncements, delivered via dabus: ''By order of the Lady of Pain, there will be but 15 factions in Sigil. Organize thy colors by a fortnight hence — or die.''
+
+* [[117 YFHR]]: The [[First Eschaton]]: A year of bad omens. People have bad dreams and uneasy visions, the [[Lady of Pain]] make an inauspicious 13 appearances in the short timeframe of 23 days, and [[Mercykiller]] [[Factol]] [[Votohm]] dies under mysterious circumstances.&lt;ref name="fw64"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=64}}&lt;/ref&gt;
+
+* [[121 YFHR]]: The bard [[Trolan]] of [[Ecstasy]] arrives in [[Sigil]] and finds a tavern to perform in. He performs a song of love to the [[Lady of Pain]]. The crowd flees and he's kicked out, with the expectation that the Lady would quickly arrive to dispatch him, but she never does. He's quickly branded Trolan the Mad. The [[Mercykillers]] were ready to deal with him when the [[dabus]] showed up to take him to [[Harbinger House]].&lt;ref name="hh11"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=11}}&lt;/ref&gt;
+
+* [[127 YFHR]]: [[Trolan]] is let out of Harbinger House and is convinced that the Lady loves him back; he starts a cult of worshippers called [[Those Who Love the Lady]]. A gathering of cultists is flayed alive in [[Bloodgem Park]].&lt;ref name="hh31"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=31}}&lt;/ref&gt;
+
+* [[130 YFHR]]: The [[Faction War]]. In an attempt to forestall simmering tensions, the Lady of Pain sends all the factols and other faction leaders to the [[Maze]]s over the course of two weeks, ending with the Mazing of Duke [[Rowan Darkwood]], just as he is about to release the force of the [[Labyrinth Stone]]. It doesn't work; having their leaders vanish only escalates conflict. After a month, she shuts down all the city's portals.&lt;ref name="fw130-131"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=130-131}}&lt;/ref&gt; After the conflict seems to end, portals are reopened, but the Lady makes a new pronouncement: ''This city tolerates your faction no longer. Abandon it or die.'' Unsure if by "it" she means "your faction" or "the city," various factions either splinter, merge, or leave Sigil entirely.&lt;ref name="fw114"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=114}}&lt;/ref&gt;
+
+* [[132 YFHR]]: The Lady is caught between a rock and a hard place as the lich-lord [[Vecna]] exploits a loophole to twist his way into Sigil on his path to godhood. She can do little about his presence directly, but opening the gates to allow other gods entry will upset the balance of the city and perhaps the multiverse. Eventually she puts her faith in a group of mortal adventurers.&lt;ref name="dvd129130"&gt;{{b|D&amp;D|Die Vecna Die!|pdf=17483|nip=1|page=129130}}&lt;/ref&gt;
+
+== Origins ==
+
+No one knows. Hypotheses remain rampant:
+* A greater [[power]]&lt;ref name="pscssab62"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=62, Sigil and Beyond}}&lt;/ref&gt;
+* A reformed [[tanar'ri]] lord&lt;ref name="pscssab62"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=62, Sigil and Beyond}}&lt;/ref&gt;&lt;ref name="ohg52"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|page=52}}&lt;/ref&gt;
+* Hatched from a [[dabus]] egg&lt;ref name="itc22"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=22}}&lt;/ref&gt;
+* A powerful human mage, the first to control [[Sigil]]&lt;ref name="ohg52"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|page=52}}&lt;/ref&gt;
+* A hatchling from a draconic deity&lt;ref name="ohg52"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|page=52}}&lt;/ref&gt;
+* One of the [[Ancient Brethren]]&lt;ref name="dvd129"&gt;{{b|D&amp;D|Die Vecna Die!|pdf=17483|nip=1|page=129}}&lt;/ref&gt;
+
+== Abilities ==
+
+Those who violate her commandments are typically subject to one of two punishments:
+
+* '''Control of all portals''': Every portal in or out of the city exists at the Lady's whim, which explains why fiends haven't overrun the place. She's known to have shut down every portal simultaneously only once, during the [[Faction War]].
+* '''They're sent to the [[Maze]]s''': if the target is walking through the city alone, that portion of the city will be taken, multiply in size and warp back in on itself to form a maze, and then cast into the [[Ethereal plane]] as a [[demiplane]].
+* '''Flaying flesh''': The Lady makes a physical appearance. Either her gaze or the edges of her passing shadow will flay the flesh of the target.
+* '''Time manipulation''', possibly
+
+Those who worship her tend to get flayed, while other infractions typically result in getting Mazed. It's arguable whether flaying is better or worse than centuries of being trapped in a Maze alone.
+
+Her ability to flay with her presence may be beyond her control; the streets certainly empty out quickly when she passes, just in case.
+
+Curiously, about [[prehistory|10,000]] years ago when the wizard [[Shekelor]] attempted his takeover of Sigil, his journey ended with him burning from within in front of the [[City Courts]], so it's possible the Lady wasn't always able to create Mazes.
+
+The Lady seems to have some awareness of and ability to manipulate time, although this ability was ultimately only witnessed by Duke [[Rowan Darkwood]] and the wizard [[Gifad]].
+
+== Background Information ==
+* The Lady's ability to copy a portion of Sigil and spin it off into a [[demiplane]] in the [[Ethereal plane]] in order to imprison an individual is similar to the [[w:c:ravenloft:Dark Powers|Dark Powers]]' ability to copy a portion of the [[Prime Material plane]] and spin it off into a domain of [[w:c:ravenloft:Ravenloft|Ravenloft]] in the Ethereal in order to imprison an individual. Given the first known domain formed in approximately [[272 BFHR]], well after the first known Maze, it's possible the Dark Powers learned this ability from the Lady.
+* [[File:LadyKnutsonSketchbook.jpg|thumb|right]] The Lady of Pain's face was chosen as the signature image for Planescape, as a shorthand for its logo. This appears to have been an early design decision, as various shapes for the Lady's head were considered specifically for the logo in [[Dana Knutson]]'s [[Planescape Sketchbook]]. It can be found throughout Planescape material.
+* The Lady of Pain's alignment was described as [[Lawful neutral]] in some sources&lt;ref name="ettdp14"&gt;{{b|D&amp;D|Expedition to the Demonweb Pits|pdf=54341|nip=1|page=14}}&lt;/ref&gt;, but this has been contested as unbefitting to the ruler of a realm at the center of the neutral [[Outlands]].
+
+== Gallery ==
+&lt;gallery&gt;
+LadyofPainSymbol2e.png|Lady of Pain symbol, by [[Cindy Jackson]], [[Dennis Kauth]]
+LadyofPainDiTerlizzi.jpg|The Lady of Pain, by [[Tony DiTerlizzi]]
+LadyofPainDanaKnutson.jpg|The Lady of Pain, by [[Dana Knutson]]
+LadyofPainNedDameron.jpg|The Lady of Pain's shadow flaying [[Those Who Love the Lady]], by [[Ned Dameron]]
+LadyofPainAdamRex.jpg|The Lady of Pain and [[dabus]] confronting Duke [[Rowan Darkwood]], by [[Adam Rex]]
+&lt;/gallery&gt;
+
+&lt;gallery&gt;
+LadyofPainSymbolPST.png|Lady of Pain symbol
+LadyofPainPSTJournal.jpg|The Lady of Pain journal profile, ''Planescape: Torment''
+LadyofPainSprite.gif|Unused Lady of Pain sprite, ''Planescape: Torment''
+&lt;/gallery&gt;
+
+&lt;gallery&gt;
+LadyofPain5eSymbolClaudioPozas.jpg|Lady of Pain symbol for 5e by [[Claudio Pozas]]
+LadyofPain5eAlienDiterlizzi.jpg|Early Lady of Pain design for 5e by [[Tony DiTerlizzi]]
+LadyofPain5eSketchDiterlizzi.jpg|Lady of Pain sketch for 5e by [[Tony DiTerlizzi]]
+LadyofPain5eInkDiterlizzi.jpg|Lady of Pain sketch for 5e partly inked by [[Tony DiTerlizzi]]
+LadyofPain5eIllusDiterlizzi.jpg|Lady of Pain illustration for 5e by [[Tony DiTerlizzi]]
+LadyofPain5eRedesignDiterlizzi.jpg|Final Lady of Pain redesign for 5e by [[Tony DiTerlizzi]]
+LadyRobeConceptMaxDunbar.jpg|Concept art: The Lady's robes, designed by [[Max Dunbar]]
+LadyofPainTylerJacobson.jpg|Lady of Pain by [[Tyler Jacobson]]
+&lt;/gallery&gt;
+
+
+== References ==
+
+* 2nd Edition
+** {{b|Planescape|Planescape Campaign Setting|pdf=17267|page=47, DM's Guide to the Planes}}
+** {{b|Planescape|Planescape Campaign Setting|pdf=17267|page=62, Sigil and Beyond}}
+** {{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=23}}
+
+{{scroll|&lt;references /&gt;}}
+
+
+[[Category:Creatures]]</text>
+      <sha1>padckoavrijyokqugw60cyd3rebk2hx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Language Primeval</title>
+    <ns>0</ns>
+    <id>2922</id>
+    <revision>
+      <id>5351</id>
+      <timestamp>2024-04-18T02:34:24Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5351</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1220" sha1="l7gv9894xn9yumazav9ydicj4ha0pdb" xml:space="preserve">The '''Language Primeval''' is an inherently magical language spoken by the [[Ancient Brethren]], the [[Elder]]s, and other semimythical races that walked the planes when most worlds were young or yet unborn.&lt;ref name="dvd2"&gt;{{b|D&amp;D|Die Vecna Die!|pdf=17483|page=2}}&lt;/ref&gt;
+
+The three words of ''Creation Once Spoken'' are perhaps the most powerful utterance in the Language.
+
+[[Iuz]] enacted a ritual written in the Language Primeval which would allow one [[power|demi-power]] to steal power from another, creating a full god. However, the ritual was a lie created by [[Vecna]]: Iuz was instead fully absorbed by [[Vecna]], turning the latter into a Greater Power.&lt;ref name="dvd3"&gt;{{b|D&amp;D|Die Vecna Die!|pdf=17483|page=3}}&lt;/ref&gt;
+
+When Vecna was ejected from [[Sigil]] a short time later, the [[Lady of Pain]] shored up the wards of the city to prevent another power trying to "cheat" their way into the city in the same way Vecna did, and in so doing, she shored up the sum of all creation, [[superspace]]. It is the first time she spoke out loud in millennia, rather than through her [[dabus]].&lt;ref name="dvd151"&gt;{{b|D&amp;D|Die Vecna Die!|pdf=17483|page=151}}&lt;/ref&gt;
+
+== References ==
+
+&lt;references /&gt;
+
+[[Category:Language]]</text>
+      <sha1>l7gv9894xn9yumazav9ydicj4ha0pdb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Last Kiss Blossom</title>
+    <ns>0</ns>
+    <id>2938</id>
+    <revision>
+      <id>5413</id>
+      <timestamp>2024-05-23T04:52:38Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5413</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="659" sha1="7dbbg3leph9k5iyv4k65pmq6l0s9p9k" xml:space="preserve">The '''Last Kiss Blossom''' is a delicate flower which is only known to grow in one place: one of the islets in the delta of [[Suicide Falls]], the downward terminus of the [[Ditch]].
+
+The petals of the blossom are blush-coloured and resemble two painted lips kissing each other.
+
+Rumours persist that a couple jumping over Suicide Falls with a Blossom touched to their lips will find themselves in the [[Hinterlands]] having found their heart's desire.
+
+The Blossom is not particularly valuable medicinally other than as a mild laxative.
+
+
+== References ==
+; 2nd Edition
+* {{b|Polyhedron|Polyhedron Magazine 137|page=14}}
+
+&lt;references /&gt;
+
+[[Category:Plants]]</text>
+      <sha1>7dbbg3leph9k5iyv4k65pmq6l0s9p9k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Legends &amp; Lore (2nd edition)</title>
+    <ns>0</ns>
+    <id>3347</id>
+    <revision>
+      <id>7097</id>
+      <timestamp>2025-09-07T12:46:25Z</timestamp>
+      <contributor>
+        <username>BadCatMan</username>
+        <id>3030475</id>
+      </contributor>
+      <comment>Created page with "{{Book | image        = LegendsLore.jpg | caption      =  | code         = 2108 | title        = Legends &amp; Lore | author       = [[James M. Ward]], [[Troy Denning]] | editor       = [[William O'Connor]] | publisher    = [[TSR, Inc.]] | volume       =  | type         = Accessory | languages    =  | reprinted    =  | cover_artist = [[Jeff Easley]] | inter_artist =  | cartography  = [[David Sutherland]], [[John Knecht]] | typography   =  | realm year   =  | setting      =..."</comment>
+      <origin>7097</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5821" sha1="qc25irovfgns9xzlwnr60de9wfqvfnx" xml:space="preserve">{{Book
+| image        = LegendsLore.jpg
+| caption      = 
+| code         = 2108
+| title        = Legends &amp; Lore
+| author       = [[James M. Ward]], [[Troy Denning]]
+| editor       = [[William O'Connor]]
+| publisher    = [[TSR, Inc.]]
+| volume       = 
+| type         = Accessory
+| languages    = 
+| reprinted    = 
+| cover_artist = [[Jeff Easley]]
+| inter_artist = 
+| cartography  = [[David Sutherland]], [[John Knecht]]
+| typography   = 
+| realm year   = 
+| setting      = 
+| game_edition = 2
+| edition1     = &lt;!-- leave blank if there is only one --&gt;
+| binding1     = Hardback
+| released1    = August, 1990
+| pages1       = 192
+| isbn10-1     = 0880388447
+| isbn13-1     = 978-0880388443
+| cite1        = 
+| edition2     = 
+| binding2     = 
+| released2    = 
+| pages2       = 
+| isbn10-2     = 
+| isbn13-2     = 
+| cite2        = 
+| edition3     = 
+| binding3     = 
+| released3    = 
+| pages3       = 
+| isbn10-3     = 
+| isbn13-3     = 
+| cite3        = 
+| edition4     = 
+| binding4     = 
+| released4    = 
+| pages4       = 
+| isbn10-4     = 
+| isbn13-4     = 
+| cite4        = 
+| edition5     = 
+| binding5     = 
+| released5    = 
+| pages5       = 
+| isbn10-5     = 
+| isbn13-5     = 
+| cite5        = 
+| series       = 
+| preceded_by  = 
+| followed_by  = 
+| source       = [http://www.dmsguild.com/product/116010/Legends-%26-Lore-%282e%29?affiliate_id=4782917 DMs Guild]
+| Roll20number = 116010
+| citetitle    = Legends &amp; Lore 2nd edition
+}}
+'''''Legends &amp; Lore''''' is a 2{{nd}}-edition ''Advanced Dungeons &amp; Dragons'' accessory that covers the mythology and legends of Earth within a ''Dungeons &amp; Dragons'' setting.
+{{Quote|This revised and updated version of the classic AD&amp;D&lt;sup&gt;&amp;reg;&lt;/sup&gt; game accessory provides essential reference material for Dungeon Masters and players alike. Legends &amp; Lore describes the deities, heroes, and monsters of several different historical, literary, and mythological cultures.|Front-cover text}}
+{{Quote|Add the grandeur of epic adventure to your AD&amp;D&lt;sup&gt;&amp;reg;&lt;/sup&gt; game! ''Legends &amp; Lore'' has now been revised for use with the AD&amp;D 2nd Edition rules and expanded to 192 pages! It describes dozens of deities, heroes, and monsters from 11 different cultures. Special attention has been paid to the priests who worship the deities in this book. Each entry outlines the powers and spells granted to followers of a specific faith. In addition, you'll learn about the cultures that worship the deities within and be provided with new spells, magic items, and character classes. The revised ''Legends &amp; Lore'' is a vital reference work for every serious AD&amp;D game player!|Back-cover text}}
+
+==Description==
+''Legends &amp; Lore'' is a comprehensive compendium that explores the mythology and folklore of various cultures, repurposing them for use in ''Advanced Dungeons &amp; Dragons''.
+
+''Legends &amp; Lore'' is an expansion and revision of the earlier work ''[[Deities &amp; Demigods 1st edition|Deities &amp; Demigods]]'', which was first published in 1980. This newer edition, curated by [[James M. Ward]] and [[Troy Denning]], includes expanded content and introduces a number of changes to the format and presentation of the mythological figures, making them more accessible and usable for Dungeon Masters. The book is structured to present each pantheon separately, covering a range of cultures including Norse, Greek, Egyptian, and many others, as well as fictional pantheons created specifically for ''Advanced Dungeons &amp; Dragons''.
+
+''Legends &amp; Lore'' presented a refined selection of content compared to its predecessor, with certain segments, notably those detailing Babylonian, Finnish, Sumerian, and non-humanoid deities, being completely removed. The categorization of mythologies was also adjusted, with the Central American mythos being rebranded as the Aztec mythos, although the Nehwon mythos was preserved. In response to the exclusion of non-human deities from this edition, a subsequent publication titled ''[[Monster Mythology]]'' was released, which offered an in-depth exploration of these divine entities, surpassing the detail found in earlier sources and introducing a variety of new deities.
+
+==Contents==
+* Introduction
+* American Indian Mythology
+* Arthurian Mythology
+* Aztec Mythology
+* Celtic Mythology
+* Chinese Mythology
+* Egyptian Mythology
+* Greek Mythology
+* Indian Mythology
+* Japanese Mythology
+* Newhwon Mythology
+* Norse Mythology
+
+==Gallery==
+&lt;gallery&gt;
+Legends &amp; Lore 2e 1st print Back Cover.jpg|'' 1st Print Back Cover''
+Legends &amp; Lore 2e 2nd print Back Cover.jpg|'' 2nd Print Back Cover''
+&lt;/gallery&gt;
+
+==Credits==
+* '''Designed:''' Troy Denning and James M. Ward
+* '''Additional Design:''' Timothy B. Brown and William W. Connors
+* '''Edited:''' William W. Connors
+* '''Black &amp; White Art:''' George Barr and Terry Dykstra
+* '''Color Art:''' Erol Otis, Erik Olsen. Jean Elizabeth Martin. Jeff Easley, Carol Heyer. Roger Loveless, John &amp; Laura Lakey, and Keith Parkinson
+* '''Icons:''' Steven Sullivan
+* '''Graphic Design:''' Stephanie Tabat
+* '''Keylining:''' Sarah Feggestad and Paul Hanchette
+* '''Typesetting:''' Gaye O'Keefe
+* '''Cartography:''' 
+** '''Suprv./Designer:''' David Sutherland
+** '''Artist:''' John Knecht
+* '''Special Thanks:'''  Gaye O'Keefe, Karen Boomgarden, Timothy B. Brown, Dale A.Donovan, Blake Mobley, Bruce Nesmith, Steven Schend, and Dale "'Slade'" Henson
+
+==Appendix==
+===See Also===
+* [[:Category:Images from Legends &amp; Lore 2nd edition|Images from Legends &amp; Lore (2nd edition)]]
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild}}
+* {{DriveThruRPG}}
+* [https://rpggeek.com/rpgitem/48169/legends-lore RPGGeek]
+
+===References===
+{{refs}}
+[[Category:Sourcebooks]]
+[[Category:2nd edition sourcebooks]]
+[[Category:Works by James Ward]]
+[[Category:Works by Troy Denning]]
+[[Category:Published in 1990]]</text>
+      <sha1>qc25irovfgns9xzlwnr60de9wfqvfnx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Library of All Knowledge</title>
+    <ns>0</ns>
+    <id>1664</id>
+    <revision>
+      <id>2508</id>
+      <parentid>2507</parentid>
+      <timestamp>2023-08-09T01:13:55Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2507</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3825" sha1="a127qi7041phhdnxlwp2g1f578i921s" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Library of All Knowledge
+| othernames        = 
+| symbol            = Beastlands.png
+| demonym           = 
+| natives           = [[Deneir]], [[Milil]], [[petitioner]]s, [[Proxy|proxies]]
+| languages         = 
+| basicrefs         = 
+| type-GW           = Realm
+| shape-size-GW     = 
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = [[Brux]]
+| refs-GW           = &lt;ref&gt;{{Cite book/On Hallowed Ground|181}}&lt;/ref&gt;&lt;ref name="F&amp;A-54"&gt;{{Cite book/Faiths &amp; Avatars|54, 116}}&lt;/ref&gt;&lt;ref name="PoC-13"&gt;{{Cite book/Planes of Conflict/Liber Benevolentiae|13}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = Realm
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = [[Neutral good]]
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = the [[House of Knowledge (plane)|House of Knowledge]]
+| refs-WT           = &lt;ref name="PGtF-158"&gt;{{Cite book/Player's Guide to Faerûn|158}}&lt;/ref&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = 
+| organizations     = 
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Library of All Knowledge''' was the joint [[divine realm]] of the [[Faerûnian pantheon|Faerûnian deities]] [[Deneir]] and [[Milil]] within the [[Great Wheel cosmology]]. It was located in [[Brux]], the twilit second layer of the [[Happy Hunting Grounds|Beastlands]].&lt;ref name="F&amp;A-54"/&gt;&lt;ref&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|53}}&lt;/ref&gt;&lt;ref&gt;{{Cite book/Planes of Conflict/Liber Benevolentiae|10}}&lt;/ref&gt;
+
+==Inhabitants==
+Aside from the [[petitioner]]s striving for union with their respective deity, several [[Proxy|proxies]] inhabited the Library. Foremost among these was the [[human]] [[Tomas Bookbinder]] (at least as far as Deneir was concerned).&lt;ref name="PoC-13"/&gt;&lt;ref&gt;{{Cite book/Planescape Campaign Setting/A Player's Guide to the Planes|9}}&lt;/ref&gt;
+
+==Rumors &amp; Legends==
+Servants of the resident powers were able to quickly reach their common superior, [[Oghma]], in his [[House of Knowledge]] on the [[Outlands]], if the need arose. Thus it was assumed that there was a portal close by to connect the two places.&lt;ref name="PoC-13"/&gt;
+
+==History==
+From the perspective of the [[World Tree cosmology]], which became dominant after the [[Year of Wild Magic]], Deneir and Milil were seen as residing together with Oghma and [[Gond]] in the [[celestial plane]] called the [[House of Knowledge (plane)|House of Knowledge]].&lt;ref&gt;{{Cite book/FRCS|256-258}}&lt;/ref&gt; The various buildings within that plane, however, were still collectively known as the Library of All Knowledge. They supposedly held all lore, songs, spells and even magic items of the universe.&lt;ref name="PGtF-158"/&gt;
+
+==Appendix==
+===Appearances===
+:;Novels
+::''[[Tymora's Luck]]''
+
+===References===
+{{Refs}}
+===Connections===
+{{Beastlands}}
+[[Category:Divine realms]]
+[[Category:Libraries]]
+[[Category:Buildings]]
+[[Category:Locations in the Beastlands (plane)]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations in the House of Knowledge]]
+[[Category:Locations in the Celestial planes]]
+[[Category:Locations in the World Tree planes]]
+[[Category:Locations]]
+[[Category:Locations in the Upper Planes]]</text>
+      <sha1>a127qi7041phhdnxlwp2g1f578i921s</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lim-Lim</title>
+    <ns>0</ns>
+    <id>3310</id>
+    <revision>
+      <id>6916</id>
+      <timestamp>2025-08-07T17:52:56Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>6916</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2499" sha1="tfi4402nkbea0no44dbdlna8ma0pyer" xml:space="preserve">{{Creature
+| image     = &lt;gallery&gt;
+LimLim.jpg|2e
+&lt;/gallery&gt;
+| caption2     = Lim-Lim
+| name         = Lim-Lim
+| size5e       = 
+| type5e       = 
+| subtype5e    = 
+| alignment5e  = 
+| challenge5e  = 
+| refs5e       = 
+| size4e       = 
+| origin4e     = 
+| type4e       = 
+| subtype4e    = 
+| alignment4e  = 
+| refs4e       = 
+| size3e       = 
+| type3e       = 
+| subtype3e    = 
+| alignment3e  = 
+| challenge3e  = 
+| refs3e       = 
+| size2e       = 
+| alignment2e  = [[Neutral]]{{Nil-alignment}}
+| refs2e       = 
+| size1e       = 
+| alignment1e  = 
+| refs1e       = 
+| patron deity = 
+| movement     = 
+| vision       = 
+| activecycle  = 
+| diet         = 
+| lifespan     = 
+| location     = [[Sigil]], the [[Outlands]]
+| language     = 
+| subraces     = 
+| climate      = 
+| terrain      = 
+| genrefs      = 
+| height       = 
+| length       = 
+| wingspan     = 
+| weight       = 5
+| skincolor    = Green
+| haircolor    = 
+| hairstyles   = 
+| feathers     = 
+| eyecolor     = 
+| build        = 
+| distinctions = 
+| appearrefs   = 
+| first        = {{b|Torment|Planescape: Torment}}
+| based        = 
+| histrefs     = 
+| othernames   = 
+}}
+
+A '''Lim-Lim''' is a small creature, originally found in the Outlands. Approximately the size of a small dog, their appearance seems to be a cross between a frog and an insect. Their mouths are curved, as though they're always smiling. They are very loyal and friendly, and enjoy being petted. They make a "piyo! piyo!" sound.
+
+A merchant in the [[Marketplace Area]] of the [[Hive]] is known to sell them.
+
+== Planescape: Torment ==
+
+When spoken to in the inventory, the [[Nameless One]] can interact with it: playing with it, setting it down to run around freely, or kicking it. If set down, it will act as a companion, and will attack any nearby enemies.
+
+{{NPC|Marissa||female|medusa|||Society of Sensation|}} can optionally turn one to [[stone Lim-Lim|stone]] for {{NPC|Giltspur||male|human||||}}.
+
+== Background Information ==
+
+* Lim-Lims are named after {{b|Torment|Planescape: Torment}} artist [[James Lim]].
+* When designing {{b|Planescape|Planescape: Adventures in the Multiverse}}, creators rolled together the previous depiction of [[sunfly|sunflies]] (an upper-planar creature from {{b|Planescape|Planescape Monstrous Compendium Appendix II}}) with Lim-Lims.&lt;ref name="ps5monsters"&gt;[https://youtu.be/A70b0X2hgzs?t=192 "Guide to Planescape Monsters | Deep Dive" on the Dungeons &amp; Dragons YouTube Channel]&lt;/ref&gt;
+
+== References ==
+
+&lt;references /&gt;</text>
+      <sha1>tfi4402nkbea0no44dbdlna8ma0pyer</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Limbo</title>
+    <ns>0</ns>
+    <id>280</id>
+    <revision>
+      <id>2166</id>
+      <parentid>2165</parentid>
+      <timestamp>2023-08-09T01:03:13Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>907</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13009" sha1="61d0i8xvfm48y1a28tb8gf5kqkfgdmf" xml:space="preserve">{{Plane
+| image             = DMG5e_-_Limbo_-_Aleksi_briclot_-_p61.jpg
+| caption           = The mass chaos of Limbo.
+| name              = Limbo
+| othernames        = 
+| symbol            = Limbo.png
+| demonym           = 
+| natives           = [[Slaad]]i, [[githzerai]]
+| languages         = 
+| color-pool-color  = Jet
+| color-pool-image  = ColorPoolLimbo.png
+| fork-material     = [[Nickel]]
+| fork-note         = C
+| fork-audio        = C5.ogg
+| basicrefs         = &lt;ref name="MotP1e-98"&gt;{{Cite book/Manual of the Planes 1st edition|98}}&lt;/ref&gt;&lt;ref name="Dr120-p42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;&lt;ref name="MotP1e-62"&gt;{{Cite book/Manual of the Planes 1st edition|62}}&lt;/ref&gt;&lt;ref name="MotP3e-p49"&gt;{{Cite book/Manual of the Planes 3rd edition|49}}&lt;/ref&gt;&lt;ref name="DMG5e-p47"&gt;{{Cite book/Dungeon Master's Guide 5th edition|47}}&lt;/ref&gt;
+| type-GW           = [[Outer plane]]
+| shape-size-GW     = Five infinite layers
+| gravity-GW        = Subjective Directional: normal when touching a solid object, otherwise No Gravity
+| time-GW           = Normal
+| morphic-GW        = Highly
+| element-energy-GW = Air-Earth-Fire-Water-Dominant, in pockets
+| alignment-GW      = {{alignment grid|off|off|off|off|off|on|off|off|off}}
+| magical-GW        = Normal, but semi-permanent
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="MotP1e-98" /&gt;&lt;ref name="MotP1e-73"&gt;{{Cite book/Manual of the Planes 1st edition|73}}&lt;/ref&gt;&lt;ref name="MotP1e-75"&gt;{{Cite book/Manual of the Planes 1st edition|75}}&lt;/ref&gt;&lt;ref name="MotP1e-97"&gt;{{Cite book/Manual of the Planes 1st edition|97}}&lt;/ref&gt;&lt;ref name="MotP3e-p92-96"&gt;{{Cite book/Manual of the Planes 3rd edition|92-96}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| based             = [[wikipedia:en:Limbo|Limbo]] (Catholic)
+| usethe            = 
+| useon             = 
+}}
+The '''Ever-Changing Chaos of Limbo''' was an [[Outer plane]] in the [[Great Wheel cosmology]] model that embodied the [[chaotic neutral]] alignment.&lt;ref name="DMG5e-p58"&gt;{{Cite book/Dungeon Master's Guide 5th edition|58}}&lt;/ref&gt;&lt;ref name="MotP1e-73" /&gt;
+
+The plane of [[Warrior's Rest]] in the [[World Tree cosmology]] was similar to Limbo in many ways but not quite as morphic.&lt;ref name="PGtF-169"&gt;{{Cite book/Player's Guide to Faerûn|169}}&lt;/ref&gt; The [[batrachi]] formed a realm in Limbo called the [[Supreme Throne]]&lt;ref name="GHR5"&gt;{{Cite book/The Grand History of the Realms|5}}&lt;/ref&gt; which became its own plane in the World Tree cosmology model.&lt;ref name="PGtF-163"&gt;{{Cite book/Player's Guide to Faerûn|163}}&lt;/ref&gt; Limbo was lost during the [[Spellplague]] and may have fallen into the [[Elemental Chaos]].&lt;ref group="note"&gt;This statement is partially speculation, but according to [http://community.wizards.com/go/thread/view/75882/19777426/The_one_and_only_34;Ask_the_Realms_authorsdesigners_thread34;_3?pg=346 this comment] on page 346 of the One and Only Ask the Realms Designers Thread, Limbo just vanished. Also, on page 15 of the [[Manual of the Planes 4th edition]], it compares Limbo with the Elemental Chaos. Furthermore, on page 274 of the [[Monster Manual 5th edition]], the Ever-Changing Chaos of Limbo is described as "a tumult of fire, water, earth, and wind".&lt;/ref&gt;
+
+{{Quote
+|Breathe the fire;&lt;br/&gt; Walk the air;&lt;br/&gt; Drink the earth;&lt;br/&gt; Warm your hands at the water.
+|A [[petitioner]]'s greeting to Limbo.&lt;ref name="PoC-TT-p25"&gt;{{Cite book/Planes of Chaos/The Travelogue|25}}&lt;/ref&gt;
+}}
+
+==Description==
+This plane was supreme chaos, a twisting, quicksilver place filled with bits and pieces of rocks, trees, the four elements, entire landscapes, strong winds, and random pockets of liquid, solid, or gas. Sentient beings could dampen down the chaos to livable levels and produce a safe environment as long as they maintained concentration. The size of a safe zone was directly related to the intelligence of the individual controller.&lt;ref name="MotP1e-97" /&gt; [[Demigod]]s and more powerful beings did not have this burden and indeed could create realms that survived even if they left Limbo.&lt;ref name="MotP1e-98" /&gt; Gravity operated only between solid objects that touched each other and had about the same strength as on most [[Prime Material Plane]]s. Thrown objects would fly straight until they hit a solid object. Objects with no momentum would hang in space until contacted by something solid.&lt;ref name="MotP1e-97" /&gt;
+
+As described by the [[Great Wheel cosmology]], Limbo had five layers that were nearly indistinguishable from each other. The first four layers were named for the chief race or deity that were most often found there. The fifth layer was referred to as the layer of Lost Gods.&lt;ref name="MotP1e-98" /&gt;
+
+A branch of [[Yggdrasil]], the World Ash, connected [[Ysgard (layer)|the first layer]] of [[Ysgard]] to Limbo. It was a trajectory regularly chosen by the [[Great Modron March]].&lt;ref name="GMM2e-p62"&gt;{{Cite book/The Great Modron March|62}}&lt;/ref&gt;
+
+A rare type of substance was exported out of Limbo called shiftspice. It was sold in small packets and consumed through dipping and licking wetted fingers. Each dip tasted differently. This exotic spice could be purchased as far from Limbo as [[Sigil]], the City of Doors.&lt;ref name="PST"&gt;{{Cite game/Planescape: Torment}}&lt;/ref&gt;
+
+===Gith and Slaad===
+{{/Imagemap}}
+{{Main|Gith and Slaad}}
+{{quote|''There, we mold the matter of Limbo with our minds. We forge cities with our thoughts. In its chaos we dwell, with only our '''knowing''' to preserve us. We are the [[githzerai]].''|Dak'kon&lt;ref name="pst"&gt;{{Cite game/Planescape: Torment}}&lt;/ref&gt;}}&lt;br/&gt;
+The [[slaad]] were likely natives of Limbo and the [[githzerai]] were immigrants (or refugees, if you ask the [[githyanki]]) and the first layer was named for them.&lt;ref name="MotP1e-98" /&gt; This layer was strategically important because of its connections to [[Gladsheim]], [[Concordant Opposition]], [[Pandemonium]], and the [[Astral plane]].
+===Susanowo===
+Named after a deity from the country of Japan on [[Earth]],&lt;ref name="DD1e-84"&gt;{{Cite book/Deities &amp; Demigods 1st edition|84}}&lt;/ref&gt; he ruled a spherical bubble half filled with sea water and aquatic life and churned by storms of his making.&lt;ref name="MotP1e-99"&gt;{{Cite book/Manual of the Planes 1st edition|99}}&lt;/ref&gt;
+===Agni===
+Named after a deity from the country of India on [[Earth]],&lt;ref name="DD1e-76"&gt;{{Cite book/Deities &amp; Demigods 1st edition|76}}&lt;/ref&gt; he resided in a sphere of pure flame that floated through the layers at his will.&lt;ref name="MotP1e-99" /&gt;
+===Indra===
+Also from India,&lt;ref name="DD1e-75"&gt;{{Cite book/Deities &amp; Demigods 1st edition|75}}&lt;/ref&gt; Indra's sphere was half filled with enchanted milk and his palace stood on an island-sized tortoise (or possibly a tortoise-shaped island).&lt;ref name="MotP1e-99" /&gt;
+
+===Lost Gods===
+It was unknown if any race or deity favored this layer.&lt;ref name="MotP1e-98" /&gt;
+
+==Cosmology==
+[[File:Githzerai_limbo_fortress-5e.jpg|thumb|300px|''A githzerai fortress city.'']]
+===Afterlife===
+{{Main|Afterlife}}
+When souls arrived in the plane of Limbo, they were not allowed to manifest in some form but rather were absorbed into the matter of the plane. Occasionally a collection of spirits would become powerful enough to form what was called a ''chaos elemental'', not to be confused with a being from the [[elemental planes]].&lt;ref name="MotP1e-99" /&gt;
+
+==History==
+According to a thrall captured by [[mind flayer]]s of [[Oryndoll]] beneath [[Andalbruin]], Limbo was the plane to which the [[batrachi]] retreated in {{Yearlink|-31500}}. There, they founded a realm called the [[Supreme Throne]].&lt;ref name="GHR5" /&gt; [[Cyric]], as a result of his insanity, forcefully moved the fortress into his own [[divine realm]], which became a [[fiendish plane]] according to the [[World Tree cosmology]],&lt;ref name="PGtF-163" /&gt; or a realm in [[Cocytus]] according to the [[Great Wheel cosmology]].&lt;ref name="OHG2e-p168"&gt;{{Cite book/On Hallowed Ground|168}}&lt;/ref&gt;&lt;ref name="FA2e-p51-52"&gt;{{Cite book/Faiths &amp; Avatars|51-52}}&lt;/ref&gt;
+
+==Notable Locations==
+{{fq
+| text   = You want a map of Limbo.&lt;br /&gt;Uh huh.&lt;br /&gt;I suppose you want to know the [[Lady of Pain]]'s address too.&lt;br /&gt;I'd give it to you, but I promised her I wouldn't.
+| source = [[Factol]] [[Karan]] of the [[Xaositects]]&lt;ref name="GMM2e-p64"&gt;{{Cite book/The Great Modron March|64}}&lt;/ref&gt;
+| float  = 
+| width  = 
+}}
+The realms of the powers that resided in Limbo floated through the various layers at will and so are listed here in no particular order.
+* The slaad lords [[Ssendam]] and [[Ygorl]] maintained realms most often found in the first layer but away from areas not under their control. Ssendam's citadel is a golden castle, while Ygorl's realm is a chain of carved spheres that whirl about.&lt;ref name="MotP1e-99" /&gt;
+* The githzerai formed [[hamlet]]s, [[village]]s, and one large city out of the chaos, known as the Floating City or [[Citadel of Gith]] ruled by [[Zaerith Menyar-Ag-Gith]] (the Great Githzerai).&lt;ref name="MotP1e-99" /&gt;
+* ''[[Fennimar]]'' was the realm of [[Fenmarel Mestarine]] before moving to [[Arvandor]].&lt;ref name="DD-111"&gt;{{Cite book/Demihuman Deities|111}}&lt;/ref&gt;&lt;ref name="PGtF-143"&gt;{{Cite book/Player's Guide to Faerûn|143}}&lt;/ref&gt; [[Shevarash]], the Black Archer, also often stayed there.&lt;ref name="DD-129"&gt;{{Cite book/Demihuman Deities|129-130}}&lt;/ref&gt;
+* [[Targus]], the [[Netherese]] god of war, lived here,&lt;ref&gt;{{Cite book/Netheril: Empire of Magic/Encyclopedia Arcana|33}}&lt;/ref&gt; before moving to [[Pandemonium]] under his new name of Garagos.&lt;ref&gt;{{Cite book/Powers &amp; Pantheons|18}}&lt;/ref&gt;
+* [[Tempus]] Foehammer, Lord of Battles once lived in Limbo.&lt;ref name="CotR-15"&gt;{{Cite book/Cyclopedia of the Realms|15}}&lt;/ref&gt;&lt;ref name="FRA-32"&gt;{{Cite book/Forgotten Realms Adventures|32}}&lt;/ref&gt; ''Knight's Rest'' was the name of his realm&lt;ref name="F&amp;A-158"&gt;{{Cite book/Faiths &amp; Avatars|158}}&lt;/ref&gt; which later became its own plane named [[Warrior's Rest]] in the [[World Tree cosmology]] model.&lt;ref name="PGtF-164"&gt;{{Cite book/Player's Guide to Faerûn|164}}&lt;/ref&gt;
+* [[Leira]], the Lady of the Mists, once made her home called the [[Courts of Illusion]] here.&lt;ref name="CotR-11"&gt;{{Cite book/Cyclopedia of the Realms|11}}&lt;/ref&gt;&lt;ref name="FRA-23"&gt;{{Cite book/Forgotten Realms Adventures|23}}&lt;/ref&gt;&lt;ref name="F&amp;A-93"&gt;{{Cite book/Faiths &amp; Avatars|93}}&lt;/ref&gt;
+* [[Tapann]], the patron deity of [[korred]]s once made his home here.&lt;ref name="D119"&gt;{{Cite dragon/119/The Ecology of the Korred}}&lt;/ref&gt;
+* [[Mystryl]], the Mother of All Magic, lived on this plane in her domain called [[Dweomertor]]&lt;ref&gt;{{Cite book/Netheril: Empire of Magic/The Winds of Netheril|49}}&lt;/ref&gt; until her death in {{Yearlink|-339}}.&lt;ref&gt;{{Cite book/Netheril: Empire of Magic/The Winds of Netheril|12}}&lt;/ref&gt;
+* [[Astilabor]], the Hoardmistress of the [[Draconic pantheon]], was reputed to have a lair hidden somewhere in Limbo that contained more wealth than that found on all the planets of [[Realmspace]].&lt;ref&gt;{{Cite book/Draconomicon (1990)|25}}&lt;/ref&gt;&lt;ref name="CotD-120"&gt;{{Cite book/Cult of the Dragon|120}}&lt;/ref&gt;&lt;ref group="note"&gt;The more recent but Core source ''[[Races of the Dragon]]'' places Astilabor in the [[Outlands]] instead.&lt;/ref&gt;
+* [[Kereska]], the draconic "Light of Magic", resided in Limbo.&lt;ref&gt;{{Cite book/Draconomicon (1990)|25}}&lt;/ref&gt;&lt;ref name="CotD-120"/&gt;
+* [[Agni]], the chaotic Vedic [[fire]] deity, had a mutable realm named [[Swarga]] here together with his fellow [[Lords of Creation]] [[Indra]] and [[Vayu]].&lt;ref&gt;{{Cite book/On Hallowed Ground|154-155}}&lt;/ref&gt;&lt;ref&gt;{{Cite book/Kara-Tur: The Eastern Realms/Volume II|105}}&lt;/ref&gt;
+
+==Appendix==
+===Notes===
+{{Notes}}
+===Gallery===
+&lt;gallery&gt;
+Githzerai limbo.png|A ''[[githzerai]] in Limbo.''
+Limbo POD.jpg|''The plane of Limbo from [[Pools of Darkness (game)|Pools of Darkness]].''
+&lt;/gallery&gt;
+
+===Appearances===
+:;Novels
+::{{refonly}}
+::&lt;small&gt;''[[The Glass Prison]]'' &amp;bull; ''[[Tymora's Luck]]''&lt;/small&gt;
+:;Video Games
+::''[[Pools of Darkness (game)|Pools of Darkness]]''
+::{{refonly}}
+::&lt;small&gt;''[[Planescape: Torment]]'' &amp;bull; ''[[Baldur's Gate III]]''&lt;/small&gt;
+===References===
+{{Refs}}
+===Connections===
+{{Limbo}}
+{{Cosmologies}}
+[[Category:Planes of existence]]
+[[Category:Outer Planes]]
+[[Category:Great Wheel planes]]
+[[Category:Planes of chaos]]
+[[Category:Locations on Yggdrasil]]
+[[Category:Exports spices]]</text>
+      <sha1>61d0i8xvfm48y1a28tb8gf5kqkfgdmf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Limbo/Imagemap</title>
+    <ns>0</ns>
+    <id>628</id>
+    <revision>
+      <id>1046</id>
+      <parentid>1045</parentid>
+      <timestamp>2023-01-05T02:35:16Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1045</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1572" sha1="5ryr4e0os4kpuy17wpni0lhqfqj9lnn" xml:space="preserve">&lt;noinclude&gt;The following image map was generated using information compiled from the following sources:
+* {{Cite book/Manual of the Planes 3rd edition}}
+&lt;/noinclude&gt;&lt;div class="imageMapHighlighter"&gt;
+&lt;imagemap&gt;
+File:Limbo-3e.png|thumb|270px|right|A representation of a region of Limbo, according to the Great Wheel Cosmology. Hovering over the map will reveal main features. Clicking will link to the article for that location.
+
+desc none
+rect 258 420 391 476 [[Spawning Stone]]
+poly 376 554 392 549 400 563 397 569 388 569 381 577 377 562 [[Spawning Stone]]
+rect 478 229 665 253 [[Fortress city]]
+poly 471 419 474 406 477 404 484 393 490 372 486 371 490 359 494 361 503 346 508 365 510 367 507 377 511 378 513 370 510 368 515 357 518 358 526 347 529 343 534 331 536 334 535 343 537 344 539 366 542 370 543 372 536 375 534 388 540 388 552 397 557 382 555 379 553 378 553 376 555 374 553 363 565 361 565 366 569 366 567 361 583 342 587 346 590 363 587 372 595 374 594 380 594 384 584 388 581 409 586 408 583 417 589 419 589 423 598 436 590 439 589 441 600 445 598 458 594 460 592 474 585 466 582 472 578 458 575 456 570 462 565 475 563 473 565 464 561 467 562 455 552 457 549 462 549 459 546 468 542 470 540 488 525 486 535 469 532 465 528 471 526 468 524 469 522 465 518 467 514 473 506 477 515 451 513 451 511 462 504 465 502 462 495 463 486 467 486 455 490 450 482 452 477 452 474 459 468 461 472 449 468 450 461 451 460 442 461 437 455 439 448 428 467 422 471 426 478 425 476 421 471 422 [[Fortress city]]
+&lt;/imagemap&gt;
+&lt;/div&gt;
+&lt;noinclude&gt;[[Category:Imagemaps]]&lt;/noinclude&gt;</text>
+      <sha1>5ryr4e0os4kpuy17wpni0lhqfqj9lnn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Limbo (card)</title>
+    <ns>0</ns>
+    <id>282</id>
+    <revision>
+      <id>329</id>
+      <timestamp>2022-02-12T00:56:58Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "[[File:Limbo card.jpg|thumb|right|300px]]  '''Limbo''' was a Battlefield card from the [[Blood Wars]] game, depicting [[Limbo]].  It was released as part of the Blood Wars b..."</comment>
+      <origin>329</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="739" sha1="d8z8xw6u702pi81t6biq8w21w79gff0" xml:space="preserve">[[File:Limbo card.jpg|thumb|right|300px]]
+
+'''Limbo''' was a Battlefield card from the [[Blood Wars]] game, depicting [[Limbo]].
+
+It was released as part of the [[Blood Wars basic set|basic set]], and had a rarity of "common". The artwork was by [[Tony DiTerlizzi]].
+
+{| border="1" cellpadding="1" cellspacing="1" style="width: 500px;"
+! scope="col"|Stats
+! scope="col"|Limbo
+|-
+|Type
+|Battlefield
+|-
+|Alignment
+|Chaotic Neutral
+|-
+|Victory Points
+|2
+|-
+|Random Result
+|8
+|-
+|Description
+|Plane.
+|-
+|Notes
+|During his Resolution Phase, an Acting Player who holds this Battlefield in his Victory Pool may discard his entire Command Hand and immediately draw six new cards.
+|}
+
+[[Category:Blood Wars cards]]
+[[Category:Blood Wars basic set]]</text>
+      <sha1>d8z8xw6u702pi81t6biq8w21w79gff0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>List of Anarch's Guild members</title>
+    <ns>0</ns>
+    <id>3144</id>
+    <revision>
+      <id>6240</id>
+      <parentid>6057</parentid>
+      <timestamp>2025-06-06T04:25:02Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>uncaged</comment>
+      <origin>6240</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="776" sha1="eeiju0kd4rsr6acw3n3illtjsff9u42" xml:space="preserve">The following is a list of all known members of the [[Anarch's Guild]].
+
+# {{NPC|Zaerith Menyar-Ag-Gith|planar|male|githzerai|fighter|16|Anarch's Guild|CN}}, M23&lt;ref name="poc-boc75-76"&gt;{{b|Planescape|Planes of Chaos (boxed set)|alt=Planes of Chaos|pdf=17298|nip=1|page=75-76}}, ''The Book of Chaos''&lt;/ref&gt;
+# {{NPC|Thelinagra|petitioner|female|githzerai|unclassed|1|Anarch's Guild|cn}}&lt;ref name="unc124"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=124}}&lt;/ref&gt;
+# {{NPC|Karsten Wholte|?|?|?|?|?|Anarch's Guild|?}}&lt;ref name="poc-boc65"&gt;{{b|Planescape|Planes of Chaos (boxed set)|alt=Planes of Chaos|pdf=17298|nip=1|page=65}}, ''The Book of Chaos''&lt;/ref&gt;
+
+
+== References ==
+
+{{Scroll|&lt;references /&gt;}}
+
+[[Category:Anarch's Guild]]
+
+
+&lt;!-- last completed: uncaged --&gt;</text>
+      <sha1>eeiju0kd4rsr6acw3n3illtjsff9u42</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>List of Apathetic Alliance members</title>
+    <ns>0</ns>
+    <id>3241</id>
+    <revision>
+      <id>6659</id>
+      <timestamp>2025-06-14T06:13:02Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>6659</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="267" sha1="q9ct86xtmofasjtqmpzxvjqe517bjuu" xml:space="preserve">The following is a list of all known members of the [[Apathetic Alliance]].
+
+# {{NPC|Drevis||||||Apathetic Alliance|}}&lt;ref name="dragon21628"&gt;{{b|Dragon|Dragon Magazine 216|page=28}}&lt;/ref&gt;
+
+
+== References ==
+
+{{Scroll|&lt;references /&gt;}}
+
+[[Category:Apathetic Alliance]]</text>
+      <sha1>q9ct86xtmofasjtqmpzxvjqe517bjuu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>List of Athar members</title>
+    <ns>0</ns>
+    <id>3128</id>
+    <revision>
+      <id>6635</id>
+      <parentid>6624</parentid>
+      <timestamp>2025-06-13T22:10:28Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>6635</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6855" sha1="mdcsk2deqrslr6xui3en5g3x6jnihie" xml:space="preserve">The following is a list of all known members of the [[Athar]].
+
+# {{NPC|Durrogh Black|prime|male|human|fighter|12|Athar|cn}}&lt;ref name="fw90"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=90}}&lt;/ref&gt;
+# {{NPC|Kesto Brighteyes|planar|male|gnome|illusionist|12|Athar|cn}}&lt;ref name="hh22"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=22}}&lt;/ref&gt;&lt;ref name="unc11"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=11}}&lt;/ref&gt;
+# {{NPC|Kesto Brighteyes||male|gnome|Athar null||Athar|cg}}&lt;ref name="paitm-sao50"&gt;{{b|Planescape|Planescape: Adventures in the Multiverse|page=50}}, ''Sigil and the Outlands''&lt;/ref&gt;
+# {{NPC|Kor Clotbur|planar|male|tiefling|fighter|5|Athar|n}}&lt;ref name="ita5"&gt;{{b|Planescape|In the Abyss|pdf=17270|nip=1|page=5}}&lt;/ref&gt;
+# {{NPC|Coranthol|prime|male|elf|fighter|6|Athar|cn}}&lt;ref name="dttu15"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|nip=1|page=15}}&lt;/ref&gt;
+# {{NPC|Aliis Dalym|||?|||Athar|}}&lt;ref name="ohg8"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=8}}&lt;/ref&gt;&lt;ref name="ohg10"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=10}}&lt;/ref&gt;
+# {{NPC|Dox||male|human|wizard||Athar|}}&lt;ref name="hh7"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=7}}&lt;/ref&gt;&lt;ref name="unc34"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=34}}&lt;/ref&gt;
+# {{NPC|Fe|planar|male|tiefling|thief|17|Athar|ce}}&lt;ref name="gttap84"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=84}}&lt;/ref&gt;
+# {{NPC|Felgar|prime|male|gnome|thief|3|Athar|n}}&lt;ref name="teb10"&gt;{{b|Planescape|The Eternal Boundary|pdf=17300|page=10}}&lt;/ref&gt;
+# {{NPC|Aton Hollysprig||male|human|cleric|7|class2=defiant|level2=4|Athar|ng}}&lt;ref name="plhb46"&gt;{{b|D&amp;D|Planar Handbook|pdf=27882|page=46}}&lt;/ref&gt;
+# {{NPC|Dimal Huves|planar|male|human|fighter|6|Athar|cn}}&lt;ref name="dragon24061"&gt;{{b|Dragon|Dragon Magazine 240|page=61}}&lt;/ref&gt;
+# {{NPC|Ghear|planar|male|human|cleric|7|Athar|ln}} the Sighted&lt;ref name="dg166"&gt;{{b|Planescape|Dead Gods|pdf=17297|nip=1|page=166}}&lt;/ref&gt;
+# {{NPC|Jeanskar|prime|female|half-orc|unclassed|0|Athar|ng}}&lt;ref name="dg139"&gt;{{b|Planescape|Dead Gods|pdf=17297|nip=1|page=139}}&lt;/ref&gt;
+# Sir {{NPC|Baddinil Krausinou|prime|male|human|fighter|12|Athar|ln}}&lt;ref name="gttap84"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=84}}&lt;/ref&gt; (Godslayers)
+# {{NPC|Kuarri|planar|male|tiefling|unclassed|0|Athar|cn}} the Ancient&lt;ref name="hh20"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=20}}&lt;/ref&gt;
+# {{NPC|Sandin Manir||male|?|||Athar|}}&lt;ref name="pwhb57"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|nip=1|page=57}}&lt;/ref&gt;
+# {{NPC|Chail Markov|planar|male|half-elf|mage|16|class2=thief|level2=16|Athar|n}}&lt;ref name="gttap84"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=84}}&lt;/ref&gt; (Godslayers)
+# {{NPC|Moz||male|?|||Athar|}}&lt;ref name="fw116"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=116}}&lt;/ref&gt;
+# Defiant {{NPC|Munrot|planar|male|halfling|unclassed|0|Athar|cg}}&lt;ref name="hh20"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=20}}&lt;/ref&gt;
+# Lord {{NPC|Quentill Paracs|planar|male|tiefling|fighter|13|class2=wizard|level2=15|Athar|le}}&lt;ref name="pscs-sab46"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=176267|nip=1|page=46}}, ''Sigil and Beyond''&lt;/ref&gt;
+# {{NPC|Pincher|planar|male|human|priest|4|Athar|ce}}&lt;ref name="itc50"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=50}}&lt;/ref&gt;
+# {{NPC|Ridgath Ro|planar|male|bariaur|fighter|8|Athar|lg}}&lt;ref name="gttap80"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=80}}&lt;/ref&gt;
+# {{NPC|Saure|planar|female|gautiere|unclassed|4|Athar|ne}}&lt;ref name="unc91"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=91}}&lt;/ref&gt;
+# {{NPC|Tcha|planar|female|githyanki|fighter|11|Athar|le}}&lt;ref name="unc124"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=124}}&lt;/ref&gt;
+# {{NPC|Mari Torsava|planar|female|human|fighter|10|Athar|ne}}&lt;ref name="gttap78"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=78}}&lt;/ref&gt;&lt;ref name="gttap83"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=83}}&lt;/ref&gt; (Godslayers)
+# {{NPC|Erinos Vail|planar|female|human|mage|7|Athar|n}}&lt;ref name="gmm115"&gt;{{b|Planescape|The Great Modron March|pdf=17302|nip=1|page=115}}&lt;/ref&gt;
+
+== Factotum / Athaeon ==
+
+# {{NPC|Caylean|planar|male|tiefling|ranger|4|Athar|cn}}&lt;ref name="fm12"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=12}}&lt;/ref&gt;&lt;ref name="dg139"&gt;{{b|Planescape|Dead Gods|pdf=17297|nip=1|page=139}}&lt;/ref&gt;
+# {{NPC|Garla Fistian|prime|female|half-elf|specialty priest|5|Athar|ln}}&lt;ref name="gttap43"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=43}}&lt;/ref&gt;
+# {{NPC|Hobard|planar|male|githzerai|wizard|9|Athar|cn}}&lt;ref name="fm13"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=13}}&lt;/ref&gt;
+# {{NPC|Bria Mossiki|planar|female|human|mage|6|Athar|n}}&lt;ref name="gttap80"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=80}}&lt;/ref&gt;
+
+== Factor ==
+
+# {{NPC|Tobias Gnoas|planar|male|human|specialty priest|12|Athar|n}}&lt;ref name="gttap78"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=78}}&lt;/ref&gt;
+
+== Factol ==
+
+# {{NPC|Terrance|planar|male|human|specialty priest|9|Athar|lg}}&lt;ref name="pscs-pg16"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=176267|nip=1|page=16}}, ''A Player's Guide to the Planes''&lt;/ref&gt;&lt;ref name="tds6"&gt;{{b|Planescape|The Deva Spark|pdf=17271|nip=1|page=6}}&lt;/ref&gt;&lt;ref name="fm4"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=4}}&lt;/ref&gt;&lt;ref name="fm6-15"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=6-15}}&lt;/ref&gt;&lt;ref name="hb-cotw17"&gt;{{b|Planescape|Hellbound: The Blood War|pdf=17281|nip=1|page=17}}, ''The Chant of the War''&lt;/ref&gt;&lt;ref name="fw38"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=38}}&lt;/ref&gt;&lt;ref name="fw47"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=47}}&lt;/ref&gt;
+# {{NPC|Terrance|planar|male|human|Athar null||Athar|ng}}&lt;ref name="paitm-sao22"&gt;{{b|Planescape|Planescape: Adventures in the Multiverse|page=22}}, ''Sigil and the Outlands''&lt;/ref&gt;
+# Burgher {{NPC|Tovus Giljaf|planar|male|githzerai|necromancer|13|Athar|le}}&lt;ref name="pscs-sab35"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=176267|nip=1|page=35}}, ''Sigil and Beyond''&lt;/ref&gt;&lt;ref name="pptto12"&gt;{{b|Planescape|A Player's Primer to the Outlands|page=12}}&lt;/ref&gt;&lt;ref name="itc14"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=14}}&lt;/ref&gt;
+
+== Founders ==
+# {{NPC|Ciro|||?|||Athar|}}&lt;ref name="fm8"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=8}}&lt;/ref&gt;
+# {{NPC|Dunn|||?|||Athar|}}&lt;ref name="fm8"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=8}}&lt;/ref&gt;
+
+== References ==
+
+{{Scroll|&lt;references /&gt;}}
+
+[[Category:Athar]]
+
+&lt;!-- last completed: paitm --&gt;</text>
+      <sha1>mdcsk2deqrslr6xui3en5g3x6jnihie</sha1>
+    </revision>
+  </page>
+</mediawiki>

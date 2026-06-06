@@ -1,0 +1,3282 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Planescape Wiki</sitename>
+    <dbname>planescape</dbname>
+    <base>https://planescape.fandom.com/wiki/Planescape_Wiki</base>
+    <generator>MediaWiki 1.43.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Planescape Wiki</namespace>
+      <namespace key="5" case="first-letter">Planescape Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Dabus</title>
+    <ns>0</ns>
+    <id>2976</id>
+    <revision>
+      <id>5743</id>
+      <parentid>5603</parentid>
+      <timestamp>2025-04-03T14:22:09Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>pronounce</comment>
+      <origin>5743</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5550" sha1="7gxkgq60vcjjpl3zrm7csrnql17yay5" xml:space="preserve">The '''dabus''' (pronounciation: DAH-buss, [[File:PronounceDabus.ogg|200px]]&lt;ref name="audiodabus"&gt;[https://web.archive.org/web/20000818060140/http://www.wizards.com/dnd/DnDDownloads_prev.asp WotC Downloads page, retrieved Aug 12 2000]&lt;/ref&gt;) are the mysterious servants of the [[Lady of Pain]] and the caretakers of [[Sigil]]. Tall gaunt figures with grayish skin, a shock of white hair, and goat horns, they float several inches above the ground.
+
+They communicate exclusively via rebus, a visual puzzle that hovers in the air. The rebuses themselves appear to be crafted in [[Planar Common]].
+
+Dabus may be related to the [[phirblas]] of the [[Ethereal plane]], who have a similar appearance, but their words appear plainly written in the air rather than being encoded into a rebus.
+
+Some dabus found their way to [[Logicus]] where they were adapted into [[programmer]]s, whose speech takes the form of hovering mathematical formulae.&lt;ref name="dttu52"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|page=52}}&lt;/ref&gt;
+
+{{stub}}
+
+== Rebuses ==
+
+Known rebuses include:
+
+{| class="article-table"
+|+ 
+! Rebus !! Translation !! Source
+|-
+| Th+(hair) S ❄️-s m+🥩+🤴 A •-t+💤, n+(oar) (dew) th+(hay) tr+👁️ 2 h+👁️+d th+(ham)+s+🧝‍♂️🧝‍♀️. 1,3,5...+lee th+(hair) s+🍑 S (chest) A 🧶 F (cymbals)
+| There is no mistaking a dabus, nor do they try to hide themselves. Oddly, their speech is just a string of symbols.
+| {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1|page=10, Monstrous Supplement}}
+|-
+| 🗣️ 🧱-w 🩸🩸! D (general) 🫏+R+🐜🐜 🪮+🍳+E (man shading eyes) (cleavers) 2 RE+🌳+V (2+2=4)+TH+💍-R ? (Abyss symbol). 🥚🥚+(jail cell)+🐜 💰. C (a will)+M N D (grinning imp) 
+| Calling all bloods! The [[General Assurance Company]] seeks cutters to retrieve something lost on the [[Abyss]]. Excellent pay. See [[Willum]] in the [[Grinning Imp]]. 
+| {{b|Planescape|In the Abyss|pdf=17270}}, cover fold-out, {{b|Planescape|In the Abyss|pdf=17270|page=4}}
+|-
+| 🪢 🪡 ☁️-C &amp;mdash; 👁️+M 🪢 D+F, 🐑 ❄️-S.
+| Not so loud &amp;mdash; I'm not deaf, you know.
+| {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=66}}
+|-
+| W+👒 (dew) 🐑 🫘-B+M, "Wh+(hair)+s D P+(moon/June/spoon)+S ⚔️-S?"
+| What do you mean, "Where's the [[Lower Ward|Prime Ward]]?"
+| {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=66}}
+|-
+| Pl+eee (dew) 🪢 🕯️+R (Lady of Pain) (will) 🐝 😠
+| Please do not litter. Our Lady will be angry.
+| {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=66}}
+|-
+| C+(awl) 🥩-T A "🐕-G 🐕-T" 🥚+N ✋-H 🏝️ (kilt)-T 🐑.
+| Call me a "daw-boo" again and I'll kill you.
+| {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=67}}
+|-
+| (Fell symbol)? 👁️ (dew) 🪢 ❄️-S N+E+1 C+(awl)+D (Fell symbol).
+| [[Fell]]? I do not know anyone called Fell.
+| {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=67}}
+|-
+| 🐐-T A+W+(hay) &amp;mdash; 👁️+M 🐝+Z.
+| Go away &amp;mdash; I'm busy.
+| {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=67}}
+|-
+| Th+(hair) S A (arrows missing a target)+(singing mouth) ⚔️ 🧙‍♀️ we R 👀+🤴 4 🐝+(man yawning)+d the (gate). (will) u tr+👁️ 2 b+🔔 it (a person's back) 2 the (birdcage)?
+| There is a missing sword which we are looking for beyond the gate. Will you try to bring it back to the Cage?
+| {{b|Dungeon|Dungeon Magazine 60|page=37}}
+|-
+| We f+👂 the ⚔️ M+(hay) (falling person) in+2 the ❌ ✋✋. we 🥫+🪢 🍃 the (birdcage) b+🛖 MAY+🐝 u 🥫 on ⌛ 🐝+½. U (will) (rolling dough) A SP+🐚 🗝️ 4 the (gate). H+👂👂 A 🐍 2 o+(quill pen) the (gate).
+| We fear the sword may fall into the wrong hands. We cannot leave the Cage but maybe you can on our behalf. You will need a special key for the gate. Here's a snake to open the gate.
+| {{b|Dungeon|Dungeon Magazine 60|page=37}}
+|-
+| 🐝 4 u 🍃 we th+(ink well) th+🎩 u sh+(hangman's hood) (talking mouth) 2 📏+of+III at the SL+🦦+🏠. He 👃 the ch+🐜 &amp; (7+5=12) V+(gust of wind) use+(person with a full belly) f+🪓. H+👂👂 A 🗺️ 2 sh+(unknown) (trio singing). 
+| Before you leave we think that you should talk to [[Rule-of-Three]] at the [[Slaughterhouse]]. He knows the chant and some very useful facts. Here's a map to (unknown).
+| {{b|Dungeon|Dungeon Magazine 60|page=37}}
+|-
+| 🎀 2 th →; 🎀 2 th ←. the 1st 🗝️ t+🏺+s; the (lasso)+t 🚪 (knee)+s.
+| Bow to the right; bow to the left. The first key turns; the last door bends.
+| {{b|Planescape|Doors to the Unknown|pdf=17290|nip=1}}, cover fold-out; {{b|Planescape|Doors to the Unknown|pdf=17290|nip=1|page=33}}
+|-
+| ↑ the ←; ↑ the →. the L+🥚 x+10s; the 2nd 🗝️ L+👁️+ts
+| Lift the left; lift the right. The leg extends, the second key lights. 
+| {{b|Planescape|Doors to the Unknown|pdf=17290|nip=1}}, cover fold-out; {{b|Planescape|Doors to the Unknown|pdf=17290|nip=1|page=44}}
+|-
+| A+👗 th 🚪, 🧲-et+👁️+f+¢. 👁️+t (open door) 2 the (hand touching an wall).
+| Address the door, magnificent. It opens to the touch.
+| {{b|Planescape|Doors to the Unknown|pdf=17290|nip=1}}, cover fold-out; {{b|Planescape|Doors to the Unknown|pdf=17290|nip=1|page=52}}
+|-
+| 🍃 🎩-H 1+S, D (Lady of Pain) 🪮+&amp;+S (mitt)-M
+| Leave at once, the Lady commands it.
+| {{b|Planescape|Planescape: Adventures in the Multiverse|page=23}}, Morte's Planar Parade
+|}
+
+
+
+== References ==
+&lt;references /&gt;
+
+[[Category:Creatures]]</text>
+      <sha1>7gxkgq60vcjjpl3zrm7csrnql17yay5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dale Donovan</title>
+    <ns>0</ns>
+    <id>549</id>
+    <revision>
+      <id>859</id>
+      <parentid>858</parentid>
+      <timestamp>2023-01-04T01:49:47Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>858</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1063" sha1="nf0r5277if46nk8ixsvpdjianf00j75" xml:space="preserve">{{DEFAULTSORT:Donovan, Dale}}
+{{Real-world person
+| image              = 
+| caption            = 
+| name               = Dale Donovan
+| fullname           = Dale A. Donovan
+| othername          = 
+| nickname           = 
+| pseudonym          = 
+| occupation         = Author, editor, game designer
+| period             = 
+| series             = 
+| media              = 
+| settings           = 
+| works              = yes
+| images             = 
+| home               = 
+| birthplace         = 
+| born               = 
+| died               = 
+| signature-image    = DonovanFullnameSig.png
+| signature-caption  = 
+}}
+'''Dale A. Donovan''' is a freelance author, editor, and game designer.
+
+He was an editor for [[Dragon (magazine)|''Dragon'' magazine]] for over five years.
+
+He worked as a game designer for [[TSR, Inc.]], [[Wizards of the Coast]], and [[Hasbro]] for over five years before being let go in 2002.
+
+Dale has been a gamer since 1981.
+
+==Appendix==
+===External links===
+* [http://rpggeek.com/rpgdesigner/14395/dale-donovan RPG Geek]
+[[Category:Authors]]</text>
+      <sha1>nf0r5277if46nk8ixsvpdjianf00j75</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dana Knutson</title>
+    <ns>0</ns>
+    <id>386</id>
+    <revision>
+      <id>470</id>
+      <parentid>469</parentid>
+      <timestamp>2023-01-02T19:01:09Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <comment>/* External Links */</comment>
+      <origin>470</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1115" sha1="6g7gbuchk4bosp3fbfhwhms0xyfscee" xml:space="preserve">{{DEFAULTSORT:Knutson, Dana}}
+{{Real-world person
+| image              = 
+| caption            = 
+| name               = Dana Knutson
+| fullname           = 
+| othername          = 
+| nickname           = 
+| pseudonym          = 
+| occupation         = Artist
+| period             = 
+| series             = 
+| media              = 
+| settings           = 
+| works              = 
+| images             = yes
+| home               = 
+| birthplace         = 
+| born               = 
+| died               = 
+| signature-image    = 
+| signature-caption  = 
+}}
+'''Dana Knutson''' is an American artist best known for his work in the collectible card game ''Magic: The Gathering'' and on the ''Planescape'' product line for the ''Dungeons &amp; Dragons''. The [[Lady of Pain]] was based on one of his sketches.
+
+==Appendix==
+===External Links===
+{{External link disclaimer}}
+*{{FRW}}
+* [http://www.danaknutson.com/ Official Site]
+* [https://mtg.fandom.com/wiki/Dana_Knutson MTG Wiki]
+* [https://web.archive.org/web/20080530215650/http://www.pen-paper.net/rpgdb.php?op=showcreator&amp;creatorid=589 Pen &amp; Paper]
+[[Category:Artists]]</text>
+      <sha1>6g7gbuchk4bosp3fbfhwhms0xyfscee</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dark Sun</title>
+    <ns>0</ns>
+    <id>3308</id>
+    <revision>
+      <id>6912</id>
+      <parentid>6911</parentid>
+      <timestamp>2025-08-03T18:55:54Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>planes</comment>
+      <origin>6912</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3671" sha1="024jzxamq8clc0buaqb0vzfb2i8ci25" xml:space="preserve">[[File:DarkSunLogo2e.png|500px|center|Dark Sun]]
+
+'''Dark Sun''' is a [[Dungeons &amp; Dragons]] Campaign Setting.
+
+''Dark Sun'' takes place in the world of [[Athas]], in the [[Prime Material plane]]. The world is predominantly a desert, water and metal is scarce, and life is harsh. Long ago a great magical ritual drained power from the blue sun, aging it rapidly and warming the planet's surface. Now it sits, swollen and red, overlooking the desert.
+
+While many worlds have a great conflict between the gods and the titans, Athas is one of the cases in which the titans won. The titans then sealed Athas' crystal sphere such that the gods could not return. As a result, Athas' "clerics" instead worship elemental entities from the Inner Planes. Their sorcerous magic is not drawn from an external source, such a god of magic, but is instead converted from local life energy. As a result, two kinds of wizard have arisen: defilers, who will drain everything dry in order to power their spells, and preservers, who seek to draw smaller amounts from a wider area, in order that the life might continue to live.
+
+Life is focused on a few major city-states, ruled over by the dangerous dragon-kings.
+
+== Dark Sun and the Planes ==
+As noted, Athas' crystal sphere was reinforced by the world's titans long ago. The effects are many: Athas' crystal sphere cannot be physically entered, passage to and from the Astral or Outer planes is rare (albeit not impossible), and the Border Ethereal has been replaced entirely by a feature called "The Gray." If one enters the Gray, they become lost, although if they are lucky, might leave at the same point they entered. This means travelers from the Deep Ethereal cannot pass into Athas, nor can travelers from Athas enter the Deep Ethereal.
+
+Although oddly, due to the prevalence of elemental priests, summonings and other contact with the Inner Planes works as normal, despite the Gray.
+
+Most of the multiverse recognizes the four para-elemental planes as [[Frostfell (plane)|Ice]] (between Air and Water), [[Fountains of Creation|Magma]] (between Fire and Earth), [[Swamp of Oblivion|Ooze]] (between Earth and Water), and [[Great Conflagration|Smoke]] (between Air and Fire). Curiously, however, Athasians instead recognize Magma, Rain (Air and Water), Silt (Earth and Water), and Sun (Air and Fire). It's not known if they're accessing specific parts of the known para-elemental planes, if they're mis-labeling known quasi-elemental planes ([[Quasi-Elemental Plane of Radiance|Radiance]] as Sun, for example), or if they've discovered a new set of planes entirely.
+
+
+== Relevant History ==
+
+=== 2nd Edition ===
+
+[[File:DarkSunLogo2eRev.png|300px|center]]
+
+In 1995, TSR released a new revised Dark Sun boxed set, with the metaplot events of several adventures and novels now accounted for. The included map showed a wider piece of the world.
+
+== Titles ==
+
+The following ''Dark Sun'' titles may be of interest to ''[[Planescape]]'' players:
+
+* [[1992]]
+** {{b|Dark Sun|Monstrous Compendium: Dark Sun Appendix: Terrors of the Desert|pdf=17180}}, referenced in:
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}: [[sand bride]]
+
+* [[1995]]
+** {{b|Dark Sun|Monstrous Compendium Dark Sun Appendix II: Terrors Beyond Tyr|pdf=17201}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}: [[air elemental beast]], [[earth elemental beast]], [[fire elemental beast]], [[water elemental beast]]
+
+== External Links ==
+* [[w:c:darksun:Dark Sun|Dark Sun]] on the ''Dark Sun Wiki''
+
+
+== References ==
+
+&lt;references /&gt;
+
+[[Category:Campaign settings]]</text>
+      <sha1>024jzxamq8clc0buaqb0vzfb2i8ci25</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>David Noonan</title>
+    <ns>0</ns>
+    <id>1474</id>
+    <revision>
+      <id>2043</id>
+      <parentid>2042</parentid>
+      <timestamp>2023-01-05T11:25:06Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2042</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="961" sha1="9xrazmgkic042eh33dj4as4kihmow7q" xml:space="preserve">{{DEFAULTSORT:Noonan, David}}
+{{Real-world person
+| image              = 
+| caption            = 
+| name               = David Noonan
+| fullname           = 
+| othername          = 
+| nickname           = Dave
+| pseudonym          = 
+| occupation         = Writer, game designer
+| period             = 
+| series             = 
+| media              = 
+| settings           = 
+| works              = yes
+| images             = 
+| home               = 
+| birthplace         = 
+| born               = 
+| died               = 
+| signature-image    = 
+| signature-caption  = 
+}}
+'''David Noonan''' is a game designer and fantasy writer. He contributed to many 3rd edition products.
+
+==Works==
+===Dragon magazine===
+* "The Exiled Factions", [[Dragon magazine 315]] (January 2004)
+===Sourcebooks===
+* ''[[Martial Power]]''
+* ''[[Scepter Tower of Spellgard]]''
+
+==Appendix==
+===Further Reading===
+*{{Cite dragon/285/Profiles: David Noonan}}
+{{stub}}
+[[Category:Authors]]</text>
+      <sha1>9xrazmgkic042eh33dj4as4kihmow7q</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Day of Grace</title>
+    <ns>0</ns>
+    <id>3387</id>
+    <revision>
+      <id>7215</id>
+      <timestamp>2025-12-23T12:06:23Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>7215</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3143" sha1="2sn6ujhhbgc9u10a9zb2hg1ovf66rcg" xml:space="preserve">[[File:DayofGrace.jpg|300px|right|thumb|A dramatic depiction of the first Grace]]
+The '''Day of Grace''' (or often just '''Grace''') is a holiday that marks the beginning of a new year on [[Sigil]]'s [[timeline|calendar]]. Everyone shows grace, mercy, and forgiveness. There are no floggings or other punishments, no public executions. Cagers are expected to forgive innocent mistakes. Rumor has it that those who refuse to observe Grace risk the Lady's attention.
+
+== History ==
+According to the tales, long ago in Sigil's history, the [[Lady of Pain]] was floating through the city, as she sometimes does. The streets often empty out when the Lady passes by: no one wants to risk earning her ire and be caught in her gaze or her shadow.
+
+But on this day, a young girl with a big smile on her face ran up to the Lady. She spoke something to the Lady. Some claim that the child's words softened Her Serenity's heart, others claim that the Lady didn't even notice the girl. But the Lady showed the young girl grace, and she survived the encounter.
+
+What the girl spoke, or what came of her afterwards, no one knows.
+
+The people of Sigil were moved, and set up a celebration in remembrance. If the Lady showed grace on that day, then Cagers all across the city should too. It marks the beginning of the year, as [[Fraternity of Order|Guvner]] calendars reckon it.
+
+== Observance ==
+
+At first light on the Day of Grace, the Harmonium marches through [[The Lady's Ward]]. It began as a celebration but (of course) has evolved into more of a military exercise.
+
+Later in the day, the [[Palace of the Jester]] hosts a grand masquerade ball, attended by over a thousand of the city's social elite. Each year's ball is hosted by a different family, and the competition between families plays out as each one tries to outdo the previous year's celebration.
+
+Many merchants offer sales or discounts, so Cagers take the opportunity to purchase gifts for their friends.
+
+=== Factions ===
+
+* [[Athar]] claim that the day shows that grace comes not from powers, but from mortals.
+* Similarly, the [[Bleak Cabal]] say that the only true meaning comes from individual action.
+* [[Believers of the Source]] view the day as a test.
+* The [[Fated]] see the day as a challenge, as the attitude -- particularly the expectation of debt forgiveness -- does not come easily to them.
+* [[Doomguard]] and [[Mercykillers]] understandably have a tough time showing mercy.
+* The [[Harmonium]] and [[Fraternity of Order]], of course, follow all the rules and regs on proper celebration.
+* The [[Revolutionary League]] generally tries to make sure that their plots don't come to fruition on this day.
+* The [[Society of Sensation]] tries to think of new ways to show grace every year.
+* [[Heralds of Dust]], [[Free League]], [[Sign of One]], and [[Transcendent Order]] are typically too occupied with other concerns to pay much attention.
+* No one's been able to figure out the [[Xaositects]].
+
+== References ==
+
+* {{b|Polyhedron|Polyhedron Magazine 127|page=23}}
+* {{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=12}}
+
+&lt;references /&gt;
+
+[[Category:Calendar]]</text>
+      <sha1>2sn6ujhhbgc9u10a9zb2hg1ovf66rcg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dead Gods</title>
+    <ns>0</ns>
+    <id>522</id>
+    <revision>
+      <id>7047</id>
+      <parentid>7006</parentid>
+      <timestamp>2025-08-27T07:36:15Z</timestamp>
+      <contributor>
+        <username>UnseenServantBot</username>
+        <id>11660122</id>
+      </contributor>
+      <minor/>
+      <comment>dmsguild links</comment>
+      <origin>7047</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4006" sha1="4sdfd8lp3qw4rdsx8db6xwmi3tuu9d0" xml:space="preserve">{{Book
+| image        = Dead-Gods-cover.jpg
+| caption      = 
+| code         = TSR2631
+| title        = Dead Gods
+| author       = [[Monte Cook]]
+| editor       = [[Ray Vallese]], [[Michele Carter]]
+| cover_artist = [[rk post]]
+| inter_artist = [[rk post]], [[Adam Rex]], [[Josh Timbrook]]
+| cartography  = [[Dennis Kauth]], [[Robert Lazzaretti]]
+| typography   = [[Angelika Lokotz]]
+| publisher    = [[TSR, Inc.]]
+| released     = November 1997
+| reprinted    = 
+| type         = Adventure
+| binding      = 
+| pages        = 176
+| languages    = 
+| realm year   = 
+| game_edition = 2
+| isbn10       = 0786907118
+| isbn13       = 978-0786907113
+| series       = 
+| preceded_by  = [[The Great Modron March]]
+| followed_by  = [[Planescape Monstrous Compendium Appendix III]]
+| source       = [https://www.amazon.com/Dead-Advanced-Dungeons-Dragons-Planescape/dp/0786907118 Amazon.com product listing]
+| Roll20number = 17297
+}}
+'''''Dead Gods''''' is a Planescape&lt;sup&gt;®&lt;/sup&gt; AD&amp;D 2nd-edition adventure module. It is composed of two adventures which revolve around the theme of death and resurrection of a god: ''Out of the Darkness'' and ''Into the Light''. Each adventure can be played separately, although the two plots can be woven together by the Dungeon Master.
+
+{{Quote|''Dead Gods is a 176-page adventure book featuring two scenarios that can be played separately or linked together. In the first, the heroes are drawn into an epic quest to uncover the secrets behind the return of an infamous AD&amp;D villain long though dead. In the second, the city of [[Sigil]] threatens to explode in a faction war for control of an old church and a mysterious force lurking within it. Dead Gods also features a MONSTROUS COMPENDIUM entry for a brand-new fiend, full-color illustrations to bring scenes alive for players, and a poster sheet of maps for the Dungeon Master. Dead Gods builds on story elements first explored in the PLANESCAPE adventure anthology [[The Great Modron March]], though that product is not required to use this one.''}}
+
+==Contents==
+;Out Of Darkness:
+* Foreword
+* Introduction
+* Chapter 1: Circean Embers
+* Chapter 2: Crux
+* Interlude 1
+* Chapter 3: Masks
+* Chapter 4: Message From Thanatos
+* Chapter 5: The Bottom of the Multiverse
+* Interlude 2
+* Chapter 6: The Vault of the Drow
+* Chapter 7: The Ruins of Pellion
+* Interlude 3
+* Chapter 8: Deepest Pandemonium
+* Chapter 9: The Dead-Book of the Gods
+
+;Into The Light:
+* Introduction
+* Part One: Initial Forays
+* Part Two: Crossed Swords
+* Part Three: Mysteries of the Stones
+
+;Appendix:
+* [[Visage]]
+* Statistics
+* Player Illustrations
+
+==Appendix==
+===Trivia===
+* This adventure was ranked the 14{{th}} greatest adventure of all time by [[Dungeon magazine|''Dungeon'']] magazine for the 30th anniversary of the {{dnd}} game in 2004.&lt;ref name="Dun116-p73"&gt;{{Cite dungeon/116/The 30 Greatest D&amp;D Adventures of All Time}}&lt;/ref&gt;
+
+===Credits===
+* '''Designer:''' [[Monte Cook]]
+* '''Editors:''' [[Ray Vallese]], [[Michele Carter]]
+* '''Cover Artist:''' [[rk post]]
+* '''Interior Artists:''' [[rk post]], [[Adam Rex]], [[Josh Timbrook]]
+* '''Cartographer:''' [[Dennis Kauth]], [[Rob Lazzaretti]]
+* '''Project Managers:''' [[Karen Boomgarden]], [[Steve Winter]]
+* '''Graphics Coordinators:''' [[Dawn Murin]], [[Paul Hanchette]]
+* '''Graphic Design:''' [[Dawn Murin]], [[Matt Adelsperger]]
+* '''Electronic Prepress Coordinator:''' [[Dave Conant]]
+* '''Typography:''' [[Angelika Lokotz]]
+* '''Playtesters:''' [[Carrie Bebris]], [[Michele Carter]], [[Bruce Cordell]], [[Ted Stark]], [[Keith Strohm]], [[Ray Vallese]]
+
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild}}
+* {{DriveThruRPG}}
+*[https://www.amazon.com/Dead-Advanced-Dungeons-Dragons-Planescape/dp/0786907118 Amazon product page]
+
+===References===
+{{refs}}
+===Connections===
+{{Planescape sourcebooks}}
+[[Category:2nd edition adventures]]
+[[Category:2nd edition sourcebooks]]
+[[Category:Works by Monte Cook]]
+[[Category:Published in 1997]]
+[[Category:Adventures]]</text>
+      <sha1>4sdfd8lp3qw4rdsx8db6xwmi3tuu9d0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Decaton</title>
+    <ns>0</ns>
+    <id>393</id>
+    <revision>
+      <id>4777</id>
+      <parentid>486</parentid>
+      <timestamp>2024-02-03T22:57:42Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>cat</comment>
+      <origin>4777</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5500" sha1="nmvnsrj72idh57i5ah12rtaylrey4r9" xml:space="preserve">{{Creature
+| image        = &lt;gallery&gt;
+Decaton.gif|2e
+Decaton-1e.png|1e
+&lt;/gallery&gt;
+| caption2     = Various depictions of decatons
+| name         = Decaton
+| size5e       = 
+| type5e       = 
+| subtype5e    = 
+| alignment5e  = 
+| challenge5e  = 
+| refs5e       = 
+| size4e       = 
+| origin4e     = 
+| type4e       = 
+| subtype4e    = 
+| alignment4e  = 
+| refs4e       = 
+| size3e       = Medium
+| type3e       = [[Outsider]]
+| subtype3e    = 
+| alignment3e  = Always [[lawful neutral]]
+| challenge3e  = 8
+| refs3e       = &lt;ref name="MotPWE3e-p10-11"&gt;{{Cite web enhancement/The Modrons|10-11}}&lt;/ref&gt;
+| size2e       = Medium
+| alignment2e  = [[Lawful neutral]]
+| refs2e       = &lt;ref name="PSCS"&gt;{{Cite book/Planescape Campaign Setting/Monstrous Supplement|16-20}}&lt;/ref&gt;
+| size1e       = Medium
+| alignment1e  = [[Lawful neutral]]
+| refs1e       = &lt;ref name="MM21e-p89"&gt;{{Cite book/Monster Manual II (1983)|89}}&lt;/ref&gt;
+| patron deity = [[Primus]]&lt;ref name="MotPWE3e-p2"&gt;{{Cite web enhancement/The Modrons|2}}&lt;/ref&gt;
+| vision       = 
+| activecycle  = Any&lt;ref name="PSCS"/&gt;
+| diet         = 
+| lifespan     = 
+| location     = [[Mechanus]]&lt;ref name="MotPWE3e-p10-11" /&gt;
+| language     = [[Modron language|Modron]], [[Celestial language|Celestial]], [[Infernal language|Infernal]], [[Telepathy]]&lt;ref name="MotPWE3e-p10-11" /&gt;
+| subraces     = 
+| climate      = Any&lt;ref name="MotPWE3e-p10-11" /&gt;
+| terrain      = Any land&lt;ref name="MotPWE3e-p10-11" /&gt;
+| height       = 
+| length       = 
+| wingspan     = 
+| weight       = 
+| skincolor    = 
+| haircolor    = 
+| hairstyles   = 
+| feathers     = 
+| eyecolor     = 
+| build        = 
+| distinctions = 
+| based        = 
+| first        = [[Monster Manual II 1st edition|''Monster Manual II'' 1{{st}} edition]]
+}}
+'''Decatons''' ({{Pronounce|DEK|a|tanz|refs=&lt;ref name="D93-APG-p26"&gt;{{Cite dragon/93/Ay pronunseeAYshun gyd|26}}&lt;/ref&gt;}}) were the lowest rank of hierarch [[modron]]s.&lt;ref name="MotPWE3e-p2" /&gt;
+
+==Description==
+Decatons were shaped like spheres atop stubby legs, with ten tentacles and four eyes evenly spaced around the sphere. At the top of the sphere was a mouth.&lt;ref name="MotPWE3e-p10-11" /&gt;&lt;ref name="MM21e-p89" /&gt;
+
+==Abilities==
+Like all hierarch modrons, decatons had the innate ability to duplicate the effects of ''[[clairaudience]]'', ''[[clairvoyance]]'', ''[[command]]'', ''[[dimension door]]'', ''[[teleport without error]]'', and ''[[wall of force]]'' spells at will.&lt;ref name="TGMM-p126" /&gt; Additionally, they were able to [[cure wounds|cure injuries]] and [[cure disease]]s from all modrons within {{SI|144|ft}} and {{SI|12|ft}}, respectively. They could also [[heal]] and [[remove paralysis]] by physically touching another modron.&lt;ref name="TGMM-p126"&gt;{{Cite book/The Great Modron March|126}}&lt;/ref&gt;&lt;ref name="MM21e-p86" /&gt;
+
+They could communicate [[telepathy|telepathically]] with anyone in a {{SI|44|mile|long=yes}} radius.&lt;ref name="MotPWE3e-p10-11" /&gt;&lt;ref name="MotPWE3e-p2" /&gt;&lt;ref name="MotPWE3e-p10-11" /&gt; and could see in [[darkvision|complete darkness]] from up to {{SI|44|ft|long=yes}} away.&lt;ref name="MotPWE3e-p10-11" /&gt;
+
+Decatons were able to fly by generating a lifting gas that allowed it to be lighter than the surrounding air.&lt;ref name="MotPWE3e-p10-11" /&gt;&lt;ref name="MM21e-p86" /&gt; They typically only did so whenever they were commanding large numbers of base modrons and needed to get an overview of their situation.&lt;ref name="MM21e-p86" /&gt;
+
+==Combat==
+If forced into combat, a decaton used its tentacles in melee combat. They also heavily relied on their spellcasting abilities.&lt;ref name="MotPWE3e-p10-11" /&gt;
+
+==Society==
+There were only 100 decatons in modron society.&lt;ref name="MotPWE3e-p2" /&gt;&lt;ref name="MM21e-p89" /&gt;&lt;ref name="MM21e-p86"&gt;{{Cite book/Monster Manual II (1983)|86}}&lt;/ref&gt; They could communicate with other decatons and with [[nonaton]]s, and relayed their orders to [[pentadrone]]s.&lt;ref name="MotPWE3e-p10-11" /&gt;&lt;ref name="MotPWE3e-p2" /&gt; One decaton was in charge of each of the 64 sectors of their realm in [[Mechanus]], and the remaining 36 decatons served in the modron armies. They functioned as caretakers of the modrons under their command,&lt;ref name="MotPWE3e-p10-11" /&gt;&lt;ref name="MotPWE3e-p2" /&gt;&lt;ref name="MM21e-p89" /&gt; looking after their physical welfare.&lt;ref name="MM21e-p89" /&gt;&lt;ref name="MM21e-p86" /&gt;
+
+Decatons were always created as the result of pentadrones being upgraded to take the place of destroyed or further promoted decatons.&lt;ref name="MotPWE3e-p2-3"&gt;{{Cite web enhancement/The Modrons|2-3}}&lt;/ref&gt;
+
+==History==
+Around {{Yearlink|-346}} [[Netheril|Netherese]] [[archmage]] and explorer Lady [[Polaris]] came upon Mechanus and the modrons. She [[Gate|summoned]] several decatons to her home to guard her treasures, but was stymied as they kept disappearing after several days. She had more success with the pentadrones she focused on next.&lt;ref&gt;{{Cite book/How the Mighty Are Fallen|3, 31}}&lt;/ref&gt;
+
+==Appendix==
+===Gallery===
+&lt;gallery widths="185"&gt;
+Decaton in Bedlam.jpg|A decaton in the streets of [[Bedlam]].
+PSMCAmodrons.jpg|Decaton overlooking monodrones.
+&lt;/gallery&gt;
+
+===Appearances===
+:;Adventures
+::''[[The Great Modron March]]''
+:;Video Games
+::''[[Idle Champions of the Forgotten Realms]]''
+===External Links===
+{{External link disclaimer}}
+{{ICW}}
+
+===References===
+{{Refs}}
+===Connections===
+{{Modrons}}
+[[Category:Modrons]]
+[[Category:Creatures found in Mechanus]]
+[[Category:Hierarch modrons]]
+[[Category:Creatures found in Regulus]]
+[[Category:Monster|Modron, 10]]</text>
+      <sha1>nmvnsrj72idh57i5ah12rtaylrey4r9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Deep Caverns</title>
+    <ns>0</ns>
+    <id>580</id>
+    <redirect title="Dismal Caverns" />
+    <revision>
+      <id>936</id>
+      <parentid>935</parentid>
+      <timestamp>2023-01-05T02:35:07Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>935</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="147" sha1="jn7b3k59igosg72qphg9bse14ae2oui" xml:space="preserve">#REDIRECT [[Dismal Caverns]]
+[[Category:World Tree planes]]
+[[Category:Outer Planes]]
+[[Category:Fiendish planes]]
+[[Category:Planes of existence]]</text>
+      <sha1>jn7b3k59igosg72qphg9bse14ae2oui</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Deep Forest</title>
+    <ns>0</ns>
+    <id>1624</id>
+    <revision>
+      <id>2424</id>
+      <parentid>2423</parentid>
+      <timestamp>2023-08-09T01:08:40Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2423</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3436" sha1="0avmxxb7a150w2glis0qx5g54uxz3vz" xml:space="preserve">{{Plane
+| image             = Summeroak.png
+| caption           = A portion of Summeroak in the realm of [[Tir na Og]]
+| name              = Deep Forest
+| othernames        = Summeroak
+| symbol            = Outlands.png
+| demonym           = 
+| natives           = 
+| languages         = 
+| basicrefs         = &lt;ref name="OHG2e-p75,181"&gt;{{Cite book/On Hallowed Ground|75,181}}&lt;/ref&gt;&lt;ref name="FA2e-p145"&gt;{{Cite book/Faiths &amp; Avatars|75}}&lt;/ref&gt;
+| type-GW           = Realm
+| shape-size-GW     = 
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = {{Alignment grid|off|off|off|off|on|off|off|off|off}}
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = [[Tir na Og]]
+| refs-GW           = &lt;ref name="OHG2e-p75,181" /&gt;&lt;ref name="FA2e-p145" /&gt;
+| type-WA           = Realm
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = [[Unaligned]]
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = the [[Deep Wilds]]
+| refs-WA           = &lt;ref name="FRCG4e-p63"&gt;{{Cite book/Forgotten Realms Campaign Guide|63}}&lt;/ref&gt;&lt;ref name="Dr367-p59"&gt;{{Cite dragon/367/Hall of the Frostmaiden|59}}&lt;/ref&gt;
+| type-WT           = Realm
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = the [[House of Nature]]
+| refs-WT           = &lt;ref name="PGF3e-p158-159"&gt;{{Cite book/Player's Guide to Faerûn|158-159}}&lt;/ref&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = 
+| organizations     = 
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Deep Forest''', sometimes called '''Summeroak''', was the [[divine realm]] of [[Silvanus]].&lt;ref name="OHG2e-p75,181" /&gt;&lt;ref name="FA2e-p145" /&gt;
+
+==Cosmology==
+In the [[Great Wheel cosmology]], this realm was located within the larger realm of [[Tir na Og]] in the [[Outlands]].&lt;ref name="OHG2e-p75,181" /&gt;&lt;ref name="FA2e-p145" /&gt; According to the [[World Tree cosmology]], the realm was located in the [[House of Nature]].&lt;ref name="PGF3e-p158-159" /&gt; And the [[World Axis cosmology]] placed this realm in the [[Deep Wilds]].&lt;ref name="FRCG4e-p63" /&gt;&lt;ref name="Dr367-p59" /&gt;
+
+==Geography==
+The Deep Forest was home to the greatest of all trees. It was a realm of thick and feral vegetation, as well as a rich and diverse wildlife. Dense and majestic canopies almost entirely blocked sunlight from reaching the ground below.&lt;ref name="OHG2e-p75,181" /&gt;&lt;ref name="PGF3e-p158-159" /&gt;
+
+The entire place was claimed by nature. There were no artificial buildings anywhere in the Deep Forest.&lt;ref name="FRCG4e-p63" /&gt;
+
+==Notable Locations==
+Silvanus was said to make his home at the heart of the Deep Forest, in a glen that was also referred to as Summeroak.&lt;ref name="Dr367-p59" /&gt;
+
+==Appendix==
+===References===
+{{Refs}}
+===Connections===
+{{Outlands}}
+[[Category:Forests]]
+[[Category:Locations in the Outlands]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations in the Astral Plane]]
+[[Category:Locations in the World Axis planes]]
+[[Category:Locations in the Neutral Planes]]
+[[Category:Locations in the World Tree planes]]
+[[Category:Divine realms]]</text>
+      <sha1>0avmxxb7a150w2glis0qx5g54uxz3vz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Deities &amp; Demigods 1st edition</title>
+    <ns>0</ns>
+    <id>3349</id>
+    <revision>
+      <id>7101</id>
+      <timestamp>2025-09-12T11:32:26Z</timestamp>
+      <contributor>
+        <username>BadCatMan</username>
+        <id>3030475</id>
+      </contributor>
+      <comment>Created page with "{{Book | image        = DeitiesAndDemigods_1stEdition.jpg | caption      = Cover of ''Deities &amp; Demigods''. | code         = | title        = Deities &amp; Demigods | author       = [[James M. Ward]] with [[Robert J. Kuntz]] | editor       = [[Lawrence Schick]] | cover_artist = [[Erol Otus]] | publisher    = [[TSR, Inc.]] | volume       =  | type         = Accessory | languages    = English | reprinted    =  | inter_artist =  | cartography  =  | typography   =  | realm year..."</comment>
+      <origin>7101</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9813" sha1="r9ioa60rrpizxssb076okk97727x6ux" xml:space="preserve">{{Book
+| image        = DeitiesAndDemigods_1stEdition.jpg
+| caption      = Cover of ''Deities &amp; Demigods''.
+| code         =
+| title        = Deities &amp; Demigods
+| author       = [[James M. Ward]] with [[Robert J. Kuntz]]
+| editor       = [[Lawrence Schick]]
+| cover_artist = [[Erol Otus]]
+| publisher    = [[TSR, Inc.]]
+| volume       = 
+| type         = Accessory
+| languages    = English
+| reprinted    = 
+| inter_artist = 
+| cartography  = 
+| typography   = 
+| realm year   = 
+| setting      = 
+| game_edition = 1
+| edition1     = 1{{st}} Printing
+| binding1     = Hardback
+| released1    = 
+| pages1       = 144
+| isbn10-1     = 0-935696-22-9
+| isbn13-1     = 978-0935696226
+| cite1        = 
+| edition2     = 2{{nd}} Printing
+| binding2     = Hardback
+| released2    = August 15, 1980&lt;ref&gt;{{cite web|url=http://www.dmsguild.com/product/110198/Deities-%26-Demigods-%281e%29?affiliate_id=4782917|title=Deities &amp; Demigods (1e)|author=Shannon Appelcline|accessdate=2013-11-13|publisher=Dungeon Masters Guild}}&lt;/ref&gt;
+| pages2       = 144
+| isbn10-2     = 0-935696-22-9
+| isbn13-2     = 978-0935696226
+| cite2        = 
+| edition3     = 3{{rd}} Printing
+| binding3     = Hardback
+| released3    = 1981
+| pages3       = 128
+| isbn10-3     = 0-935696-22-9
+| isbn13-3     = 978-0935696226
+| cite3        = 
+| citetitle   = Deities &amp; Demigods 1st edition
+| Roll20number = 110198
+}}
+'''''Deities &amp; Demigods: Cyclopedia of Gods and Heroes from Myth and Legend''''' is a 1{{st}}-edition ''Advanced Dungeons &amp; Dragons'' accessory that details deities and mythologies of [[Earth]].
+{{quote|''Deities and Demigods'' cyclopedia provides the Dungeon Master with gods, heroes and monsters from myth, fiction and legend for use in rounding out an Advanced D&amp;D campaign.  Within this book are seventeen pantheons of divinities, each profusely illustrated. Also included are new material on clerics' conduct and their relationships with their deities, information on character mortality and immortality, and more!|Back-cover text}}
+==Description==
+''Deities &amp; Demigods'' presents the game statistics and background information for the gods, heroes, and legendary monsters from different mythologies. ''Deities &amp; Demigods'' was the first print appearance of various fictional non-human deities, such as [[Corellon]], [[Moradin]], [[Gruumsh]], and others, many of which have become standard features of ''Dungeons &amp; Dragons'' and its derivatives. These deities were the creation of [[James Ward]]. 
+
+The original edition covered 12 pantheons of gods from myth and folklore, plus gods for various nonhumans, and four fictional groups: the Arthurian heroes, Fritz Leiber's Nehwon mythos, Michael Moorcock's Melnibonéan mythos, and H. P. Lovecraft's Cthulhu Mythos. These statistics are presented in a fashion similar to that of the Monster Manual, and the statistics are accompanied by illustrations, as well as a short descriptive piece that details under what circumstances the god will appear, what the god might do if he does appear, and what his responsibilities and penchants may be. The book also details the mythoi of these religions, as well as how their clerics should behave, and describes the known planes of existence and how the afterlife applies to characters.
+
+Later printings of ''Deities &amp; Demigods'', beginning in 1981, removed some material present in the 1980 printings. The Cthulhu and Melnibonéan sections were removed from the 1981 edition, making it a 128-page hardcover. In that form, it is functionally identical to ''[[Legends &amp; Lore]]''.
+
+==Contents==
+* Preface
+* Credits and Acknowledgements
+* Editor's Introduction
+* Explanatory Notes
+** Standard Divine Abilities
+* Dungeon Mastering Divine Beings
+* Clerics and Deities
+* Omens
+* Mortality and Immortality
+** Divine Ascension
+*American Indian Mythos
+*Arthurian Heroes
+*Babylonian Mythos
+*Celtic Mythos
+*Mesoamerican Mythos
+*Chinese Mythos
+*Cthulhu Mythos &lt;small&gt;(first and second printings only)&lt;/small&gt;
+*Egyptian Mythos
+*Melnibonéan Mythos &lt;small&gt;(first and second printings only)&lt;/small&gt;
+*Finnish Mythos
+*Greek Mythos and Heroes
+*Indian Mythos
+*Japanese Mythos
+*Nehwon Mythos
+*Nonhuman's Deities
+*Norse Mythos
+*Sumerian Mythos
+* Appendix 1: The Known Planes of Existence
+* Appendix 2: Temple Trappings
+* Appendix 3: Clerical Quick Reference Chart
+* Appendix 4: Further References
+* Index to Proper Names
+
+==Index==
+===Creatures===
+{{Index
+|index = {{P|[[einheriar]]|113-114}};{{P|[[flame snake]]|50-51}};{{P|[[fossergrim]]|116}};{{P|[[hecatoncheire]]|69-70}};{{P|[[minion of Set]]|54}};{{P|[[spirit of the air]]|41}};{{P|[[Wild Hunt hound]]|31}};{{P|[[Ysgardian dwarf]]|98,101}}
+}}
+
+===Deities===
+{{Index
+|title = American Indian mythos
+|index = {{P|[[Coyote (deity)|Coyote]]|12}};{{P|[[Hastseltsi]]|13}};{{P|[[Hastsezini (deity)|Hastsezini]]|13}};{{P|[[Heng]]|13,14}};{{P|[[Hotoru]]|14}};{{P|[[Raven (deity)|Raven]]|12}};{{P|[[Shakak]]|15}};{{P|[[Snake-Man (deity)|Snake-Man]]|15}};{{P|[[Tobadzistsini]]|16}};
+}}
+{{Index
+|title = Archdevils
+|ref = {{P|[[Asmodeus]]|90}};{{P|[[Baalzebul]]|90}};{{P|[[Dispater]]|90}};{{P|[[Geryon]]|90}}
+}}
+{{Index
+|title = Celtic pantheon
+|index = {{P|[[Daghdha|Dagda]]|26}} • {{P|[[Arawn]]|26}} • {{P|[[Brigit (deity)|Brigit]]|27}} • {{P|[[Diancecht]]|27}} • {{P|[[Dunatis]]|27}} • {{P|[[Goibhniu|Goibhnie]]|28}} • {{P|[[Lugh (deity)|Lugh]]|28}};{{P|[[Master of the Hunt]]|31}};{{P|[[Manannan Mac Lir]]|28}};{{P|[[Morrigan]]|29}};{{P|[[Nuada]]|29}} • {{P|[[Oghma]]|29}} • {{P|[[Silvanus]]|30}}
+}}
+{{Index
+|title = Chinese pantheon
+|index = {{P|[[Lu Yueh]]|40}};{{P|[[Tou Mu]]|41}};{{P|[[Yen-Wang-Yeh]]|42}}
+}}
+{{Index
+|title = Demon Lords
+|ref = {{P|[[Demogorgon]]|90,95}};{{P|[[Orcus]]|90}};{{P|[[Juiblex]]|90}};{{P|[[Yeenoghu]]|90}}
+}}
+{{Index
+|title = Egyptian pantheon
+|index = {{P|[[Anhur]]|41}};{{P|[[Anubis]]|42}};{{P|[[Apep]]|42,46}};{{P|[[Bast]]|42}};{{P|[[Bes]]|43}};{{P|[[Geb]]|46}};{{P|[[Horus-Re|Horus]]|46}};{{P|[[Isis]]|47}};{{P|[[Nephthys]]|47}};{{P|[[Osiris]]|42,47}};{{P|[[Ptah]]|48}};{{P|[[Ra]]|41}};{{P|[[Seker]]|48}};{{P|[[Set]]|42,48}};{{P|[[Shu]]|49}};{{P|[[Tefnut]]|49}};{{P|[[Thoth]]|50}}
+}}
+{{Index
+|title = Finnish pantheon
+|index = {{P|[[Kiputytto]]|54}};{{P|[[Loviatar]]|55}};{{P|[[Mielikki]]|55}};{{P|[[Untamo]]|57}}
+}}
+{{Index
+|title = Greek pantheon
+|index = {{P|[[Apollo]]|59-60}};{{P|[[Artemis]]|60}};{{P|[[Circe]]|61}};{{P|[[Demeter]]|63}};{{P|[[Furies]]|64}};{{P|[[Hecate]]|64}};{{P|[[Hephaestus (deity)|Hephaestus]]|65}};{{P|[[Hermes]]|66}};{{P|[[Cronus|Kronos]]|66}};{{P|[[Pan (deity)|Pan]]|68}};{{P|[[Poseidon]]|68}};{{P|[[Prometheus]]|69}};{{P|[[Tyche]]|69}};{{P|[[Zeus]]|58}}
+}}
+{{Index
+|title = Indian pantheon
+|index = {{P|[[Agni]]|71}};{{P|[[Garuda (deity)|Garuda]]|74}};{{P|[[Indra (deity)|Indra]]|70}};{{P|[[Kali]]|71}};{{P|[[Ratri]]|72}};{{P|[[Ushas]]|73}};{{P|[[Yama]]|75}}
+}}
+{{Index
+|title = Japanese pantheon
+|index = {{P|[[Amaterasu]]|76}}
+}}
+{{Index
+|title = Nonhuman deities
+|index = {{P|[[Blibdoolpoolp]]|95}};{{P|[[Corellon]]|91}};{{P|[[Deep Sashelas]]|92}};{{P|[[Eadro]]|96}};{{P|[[Garl Glittergold]]|94}};{{P|[[Grolantor]]|93}};{{P|[[Gruumsh]]|97}};{{P|[[Hruggek]]|90}};{{P|[[Kurtulmak]]|95}};{{P|[[Laogzed]]|97}};{{P|[[Lolth]]|92}};{{P|[[Maglubiyet]]|94}};{{P|[[Moradin]]|91}};{{P|[[Rillifane Rallathil]]|93}};{{P|[[Sekolah]]|97}};{{P|[[Semuanya]]|96}};{{P|[[Skerrit]]|91}};{{P|[[Skoraeus Stonebones]]|93-94}};{{P|[[Vaprak]]|96}};{{P|[[Yondalla]]|94-95}}
+|ref = {{P|[[Bahamut]]|90}};{{P|[[Ssendam]]|90}};{{P|[[Tiamat]]|90}};{{P|[[Ygorl]]|90}}
+}}
+{{Index
+|title = Norse pantheon
+|index = {{P|[[Balder]]|100,126}};{{P|[[Freya]]|102,126}};{{P|[[Frigga]]|103,109,126}};{{P|[[Heimdall]]|103,126}};{{P|[[Idun]]|104,126}};{{P|[[Loki]]|104,126}};{{P|[[Norns]]|104-106}};{{P|[[Odin]]|98-99,126}};{{P|[[Surtur]]|93,106,108,126}};{{P|[[Thor]]|106,126}};{{P|[[Thrym]]|93,98,106,126}};{{P|[[Tyr]]|108,126}}
+}}
+{{Index
+|title = Sumerian pantheon
+|index = {{P|[[Enki]]|111}};{{P|[[Enlil]]|110}};{{P|[[Girru]]|24,120}};{{P|[[Inanna]]|111}};{{P|[[Ishtar]]|24,120}};{{P|[[Ki (goddess)|Ki]]|111}};{{P|[[Marduk]]|24,120}};{{P|[[Nanna-Sin]]|112}};{{P|[[Nergal (deity)|Nergal]]|25,120}};{{P|[[Ramman]]|25,120}};{{P|[[Utu]]|112,126}}
+}}
+
+===Events===
+{{Index
+|index = {{P|[[Wild Hunt]]|30-31}}
+}}
+===Locations===
+{{Index
+|title = Planes
+|index = {{P|[[Asgard]]|10,98,101,103,105,108,114}};{{P|[[Bifrost]]|10,93,103}};{{P|[[Gladsheim]]|72,98,100-101,103-106,108-109,118}};{{P|[[Jotunheim]]|98,106,108}};{{P|[[Negative Material plane]]|9,113-114,118}};{{P|[[Arborea|Olympus (Arborea)]]|10,47,58-61,63-69,92-93,116,118}};{{P|[[Plane of Shadow]]|114,118}};{{P|[[Positive Material plane]]|113,118}};{{P|[[Prime Material plane]]|5-6,8-13,15-16,30,32-36,38,44-45,47-48,50,53,55,58,60-61,65,67-68,70,72-73,76-77,79,82-84,86,88,92-93,96,95,105,113-114,117-118}}
+}}
+{{Index
+|title = Ships
+|index = {{P|''[[Matet]]''|41}}
+}}
+
+===Magic===
+{{Index
+|title = Items
+|index = {{P|''[[caduceus rod]]''|66}};{{P|''[[gjallarhorn]]''|103}}
+}}
+
+==Gallery==
+&lt;gallery&gt;
+Deities Demigods 1e Back Cover.jpg|Back Cover
+&lt;/gallery&gt;
+
+==Credits==
+* '''Design:''' James M. Ward with Robert J. Kuntz
+* '''Editing:''' Lawrence Schick
+* '''Cover Art:''' Erol Otus
+* '''Interior Illustrations:''' Jeff Dee, Erol Otus, Eymoth, Darlene Pekul, Jennell Jaquays, Jim Roslof, David S. LaForce, David C. Sutherland III, Jeff Lanners, D. A. Trampier
+==Appendix==
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild}}
+* {{DriveThruRPG}}
+* [https://www.enworld.org/forum/content.php?6343-The-Making-and-Breaking-of-Deities-Demigods The Making and Breaking of Deities &amp; Demigods]
+
+===References===
+{{refs}}
+[[Category:Books]]
+[[Category:Sourcebooks]]
+[[Category:1st edition sourcebooks]]
+[[Category:Works by Robert J. Kuntz]]
+[[Category:Works by James Ward]]
+[[Category:Published in 1980]]</text>
+      <sha1>r9ioa60rrpizxssb076okk97727x6ux</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Demiplane of Imprisonment</title>
+    <ns>0</ns>
+    <id>928</id>
+    <revision>
+      <id>1363</id>
+      <parentid>1362</parentid>
+      <timestamp>2023-01-05T02:41:55Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1362</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4485" sha1="h1kwh6f6hue3vsai9eoqjxm92w1fop2" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = The Demiplane of Imprisonment
+| othernames        = 
+| symbol            = 
+| demonym           = 
+| natives           = 
+| languages         = 
+| basicrefs         = 
+| type-GW           = [[Demiplane]]&lt;ref name="D353-MD" /&gt;
+| shape-size-GW     = Finite&lt;ref name="D353-MD" /&gt;
+| gravity-GW        = None&lt;ref name="D353-MD" /&gt;
+| time-GW           = No Time&lt;ref name="D353-MD" /&gt;
+| morphic-GW        = Divinely Morphic&lt;ref name="D353-MD" /&gt;
+| element-energy-GW = 
+| alignment-GW      = Mildly Evil Aligned&lt;ref name="D353-MD" /&gt;
+| magical-GW        = No Magic&lt;ref name="D353-MD" /&gt;
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = 
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = 
+| deities           = 
+| locations         = 
+| organizations     = 
+| settlements       = 
+| usethe            = 
+| useon             = 
+}}
+The '''Demiplane of Imprisonment''' was an extremely obscure [[demiplane]]. Very little was known about it.&lt;ref name="D353-MD"&gt;{{Cite dragon/353/Multiple Dementia: A Guide to the Demiplanes}}&lt;/ref&gt;
+
+==Geography==
+The demiplane resembled a crystalline cyst floating through the Ethereal Plane. The ether for {{SI|500|feet|long=yes}} around the demiplane continuously manifested dreamscapes for the nightmares that an intelligence within sent around the multiverse to its would-be worshipers; these were dominated by purple eyes, mouths, veined whirlpools, and dark humanoid figures. The visions continuously attempted to goad, tempt, and seduce travelers into touching the crystal, which would trap them in the demiplane.&lt;ref name="D353-MD" /&gt;
+
+==History==
+Sometime after {{yearlink|-3234}}, the archwizard [[Madryoch]] was banished to this demiplane.&lt;ref name="TGHotR-18" /&gt; The plane was rediscovered later by Netherese arcanists following up on the work of the archmage [[Lord Shadow|Shadow]]; a handful of them became imprisoned in it.&lt;ref name="NEoM-10"&gt;{{Cite book/Netheril: Empire of Magic/Encyclopedia Arcana|10}}&lt;/ref&gt; Shadow himself used assassins he caught alive as exploration guinea pigs, making them touch its surface; he never managed to retrieve them afterwards.&lt;ref name="RotA"&gt;{{cite book/Realms of the Arcane|194}}&lt;/ref&gt;
+
+==Inhabitants==
+People who touched the crystal were absorbed into the demiplane. No one could leave on their own power; it took a spell like ''[[wish]]'' or ''[[miracle]]'' from someone outside the demiplane to escape. Those removed would be under the effects of an ''[[insanity]]'', that could be healed in the same ways as the effects of the spell of the same name.&lt;ref name="D353-MD" /&gt;
+
+The archwizard Madryoch had been banished to this demiplane.&lt;ref name="TGHotR-18"&gt;{{Cite book/The Grand History of the Realms|18}}&lt;/ref&gt; Madryoch's essence later escaped the imprisonment, instead being trapped in the [[Plane of Shadow]].&lt;ref name="TSS-C18"&gt;{{Cite book/The Shadow Stone||18}}&lt;/ref&gt;
+
+==Legends==
+The Demiplane of Imprisonment was a legend even to the gods. According to its legend, an irredeemably evil creature and its servants had been banished from all of reality to the [[Negative Material Plane]] by the gods that came before the gods, with this demiplane housing remnants of their forces.&lt;ref name="MotP1-21"&gt;{{Cite book/Manual of the Planes 1st edition|21}}&lt;/ref&gt;
+
+The color of this demiplane's ethereal curtain was unrecorded. Travelers were recommended not to cross color pools of unrecognized color, lest they accidentally find themselves here.&lt;ref name="GttEP"&gt;{{Cite book/A Guide to the Ethereal Plane|20, 46}}&lt;/ref&gt; Most realms had similar legends about a demiplane of this nature, with the local theology substituted, having all come together to imprison there what remnants of the evil force they could not or would not completely annihilate.&lt;ref name="D353-MD" /&gt;
+
+==Appendix==
+===References===
+{{Refs}}
+[[Category:Demiplanes]]
+[[Category:Planes of existence]]</text>
+      <sha1>h1kwh6f6hue3vsai9eoqjxm92w1fop2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Demiplane of Nightmares</title>
+    <ns>0</ns>
+    <id>895</id>
+    <revision>
+      <id>1297</id>
+      <parentid>1296</parentid>
+      <timestamp>2023-01-05T02:41:30Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1296</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3912" sha1="8ku3wnin0u6hkakk0jh6igzqcrgp8jd" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Demiplane of Nightmares
+| othernames        = 
+| natives           = [[Diabolus|Diaboli]], the [[Night Parade]]
+| languages         = 
+| basicrefs         = 
+| type-GW           = [[Demiplane]]
+| shape-size-GW     = 
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="AGttEP"/&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = 
+| deities           = 
+| locations         = 
+| organizations     = 
+| settlements       = 
+| usethe            = 
+| useon             = 
+}}
+The '''Demiplane of Nightmares''' was a horrific [[demiplane]] inhabited by creatures that looked like monsters out of nightmares.&lt;ref name="AGttEP"&gt;{{Cite book/A Guide to the Ethereal Plane|47}}&lt;/ref&gt;
+
+==Description==
+The Demiplane of Nightmares was a strange place of strange angles and stranger geometry that seemed unsettling, even repulsive, to people from the Material plane.&lt;ref name="AGttEP"/&gt;
+
+The Demiplane of Nightmares was variously described to be either an independent demiplane in the [[Ethereal plane]],&lt;ref name="AGttEP"/&gt; or a demiplane located coterminously with both the [[Region of Dreams]] and the Ethereal Plane. Either way, the boundary between the Demiplane and the [[Far Realm]] was extremely thin and the taint of the latter constantly seeped into the Demiplane, corrupting it.&lt;ref name="D327"&gt;{{Cite dragon/327/Winning Races: Diaboli|62-63}}&lt;/ref&gt;
+
+==Inhabitants==
+Creatures known to inhabit the Demiplane of Nightmares included [[neh-thalggu]], [[diabolus|diaboli]], [[feyr]]s, [[nagpa]]s, and [[maelephant]]s. Of these, only the diaboli were actually native to the demiplane.&lt;ref name="MMC-26"&gt;{{Cite book/Monstrous Compendium Mystara Appendix|26}}&lt;/ref&gt; The diaboli occupied the same niche on the Demiplane of Nightmares that humans did on the Material Plane.&lt;ref name="D327"/&gt;&lt;ref name="MMC-26"/&gt; [[Malfera]]s were a native predator of the demiplane.&lt;ref&gt;{{Cite dragon/343/Creature Collection V|51-52}}&lt;/ref&gt;
+
+The creatures that lived in the Demiplane of Nightmares were horrific beings to the eyes of most people. It was said that they saw creatures from the Material plane in much the same way, and certainly the diaboli instinctively feared humans and other humanoids.&lt;ref name="MMC-26"/&gt;&lt;ref name="AGttEP"/&gt;
+
+==History==
+In {{Yearlink|-681}}, [[Netherese]] [[arcanist]]s emigrated to the Demiplane of Nightmares, where the energies infusing the plane twisted their descendants until they evolved into the [[Night Parade]].&lt;ref name="LEoF-98"&gt;{{Cite book/Lost Empires of Faerûn|98}}&lt;/ref&gt; 
+
+Around and prior to the year {{Yearlink|1359}}, members of the Night Parade opened ''[[portal]]s'' back to the Realms, where they began infiltrating cities such as [[Calimport]].&lt;ref&gt;{{Cite book/The Night Parade}}&lt;/ref&gt;
+
+==Rumors &amp; Legends==
+Some claimed that the dark powers must have pulled part of the Demiplane of Nightmare into the [[Demiplane of Dread]] to create an even more terrifying expanse in that place.&lt;ref name="AGttEP"/&gt;
+
+==References==
+{{Refs}}
+[[Category:Great Wheel planes]]
+[[Category:World Tree planes]]
+[[Category:Demiplanes]]
+[[Category:Planes of existence]]
+[[Category:Locations in the Ethereal Plane]]</text>
+      <sha1>8ku3wnin0u6hkakk0jh6igzqcrgp8jd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Demiplane of Time</title>
+    <ns>0</ns>
+    <id>922</id>
+    <revision>
+      <id>1349</id>
+      <parentid>1348</parentid>
+      <timestamp>2023-01-05T02:41:50Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1348</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8383" sha1="dns7rb87ncazxdxv3k22qq32q2ow60b" xml:space="preserve">{{Plane
+| image             = Chrono5.png
+| caption           = A [[chronomancer]] moves through the Demiplane of Time.
+| name              = Demiplane of Time
+| othernames        = Demi-Plane of Time,&lt;br/&gt;Plane of Time,&lt;br/&gt;Temporal Energy Plane,&lt;br/&gt;Time Plane,&lt;br/&gt;Temporal Prime
+| demonym           = 
+| natives           = [[Chronovoid]]s, [[temporal dog]]s, [[temporal glider]]s, [[temporal stalker]], [[tether beast]]s, [[time dimensional]]s, [[vortex spider]]s
+| languages         = 
+| curtain-color     = Translucent&lt;ref name="MoPp21"&gt;{{Cite book/Manual of the Planes 1st edition|21}}&lt;/ref&gt;&lt;br /&gt;Metallic&lt;ref name="mop"-12&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt;&lt;br /&gt;Pearl and silver&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;
+| basicrefs         = 
+| type-GW           = [[Demiplane]]
+| shape-size-GW     = Finite
+| gravity-GW        = 
+| time-GW           = Flowing, erratic
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = Impeded
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = the [[Ethereal Plane]]
+| refs-GW           = &lt;ref name="MoPp21"/&gt;&lt;ref name="ph"/&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = 
+| deities           = 
+| locations         = 
+| organizations     = 
+| settlements       = 
+| usethe            = 
+| useon             = 
+}}
+The '''Demiplane of Time''',&lt;ref name="chr88"&gt;{{Cite book/Chronomancer|88}}&lt;/ref&gt;&lt;ref name="drag353"&gt;{{Cite dragon/353/Multiple Dementia: A Guide to the Demiplanes|39}}&lt;/ref&gt; or '''Demi-Plane of Time''',&lt;ref name="MoPp21"/&gt;&lt;ref name="op"/&gt; also called the '''Plane of Time''',&lt;ref name="chr88"/&gt; '''Temporal Energy Plane''',&lt;ref name="drag353"/&gt; '''Time Plane'''&lt;ref name="mm2"&gt;{{Cite book/Monster Manual II 1st edition|120-121}}&lt;/ref&gt; or the '''Temporal Prime''',&lt;ref name="chr88"/&gt; was a [[demiplane]]&lt;ref group="note"&gt;Although those aware of its presence in [[Toril]], and even [[chronomancer]]s beyond, referred to the Temporal Prime as a demiplane, many chronomancers swore that it was in fact more technically similar to a "dimensional plane" or "dimension". Such a difference was very difficult for most to understand, as scholars would try to fit the "plane" into their cosmological theories. Most cosmologists still referred to the Demiplane of Time as a demiplane&lt;/ref&gt;&lt;ref name="chr4"&gt;{{Cite book/Chronomancer|4}}&lt;/ref&gt; of the [[Ethereal Plane]].&lt;ref name="MoPp21"/&gt;&lt;ref name="ph"/&gt;
+
+==Description==
+The Demiplane of Time was an extradimensional space that could allow travelers to move through time, i.e., [[time travel]]. Very little was truly known about this ethereal demiplane, and despite diligent research, there were still too many inaccuracies and contradictions from "first-hand" accounts to conclude what was true, and what was not.&lt;ref name="gtep"&gt;{{Cite book/A Guide to the Ethereal Plane|50}}&lt;/ref&gt;
+
+There were several different ways to describe the Demiplane of Time. Some believed it was a pocket dimension set aside from the rest of the multiverse, whilst others believed it was a plane that overlayed the [[Prime Material plane]].&lt;ref name="gtep"/&gt;
+[[File:Chrono29.png|thumb|right|''Adventurers escape a [[vortex spider]], as they move towards a temporal vortex.'']]
+Although not much was known for certain, and many had differing views, it was generally agreed that the place was dark, and permeated with a blue-gray mist. Threads and lines flowed through the vast darkness, which some believed to be timelines of living beings. It was also generally considered to be very dangerous, and could age those who passed through it considerably.&lt;ref name="MoPp21"/&gt;&lt;ref name="op"&gt;{{Cite book/Tales of the Outer Planes|12-15}}&lt;/ref&gt;&lt;ref name="gtep"/&gt;&lt;ref name="chr19"/&gt;&lt;ref name="mop3"&gt;{{Cite book/Manual of the Planes 3rd edition|208-210}}&lt;/ref&gt;
+
+===Place in Traditional Cosmology===
+In traditional cosmology, the Demi-Plane of Time was a large dimensional demiplane that operated by its own rules. It appeared to be almost as large as the [[Demiplane of Shadow]], and its temporal manifestations extended into its Border Ethereal. It was hostile to life, but housed a few native species, such as [[vortex spider]]s. The curtain that surrounded the dimensional plane was semi-transparent, but had shadowy shapes that appeared beyond it.&lt;ref name="MoPp21"/&gt; It did not show up on [[Great Wheel cosmology]] diagrams, the same with other demiplanes, as the properties of the extradimensional space were constantly changing with time.&lt;ref name="ph"&gt;{{Cite book/Planar Handbook|135-138}}&lt;/ref&gt;
+
+===Chronomancers' Viewpoint===
+Many [[chronomancer]]s believed that the Demiplane of Time, which they called the Temporal Prime, was a dimension in which ''timestreams'' could be observed and used to move through time. Timestreams were formed by currents in time-space, which themselves were formed by the lifelines of living beings. However, these were not always stable, and thus could be turbulent, forming temporal vortices, allowing travel from one reality to another.&lt;ref name="chr4"/&gt; The plane looked like an infinitely large dark space, with only timestreams illuminating its vast darkness.&lt;ref name="chr19"&gt;{{Cite book/Chronomancer|19}}&lt;/ref&gt;
+
+==Laws==
+{{fq
+|text=What exists may be exploited. If power can be drawn from the elements, what kind of [[magic]] could be made possible by tapping a dimension?
+|source=Excerpt from ''Theories of Time''&lt;ref name="chr4"/&gt;
+}}
+The Temporal Prime, naturally, temporally affected those who went to or from it. After coming back from the plane, many found themselves either younger or older.&lt;ref name="MoPp21"/&gt;
+
+Substances that were created could not permanently exist on the demiplane, as the [[magic]]al laws that created matter were very weak there. As such, both [[arcane]] and [[divine]] [[spell]]s involving some form of matter (such as ''[[fog cloud]]'' and ''[[create water]]''), would be impeded.&lt;ref name="chr6770"&gt;{{Cite book/Chronomancer|67-70}}&lt;/ref&gt;
+
+==Importance in the Realms==
+The Temporal Prime was known to many [[deities]], [[sage]]s, and [[wizard]]s of the [[Realms]], who generally knew it as the Plane, or Demiplane, of Time. The demiplane was highly important to those such as [[Elminster Aumar]], the [[Seven Sisters]], and [[Khelben Arunsun]]. [[Mystra]] had granted them powers to prevent [[chronomancer]]s from meddling with the temporal demiplane, which could potentially destroy history. If a chronomancer severely interrupted the timeline of events in [[Toril]], they would be quickly and efficiently destroyed by an avatar of a deity.&lt;ref name="chr88"/&gt;
+
+As it was in the deities' interests to keep history complete and unbroken, [[Oghma]] and [[Deneir]] bestowed similar supernatural powers unto their followers. The Oghmanyte and Deneirrath priests were said to be able to follow the path of chronomancers through the Plane of Time and reverse the potential damage. As such, chronomancers made very limited voyages through time in [[Faerûn]], [[Kara-Tur]], [[Zakhara]], and [[Maztica]].&lt;ref name="chr88"/&gt;
+
+Vortex spiders, denizens of the Time Plane, were known to have rarely appeared in [[Faerûn]].&lt;ref name="tob"&gt;{{Cite game/Baldur's Gate II: Throne of Bhaal}}&lt;/ref&gt;
+
+==Rumors &amp; Legends==
+* No one that had entered the plane was known to return. However, there were rumors that time-[[mage]]s, known as chronomancers had mastered the art of traveling up and down the cords of time.&lt;ref name="gtep"/&gt;
+* In the [[Gates of the Moon]], the [[divine realm]] of [[Selûne]], one could find sand allegedly from "the shores" of this plane, though merchants would never reveal how they managed to reach the Demiplane of Time.&lt;ref name="PoC-p117"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|117}}&lt;/ref&gt;
+
+==Appendix==
+===Notes===
+{{Notes}}
+
+===References===
+{{Refs}}
+[[Category:Demiplanes]]</text>
+      <sha1>dns7rb87ncazxdxv3k22qq32q2ow60b</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Demiplanes</title>
+    <ns>0</ns>
+    <id>1329</id>
+    <redirect title="Demiplane" />
+    <revision>
+      <id>1746</id>
+      <parentid>1745</parentid>
+      <timestamp>2023-01-05T10:49:37Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1745</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23" sha1="tj3li490t4ge4f0r0avck3fehukb7wg" xml:space="preserve">#REDIRECT [[demiplane]]</text>
+      <sha1>tj3li490t4ge4f0r0avck3fehukb7wg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Demonweb Pits</title>
+    <ns>0</ns>
+    <id>1479</id>
+    <revision>
+      <id>2230</id>
+      <parentid>2229</parentid>
+      <timestamp>2023-08-09T01:03:32Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2229</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8625" sha1="7nbu2udy1dh7zzmx2s54ww3ii7cy1j3" xml:space="preserve">{{Nofootnotes}}
+{{Plane
+| image             = Demonweb Pits - Wayne England.jpg
+| caption           = The Demonweb Pits
+| name              = Demonweb Pits
+| othernames        = Lolth's Web
+| symbol            = Abyss.png
+| demonym           = 
+| natives           = [[Spider]]s, [[yochlol]], [[abyssal widow]]s, [[chwidencha]], [[petitioners]]
+| languages         = 
+| basicrefs         = &lt;ref name="DD-28"&gt;{{Cite book/Demihuman Deities|28}}&lt;/ref&gt;&lt;ref name="R.M"&gt;{{Cite book/Resurrection/Paperback/Map}}&lt;/ref&gt;
+| type-GW           = Layer
+| shape-size-GW     = Infinite
+| gravity-GW        = None
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = [[Chaotic evil]] 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 66
+| location-GW       = the [[Abyss]]
+| refs-GW           = &lt;ref name="FC13e-p122-127"&gt;{{Cite book/Fiendish Codex I: Hordes of the Abyss|122-127}}&lt;/ref&gt;
+| type-WA           = Layer
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 66
+| location-WA       = the [[Abyss]]
+| refs-WA           = &lt;ref name="MotP4e-p81"&gt;{{Cite book/Manual of the Planes 4th edition|81}}&lt;/ref&gt;&lt;ref name="DN4e-p80"&gt;{{Cite book/Demonomicon|80}}&lt;/ref&gt;
+| type-WT           = [[Fiendish Plane]]
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = Alterable (each realm is divinely morphic)
+| element-energy-WT = 
+| alignment-WT      = Mildly chaos-aligned and strongly evil-aligned
+| magical-WT        = 
+| faith-WT          = Strong
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = &lt;ref name="PGtF-p141"&gt;{{Cite book/Player's Guide to Faerûn|141}}&lt;/ref&gt;&lt;ref name="PGtF-pp149-150"&gt;{{Cite book/Player's Guide to Faerûn|149-150}}&lt;/ref&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = 
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Demonweb Pits''', also known as '''Lolth's Web''',&lt;ref name="DD-28"/&gt;&lt;ref name="OHG-100"&gt;{{Cite book/On Hallowed Ground|100}}&lt;/ref&gt; was originally the 66{{th}} layer of the [[Abyss]].&lt;ref name="Condemn-p306"&gt;{{Cite book/Condemnation/Paperback|306}}&lt;/ref&gt; By the end of the [[Silence of Lolth]], Lolth had moved her domain in the Demonweb Pits to its own [[plane|planar space]].&lt;ref name="Annih-p311"&gt;{{Cite book/Annihilation/Paperback|311}}&lt;/ref&gt;
+
+The realm was ruled over by Lolth, the primary drow [[deity]], who resided in a huge [[iron]] fortress that moved under its mistress's will on spider-like legs. Her deific consort [[Selvetarm]] lived with her there until he fell before a wielder of the ''[[Crescent Blade]]''. After that, for a century, every creature who resided in the Demonweb Pits answered solely to Lolth. In the 1480s DR Selvetarm returned to life and to his domain.{{fact}}
+
+==Description==
+===Old Demonweb Pits===
+When [[Quenthel Baenre]] and her companions visited the Demonweb Pits in the Abyss during the Silence of Lolth in the {{YearlinkName|1372}}, they found the realm unusually empty of souls.&lt;ref name="Condemn-p342"&gt;{{Cite book/Condemnation/Paperback|342}}&lt;/ref&gt; The realm consisted of black emptiness with an acrid smell and giant spider web.&lt;ref name="Condemn-p338-339"&gt;{{Cite book/Condemnation/Paperback|338-339}}&lt;/ref&gt; It was very hot there.&lt;ref name="Condemn-p349"&gt;{{Cite book/Condemnation/Paperback|349}}&lt;/ref&gt; The Pits were covered in corpses of monsters and [[demon]]s lying dead and dying, particularly [[goristro]]s.&lt;ref name="Condemn-p341"&gt;{{Cite book/Condemnation/Paperback|341}}&lt;/ref&gt; Lolth dwelt in a black temple suspended in the web. Her stone face covered the entrance.&lt;ref name="Condemn-p352-353"&gt;{{Cite book/Condemnation/Paperback|352-353}}&lt;/ref&gt;
+
+When Quenthel's expedition returned to the same location in the {{YearlinkName|1373}}, they found the Demonweb Pits abandoned and in ruins.&lt;ref name="Annih-p306"&gt;{{Cite book/Annihilation/Paperback|306}}&lt;/ref&gt; A [[gate]] guarded by [[abyssal widow]]s led to the new Demonweb Pits.&lt;ref name="Annih-p371"&gt;{{Cite book/Annihilation/Paperback|371}}&lt;/ref&gt;
+
+===New Demonweb Pits===
+The new Demonweb Pits was a plane of rocks with chasms and rocky gorges. There were many pits and craters. The land looked dead. There were giant petrified spiders with webbing over everything from the songspiders.&lt;ref name="Res-p29-31"&gt;{{Cite book/Resurrection/Paperback|29-31}}&lt;/ref&gt; There was a distant red sun during the day&lt;ref name="Res-p54"&gt;{{Cite book/Resurrection/Paperback|54}}&lt;/ref&gt; and eight bright red stars at night.&lt;ref name="Res-p361"&gt;{{Cite book/Resurrection/Paperback|361}}&lt;/ref&gt;
+
+There was a river of souls flowing to Lolth's city, an iron citadel in the Infinite Web.&lt;ref name="Res-p39"&gt;{{Cite book/Resurrection/Paperback|39}}&lt;/ref&gt;&lt;ref name="Res-p214"&gt;{{Cite book/Resurrection/Paperback|214}}&lt;/ref&gt; Lolth stood atop a dais in a temple on a pyramid with webs on the walls.&lt;ref name="Res-p316"&gt;{{Cite book/Resurrection/Paperback|316}}&lt;/ref&gt;
+
+There were a number of geographical features on the plane, including the [[Plains of Soulfire]]&lt;ref name="Res-p13"&gt;{{Cite book/Resurrection/Paperback|13}}&lt;/ref&gt; and the [[Pass of the Soulreaver]] at the base of the [[Mountain of Eyes]].&lt;ref name="Res-p189"&gt;{{Cite book/Resurrection/Paperback|189}}&lt;/ref&gt;
+
+The plane was inhabited by [[spider]]s (including [[songspider]]s)&lt;ref name="Res-p29-31"&gt;{{Cite book/Resurrection/Paperback|29-31}}&lt;/ref&gt; and [[chwidencha]].&lt;ref name="Res-p81"&gt;{{Cite book/Resurrection/Paperback|81}}&lt;/ref&gt; The [[Soulreaver]] dwelt in the Pass of the Soulreaver and was a gray spectral form, with a bloated serpentine body containing screaming drow souls.&lt;ref name="Res-p266"&gt;{{Cite book/Resurrection/Paperback|266}}&lt;/ref&gt;
+
+After the [[Second Sundering]], Lolth returned her realm to the Abyss.&lt;ref name="5e DMG"&gt;{{Cite book/Dungeon Master's Guide 5th edition}}&lt;/ref&gt;
+
+==Gods and Domains==
+All drow gods were originally located in the Demonweb Pits and Lolth claimed to be the queen of them all.&lt;ref name="Condemn-p339-340"&gt;{{Cite book/Condemnation/Paperback|339-340}}&lt;/ref&gt;
+
+* Lolth's son, [[Vhaeraun]], maintained a realm named [[Ellaniath]] where he schemed against his mother almost constantly, an activity Lolth actually encouraged. After Lolth's Silence, Lolth exiled him from the new Demonweb pits.{{fact}}
+
+* Lolth's daughter, [[Eilistraee]], also had a place in the Demonweb pits, but her main realm was in [[Ysgard]] and successively in [[Arvandor]]. However, after the Silence of Lolth, her secondary realm was removed from the Demonweb.{{fact}}
+
+* [[Kiaransalee]] had her own citadel made of bones called [[Thanatos (Abyss)|Thanatos]] in a desolate area of the plane. She grudgingly worked for Lolth as her servant since her own layer of the Abyss was stolen from her by the reincarnated demon prince [[Orcus]]. However with her death due to the [[high magic]] of [[Q'arlynd Melarn]], her dominion crumbled. As of the 1480s, Kiaransalee re-emerged.{{fact}}
+
+* [[Ghaunadaur]] resided at the very bottom of the pits, surrounded by slime and fungus that caused multicolored lights to appear. However, in the {{YearlinkName|1379}}, fed up with the Spider Queen, he removed his dominion to the [[Deep Caverns]].{{fact}}
+
+* [[Selvetarm]] resided with the Spider Queen without maintaining a realm of his own.&lt;ref name="PGtF-pp149-150"/&gt;&lt;ref name="DD-36"&gt;{{Cite book/Demihuman Deities|36}}&lt;/ref&gt;
+
+==Appendix==
+===Gallery===
+&lt;gallery&gt;
+Demonweb Pits.png|''Demonweb Pits in [[Neverwinter (game)|Neverwinter]].''
+&lt;/gallery&gt;
+===Appearances===
+{{Appearances
+|adventures = ''[[Out of the Abyss]]''
+|adventure refs = ''[[Waterdeep: Dungeon of the Mad Mage]]''
+|novels = ''[[Condemnation]]'';''[[Annihilation]]'';''[[Resurrection (novel)|Resurrection]]'';''[[Sacrifice of the Widow]]''
+|video games = ''[[Dungeons &amp; Dragons Online: Menace of the Underdark]]''
+|card games = {{Spellfireapp|RR}}
+|organized play refs = ''[[Szith Morcane Unbound]]''
+}}
+
+===Further Reading===
+* {{Cite dungeon/204/Denizens of the Demonweb}}
+
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+​
+[[Category:Astral dominions]]
+[[Category:Divine realms]]
+[[Category:Fiendish planes]]
+[[Category:World Tree planes]]
+[[Category:World Axis planes]]
+[[Category:Planes of existence]]
+[[Category:Locations in the Abyss]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations]]
+[[Category:Locations in the Lower Planes]]
+[[Category:Layers of the Abyss]]</text>
+      <sha1>7nbu2udy1dh7zzmx2s54ww3ii7cy1j3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Directions in Sigil</title>
+    <ns>0</ns>
+    <id>2912</id>
+    <revision>
+      <id>5367</id>
+      <parentid>5366</parentid>
+      <timestamp>2024-04-21T06:16:49Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>5367</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2202" sha1="4ygyaiyx5encipmzd7f9izp8xwxvu40" xml:space="preserve">[[File:SigilDirections.jpg|300px|right|Directions]]
+
+[[Sigil]] has no cardinal directions as most primes are familiar with them. Directions are instead given in terms of wards and directions related to the [[Spire]].
+
+While a "up" on a prime map may represent North, most who read it understand that North is not literally up, away from their world's center of gravity. But recalling that Sigil is floating on its side in relation to the [[Outlands]], one side of the map would quite literally be up.
+
+'''Spikeward''' represents this upward direction, the edge of Sigil furthest away from the [[Spire]] and the [[Outlands]]. The opposite edge is '''Downward''' (although '''Spireward''' is sometimes used&lt;ref name="poly155-14"&gt;{{b|Polyhedron|Polyhedron Magazine 155|page=144}}&lt;/ref&gt;).
+
+[[Fraternity of Order]] surveyors also sometimes use additional terms: '''Radial''' indicates locations on the opposite side of Sigil, if you were to draw a straight line through the middle to the part of the city hanging directly over your head. [[The Lady's Ward]] is Radial to the [[Clerk's Ward]], for example. '''Chordwise''' is close-to-Radial -- the Lady's Ward is Chordwise to the [[Guildhall Ward]] and the [[Hive Ward]]. Both of those terms are, however, more typically applied to individual locations and not entire Wards, so Chordwise in practice is usually a narrower cone than the examples given.
+
+== Background Information ==
+
+* Although never defined, it's likely that there would be some need for an East/West equivalent as well. One option is to assume that Sigil slowly spins -- perhaps one full spin per month, or one per year. Walking Sigil in the direction of the spin would be '''Spinwise''' while the opposite direction would be '''Dragward''', implying you're trying to slow down time by walking the "wrong" way.
+* Many NPCs in ''[[Planescape: Torment]]'' use traditional cardinal directions -- northwest exit, building to the south, etc -- relying on most gamers' typical assumptions of "north" being towards the top of the screen, and other directions following suit.
+
+== References ==
+
+* {{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=12}}
+
+&lt;references /&gt;
+
+[[Category:Sigil]]</text>
+      <sha1>4ygyaiyx5encipmzd7f9izp8xwxvu40</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Discordant Opposition</title>
+    <ns>0</ns>
+    <id>2961</id>
+    <revision>
+      <id>7306</id>
+      <parentid>6257</parentid>
+      <timestamp>2026-05-17T07:00:09Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>template</comment>
+      <origin>7306</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1053" sha1="jg29w86z6ckbehf66vl9o9ssni7wq0g" xml:space="preserve">{{Faction
+  | faction        = Discordant Opposition
+  | image1         = 
+  | caption-image1 = 
+  | nickname       = 
+  | philosophy     = 
+  | founded        = 
+  | factol         = 
+  | sigilhq        = 
+  | homefield      = 
+  | allies         = 
+  | enemies        = 
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Discordant Opposition''' were a chaos-aligned faction in Sigil's history. Given the propensity for chaos-aligned factions to avoid keeping records of any kind, it's uncertain if they were a previous incarnation of the [[Xaositects]] operating under a different name, or if they were truly an unrelated organization.
+
+== History ==
+
+== Philosophy ==
+
+== Role ==
+
+== Membership ==
+
+
+== Background Information ==
+
+* The name "Discordant Opposition" is a reference to the "Concordant Opposition," one of the older names for the [[Outlands]]. 
+
+== References ==
+* 2nd Edition
+** {{b|Planescape|The Factol's Manifesto|pdf=17275|page=152}}
+
+&lt;references /&gt;
+
+{{FallenFactions}}
+
+[[Category:Faction]]
+[[Category:Discordant Opposition]]</text>
+      <sha1>jg29w86z6ckbehf66vl9o9ssni7wq0g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dismal Caverns</title>
+    <ns>0</ns>
+    <id>1543</id>
+    <revision>
+      <id>2248</id>
+      <parentid>2247</parentid>
+      <timestamp>2023-08-09T01:03:34Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2247</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5621" sha1="g8onc7osxhvdojgcimavz99myqdecbc" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Dismal Caverns
+| othernames        = Deep Caverns
+| natives           = [[Dune stalker]]s, [[kaorti]], [[rukarazyll]]s, [[vaporighu]]
+| languages         = 
+| basicrefs         = &lt;ref name="PGtF-148"&gt;{{Cite book/Player's Guide to Faerûn|148}}&lt;/ref&gt;
+| type-GW           = 
+| shape-size-GW     = 
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = 
+| type-WA           = [[Astral Dominion]]
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = [[Chaotic evil]]
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = &lt;ref name="FRPG-159"&gt;{{Cite book/Forgotten Realms Player's Guide|159}}&lt;/ref&gt;&lt;ref name="FRCG4e-63"&gt;{{Cite book/Forgotten Realms Campaign Guide|63}}&lt;/ref&gt;
+| type-WT           = [[Fiendish Plane]]
+| shape-size-WT     = Finite
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = Alterable (divine realms were divinely morphic)
+| element-energy-WT = 
+| alignment-WT      = Strongly evil-aligned
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = &lt;ref name="PGtF-140"&gt;{{Cite book/Player's Guide to Faerûn|140}}&lt;/ref&gt;&lt;ref name="PGtF-148" /&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = 
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+'''Dismal Caverns''' was an [[Astral dominion]]&lt;ref name="FRPG-159" /&gt; in the [[World Axis cosmology]] model. Prior to the [[Spellplague]] it was known as '''Deep Caverns''' in the [[World Tree cosmology]] model.&lt;ref name="PGtF-140" /&gt; It was the home plane of the [[Great Mother]], [[Ilsensine]], [[Laogzed]],&lt;ref name="PGtF-149"&gt;{{Cite book/Player's Guide to Faerûn|149}}&lt;/ref&gt; and [[Ghaunadaur]].&lt;ref name="FRCG4e-63" /&gt;
+
+==Description==
+This plane was a great solid mass of rock perforated by caverns, chasms, and tunnels of all sizes. There was no sky and no light&lt;ref name="PGtF-148" /&gt; except for that given off by luminous fungi and molten lava flows.&lt;ref name="FRCG4e-63" /&gt; Portions of the Caverns were subject to swift winds that howled through the maze of tunnels.&lt;ref name="PGtF-148" /&gt; Mapping the labyrinth of tunnels was completely impossible because within the demesnes of the deities the passageways and walls obeyed their will and could open, close, change direction, or collapse on an infernal whim.&lt;ref name="PGtF-148-149"&gt;{{Cite book/Player's Guide to Faerûn|148-149}}&lt;/ref&gt;
+
+==Inhabitants==
+Dismal Caverns was the [[afterlife]] destination of most [[beholder]], [[illithid]], and [[troglodyte]] petitioners, and they appeared here much the same as they had in life. Their behavior was also similar as in their former lives and the disparate groups viewed each other with disdain, hatred, or animosity.&lt;ref name="PGtF-148" /&gt; [[Ooze]]s, [[slime]]s, and [[abomination]]s of all kinds also gathered here under the lurking eye of Ghaunadaur.&lt;ref name="FRCG4e-74"&gt;{{Cite book/Forgotten Realms Campaign Guide|74}}&lt;/ref&gt; The constant howling and particularly desolate and mournful tone of the winds that blew through regions of the Dismal Caverns attracted many [[howler]]s from their native [[Supreme Throne]].&lt;ref name="PGtF-148" /&gt;
+
+==Realms==
+The realms of the most powerful inhabitants were widely separated because of the dislike and distrust between their rulers and it was difficult to determine where one domain ended and another began.&lt;ref name="PGtF-148" /&gt;
+*'''[[Ghaunadaur]]''', the Elder Eye, once a member of the [[Dark Seldarine|Drow Pantheon]], retreated to this plane from the [[Demonweb Pits]] in the [[1379 DR|Year of the Lost Keep, 1379 DR]].&lt;ref name="GHotR-159"&gt;{{Cite book/The Grand History of the Realms|159}}&lt;/ref&gt; He was fed up with the machinations of the [[drow]] goddess [[Lolth]] and slunk away in order to rebuild his worshiper base.&lt;ref name="FRCG4e-74" /&gt;
+* The '''[[Great Mother]]''' of the [[beholder]]s had a large demesne known as the [[Realm of a Million Eyes]] on this plane. She lived in a vast cave at the bottom of a region permeated by vertical shafts, which suited her floating petitioners and offspring. Her spawning ground was inviolable because she ate anyone who approached too closely, including her own children.&lt;ref name="PGtF-149" /&gt;
+* '''[[Ilsensine]]''', the god of the [[mind flayer]]s, ruled over the [[Caverns of Thought]] somewhere on this plane. This area echoed with its thoughts, so evil that every thinking creature eventually went mad.&lt;ref name="PGtF-149" /&gt;
+* '''[[Laogzed]]''', the nearly mindless god of the [[troglodyte]]s, scavenged the [[Rotting Plain]]&amp;mdash;a huge cavern scattered with noisome lakes and ponds fed through myriad tunnels by the [[River of Blood]] which washed all the effluvium of the [[Fiendish planes]] through here,&lt;ref name="PGtF-149" /&gt; on its way to the [[Fated Depths]].&lt;ref name="PGtF-141"&gt;{{Cite book/Player's Guide to Faerûn|141}}&lt;/ref&gt; Laogzed's insatiable hunger caused him to eat everything he found, be it animal, vegetable, or mineral.&lt;ref name="PGtF-149" /&gt;
+
+==Appendix==
+===References===
+{{Refs}}
+===Connections===
+{{Cosmologies}}
+[[Category:Astral dominions]]
+[[Category:Fiendish planes]]
+[[Category:World Axis planes]]
+[[Category:Planes of existence]]
+[[Category:Locations on the River Styx]]</text>
+      <sha1>g8onc7osxhvdojgcimavz99myqdecbc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dispossessed</title>
+    <ns>0</ns>
+    <id>2656</id>
+    <revision>
+      <id>6752</id>
+      <parentid>6326</parentid>
+      <timestamp>2025-06-19T17:25:33Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>6752</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1141" sha1="huwhyg40ac1z0p8agprafm3nturd2ft" xml:space="preserve">{{Faction
+  | faction        = The Dispossessed
+  | image1         = SectDispossessed2e.png
+  | caption-image1 = 
+  | nickname       = Exiles, Chippers
+  | philosophy     = Creating and maintaining stability.
+  | founded        = 
+  | factol         = 
+  | sigilhq        = 
+  | homefield      = [[Pandemonium]], [[Carceri]]
+  | allies         = [[Fated]], [[Free League]], [[Revolutionary League]], [[Sign of One]]
+  | enemies        = [[Harmonium]]
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Dispossessed''' are a [[sect]] made up of people [[banished]] to [[Carceri]] or [[Pandemonium]], and they're out to show the planes that they've made a mistake. The Dispossessed want to prove their worth, mostly by picking fights.
+
+== History ==
+
+== Philosophy ==
+
+== Role ==
+
+== Membership ==
+: ''See also:'' [[List of Dispossessed members]]
+
+
+== Background Information ==
+
+== References ==
+* 2nd Edition
+** {{b|Planescape|Planes of Chaos|pdf=17298|nip=1|page=38, The Travelogue}}
+** {{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=14-15}}
+
+{{scroll|&lt;references /&gt;}}
+
+{{Sects}}
+
+[[Category:Sect]]
+[[Category:Dispossessed]]</text>
+      <sha1>huwhyg40ac1z0p8agprafm3nturd2ft</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ditch</title>
+    <ns>0</ns>
+    <id>2901</id>
+    <revision>
+      <id>5414</id>
+      <parentid>5368</parentid>
+      <timestamp>2024-05-23T05:13:44Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>phantom docks</comment>
+      <origin>5414</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6335" sha1="5d6i5798ik6eq4wjsbxtk6o8y00hnk0" xml:space="preserve">[[File:DitchMap.png|right|300px|Ditch map]]
+The '''Ditch''' is [[Sigil]]'s largest body of "water", and crosses the city nearly directly spikeward/downward. It's widely considered the boundary between the [[Lower Ward]] and the [[Hive Ward]], although most place the Ditch itself within the Lower Ward.
+
+The Ditch is 50' wide drainage aqueduct, which some say is a tributary of the [[River Styx]]. It's frequently used as a dumping ground for Cagers looking for an easy way to get rid of refuse, or a body that's been asking too many questions. The waters are heavily polluted and corrosive, partly due to their extra-planar origin, partly because it's also used by the [[Great Foundry]] for their waste runoff. A corpse thrown in the Ditch will be unrecognizable in a matter of hours. Every five-to-eight months, water from the [[River Oceanus]] pours through, clearing out the Ditch and bringing fresh water. This is often a time for celebration, with children playing in the waters for the brief time before the river becomes too corroded once aain.
+
+People can avoid the Ditch between the Lower Ward and Hive by passing spikeward of it, or crossing one of a few bridges. The downward end falls directly off Sigil's edge. Other methods of crossing include the [[Fhurling Bridge]]&lt;ref name="fm124"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=124}}&lt;/ref&gt; and the [[Bridge That Spans Worlds]].
+
+Most of Sigil's portals require walking through, but there's still a great need for for various shipping and transport services operating on a larger scale, and that typically requires transport by water. Accordingly, for all its faults, the Ditch is an important part of Sigil's commercial infrastructure.
+
+== Nearby ==
+
+Locations on the banks of the Ditch include:
+
+* The [[Black Sails]] tavern
+* The [[Styx Oarsman]] saloon
+* The [[Speckled Rat]] bar
+* The entrance to the [[Bones of the Night]]&lt;ref name="itc4849"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=48-49}}&lt;/ref&gt;
+
+== Trade ==
+
+The most important feature of the Ditch is the [[Seafarer's Arch]], a portal formed under the the Bridge That Spans Worlds. It's seemingly unique in Sigil, what [[Lissandra]] the Gate-Seeker has termed a "multiportal." Any number of gate keys can activate the portal, but each gate key goes to a different location. Portals are two-way. Boats travelling the Ditch tend to have the key in a special basket -- a "spritcage" -- attached to the ship's bowsprit. Known destinations (and keys) include:
+
+* A waterfall in Cariele on [[Aebrynis]]
+* The Silt Sea on [[Athas]]
+* [[Io's Blood Isles]]
+* The rapids below a canyon in the Khalkist Mountains on [[Krynn]]
+* [[Mystara]]'s Savage Coast: a cinnabryl amulet
+* An oblong shoal of rocks in the Nyv Dyr on [[Oerth]]
+* [[Ortho]]
+* The [[Rock of Bral]]
+* A sewer pipe from [[Toril]]'s Underdeep into the Trackless Sea
+* [[Amun-Thys]]: a scarab (since the layer is a desert, most ships are marooned and unable to return)
+
+Upstream, ships wishing to trade must pass through the [[Taker's Lock]], a series of watertight doors designed to get ships past a shallow part of the Ditch. Adjacent to the Lock are the [[Industrial Stitches]], a complex series of tracks for transporting raw materials and goods into out out of the Foundry, and a major source of the waste which gets dumped into the Ditch.
+
+== Other Features ==
+
+[[Suicide Falls]] is the downward terminus of the Ditch, where the waters fall outside of Sigil's walls. This is the easiest place to go beyond Sigil's edge. Not a waterfall in the traditional sense, as the water and anything contained in it that pour over the edge just disappears.
+
+The delta near the falls contains a series of small "islands," one of which contains the [[Last Kiss Blossom]], whose petals look like two lips pursed together in a kiss.
+
+[[Arcane Remains]] are the remains of the first ship to enter Sigil via the Seafarer's Arch, a ship full of [[arcane]]. The ship was too wide for the Ditch, and blocked it. Within moments, the [[Lady of Pain]] appeared, her shadow slicing the boat apart to allow for traffic once again. It's now widely known that the arcane are not welcome in Sigil (although not directly barred from entry like powers). Most are afraid to touch the ship's remains, so they continue to sit in the Ditch, rotting and exposed.
+
+The arcane's ship did not go down without a fight, of course. They brought to bear enough power both in magic and in traditional weaponry -- the ship's bombard was considerable -- that the conflagration is said to have been heard out to the gate-towns. The attack, the story goes, did what no one else had managed to do: wound the Lady. One of the blades ringing her head fell off, point-first into the Ditch. What is known, at least, is existence of the [[Knife in the River]], a slowly rusting triangle of still-sharp metal, only a few meters from the Arcane Remains.
+
+At night, near antipeak, when the water's at its murkiest, some Cagers claim to see some sort of '''[[Ditch Beast]]''' in the waters, which they've dubbed "Cassie."
+
+== Background Information ==
+* Most detail on the Ditch comes from the Polyhedron #137 article ''Of Sigil and the Sea.'' The included map had a high-resolution full-color version made and posted to WotC's website as the Map of the Day in 2001.
+* Lazz highlighted each of the article's sections with a label on the map. Curiously, this includes the "Gate Keys" section, which is about the various gate keys needed to travel through the Seafarer's Arch. Lazz uses this label to point to a sewer outlet.
+* ''Of Sigil and the Sea'' author [[William James Cuffe]] posted a cut excerpt to his blog, about the [https://livingsigil.wordpress.com/2022/07/17/of-sigil-and-the-sea-forgotten-lore/ Phantom Docks]. Originally intended for the [[Doomguard]]'s [[Ship of Chaos]] project, the docks have lain abandoned for years, although the [[Planar Trade Consortium]] may be repurposing the Ship of Chaos as a terrifying spelljamming ship.
+
+== References ==
+; 2nd Edition
+* {{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=49-50}}
+* {{b|Polyhedron|Polyhedron Magazine 137|page=14-17}}
+
+; 5th Edition
+* {{b|Planescape|Planescape: Adventures in the Multiverse|page=47-48, ''Sigil and the Outlands''}}
+
+&lt;references /&gt;
+
+[[Category:Lower Ward]]
+[[Category:Hive Ward]]</text>
+      <sha1>5d6i5798ik6eq4wjsbxtk6o8y00hnk0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Divine realm</title>
+    <ns>0</ns>
+    <id>355</id>
+    <revision>
+      <id>437</id>
+      <timestamp>2023-01-02T14:42:09Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <comment>Created page with "A '''divine realm''' was the personal territory and topographical expression of a [[deity]].&lt;ref name="OHG-54"&gt;{{Cite book/On Hallowed Ground|54}}&lt;/ref&gt; It served as the deity's work-space, residence, or retreat.&lt;ref name="F&amp;P-9" /&gt;  ==Description== A divine realm was created by a deity. The material for it was faith. The realm was so completely attuned to the creating god that its state could serve as a mirror for the deity.&lt;ref name="OHG-54" /&gt; For example, when [[Tyr]..."</comment>
+      <origin>437</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6246" sha1="e39dmo6etznqmu9nzjc4netveyfxu67" xml:space="preserve">A '''divine realm''' was the personal territory and topographical expression of a [[deity]].&lt;ref name="OHG-54"&gt;{{Cite book/On Hallowed Ground|54}}&lt;/ref&gt; It served as the deity's work-space, residence, or retreat.&lt;ref name="F&amp;P-9" /&gt;
+
+==Description==
+A divine realm was created by a deity. The material for it was faith. The realm was so completely attuned to the creating god that its state could serve as a mirror for the deity.&lt;ref name="OHG-54" /&gt; For example, when [[Tyr]] had his feud with [[Helm]], the weather in the [[House of the Triad]] became bad.&lt;ref name="TFS-166-182"&gt;{{Cite book/The Fractured Sky/Kindle|166-182}}&lt;/ref&gt;
+
+However, a divine realm did not necessarily exist in a suitable place for the deity. For example, a god's realm could exist in a place that had nothing to do with the philosophical orientation of the deity. This was because the worshipers' belief, the material out of which the realm was made, and expectations of the god could chain the god and realm to a place that was not necessarily suited for the god.&lt;ref name="OHG-54, 56"&gt;{{Cite book/On Hallowed Ground|54, 56}}&lt;/ref&gt; However, deities in general preferred to have their realms on the [[Outer Planes]], which were divinely morphic, meaning the deity needed only to exert their will to change the land.&lt;ref name="MotP3e-12"&gt;{{Cite book/Manual of the Planes 3rd edition|12}}&lt;/ref&gt;
+
+A number of [[demipower]]s were an exception to these rules: They resided on the [[Prime Material plane]] and nominally considered the whole continent or region of influence of their pantheon their realm, but obviously did not have the kind of control their outer planar counterparts exerted.&lt;ref&gt;{{Cite book/Powers &amp; Pantheons|14, 22, 26, 35-36, 44, 58, 62, 80, 124}}&lt;/ref&gt; Some of them had a specific place of power within their claimed area.&lt;ref&gt;{{Cite book/Powers &amp; Pantheons|41, 58, 62, 81-82}}&lt;/ref&gt;
+
+==Geography==
+As mentioned above, deities tended to live on the Outer Planes because they were divinely morphic.&lt;ref name="MotP3e-12" /&gt; Within these realms, deities had absolute control over the physical laws of their realms. In the case of shared realms, this level of absolute control was only enjoyed inside a small part that belonged only to one deity and the borders to other sharing members generally had the physical laws of the [[Material Plane]].&lt;ref name="FRCS3e-256"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|256}}&lt;/ref&gt;
+
+===Features===
+Divine realms were seemingly infinitely big. This was due to the deities wanting to show grandeur and not because the realms were actually infinitely big.&lt;ref name="OHG-56"&gt;{{Cite book/On Hallowed Ground|56}}&lt;/ref&gt; A big realm was an indicator of large power, but the reverse was not necessarily true. Deities who preferred not to show-off kept their realms small.&lt;ref name="FRCS3e-256" /&gt;
+
+As mentioned above, divinely morphic planes were popular among deities for their mutability in their hands.&lt;ref name="MotP3e-12" /&gt; Even without this trait of a plane, a deity could modify landscape in a drastic manner that depended on the power enjoyed by it.&lt;ref name="F&amp;P-9"&gt;{{Cite book/Faiths and Pantheons|9}}&lt;/ref&gt;
+
+A [[demigod]] could fill its realm with smells and sounds and also set the temperature as it wished. A [[lesser deity]] could also modify the sound to intelligible speech.&lt;ref name="F&amp;P-9"&gt;{{Cite book/Faiths and Pantheons|9}}&lt;/ref&gt;
+
+A lesser deity could modify their realm's connection to the [[Astral Plane]] and make particular places inaccessible to teleportation. An [[intermediate deity]] could alter the landscape at will. When it came down to a [[greater deity]], gravity, elemental and energy traits, and even the how flow of time worked were under its control.&lt;ref name="F&amp;P-9" /&gt;
+
+An intermediate deity could make their realm strengthen or impede the usage of certain spells while a greater deity could outright ban the use of magic of their choice.&lt;ref name="F&amp;P-9" /&gt;
+
+==Government==
+In general, deities left land and people to their own devices and did little actual ruling, though exceptions existed. The more the deity tended to a ''laissez faire'' attitude, the more traffic was experienced by the realm. Where the god demanded obedience, little traffic took place because of the danger of attracting the deity's ire. The one rule every single realm maintained was to imprison or even kill people who did something that contradicted the dogma of the ruling deity.&lt;ref name="OHG-56" /&gt;
+
+==Defenses==
+Deities could shut out people they did not want coming into their realms, but most relegated the job of keeping out others to [[proxy|proxies]].&lt;ref name="OHG-54" /&gt;
+
+==Notable Locations==
+Divine realms had some places where the ruling god's power was particularly tangible. These holy sites could only be accessed by worshipers of the deity or, in the case of shared realms like [[Tir na Og]], by a worshiper of any of the member gods, as long as it was allowed, something good deities were known to do. These places could give tangible benefits when the faith was real.&lt;ref name="OHG-58"&gt;{{Cite book/On Hallowed Ground|58}}&lt;/ref&gt;
+
+==Inhabitants==
+Inhabitants of a divine realm could be split into several categories.
+;[[Deity|Deities]]
+: The deity, or deities in a shared realm, who ruled a divine realm.&lt;ref name="OHG-54" /&gt;
+;[[Petitioner]]s
+: The souls living their afterlifes in their respective deities' realms.&lt;ref name="OHG-56" /&gt;
+;Planar beings
+: People could live in divine realms and did so for generations. A divine realm had less of the problems people had to contend with on the plane outside.&lt;ref name="OHG-57" /&gt; For example, [[Glitterhell]], [[Abbathor]]'s realm, did not have [[Oinos]]'s [[disease]] problem nor the hopelessness due to [[Hades]].&lt;ref name="LM-47, 51"&gt;{{Cite book/Planes of Conflict/Liber Malevolentiae|47, 51}}&lt;/ref&gt; Another reason people stayed there was faith in the deity, or fear of reprisal from the deity should they leave.&lt;ref name="OHG-57"&gt;{{Cite book/On Hallowed Ground|57}}&lt;/ref&gt;
+;Proxies
+: Proxies were the representatives of a deity in a divine realm and any visitor was sized up by them on entering a divine realm.&lt;ref name="OHG-57" /&gt;
+
+==Appendix==
+===References===
+{{Refs}}
+[[Category:Locations]]
+[[Category:Divine realms]]</text>
+      <sha1>e39dmo6etznqmu9nzjc4netveyfxu67</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Domains of Delight</title>
+    <ns>0</ns>
+    <id>929</id>
+    <revision>
+      <id>1365</id>
+      <parentid>1364</parentid>
+      <timestamp>2023-01-05T02:41:55Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1364</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3659" sha1="rtl6sbtwzdy5ephbipnh4uvco94ufka" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Domains of Delight
+| othernames        = 
+| symbol            = 
+| demonym           = 
+| natives           = 
+| languages         = 
+| basicrefs         = &lt;ref name="DoD-p3" /&gt;
+| type-GW           = [[Demiplane]]
+| shape-size-GW     = ''Varies''
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = The [[Feywild]]
+| refs-GW           = &lt;ref name="DoD-p3"&gt;{{Cite book/Domains of Delight|3}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = 
+| creatures         = 
+| deities           = 
+| locations         = 
+| organizations     = 
+| settlements       = 
+| usethe            = 
+| useon             = 
+}}
+The '''Domains of Delight''' were a grouping of [[demiplane]]s found in the [[Feywild]], each of which was ruled by an [[archfey]].&lt;ref name="DoD-p3" /&gt;
+
+==Description==
+Some domains were difficult to gain admittance within, often being obscured by an obfuscating barrier or protected by pass phrase, puzzle, or more simply the archfey's discretion.&lt;ref name="DoD-p5" /&gt;
+
+==Cosmology==
+Individual Domains of Delight were accessible from other planes by the same means used to travel to the Feywild, including [[fey crossroad|fey crossings]], and the ''[[plane shift]]'' spell.&lt;ref name="DoD-p17"&gt;{{Cite book/Domains of Delight|17}}&lt;/ref&gt;
+
+==Geography==
+The Domains of Delight each varied in size, from the size of a small field to an entire nation,&lt;ref name="DoD-p3" /&gt; depending on the power of the ruling archfey.&lt;ref name="DoD-p5"&gt;{{Cite book/Domains of Delight|5}}&lt;/ref&gt; The most powerful of the archfey, namely [[Titania]] and the [[Queen of Air and Darkness]], held power that extended well beyond their own Domains of Delight, across nearly the entirety of the Feywild.&lt;ref name="DoD-p12"&gt;{{Cite book/Domains of Delight|12}}&lt;/ref&gt;
+
+When neighboring domains overlapped with one another, the residents of the contested area were beholden to the authority of each archfey. These instances often led to contention between their respective powers.&lt;ref name="DoD-p5" /&gt;
+
+==Inhabitants==
+Domains of Delight were often home to myriad [[awaken]]ed creatures, [[fey]] creatures, and other rarely-encountered beasts, including: [[boggle]]s, [[brigganock]]s, [[displacer beast]]s, [[harengon]], [[blink dog]]s, [[darkling]]s, [[faerie dragon]]s, various [[hag]]s,&lt;ref name="DoD-p20"&gt;{{Cite book/Domains of Delight|20}}&lt;/ref&gt; and [[jabberwock]]s.&lt;ref name="DoD-p21"&gt;{{Cite book/Domains of Delight|21}}&lt;/ref&gt;
+
+==Notable Domains of Delight==
+* [[Prismeer]], the domain of the archfey [[Zybilna]], an alias of the famous [[archmage]] Iggwilv.&lt;ref name="WBW-p19"&gt;{{Cite book/The Wild Beyond the Witchlight|19}}&lt;/ref&gt;
+* Fablerise, the smaller domain of the archfey Yarnspinner, situated entirely within Prismeer.&lt;ref name="DoD-p21" /&gt;
+
+==Appendix==
+===Appearances===
+:;Adventures
+:: ''[[The Wild Beyond the Witchlight]]''
+===References===
+{{Refs}}
+[[Category:Demiplanes]]
+[[Category:Planes of existence]]</text>
+      <sha1>rtl6sbtwzdy5ephbipnh4uvco94ufka</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Domains of Dread</title>
+    <ns>0</ns>
+    <id>900</id>
+    <revision>
+      <id>2200</id>
+      <parentid>2199</parentid>
+      <timestamp>2023-08-09T01:03:26Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2199</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="10517" sha1="g23lpuz0hmtpe02g0t6h7ovrcbwdboz" xml:space="preserve">{{Plane
+| image             = [[File:DMG5e_-_Shadowfell_-_Mark_Molnar_-_p51.jpg|250px]]
+| caption           = Adventurers explore a Domain of Dread.
+| name              = Domains of Dread
+| othernames        = Demiplane of Dread, Ravenloft
+| natives           = 
+| languages         = 
+| basicrefs         = &lt;ref name="DMG5e-p51" /&gt;
+| type-GW           = [[Demiplane]]
+| shape-size-GW     = 
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = the [[Shadowfell]]
+| refs-GW           = &lt;ref name="DMG5e-p51"&gt;{{Cite book/Dungeon Master's Guide 5th edition|51-52}}&lt;/ref&gt;
+| type-WA           = Realm
+| shape-size-WA     = 
+| gravity-WA        = Normal
+| mutability-WA     = Normal
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = the [[Shadowfell]]
+| refs-WA           = &lt;ref name="MotP4e-p50-51"&gt;{{Cite book/Manual of the Planes 4th edition|50-51}}&lt;/ref&gt;
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = 
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| usethe            = yes
+| useon             = 
+}}
+The '''Domains of Dread''', sometimes collectively known as the '''Demiplane of Dread''' or '''Ravenloft''',&lt;ref name="RL-RT2e-p12"&gt;{{Cite book/Ravenloft Campaign Setting/Realm of Terror|12}}&lt;/ref&gt; were a series of [[demiplane]]s located in a remote corner of the [[Shadowfell]]&lt;ref name="DMG5e-p51" /&gt; and hidden from the rest of the plane by thick walls of mist.&lt;ref name="MotP4e-p50-51" /&gt;
+
+==Cosmology==
+In some versions of the [[Great Wheel cosmology]], the Domains of Dread were considered part of the [[Ethereal plane]],&lt;ref name="RL-RT2e-p12" /&gt; while other versions and the [[World Axis cosmology]] acknowledged them to be located in a remote, but easily accessible region of the Shadowfell.&lt;ref name="DMG5e-p51" /&gt;&lt;ref name="MotP4e-p50-51" /&gt;&lt;ref name="CoS5e-p5,9"&gt;{{Cite book/Curse of Strahd|5,9}}&lt;/ref&gt;
+
+The mists that surrounded the domains prevented anyone caught inside from leaving through conventional means. In particular, many of the individual domains that made up the demiplanes had originally been locations in worlds of the [[Prime Material plane]], dragged and bound to the Shadowfell by the mists over a period of several centuries. Other locations, on the other hand, routinely collapsed or disappeared entirely. For that reason, it was impossible to determine the exact size of the domain.&lt;ref name="CoS5e-p5,9" /&gt;&lt;ref name="RL-RT2e-p13-15"&gt;{{Cite book/Ravenloft Campaign Setting/Realm of Terror|13-15}}&lt;/ref&gt;
+
+==Geography==
+The Demiplane of Dread was controlled by the almost completely unknown [[Dark Powers]] and sections of the demiplane were ruled over by dark lords.&lt;ref name="DMG5e-p51" /&gt; The ''Powers'' had no goals that anyone could confirm but seemed attracted to people and creatures that committed evil acts or suffered from some terrible loss. They regularly inflicted despair on the residents of the demiplane by simultaneously granting them boons and inflicting curses. Each curse was tailored to the individual and inflicted the greatest amount of emotional harm or distress upon them. This often spurred those individuals to commit greater acts of evil. It was apparent that the more heinous the deed, the greater the power and the worse the curse granted/inflicted upon the individual until a new land was generated on the demiplane and the individual was trapped forever within that land. These individuals became the Darklords, and they could never leave their domain. Others might be able to leave, but only if they had no great desire to, as the ''powers'' almost always intervened to dash the hopes of those trapped within their realm.{{Fact}}
+
+==History==
+When [[Shar]] created the [[Shadowfell]], the Demiplane of Dread fragmented and each Darklord's realm settled into a spot somewhere within the newly created plane, possibly attracted by the plane's sinister nature. Within the Shadowfell, these realms became known as the '''Domains of Dread'''. Despite Shar's dominance of the Shadowfell, the Dark Powers still had control over each of these Domains.{{Fact}}
+
+[[Castle Spulzeer]] in [[Tethyr]] was sucked into the demiplane by a magical gem set in the hilt of the dagger ''Aggarath''. [[Jander Sunstar]] suffered a similar fate after he swore revenge for his dead love,&lt;ref name="VL-p36"&gt;{{Cite book/Villains' Lorebook|36}}&lt;/ref&gt; and the Lost King of [[Cormyr]], [[Gondegal]], has gained a position of power as the leader of the Knight of the Shadows order, a secret society dedicated to the protection of the helpless and oppressed.&lt;ref&gt;{{Cite book/Champions of the Mists|47-49}}&lt;/ref&gt; 
+
+Several residents of [[Faerûn]] have even risen to the level of Darklord: [[Harkon Lukas]], the [[cormyr]]ian [[wolfwere]];&lt;ref name="RL-DD2e-p70-72"&gt;{{Cite book/Ravenloft Campaign Setting/Domains and Denizens|70-72}}&lt;/ref&gt; [[Hazlik]], a [[red wizard]];&lt;ref name="RL-DD2e-p66-67"&gt;{{Cite book/Ravenloft Campaign Setting/Domains and Denizens|66-67}}&lt;/ref&gt; [[Urik von Kharkov]], an escaped magical experiment;&lt;ref name="RL-DD2e-p94-97"&gt;{{Cite book/Ravenloft Campaign Setting/Domains and Denizens|94-97}}&lt;/ref&gt; [[Draga Salt-Biter]], a [[Sword Coast]] pirate turned [[wereshark]];&lt;ref name="IT2e-p38-50"&gt;{{Cite book/Islands of Terror|38-50}}&lt;/ref&gt; and [[Tsien Chiang]], the renowned sorceress from [[Kara-Tur]].&lt;ref name="IT2e-p32-37"&gt;{{Cite book/Islands of Terror|32-37}}&lt;/ref&gt;
+
+Over the centuries, the accounts of Torilians who entered the Domains of Dread and made it back were written down. Many of these [[book]]s found their way into [[Candlekeep]]. By the 15{{th}} century [[DR]], the Domains of Dread became rarely discussed by the sages of Candlekeep as the topic of the [[Spellplague]] and [[Second Sundering]] overtook them in prominence.&lt;ref name="GG"&gt;{{Cite archive/Greenwood's Grotto/2023-02-25/Candlekeep's lore on other worlds}}&lt;/ref&gt;
+
+Sometime in the late 15th century DR, reports of [[werewolf]] attacks and [[Vistani]] sightings in [[Daggerford]] and surrounding areas indicated that a passage into one of the Domains of Dread might have been present somewhere in the [[Misty Forest]].&lt;ref name="CoS-p19-22"&gt;{{Cite book/Curse of Strahd|19-22}}&lt;/ref&gt;
+
+==Notable Locations==
+[[File:Gates_of_barovia.jpg|thumb|250px|right|''The gates of Barovia.'']]
+* [[Aggarath]], a domain contained within the hiltstone of a magical [[dagger]], trapping the spirits of those slain by its blade. This was where Castle Spulzeer was transported when it disappeared from Toril.&lt;ref name="TFT-p54"&gt;{{Cite book/The Forgotten Terror|54}}&lt;/ref&gt;
+* [[Arak]], a domain ruled by [[drow]] until it disappeared in the Grand Conjunction.&lt;ref name="RL-DD-p128"&gt;{{Cite book/Ravenloft Campaign Setting/Domains and Denizens|128}}&lt;/ref&gt;
+* [[Barovia]], the oldest and best known of the Domains of Dread. It was the domain of the [[vampire]] Count [[Strahd von Zarovich]]&lt;ref name="DMG5e-p51" /&gt;&lt;ref name=CoS"&gt;{{Cite book/Curse of Strahd}}&lt;/ref&gt; and had been visited by numerous inhabitants of the Realms, including Jander Sunstar&lt;ref name="VL-p36"/&gt;&lt;ref name="VotM"&gt;{{Cite book/Vampire of the Mists/Paperback (1991)}}&lt;/ref&gt; as well as [[Minsc]], [[Delina]], [[Krydle]], [[Shandie]], a [[Church of Kelemvor|Kelemvorite]] [[cleric]] named [[Nerys]]&lt;ref name="SotV1"&gt;{{Cite comic/Shadows of the Vampire 1}}&lt;/ref&gt;&lt;ref name="SotV5"&gt;{{Cite comic/Shadows of the Vampire 5}}&lt;/ref&gt; and the famed explorer [[Volothamp Geddarm|Volo]].&lt;ref name="Dp6-VVB"&gt;{{Cite dragon+/6/Travel Talk: Volo's Visit to Barovia}}&lt;/ref&gt;
+* [[Bluetspur]], a domain dominated by [[mind flayer]]s.&lt;ref name="RL-DD-p34"&gt;{{Cite book/Ravenloft Campaign Setting/Domains and Denizens|34}}&lt;/ref&gt;
+* [[Darkon]], the largest Domain of Dread, ruled over by the [[lich]]-king [[Azalin]].&lt;ref name="RL-DD-p12"&gt;{{Cite book/Ravenloft Campaign Setting/Domains and Denizens|12}}&lt;/ref&gt;
+* [[Falkovnia]], domain of the brutal and militaristic [[Vlad Drakov]].&lt;ref name="RL-DD-p15"&gt;{{Cite book/Ravenloft Campaign Setting/Domains and Denizens|15}}&lt;/ref&gt;
+* [[Forlorn]], the smallest of the Domains of Dread, and [[Jander Sunstar]]'s place of residence after he left Barovia.&lt;ref name="VL-p36" /&gt;
+* [[Har'Akir]], a desert domain ruled by the [[mummy]] lord [[Ankhtepot]].&lt;ref name="RL-DD-p38"&gt;{{Cite book/Ravenloft Campaign Setting/Domains and Denizens|38}}&lt;/ref&gt;
+* [[Hazlan]], the domain of [[Hazlik]].&lt;ref name="RL-DD2e-p66-67" /&gt;
+* [[I'Cath]], formerly a kingdom in Kara-Tur and the domain of [[Tsien Chiang]].&lt;ref name="IT2e-p32-37" /&gt;
+* [[Kartakass]], the domain of [[Harkon Lukas]] after he fled from Barovia.&lt;ref name="RL-DD2e-p70-72" /&gt;
+* [[Markovia]], a wild and untamed domain populated with beast men, created from the crazed medical experiments of [[Frantisek Markov]], the domain's beast lord.&lt;ref name="RL-DD-p23-24"&gt;{{Cite book/Ravenloft Campaign Setting/Domains and Denizens|23-24}}&lt;/ref&gt;
+* [[Saragoss]], the domain of [[Draga Salt-Biter]].&lt;ref name="IT2e-p38-50" /&gt;
+* [[Sri Raji]], a jungle domain filled with dangerous [[tiger]]s and ruled over by the [[rakshasa]] [[Arijani]].&lt;ref name="WoI-p13"&gt;{{Cite book/Web of Illusion|13}}&lt;/ref&gt;
+* [[Tovag]], domain of [[Kas]].&lt;ref name="IC"&gt;{{Cite game/Idle Champions of the Forgotten Realms}}&lt;/ref&gt;
+* [[Valachan]], the domain of [[Urik von Kharkov]].&lt;ref name="RL-DD2e-p94-97" /&gt;
+
+==Appendix==
+===Appearances===
+:;Adventures
+::''[[Curse of Strahd]]''
+:;Novels
+::''[[Vampire of the Mists]]''
+:;Comics
+::''[[Shadows of the Vampire]]''
+::{{Refonly}}
+::&lt;small&gt;''[[Frost Giant's Fury 1]]'' • ''[[Frost Giant's Fury 5]]'' • ''[[Evil at Baldur's Gate 4]]''&lt;/small&gt;
+:;Magazines
+::[[Dragon+ 6|''Dragon+'' #6, "Travel Talk: Volo's visit to Barovia"]]
+:;Video Games
+::''[[Ravenloft: Strahd's Possession]]'' • ''[[Ravenloft: Stone Prophet]]''
+:;Card Games
+::''[[Spellfire: Master the Magic]]''
+
+===External Links===
+{{External link disclaimer}}
+* {{RW|Ravenloft}}
+
+===References===
+{{Refs}}
+
+===Connections===
+{{Shadowfell}}
+[[Category:Demiplanes]]
+[[Category:Planes of existence]]
+[[Category:Locations in the Ethereal Plane]]</text>
+      <sha1>g23lpuz0hmtpe02g0t6h7ovrcbwdboz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Doomguard</title>
+    <ns>0</ns>
+    <id>2630</id>
+    <revision>
+      <id>6705</id>
+      <parentid>6360</parentid>
+      <timestamp>2025-06-15T03:57:15Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>members</comment>
+      <origin>6705</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6666" sha1="hwad2xcyi585cexkn37y5ttdvuwhlek" xml:space="preserve">{{Faction
+  | faction        = Doomguard
+  | image1         = &lt;gallery&gt;
+FactionDoomguard5e.png|D&amp;D 5e
+FactionDoomguard2e.png|AD&amp;D 2e
+&lt;/gallery&gt;
+  | caption-image1 = 
+  | nickname       = Sinkers
+  | philosophy     = Who Celebrate Destruction and Decay
+  | founded        = 
+  | factol         = Factol [[Pentar]]
+  | sigilhq        = The [[Lady's Ward]]: The [[Armory]]
+  | homefield      = The negative quasiplanes ([[Quasi-Elemental Plane of Ash|Ash]], [[Quasi-Elemental Plane of Dust|Dust]], [[Quasi-Elemental Plane of Salt|Salt]], [[Quasi-Elemental Plane of Vacuum|Vacuum]])
+  | allies         = [[Bleak Cabal]], [[Heralds of Dust]]
+  | enemies        = [[Fraternity of Order]], [[Harmonium]]
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Doomguard''' are a [[faction]] who believe the multiverse is falling apart. It's ''supposed'' to fall apart. That's the natural order of things. That's entropy. Of course, a lot of deluded berks are trying to stop it, or at least slow it. The Doomguard want to stop them, and perhaps even ''hasten'' the course of entropy.
+
+== History ==
+* [[471 BFHR]]: The Doomguard start stockpiling weapons in the [[Armory]] to wage war in the streets of [[Sigil]].&lt;ref name="fw33"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=33}}&lt;/ref&gt;
+* [[21 BFHR]]: The Doomguard start stockpiling ''spheres of annihilation'' with the hopes to one day use them as tools of entropy.&lt;ref name="fw58"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=58}}&lt;/ref&gt;
+* [[122 YFHR]]: [[Pentar]] becomes [[factol]] of the Doomguard around this time.&lt;ref name="fm41"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=41}}&lt;/ref&gt;
+
+Previous factols
+* Unnamed factol (immediately previous to Pentar, died in a slave uprising he sparked)&lt;ref name="fm41"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=41}}&lt;/ref&gt;
+
+== Philosophy ==
+Entropy is ecstasy; decay is divine. The multiverse is ''supposed'' to fall apart. We're just here to keep leatherheads from interfering.
+
+== Role ==
+
+As they want to encourage the eventual destruction of the multiverse, the Doomguard are in charge of Sigil's [[Armory]], a building full of weapons with which to hasten the end. 
+
+== Membership ==
+
+: ''See also:'' [[List of Doomguard members]]
+
+The Sinkers don't really recognize much of a hierarchy (at least at lower levels) other than one's dedication to entropy: those who push hard for it, those who want to let the multiverse take its course, and those who want to slow down any progression. The first group are the most powerful force within the faction.
+
+; '''[[Factor]]s'''
+
+The most powerful and ruthless Sinkers are its factors, called ''Doomlords''. Doomlords are subjected to an unspeakable transformation in the [[Negative Energy plane]], and return wearing black-and-red masks. Doomlords sometimes create "champions of entropy", who are often given ''[[entropy blade]]s'', weapons forged to act against a specific threat to entropy. Once that threat has been defeated, the blade crumbles to dust.
+
+There are many lesser Doomlords, but only four greater Doomlords, each of which is tied to a negative quasi-elemental plane, and largely oversees one of the faction's four Citadels.
+
+''Known Doomlords'':
+# {{NPC|Devland|planar|male|half-elf|fighter|14|Doomguard|ln}}, the Doomlord of Ash&lt;ref name="fm40"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=40}}&lt;/ref&gt;&lt;ref name="tip113"&gt;{{b|Planescape|The Inner Planes|pdf=17296|nip=1|page=113}}&lt;/ref&gt;
+# {{NPC|Nagaul|planar|female|dwarf|specialty priest|10|Doomguard|ng}}, the Doomlord of Vacuum&lt;ref name="fm40"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=40}}&lt;/ref&gt;&lt;ref name="tip124"&gt;{{b|Planescape|The Inner Planes|pdf=17296|nip=1|page=124}}&lt;/ref&gt;
+# {{NPC|Pereid|prime|female|human|thief|19|Doomguard|ln}}, the Doomlord of Dust&lt;ref name="fm40"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=40}}&lt;/ref&gt;&lt;ref name="tip113"&gt;{{b|Planescape|The Inner Planes|pdf=17296|nip=1|page=113}}&lt;/ref&gt;
+# {{NPC|Roth|planar|male|tiefling|fighter|14|Doomguard|cn}}, the Doomlord of Salt&lt;ref name="fm40"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=40}}&lt;/ref&gt;&lt;ref name="tip121"&gt;{{b|Planescape|The Inner Planes|pdf=17296|nip=1|page=121}}&lt;/ref&gt;
+
+; '''[[Factol]]'''
+
+''Current Factol'':
+# {{NPC|Pentar|planar|female|human|ranger|20|Doomguard|cn}}&lt;ref name="pscs-pg8"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=176267|nip=1|page=8}}, ''A Player's Guide to the Planes''&lt;/ref&gt;&lt;ref name="pscs-pg19"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=176267|nip=1|page=19}}, ''A Player's Guide to the Planes''&lt;/ref&gt;&lt;ref name="pscs-dm19"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=176267|nip=1|page=19}}, ''A DM Guide to the Planes''&lt;/ref&gt;&lt;ref name="ita2"&gt;{{b|Planescape|In the Abyss|pdf=17270|nip=1|page=2}}&lt;/ref&gt;&lt;ref name="itc14"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=14}}&lt;/ref&gt;&lt;ref name="fm4"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=4}}&lt;/ref&gt;&lt;ref name="fm10"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=10}}&lt;/ref&gt;&lt;ref name="fm3847"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=38-47}}&lt;/ref&gt;&lt;ref name="pwhb59"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|nip=1|page=59}}&lt;/ref&gt;&lt;ref name="fw38"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=38}}&lt;/ref&gt;&lt;ref name="fw42"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=42}}&lt;/ref&gt;&lt;ref name="fw47"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=47}}&lt;/ref&gt;
+# {{NPC|Pentar||female|human|Doomguard doom lord||Doomguard|}}&lt;ref name="paitm-sao23"&gt;{{b|Planescape|Planescape: Adventures in the Multiverse|page=23}}, ''Sigil and the Outlands''&lt;/ref&gt;
+
+== Background Information ==
+
+== Gallery ==
+&lt;gallery&gt;
+PGFactionDoomguard.jpg|Factol Pentar, ''A Player's Guide to the Planes''
+Doomguard_Recruitment.png|5e Recruitment Poster
+&lt;/gallery&gt;
+
+
+== References ==
+* 2nd Edition
+** {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1|page=19, A Player's Guide to the Planes}}
+** {{b|Dragon|Dragon Magazine 213|page=13}}
+** {{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=38-47}}
+** {{b|Planescape|The Planewalker's Handbook|pdf=17280|nip=1|page=66}}
+* 3rd Edition
+** {{b|Dragon|Dragon Magazine 287|page=49-50, Fractious Factions}}
+** {{b|Dragon|Dragon Magazine 315|page=46, The Exiled Factions}}
+** {{b|D&amp;D|Planar Handbook|pdf=27882|page=46-49}}
+* 5th Edition
+** {{b|Planescape|Planescape: Adventures in the Multiverse|page=23, Sigil and the Outlands}}
+
+{{Scroll|&lt;references /&gt;}}
+
+{{Factions}}
+
+[[Category:Ascendant Faction]]
+[[Category:Faction]]
+[[Category:Doomguard]]</text>
+      <sha1>hwad2xcyi585cexkn37y5ttdvuwhlek</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Doors to the Unknown</title>
+    <ns>0</ns>
+    <id>523</id>
+    <revision>
+      <id>7048</id>
+      <parentid>7007</parentid>
+      <timestamp>2025-08-27T07:36:29Z</timestamp>
+      <contributor>
+        <username>UnseenServantBot</username>
+        <id>11660122</id>
+      </contributor>
+      <minor/>
+      <comment>dmsguild links</comment>
+      <origin>7048</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4812" sha1="c7pmmtucaxrawvm8aq4dttcukykf4zf" xml:space="preserve">{{Book
+| image        = Doors-to-the-Unknown-cover.jpg
+| caption      = 
+| code         = TSR2626
+| title        = Doors to the Unknown
+| author       = [[Bill Slavicsek]]
+| editor       = [[Cindi M. Rice]]
+| cover_artist = [[Robh Ruppel]]
+| inter_artist = [[Adam Rex]], [[Brian DeSpain]], [[Tony DiTerlizzi]]
+| cartography  = [[Roy Boholst]]
+| typography   = [[Angelika Lokotz]]
+| publisher    = [[TSR, Inc.]]
+| released     = December 1996
+| reprinted    = 
+| type         = Adventure
+| binding      = 
+| pages        = 64
+| languages    = 
+| realm year   = 
+| game_edition = 2
+| isbn10       = 078690447X
+| isbn13       = 978-0786904471
+| series       = 
+| preceded_by  = 
+| followed_by  = 
+| source       = [https://www.amazon.com/Doors-AD-Planescape-Bill-Slavicsek/dp/078690447X Amazon.com product listing]
+| Roll20number = 17290
+}}
+'''''Doors to the Unknown''''' is a Planescape&lt;sup&gt;®&lt;/sup&gt; AD&amp;D 2nd-edition adventure module. 
+
+{{Quote|''Four doors of mystery appear in the Cage. They lead to four adventures. If a basher has the dark of them.''
+
+''These aren't doors in the traditional sense, cutter, but they're portals just the same. They appear for a short time every 500 years, popping up in different parts of Sigil. Each hides a mystery that's waiting to be solved, and together they just might hold the key to a secret of the multiverse. All a body's got to do is tumble to the right keys, open the doors, and face down the Unknown.' -- Estavan, merchant lord''
+
+''Doors to the Unknown is a collection of four Planescape adventures that can be played sepearately or as a mini-campaign. When four doors appear in the Cage, the barnies crawl out of the shadows, and the heroes get drawn into events that could have consequences for the entire multiverse. Each door leads to a different plane and a different deadly challege for the player characters. Together they offer a way to stop an ancient menace before it strikes again.''
+
+''The Planescape Campaign Setting boxed set is required to run these adventures. The Planescape Monstrous Compendium Appendix (I and II) and Uncaged: Faces of Sigil are recommended to enhance play.''}}
+
+==Synopsis==
+There are four 'blink portals' that appear in [[Sigil]] every 500 years and which last for two months. After this the portals disappear for another half-millennium. The overall aim is for the party to probe these portals and find out the secrets behind them. Rumors indicate that these doors lead to restricted planes, of hyper-real super-monsters, and that they were created by the god Aoskar when the [[Lady of Pain]] killed him.
+
+==Contents==
+* Introduction
+* Prologue: At the Shattered Temple
+* The First Door: The Thuldanin Gargoyle
+* The Second Door: The Forgotten Vault
+* The Third Door: Logicus Prime
+* The Fourth Door: A Reality Beyond
+* Aftermath
+* [[Mercurial]]
+
+==Appendix==
+===Credits===
+* '''Designer:''' [[Bill Slavicsek]]
+* '''Editor:''' [[Cindi M. Rice]]
+* '''Cover Artist:''' [[Robh Ruppel]]
+* '''Interior Artists:''' [[Adam Rex]], [[Brian DeSpain]], and [[Tony DiTerlizzi]]
+* '''Cartographer:''' [[Roy Boholst]]
+* '''Typography:''' [[Angelika Lokotz]]
+* '''Project Coordinator:''' [[Karen S. Boomgarden]]
+* '''Art Director:''' [[Bob Galica]]
+* '''Border Artist:''' [[Robert Repp]]
+* '''Electronic Prepress Coordinator:''' [[Dave Conant]]
+* '''Graphic Design/Cover:''' [[Dawn Murin]]
+* '''Graphic Design:''' [[Dee Barnett]]
+* '''Proofreading:''' [[Miranda Horner]]
+* '''Special Thanks:''' [[Michele Carter]] and [[Ray Vallese]]
+
+=== Background Information ===
+* While [[Dragon]] Magazine's "TSR Previews" section was generally very good at providing an up-to-date look at releases in the coming months, ''Doors to the Unknown'' apparently slipped under their radar entirely, and never showed up on their lists. Given that it released in 1996 after November's {{b|Planescape|A Guide to the Astral Plane|pdf=17287}}, we can reasonably guess that it released in December 1996.
+* TSR was deep in debt and sold themselves to Wizards of the Coast, meaning that this would be the final Planescape release before a seven-month production gap, resuming in July 1997 with the final part of the Blood Wars fiction trilogy, {{b|Planescape|The Blood Wars 3: Planar Powers}}. It would be a total of nine months (September 1997) before we saw the next game supplement, {{b|Planescape|Faces of Evil: The Fiends|pdf=121100}}.
+
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild}}
+* {{DriveThruRPG}}
+*[https://www.amazon.com/Doors-AD-Planescape-Bill-Slavicsek/dp/078690447X Amazon product page]
+
+===Connections===
+{{Planescape sourcebooks}}
+[[Category:Sourcebooks]]
+[[Category:2nd edition sourcebooks]]
+[[Category:2nd edition adventures]]
+[[Category:Works by Bill Slavicsek]]
+[[Category:Published in 1996]]
+[[Category:Adventures]]</text>
+      <sha1>c7pmmtucaxrawvm8aq4dttcukykf4zf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dothion</title>
+    <ns>0</ns>
+    <id>215</id>
+    <revision>
+      <id>258</id>
+      <parentid>254</parentid>
+      <timestamp>2022-02-11T00:37:44Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>/* Realms */</comment>
+      <origin>258</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="477" sha1="9eqgbpv0db3pq8ui44a6s4qnqhj9gva" xml:space="preserve">'''Dothion''' was the first layer of the plane of [[Bytopia]].
+
+
+
+== Realms ==
+
+* [[Yeoman]]
+* [[Baku's Graveyard]]
+* [[The Wandering Treant]]
+* [[Deephome]]
+* [[Golden Hills]] (also known as "Dothion")
+** [[Glitterhome]]
+** [[Hidden Knoll]]
+*** [[Brillig]]
+** [[Gemstone Burrow]]
+** [[Stronghaven]]
+** [[The Workshop]]
+** [[Mithral Forge]]
+** [[Whisperleaf]]
+* [[Prosperity]]
+* [[River Diligence]]
+* [[River Splendor]]
+* [[Lake Crystal]]
+* [[Tulgey Wood]]
+
+[[Category:Layers]]</text>
+      <sha1>9eqgbpv0db3pq8ui44a6s4qnqhj9gva</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dothion (card)</title>
+    <ns>0</ns>
+    <id>220</id>
+    <revision>
+      <id>263</id>
+      <parentid>257</parentid>
+      <timestamp>2022-02-11T01:54:25Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <origin>263</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="815" sha1="8kax638mw8rieggdkc06wxxz1d3atav" xml:space="preserve">[[File:Dothion card.jpg|thumb|right|300px]]
+
+'''Dothion''' was a Battlefield card from the [[Blood Wars]] game, depicting The [[Golden Hills]] (also known as "Dothion").
+
+It was released as part of the [[Blood Wars basic set|basic set]], and had a rarity of "uncommon". The artwork was by [[David C. Sutherland III]].
+
+{| border="1" cellpadding="1" cellspacing="1" style="width: 500px;"
+! scope="col"|Stats
+! scope="col"|Dothion
+|-
+|Type
+|Battlefield
+|-
+|Alignment
+|Neutral Good
+|-
+|Victory Points
+|4
+|-
+|Random Result
+|6
+|-
+|Description
+|Realm. ''Plane:'' [[Bytopia]] ([[Dothion]]).
+|-
+|Notes
+|Home realm of the Gnomish Avatars. If the holder of a Gnomish Avatar card has this Battlefield in his Victory Pool, that Avatar may use his Realm Power.
+|}
+
+[[Category:Blood Wars cards]]
+[[Category:Blood Wars basic set]]</text>
+      <sha1>8kax638mw8rieggdkc06wxxz1d3atav</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dothion (layer)</title>
+    <ns>0</ns>
+    <id>222</id>
+    <redirect title="Dothion" />
+    <revision>
+      <id>255</id>
+      <timestamp>2022-02-11T00:36:07Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Acer4666 moved page [[Dothion (layer)]] to [[Dothion]] over redirect</comment>
+      <origin>255</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="21" sha1="je7x6jpbn0pyfc2tg4vuedki4rmiq61" xml:space="preserve">#REDIRECT [[Dothion]]</text>
+      <sha1>je7x6jpbn0pyfc2tg4vuedki4rmiq61</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon</title>
+    <ns>0</ns>
+    <id>2834</id>
+    <revision>
+      <id>6578</id>
+      <parentid>5910</parentid>
+      <timestamp>2025-06-13T07:07:04Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>264</comment>
+      <origin>6578</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="15829" sha1="7foqux7iwbhatks8swx3h7yzvk49sfm" xml:space="preserve">'''Dragon''' was one of several official magazines published to support [[Dungeons &amp; Dragons]], typically paired with ''[[Dungeon]]'' magazine. ''Dungeon'' released various adventure material, while ''Dragon'' released new characters, classes, races, lore, and other supplemental material, as well as rule clarifications, and other news and reviews from other companies in the RPG industry.
+
+''Dragon'' launched in 1976 and published monthly until its final printed issue, #359, in September [[2007]]. The magazine was resumed from that point as an online-only magazine, until it too came to an end with issue #430 in [[2013]].
+
+A digital successor, ''Dragon+'', was launched in 2015, but its numbering was restarted at #1.
+
+== Planescape Content ==
+=== 2nd Edition ===
+* March [[1994]]: {{b|Dragon|Dragon Magazine 203}}
+** '''The Plane Truth, Part I: Codifying Sigil'''. [[David Cook|David "Zeb" Cook]] introduces the city of [[Sigil]] in the form of excerpts from the notebook of [[Fallendor]] the Mage.
+** A prominent Planescape advertisement featuring the Lady of Pain's face, and the slogan "Fantasy... taken to the edge"
+* April [[1994]]: {{b|Dragon|Dragon Magazine 204}}
+** '''The Plane Truth, Part II: A Journey to the Outlands'''. [[David Cook|David "Zeb" Cook]] introduces the [[Outlands]], in particular the [[gate-town]]s, in the form of excerpts from the notebook of [[Ambran]] the Seeker.
+** A four-page insert advertisement (also available separately) continuing the "Fantasy... taken to the edge" slogan, and highlighting the first few products.
+* May [[1994]]: {{b|Dragon|Dragon Magazine 205}}
+** '''The Plane Truth, Part III: The Transformation'''. [[David Cook|David "Zeb" Cook]] brings together the stories of Fallendor and Ambran.
+* July [[1994]]: {{b|Dragon|Dragon Magazine 207}}
+** '''Role-Playing Reviews'''
+* August [[1994]]: {{b|Dragon|Dragon Magazine 208}}
+** '''Behind the Scenes: The Making of the Planescape Setting''' by Product Group Leader [[Dori Hein]].
+** '''Sage Advice''': [[Skip Williams]] answers a few Planescape questions.
+* September [[1994]]: {{b|Dragon|Dragon Magazine 209}}
+** '''Sage Advice''' answers a few Planescape questions.
+* October [[1994]]: {{b|Dragon|Dragon Magazine 210}}
+** '''Sage Advice''' answers a few Planescape questions.
+* November [[1994]]: {{b|Dragon|Dragon Magazine 211}}
+** '''Sage Advice''' answers a planar question pertaining to the sha'ir [[Al-Qadim]] setting.
+** '''Role-Playing Reviews''' contains a review of {{b|Planescape|The Eternal Boundary|pdf=17300}} from reviewer [[Rick Swan]].
+
+* January [[1995]]: {{b|Dragon|Dragon Magazine 213}} 
+** The '''Cover''' features the same art from the cover of that month's {{b|Planescape|Planes of Law (boxed set)|alt=Planes of Law|pdf=17272}}.
+** '''Godsmen, Bleakers, Guvners, &amp; Takers: Secrets of the Planescape Setting's Factions''': [[Rich Baker]] provides an overview of Sigil's factions.
+** '''Planar Personalities: A Few of Sigil's More Colorful Residents''': [[Bill Slavicsek]] and [[Michele Carter]] introduce [[A'kin]] the Friendly Fiend, [[Lissandra]] the gate-seeker, [[Estavan]] of the [[Planar Trade Consortium]], and [[Kylie]] the tout.
+** '''The Demiplane of Shadow''' and '''You Never Know Who (Or What) You'll Meet''' are planar-themed but not specifically Planescape.
+* February [[1995]]: {{b|Dragon|Dragon Magazine 214}}
+** '''Role-Playing Reviews''' contains a review of {{b|Planescape|Planes of Chaos (boxed set)|alt=Planes of Chaos|pdf=17298}}.
+* March [[1995]]: {{b|Dragon|Dragon Magazine 215}}
+** '''Sage Advice''' answers a few Planescape questions.
+** '''The Game Wizards''': ''How to build the Blood Wars deck from heck'', an article about this month's release of the [[Blood Wars]] TCG.
+* April [[1995]]: {{b|Dragon|Dragon Magazine 216}}
+** '''Sage Advice''' answers a few Planescape questions, including another question crossing into the Al-Qadim setting.
+** '''April Fool's Faxions''' is a parody article introducing a few alleged [[faxion|former factions]].
+* May [[1995]]: {{b|Dragon|Dragon Magazine 217}}
+** '''Sage Advice''' answers a few Planescape questions.
+* June [[1995]]: {{b|Dragon|Dragon Magazine 218}}
+** '''Sage Advice''' answers a few Planescape questions.
+** '''The Game Wizards''': ''Flashpoint Sigil!'', an article about this month's release of the ''Factols &amp; Factions'' Escalation Pack for [[Blood Wars]].
+** '''Role-Playing Reviews''' contains a review of {{b|Planescape|The Deva Spark|pdf=17271}}.
+* September [[1995]]: {{b|Dragon|Dragon Magazine 221}}
+** '''Sage Advice''' answers a few Planescape questions.
+** '''The Game Wizards''': ''Let Loose the Gods of War!'', an article about last month's release of the ''Powers &amp; Proxies'' Escalation Pack for [[Blood Wars]].
+** '''The Dragon's Bestiary''': ''Lords of Chaos: Four Great Slaad-gods descend on the Multiverse'' by [[Edward Bonny]]. Features [[Ssendam]], [[Ygorl]], [[Chourst]], and [[Rennbuu]]. Not obviously branded as Planescape, but all the headers and quotes are written in Exocet, so it's certainly suggestive.
+* November [[1995]]: {{b|Dragon|Dragon Magazine 223}}
+** '''The Lords of the Nine''': [[Colin McComb]] writes a sizeable article about eight of the nine [[baatezu]] who each rule over a layer of [[Baator]], with the Lord of [[Nessus]] remaining a mystery.
+
+* March [[1996]]: {{b|Dragon|Dragon Magazine 227}}
+** '''Blood Wars: Tactics for Two''': [[Steven E. Schend]] provides support for [[Blood Wars]] after its cancellation, giving official two-player rules for the multi-player game.
+* May [[1996]]: {{b|Dragon|Dragon Magazine 229}}
+** '''Role-Playing Reviews''' contains a review of {{b|Planescape|Planes of Conflict (boxed set)|alt=Planes of Conflict|pdf=17278}}.
+* June [[1996]]: {{b|Dragon|Dragon Magazine 230}}
+** '''Sage Advice''' answers a few Planescape questions.
+** '''The Bargain''': Part I of ''The Bargain'', a comic featured in {{b|Planescape|Hellbound: The Blood War|pdf=17281}}.
+* July [[1996]]: {{b|Dragon|Dragon Magazine 231}}
+** '''The Bargain''': Part II of ''The Bargain'', a comic featured in {{b|Planescape|Hellbound: The Blood War|pdf=17281}}.
+* July [[1996]]: {{b|Dragon|Dragon Magazine 232}}
+** '''The Bargain''': Part III of ''The Bargain'', a comic featured in {{b|Planescape|Hellbound: The Blood War|pdf=17281}}.
+* September [[1996]]: {{b|Dragon|Dragon Magazine 233}}
+** '''Fiendish Fortresses''': [[Monte Cook]] describes castles and keeps built by the [[baatezu]] and [[tanar'ri]].
+** ''The Rod of Seven Parts, World by World''': [[Skip Williams]] describes how to adapt the ''Rod of Seven Parts'' boxed adventure to other game settings, including Planescape.
+** '''The Bargain''': Part IV (the finale) of ''The Bargain'', a comic featured in {{b|Planescape|Hellbound: The Blood War|pdf=17281}}.
+* October [[1996]]: {{b|Dragon|Dragon Magazine 234}}
+** '''Cover''': The cover is not Planescape-specific, but may nonetheless be of interest to fans due to [[Tony DiTerlizzi]]'s art.
+** '''Role-Playing Reviews''' contains a review of {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285}}.
+* November [[1996]]: {{b|Dragon|Dragon Magazine 235}}
+** '''Planar Heroes''': [[Ed Bonny]] contributes a sizeable article about how to create Planescape heroes using AD&amp;D 2e Revised's ''Player's Option: Skills &amp; Powers'' advanced rulebook.
+* November [[1996]]: {{b|Dragon|Dragon Annual 1}}
+** '''A Handful of Keys: Portal Transportation in the Planescape Campaign''' is a useful article with a collection of random tables by which a DM can make a gate-key relevant to its planar destination, as well as a location in Sigil where the portal might appear.
+* December [[1996]]: {{b|Dragon|Dragon Magazine 236}}
+** '''Role-Playing Reviews''' contains a review of {{b|Planescape|The Planewalker's Handbook|pdf=17280}}.
+
+* October [[1997]]: {{b|Dragon|Dragon Magazine 240}}
+** '''Mysteries of the Dead Gods''': Tying in with {{b|Planescape|Dead Gods|pdf=17297}}, [[Monte Cook]] details [[Anubis]] and information on exploring god isles.
+* November [[1997]]: {{b|Dragon|Dragon Magazine 241}}
+** '''Modron Magic: The Sorcery of Structure''': Tying in with {{b|Planescape|The Great Modron March|pdf=17302}}, [[Monte Cook]] details a series of spells and magic items for [[modron]]s.
+* November [[1997]]: {{b|Dragon|Dragon Annual 2}}
+** '''Pox of the Planes''': [[Ed Bonny]] writes about the role of [[night hag]]s on the lower planes.
+
+* January [[1998]]: {{b|Dragon|Dragon Magazine 243}}
+** '''Destriers of the Planes: Magical Steeds for Knights of All Alignments''': [[Steve Berman]] writes about [[equar]], the magical steeds of the planes. Although not ''technically'' a Planescape article, it's planar-themed, and uses Exocet in the article title, so it's certainly intentionally suggestive of the Planescape setting.
+* March [[1998]]: {{b|Dragon|Dragon Magazine 245}}
+** '''Sage Advice''' answers a few Planescape questions, nearly two years after its previous appearance in the column.
+** '''Bazaar of the Bizarre: Dwarven Relics''' introduces a Planescape magical item, the [[Prize of Erackinor]].
+** '''Role-Playing Reviews''' new reviewer [[Allen Varney]] reviews both {{b|Planescape|The Great Modron March|pdf=17302}} and {{b|Planescape|Faces of Evil: The Fiends|pdf=121100}}
+* April [[1998]]: {{b|Dragon|Dragon Magazine 246}}
+** '''Role-Playing Reviews'''
+* September [[1998]]: {{b|Dragon|Dragon Magazine 251}}
+** '''Profiles''': [[Tony DiTerlizzi]] is profiled by Allen Varney.
+* November [[1998]]: {{b|Dragon|Dragon Annual 3}}
+** '''Planar Pestilence''': [[Kevil Melka]] writes about planar diseases and afflictions.
+
+* April [[1999]]: {{b|Dragon|Dragon Magazine 258}}
+** '''Sage Advice''' answers a Planescape question, in the first instance of ''Planescape'' appearing in Dragon following the line's cancellation.
+* August [[1999]]: {{b|Dragon|Dragon Magazine 262}}
+** '''Creatures of Torment''' by [[Chris Avellone]] features writeups of four monsters from the upcoming ''[[Planescape: Torment]]'': [[gronk]]s, [[grillig]]s, [[sohmien]]s, and [[trelon]]s.
+* October [[1999]]: {{b|Dragon|Dragon Magazine 264}}
+** '''The Oerdian Lesser Gods Part II: Raxivort and Sotillon''' by [[Andy Miller]] addresses some of the lesser gods of [[Oerth]].
+** '''Rogue's Gallery: Planescape Torment''' by [[Ray Vallese|Ray]] and [[Valerie Vallese]] provide NPC stat blocks for [[Mortimer Rictusgrin|Morte]], [[Ravel Puzzlewell]], [[Pharod Wormhair]], and [[Fall-from-Grace]].
+* November [[1999]]: {{b|Dragon|Dragon Magazine 265}}
+** '''Sage Advice''': Following up from #235, Skip provides ''Player's Option: Skills &amp; Powers'' ability modifiers for Planescape races.
+
+* April [[2000]]: {{b|Dragon|Dragon Magazine 270}}
+** '''Cover''': The cover is not Planescape-specific, but may nonetheless be of interest to fans due to [[Tony DiTerlizzi]]'s art.
+** '''Tormenting Your PCs''': [[Johnny L. Wilson]] provides advice on running a campaign similar to the plot of the ''Torment'' PC game.
+* June [[2000]]: {{b|Dragon|Dragon Magazine 272}
+** '''Bazaar of the Bizarre''': ''The Planar Armory'' by [[Glen Jukes]] is a collection of several planar weapons.
+
+=== 3rd Edition ===
+* September [[2001]]: {{b|Dragon|Dragon Magazine 287}}
+** '''Fractious Factions: Planar Prestige Classes''': [[Christopher Campbell]] provides prestige classes for six of Sigil's factions: the [[Athar]], the [[Transcendent Order|Cipher]], the [[Society of Sensation|Sensate]], the [[Doomguard|Sinker]], the [[Fated|Taker]], and the [[Xaositects|Xaositect]].
+** '''Dreamlands: Variant Planes of Dreams''' and '''When Celestials Attack''' aren't Planescape-specific, but still useful for planar campaigns.
+
+* March [[2003]]: {{b|Dragon|Dragon Magazine 305}}
+** '''Cities of the Planes: N'Gati''', detailing a fortress in the Astral, is not Planescape-specific, but still useful for planar campaigns.
+
+* January [[2004]]: {{b|Dragon|Dragon Magazine 315}}
+** '''The Exiled Factions''': [[David Noonan]] gives us a look at six factions for the 3.5 rules: the [[Athar]], [[Fraternity of Order]], [[Doomguard]], [[Harmonium]], [[Fated]], and [[Revolutionary League]].
+
+* January [[2006]]: {{b|Dragon|Dragon Magazine 339}}
+** '''Cover''': The cover art is an incredible depiction of the [[Lady of Pain]] by long-time Planescape artist [[rk post]]. It's the first time she's appeared on the cover of ''Dragon''.
+** '''Dead Factions''': [[Monte Lin]] and [[F. Wesley Schneider]] fill some of the gap from #287 and #315's article, covering recently-dispersed [[Believers of the Source]], the [[Sign of One]], [[Mercykillers]], and not-dead Mercykiller splinter group the [[Sons of Mercy]]. Also covered are some of Sigil's long-dead factions: the [[Expansionists]], the [[Tribe of One|Communals]], and the [[Incanterium]].
+* September [[2006]]: {{b|Dragon|Dragon Magazine 347}}
+** Four articles contain content relevant to the [[Inner Planes]], although none are Planescape-specific: '''The Archomentals''', '''Elemental Hazards''', '''Paraelemental Paragons''', and '''Ecology of the Elemental Weird'''.
+
+* January [[2007]]: {{b|Dragon|Dragon Magazine 351}}
+** '''The Gatetown of Ecstasy''' by [[Todd Stewart]] revisits the titular gate-town, and features an updated 3.5 stat block for the [[simpathetic]].
+* March [[2007]]: {{b|Dragon|Dragon Magazine 353}}
+** '''The Ecology of the Keeper''' by [[Todd Stewart]] examines [[Keeper]]s in detail. The article is not Planescape-specific, although the Keepers first appeared in {{b|Planescape|Planescape Monstrous Compendium Appendix II}}.
+** Other planar-themed content can be found in '''Demonomicon of Iggwilv''', '''Multiple Dimentia''', and '''Princes of Elemental Good'''.
+* April [[2007]]: {{b|Dragon|Dragon Magazine 354}}
+** '''Cover''': A piece called "I, Modron," by [[Andrew Hou]] depicts a confused modron, whose head appears to have been damaged.
+** '''Return of the Modrons''': [[Ken Marable]] details recent [[modron]] history, the invasion of the [[formian]]s into their territory, rules for playing [[rogue modron]]s, and 3e stat blocks for all base modron types.
+* September [[2007]]: {{b|Dragon|Dragon Magazine 359}}, the final print issue of Dragon.
+** '''Unsolved Mysteries of D&amp;D''' has one Planescape-related item, raising some of the previously-published theories as to the identity of the [[Lady of Pain]].
+
+=== 4th Edition ===
+* December [[2008]]: {{b|Dragon|Dragon Magazine 370}}
+** '''Riven Justice: The Mercykillers''': [[Robert J. Schwalb]] covers the [[Mercykillers]], their loyal remnants, and their two splinter groups: the [[Sons of Mercy]] and the [[Sodkillers]]. This article makes the Mercykillers the only faction which has been covered in each edition from 2nd to 5th.
+
+* October [[2009]]: {{b|Dragon|Dragon Magazine 380}}
+** '''Rediscovering Sigil''': A look at writing the Sigil section for the recently-released DMG2.
+
+* August [[2012]]: {{b|Dragon|Dragon Magazine 414}}
+** '''Bazaar of the Bizarre: From the Attic of Alluvius Ruskin'''
+** '''The Ecology of the Modron'''
+** '''History Check: The Iggwilv-Graz'zt Affair'''
+** '''Character Themes: Ciphers, Sensates, and Xaositects'''
+* November [[2012]]: {{b|Dragon|Dragon Magazine 417}}
+** '''History Check: The Blood War'''
+** '''History Check: That Shadow That Was'''
+** '''Fallen Angels: Ecology of the Succubus'''
+
+* January [[2013]]: {{b|Dragon|Dragon Magazine 419}}
+** '''Winning Races: Bladelings'''
+* March [[2013]]: {{b|Dragon|Dragon Magazine 421}}
+** '''Creature Incarnations: Mephits'''
+** '''Lords of Chaos: Cryonax'''
+
+
+
+== Background Information ==
+* Although ''Dragon'' came first, ''Dungeon'' was chosen to go alongside it as a reference to the ''Dungeons &amp; Dragons'' name. This reference was continued in 2007 following the end of the printed material, with the creation of an "Ampersand" editorial column on the WotC website.
+
+[[Category:Dragon Magazine]]</text>
+      <sha1>7foqux7iwbhatks8swx3h7yzvk49sfm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon Eyrie</title>
+    <ns>0</ns>
+    <id>582</id>
+    <revision>
+      <id>944</id>
+      <parentid>943</parentid>
+      <timestamp>2023-01-05T02:35:09Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>943</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5880" sha1="1guig75h78fca1wdganfq390031u5i2" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Dragon Eyrie
+| othernames        = 
+| natives           = [[Celestial creature|Celestial]] [[dragon]]s, [[Fiendish creature|fiendish]] dragons, [[planar dragon]]s, [[abishai]], [[khaasta]]
+| languages         = 
+| basicrefs         = &lt;ref name="PGtF-p150"&gt;{{Cite book/Player's Guide to Faerûn|150}}&lt;/ref&gt;
+| type-GW           = 
+| shape-size-GW     = 
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = 
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = [[Neutral Plane]]
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = Alterable (each realm was divinely morphic)
+| element-energy-WT = 
+| alignment-WT      = Mildly good-aligned
+| magical-WT        = 
+| faith-WT          = Mild
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = &lt;ref name="PGtF-p140"&gt;{{Cite book/Player's Guide to Faerûn|140}}&lt;/ref&gt;&lt;ref name="PGtF-p150" /&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = 
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Dragon Eyrie''' was the home of the [[Draconic pantheon]],&lt;ref name="FRCS3e"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|258}}&lt;/ref&gt; manifesting as a vast mountain with its peak eternally covered in frost and surrounded by wispy clouds.&lt;ref name="PGtF-p150" /&gt;
+
+While the Dragon Eyrie was the home of all draconic deities, only [[Hlal]], [[Null]], [[Task]], and [[Tiamat]] had [[divine realm|permanent lairs]] on the plane.&lt;ref name="PGtF-p150" /&gt;&lt;ref group="note"&gt;When they were first introduced in the 2{{nd}} edition [[Draconomicon (1990)|''Draconomicon'']], the [[divine realm]]s of the various draconic deities were scattered throughout the planes: [[Asgorath]] on an unknown plane, [[Astilabor]] and [[Kereska]] in [[Limbo]], [[Garyx]] in the [[Abyss]], [[Hlal]] in [[Olympus]], [[Lendys]] in [[Nirvana]], [[Null]] in [[Gehenna]], [[Tamara]] on [[Elysium]], [[Task]] in [[Pandemonium]], [[Bahamut|Xymor]] in the [[Seven Heavens]], [[Zorquan]] on the [[Prime Material Plane]], and [[Tiamat]] in the [[Nine Hells]]. &lt;/ref&gt;
+
+==Dragon Eyrie Links==
+There were several "soft borders" connecting [[Tiamat]]'s realm in the Dragon Eyrie with [[Avernus]] on the plane of the [[Nine Hells]].&lt;ref name="FRCS3e"/&gt;&lt;ref name="FCII"&gt;{{Cite book/Fiendish Codex II: Tyrants of the Nine Hells|41}}&lt;/ref&gt; Dragon Eyrie also contained links to [[Arvandor]].&lt;ref name="FRCS3e"/&gt;&lt;ref name="PGtF-p150" /&gt;
+
+==Inhabitants==
+Around the mountain flew the spirits of departed dragons. Other departed souls whose destination was the Dragon's Eyrie included [[half-dragon]]s, [[dragonkin]], and other forms of [[dragonkind]]. [[Khaasta]] and [[abishai]] also dwelled on this plane, and living [[planar dragon]]s of all kinds visited the Eyrie from time to time. A few hermit non-dragons also inhabited the plane, although dragons only tolerated them grudgingly.&lt;ref name="PGtF-p150" /&gt;
+
+==Divine Realms==
+The mountain was divided into four major regions: the dark roots, the lower reaches, the middle crags, and the peak. With the exception of the peak—which was entirely Null's divine realm—the divine realms were small regions and didn't occupy the whole of any given region. Most of the mountain was open territory without claim from any deity, where the petitioners of the plane sought solitude.&lt;ref name="PGtF-p150" /&gt;
+
+===Hlal's Realm===
+Hlal, trickster god and messenger deity, lived in the lower reaches with her [[brass dragon]] and [[copper dragon]] petitioners. The spirits of [[red dragon]]s, [[blue dragon]]s, and [[black dragon]]s lived in various portions of the lower reaches as well.&lt;ref name="PGtF-p150" /&gt;
+
+===Null's Realm===
+Null, god of death, ruled the entirety of the mountain's peak, along with [[white dragon]] and [[silver dragon]] petitioners attracted to the cold air and permanent snow cover.&lt;ref name="PGtF-p150" /&gt;
+
+===Task's Realm===
+Task, god of greed, lived in the middle reaches in a volcanic region known as the Furnace. The spirits of red, gold, and bronze dragons lived here as well, attracted by the heat and lava.&lt;ref name="PGtF-p150" /&gt;
+
+===Tiamat's Realm===
+Tiamat's realm, originally the realm of a god known as [[Azharul]],&lt;ref name="QfEG.2015-p7"&gt;{{Cite web/Candlekeep forum| title      = Questions for Ed Greenwood (2015)| author     = [[Ed Greenwood]]| topicid    = 19841| postid     = 464818| whichpage  = 7| date       = 2015-02-12| accessdate = 2015-02-16}}&lt;/ref&gt; also called the ''Dragonspawn Pits of Azharul''&lt;ref name="FCII"/&gt; but renamed by Tiamat into the ''[[Cave of Greed]]'' after she killed the god,&lt;ref name="QfEG.2015-p7"/&gt;&lt;ref name="PGtF-p150" /&gt; was the home of the spirits of [[chromatic dragon]]s who revered Tiamat above all others. Tiamat's realm existed in the depths of the plane, among the dark roots, where the spirits of [[shadow dragon]]s and [[deep dragon]]s also dwelt,&lt;ref name="PGtF-p150" /&gt; and was somehow connected to [[Tiamat's Lair|her lair]] in Avernus.&lt;ref name="FRCS3e"/&gt;
+
+==History==
+The Dragon Eyrie was one of the planes destroyed by the [[Spellplague]].&lt;ref name="QfEG.2015-p7"/&gt;
+
+==Appendix==
+===Notes===
+{{Notes}}
+
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:World Tree planes]]
+[[Category:Neutral planes]]
+[[Category:Planes of existence]]
+[[Category:Outer Planes]]
+[[Category:Draconic locations]]</text>
+      <sha1>1guig75h78fca1wdganfq390031u5i2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon Magazine</title>
+    <ns>0</ns>
+    <id>2951</id>
+    <redirect title="Dragon" />
+    <revision>
+      <id>5458</id>
+      <timestamp>2024-07-05T20:49:44Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>redirect</comment>
+      <origin>5458</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="20" sha1="fua7nhot6kfy83xi66r64qs2cgg0yyu" xml:space="preserve">#REDIRECT [[Dragon]]</text>
+      <sha1>fua7nhot6kfy83xi66r64qs2cgg0yyu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon Magazine 203</title>
+    <ns>0</ns>
+    <id>2973</id>
+    <revision>
+      <id>5580</id>
+      <parentid>5579</parentid>
+      <timestamp>2025-03-02T13:46:42Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>date</comment>
+      <origin>5580</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1803" sha1="ineskz427xldgqvn4aheaad8wjxpz0c" xml:space="preserve">{{Dragon magazine
+| image        = DragonMagazine203.jpg
+| caption      =
+| issue        = 203
+| volume       = XVIII, No. 9
+| publisher    = [[TSR, Inc.]]
+| editor       = [[Kim Mohan]]
+| cover_artist = Tim Bradstreet, Fred Fields
+| edition      = 2
+| month        = March
+| year         = 1994
+| previous     = 
+| next         = [[Dragon Magazine 204|''Dragon'' #204]]
+| source       = [https://archive.org/details/DragonMagazine260_201801/DragonMagazine203 ''Dragon'' #203 at archive.org]
+}}
+
+'''''Dragon'' issue 203''': "Science fantasy will blow you away" was released in March of 1994. It contained the following articles related to Planescape:
+
+== The Plane Truth, Part One: Codifying Sigil ==
+: ''By [[David Cook|David "Zeb" Cook]], artwork by [[Dana Knutson]] and [[Tony DiTerlizzi]].'' '''p. 74-77'''
+
+[[Fallendor]] the Mage receives visions in his sleep of "documents" from the ''[[Codex of Infinite Planes]]'', which he postulates can only be "read" in the world of dreams. The article contains the notes he's taken from the visions he's received.
+
+* The [[aleax of Sigil]]
+* The [[Dictionary of Pain]]
+* The [[Doomguard]]
+* [[Faction]]s
+* Geography of [[Sigil]]
+* [[Planescape Campaign Setting|PLANESCAPE&amp;trade; campaign setting]]
+* [[Portal]]s
+* The [[Lady of Pain]]
+
+The article closes with Fallendor noting that he's fallen in love with the Lady from this brief glimpse in his dreams, so he's leaving to find a portal to Sigil. A final note from Magistrate [[Lach-Verger]] indicates that this is the final document from Fallendor, and no trace of him has since been found.
+
+
+==Appendix==
+=== Background Information ===
+* Page 5 has a full-page ad, featuring the Lady of Pain and the text "Fantasy... taken to the edge. Coming in April."
+===External Links===
+
+[[Category:Dragon Magazine]]</text>
+      <sha1>ineskz427xldgqvn4aheaad8wjxpz0c</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon Magazine 204</title>
+    <ns>0</ns>
+    <id>2974</id>
+    <revision>
+      <id>5582</id>
+      <timestamp>2025-03-02T14:19:17Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5582</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2565" sha1="6mbbhi7j1y9os9py9f47yo6l8lua2l2" xml:space="preserve">{{Dragon magazine
+| image        = DragonMagazine204.jpg
+| caption      = American gothic humor in gaming
+| issue        = 204
+| volume       = XVIII, No. 11
+| publisher    = [[TSR, Inc.]]
+| editor       = [[Kim Mohan]]
+| cover_artist = [[Alan Pollack]]
+| edition      = 2
+| month        = April
+| year         = 1994
+| previous     = [[Dragon Magazine 203|''Dragon'' #203]]
+| next         = [[Dragon Magazine 205|''Dragon'' #205]]
+| source       = [https://archive.org/details/DragonMagazine260_201801/DragonMagazine204 ''Dragon'' #204 at archive.org]
+}}
+
+'''''Dragon'' issue 204''': "American gothic humor in gaming" was released in April of 1994. It contained the following articles related to Planescape:
+
+== The Plane Truth, Part One: Codifying Sigil ==
+: ''By [[David Cook|David "Zeb" Cook]], artwork by [[Dana Knutson]] and [[Tony DiTerlizzi]].'' '''p. 28-31'''
+
+The article is presented as the unpublished journals of [[Ambran]] the Seeker, half-elven paladin of Oghma's temple at the court of [[Azoun IV]], King of Cormyr. Ambran refers often to the maps of the "Sage [[Trandleer]]," which seem to reflect 1st edition planar maps, e.g. from the {{b|D&amp;D|Manual of the Planes}}. He notes the map's lack of locations like Sigil and the Palace of Judgment, and its incorrect names, such as the Concordant Opposition or the Nine Hells. 
+
+Volume 7 opens with Ambran, charged with exploring the planes, having spent ten days in [[Sigil]], and is now hiring a [[bariaur]] named [[Glin]] as a guide. Glin finds a portal from the [[Great Bazaar]] to the [[Palace of Judgment]].
+
+After spending several days waiting in line only to be rebuffed at the entrance, Glin offers to take Ambran to [[Ribcage]].
+
+: ''Volume 8 is lost, presumably in the flight from Ribcage, or the fight that followed.''
+
+After escaping from Ribcage, the two pass through the [[Vale of the Spine]], past [[Rigus]], and to a field overlooking [[Automata]], just in time to witness the [[Great Modron March]]. There they meet up with a member of the [[Doomguard]], [[Rialiva]], who Ambran invites to join them on their way to the [[River Ma'at]].
+
+
+==Appendix==
+=== Background Information ===
+* Page 9 has a full-page ad, featuring the Lady of Pain's face, against the setting's signature green rust background. Page 10 is another full page containing the text "Fantasy... taken to the edge"
+* Glin refers to Ambran as "Jon" at one point. It's uncertain if this is an error, or an indication that Ambran's full name is Jon Ambran, or similar.
+
+===External Links===
+
+[[Category:Dragon Magazine]]</text>
+      <sha1>6mbbhi7j1y9os9py9f47yo6l8lua2l2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon Magazine 205</title>
+    <ns>0</ns>
+    <id>2979</id>
+    <revision>
+      <id>5587</id>
+      <timestamp>2025-03-04T17:06:50Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5587</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2673" sha1="raz40ar4io6ao253ci7o3n59zvgcxyl" xml:space="preserve">{{Dragon magazine
+| image        = DragonMagazine205.jpg
+| caption      = Born to be Wild in the Wilderness
+| issue        = 205
+| volume       = XVIII, No. 13
+| publisher    = [[TSR, Inc.]]
+| editor       = [[Kim Mohan]]
+| cover_artist = [[Fred Fields]]
+| edition      = 2
+| month        = May
+| year         = 1994
+| previous     = [[Dragon Magazine 204|''Dragon'' #204]]
+| next         = [[Dragon Magazine 208|''Dragon'' #208]]
+| source       = [https://archive.org/details/DragonMagazine260_201801/DragonMagazine205 ''Dragon'' #205 at archive.org]
+}}
+
+'''''Dragon'' issue 205''' was released in May of 1994. It contained the following articles related to Planescape:
+
+== The Plane Truth, Part Three: The Transformation ==
+: ''By [[David Cook|David "Zeb" Cook]], artwork by [[Dana Knutson]] and [[Tony DiTerlizzi]].'' '''p. 50-53'''
+
+The article is presented as the final journal of [[Ambran]] the Seeker. Ambran has forsaken his god, name, and country to remain in the Outer Planes.
+
+After spending several days at the [[Mausoleum of Chronepsis]], at [[Glin]]'s urging, Ambran opts to leave. As the approach and pass over [[Ilsensine]]'s [[Caverns of Thought]], Glin grows progressively more interested in Ambran's dreams. Ambran, perhaps overly-paranoid due to the persistent buzzing of Ilsensine's realm, lies. However, he does dream, of the [[Codex of Infinite Planes]]. In the dream, the book fills out with entries on locations, and Ambran is forced to go to those places. The book also builds an entry for a man named [[Fallendor]], and when the entry is complete, Fallendor will stand before him.
+
+Ambran awakens to find the name "Fallendor" tattooed on his arm. Four days later, his arm is almost entirely covered. Two more days later, and they are visible around his neck. Glin seems afraid and no longer inquires about his dreams.
+
+Ambran dreams more, apparently of Fallendor sending him the dreams, and gradually filling him up to be used as a host for the Codex. Ambran dismisses Glin from his service, with Glin apparently glad for it.
+
+Ambran travels to [[Bedlam]], where he meets a [[shadowfiend]] named [[Hrava]], the leader of the [[Sarex]]. Hrava tells him that the Codex consumes someone via their dreams and makes them a slave -- and this slave is doing the same thing to Ambran, replacing him memory-by-memory, to escape the Codex.
+
+Ambran continues from there to [[Pandemonium]].
+
+Fallendor awakens in his new body, but with all his memories inscribed on his body, including his betrayal of Ambran, he remains shunned by everyone he encounters.    
+
+
+==Appendix==
+=== Background Information ===
+
+
+===External Links===
+
+[[Category:Dragon Magazine]]</text>
+      <sha1>raz40ar4io6ao253ci7o3n59zvgcxyl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon Magazine 207</title>
+    <ns>0</ns>
+    <id>2990</id>
+    <revision>
+      <id>5651</id>
+      <timestamp>2025-03-13T13:52:26Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5651</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1013" sha1="g0umrzmu0mdm3p3l2mwrj66m9oh7f18" xml:space="preserve">{{Dragon magazine
+| image        = DragonMagazine207.jpg
+| caption      = Treasures Magical and Mundane
+| issue        = 207
+| volume       = XIX, No. 2
+| publisher    = [[TSR, Inc.]]
+| editor       = [[Kim Mohan]]
+| cover_artist = [[Don Clavette]]
+| edition      = 2
+| month        = July
+| year         = 1994
+| previous     = [[Dragon Magazine 204|''Dragon'' #205]]
+| next         = [[Dragon Magazine 208|''Dragon'' #208]]
+| source       = [https://archive.org/details/DragonMagazine260_201801/DragonMagazine207 ''Dragon'' #207 at archive.org]
+}}
+
+'''''Dragon'' issue 207''' was released in July of 1994. It contained the following articles related to Planescape:
+
+== Role-Playing Reviews ==
+: ''By [[Rick Swan]], photography by [[Charles Kohl]].'' '''p. 50-54'''
+
+Rick reviews the {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1}} box set. It's given a rating of ⚅ (6/6), the highest score offered.
+
+==Appendix==
+=== Background Information ===
+
+
+===External Links===
+
+[[Category:Dragon Magazine]]</text>
+      <sha1>g0umrzmu0mdm3p3l2mwrj66m9oh7f18</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon Magazine 208</title>
+    <ns>0</ns>
+    <id>2981</id>
+    <revision>
+      <id>5652</id>
+      <parentid>5614</parentid>
+      <timestamp>2025-03-13T22:47:04Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>lk</comment>
+      <origin>5652</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2516" sha1="cfzl5np8o5el03pjcoj0gpsmgq1xa4u" xml:space="preserve">{{Dragon magazine
+| image        = DragonMagazine208.jpg
+| caption      = SPELLFIRE game variant rules
+| issue        = 208
+| volume       = XIX, No. 3
+| publisher    = [[TSR, Inc.]]
+| editor       = [[Kim Mohan]]
+| cover_artist = [[Stephen King]]
+| edition      = 2
+| month        = August
+| year         = 1994
+| previous     = [[Dragon Magazine 207|''Dragon'' #207]]
+| next         = [[Dragon Magazine 209|''Dragon'' #209]]
+| source       = [https://archive.org/details/DragonMagazine260_201801/DragonMagazine208 ''Dragon'' #208 at archive.org]
+}}
+
+'''''Dragon'' issue 208''' was released in August of 1994. It contained the following articles related to Planescape:
+
+== Behind the Scenes: The making of the PLANESCAPE setting ==
+: ''By [[Dori Hein]], artwork by [[Dana Knutson]].'' '''p. 42-46'''
+
+Hein discusses the background and development of the Planescape setting. Relevant TSR staffers and artists include:
+
+* [[Rich Baker]]
+* [[Dee Barnett]]
+* [[Wolfgang Baur]]
+* [[Tim Brown]]
+* [[Michele Carter]]
+* [[David Cook|David "Zeb" Cook]]
+* [[Peggy Cooper]]
+* [[Tim Coumbe]]
+* [[Tony DiTerlizzi]]
+* [[Sarah Feggestad]]
+* [[Jeff Grubb]]
+* [[Cindy Jackson]]
+* [[Dennis Kauth]]
+* [[Dana Knutson]]
+* [[Rob Lazzaretti]]
+* [[Angie Lokotz]]
+* [[Colin McComb]]
+* [[Rob Repp]]
+* [[Robh Ruppel]]
+* [[Lester Smith]]
+* [[Georgia Stewart]]
+* [[Slade Wilson]]
+* [[David Wise]]
+
+== Sage Advice ==
+: ''By [[Skip Williams]].'' '''p. 107-109'''
+
+Skip answers several questions related to the Planescape setting:
+
+* '''What are the advancement limits and allowable multi-classed combinations for tieflings (from the new PLANESCAPE setting)?'''
+* '''Alright ya' berks, what's the chant? The PLANESCAPE boxed set doesn't give any height, weight, or age charts. How's a blood supposed to know how much a bariaur weighs? Or how tall a tiefling or githzerai is? Fess up addle-coves, ya goofed! All kidding (and planespeak) aside. What are the height, weight, and age limits for these three races?'''
+* '''Do githzerai PCs retain their plane-shifting ability? If not, why not? The original githzerai were psionic. What happened to this ability?'''
+* '''Do planar PCs in the PLANESCAPE setting really have the ability to see portals? I can find only one reference to the ability and everything I have read suggests that they are inconspicuous and not noticeable without magic. What would a planar "see" that would identify a portal?'''
+
+
+
+
+==Appendix==
+=== Background Information ===
+
+
+===External Links===
+
+[[Category:Dragon Magazine]]</text>
+      <sha1>cfzl5np8o5el03pjcoj0gpsmgq1xa4u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon Magazine 209</title>
+    <ns>0</ns>
+    <id>3026</id>
+    <revision>
+      <id>5754</id>
+      <parentid>5748</parentid>
+      <timestamp>2025-04-05T22:17:46Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>sp</comment>
+      <origin>5754</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1637" sha1="jw106lri53595jkeo6cxdowrrevonow" xml:space="preserve">{{Dragon magazine
+| image        = DragonMagazine209.jpg
+| caption      = Cleric kits, spells&amp;mdash;and druids
+| issue        = 209
+| volume       = XIX, No. 4
+| publisher    = [[TSR, Inc.]]
+| editor       = [[Kim Mohan]]
+| cover_artist = [[Alan Pollack]]
+| edition      = 2
+| month        = September
+| year         = 1994
+| previous     = [[Dragon Magazine 208|''Dragon'' #208]]
+| next         = [[Dragon Magazine 210|''Dragon'' #210]]
+| source       = [https://archive.org/details/DragonMagazine260_201801/DragonMagazine209/ ''Dragon'' #209 at archive.org]
+}}
+
+'''''Dragon'' issue 209''' was released in September of 1994. It contained the following articles related to Planescape:
+
+== Sage Advice ==
+: ''By [[Skip Williams]].'' '''p. 82-83'''
+
+Skip answers several questions related to the Planescape setting:
+
+* '''If all [[petitioner]]s' (from the PLANESCAPE setting) memories of the past have been wiped completely away, how can ''speak with dead'' spells have any effect on them, assuming the they are questioned about their past lives? What happens to the petitioner if she is ''resurrected'' or ''reincarnated''?'''
+* '''What are the racial adjustments for [[githzerai]] thieves?'''
+* '''According to the ''Player's Guide to the Planes'' (page 21), members of the [[Fated]] receive double proficiency slots. Does this apply to both nonweapon and weapon proficiencies?'''
+* '''''Sigil and Beyond'' makes it pretty clear that [[power]]s (gods) can't enter [[Sigil]] in their true forms. Can powers enter Sigil in avatar form?'''
+
+
+
+
+==Appendix==
+=== Background Information ===
+
+
+===External Links===
+
+[[Category:Dragon Magazine]]</text>
+      <sha1>jw106lri53595jkeo6cxdowrrevonow</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon Magazine 210</title>
+    <ns>0</ns>
+    <id>3027</id>
+    <revision>
+      <id>5749</id>
+      <timestamp>2025-04-05T21:58:03Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5749</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1319" sha1="hbyn7ni13y0on88u11nkrboxrs2w4y0" xml:space="preserve">{{Dragon magazine
+| image        = DragonMagazine210.jpg
+| caption      = One strange wild dark long Halloween
+| issue        = 210
+| volume       = XIX, No. 5
+| publisher    = [[TSR, Inc.]]
+| editor       = [[Kim Mohan]]
+| cover_artist = [[Tom Baxa]]
+| edition      = 2
+| month        = October
+| year         = 1994
+| previous     = [[Dragon Magazine 209|''Dragon'' #209]]
+| next         = [[Dragon Magazine 211|''Dragon'' #211]]
+| source       = [https://archive.org/details/DragonMagazine260_201801/DragonMagazine210/mode/2up ''Dragon'' #210 at archive.org]
+}}
+
+'''''Dragon'' issue 210''' was released in October of 1994. It contained the following articles related to Planescape:
+
+== Sage Advice ==
+: ''By [[Skip Williams]].'' '''p. 96-98'''
+
+Skip answers several questions related to the Planescape setting:
+
+* '''Exactly how large is [[Sigil]] (from the PLANESCAPE setting)?'''
+* '''How do the various fiends and planar races of Sigil manage to speak with each other? How do primes and planars speak to the residents of the planes they visit? For that matter, how do primes speak to the residents of other prime material worlds they visit?'''
+* '''What are the effects of the [[cranium rat]]'s mind blast power?'''
+
+==Appendix==
+=== Background Information ===
+
+
+===External Links===
+
+[[Category:Dragon Magazine]]</text>
+      <sha1>hbyn7ni13y0on88u11nkrboxrs2w4y0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dragon Magazine 211</title>
+    <ns>0</ns>
+    <id>3028</id>
+    <revision>
+      <id>5750</id>
+      <timestamp>2025-04-05T22:13:29Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5750</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1323" sha1="arbhjq3vun5bwnmle12a43xmu6ow4st" xml:space="preserve">{{Dragon magazine
+| image        = DragonMagazine211.jpg
+| caption      = An Underground Extravaganza
+| issue        = 211
+| volume       = XIX, No. 6
+| publisher    = [[TSR, Inc.]]
+| editor       = [[Kim Mohan]]
+| cover_artist = [[Brom]]
+| edition      = 2
+| month        = November
+| year         = 1994
+| previous     = [[Dragon Magazine 210|''Dragon'' #210]]
+| next         = [[Dragon Magazine 213|''Dragon'' #213]]
+| source       = [https://archive.org/details/DragonMagazine260_201801/DragonMagazine210/mode/2up ''Dragon'' #210 at archive.org]
+}}
+
+'''''Dragon'' issue 211''' was released in November of 1994. It contained the following articles related to Planescape:
+
+== Role-Playing Revies ==
+: ''By [[Rick Swan]].'' '''p. 88-92'''
+
+Rick provides a brief review of {{b|Planescape|The Eternal Boundary|pdf=17300}} in a "Short but Sweet" section. As a shorter review, it's not given a score.
+
+== Sage Advice ==
+: ''By [[Skip Williams]].'' '''p. 95-96'''
+
+Skip answers a question related to the Planescape setting:
+
+* '''What happens to sha'irs (from the AL-QADIM setting) when they venture into the PLANESCAPE setting? Can their gens still get them spells? Is the time required to fetch a spell increased or reduced?'''
+
+==Appendix==
+=== Background Information ===
+
+
+===External Links===
+
+[[Category:Dragon Magazine]]</text>
+      <sha1>arbhjq3vun5bwnmle12a43xmu6ow4st</sha1>
+    </revision>
+  </page>
+</mediawiki>

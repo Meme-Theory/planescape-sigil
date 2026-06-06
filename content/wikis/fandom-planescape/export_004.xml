@@ -1,0 +1,1594 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Planescape Wiki</sitename>
+    <dbname>planescape</dbname>
+    <base>https://planescape.fandom.com/wiki/Planescape_Wiki</base>
+    <generator>MediaWiki 1.43.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Planescape Wiki</namespace>
+      <namespace key="5" case="first-letter">Planescape Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>450d BFHR</title>
+    <ns>0</ns>
+    <id>2592</id>
+    <revision>
+      <id>4535</id>
+      <timestamp>2024-01-19T06:03:19Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4535</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="80qx0m8s2po65oofhpxeykx9agv2a2h" xml:space="preserve">46 decades before Factol Hashkar's reign begins.
+
+*[[459 BFHR]]
+*[[458 BFHR]]
+*[[457 BFHR]]
+*[[456 BFHR]]
+*[[455 BFHR]]
+*[[454 BFHR]]
+*[[453 BFHR]]
+*[[452 BFHR]]
+*[[451 BFHR]]
+*[[450 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[460d BFHR|460s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[400c BFHR|400s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[440d BFHR|440s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>80qx0m8s2po65oofhpxeykx9agv2a2h</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>453 BFHR</title>
+    <ns>0</ns>
+    <id>2562</id>
+    <revision>
+      <id>4450</id>
+      <timestamp>2024-01-17T05:08:34Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4450</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="526" sha1="ezcv8l44xgke1e1a7tn4pvh2ke9i28k" xml:space="preserve">{{BFHR|453}}
+
+==Events==
+* The [[Free League]], whose membership had soared to a million during the [[Great Upheaval]] in [[503 BFHR]], is cut down to just 20,000 by this time.&lt;ref name="fm81"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=81}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[454 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[450d BFHR|450s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[452 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>ezcv8l44xgke1e1a7tn4pvh2ke9i28k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>460d BFHR</title>
+    <ns>0</ns>
+    <id>2591</id>
+    <revision>
+      <id>4534</id>
+      <timestamp>2024-01-19T06:02:27Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4534</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="6kq3bayioof9fupewfe0dpm8m6jmk6e" xml:space="preserve">47 decades before Factol Hashkar's reign begins.
+
+*[[469 BFHR]]
+*[[468 BFHR]]
+*[[467 BFHR]]
+*[[466 BFHR]]
+*[[465 BFHR]]
+*[[464 BFHR]]
+*[[463 BFHR]]
+*[[462 BFHR]]
+*[[461 BFHR]]
+*[[460 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[470d BFHR|470s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[400c BFHR|400s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[450d BFHR|450s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>6kq3bayioof9fupewfe0dpm8m6jmk6e</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>469 BFHR</title>
+    <ns>0</ns>
+    <id>2493</id>
+    <revision>
+      <id>4309</id>
+      <parentid>4305</parentid>
+      <timestamp>2024-01-14T22:18:31Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>bad at math</comment>
+      <origin>4309</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="294" sha1="omxngrex3v0bo5q7m77l0gfb9zo124r" xml:space="preserve">{{BFHR|469}}
+
+==Events==
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[470 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[460d BFHR|460s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[468 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>omxngrex3v0bo5q7m77l0gfb9zo124r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>46 YFHR</title>
+    <ns>0</ns>
+    <id>2537</id>
+    <revision>
+      <id>4391</id>
+      <timestamp>2024-01-16T00:35:05Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>boc</comment>
+      <origin>4391</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="546" sha1="n8134rt75xlkcvcg9uqy0di4qzmajkm" xml:space="preserve">{{YFHR|46}}
+
+==Events==
+* The xenophobic [[Grugach]] of [[Arvandor]] stop reporting to the outside world. Before word is cut off, the last known High King is [[Scarathor]] the Shadowking.&lt;ref name="pocboc43"&gt;{{b|Planescape|Planes of Chaos|pdf=17298|page=43, Book of Chaos}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[45 YFHR|45]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[40d YFHR|40s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[47 YFHR|47]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>n8134rt75xlkcvcg9uqy0di4qzmajkm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>470d BFHR</title>
+    <ns>0</ns>
+    <id>2590</id>
+    <revision>
+      <id>4533</id>
+      <timestamp>2024-01-19T06:01:31Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4533</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="q4udg66w1itnphgdqu658u9e99zz12i" xml:space="preserve">48 decades before Factol Hashkar's reign begins.
+
+*[[479 BFHR]]
+*[[478 BFHR]]
+*[[477 BFHR]]
+*[[476 BFHR]]
+*[[475 BFHR]]
+*[[474 BFHR]]
+*[[473 BFHR]]
+*[[472 BFHR]]
+*[[471 BFHR]]
+*[[470 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[480d BFHR|480s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[400c BFHR|400s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[460d BFHR|460s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>q4udg66w1itnphgdqu658u9e99zz12i</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>471 BFHR</title>
+    <ns>0</ns>
+    <id>2495</id>
+    <revision>
+      <id>4565</id>
+      <parentid>4564</parentid>
+      <timestamp>2024-01-19T15:58:42Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>oops</comment>
+      <origin>4565</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="491" sha1="ngkdrz6093xpn7nuw8kc72wt57tnmdd" xml:space="preserve">{{BFHR|471}}
+
+==Events==
+
+* The [[Doomguard]] start stockpiling weapons in the [[Armory]] to wage war in the streets of [[Sigil]].&lt;ref name="fw33"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=33}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[472 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[470d BFHR|470s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[470 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>ngkdrz6093xpn7nuw8kc72wt57tnmdd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>474 BFHR</title>
+    <ns>0</ns>
+    <id>2568</id>
+    <revision>
+      <id>4468</id>
+      <timestamp>2024-01-17T06:26:19Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>fm</comment>
+      <origin>4468</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="482" sha1="ppeab212hsb3hg8l2tvs0tfnvlwzozy" xml:space="preserve">{{BFHR|474}}
+
+==Events==
+* The [[Civic Festhall]] is completed after being under construction for the [[574 BFHR|last century]].&lt;ref name="fm134"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=134}}&lt;/ref&gt;
+
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[475 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[470d BFHR|470s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[473 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>ppeab212hsb3hg8l2tvs0tfnvlwzozy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>47 YFHR</title>
+    <ns>0</ns>
+    <id>2555</id>
+    <revision>
+      <id>4426</id>
+      <timestamp>2024-01-17T01:17:19Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4426</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="453" sha1="22mrhzv47wax4hixkc75h03j2k5flv3" xml:space="preserve">{{YFHR|47}}
+
+==Events==
+* [[Mhasha Zakk]], future owner of [[Zakk's Corpse Curing]], is born.&lt;ref name="itc99"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=99}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[46 YFHR|46]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[40d YFHR|40s YFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[48 YFHR|48]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>22mrhzv47wax4hixkc75h03j2k5flv3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>500c BFHR</title>
+    <ns>0</ns>
+    <id>2605</id>
+    <revision>
+      <id>4548</id>
+      <timestamp>2024-01-19T06:20:30Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4548</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="630" sha1="1wobzjoltx8j52n7bzdxv97bgmpe0ho" xml:space="preserve">Six centuries before [[Factol]] [[Hashkar]]'s Reign.
+
+*[[590d BFHR|590s BFHR]]
+*[[580d BFHR|580s BFHR]]
+*[[570d BFHR|570s BFHR]]
+*[[560d BFHR|560s BFHR]]
+*[[550d BFHR|550s BFHR]]
+*[[540d BFHR|540s BFHR]]
+*[[530d BFHR|530s BFHR]]
+*[[520d BFHR|520s BFHR]]
+*[[510d BFHR|510s BFHR]]
+*[[500d BFHR|500s BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev" |'''Previous Century'''&lt;br /&gt;[[600c BFHR|600s BFHR]]
+| class="topic" |'''[[Timeline]]'''&lt;br /&gt;[[0m BFHR|1st millennium BFHR]]
+| class="next" |'''Next Century'''&lt;br /&gt;[[400c BFHR|400s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>1wobzjoltx8j52n7bzdxv97bgmpe0ho</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>500d BFHR</title>
+    <ns>0</ns>
+    <id>2589</id>
+    <revision>
+      <id>4532</id>
+      <timestamp>2024-01-19T06:00:24Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4532</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="notxzhyzqap2u5l9d1m0ltsyhhhop1k" xml:space="preserve">51 decades before Factol Hashkar's reign begins.
+
+*[[509 BFHR]]
+*[[508 BFHR]]
+*[[507 BFHR]]
+*[[506 BFHR]]
+*[[505 BFHR]]
+*[[504 BFHR]]
+*[[503 BFHR]]
+*[[502 BFHR]]
+*[[501 BFHR]]
+*[[500 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[510d BFHR|510s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[500c BFHR|500s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[490d BFHR|490s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>notxzhyzqap2u5l9d1m0ltsyhhhop1k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>503 BFHR</title>
+    <ns>0</ns>
+    <id>2498</id>
+    <revision>
+      <id>4509</id>
+      <parentid>4453</parentid>
+      <timestamp>2024-01-19T01:40:27Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>pwhb</comment>
+      <origin>4509</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1312" sha1="l9b1okev4vqq4h3frvqnrbwogx1nkj7" xml:space="preserve">{{BFHR|503}}
+
+==Events==
+* The [[Great Upheaval]]. After much strife and all-out war between them, the [[Lady of Pain]] makes a pronouncement that the [[Sigil|city]]'s 50+ factions must reduce themselves down to no more than 15.&lt;ref name="fm3"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=3}}&lt;/ref&gt;&lt;ref name="fm81"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=81}}&lt;/ref&gt;&lt;ref name="pwhb53"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|page=53}}&lt;/ref&gt;&lt;ref name="fw64"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=64}}&lt;/ref&gt;&lt;ref name="fw114"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=114}}&lt;/ref&gt;&lt;ref name="fw127"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=127}}&lt;/ref&gt;
+* Two factions, the [[Sons of Mercy]] and the [[Sodkillers]], join forces and rename themselves the [[Mercykillers]], creating a charter called the [[Eight Tenets of Justice]] for the new faction to follow.&lt;ref name="fm102"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=102}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[504 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[500d BFHR|500s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[502 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>l9b1okev4vqq4h3frvqnrbwogx1nkj7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>50 YFHR</title>
+    <ns>0</ns>
+    <id>2748</id>
+    <revision>
+      <id>4850</id>
+      <parentid>4849</parentid>
+      <timestamp>2024-02-10T07:54:18Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>date</comment>
+      <origin>4850</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="437" sha1="1cpsdtjwwikspeurdd05ys315xtvr5d" xml:space="preserve">{{YFHR|50}}
+
+==Events==
+
+* [[Zhuang Bei]], bodyguard to Princess [[Liu Xixi]], is slain by an erstwhile assassin.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[49 YFHR|49]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[50d YFHR|50s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[51 YFHR|51]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>1cpsdtjwwikspeurdd05ys315xtvr5d</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>50d YFHR</title>
+    <ns>0</ns>
+    <id>2530</id>
+    <revision>
+      <id>4380</id>
+      <timestamp>2024-01-15T07:00:07Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4380</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="480" sha1="d87le3rvdbe9rrdy91l2xisyxrgdotv" xml:space="preserve">The sixth decade of the first century of Factol Hashkar's Reign.
+
+*[[50 YFHR]]
+*[[51 YFHR]]
+*[[52 YFHR]]
+*[[53 YFHR]]
+*[[54 YFHR]]
+*[[55 YFHR]]
+*[[56 YFHR]]
+*[[57 YFHR]]
+*[[58 YFHR]]
+*[[59 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[40d YFHR|40s]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c YFHR|0s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[60d YFHR|60s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>d87le3rvdbe9rrdy91l2xisyxrgdotv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>570d BFHR</title>
+    <ns>0</ns>
+    <id>2588</id>
+    <revision>
+      <id>4531</id>
+      <timestamp>2024-01-19T05:59:20Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4531</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="493yr8h60rtdc608fnqrmk4ruh17qfl" xml:space="preserve">58 decades before Factol Hashkar's reign begins.
+
+*[[579 BFHR]]
+*[[578 BFHR]]
+*[[577 BFHR]]
+*[[576 BFHR]]
+*[[575 BFHR]]
+*[[574 BFHR]]
+*[[573 BFHR]]
+*[[572 BFHR]]
+*[[571 BFHR]]
+*[[570 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[580d BFHR|580s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[500c BFHR|500s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[560d BFHR|560s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>493yr8h60rtdc608fnqrmk4ruh17qfl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>574 BFHR</title>
+    <ns>0</ns>
+    <id>2565</id>
+    <revision>
+      <id>4469</id>
+      <parentid>4458</parentid>
+      <timestamp>2024-01-17T06:27:12Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>fm</comment>
+      <origin>4469</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="746" sha1="cr93a3q080nk4470iiqnbkj2hs3t7p0" xml:space="preserve">{{BFHR|574}}
+
+==Events==
+* The time of [[Fraternity of Order]] [[Factol]] [[Jaretta]]. "Anarchists" are present during this time, who may or may not be the same group as the eventual [[Revolutionary League]].&lt;ref name="fm114"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=114}}&lt;/ref&gt;
+* Construction on the [[Civic Festhall]] begins. It won't be completd for another [[474 BFHR|century]].&lt;ref name="fm134"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=134}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[575 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[570d BFHR|570s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[573 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>cr93a3q080nk4470iiqnbkj2hs3t7p0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>57 YFHR</title>
+    <ns>0</ns>
+    <id>2552</id>
+    <revision>
+      <id>4437</id>
+      <parentid>4436</parentid>
+      <timestamp>2024-01-17T04:22:52Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>krynn</comment>
+      <origin>4437</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="576" sha1="m0484yymkxyeozf9ovfdkkgf0lufw15" xml:space="preserve">{{YFHR|57}}
+
+==Events==
+* [[Utadas Tensar]] future owner of [[Tensar's Employment Service]], is born.&lt;ref name="itc77"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=77}}&lt;/ref&gt;
+* [[Sruce]] is born on [[Krynn]].&lt;ref name="fm31"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=31}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[56 YFHR|56]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[50d YFHR|50s YFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[58 YFHR|58]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>m0484yymkxyeozf9ovfdkkgf0lufw15</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>600c BFHR</title>
+    <ns>0</ns>
+    <id>2606</id>
+    <revision>
+      <id>4550</id>
+      <parentid>4549</parentid>
+      <timestamp>2024-01-19T06:22:09Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>fix</comment>
+      <origin>4550</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="632" sha1="oqzez4cik7w89zmuesybz0htqhr8esz" xml:space="preserve">Seven centuries before [[Factol]] [[Hashkar]]'s Reign.
+
+*[[690d BFHR|690s BFHR]]
+*[[680d BFHR|680s BFHR]]
+*[[670d BFHR|670s BFHR]]
+*[[660d BFHR|660s BFHR]]
+*[[650d BFHR|650s BFHR]]
+*[[640d BFHR|640s BFHR]]
+*[[630d BFHR|630s BFHR]]
+*[[620d BFHR|620s BFHR]]
+*[[610d BFHR|610s BFHR]]
+*[[600d BFHR|600s BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev" |'''Previous Century'''&lt;br /&gt;[[700c BFHR|700s BFHR]]
+| class="topic" |'''[[Timeline]]'''&lt;br /&gt;[[0m BFHR|1st millennium BFHR]]
+| class="next" |'''Next Century'''&lt;br /&gt;[[500c BFHR|500s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>oqzez4cik7w89zmuesybz0htqhr8esz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>60d BFHR</title>
+    <ns>0</ns>
+    <id>2587</id>
+    <revision>
+      <id>4530</id>
+      <timestamp>2024-01-19T05:57:57Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4530</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="482" sha1="pfsi5laqea9nnoudokxh5c97rr0yev0" xml:space="preserve">Seven decades before Factol Hashkar's reign begins.
+
+*[[69 BFHR]]
+*[[68 BFHR]]
+*[[67 BFHR]]
+*[[66 BFHR]]
+*[[65 BFHR]]
+*[[64 BFHR]]
+*[[63 BFHR]]
+*[[62 BFHR]]
+*[[61 BFHR]]
+*[[60 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[70d BFHR|70s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c BFHR|0s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[50d BFHR|50s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>pfsi5laqea9nnoudokxh5c97rr0yev0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>60d YFHR</title>
+    <ns>0</ns>
+    <id>2531</id>
+    <revision>
+      <id>4381</id>
+      <timestamp>2024-01-15T07:01:03Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4381</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="482" sha1="sbb761u4oknzfdrkl7nm9ksvl0ia1xn" xml:space="preserve">The seventh decade of the first century of Factol Hashkar's Reign.
+
+*[[60 YFHR]]
+*[[61 YFHR]]
+*[[62 YFHR]]
+*[[63 YFHR]]
+*[[64 YFHR]]
+*[[65 YFHR]]
+*[[66 YFHR]]
+*[[67 YFHR]]
+*[[68 YFHR]]
+*[[69 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[50d YFHR|50s]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c YFHR|0s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[70d YFHR|70s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>sbb761u4oknzfdrkl7nm9ksvl0ia1xn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>65 BFHR</title>
+    <ns>0</ns>
+    <id>2539</id>
+    <revision>
+      <id>4394</id>
+      <timestamp>2024-01-16T00:49:10Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4394</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="453" sha1="l9xzeyf3srw7vkampgcrw06ajzyd7fi" xml:space="preserve">{{BFHR|65}}
+
+==Events==
+
+* Halfling [[Tudbury Tuftle]], future mayor of [[Barnstable]], is born.&lt;ref name="pocboc77"&gt;{{b|Planescape|Planes of Chaos|pdf=17298|page=77, Book of Chaos}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[66 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[60d BFHR|60s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[64 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>l9xzeyf3srw7vkampgcrw06ajzyd7fi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>670d BFHR</title>
+    <ns>0</ns>
+    <id>2586</id>
+    <revision>
+      <id>4529</id>
+      <timestamp>2024-01-19T05:57:01Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4529</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="o9dmgewc6gijui3cfvhx39kg4bjj80u" xml:space="preserve">68 decades before Factol Hashkar's reign begins.
+
+*[[679 BFHR]]
+*[[678 BFHR]]
+*[[677 BFHR]]
+*[[676 BFHR]]
+*[[675 BFHR]]
+*[[674 BFHR]]
+*[[673 BFHR]]
+*[[672 BFHR]]
+*[[671 BFHR]]
+*[[670 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[680d BFHR|680s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[600c BFHR|600s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[660d BFHR|660s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>o9dmgewc6gijui3cfvhx39kg4bjj80u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>674 BFHR</title>
+    <ns>0</ns>
+    <id>2570</id>
+    <revision>
+      <id>4478</id>
+      <timestamp>2024-01-17T16:40:17Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4478</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="574" sha1="nzsu12qr26sk5vwst7men0c7u2dacik" xml:space="preserve">{{BFHR|674}}
+
+==Events==
+* The elven domain of [[Tuarhiviel]] comes to an end around this time. The final king was [[Elnamien]] the Foreshortened of Years. His daughter escaped to the land of [[Zhared-Mai]].&lt;ref name="psmcaii49"&gt;{{b|Planescape|Planescape Monstrous Compendium Appendix II|page=49}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[675 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[670d BFHR|670s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[673 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>nzsu12qr26sk5vwst7men0c7u2dacik</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>67 YFHR</title>
+    <ns>0</ns>
+    <id>2550</id>
+    <revision>
+      <id>4420</id>
+      <timestamp>2024-01-17T00:56:49Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4420</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="459" sha1="h831zg3wuch09zycjoxo6twg8ns9234" xml:space="preserve">{{YFHR|67}}
+
+==Events==
+* Human [[Jeena Ealy]], future owner of [[Jeena Ealy's Compound]], is born.&lt;ref name="itc72"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=72}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[66 YFHR|66]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[60d YFHR|60s YFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[68 YFHR|68]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>h831zg3wuch09zycjoxo6twg8ns9234</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>6 YFHR</title>
+    <ns>0</ns>
+    <id>2516</id>
+    <revision>
+      <id>4502</id>
+      <parentid>4415</parentid>
+      <timestamp>2024-01-17T23:23:38Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>uncaged</comment>
+      <origin>4502</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="810" sha1="k4r2x65bfvpc0a42sjx5g0ebmjq1rfq" xml:space="preserve">{{YFHR|6}}
+
+==Events==
+* The dwarf [[Traban]] and his family ([[Trabanson]], [[Tarholt]], and [[Tarholtson]]) emigrate from [[Krynn]] to [[Sigil]]. Traban brings his old forge with him from Krynn, stone-by-stone, and founds [[Traban's Forge]], at which his family all work.&lt;ref name="sab80"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=80, Sigil and Beyond}}&lt;/ref&gt;&lt;ref name="itc45"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=45}}&lt;/ref&gt;&lt;ref name="uncaged100"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=100}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[5 YFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[0d YFHR|0s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[7 YFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>k4r2x65bfvpc0a42sjx5g0ebmjq1rfq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>700c BFHR</title>
+    <ns>0</ns>
+    <id>2607</id>
+    <revision>
+      <id>4551</id>
+      <timestamp>2024-01-19T06:22:50Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4551</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="632" sha1="eainpm979ansideumpu1ucsvbedicw3" xml:space="preserve">Eight centuries before [[Factol]] [[Hashkar]]'s Reign.
+
+*[[790d BFHR|790s BFHR]]
+*[[780d BFHR|780s BFHR]]
+*[[770d BFHR|770s BFHR]]
+*[[760d BFHR|760s BFHR]]
+*[[750d BFHR|750s BFHR]]
+*[[740d BFHR|740s BFHR]]
+*[[730d BFHR|730s BFHR]]
+*[[720d BFHR|720s BFHR]]
+*[[710d BFHR|710s BFHR]]
+*[[700d BFHR|700s BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev" |'''Previous Century'''&lt;br /&gt;[[800c BFHR|800s BFHR]]
+| class="topic" |'''[[Timeline]]'''&lt;br /&gt;[[0m BFHR|1st millennium BFHR]]
+| class="next" |'''Next Century'''&lt;br /&gt;[[600c BFHR|600s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>eainpm979ansideumpu1ucsvbedicw3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>70 YFHR</title>
+    <ns>0</ns>
+    <id>2487</id>
+    <revision>
+      <id>4441</id>
+      <parentid>4297</parentid>
+      <timestamp>2024-01-17T04:39:10Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>fm</comment>
+      <origin>4441</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="974" sha1="odr8skrij8ynjbk5rg4zk7txr2vlula" xml:space="preserve">{{YFHR|70}}
+
+==Events==
+
+* [[Rowan Darkwood]] is born, the third son of a trivial noble on [[Oerth]].&lt;ref name="fm58"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=58}}&lt;/ref&gt;&lt;ref name="fm61"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=61}}&lt;/ref&gt;
+
+* The [[Revolutionary League|Anarchist]] [[Rechvad]] develops a magical process to change one's personality, to aid in infiltration. Unfortunately duration cannot be predicted, so Rechvad is shunned for his failure.&lt;ref name="fw65"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=65}}&lt;/ref&gt;
+* [[Lub]] is imprisoned at the [[Gatehouse]].&lt;ref name="fw98"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=98}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[69 YFHR|69]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[60d YFHR|60s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[71 YFHR|71]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>odr8skrij8ynjbk5rg4zk7txr2vlula</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>70d BFHR</title>
+    <ns>0</ns>
+    <id>2584</id>
+    <revision>
+      <id>4527</id>
+      <timestamp>2024-01-19T05:54:49Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4527</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="482" sha1="7s84mv04i1y6qwtituhapi0k3fosdf9" xml:space="preserve">Eight decades before Factol Hashkar's reign begins.
+
+*[[79 BFHR]]
+*[[78 BFHR]]
+*[[77 BFHR]]
+*[[76 BFHR]]
+*[[75 BFHR]]
+*[[74 BFHR]]
+*[[73 BFHR]]
+*[[72 BFHR]]
+*[[71 BFHR]]
+*[[70 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[80d BFHR|80s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c BFHR|0s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[60d BFHR|60s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>7s84mv04i1y6qwtituhapi0k3fosdf9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>70d YFHR</title>
+    <ns>0</ns>
+    <id>2532</id>
+    <revision>
+      <id>4382</id>
+      <timestamp>2024-01-15T07:01:44Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4382</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="481" sha1="3sf7x239jx3a64hur7uusj9ofkqbziw" xml:space="preserve">The eighth decade of the first century of Factol Hashkar's Reign.
+
+*[[70 YFHR]]
+*[[71 YFHR]]
+*[[72 YFHR]]
+*[[73 YFHR]]
+*[[74 YFHR]]
+*[[75 YFHR]]
+*[[76 YFHR]]
+*[[77 YFHR]]
+*[[78 YFHR]]
+*[[79 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[60d YFHR|60s]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c YFHR|0s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[80d YFHR|80s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>3sf7x239jx3a64hur7uusj9ofkqbziw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>74 BFHR</title>
+    <ns>0</ns>
+    <id>3039</id>
+    <revision>
+      <id>5775</id>
+      <timestamp>2025-05-01T22:28:53Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5775</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="593" sha1="l1bl9s9btinz5yw8ilyymwlfjov1my9" xml:space="preserve">{{BFHR|74}}
+
+==Events==
+* The [[Harmonium]] enters [[Sigil]] for the first time in approximately this year, intending to use the city as a beachhead for further expeditions to eliminate the evil and chaos in the [[Abyss]].&lt;ref name="fm90"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=90}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[75 BFHR|75]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[70d BFHR|70s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[73 BFHR|73]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>l1bl9s9btinz5yw8ilyymwlfjov1my9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>750d BFHR</title>
+    <ns>0</ns>
+    <id>2585</id>
+    <revision>
+      <id>4528</id>
+      <timestamp>2024-01-19T05:55:38Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4528</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="3ya5z5s2iq7xv4j0gdehxxui54zrukl" xml:space="preserve">76 decades before Factol Hashkar's reign begins.
+
+*[[759 BFHR]]
+*[[758 BFHR]]
+*[[757 BFHR]]
+*[[756 BFHR]]
+*[[755 BFHR]]
+*[[754 BFHR]]
+*[[753 BFHR]]
+*[[752 BFHR]]
+*[[751 BFHR]]
+*[[750 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[770d BFHR|770s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[700c BFHR|700s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[740d BFHR|740s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>3ya5z5s2iq7xv4j0gdehxxui54zrukl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>758 BFHR</title>
+    <ns>0</ns>
+    <id>2546</id>
+    <revision>
+      <id>4405</id>
+      <timestamp>2024-01-17T00:24:16Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4405</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="426" sha1="8cgzlndewyi0va8w199viuc2qllq4zp" xml:space="preserve">{{BFHR|758}}
+
+==Events==
+* The [[rust dragon]] [[Patynara]] is hatched.&lt;ref name="polach31"&gt;{{b|Planescape|Planes of Law|pdf=17272|page=31, Acheron}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[759 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[750d BFHR|750s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[757 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>8cgzlndewyi0va8w199viuc2qllq4zp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>75 YFHR</title>
+    <ns>0</ns>
+    <id>2751</id>
+    <revision>
+      <id>4868</id>
+      <parentid>4863</parentid>
+      <timestamp>2024-02-10T13:58:21Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>torment</comment>
+      <origin>4868</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="931" sha1="8kxlhze9lbzhmhysn9pyg37ii14qt3t" xml:space="preserve">{{YFHR|75}}
+
+==Events==
+
+* [[The Nameless One]] gives [[Elobrande]]'s mother a [[Suspicious Sealed Scroll]], warning her never to read it under any circumstances.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}&lt;/ref&gt;
+* [[Finam]]'s father is strangled, and all his documents pertaining to the [[Uyo]] language are destroyed.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}&lt;/ref&gt;
+* [[Aelwyn]] meets [[The Nameless One]], who no longer recognizes her. He lashes out at her in paranoia, and she uses her abilities to make him jump from a window to his death. His body is gone before she can retrieve it.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[74 YFHR|74]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[70d YFHR|70s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[76 YFHR|76]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>8kxlhze9lbzhmhysn9pyg37ii14qt3t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>76 BFHR</title>
+    <ns>0</ns>
+    <id>2509</id>
+    <revision>
+      <id>4867</id>
+      <parentid>4866</parentid>
+      <timestamp>2024-02-10T13:55:39Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>torment</comment>
+      <origin>4867</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1087" sha1="dympc54u8pnh9o5m5vqy81xelm5e2nh" xml:space="preserve">{{BFHR|76}}
+
+==Events==
+* The town of [[Broken Reach]] is founded by the succubus [[Red Shroud]], who built it in the [[Abyss]] over the portal to [[Plague-Mort]].&lt;ref name="pocboc25"&gt;{{b|Planescape|Planes of Chaos|pdf=17298|page=25, Book of Chaos}}&lt;/ref&gt;&lt;ref name="poct73"&gt;{{b|Planescape|Planes of Chaos|pdf=17298|page=10, Travelogue}}&lt;/ref&gt;
+
+* The [[Silent King]], ruler of the [[Dead Nations]], dies: a secret kept by his "priest" [[Hargrimm]] the Bleak and zombie leader [[Stale Mary]], in order to keep [[Acaste]] and her ghouls in line.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}&lt;/ref&gt;
+* [[Aelwyn]] meets [[The Nameless One]], who seemed eager to see all the multiverse had to offer. He courted her, but disappeared before they could become lovers.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[77 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[70d BFHR|70s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[75 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>dympc54u8pnh9o5m5vqy81xelm5e2nh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>76 YFHR</title>
+    <ns>0</ns>
+    <id>2538</id>
+    <revision>
+      <id>4392</id>
+      <timestamp>2024-01-16T00:37:58Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4392</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="461" sha1="3yz8cmxnqf9tc15vagehlw17bpzg71r" xml:space="preserve">{{YFHR|76}}
+
+==Events==
+* The city-realm of [[Brightwater]] on [[Olympus (layer)|Olympus]] is founded.&lt;ref name="pocboc48"&gt;{{b|Planescape|Planes of Chaos|pdf=17298|page=48, Book of Chaos}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[75 YFHR|75]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[70d YFHR|70s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[77 YFHR|77]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>3yz8cmxnqf9tc15vagehlw17bpzg71r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>770d BFHR</title>
+    <ns>0</ns>
+    <id>2612</id>
+    <revision>
+      <id>4562</id>
+      <timestamp>2024-01-19T15:51:16Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4562</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="ilftj49lmas9qfgo2wfz3ykianyx4rs" xml:space="preserve">78 decades before Factol Hashkar's reign begins.
+
+*[[779 BFHR]]
+*[[778 BFHR]]
+*[[777 BFHR]]
+*[[776 BFHR]]
+*[[775 BFHR]]
+*[[774 BFHR]]
+*[[773 BFHR]]
+*[[772 BFHR]]
+*[[771 BFHR]]
+*[[770 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[780d BFHR|780s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[700c BFHR|700s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[760d BFHR|760s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>ilftj49lmas9qfgo2wfz3ykianyx4rs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>771 BFHR</title>
+    <ns>0</ns>
+    <id>2613</id>
+    <revision>
+      <id>4563</id>
+      <timestamp>2024-01-19T15:53:54Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4563</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="490" sha1="85pzcpo306m4vot5bs53b07pxdqk157" xml:space="preserve">{{BFHR|771}}
+
+==Events==
+* The [[Planewalker's Guild]], a protective society for planar travelers, gets started in [[Sigil]].&lt;ref name="tftis20"&gt;{{b|Planescape|Tales from the Infinite Staircase|pdf=17291|page=20}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[772 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[770d BFHR|770s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[770 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>85pzcpo306m4vot5bs53b07pxdqk157</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>77 YFHR</title>
+    <ns>0</ns>
+    <id>2556</id>
+    <revision>
+      <id>4484</id>
+      <parentid>4483</parentid>
+      <timestamp>2024-01-17T22:19:23Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>lk</comment>
+      <origin>4484</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1909" sha1="58dvyyu1e7ixhznuk51lco00e1lcw4f" xml:space="preserve">{{YFHR|77}}
+
+==Events==
+* The [[Hall of Speakers]] begins a program of compassion. Funded by a modest merchant and landowner tax, food was sent into the [[Hive Ward]] to help the starving. Protests amongst the [[Fated]] and [[Fraternity of Order]] started within a month. The program shuts down after only three months in operation.&lt;ref name="itc106"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=106}}&lt;/ref&gt;
+* [[Barl Hoxun]] discovers five portal arches under a pile of rubble, and builds the [[Bottle &amp; Jug]] around them. The B&amp;J becomes one of the most notorious pubs in Sigil, mostly due to its gambling and its boxing arena.&lt;ref name="itc109"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=109}}&lt;/ref&gt;
+* Hellcats and hordlings attack the obscure [[Prime Material plane|Prime]] world of [[Glemayne]], destroying [[Ombidias]]' tribe.&lt;ref name="fm23"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=23}}&lt;/ref&gt;
+* [[Omar]] becomes [[factol]] of the [[Harmonium]]... and immediately tries to disband the [[faction]] and shut down the [[City Barracks]]. Omar is revealed to be an [[Revolutionary League|Anarchist]]. The Harmonium later insists they simply let him think he was in charge so he'd reveal himself. The [[Mercykillers]] execute him after a brief trial, and he becomes a hero and martyr for the Anarchists.&lt;ref name="fm114"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=114}}&lt;/ref&gt;
+* Prince [[Azlan]] takes up leadership of the [[Guardians]], a [[sect]] based out of [[Elysium]].&lt;ref name="pokpgc22"&gt;{{b|Planescape|Planes of Conflict|pdf=17278|page=22, A Player's Guide to Conflict}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[76 YFHR|76]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[70d YFHR|70s YFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[78 YFHR|78]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>58dvyyu1e7ixhznuk51lco00e1lcw4f</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>78 YFHR</title>
+    <ns>0</ns>
+    <id>2576</id>
+    <revision>
+      <id>4506</id>
+      <parentid>4504</parentid>
+      <timestamp>2024-01-19T01:28:14Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>hellbound</comment>
+      <origin>4506</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="662" sha1="cgdgum9mnb4tz1gnwaz1ea62xjigx8i" xml:space="preserve">{{YFHR|78}}
+
+==Events==
+
+* [[Spiral Hal'oight]] accidentally loses a shipment of weapons.&lt;ref name="hellbound28"&gt;{{b|Planescape|Hellbound: The Blood War|pdf=17281|page=28, War Games}}&lt;/ref&gt;
+* [[Mirror Will]] moves into [[Sigil]]. He doesn't seem to age from at least this point onward.&lt;ref name="hellbound30"&gt;{{b|Planescape|Hellbound: The Blood War|pdf=17281|page=30, The Chant of the War}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[77 YFHR|77]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[70d YFHR|70s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[79 YFHR|79]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>cgdgum9mnb4tz1gnwaz1ea62xjigx8i</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>80 BFHR</title>
+    <ns>0</ns>
+    <id>2514</id>
+    <revision>
+      <id>4501</id>
+      <parentid>4417</parentid>
+      <timestamp>2024-01-17T23:22:07Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>uncaged</comment>
+      <origin>4501</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="637" sha1="fc9qsws18peb0tb1m4ixj4m91yjag5j" xml:space="preserve">{{BFHR|80}}
+
+==Events==
+* The dwarf [[Traban]]'s grandson [[Tarholt]] is born in [[Krynn]].&lt;ref name="sab80"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=80, Sigil and Beyond}}&lt;/ref&gt;&lt;ref name="itc45"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=45}}&lt;/ref&gt;&lt;ref name="uncaged100"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=100}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[81 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[80d BFHR|80s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[79 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>fc9qsws18peb0tb1m4ixj4m91yjag5j</sha1>
+    </revision>
+  </page>
+</mediawiki>

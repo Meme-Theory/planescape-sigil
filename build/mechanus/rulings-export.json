@@ -1,0 +1,84 @@
+{
+ "_doc": "Mechanus rulings ledger export — citable precedent from the curator's table. A fresh ledger starts empty and may CITE these; imports never bypass record_ruling.",
+ "count": 6,
+ "rulings": [
+  {
+   "ruling_id": "rul:vnv:akin-mr-vs-spell-like:001",
+   "kind": "ruling",
+   "question": "Does A'kin's 60% magic resistance apply against Shemeshka's spell-like abilities (fear), or only against true spells?",
+   "view": "2e",
+   "scope": "table:vnv",
+   "docket": "{\"ruling_id\": \"rul:vnv:akin-mr-vs-spell-like:001\", \"question\": \"Does A'kin's 60% magic resistance apply against Shemeshka's spell-like abilities (fear), or only against true spells?\", \"view\": \"2e\", \"scope\": \"table:vnv\", \"ladder_path\": [\"house:none\", \"raw:2e-mc:magic-resistance\", \"interp\"], \"candidates\": [{\"position\": \"MR applies to spell-like abilities as to spells (2e MC: MR applies to all magical attacks unless stated)\", \"fate\": \"ADOPTED\"}, {\"position\": \"MR applies only to true wizard/priest spells\", \"fate\": \"rejected\", \"why\": \"2e MC magic-resistance text draws no spell-vs-spell-like distinction; narrower reading unsupported\"}], \"confidence\": 0.8, \"adjudicator\": \"auto\", \"rolls\": [\"rol:family-marquee-akin-690d9f:00005\"], \"sources\": [{\"ref\": \"npc:uncaged:a-kin\", \"admission_sha\": \"e3a9694cbb0e56e3241555629a0ed3c61e74954764fcdaece274f2938b96f727\"}, {\"ref\": \"npc:uncaged:shemeshka-the-marauder\", \"admission_sha\": \"7833ac620534937f9c32019dc90cc9de55887bf9feefbb2139bbe9ae7d4c692e\"}], \"note\": \"MR roll 00005 came up 82 vs 60 — resistance FAILED; the fear lands on A'kin. Ruling records why the roll mattered.\", \"sha\": \"ac80b1946943a1cb40d6d186f77171938b64167e72c9fda11cfb35d351d0bdcf\", \"ts\": \"2026-06-05T21:56:30+00:00\", \"kind\": \"ruling\", \"law_version\": \"018b2eed42e9afe7\"}",
+   "sha": "ac80b1946943a1cb40d6d186f77171938b64167e72c9fda11cfb35d351d0bdcf",
+   "supersedes": null,
+   "superseded_by": "rul:vnv:akin-mr-vs-spell-like:002",
+   "law_version": "018b2eed42e9afe7",
+   "ts": "2026-06-05T21:56:30+00:00"
+  },
+  {
+   "ruling_id": "rul:vnv:akin-mr-vs-spell-like:002",
+   "kind": "ruling",
+   "question": "Does A'kin's 60% magic resistance apply against Shemeshka's spell-like abilities (fear), or only against true spells?",
+   "view": "2e",
+   "scope": "table:vnv",
+   "docket": "{\"ruling_id\": \"rul:vnv:akin-mr-vs-spell-like:002\", \"question\": \"Does A'kin's 60% magic resistance apply against Shemeshka's spell-like abilities (fear), or only against true spells?\", \"view\": \"2e\", \"scope\": \"table:vnv\", \"ladder_path\": [\"house:table-vnv\"], \"candidates\": [{\"position\": \"Table rules innate spell-like abilities of fellow fiends bypass MR (Blood War flavor) — V&V chain probe\", \"fate\": \"ADOPTED\"}, {\"position\": \"MR applies to spell-like abilities as to spells\", \"fate\": \"rejected\", \"why\": \"superseded by table house rule for this campaign's tone\"}], \"confidence\": 0.7, \"adjudicator\": \"human:ryan\", \"note\": \"V&V: exercising the supersedes chain\", \"supersedes\": \"rul:vnv:akin-mr-vs-spell-like:001\", \"sha\": \"c2e45346bef5b4aeb69fe781343da179d240c3b1521f8de31ddfe9e8022c59e6\", \"ts\": \"2026-06-05T21:57:01+00:00\", \"kind\": \"ruling\", \"law_version\": \"018b2eed42e9afe7\"}",
+   "sha": "c2e45346bef5b4aeb69fe781343da179d240c3b1521f8de31ddfe9e8022c59e6",
+   "supersedes": "rul:vnv:akin-mr-vs-spell-like:001",
+   "superseded_by": null,
+   "law_version": "018b2eed42e9afe7",
+   "ts": "2026-06-05T21:57:01+00:00"
+  },
+  {
+   "ruling_id": "rul:vnv:house:committed-loot-rolls:001",
+   "kind": "house-rule",
+   "question": "Are all contested-loot randomizations rolled on a committed Modron session?",
+   "view": "5e-2014",
+   "scope": "table:vnv",
+   "docket": "{\"ruling_id\": \"rul:vnv:house:committed-loot-rolls:001\", \"kind\": \"house-rule\", \"question\": \"Are all contested-loot randomizations rolled on a committed Modron session?\", \"view\": \"5e-2014\", \"scope\": \"table:vnv\", \"ladder_path\": [\"house:declared\"], \"candidates\": [{\"position\": \"yes — committed session, reveal at close, dockets cite roll_ids\", \"fate\": \"ADOPTED\"}, {\"position\": \"ephemeral rolls suffice\", \"fate\": \"rejected\", \"why\": \"table voted for the commitment ceremony after seeing it work\"}], \"confidence\": 1, \"adjudicator\": \"human:ryan\", \"sha\": \"5b224b2a490bb27f25aa5121fb5023918054c69f8535fe1edebb182dea144a4c\", \"ts\": \"2026-06-05T20:02:54+00:00\", \"law_version\": \"018b2eed42e9afe7\"}",
+   "sha": "5b224b2a490bb27f25aa5121fb5023918054c69f8535fe1edebb182dea144a4c",
+   "supersedes": null,
+   "superseded_by": null,
+   "law_version": "018b2eed42e9afe7",
+   "ts": "2026-06-05T20:02:54+00:00"
+  },
+  {
+   "ruling_id": "rul:vnv:loot-recipient:001",
+   "kind": "ruling",
+   "question": "Who receives the salvaged portal compass — randomized fairly among the four PCs?",
+   "view": "5e-2014",
+   "scope": "table:vnv",
+   "docket": "{\"ruling_id\": \"rul:vnv:loot-recipient:001\", \"kind\": \"ruling\", \"question\": \"Who receives the salvaged portal compass — randomized fairly among the four PCs?\", \"view\": \"5e-2014\", \"scope\": \"table:vnv\", \"ladder_path\": [\"house:none\", \"raw:none-applicable\", \"fiat:randomized-by-committed-die\"], \"raw_quotes\": [], \"candidates\": [{\"position\": \"d20 banded 1-5/6-10/11-15/16-20 across the four PCs; rolled 13 -> third PC\", \"fate\": \"ADOPTED\"}, {\"position\": \"DM assigns by story logic\", \"fate\": \"rejected\", \"why\": \"table prefers auditable chance for loot; Modron session committed before the roll\"}], \"rolls\": [\"rol:mechanus-vnv-2026-06-05-cf12f7:00001\"], \"confidence\": 1, \"adjudicator\": \"human:ryan\", \"sha\": \"4e001d298120290862f7e217c799a2d4d7641be6f3b3f8d157377d13c7c6c8a9\", \"ts\": \"2026-06-05T20:02:22+00:00\", \"law_version\": \"018b2eed42e9afe7\"}",
+   "sha": "4e001d298120290862f7e217c799a2d4d7641be6f3b3f8d157377d13c7c6c8a9",
+   "supersedes": null,
+   "superseded_by": "rul:vnv:loot-recipient:002",
+   "law_version": "018b2eed42e9afe7",
+   "ts": "2026-06-05T20:02:22+00:00"
+  },
+  {
+   "ruling_id": "rul:vnv:loot-recipient:002",
+   "kind": "ruling",
+   "question": "Who receives the salvaged portal compass — randomized fairly among the four PCs?",
+   "view": "5e-2014",
+   "scope": "table:vnv",
+   "docket": "{\"ruling_id\": \"rul:vnv:loot-recipient:002\", \"kind\": \"ruling\", \"question\": \"Who receives the salvaged portal compass — randomized fairly among the four PCs?\", \"view\": \"5e-2014\", \"scope\": \"table:vnv\", \"ladder_path\": [\"house:none\", \"raw:none-applicable\", \"fiat:randomized-by-committed-die\", \"overrule:post-session\"], \"candidates\": [{\"position\": \"third PC keeps it, but trades the party's sensory stone in compensation\", \"fate\": \"ADOPTED\"}, {\"position\": \"let the d20 result stand uncompensated\", \"fate\": \"rejected\", \"why\": \"table felt the compass is plot-critical to PC2's arc; compensation preserves both fairness and story\"}], \"rolls\": [\"rol:mechanus-vnv-2026-06-05-cf12f7:00001\"], \"confidence\": 0.9, \"adjudicator\": \"human:ryan\", \"supersedes\": \"rul:vnv:loot-recipient:001\", \"sha\": \"51e6e4d8b871ac9ddd7a6cf239e0709e8d750a2fe364d4bd291cd231801f867d\", \"ts\": \"2026-06-05T20:02:52+00:00\", \"law_version\": \"018b2eed42e9afe7\"}",
+   "sha": "51e6e4d8b871ac9ddd7a6cf239e0709e8d750a2fe364d4bd291cd231801f867d",
+   "supersedes": "rul:vnv:loot-recipient:001",
+   "superseded_by": null,
+   "law_version": "018b2eed42e9afe7",
+   "ts": "2026-06-05T20:02:52+00:00"
+  },
+  {
+   "ruling_id": "rul:vnv:triangle:akin-claw:001",
+   "kind": "ruling",
+   "question": "A'kin's claw attack vs an AC 5 intruder — hit adjudication and poison rider applicability (cross-validation triangle)",
+   "view": "2e",
+   "scope": "table:vnv",
+   "docket": "{\"ruling_id\": \"rul:vnv:triangle:akin-claw:001\", \"kind\": \"ruling\", \"question\": \"A'kin's claw attack vs an AC 5 intruder — hit adjudication and poison rider applicability (cross-validation triangle)\", \"view\": \"2e\", \"scope\": \"table:vnv\", \"ladder_path\": [\"house:none\", \"raw:fgg:thac0-attack+nat20-auto\", \"raw:uncaged-p9:poison-rider\"], \"raw_quotes\": [{\"text\": \"poisonous claw attacks inflict cumulative, permanent -1 penalty on foe's attack roll unless negated by bless, neutralize poison, or slow poison\", \"loc\": \"npc:uncaged:a-kin sections.SOURCE — Mimir admission e3a9694cbb0e56e3, uncaged:p9\", \"sha\": \"bdc3ca3b4b95fbbd\"}], \"candidates\": [{\"position\": \"natural 20 auto-hits per FG&G; 4 claw damage; poison rider applies: cumulative permanent -1 to-hit unless bless/neutralize/slow poison\", \"fate\": \"ADOPTED\"}, {\"position\": \"treat nat 20 as critical double damage\", \"fate\": \"rejected\", \"why\": \"RAW 2e has no critical damage effect — Modron's convention pack note is law-correct; crit house rules are a separate docket if the table wants one\"}], \"rolls\": [\"rol:triangle-cross-validation-014128:00001\", \"rol:triangle-cross-validation-014128:00002\"], \"confidence\": 0.95, \"adjudicator\": \"auto\", \"sha\": \"5fa3c4ef1638820740ff6bf9bf3ca9b8d25cf1e20be4778f054c444a6b6ab448\", \"ts\": \"2026-06-05T21:48:08+00:00\", \"law_version\": \"018b2eed42e9afe7\"}",
+   "sha": "5fa3c4ef1638820740ff6bf9bf3ca9b8d25cf1e20be4778f054c444a6b6ab448",
+   "supersedes": null,
+   "superseded_by": null,
+   "law_version": "018b2eed42e9afe7",
+   "ts": "2026-06-05T21:48:08+00:00"
+  }
+ ]
+}

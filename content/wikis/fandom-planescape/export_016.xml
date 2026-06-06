@@ -1,0 +1,2842 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Planescape Wiki</sitename>
+    <dbname>planescape</dbname>
+    <base>https://planescape.fandom.com/wiki/Planescape_Wiki</base>
+    <generator>MediaWiki 1.43.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Planescape Wiki</namespace>
+      <namespace key="5" case="first-letter">Planescape Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Mount Celestia</title>
+    <ns>0</ns>
+    <id>293</id>
+    <revision>
+      <id>1359</id>
+      <parentid>1358</parentid>
+      <timestamp>2023-01-05T02:41:54Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1358</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="19629" sha1="a0x1l6sitq7aqxv1fp7bl6b0qh0ii8j" xml:space="preserve">{{DEFAULTSORT:Celestia, Mount}}
+{{Plane
+| image             = &lt;gallery&gt;
+Celestia-5e.jpg|5e 
+Celestia - Franz Vohwinkel.jpg|4e 
+&lt;/gallery&gt;
+| caption2          = The Seven Mounting Heavens of Celestia
+| name              = Mount Celestia
+| othernames        = Seven Heavens&lt;br/&gt;The Radiant Throne
+| symbol            = MountCelestia.png
+| demonym           = Celestian
+| natives           = [[Celestial archon|archon]]s, [[solar]]s, [[hollyphant]]s, [[planetar]]s, [[foo creature]]s, [[deva]]s, [[agathia]], [[shedu]], [[lammasu]], [[ki-rin]], [[dragon horse]]s
+| languages         = 
+| color-pool-color  = Gold
+| color-pool-image  = ColorPoolCelestia.png
+| fork-material     = [[Gold]]
+| fork-note         = D
+| fork-audio        = D5.ogg
+| basicrefs         = &lt;ref name="Dr120-p42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;&lt;ref name="PoL-THoMC"&gt;{{Cite book/Planes of Law/The Hierarchies of Mount Celestia}}&lt;/ref&gt;&lt;ref name="MotP1e-62"&gt;{{Cite book/Manual of the Planes 1st edition|62}}&lt;/ref&gt;&lt;ref name="MotP3e-p49"&gt;{{Cite book/Manual of the Planes 3rd edition|49}}&lt;/ref&gt;&lt;ref name="MotP4e-p16"&gt;{{Cite book/Manual of the Planes 4th edition|16}}&lt;/ref&gt;&lt;ref name="DMG5e-p47"&gt;{{Cite book/Dungeon Master's Guide 5th edition|47}}&lt;/ref&gt;
+| type-GW           = [[Outer Plane]]
+| shape-size-GW     = Seven infinite layers
+| gravity-GW        = Normal
+| time-GW           = Normal
+| morphic-GW        = Divinely
+| element-energy-GW = 
+| alignment-GW      = {{alignment grid|on|off|off|off|off|off|off|off|off}}
+| magical-GW        = Normal with special cases
+| layers-GW         = [[Lunia]]&lt;br /&gt;[[Mercuria]]&lt;br /&gt;[[Venya]]&lt;br /&gt;[[Solania]]&lt;br /&gt;[[Mertion]]&lt;br /&gt;[[Jovar]]&lt;br /&gt;[[Chronias]]
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="MotP1e-73"&gt;{{Cite book/Manual of the Planes 1st edition|73}}&lt;/ref&gt;&lt;ref name="MotP1e-75"&gt;{{Cite book/Manual of the Planes 1st edition|75}}&lt;/ref&gt;&lt;ref name="MotP1e-78-82"&gt;{{Cite book/Manual of the Planes 1st edition|78-82}}&lt;/ref&gt;&lt;ref name="MotP1e-87"&gt;{{Cite book/Manual of the Planes 1st edition|87}}&lt;/ref&gt;&lt;ref name="MotP1e-88"&gt;{{Cite book/Manual of the Planes 1st edition|88}}&lt;/ref&gt;&lt;ref name="MotP3e-p132-126"&gt;{{Cite book/Manual of the Planes 3rd edition|132-136}}&lt;/ref&gt;
+| type-WA           = [[Astral Dominion]]
+| shape-size-WA     = Finite plane
+| gravity-WA        = Normal
+| mutability-WA     = Divinely Morphic
+| element-energy-WA = Radiant
+| alignment-WA      = [[Lawful Good]]
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = the [[Astral Plane|Astral Sea]]
+| refs-WA           = &lt;ref name="Mop4e-p91"&gt;{{Cite book/Manual of the Planes 4th edition|91}}&lt;/ref&gt;&lt;ref name="SotAS-p44"&gt;{{Cite book/The Plane Above|44}}&lt;/ref&gt;
+| type-WT           = Realm
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = the [[House of the Triad]]
+| refs-WT           = &lt;ref name="PGtF-p159"&gt;{{Cite book/Player's Guide to Faerûn|159}}&lt;/ref&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| usethe            = 
+| useon             = 
+}}
+The '''Seven Heavens of Mount Celestia''', also called the '''Seven Mountains of Goodness and Law''', '''Seven Mounting Heavens of Celestia''' or '''Seven Heavens''',&lt;ref&gt;{{Cite book/Planescape Campaign Setting}}&lt;/ref&gt; was the pinnacle of [[lawful good]]ness in the [[Great Wheel cosmology]].&lt;ref name="MotP1e-73" /&gt;&lt;ref name="DMG5e-p58"&gt;{{Cite book/Dungeon Master's Guide 5th edition|58}}&lt;/ref&gt;&lt;ref name="MotP3e-p132-126" /&gt; The Seven Heavens were dedicated to goodness shaped by law and justice tempered with mercy. Some characteristics of this plane were ascribed to the [[World Tree cosmology]] planes of [[Green Fields]]&lt;ref name="PGtF-155"&gt;{{Cite book/Player's Guide to Faerûn}}&lt;/ref&gt; and the [[House of the Triad]]&lt;ref name="PGtF-159"&gt;{{Cite book/Player's Guide to Faerûn}}&lt;/ref&gt; when that cosmology became popular. In the [[World Axis cosmology]], Celestia was interpreted as an [[astral dominion]] ruled over by [[Torm]] as it drifted through the [[Astral Sea]].&lt;ref name="PGF4e-p62"&gt;{{Cite book/Player's Guide to Faerûn|62}}&lt;/ref&gt;
+
+{{Quote
+|A cutter who comes to Mount Celestia for easy answers to his troubles is, well... He's clueless. Good and law may be lots of things, but they ain't easy.
+|A paladin of the [[Order of the Eternal Sun]]&lt;ref name="PoL-MC-p2"&gt;{{Cite book/Planes of Law/Mount Celestia|2}}&lt;/ref&gt;
+}}
+
+==Description==
+Celestia was the ultimate in law and good. All aspects of Celestia were beautiful and perfect; it was where the souls of many creatures of lawful good alignment went to after death.&lt;ref name="MotP3e-p89"&gt;{{Cite book/Manual of the Planes 3rd edition|89}}&lt;/ref&gt; Celestia was home to numerous celestial creatures including various types of [[Celestial archon|archons]], the [[petitioner]]s of this plane.&lt;ref name="MotP3e-p132-126" /&gt;
+
+As an outer plane, Celestia was spatially infinite and consisted of seven infinite layers (or sub-planes). The seven individual layers formed a colossal mountain that rose from an infinite sea of holy water on the bottommost layer, to the summit on the topmost layer. Ascending the mountain was analogous to travelling through subsequently higher or 'deeper' layers to the top. Each of the seven layers contained at least one mountain or high structure rising into the sky, and most had whole mountain ranges. The barriers between the seven layers were arranged such that entrances were at the lowest geographical points and exits were at the highest, so a traveler from the [[Astral Plane]] would enter the first layer at the base of a mountain (actually, in the surf of the ocean surrounding the mountain) and had to climb to the peak to reach the next layer, only to emerge at the nadir again. The sky of each layer had its own hue which softly bathed everything in gentle shades of luminance.&lt;ref name="MotP1e-87" /&gt;&lt;ref name="MotP3e-p132-126" /&gt;
+
+===Lunia===
+{{/Imagemap}}
+{{Main|Lunia}}
+Celestia's first (bottommost) layer shared borders with the neighboring planes of the [[Arcadia|Peaceable Kingdoms of Arcadia]] and the [[Bytopia|Twin Paradises of Bytopia]]; travel was possible between Celestia and these planes at certain locations.&lt;ref name="MotP3e-p132-126" /&gt;
+
+Known as the Silver Heaven, Lunia was the first layer travelers encountered. The sky of Lunia was a nighttime sky filled with stars that illuminated the layer with a [[silver]] glow.&lt;ref name="MotP1e-87" /&gt; The ''color pools'' of the Astral Plane would deposit visitors in the surf of a vast ocean,&lt;ref name="MotP1e-87" /&gt; the Silver Sea,&lt;ref name="Stormwrack-p10"&gt;{{Cite book/Stormwrack|10}}&lt;/ref&gt; full of clean, fresh water that had the properties of ''[[holy water]]''.&lt;ref name="MotP1e-87" /&gt; The sky above Lunia was perpetually dark, filled with beautiful constellations of silver stars bright enough to illuminate the base of the mountain.&lt;ref name="MotP3e-p132-126" /&gt; The dark, starry Silver Sea was full of many good aquatic beings, including [[Celestial creature|celestial]] [[whale]]s and [[sea elves]].&lt;ref name="Stormwrack-p10" /&gt;
+
+The adjacent beach belonged to an island with a majestic mountain decorated with grand citadels made from polished white stone. Descriptions of the citadels varied among travelers leading cosmologists to theorize that there were many of these mountain islands.&lt;ref name="MotP1e-87" /&gt; Also in the surf of Lunia were the portals to the [[Twin Paradises]], [[Arcadia]], and [[Concordant Opposition]] which were large, permanent, free-standing blocks of finished stone. Black [[granite]] blocks veined with gold led to Arcadia, white granite blocks with veins of silver led to the Twin Paradises, and red granite blocks flecked with blue took you to Concordant Opposition. Travelers merely had to touch a block to activate the portal.&lt;ref name="MotP1e-88" /&gt;
+
+[[File:Lunia.jpg|thumb|280px|right|''The starlit night of [[Lunia]], surrounded by the Silver Sea.'']]
+Lunia was the location of a number of godly realms, including [[Tyr]]'s secondary realm of [[the Court]].&lt;ref name="CotR-15"&gt;{{Cite book/Cyclopedia of the Realms|15}}&lt;/ref&gt;&lt;ref name="FRA-35"&gt;{{Cite book/Forgotten Realms Adventures|35}}&lt;/ref&gt;&lt;ref name="FA2e-p169"&gt;{{Cite book/Faiths &amp; Avatars|169}}&lt;/ref&gt;
+
+===Mercuria===
+{{Main|Mercuria}}
+The second layer, Mercuria was known as the Golden Heaven because a warm golden light suffused everywhere. This layer contained the armory for the noblest warriors who came here for their eternal rest. If necessary, Mercuria was the marshaling ground for the armies of the Heavens.&lt;ref name="MotP1e-87" /&gt;
+
+Gentle hills and lush green valleys comprised this layer, which was also dotted with small settlements of archons and other good-aligned beings. Mercuria was known for its great tombs and monuments to noble fighters and paladins resting on the layer. These warriors were honoured during an annual Day of Memory.&lt;ref name="MotP3e-p132-126" /&gt;
+
+[[Bahamut]]'s jeweled palace&lt;ref name="MotP1e-88" /&gt; moved about the first four layers of Celestia. It was made entirely from Bahamut's enormous treasure hoard, with walls made of [[mithral]] and windows composed of huge gemstones. Inside, seven great [[wyrm|wyrms]] closely guarded the huge hoard of amassed treasure.&lt;ref name="MotP3e-p132-126" /&gt;
+
+===Venya===
+{{Main|Venya}}
+The third heaven, also called the Pearly Heaven, or Heaven of Pearls, was a lush and verdant land with crops, meadows, moors, hills, and rolling countryside all bathed in the soft glow from a sky reminiscent of the luster of white [[pearl]]s.&lt;ref name="MotP1e-87" /&gt; It was somewhat colder than the previous two layers, its slopes often seen covered with a gentle layer of snow. Peaceful brooks and carefully terraced fields were common on Venya.&lt;ref name="MotP3e-p132-126" /&gt;
+
+In the [[Great Wheel cosmology]], the [[halfling pantheon]] made its home in Venya in the realm of [[Green Fields]].&lt;ref name="MotP1e-87" /&gt; It was a place of safety for the many [[halflings]] that lived there; their crops always gave plentiful harvests and there were no large predators to speak of.&lt;ref name="MotP3e-p132-126" /&gt;
+
+===Solania===
+{{Main|Solania}}
+Solania, the fourth layer, had a sky that glowed like burnished silver and was called the [[Electrum]] Heaven, or sometimes the Crystal Heaven. Its valleys were enveloped in mist, fog, and strange scents. The peaks were home to numerous holy shrines, including monasteries and magnificent cathedrals controlled by [[demigod]]s. Many of the slopes were rich in precious ores and minerals and were mined by populations of dwarves that resided there. Many [[pilgrim]]s came questing to the roof of this layer in the hopes of finding answers to life's persistent questions.&lt;ref name="MotP1e-87" /&gt;&lt;ref name="MotP3e-p132-126" /&gt;
+
+In the Great Wheel cosmology, a vast dwarven mansion called [[Erackinor]] was located on the slopes of Solania, where the dwarven deity [[Moradin]] made his domain, with his wife [[Berronar Truesilver]]. It was the location of the giant [[Soul Forges]], which Moradin was said to use to temper the spirits of his people.&lt;ref name="MotP3e-p132-126" /&gt; [[Uroboros]], the Gates of Wisdom, the airborne realm of [[Jazirian]] of the [[couatl]], floated above the mountainside of Solania.&lt;ref name="PoL-21"&gt;{{Cite book/Planes of Law/Mount Celestia|21}}&lt;/ref&gt;&lt;ref&gt;{{Cite book/Planes of Law/Map-Mount Celestia}}&lt;/ref&gt;
+
+===Mertion===
+{{Main|Mertion}}
+With a sky not too different from Solania's, the fifth layer was known as the [[Platinum]] Heaven. Vast plains and savannas served as the mustering ground for [[paladin]]s and other lawful good servants. Instead of mountains, Mertion had majestic citadels and huge black spherical domes dotting the plains. Access to the next higher layer was found at the tops of the domes.&lt;ref name="MotP1e-87-88"&gt;{{Cite book/Manual of the Planes 1st edition|87-88}}&lt;/ref&gt;
+
+The city of [[Empyrea]], also known as the City of Tempered Souls, was located on the edge of a cold mountain lake. It was known to host many magical fountains with powerful healing properties, as well as many hospitals and expert healers.&lt;ref name="MotP3e-p132-126" /&gt;
+
+===Jovar===
+{{Main|Jovar}}
+The sixth layer, Jovar, was known as the Glittering Heaven or the Heaven of [[Gem]]s. Its hills were studded with precious gemstones that glittered in the light.&lt;ref name="MotP3e-p132-126" /&gt; This layer was actually a vault lined floor to ceiling with huge [[ruby|rubies]] and [[Garnet (gem)|garnets]] that gave off a glow like a hearth fire.&lt;ref name="MotP1e-88" /&gt;
+
+A seemingly unending ziggurat was the home of the Jovarian [[Celestial archon|archons]] and guarded the entrance to the seventh heaven.&lt;ref name="MotP1e-88" /&gt; Known as [[Yesteria]], the Heavenly City, the huge seven-layered ziggurat displayed a large staircase on each face connecting the terraces of each layer. The stones that made up the city were made of precious gemstones, similar to those seen around the surrounding hills. On the topmost terrace was the bridge of [[al-Sihal]], formed of pure light, where the portal to the topmost layer of Celestia, '''Chronias''', was located, It is guarded by a powerful [[solar]] named [[Xerona]] who judged who was allowed to enter.&lt;ref name="MotP3e-p132-126" /&gt;
+
+===Chronias===
+{{Main|Chronias}}
+The topmost and final layer of Celestia, Chronias was called the Illuminated Heaven. Little was known of its structure because nothing was ever recorded by the few who had visited and returned. The legends said that Chronias was so good and lawful that it glowed of its own accord and any who entered had all evil and neutrality burned out of them, leaving them inherently good, if they survived.&lt;ref name="MotP3e-p132-126" /&gt; Many religions made this level the home of their lawful good deities, believing any lesser realms were merely to accommodate less worthy souls.&lt;ref name="MotP1e-88" /&gt;
+
+It was thought to be the ultimate goal of the inhabitants of Celestia to ascend the layers one by one in order to reach Chronias, where their souls would join with the essence of the plane itself.&lt;ref name="MotP1e-88" /&gt;
+
+==Inhabitants==
+[[File:Celestia 4e FRCG.jpg|thumb|230px|The very dramatic slopes of Mount Celestia.]]
+The [[Celestial archon|archons]]&lt;ref name="MotP1e-123"&gt;{{Cite book/Manual of the Planes 1st edition|123}}&lt;/ref&gt; were the native and most numerous inhabitants of the Seven Heavens, cheerfully going about the business of serving the Higher Powers. Many types of archons lived in the first six layers but only rumors existed of a ruling archon ensconced in Chronias. Other creatures found on this plane were [[solar]]s,&lt;ref name="MMII1e-111"&gt;{{Cite book/Monster Manual II (1983)|111}}&lt;/ref&gt; [[planetar]]s,&lt;ref name="MMII1e-101"&gt;{{Cite book/Monster Manual II (1983)|101}}&lt;/ref&gt; [[hollyphant]]s,&lt;ref name="MMII1e-75"&gt;{{Cite book/Monster Manual II (1983)|75}}&lt;/ref&gt; [[deva]]s,&lt;ref name="MMII1e-42"&gt;{{Cite book/Monster Manual II (1983)|42}}&lt;/ref&gt; [[foo creature]]s,&lt;ref name="MMII1e-65"&gt;{{Cite book/Monster Manual II (1983)|65}}&lt;/ref&gt; and [[agathia]].&lt;ref name="MMII1e-9"&gt;{{Cite book/Monster Manual II (1983)|9}}&lt;/ref&gt; Human and non-human pilgrims, [[shedu]], [[lammasu]], [[ki-rin]], and [[dragon horse]]s&lt;ref name="MMII1e-59"&gt;{{Cite book/Monster Manual II (1983)|59}}&lt;/ref&gt; would visit fairly often.&lt;ref name="MotP1e-88" /&gt; Collectively, the inhabitants of Celestia were called "'''Celestians'''".&lt;ref name="PoL-THoMC" /&gt;&lt;ref group="note"&gt;"Celestian" is also the name of [[Celestian|a Greyhawk deity]] who owed [[Waukeen]] a favor. She asked him to transport her to the [[Astral Plane]] during the [[Time of Troubles]].&lt;/ref&gt;
+
+==Afterlife==
+{{Main|Afterlife}}
+The spirits of those who earned a place in the Seven Heavens would become [[lantern archon]]s much the same as evil souls became [[Soul larva|larvae]] in the [[Lower Planes]].&lt;ref name="MotP1e-88" /&gt;
+
+==Realms==
+* [[Amaterasu]], sun goddess of the [[Eight Million Gods]], had the realm of [[Radiant Light]] in Mercuria.&lt;ref&gt;{{Cite book/On Hallowed Ground|158,179}}&lt;/ref&gt;
+* [[Arvoreen]], the patron deity of halfling warriors, made his home in the realm [[Green Fields]] in Venya with the others of his pantheon.&lt;ref name="UA1e=115"&gt;{{Cite book/Unearthed Arcana 1st edition|115}}&lt;/ref&gt;
+* [[Bahamut]] was reported to have realms in Lunia, Mercuria, Venya, and Solania as well as the [[Elemental Plane of Air]]. Whether these were separate realms or [[Bahamut's Palace|one realm]] that moved about, or possibly spanned several layers at once is still a matter of speculation.&lt;ref name="MotP1e-88" /&gt;&lt;ref name="MM1e-33"&gt;{{Cite book/Monster Manual 1st edition|33}}&lt;/ref&gt;
+* [[Berronar Truesilver]], Mother of Safety, Truth, and Home, lived with her husband Moradin in [[Erackinor|a mountain home]] in Solania.&lt;ref name="MotP1e-88" /&gt;&lt;ref name="UA1e-111"&gt;{{Cite book/Unearthed Arcana 1st edition|111-112}}&lt;/ref&gt;
+* [[Cyrrollalee]], the [[halfling]] deity of friendship and trust, once lived in Green Fields in Venya with the others of her pantheon.&lt;ref name="UA1e-116"&gt;{{Cite book/Unearthed Arcana 1st edition|116}}&lt;/ref&gt;
+* [[Jazirian]], the wise deity of the [[couatl]], has her/his realm [[Uroboros]] hover in the coulds of Solania.&lt;ref name="PoL-21" /&gt;
+* [[Moradin]], the Soul Forger, chief deity of the [[dwarves]], once made his home in Solania within the steep mountains which were called [[Erackinor]] in the dwarven tongue. It was here that Moradin kept the [[Soul Forge]] which he used to temper the spirits and weapons of his people. It was said the smoke from his forge became the mists filling the valleys and the heat from it warmed all of Solania.&lt;ref name="MotP1e-88" /&gt;&lt;ref name="DD1e-106"&gt;{{Cite book/Deities &amp; Demigods 1st edition|106}}&lt;/ref&gt;
+* [[Torm]] the True maintained his realm of [[Trueheart]] on the layer of Mercuria.&lt;ref&gt;{{Cite book/Faiths &amp; Avatars|162}}&lt;/ref&gt;
+* [[Trishina]] maintained no permanent realm, but often wandered Mount Celestia.&lt;ref&gt;{{Cite book/On Hallowed Ground|177}}&lt;/ref&gt;&lt;ref&gt;{{Cite book/Monster Mythology|94}}&lt;/ref&gt;
+* [[Tyr]] Grimjaws, the Even-Handed, once had a realm called [[the Court]] on the layer of Lunia.&lt;ref name="CotR-15" /&gt;&lt;ref name="FRA-35" /&gt;&lt;ref name="FA2e-p169" /&gt;
+* [[Yondalla]], the Protector and Providor of the [[halfling]]s, lead her fellow powers from within the Green Fields in Venya.&lt;ref&gt;{{Cite book/Demihuman Deities|179}}&lt;/ref&gt;&lt;ref&gt;{{Cite book/On Hallowed Ground|111}}&lt;/ref&gt;
+
+==History==
+When the multiverse was first created, before any mortals had yet died, Mount Celestia had no archons. The first seven martyrs of law and goodness whose souls arrived from the Material Plane were transformed into the plane's first archons and mandated with the role of ruling its seven layers for eternity. The seven martyrs and their successors continued to rule Celestia as the Celestial Hebdomad.&lt;ref name="BoED-p124"&gt;{{Cite book/Book of Exalted Deeds|124}}&lt;/ref&gt;
+
+==Appendix==
+===Notes===
+{{Notes}}
+===Gallery===
+&lt;gallery widths="300px"&gt;
+Image:Seven Heavens of Mount Celestia.jpg|''Concept/Promotional art of the 'Seven Heavens of Mount Celestia' made for [[Adventures in the Forgotten Realms]], by [[Alben Tan]].''
+&lt;/gallery&gt;
+===References===
+{{Refs|2}}
+===Connections===
+{{Mount Celestia}}
+{{Cosmologies}}
+[[Category:Astral dominions]]
+[[Category:World Axis planes]]
+[[Category:Planes of law]]
+[[Category:Planes of existence]]
+[[Category:Mountains]]
+[[Category:Locations on Yggdrasil]]</text>
+      <sha1>a0x1l6sitq7aqxv1fp7bl6b0qh0ii8j</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Mount Celestia/Imagemap</title>
+    <ns>0</ns>
+    <id>1074</id>
+    <revision>
+      <id>1661</id>
+      <parentid>1660</parentid>
+      <timestamp>2023-01-05T02:42:13Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1660</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2068" sha1="bj8sbd4l0nqatccf1nh6kr6l1fmycbq" xml:space="preserve">&lt;noinclude&gt;The following image map was generated using information compiled from the following sources:
+* {{Cite book/Manual of the Planes 3rd edition}}
+&lt;/noinclude&gt;&lt;div class="imageMapHighlighter"&gt;
+&lt;imagemap&gt;
+File:Mount Celestia-3e.png|thumb|280px|right|A representation of the layers of Mount Celestia, according to the Great Wheel Cosmology. Hovering over the map will reveal main features. Clicking will link to the article for that location.
+
+desc none
+circle 520 783 11 [[Bahamut's Palace]]
+poly 594 705 704 707 703 734 684 736 684 759 616 755 615 734 593 731 [[Bahamut's Palace]]
+poly 48 731 40 731 39 702 118 703 126 689 139 688 197 707 267 722 298 725 352 723 442 714 502 699 565 677 608 650 617 650 661 757 707 755 707 944 48 939 48 740 99 742 106 733 [[Lunia]]
+poly 141 688 167 598 35 594 41 568 70 569 71 573 163 573 166 595 188 548 199 541 244 554 274 560 322 563 378 567 419 559 444 556 456 556 504 542 550 519 556 517 568 538 577 568 590 597 605 652 566 676 521 692 500 700 467 708 447 714 368 721 327 724 293 725 263 721 233 715 195 707 163 696 [[Mercuria]]
+poly 200 542 221 487 226 483 238 456 244 452 299 465 347 467 394 467 449 457 508 427 512 425 551 517 502 543 459 556 422 559 397 563 372 567 294 560 261 559 225 549 [[Venya]]
+rect 107 487 187 516 [[Venya]]
+poly 249 452 264 410 269 407 278 380 292 367 328 381 373 382 409 380 447 366 472 353 475 352 509 426 455 454 423 462 389 466 340 468 299 465 262 458 [[Solania]]
+rect 142 398 237 424 [[Solania]]
+circle 402 358 11 [[Empyrea]]
+rect 513 346 606 369 [[Empyrea]]
+poly 295 366 316 315 327 312 346 319 368 318 395 319 412 315 436 297 470 351 443 368 410 380 365 382 347 381 331 380 321 378 311 375 301 372 [[Mertion]]
+rect 161 329 271 355 [[Mertion]]
+circle 381 305 11 [[Yetsira]]
+rect 485 294 554 315 [[Yetsira]]
+poly 331 313 351 268 357 264 383 269 413 261 433 301 413 315 393 320 368 319 344 318 [[Jovar]]
+rect 229 285 294 312 [[Jovar]]
+poly 355 264 385 203 415 262 388 269 367 267 [[Chronias]]
+rect 201 225 324 252 [[Chronias]]
+&lt;/imagemap&gt;
+&lt;/div&gt;&lt;noinclude&gt;
+[[Category:Imagemaps]]&lt;/noinclude&gt;</text>
+      <sha1>bj8sbd4l0nqatccf1nh6kr6l1fmycbq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Mount Celestia (card)</title>
+    <ns>0</ns>
+    <id>295</id>
+    <revision>
+      <id>343</id>
+      <timestamp>2022-02-12T11:40:22Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "[[File:Mount Celestia card.jpg|thumb|right|300px]]  '''Mount Celestia''' was a Battlefield card from the [[Blood Wars]] game, depicting [[Mount Celestia]].  It was released as..."</comment>
+      <origin>343</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="812" sha1="1et06k8by8a9nhuad4xem4jsz3sou29" xml:space="preserve">[[File:Mount Celestia card.jpg|thumb|right|300px]]
+
+'''Mount Celestia''' was a Battlefield card from the [[Blood Wars]] game, depicting [[Mount Celestia]].
+
+It was released as part of the [[Blood Wars basic set|basic set]], and had a rarity of "common". The artwork was by [[Tony DiTerlizzi]].
+
+{| border="1" cellpadding="1" cellspacing="1" style="width: 500px;"
+! scope="col"|Stats
+! scope="col"|Mount Celestia
+|-
+|Type
+|Battlefield
+|-
+|Alignment
+|Lawful Good
+|-
+|Victory Points
+|2
+|-
+|Random Result
+|8
+|-
+|Description
+|Plane.
+|-
+|Notes
+|The Acting Player who holds this Battlefield in his Victory Pool may discard this card during his Resolution Phase to search his draw pile for two cards of his choice and place them atop the draw pile. ☑
+|}
+
+[[Category:Blood Wars cards]]
+[[Category:Blood Wars basic set]]</text>
+      <sha1>1et06k8by8a9nhuad4xem4jsz3sou29</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Mount Olympus</title>
+    <ns>0</ns>
+    <id>1472</id>
+    <revision>
+      <id>2630</id>
+      <parentid>2629</parentid>
+      <timestamp>2023-08-09T01:51:43Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2038</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6230" sha1="14j53wpa8ruebxnbi5rtfqjdrdpho95" xml:space="preserve">{{DEFAULTSORT:Olympus, Mount}}
+{{Otheruses4|the planar pathway|the realm in [[Arborea]]|Olympus}}
+{{Mountain
+| image          = Mt Olympus.png
+| caption        = 
+| name           = Mount Olympus
+| aliases        = 
+| type           = Mountain, planar pathway
+| region         = [[Achea]], [[Toril]]&lt;br /&gt;[[Olympus]]
+| elevation      = {{SI|60000|ft|k}}
+| georefs        = &lt;ref name="TOP1e-p56"&gt;{{Cite book/Tales of the Outer Planes|56}}&lt;/ref&gt;
+| races          = 
+| socrefs        = 
+| usethe         = 
+| useon          = yes
+| inhabitants    = yes
+| locations      = yes
+| organizations  = yes
+| settlements    = yes
+| roads          = 
+| mountains      = 
+| events         = yes
+| food and drink = yes
+| items          = yes
+}}
+'''Mount Olympus''' was an enormous cross-planar mountain that connected the [[Prime Material plane]] with the [[Outer Planes]] that were important to the [[Greek pantheon]] via the [[Astral Plane]].&lt;ref name="PCS-DM2e-p45"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|45}}&lt;/ref&gt;
+
+==Description==
+In the region of [[Arvandor (layer)|Arvandor]] within sight of the mountain, Mount Olympus was the most prominent feature of the landscape, rising above the rest of the plane.&lt;ref name="PC-AC2e-p5"&gt;{{Cite book/Planes of Conflict/Adventures in Conflict|5}}&lt;/ref&gt; It was believed by the [[Fraternity of Order]] that visibility from the mountain's peak could extend as far as {{SI|100|mi|k|long=yes}} in any direction. Travelers claimed that even the other two layers of [[Arborea]], [[Aquallor]] and [[Mithardir]], could sometimes be seen from the summit.&lt;ref name="PC-TL2e-p20"&gt;{{Cite book/Planes of Chaos/The Travelogue|20}}&lt;/ref&gt;
+
+The slopes of Olympus had a rich landscape of woods and rocky terrain.&lt;ref name="PCS-DM2e-p45" /&gt; The southern slope of the mountain was a pastoral region with [[olive]] groves, vineyards, [[apple]] and [[orange]] orchards, and [[sheep]] grazing areas. It was considered the easiest ascent route.&lt;ref name="PC-TL2e-p20" /&gt; Some of the caverns under the mountain were beautiful, filled with colorful [[lichen]] and lit by luminescent rock. The caverns sometimes opened into enormous chambers that defied perception and did not seem at all like an underground environment. Other caverns were damp and small, littered with bones and permeated by rotting smells.&lt;ref name="PC-AC2e-p5" /&gt;
+
+==Cosmography==
+[[File:Yggdrasil2Hades.jpg|right|thumb|270px|''The planar connections of Mount Olympus (left) and [[Yggdrasil]] (right).'']]
+The slopes of Mount Olympus were rooted in the [[divine realm]] of [[Olympus]] in the first layer of Arborea. It was the most prominent feature of the realm.&lt;ref name="PCS-DM2e-p50"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|50}}&lt;/ref&gt; At its base, twisting caverns cut through the stone at the veins of the mountain into the [[Lower planes]] of [[Carceri]], [[Gehenna]], and [[Hades]].&lt;ref name="PCS-DM2e-p45" /&gt; Entry points into the planes could be found at round, colored ''[[portal]]s'', in a similar way to the planar connections of [[Yggdrasil]].&lt;ref name="PWH2e-p12"&gt;{{Cite book/The Planewalker's Handbook|12}}&lt;/ref&gt; However, unlike the World Ash, the portals to and from Mount Olympus were well mapped and did not shift over time.&lt;ref name="PCS-DM2e-p45" /&gt;
+
+Mount Olympus connected to multiple worlds in the [[Prime Material plane]], which were accessible via hidden paths along the mountain.&lt;ref name="PC-TL2e-p20" /&gt; On [[Toril]], the mountain was located on the island of [[Achea]], which lay several hundred miles from [[Faerûn]]. In order to reach Arborea, travelers needed to climb the mountain to the very summit. The Torilian manifestation of Mount Olympus had an elevation of {{SI|60000|ft|k|long=yes}}.&lt;ref name="TOP1e-p56" /&gt;
+
+The [[World Serpent Inn]] also provided a connection to Mount Olympus and regularly manifested near the slopes of the mountain in Arvandor. Travelers could enter the plane and access the mountain via the inn, but anyone who entered Arborea from the realm of Olympus could only see or access the inn after receiving express authorization from the Greek pantheon.&lt;ref name="TOP1e-p56" /&gt;
+&lt;!--==Government==
+==Trade==--&gt;
+==Defenses==
+Although all the ''portals'' leading to and from Mount Olympus were open to anyone trying to cross them, many of the secret paths leading to other planes from the mountain were guarded by creatures in the employ of the Olymian deities. Some of those pahs were only accessible to worshipers of particular deities, while anyone else trying to use them was instead redirected to Hades.&lt;ref name="PC-TL2e-p20" /&gt;
+
+&lt;!--==History==
+==Notable Locations==--&gt;
+==Inhabitants==
+Mount Olympus was the home of most deities of the Greek pantheon, who held vast halls and temples on its slopes.&lt;ref name="PC-TL2e-p20" /&gt;
+
+The mountain was primarily inhabited by [[nymph]]s, [[satyr]]s, and [[sylph]]s.&lt;ref name="PC-TL2e-p20" /&gt; The caverns of Mount Olympus were inhabited by [[bacchae]], [[oread]]s, and satyrs, among others.&lt;ref name="PC-AC2e-p5" /&gt;
+
+==Rumors &amp; Legends==
+* A temple of [[Hermes]] that stood within [[Sigil/The Lady's Ward|The Lady's Ward]] of [[Sigil]] was rumored to have a portal that connected the city to Mount Olympus.&lt;ref&gt;{{Cite book/In the Cage: A Guide to Sigil|44}}&lt;/ref&gt;
+* The entrances to the homes of the Olympian powers were all well disguised. Some believed that this was the doing of [[Hephaestus]], others Hermes, and some believed it was the doing of [[Pan (deity)|Pan]].&lt;ref name="PoC-p20-21"&gt;{{Cite book/Planes of Chaos/The Travelogue|20-21}}&lt;/ref&gt;
+
+==Appendix==
+{{Incomplete}}
+===Appearances===
+:;Adventures
+::''[[Tales of the Outer Planes]]''
+::{{Refonly}}
+::&lt;small&gt;''[[For Duty &amp; Deity]]''&lt;/small&gt;
+===References===
+{{Refs}}
+===Connections===
+{{Cosmologies}}
+[[Category:Locations on Toril]]
+[[Category:Locations on Achea]]
+[[Category:Locations in Olympus]]
+[[Category:Locations in Arvandor (layer)]]
+[[Category:Locations in Arvandor]]
+[[Category:Locations in the Upper Planes]]
+[[Category:Locations in Carceri]]
+[[Category:Locations in Gehenna]]
+[[Category:Locations in Hades]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Planar pathways]]</text>
+      <sha1>14j53wpa8ruebxnbi5rtfqjdrdpho95</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Mungoth</title>
+    <ns>0</ns>
+    <id>188</id>
+    <revision>
+      <id>208</id>
+      <timestamp>2022-02-07T23:49:00Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "'''Mungoth''' was the third layer of the plane of [[Gehenna]].  == Realms ==  * [[Hulgis' Cleft]] * [[Portent]] * [[Death's Embrace]] * [[Ondtland]] ** [[Aasbern]] ** Smertz..."</comment>
+      <origin>208</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="255" sha1="deb98810385r165khot3x6zzh2xn6qo" xml:space="preserve">'''Mungoth''' was the third layer of the plane of [[Gehenna]].
+
+== Realms ==
+
+* [[Hulgis' Cleft]]
+* [[Portent]]
+* [[Death's Embrace]]
+* [[Ondtland]]
+** [[Aasbern]]
+** [[Smertzen]]
+* [[Burning Glacier of Mungoth]]
+* [[Skarach's Gorge]]
+
+[[Category:Layers]]</text>
+      <sha1>deb98810385r165khot3x6zzh2xn6qo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Muspelheim</title>
+    <ns>0</ns>
+    <id>1498</id>
+    <revision>
+      <id>2091</id>
+      <parentid>2090</parentid>
+      <timestamp>2023-01-05T11:25:18Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2090</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3308" sha1="8vmbl5d8ka6eolhbx252333pcjhvbxv" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Muspelheim
+| othernames        = 
+| symbol            = Ysgard.png
+| demonym           = 
+| natives           = [[Fire giant]]s
+| languages         = 
+| fork-material     = [[Gold]]
+| fork-note         = G
+| fork-chord        = major
+| fork-audio        = G major.ogg
+| basicrefs         = &lt;ref name="Dr120-p42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;&lt;ref name="PoCh2e-p123-125"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|123-125}}&lt;/ref&gt;
+| type-GW           = Layer
+| shape-size-GW     = Infinite
+| gravity-GW        = Normal
+| time-GW           = Normal
+| morphic-GW        = Divinely
+| element-energy-GW = Mildly [[Positive energy|positive]]-dominant, [[fire]]-dominant
+| alignment-GW      = {{Alignment grid|off|off|on|off|off|on|off|off|off}}
+| magical-GW        = Normal
+| layers-GW         = 
+| layer-number-GW   = 2
+| location-GW       = [[Ysgard]]
+| refs-GW           = &lt;ref name="MotP3e-p90-92"&gt;{{Cite book/Manual of the Planes 3rd edition|90-92}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| based             = [[wikipedia:en:Muspelheim|Muspelheim]] (Norse)
+| usethe            = 
+| useon             = 
+}}
+'''Muspelheim''' was the second layer of [[Ysgard]]. A jagged land of fire and volcanic rock, it was named after the [[divine realm]] of [[Surtr]] that existed within its lands.&lt;ref name="PoCh2e-p123-125" /&gt;
+
+==Geography==
+Muspelheim was formed by similar [[Earthmote|earthberg]]s to those that constituted the first layer, [[Ysgard (layer)|Ysgard]], but they were inverted with respect to those. In Muspelheim, the [[fire]]-lit side faced up, so most of the terrain in the entire layer was dominated by fire and was quite inhospitable to visitors. In many ways, it was very similar to some regions of the [[Elemental Plane of Fire]], which was connected to the layer via numerous portals.&lt;ref name="MotP3e-p90-92" /&gt;&lt;ref name="PoCh2e-p123-125" /&gt;
+
+==Notable Locations==
+* [[Muspelheim (realm)|Muspelheim]], realm of [[Surtr]]. It contained some of the few arable lands of the entire layer, which were used to grow [[fireweed]], [[verdobba]], and a type of edible black wood.&lt;ref name="PoCh2e-p123-125" /&gt;
+
+==Inhabitants==
+Since it was such a desolate place, Muspelheim was generally avoided. Only its native [[fire giant]]s remained to care for the land and were its undisputed rulers.&lt;ref name="PoCh2e-p123-125" /&gt;
+
+==Appendix==
+===References===
+{{Refs}}
+===Connections===
+{{Ysgard}}
+[[Category:Locations in the Upper Planes]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations in Jotunheim]]</text>
+      <sha1>8vmbl5d8ka6eolhbx252333pcjhvbxv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Muspelheim (layer)</title>
+    <ns>0</ns>
+    <id>274</id>
+    <revision>
+      <id>320</id>
+      <timestamp>2022-02-12T00:25:03Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "'''Muspelheim''' was the second layer of the plane of [[Ysgard (plane)|Ysgard]].    == Realms ==  * [[Muspelheim (realm)|Muspelheim]] ** [[Njarlok]] ** [[Spire of Surtr]] ** [..."</comment>
+      <origin>320</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="303" sha1="tnc1ran8si1hgxt870ix2f9sw732ofy" xml:space="preserve">'''Muspelheim''' was the second layer of the plane of [[Ysgard (plane)|Ysgard]].
+
+
+
+== Realms ==
+
+* [[Muspelheim (realm)|Muspelheim]]
+** [[Njarlok]]
+** [[Spire of Surtr]]
+** [[Surtr's Beard Factory]]
+** [[Forges of Surtr]]
+* [[Golden Mist]]
+* [[Lake of Lead]]
+* [[Serpent's Spine]]
+
+
+[[Category:Layers]]</text>
+      <sha1>tnc1ran8si1hgxt870ix2f9sw732ofy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Mutual Trade Association</title>
+    <ns>0</ns>
+    <id>2964</id>
+    <revision>
+      <id>6928</id>
+      <parentid>5509</parentid>
+      <timestamp>2025-08-19T21:41:16Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>6928</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1164" sha1="jqyrt9ogvl16qj7shv9zck8eyyvdwjt" xml:space="preserve">In the wake of the [[Faction War]], the guildmasters and merchant lords fighting over the resulting power vacuum looked as though they might themselves attract the attention of the [[Lady of Pain]]. Three of the most powerful put aside their animosity to form the '''Mutual Trade Association''', or simply the '''Traders'''.
+
+The leaders are:
+
+* {{NPC|Estavan|planar|male|ogre mage|unclassed|5|Fraternity of Order|le}} the Seer, and head of the [[Planar Trade Consortium]]
+* {{NPC|Shemeshka|planar|female|rakshasa||||ne}} the Marauder
+* {{NPC|Zadara|planar|female|storm giant|unclassed|20|Merkhants|n}}
+
+Although in theory all three associates share equal power, Shemeshka has emerged as the de facto leader.
+
+The three captains were joined by a number of other influential members in order to take advantage of the organization's benefits. The MTA doesn't interfere with day-to-day affairs, but does look for solutions to common problems affecting everyone: crime waves, disrupted supply lines, worker unrest, and so on.
+
+== References ==
+
+* {{b|D&amp;D|Dungeon Master's Guide 2|pdf=144108|page=192-193}}
+
+&lt;references /&gt;
+
+[[Category:Sigil]]
+[[Category:Organizations]]</text>
+      <sha1>jqyrt9ogvl16qj7shv9zck8eyyvdwjt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Mystara</title>
+    <ns>0</ns>
+    <id>2871</id>
+    <revision>
+      <id>7288</id>
+      <parentid>6900</parentid>
+      <timestamp>2026-02-27T20:19:18Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <origin>7288</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4600" sha1="qmgdbfy6b3vehgmf2xmhvnlcwivo8hl" xml:space="preserve">[[File:MystaraLogo2e.png|300px|thumb|right|Mystara (AD&amp;D 2nd Edition)]]
+
+'''Mystara''' is the primary inhabited world found within [[w:c:spelljammer:Mystaraspace|an unknown crystal sphere]] on the [[Prime Material plane]], and the name of the campaign setting primarily set on this world. It was considered the default setting for the original Dungeons &amp; Dragons game (albeit Basic D&amp;D, not Advanced D&amp;D).
+
+Unusually, the world is hollow, with inner landmasses and an inner sun in place of the planet's core. It's not very involved in planar affairs, but contains its share of interesting magic, particularly in the kingdoms of ''Glantri'' and ''Alphatia''.&lt;ref name="pwhb33"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|page=33}}&lt;/ref&gt;
+
+The Hollow World is one of the seven [[Wonders of the Multiverse]]&lt;ref name="poly127-14"&gt;{{b|Polyhedron|Polyhedron Magazine 137|page=14}}&lt;/ref&gt;
+
+&lt;gallery caption="Sub-Settings"&gt;
+Blackmoor_Logo.png|''[[w:c:dungeonsdragons:Blackmoor|Blackmoor]]'' (Basic D&amp;D)
+HollowWorld.png|''[[w:c:dungeonsdragons:Hollow World|Hollow World]]'' (Basic D&amp;D)
+RedSteelLogo2e.png|''[[w:c:dungeonsdragons:Red Steel|Red Steel]]'' (AD&amp;D 2nd Edition)
+SavageCoastLogo2e.png|''[[w:c:dungeonsdragons:Savage Coast|Savage Coast]]'' (AD&amp;D 2nd Edition Revised)
+&lt;/gallery&gt;
+
+== Relevant History ==
+
+== Titles ==
+
+The following ''Mystara'' titles may be of interest to ''[[Planescape]]'' players:
+
+* [[1994]]
+** {{b|Mystara|Monstrous Compendium: Mystara Appendix|pdf=16911}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294|nip=1}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}: [[airdrake]], [[air plasm]], [[anemo]], [[blackball]], [[earthdrake]], [[earth plasm]], [[eolian]], [[erdeen]], [[fire plasm]], [[flamedrake]], [[helion]], [[horde]], [[hydrax]], [[kryst]], [[nightshade]], [[pyrophor]], [[spectral death]], [[undine]], [[water drake]], [[water plasm]], [[wyrd]]
+
+== Personalities ==
+
+The following planar personalities came from Mystara:
+
+* [[Farrow]]&lt;ref name="uncaged32"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=32}}&lt;/ref&gt;&lt;ref name="ToFW-p17"&gt;{{Cite book/Planescape: Adventures in the Multiverse/Turn of Fortune's Wheel|17}}&lt;/ref&gt;
+
+
+== Portals ==
+
+The following portals are known to link to Mystara:
+
+* A window in [[Harbinger House]] looks out over the towers of a castle in Karameikos.&lt;ref name="hh52"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=52}}&lt;/ref&gt;
+* The [[Seafarer's Arch]] in the [[Ditch]] links to the Savage Coast, with a gate key of a cinnabryl amulet.&lt;ref name="poly137-15"&gt;{{b|Polyhedron|Polyhedron Magazine 137|page=15}}&lt;/ref&gt;
+
+== Gods ==
+
+: See also [[Mystaran powers]]&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+
+The powers of the ''Mystara'' campaign setting.
+
+* [[Atruaghin]] (Greater)
+* [[Djaea]] (Greater)
+* [[Isundal]] (Greater)
+* [[Ixion]] (Greater)
+* [[Ka]] (Greater)
+* [[Khoronus]] (Greater)
+* [[Ordana]] (Greater)
+* [[Razud]] (Greater)
+* [[Terra]] (Greater)
+* [[Valerius]] (Greater)
+* [[Aphatia]] (Intermediate)
+* [[Eiryndul]] (Intermediate)
+* [[Noumena]] (Intermediate)
+* [[Protius]] (Intermediate)
+* [[Rad]] (Intermediate)
+* [[Rafiel]] (Intermediate)
+* [[Vanya]] (Intermediate)
+* [[Zirchev]] (Intermediate)
+* [[Asterius]] (Lesser)
+* [[Calitha Starbrow]] (Lesser)
+* [[Diulanna]] (Lesser)
+* [[Halav]] (Lesser)
+* [[Kagyar]] (Lesser)
+* [[Petra]] (Lesser)
+* [[Pflarr]] (Lesser)
+* [[Rathanos]] (Lesser)
+* [[Tarastia]] (Lesser)
+* [[Al'Kalim]] (Demipower)
+* [[Benekander]] (Demipower)
+* [[Faunus]] (Demipower)
+* [[Koryis]] (Demipower)
+
+
+== Background Information ==
+
+* The Savage Coast is home to 1994's ''Red Steel'' campaign setting for AD&amp;D 2nd Edition. ''Red Steel'' was rereleased for AD&amp;D 2nd Edition Revised's ''Odyssey'' line in 1996 as ''Savage Coast'', TSR's first web-only product.
+* The map of Mystara's Known World is almost identical to a map of Earth during its Jurassic period, with the continent of Brun standing in for North America, Davania as Gondwana (what would become South America, Africa, and Antarctica), and Skothar as Eurasia. The Savage Coast runs along the area that would be between the Florida peninsula and Texas. See [https://www.thorfmaps.com/jurassic-earth-as-mystara/ Thorfinn Tait Cartography] for details.
+
+== External Links ==
+* [[w:c:dungeonsdragons:Mystara|Mystara]] on the ''D&amp;D Lore Wiki''
+* {{FRW}}
+* [[w:c:spelljammer:Mystara|Mystara]] on the ''Spelljammer Wiki''
+
+== References ==
+&lt;references /&gt;
+
+[[Category:Prime Material worlds]]
+[[Category:Campaign settings]]
+[[Category:Mystara]]</text>
+      <sha1>qmgdbfy6b3vehgmf2xmhvnlcwivo8hl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Namer</title>
+    <ns>0</ns>
+    <id>2892</id>
+    <revision>
+      <id>6764</id>
+      <parentid>5186</parentid>
+      <timestamp>2025-06-19T18:06:29Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>6764</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="904" sha1="abajfag4o22efc110cf5uw6hnfq5hy5" xml:space="preserve">A '''namer''' is someone who is a member of their [[faction]] "in name only" -- they may wear a faction pin in public, attend meetings, offer discounts, and argue philosophy at the local tavern, but they don't fully dedicate themselves to the faction and its beliefs.
+
+Also called "the file" (as in the rank-and-file) or "factioneers," namers typically keep their involvement with their faction to a minimum, and that's typically the way they like it. They can get away with refusing to help, but they'll likewise be unlikely to receive it later. Still, the namers make up the bulk of a faction, so it would be folly to dismiss them.
+
+Namers all typically have their own jobs. If they choose to enlist in the faction full-time, then they become a [[factotum]].
+
+== References ==
+* {{b|Dragon|Dragon Magazine 213|page=11}}
+* {{b|Planescape|The Factol's Manifesto|pdf=17275|page=3-4}}
+
+[[Category:Faction]]</text>
+      <sha1>abajfag4o22efc110cf5uw6hnfq5hy5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Negative Energy Plane</title>
+    <ns>0</ns>
+    <id>1499</id>
+    <redirect title="Negative Energy plane" />
+    <revision>
+      <id>2093</id>
+      <parentid>2092</parentid>
+      <timestamp>2023-01-05T11:25:18Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2092</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="35" sha1="0dxtdr1zy1e43zq66iwd2pry07oiy3x" xml:space="preserve">#REDIRECT [[Negative Energy plane]]</text>
+      <sha1>0dxtdr1zy1e43zq66iwd2pry07oiy3x</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Negative Energy plane</title>
+    <ns>0</ns>
+    <id>885</id>
+    <revision>
+      <id>7327</id>
+      <parentid>1279</parentid>
+      <timestamp>2026-06-02T14:44:04Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <minor/>
+      <origin>7327</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="10699" sha1="a5yrzfypnsbyr7gu71dn9i2otw1vnfp" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Negative Energy Plane
+| othernames        = 
+| natives           = [[Drelb]]s, [[lich]]es, [[spectre]]s, [[trilloch]]s, [[vampire]]s, [[wight]]s, [[wraith]]s, [[xeg-yi]]
+| languages         = 
+| color-pool-color  = Cold ebony
+| color-pool-image  = ColorPoolNegative.png
+| curtain-color     = Glossy black
+| curtain-image     = EtherealCurtainNegative.png
+| basicrefs         = &lt;ref name="MotP1e-54"&gt;{{Cite book/Manual of the Planes 1st edition|54}}&lt;/ref&gt;&lt;ref name="MotP3e-81"&gt;{{Cite book/Manual of the Planes 3rd edition|81}}&lt;/ref&gt;&lt;ref name="MotP1e-pp12,62"&gt;{{Cite book/Manual of the Planes 1st edition|12,62}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="MotP3e-pp49,57"&gt;{{Cite book/Manual of the Planes 3rd edition|49,57}}&lt;/ref&gt;&lt;ref name="MM2-1e-p60"&gt;{{Cite book/Monster Manual II 1st edition|60}}&lt;/ref&gt;
+| type-GW           = [[Energy Plane]]
+| shape-size-GW     = Infinite Size
+| gravity-GW        = Subjective Directional
+| time-GW           = Normal Time &lt;br /&gt;{{Former}} Flowing Time (1 real day = 2 subjective days)
+| morphic-GW        = Alterable Morphic
+| element-energy-GW = Major Negative-Dominant with some Minor Dominant regions
+| alignment-GW      = 
+| magical-GW        = Enhanced Magic: ''inflict'' spells, negative-energy related; Impeded Magic: ''cure'' spells, positive-energy related
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="MotP1e-22-24"&gt;{{Cite book/Manual of the Planes 1st edition|22-24}}&lt;/ref&gt;&lt;ref name="MotP3e-6"&gt;{{Cite book/Manual of the Planes 3rd edition|6-7}}&lt;/ref&gt;&lt;ref name="DMG3.5-157"&gt;{{Cite book/Dungeon Master's Guide v.3.5|157}}&lt;/ref&gt;&lt;ref name="MotP3e-80-81"&gt;{{Cite book/Manual of the Planes 3rd edition|80-81}}&lt;/ref&gt;&lt;ref name="DMG5e-p43"&gt;{{Cite book/Dungeon Master's Guide 5th edition|43}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = 
+| locations         = 
+| organizations     = 
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Negative Energy plane''', sometimes called the '''Plane of Death'''&lt;ref name="MotP1e-54" /&gt; or the '''Negative Material plane''', was an [[Inner Plane]]&lt;ref name="MotP1e-22-24" /&gt; or [[Energy Plane]]&lt;ref name="FRCS-256"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|256}}&lt;/ref&gt; of the [[Great Wheel cosmology]] and the [[World Tree cosmology]] models. After the [[Spellplague]], the Negative Energy plane collapsed into the [[Elemental Chaos]], mixing with all the other Inner Planes.&lt;ref name="FRCG-66"&gt;{{Cite book/Forgotten Realms Campaign Guide|66}}&lt;/ref&gt; The goddess [[Shar]] managed to channel some of this death energy into the [[Plane of Shadow]] and create the [[Shadowfell]].&lt;ref name="FRCG-69"&gt;{{Cite book/Forgotten Realms Campaign Guide|69}}&lt;/ref&gt; Cosmologists believe that [[negative energy]] and its opposite [[positive energy]], combined with the four elements, make up the known universe.&lt;ref name="DMG3.5-148"&gt;{{Cite book/Dungeon Master's Guide v.3.5|148}}&lt;/ref&gt; This plane was extremely hostile to all forms of life and energy. Only the [[undead]] could travel with impunity here, and the more powerful undead could harness this death energy to attack the living with devastating effect.&lt;ref name="MotP1e-54" /&gt;&lt;ref name="MotP3e-81" /&gt;
+
+==Cosmology==
+According to the Great Wheel cosmology model, the Negative Energy plane could be reached via the [[Ethereal Plane]] or an adjacent elemental plane, but ''not'' by an elemental vortex. (However, there is speculation that the Void card in the ''[[deck of many things]]'' brought a person here.)&lt;ref name="MotP1e-22-24" /&gt; If traveling through the Deep Ethereal, a pure black ''curtain of vaporous color'' indicated the boundary of the Plane of Death's Border Ethereal region.&lt;ref name="MotP1e-12"&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt; Such was the influence of the Negative Energy plane that the boundary with the Border Ethereal was weak and fluctuated randomly at times. Travelers thinking they were safe staying in the Border Ethereal could suddenly be dumped on the Plane of Death some distance from the rapidly receding border.&lt;ref name="MotP1e-54" /&gt; Using the [[Great Wheel cosmology#Basic Structure|spherical model]], this plane was adjacent to the quasi-elemental planes of [[Quasielemental Plane of Dust|Dust]], [[Quasielemental Plane of Ash|Ash]], [[Quasielemental Plane of Vacuum|Vacuum]], and [[Quasielemental Plane of Salt|Salt]].&lt;ref name="MotP1e-52"&gt;{{Cite book/Manual of the Planes 1st edition|52}}&lt;/ref&gt; Temporary gates could be created by the ''[[plane shift]]'' spell.&lt;ref name="PHB2ed-224"&gt;{{Cite book/Player's Handbook 2nd edition|224}}&lt;/ref&gt;
+
+As described by the World Tree cosmology model, the [[Astral Plane]] connected all planes with the [[Prime Material Plane]] and the Ethereal Plane was only used for journeying between locations on the Prime.&lt;ref name="DMG3.5-147"&gt;{{Cite book/Dungeon Master's Guide v.3.5|147}}&lt;/ref&gt; The Negative Energy plane was not connected or coterminous with any other elemental plane.&lt;ref name="DMG3.5-150"&gt;{{Cite book/Dungeon Master's Guide v.3.5|150}}&lt;/ref&gt; The spell ''[[astral projection]]''&amp;nbsp;&lt;ref name="DMG3.5-151"&gt;{{Cite book/Dungeon Master's Guide v.3.5|151}}&lt;/ref&gt;&lt;ref name="PHB3.5-201"&gt;{{Cite book/Player's Handbook v.3.5|201}}&lt;/ref&gt; could be used to reach the Negative Energy plane via a cold ebony ''color pool''.&lt;ref name="MotP3e-49"&gt;{{Cite book/Manual of the Planes 3rd edition|49}}&lt;/ref&gt; Additionally, the ''[[gate]]''&amp;nbsp;&lt;ref name="MotP3e-33"&gt;{{Cite book/Manual of the Planes 3rd edition|33}}&lt;/ref&gt;&lt;ref name="PHB3.5-234"&gt;{{Cite book/Player's Handbook v.3.5|234}}&lt;/ref&gt; and ''[[plane shift]]''&amp;nbsp;&lt;ref name="DMG3.5-151" /&gt;&lt;ref name="PHB3.5-262"&gt;{{Cite book/Player's Handbook v.3.5|262}}&lt;/ref&gt; spells could be used to open a temporary portal to this plane.
+
+==Description==
+{{quote
+|It is the blackest night.&lt;br /&gt;It is the heart of darkness.&lt;br /&gt;It is the hunger that devours souls.
+|[[Manual of the Planes 3rd edition|Manual of the Planes]]&lt;ref name="MotP3e-80-81" /&gt;
+}}
+Both cosmological models described this plane as being an airless, featureless void of darkness with gravity being an individual choice. Somewhat paradoxically, both models also allow that structures existed on a landscape of sorts, either made of the physical, solid darkness,&lt;ref name="MotP1e-54" /&gt; or perhaps of elemental earth that could survive in regions of the plane (called doldrums) that did not exhibit the [[Planar traits#Elemental and Energy Traits|major-negative dominance trait]].&lt;ref name="MotP3e-81" /&gt; The atmosphere was not vacuum but could not be used by winged creatures for propulsion, nor could it sustain life, yet torches and lanterns would burn for a short while before being extinguished.&lt;ref name="MotP3e-81" /&gt; Magical light sources worked as usual but visibility was extremely limited.&lt;ref name="MotP1e-54" /&gt;&lt;ref name="MotP3e-81" /&gt; These characteristics led cosmologists to speculate that it was the energy-sucking nature of the plane that greedily devoured any life-giving energies rather than the complete lack thereof, but the difference is of interest only to [[sage]]s. In practical terms, without protection from the negative energy and elimination of the need to breathe, death was only a few minutes away at best.
+
+Just as there were areas where the negative energy seemed to recede and create the doldrums, some locations exhibited concentrations intense enough to create stable chunks of solid matter that were dubbed [[voidstone]]. These absolutely black blobs ranged from a few inches/centimeters in diameter to the size of a small house and perhaps larger. Anything that touched a voidstone was destroyed in the span of a few heartbeats&amp;mdash;even the undead were not immune. This property led scholars to speculate that voidstone may have been a component in the creation of magic items like the ''[[sphere of annihilation]]''.&lt;ref name="DMG3.5-157" /&gt;&lt;ref name="MotP3e-81" /&gt; Another curious and deadly property of these silent death traps was that voidstones of a certain size, not too small and not too large, were attracted to life and would move toward the nearest living creature in jerky, uneven leaps.&lt;ref name="DMG3.5-157" /&gt; The exact range of this attraction was unknown because of limited visibility, and all reports of attempted mental control indicated failure.&lt;ref name="DMG3.5-157" /&gt;&lt;ref name="MotP3e-81" /&gt;
+
+==Inhabitants==
+The Negative Energy plane was so inimical to life that, in the time of the Great Wheel cosmological model, the only creatures that had actually been seen in the plane were the inscrutable [[outsider]]s, the [[xeg-yi]].&lt;ref name="MotP1e-54" /&gt;&lt;ref name="MMII1e-128"&gt;{{Cite book/Monster Manual II (1983)|128-129}}&lt;/ref&gt; The "energy vultures" known as [[trilloch]]s were thought to be from this plane but may not have originated here.&lt;ref name="MotP1e-54" /&gt;&lt;ref name="FF1e-89"&gt;{{Cite book/Fiend Folio 1st edition|89-90}}&lt;/ref&gt; By the time the World Tree cosmological model became popular it was discovered that [[undead]] creatures could survive here and that powerful undead, such as [[vampire]]s, [[lich]]es, [[wraith]]s, [[wight]]s, and [[spectre]]s, made this plane their home base.&lt;ref name="MotP3e-81" /&gt; And where undead are found, [[necromancer]]s are seldom far behind. The doldrums were best suited for necromantic work but there was always a danger the negative energy would surge and overwhelm the area.&lt;ref name="MotP3e-81" /&gt;
+
+==Realms==
+* [[Null]], [[Draconic pantheon|draconic god]] of death, had realms named the [[Mausoleum of Chronepsis]] and the [[Mausoleum of Pain]] in the [[Outlands]] and [[Carceri]], respectively. Parts of these were thought to exist on the Negative Energy Plane at the same time.&lt;ref&gt;{{Cite book/Cult of the Dragon|121}}&lt;/ref&gt;
+
+==Appendix==
+===External Links===
+* {{FRW}}
+===References===
+{{Refs}}
+===Connections===
+{{Cosmologies}}
+[[Category:Inner Planes]]
+[[Category:Energy planes]]
+[[Category:Great Wheel planes]]
+[[Category:World Tree planes]]
+[[Category:Planes of existence]]</text>
+      <sha1>a5yrzfypnsbyr7gu71dn9i2otw1vnfp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Neirston</title>
+    <ns>0</ns>
+    <id>3230</id>
+    <revision>
+      <id>6543</id>
+      <parentid>6542</parentid>
+      <timestamp>2025-06-11T06:24:39Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>oops</comment>
+      <origin>6543</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="611" sha1="032hlnmselrhth0gvzgzgutfmg27i6a" xml:space="preserve">'''Neirston''' is a magic-rich world on the [[Prime Material plane]]. 
+
+Many centuries ago, a wizard named [[Chyv Imrin]] discovered a portal to Nierston in his kip in Sigil. Due to the world's magic, he found it useful. Unfortunately the gate key, consumed on use, was "beauty," so Chyv created the ''[[thief of charms]]'' to steal beauty from others in a form he called [[circean ember]].&lt;ref name="dg1213"&gt;{{b|Planescape|Dead Gods|pdf=17297|nip=1|page=12-13}}&lt;/ref&gt;
+
+== Background Information ==
+
+== External Links ==
+
+== References ==
+&lt;references /&gt;
+
+[[Category:Prime Material worlds]]
+[[Category:Neirston]]</text>
+      <sha1>032hlnmselrhth0gvzgzgutfmg27i6a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nephythys</title>
+    <ns>0</ns>
+    <id>3397</id>
+    <revision>
+      <id>7251</id>
+      <timestamp>2026-01-13T12:41:37Z</timestamp>
+      <contributor>
+        <username>Senlimsghost</username>
+        <id>50355097</id>
+      </contributor>
+      <comment>Created page with "{{Deity|name=Nephythys|title=Lady of Sands|symbol=Moon and ankh|alignment=Chaotic Good|power=Intermediate Power|pantheon=[[Pharaonic pantheon]]|gender=Feminine|realm=[[Amun-thys]]|portfolio=Wealth, the dead|cleric alignments=Good}}  '''Nephythys''' was an Intermediate Power of the [[Pharaonic pantheon]], the child of [[Geb]] and [[Nut]] and a member of [[Ra]]'s Ennead family.&lt;ref&gt;{{Cite book/On Hallowed Ground|84}}&lt;/ref&gt; She was [[Set]]'s former wife, but left him after..."</comment>
+      <origin>7251</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1269" sha1="m9nczdketals9bu91zs6jrx7ypeajxw" xml:space="preserve">{{Deity|name=Nephythys|title=Lady of Sands|symbol=Moon and ankh|alignment=Chaotic Good|power=Intermediate Power|pantheon=[[Pharaonic pantheon]]|gender=Feminine|realm=[[Amun-thys]]|portfolio=Wealth, the dead|cleric alignments=Good}}
+
+'''Nephythys''' was an Intermediate Power of the [[Pharaonic pantheon]], the child of [[Geb]] and [[Nut]] and a member of [[Ra]]'s Ennead family.&lt;ref&gt;{{Cite book/On Hallowed Ground|84}}&lt;/ref&gt; She was [[Set]]'s former wife, but left him after he murdered his brother and rival [[Osiris]]. He never stopped sending proxies to her realm with gifts, but she seemed uninterested, turning the proxies away except for one called Bentresh who she persuaded to serve her rather than her former husband.&lt;ref&gt;{{Cite book/On Hallowed Ground|88}}&lt;/ref&gt; The goddess was withdrawn to the point of unfriendliness, and didn't receive visitors even from elsewhere in [[Arborea]].&lt;ref&gt;{{Cite book/Planes of Chaos/The Book of Chaos|55}}&lt;/ref&gt;
+
+Nephythys ruled the realm of [[Amun-thys]] on [[Pelion]], little more than a series of scattered tombs in the layer's massive desert. She and her petitioners guarded their treasure jealously, not out of greed, but just so they didn't get robbed.&lt;ref&gt;{{Cite book/On Hallowed Ground|88-89}}&lt;/ref&gt;
+
+== References ==</text>
+      <sha1>m9nczdketals9bu91zs6jrx7ypeajxw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Neutral Planes</title>
+    <ns>0</ns>
+    <id>1545</id>
+    <redirect title="World Tree cosmology" />
+    <revision>
+      <id>2252</id>
+      <parentid>2251</parentid>
+      <timestamp>2023-08-09T01:03:34Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2251</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="79" sha1="4o6h608h5e72d255ctewlxwizzoswln" xml:space="preserve">#Redirect[[World Tree cosmology#Neutral Planes]]
+[[Category:World Tree planes]]</text>
+      <sha1>4o6h608h5e72d255ctewlxwizzoswln</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>New Tyr</title>
+    <ns>0</ns>
+    <id>3036</id>
+    <revision>
+      <id>5769</id>
+      <timestamp>2025-04-19T17:33:04Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5769</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="389" sha1="85w1p45mh0be65r4172fm4f46h8yyrs" xml:space="preserve">'''New Tyr''' is a community of [[prime]]s from [[Athas]] who have settled in the [[Hive Ward]].
+
+They tend to be exceptionally hardy, and make excellent fighters, although they have a strong distaste for [[githyanki]] and [[githzerai]].
+
+== References ==
+* {{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=27}}
+
+&lt;references /&gt;
+
+[[Category:Hive Ward]]
+[[Category:Dark Sun]]</text>
+      <sha1>85w1p45mh0be65r4172fm4f46h8yyrs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nidavellir (card)</title>
+    <ns>0</ns>
+    <id>277</id>
+    <revision>
+      <id>323</id>
+      <timestamp>2022-02-12T00:32:59Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "[[File:Nidavellir card.jpg|thumb|right|300px]]  '''Nidavellir''' was a Battlefield card from the [[Blood Wars]] game, depicting [[Nidavellir (realm)|Nidavellir]].  It was rele..."</comment>
+      <origin>323</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="812" sha1="ayl8wnz55c80nx7kh9q1x71s8v76ryb" xml:space="preserve">[[File:Nidavellir card.jpg|thumb|right|300px]]
+
+'''Nidavellir''' was a Battlefield card from the [[Blood Wars]] game, depicting [[Nidavellir (realm)|Nidavellir]].
+
+It was released as part of the [[Blood Wars basic set|basic set]], and had a rarity of "uncommon". The artwork was by [[Dana Knutson]].
+
+{| border="1" cellpadding="1" cellspacing="1" style="width: 500px;"
+! scope="col"|Stats
+! scope="col"|Nidavellir
+|-
+|Type
+|Battlefield
+|-
+|Alignment
+|Chaotic Neutral
+|-
+|Victory Points
+|4
+|-
+|Random Result
+|6
+|-
+|Description
+|Realm. ''Plane:'' [[Ysgard (plane)|Ysgard]].
+|-
+|Notes
+|Home Realm of [[Hod]] and [[Muamman Duathal]]. If the holder of either Avatar card has this Battlefield in his Victory Pool, that Avatar may use his Realm Power.
+|}
+
+[[Category:Blood Wars cards]]
+[[Category:Blood Wars basic set]]</text>
+      <sha1>ayl8wnz55c80nx7kh9q1x71s8v76ryb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nidavellir (layer)</title>
+    <ns>0</ns>
+    <id>275</id>
+    <revision>
+      <id>324</id>
+      <parentid>321</parentid>
+      <timestamp>2022-02-12T00:33:30Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>/* See also */</comment>
+      <origin>324</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="316" sha1="g191ge1w2yaiqay76s2s8twvj15az7z" xml:space="preserve">'''Nidavellir''' was the third layer of the plane of [[Ysgard (plane)|Ysgard]].
+
+
+
+== Realms ==
+
+* [[Nidavellir (realm)|Nidavellir]]
+** [[Ashbringer]]
+* [[Svartalfheim]]
+** [[Dokkar]]
+** [[Yggwyrd]]
+** [[Elkhound's Gate]]
+* [[Temple of the Three Golden Bells]]
+* [[Verkelheim]]
+* [[Brassberg]]
+
+
+
+[[Category:Layers]]</text>
+      <sha1>g191ge1w2yaiqay76s2s8twvj15az7z</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nidavellir (realm)</title>
+    <ns>0</ns>
+    <id>278</id>
+    <revision>
+      <id>325</id>
+      <timestamp>2022-02-12T00:35:20Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "'''Nidavellir''' was a realm in the layer of [[Nidavellir (layer)|Nidavellir]] on the plane of [[Ysgard (plane)|Ysgard]]. It was the home realm of the Norse dwarves, including..."</comment>
+      <origin>325</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="270" sha1="cgbzmxxoshv95eu81hdkseal4sw2ix0" xml:space="preserve">'''Nidavellir''' was a realm in the layer of [[Nidavellir (layer)|Nidavellir]] on the plane of [[Ysgard (plane)|Ysgard]]. It was the home realm of the Norse dwarves, including [[Hod]] and [[Muamman Duathal]].
+
+== See also ==
+
+* [[Nidavellir (card)]]
+
+[[Category:Realms]]</text>
+      <sha1>cgbzmxxoshv95eu81hdkseal4sw2ix0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Niflheim</title>
+    <ns>0</ns>
+    <id>1693</id>
+    <revision>
+      <id>2584</id>
+      <parentid>2583</parentid>
+      <timestamp>2023-08-09T01:28:08Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2583</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4993" sha1="dzggc5fe5yw4d2c3t3uhjzvv6ydic71" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Niflheim
+| othernames        = Northmen's Despair
+| symbol            = Hades.png
+| demonym           = 
+| natives           = 
+| languages         = 
+| fork-material     = [[Iron]]
+| fork-note         = E
+| fork-chord        = major
+| fork-audio        = E major.ogg
+| basicrefs         = &lt;ref name="Dr120-p42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;
+| type-GW           = Layer
+| shape-size-GW     =
+| gravity-GW        = Normal
+| time-GW           = Normal
+| morphic-GW        = Divinely
+| element-energy-GW = None
+| alignment-GW      = {{Alignment grid| off | off | off | off | off | off| off | on | off}}
+| magical-GW        = None
+| layers-GW         = 
+| layer-number-GW   = 2
+| location-GW       = [[Hades]]
+| refs-GW           = &lt;ref name="MotP-108, 110"&gt;{{Cite book/Manual of the Planes 3rd edition|108, 110}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = 
+| locations         = yes
+| organizations     = 
+| settlements       = 
+| based             = [[wikipedia:en:Niflheim|Niflheim]] (Norse)
+| usethe            = 
+| useon             = 
+}}'''Niflheim''', also called '''Northmen's Despair''' was the second layer, also called second gloom, of [[Hades]].&lt;ref name="MotP-108, 110"/&gt;
+
+==Description==
+Niflheim consisted mostly of forestland with bluffs that jutting out, which quickly fell away. Put simply, the layer looked like a gray version of a forestland on the [[Prime Material plane]].&lt;ref name="LM-53"&gt;{{Cite book/Planes of Conflict/Liber Malevolentiae|53}}&lt;/ref&gt;
+
+Niflheim had no [[disease]] problem like [[Oinos]], the first layer, had. The air was cooler than on Oinos. This gave rise to fog. This fog had some properties that made life on Nilfheim harder. First, vision was limited. Even with [[darkvision]], people could not see further than {{SI|100|ft|long=yes}} at most. Second, the mist had sound impeding effects. These two made predators, of which [[troll]]s, [[fiendish creature|fiendish]]&lt;ref name="MotP-110"&gt;{{Cite book/Manual of the Planes 3rd edition|110}}&lt;/ref&gt; [[dire wolf|dire]] and normal [[wolf|wolves]] were the most common, dangerous. Third, the resulting dampness caused non-tended metal to rust.&lt;ref name="LM-53"/&gt;
+
+==Cosmography==
+[[Yggdrasil]], the World Ash, had its roots at the heart of Niflheim. There, the [[dragon]] [[Nidhogg]] endlessly and furiously chewed on the tree, carving a hole in its roots. The dragon usually ignored travelers going up and down the branches, but furiously defended herself and her progeny against threats.&lt;ref name="PC-LN2e-p45"&gt;{{Cite book/Planes of Conflict/Liber Malevolentiae|45}}&lt;/ref&gt;
+
+==Notable Locations==
+;[[Death of Innocence]]
+: The town was unique as its citizens did not succumb to the hopelessness and apathy of Hades.&lt;ref name="MotP-110"/&gt;&lt;ref name="LM-56-57"&gt;{{Cite book/Planes of Conflict/Liber Malevolentiae|56-57}}&lt;/ref&gt;
+;[[Palace of Loss]]
+: The Palace of Loss was the [[divine realm]] of [[Shar]].&lt;ref name="F&amp;A-138"&gt;{{ Cite book/Faiths &amp; Avatars|138}}&lt;/ref&gt;
+;[[Shadow Keep]]
+: The Shadow Keep was the divine realm of [[Mask]].&lt;ref name="F&amp;A-109"&gt;{{ Cite book/Faiths &amp; Avatars|109}}&lt;/ref&gt; 
+;Annwn
+:Also known as the Ten Isles of the cursed, the divine realm of Arawn.&lt;ref name=":0" /&gt;
+
+==Inhabitants==
+;[[Viliki Cainor]]
+: She was the leader of the town Death of Innocence and the reason why its citizens did not fall into apathy like everywhere else on Hades.&lt;ref name="LM-56"&gt;{{Cite book/Planes of Conflict/Liber Malevolentiae|56}}&lt;/ref&gt;
+;Mask
+:The [[deity]] of thieves was usually travelling but had his realm on Nilfheim.&lt;ref name="LM-47"&gt;{{Cite book/Planes of Conflict/Liber Malevolentiae|47}}&lt;/ref&gt;
+;Shar
+:The goddess of night considered an alliance with [[Kelemvor]], another god of Hades.&lt;ref name="OHG-169-170"&gt;{{Cite book/On Hallowed Ground|169-170}}&lt;/ref&gt;
+;Arawn
+:The Celtic god of life and death. Who has his divine realm in the mist of a vast ocean.&lt;ref name=":0"&gt;[[Colin McComb]] (October 1996). ''[[On Hallowed Ground]]''. Edited by [[Ray Vallese]]. ([[TSR, Inc.]]), p. 69. ISBN [[Special:BookSources/0-7869-0430-5|0-7869-0430-5]].&lt;/ref&gt;
+
+==Appendix==
+===References===
+{{Refs}}
+===Connections===
+{{Hades}}
+[[Category:Locations]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in Hades]]
+[[Category:Locations in the Lower Planes]]
+[[Category:Locations on Yggdrasil]]</text>
+      <sha1>dzggc5fe5yw4d2c3t3uhjzvv6ydic71</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Niflheim (layer)</title>
+    <ns>0</ns>
+    <id>196</id>
+    <revision>
+      <id>291</id>
+      <parentid>289</parentid>
+      <timestamp>2022-02-11T18:18:10Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>/* Realms */</comment>
+      <origin>291</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="625" sha1="0k2wzl4iaazt037wrub8rj54v9sr0pk" xml:space="preserve">'''Niflheim''' was the second layer of the plane of The [[Gray Waste]].
+
+It was free of the disease of the [[Oinos|first layer]], being a land of mist and pines, full of gray trees.
+
+== Realms ==
+
+* [[Death of Innocence]]
+* [[Annwn]]
+** [[Fortress Annoath]]
+** [[Ainnira]]
+** [[Albain]]
+** [[Annoeth]]
+** [[Bran]]
+** [[Branwallis]]
+** [[Brighid]]
+** [[Cauldron]]
+** [[Conie]]
+** [[Culwhych]]
+** [[Fionna]]
+** [[Harthlech]]
+** [[Macness]]
+** [[Naois]]
+* [[Dark of Night]]
+* [[Iggwilv's Landing]]
+* [[Niflheim (realm)|Niflheim]]
+** The [[Viper Wastes]]
+* [[Palace of Loss]]
+* [[Rezuriel]]
+* [[Shadow Keep]]
+
+[[Category:Layers]]</text>
+      <sha1>0k2wzl4iaazt037wrub8rj54v9sr0pk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nine Hells</title>
+    <ns>0</ns>
+    <id>574</id>
+    <revision>
+      <id>2172</id>
+      <parentid>2171</parentid>
+      <timestamp>2023-08-09T01:03:16Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2171</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="37645" sha1="howk176v8yf3jypwgzcsf0bv1jsjycw" xml:space="preserve">{{GA}}
+{{Plane
+| image             = FCII-Nessus-Dave Allsop-p72.jpg
+| caption           = Nessus, the Ninth Hell.
+| name              = Nine Hells
+| othernames        = Baator
+| symbol            = NineHells.png
+| demonym           = Baatorian
+| natives           = [[Devil]]s, [[hell hound]]s, [[night hag]]s, [[nightmare]]s, [[bonespear]]s, [[gathra]], [[haraknin]], [[imp]]s, [[maelephant]]s, [[kyton]]s, [[rakshasa]]s, few mortals
+| languages         = 
+| color-pool-color  = Ruby
+| color-pool-image  = ColorPoolBaator.png
+| fork-material     = [[Iron]]
+| fork-note         = F sharp
+| fork-audio        = F4-sharp.ogg
+| basicrefs         = &lt;ref name="PGtF-161"&gt;{{Cite book/Player's Guide to Faerûn|161}}&lt;/ref&gt;&lt;ref name="MotP3e-115"&gt;{{Cite book/Manual of the Planes 3rd edition|115}}&lt;/ref&gt;&lt;ref name="Dr120-p42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;&lt;ref name="MotP1e-62"&gt;{{Cite book/Manual of the Planes 1st edition|62}}&lt;/ref&gt;&lt;ref name="MotP3e-p49"&gt;{{Cite book/Manual of the Planes 3rd edition|49}}&lt;/ref&gt;&lt;ref name="MotP4e-p16"&gt;{{Cite book/Manual of the Planes 4th edition|16}}&lt;/ref&gt;&lt;ref name="DMG5e-p47"&gt;{{Cite book/Dungeon Master's Guide 5th edition|47}}&lt;/ref&gt;&lt;ref name="HBW2e-p36"&gt;{{Cite book/Hellbound: The Blood War/The Dark of the War|36}}&lt;/ref&gt;
+| type-GW           = [[Outer plane]]
+| shape-size-GW     = Nine infinite layers
+| gravity-GW        = Normal
+| time-GW           = Normal
+| morphic-GW        = Divinely
+| element-energy-GW = None, but with exceptions
+| alignment-GW      = {{Alignment grid|off|off|off|off|off|off|on|off|off}}
+| magical-GW        = Normal with special cases
+| layers-GW         = [[Avernus]]&lt;br /&gt;[[Dis]]&lt;br /&gt;[[Minauros]]&lt;br /&gt;[[Phlegethos]]&lt;br /&gt;[[Stygia]]&lt;br /&gt;[[Malbolge]]&lt;br /&gt;[[Maladomini]]&lt;br /&gt;[[Cania]]&lt;br /&gt;[[Nessus]]
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="MotP1e-73"&gt;{{Cite book/Manual of the Planes 1st edition|73}}&lt;/ref&gt;&lt;ref name="DMG2e-132"&gt;{{Cite book/Dungeon Master Guide 2nd Edition|132}}&lt;/ref&gt;&lt;ref name="FRCS-256"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|256}}&lt;/ref&gt;&lt;ref name="DMG3.5-153"&gt;{{Cite book/Dungeon Master's Guide v.3.5|153}}&lt;/ref&gt;&lt;ref name="MotP3e-16"&gt;{{Cite book/Manual of the Planes 3rd edition|16}}&lt;/ref&gt;&lt;ref name="MotP3e-115" /&gt;&lt;ref name="MotP1e-75"&gt;{{Cite book/Manual of the Planes 1st edition|75}}&lt;/ref&gt;&lt;ref name="MotP1e-109"&gt;{{Cite book/Manual of the Planes 1st edition|109}}&lt;/ref&gt;&lt;ref name="DMG3.5-162"&gt;{{Cite book/Dungeon Master's Guide v.3.5|162}}&lt;/ref&gt;
+| type-WA           = [[Astral dominion]]
+| shape-size-WA     = Finite plane
+| gravity-WA        = 
+| mutability-WA     = Divinely Morphic
+| element-energy-WA = 
+| alignment-WA      = Evil
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = &lt;ref name="FRCG-64"&gt;{{Cite book/Forgotten Realms Campaign Guide|64}}&lt;/ref&gt;&lt;ref name="FRCG-62"&gt;{{Cite book/Forgotten Realms Campaign Guide|62}}&lt;/ref&gt;
+| type-WT           = [[Fiendish plane]]
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = Alterable Morphic
+| element-energy-WT = None, but with exceptions
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = [[Asmodeus|Asmodeans]] and [[archdevil|diabolic]] cults
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = &lt;ref name="PGtF-140"&gt;{{Cite book/Player's Guide to Faerûn|140}}&lt;/ref&gt;&lt;ref name="PGtF-161" /&gt;&lt;ref name="FRCG-81"&gt;{{Cite book/Forgotten Realms Campaign Guide|81}}&lt;/ref&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| usethe            = yes
+| useon             = 
+}}
+The '''Nine Hells of Baator''', sometimes shortened to '''Hell''' or '''Hells''', and named '''Baator'''&lt;ref name="FRCS-258"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|258}}&lt;/ref&gt; ({{Pronounce|bay|AH|tor|refs=&lt;ref name="HBW2e-p6"&gt;{{Cite book/Hellbound: The Blood War/The Chant of the War|6}}&lt;/ref&gt;}}) in [[infernal language|Infernal]], was the home of the [[devil]]s and the plane that embodied [[lawful evil]].&lt;ref name="DMG5e-p58"&gt;{{Cite book/Dungeon Master's Guide 5th edition|58}}&lt;/ref&gt; It was a plane of sinister wickedness and institutional cruelty, its denizens organized into a strict caste system with a very rigid chain of command. Each of the nine Hells had its own physical laws or properties of matter, but all were inhospitable or deadly to outsiders.&lt;ref name="MotP1e-109" /&gt; 
+
+{{Quote
+|From the boiling rivers of fluid in [[Avernus]] to the sheer crags of [[Nessus]], a body'd be hard-pressed to find a place that sums up the cold cruelty of the multiverse more than Baator does.
+|[[Nomoto Sinh]], mortal mage.&lt;ref name="FoETF10"&gt;{{Cite book/Faces of Evil: The Fiends|10}}&lt;/ref&gt;
+}}
+
+==Cosmology==
+The [[Great Wheel cosmology]] model placed the Nine Hells in the [[Outer Planes]]&lt;ref name="MotP1e-73"&gt;{{Cite book/Manual of the Planes 1st edition|73}}&lt;/ref&gt; between [[Gehenna]] and [[Acheron]], with additional connections to [[Concordant Opposition]] and the [[Astral Plane]].&lt;ref name="MotP1e-110"&gt;{{Cite book/Manual of the Planes 1st edition|110}}&lt;/ref&gt; Each Hell was a different infinite layer interconnected at ''barriers'' much like a nine-layered cake&amp;mdash;the lowest points of one layer manifested barriers that exited high above the surface of the next lower layer.&lt;ref name="MotP1e-109" /&gt; The river [[Styx]] flowed through the first layer, Avernus, and also the fifth layer, Stygia, before crossing over into Gehenna.&lt;ref name="MotP1e-83"&gt;{{Cite book/Manual of the Planes 1st edition|83}}&lt;/ref&gt;
+
+When the Great Wheel model was overshadowed by the [[World Tree cosmology]] model, the river Styx was renamed the [[River of Blood]] and it flowed through all the [[fiendish planes]] (except for the [[Supreme Throne]] and the [[Demonweb Pits]]) originating in the [[Abyss]], passing through the [[Blood Rift]]&amp;mdash;an unusual plane that connected the Abyss with the Nine Hells&lt;ref name="PGtF-140"&gt;{{Cite book/Player's Guide to Faerûn|140}}&lt;/ref&gt;&amp;mdash;bringing the devils even closer to their arch-enemies the [[demon]]s,&lt;ref name="PGtF-141"&gt;{{Cite book/Player's Guide to Faerûn|141}}&lt;/ref&gt; resulting in the [[Blood War]].&lt;ref name="PGtF-142"&gt;{{Cite book/Player's Guide to Faerûn|142}}&lt;/ref&gt; The layers were still described as being infinite but with a central pit of finite size that opened to the next lower layer in a tiered fashion, with a drop of many miles between layers.&lt;ref name="MotP3e-115" /&gt;&lt;ref name="DMG3.5-162" /&gt; Cosmologists verified portals between the Nine Hells and the [[Barrens of Doom and Despair]] and [[Clangor]]&lt;ref name="PGtF-161" /&gt; and, by agreement with [[Kelemvor]], to the [[Fugue Plane]].&lt;ref name="PGtF-153"&gt;{{Cite book/Player's Guide to Faerûn|153}}&lt;/ref&gt; The [[Astral plane]] connected all of the fiendish planes to the [[Prime Material Plane]], but not directly to each other.&lt;ref name="PGtF-139"&gt;{{Cite book/Player's Guide to Faerûn|139}}&lt;/ref&gt;
+
+After the [[Spellplague]], [[Asmodeus]] consumed the essence of the fallen [[Azuth]] achieving (some say regaining) [[Greater deity|greater godhood]] and ended the Blood War by casting the Abyss to the furthest depths of the [[Elemental Chaos]].&lt;ref name="FRCG-73"&gt;{{Cite book/Forgotten Realms Campaign Guide|73}}&lt;/ref&gt; The [[World Axis cosmology]] model described the Nine Hells as an [[astral dominion]] floating in the [[Astral Sea]], no longer of infinite size nor consisting of layers,&lt;ref name="FRCG-62" /&gt; ruled by Asmodeus and his eight [[archdevil]] vassals.&lt;ref name="FRCG-64" /&gt; Once again the river [[Styx]] flowed through the Nine Hells and the Abyss, but then emptied its pollution into the Astral Sea.&lt;ref name="FRCG-64,66"&gt;{{Cite book/Forgotten Realms Campaign Guide|64,66}}&lt;/ref&gt;
+
+==Geography==
+{{/Imagemap}}
+Each of the Nine Hells was unique and usually mirrored the malevolent characteristics of its ruler, or perhaps the archdevils were shaped by the domains they schemed to control, no one can be certain. In earlier cosmologies, each Hell was a separate infinite layer rigidly joined to its neighbors by barriers at fixed locations.&lt;ref name="MotP1e-109" /&gt;&lt;ref group="note"&gt;The ''[[Player's Guide to Faerûn]]'' states on page 161 that "the nine layers of this plane are detailed in the ''[[Dungeon Master's Guide 3.5|Dungeon Master's Guide]]'' and ''[[Manual of the Planes 3rd edition|Manual of the Planes]]''" so information about the Nine Hells in those sources should be considered canon when not contradicted by a &lt;span style="font-variant:small-caps"&gt;Forgotten Realms&lt;/span&gt; source.&lt;/ref&gt; After the Spellplague, the domains of the archdevils were described as territories (large, but finite)&lt;ref name="FRCG-64" /&gt; or circles.&lt;ref name="FRCG-81" /&gt; The relationships between layers and circles are not fully known. What follows are descriptions of the nine Hells reported for different [[cosmology|cosmological]] models that have been collated and summarized.&lt;ref group="note"&gt;In other words, the following text merges information from different editions and settings and may originate from conflicting sources. The reader should proceed with caution, as with all things concerning devils.&lt;/ref&gt;
+
+===Trade===
+Inhabitants of the Nine Hells produced goods exported across the planes, including to the planar City of Doors, [[Sigil]]. Green Baator ore and steel smelted from it was mined in Avernus. Another notable export was Baator's own [[whiskey]]. It was a pleasantly-smelling steaming-hot drink that resembled boiling [[goldflow]]. When consumed, it burned one's stomach with sweet pain. Very few mortals could stomach even a single shot.&lt;ref name="pst"&gt;{{Cite game/Planescape: Torment}}&lt;/ref&gt;
+
+===Avernus===
+{{Main|Avernus}}
+The first circle of Hell was also the "topmost" because Astral travelers would emerge from color pools on this layer and reaching the next circle required descending to the lower depths to breach a barrier to Dis.&lt;ref name="MotP1e-109" /&gt; According to the [[Great Wheel cosmology]] model, this layer was also connected by portals to [[Acheron]], [[Gehenna]], and [[Concordant Opposition]].&lt;ref name="MotP1e-110" /&gt; By the [[World Tree cosmology]] model, portals connected Avernus to [[Clangor]], the [[Barrens of Doom and Despair]] and the [[Blood Rift]] via the [[River of Blood]].&lt;ref name="PGtF-161" /&gt; It was believed at the time that some of the archdukes maintained portals to the realms of [[Bane]], [[Loviatar]], and [[Talona]], but the ownership and location of those portals was unknown.&lt;ref name="FRCS-258" /&gt; The [[World Axis cosmology]] model posits the Nine Hells were isolated with no direct connections&lt;ref name="FRCG-64" /&gt; except via the river Styx to the [[Abyss]].&lt;ref name="FRCG-64,66" /&gt; Travelers on the [[Astral Sea]] who did not follow the Styx likely found themselves falling out of the sky above Avernus to a fiery death.&lt;ref name="MM4e-61"&gt;{{Cite book/Monster Manual 4th edition|61}}&lt;/ref&gt;
+
+[[File:FCII-Avernus-Anne Stokes-p37.jpg|thumb|right|275px|''Avernus, the First Hell.'']]
+By all accounts Avernus was a desolate wasteland with rocky terrain, sparse, twisted vegetation, concealed snake pits, caves and warrens, volcanoes, and rivers of magma. The sky was starless, full of choking smoke, and glowed a dark red due to balls of flammable gas that floated about or streaked across the atmosphere, randomly exploding as a ''[[fireball]]''.&lt;ref name="MotP1e-109" /&gt;&lt;ref name="MM4e-61" /&gt;&lt;ref name="Dragon075-18"&gt;{{Cite dragon/75/The Nine Hells|18}}&lt;/ref&gt;&lt;ref name="MotP3e-116"&gt;{{Cite book/Manual of the Planes 3rd edition|116}}&lt;/ref&gt; During the Blood War, Avernus echoed with the marching of legions of devil troops preparing for the next campaign against the [[demon]]s of the [[Abyss]],&lt;ref name="PGtF-161" /&gt; the ground was littered with the detritus of countless battles,&lt;ref name="MM4e-61" /&gt; and blood trickled out of the ground in vein-like streams eventually flowing into the river Styx.&lt;ref name="MotP3e-116" /&gt;
+
+===Dis===
+{{Main|Dis}}
+[[File:FCII-Dis-Warren Mahy-p42.jpg|thumb|right|275px|''Dis, the Second Hell.'']]
+The second circle of Hell, when described as its own layer, was a flat barren plane containing little more than black, stagnant rivers, stretching for thousands of miles until it reached some rolling hills. The sky was a cloudy dull green shot through with lightning. In the center of this plane rose the Iron City of Dis, several miles in height and hundreds of miles wide.&lt;ref name="MotP1e-109" /&gt; The foul rivers radiated from a moat big enough to be called a lake surrounding the Iron City.&lt;ref name="Dragon075-21"&gt;{{Cite dragon/75/The Nine Hells|21}}&lt;/ref&gt; The [[World Tree cosmology|World Tree]] view of the Iron City was much the same but bigger, having been expanded by countless minions following [[Dispater]]'s grand plan. The walls of the buildings and the stones of the streets glowed the dull red of hot iron; more than brief skin contact resulted in severe burns. Prisoners of war, tormented underlings, criminals, and kidnap victims were kept in underground dungeons where their wails of woe could be heard filtering up through small vents in the iron walls. Above it all rose the [[Iron Tower]] where Dispater sat and schemed, untouchable.&lt;ref name="MotP3e-117"&gt;{{Cite book/Manual of the Planes 3rd edition|117}}&lt;/ref&gt; In the [[World Axis cosmology|World Axis]] view, the city of Dis was enclosed in a huge cavern accessible from Avernus through a tremendous iron gate in the side of a mountain.&lt;ref name="MM4e-61" /&gt;
+
+===Minauros===
+{{Main|Minauros}}
+[[Image:Minauros.jpg|thumb|right|275px|''Minauros, the Third Hell.'']]
+Minauros as a layer was described as an endless bog of vile pollution, decaying bodies, and rotting marsh, repeatedly drenched by rain, sleet, and hail storms. The soggy, bone-strewn, disease-ridden swampland made movement very difficult and was only broken occasionally by serpentine ridges of volcanic rock.&lt;ref name="MotP1e-109" /&gt;&lt;ref name="Dragon075-24"&gt;{{Cite dragon/75/The Nine Hells|24}}&lt;/ref&gt; Nameless creatures even the devils feared inhabited the swamp.&lt;ref name="MotP3e-117" /&gt; Minauros as a realm was depicted as a broad but low-vaulted cavern connected to Dis. An oily water percolated through the roof of the cave and rained down upon swamps, deserts of mud and oozing black soil, pockmarked by bubbling fumaroles and mud geysers.&lt;ref name="MM4e-61" /&gt;
+
+Minauros was also the name of the city built of black stone by [[Mammon]] on the treacherous surface of this place. Only the ceaseless efforts of thousands of minions and slaves prevent the city from sinking and being consumed by the bog.&lt;ref name="MotP1e-109" /&gt; The city of [[Jangling Hiter]], also known as the City of Chains, hung by massive links of chain above the noisome fen and was ruled by [[kyton]]s.&lt;ref name="MotP3e-119"&gt;{{Cite book/Manual of the Planes 3rd edition|119}}&lt;/ref&gt;
+
+===Phlegethos===
+{{Main|Phlegethos}}
+[[File:FCII-Phlegethos-Anne Stokes-p53.jpg|thumb|right|275px|''Phlegethos, the Fourth Hell.'']]
+The fourth circle was the Hell that most resembled the stereotype of a fiery world of eternal damnation, filled with active volcanoes, rivers of liquid fire, molten rock, ash hills, smoking pits, unbearable heat, all wracked by tremors and earthquakes.&lt;ref name="MotP1e-109" /&gt;&lt;ref name="Dragon075-26"&gt;{{Cite dragon/75/The Nine Hells|26}}&lt;/ref&gt; Even the air seemed aflame and thus Phlegethos was considered to be [[Planar traits#Elemental and Energy Traits|fire-dominant]].&lt;ref name="MotP3e-119" /&gt; In the [[World Axis cosmology|World Axis]] view, Phlegethos was a cavern several miles below Minauros, where burning lava poured out of fissures in the ceiling.&lt;ref name="MM4e-61" /&gt; The city of Abriymoch was the seat of power in this realm, built of hardened magma, [[obsidian]], and [[Rock crystal|crystal]] in the caldera of an extinct volcano which provided visitors some protection from the elemental environment found throughout the rest of the plane.&lt;ref name="MotP1e-109" /&gt;&lt;ref name="MotP3e-119" /&gt;
+
+===Stygia===
+{{Main|Stygia}}
+[[File:FCII-Stygia-Carl Frank-p56.jpg|thumb|right|275px|''Stygia, the Fifth Hell.'']]
+The complete opposite of Phlegethos, Stygia was either a bottomless ocean&lt;ref name="MotP1e-109" /&gt;&lt;ref name="Stormwrack-p9"&gt;{{Cite book/Stormwrack|9}}&lt;/ref&gt; covered by an ice sheet&lt;ref name="MotP1e-109" /&gt;&lt;ref name="Stormwrack-p9" /&gt; up to 3 miles (4.8 kilometers) thick,&lt;ref name="MotP1e-109" /&gt; or a frozen sea salted with huge icebergs&lt;ref name="Stormwrack-p9" /&gt;&lt;ref name="MM4e-61" /&gt; buried in a cavern several miles below Dis and hundreds of miles away from fiery Phlegethos&lt;ref name="MM4e-61" /&gt; depending on which cosmological model was in vogue at the time. According to the [[Great Wheel cosmology|Great Wheel]] and [[World Tree cosmology|World Tree]] models, the river [[Styx]] cut across the ice forming a channel.&lt;ref name="MotP1e-109" /&gt;&lt;ref name="MotP3e-121"&gt;{{Cite book/Manual of the Planes 3rd edition|121}}&lt;/ref&gt;&lt;ref name="Stormwrack-p9" /&gt; The older model also suggested the Styx supported small but hardy plants and mosses which, after millennia of decay of this vegetation, resulted in swampy areas along the banks of the river.&lt;ref name="MotP1e-109" /&gt; A few floating islands were the only non-frozen ground in Stygia, their peaks wreathed in lightning arcing from the coal-black sky. Where lightning struck, a strange phenomenon called "cold fire" erupted: white flames of extreme cold that "burned" for a short time and then disappeared without a trace.&lt;ref name="Dragon075-30"&gt;{{Cite dragon/75/The Nine Hells|30}}&lt;/ref&gt; The great city of [[Tantlin]] was built upon one of these islands,&lt;ref name="MotP1e-109" /&gt; in the curve of the swampy Styx,&lt;ref name="Dragon075-30" /&gt; or perhaps on a giant ice floe.&lt;ref name="MotP3e-121" /&gt; Due to the proximity of the Styx, Tantlin was a cross-planar trading post for those brave enough to attempt navigating the treacherous river.
+&lt;ref name="Stormwrack-p9"&gt;{{Cite book/Stormwrack|9}}&lt;/ref&gt;
+
+===Malbolge===
+{{Main|Malbolge}}
+[[File:FCII-Malbolge-Tom Baxa-p61.jpg|thumb|right|275px|''Malbolge, the Sixth Hell.'']]
+There is significant disagreement between cosmologies on the nature of the sixth circle of Hell. As a Great Wheel layer, Malbolge was a gargantuan tumble of angular black stone blocks, each block ranging in size from a small city to a large metropolis, that formed a pile hundreds of miles thick. The randomly tilted and ill-fitting blocks were honeycombed with angular passages and caverns causing non-flying travelers to frequently need mountaineering skills and risk avalanches. Stinking clouds of vapor rose up from the depths and lit the sky with the color of blood, causing cosmologists to speculate that the blocks of Malbolge may have rested on an infinite sea of lava. Corroborating reports have been heard of flammable materials left on the ground spontaneously combusting.&lt;ref name="Dragon076-22"&gt;{{Cite dragon/76/The Nine Hells, Part II|22}}&lt;/ref&gt; Most habitations in Malbolge were copper-clad fortresses built from black stone.&lt;ref name="MotP1e-109" /&gt;
+
+The World Tree view of this layer was similar to the Great Wheel plane of [[Gehenna]]: a steep, infinite craggy incline often subject to avalanches that crushed most anything that got in the way. The copper-shod redoubts were teardrop-shaped or otherwise engineered to deflect tumbling boulders, but even those could not long withstand a direct hit from a major avalanche.&lt;ref name="MotP3e-121" /&gt;
+
+In the [[World Axis cosmology]] view, Malbolge was another huge cavern connected to Stygia by icy canals that ran hundreds of miles before reaching their destination. A former godly inhabitant had shaped the realm into a vast garden with fountains, towers, reflecting pools, and all manner of landscaping delights. With the coming of the devils, Malbolge was still beautiful on the surface but creeping corruption permeated the realm, twisting the beauty, perverting the architecture, and poisoning the pools.&lt;ref name="MM4e-61" /&gt;
+
+===Maladomini===
+{{Main|Maladomini}}
+[[File:FCII-Maladomini-Eric Deschamps-p66.jpg|thumb|right|275px|''Maladomini, the Seventh Hell.'']]
+The [[Great Wheel cosmology]] view of the seventh circle of Hell described it as having vapor-polluted skies similar to Malbolge but the surface was solid.&lt;ref name="MotP1e-109" /&gt; The post-Spellplague view described Maladomini as a colossal maze of passages each several miles across that eventually led to Cania, Malbolge, and Nessus.&lt;ref name="MM4e-61" /&gt; All three models agreed that the seventh Hell was filled with ruins of old cities, stagnant rivers, exhausted and abandoned quarries and strip mines, stone aqueducts and lava canals, decaying fortresses, swarms of biting flies, and black pools of ichor that erupted from the ground. The Lord of the Seventh was never satisfied with the construction of his capitol and repeatedly built and abandoned city after city.&lt;ref name="MotP3e-121" /&gt; The largest and most beautiful was Malagard, a sprawling metropolis/palace/fortress/arcology with myriad black towers linked by a tangled web of bridges and walkways. Malagard was rumored to contain a million rooms and to cap an equally complex dungeon labyrinth.&lt;ref name="MotP1e-109" /&gt;&lt;ref name="Dragon076-24"&gt;{{Cite dragon/76/The Nine Hells, Part II|24}}&lt;/ref&gt;
+
+===Cania===
+{{Main|Cania}}
+[[File:FCII-Cania-Anne Stokes-p69.jpg|thumb|right|275px|''Cania, the Eighth Hell.'']]
+Both pre- and post-Spellplague cosmologies agree that Cania&lt;ref group="note"&gt;The ''[[Manual of the Planes 1st edition]]'' (page 109) and ''[[Dragon_(magazine)|Dragon #76]]'' (page 26) spelled the name of the eighth layer "Caina" but ''[[Manual of the Planes 3rd edition]]'' (page 122) and ''[[Monster Manual 4th edition]]'' (page 61) corrected it to "Cania".&lt;/ref&gt; was a bitterly [[Planar traits#Elemental and Energy Traits|cold-dominant]]&lt;ref name="PGtF-161" /&gt; realm of solid ice mountains, titanic, unnaturally fast-moving glaciers, and nearly continuous snowfall that made Stygia seem balmy by comparison. Unprotected travelers were exposed to temperatures of −60{{degreesF}} (−51{{degreesC}})&lt;ref name="MotP1e-109" /&gt; but on the positive side there were few creatures that hunted in the icy wastes.&lt;ref name="MM4e-61" /&gt; Earlier lore described the great citadel Mephistar as being constructed of iron&lt;ref name="MotP1e-111"&gt;{{Cite book/Manual of the Planes 1st edition|111}}&lt;/ref&gt;&lt;ref name="Dragon076-28"&gt;{{Cite dragon/76/The Nine Hells, Part II|28}}&lt;/ref&gt; but later reports say the Lord of the Eighth's fortress/palace was made of ice.&lt;ref name="MM4e-61" /&gt;&lt;ref name="MotP3e-122"&gt;{{Cite book/Manual of the Planes 3rd edition|122}}&lt;/ref&gt; All accounts seemed to agree the tower had a heated, luxurious interior and sat atop a gargantuan glacier called Nargus whose speed and movement were under the control of [[Mephistopheles]] himself.
+
+===Nessus===
+{{Main|Nessus}}
+[[File:Nessus.jpg|thumb|right|200px|''Nessus, the Ninth Hell.'']]
+The ninth and deepest Hell was a land of extremes in the [[Great Wheel]] view: regions cold as Cania, volcanoes like Phlegethos, a lake of ice, a flaming forest, sheer cliffs, ''firewinds'',&lt;ref name="Dragon076-32-34"&gt;{{Cite dragon/76/The Nine Hells, Part II|32-34}}&lt;/ref&gt; and a citadel even larger than [[Khin-Oin]] in [[Hades]]&lt;ref name="MotP1e-110" /&gt; (later, the Khin-Oin became part of the [[Abyss]]&lt;ref name="Demon-51"&gt;{{Cite book/Demonomicon|51}}&lt;/ref&gt;). The [[World Tree cosmology|World Tree]] view did not contradict this description of Nessus but focused more on the blasted and torn landscape out of which rose Malsheem, the Citadel of Hell. It was said that Malsheem could hold millions of devils within its mountainous edifice, from the lowest warrens deep in the trench to the soaring spires miles above the tortured plane.&lt;ref name="MotP3e-123"&gt;{{Cite book/Manual of the Planes 3rd edition|123}}&lt;/ref&gt; The [[World Axis cosmology|World Axis]] model agreed that a progression of rifts, pits, and chasms lead down and down, forming a vertical maze hundreds of miles deep that contained great cities, fiendish armies, and the mighty fortress of the Overlord [[Asmodeus]].&lt;ref name="MM4e-61" /&gt;
+
+==Inhabitants==
+{{main|Devil}}
+The principal inhabitants of the Nine Hells/Baator were the [[devil]]s,&lt;ref name="PGtF-161" /&gt;&lt;ref name="MotP3e-115" /&gt;&lt;ref name="MotP1e-109" /&gt;&lt;ref name="MM1e-20"&gt;{{Cite book/Monster Manual 1st edition|20}}&lt;/ref&gt;&lt;ref name="MMII1e-44"&gt;{{Cite book/Monster Manual II (1983)|44}}&lt;/ref&gt;&lt;ref name="MM4e-60"&gt;{{Cite book/Monster Manual 4th edition|60}}&lt;/ref&gt; and their offspring&lt;ref name="MM4e-39"&gt;{{Cite book/Monster Manual 4th edition|39}}&lt;/ref&gt; in varieties too numerous to catalog here. See the main article for descriptions of the myriad devilkind.&lt;ref name="PGtF-161" /&gt; Unlike the [[demon]]s of the [[Abyss]], the devils were highly organized in their quest for power and status&amp;mdash;scheming and plotting power plays, coups, and assassinations.&lt;ref name="MotP1e-109" /&gt; 
+
+In addition to the devils, this plane was home to [[bonespear]]s, [[gathra]], [[haraknin]], [[hell hound]]s, [[imp]]s, [[night hag]]s, [[nightmare]]s, and [[maelephant]]s.&lt;ref name="PGtF-161" /&gt; Also occasionally encountered were [[achaierai]], [[barghest]]s, [[hellcat]]s, [[mephit]]s, [[rakshasa]], and [[stench kow]]s.&lt;ref name="MMII1e-45"&gt;{{Cite book/Monster Manual II (1983)|45}}&lt;/ref&gt;
+
+==Afterlife==
+{{Main|Afterlife}}
+Beliefs about the journey of souls to the afterlife changed with the shifting [[cosmology|cosmologies]] and the [[crystal sphere]] in which one resided. In some worlds, [[lawful evil]] souls were automatically destined for the Hells and arrived as mindless [[nupperibo]]s&lt;ref name="MMII1e-49"&gt;{{Cite book/Monster Manual II (1983)|49}}&lt;/ref&gt; or, if they were worthy, as semi-intelligent [[lemure]]s.&lt;ref name="MM1e-23"&gt;{{Cite book/Monster Manual 1st edition|23}}&lt;/ref&gt; For mortals of [[Realmspace]], however, souls first traveled to the [[Fugue Plane]] where they awaited escort to their final rest on the plane of their primary deity.&lt;ref name="F&amp;A-pp2-3"&gt;{{Cite book/Faiths and Avatars|2-3}}&lt;/ref&gt; While waiting, devils were allowed to bargain with the souls, playing on their fears and doubts to get them to agree that becoming a lemure with a chance for promotion was a better option than their suspected fate. Strong or crafty souls might negotiate a deal that reduced their time as a lemure or bestow a boon or punishment on those they left behind.&lt;ref name="FRCS-259"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|259}}&lt;/ref&gt; After the [[Spellplague]], [[Shar]] reshaped the [[Plane of Shadow]] and folded in what death energy did not get absorbed into the [[Elemental Chaos]] and created the [[Shadowfell]].&lt;ref name="FRCG-69"&gt;{{Cite book/Forgotten Realms Campaign Guide|69}}&lt;/ref&gt; According to the [[World Axis cosmology|World Axis]] view, souls on their way to the afterlife started their journey in the Shadowfell. Most made it to the Fugue Plane to await judgment, but a few remained behind or were lost.&lt;ref name="FRCG-65"&gt;{{Cite book/Forgotten Realms Campaign Guide|65}}&lt;/ref&gt;
+
+==Realms==
+[[File:The Abyss.jpg|thumb|right|400px|''Asmodeus and his armies attacking demons in the Blood War.'']]
+The nine circles of Hell were each ruled by an [[archdevil]] of great power, but the Nine Hells were also the home of other powerful beings at various points in the history of the Realms. Listed here in alphabetical order are those that directly or indirectly influenced the course of events in [[Faerûn]], [[Toril]], and beyond.
+* [[Asmodeus]], the Overlord of the Nine Hells,&lt;ref name="MM4e-60" /&gt; exercised his power from a gargantuan citadel in the lowest rift of Nessus,&lt;ref name="MotP1e-111" /&gt;&lt;ref name="Dragon076-32-34" /&gt;&lt;ref name="MM1e-20" /&gt; named ''Malsheem''.&lt;ref name="FRCG-64" /&gt;&lt;ref name="MotP3e-123" /&gt;
+* [[Azharul]]'s [[Dragonspawn Pits]] were located in Avernus.&lt;ref name="Dragon075-18"/&gt;
+* [[Baalzebul]] ruled the seventh circle of Hell,&lt;ref name="FRCG-81" /&gt;&lt;ref name="MM4e-61" /&gt; Maladomini, from his huge fortress ''Malagard''.&lt;ref name="MotP1e-111" /&gt;&lt;ref name="MotP3e-122" /&gt; Early source material credited Baalzebul as controlling the sixth circle (Malbolge)&lt;ref name="MM1e-21"&gt;{{Cite book/Monster Manual 1st edition|21}}&lt;/ref&gt; through his viceroy [[Moloch]].&lt;ref name="Dragon076-24" /&gt;&lt;ref name="MMII1e-48"&gt;{{Cite book/Monster Manual II (1983)|48}}&lt;/ref&gt;
+* [[Bahgtru]], the strong but dim-witted son of [[Gruumsh]], once resided in the Nine Hells&lt;ref name="UA1e-119"&gt;{{Cite book/Unearthed Arcana 1st edition|119}}&lt;/ref&gt; before moving to the [[astral dominion]] of [[Nishrek]] as described by the [[World Tree cosmology|World Tree]]&lt;ref name="PGtF-162"&gt;{{Cite book/Player's Guide to Faerûn|162}}&lt;/ref&gt; and [[World Axis cosmology|World Axis]]&lt;ref name="FRCG-64" /&gt; cosmology models.
+* [[Belial]] was the ruler of Phlegethos, the fourth circle of Hell,&lt;ref name="FRCG-81" /&gt;&lt;ref name="MMII1e-46"&gt;{{Cite book/Monster Manual II (1983)|46}}&lt;/ref&gt; based in the basalt palace ''Abriymoch'' the "Mount of Leaping Flames", nestled in the caldera of an extinct volcano.&lt;ref name="Dragon075-26" /&gt;&lt;ref name="MotP1e-111" /&gt; Sometime before the [[Spellplague]] he set his daughter [[Fierna]] up as the ostensible ruler while he directed from the wings.&lt;ref name="MM4e-61" /&gt;&lt;ref name="MotP3e-119" /&gt;
+* [[Dispater]] dominated the second circle of Hell, Dis, from his high stone (later iron) tower in the city of the same name, also called the ''Iron City''.&lt;ref name="FRCG-81" /&gt;&lt;ref name="MM4e-61" /&gt;&lt;ref name="Dragon075-21" /&gt;&lt;ref name="MotP3e-117" /&gt;&lt;ref name="MotP1e-111" /&gt;&lt;ref name="MM1e-21" /&gt;
+* [[Fierna]], daughter of [[Belial]], was the archduchess of the fourth circle, fiery Phlegethos, as much as her father allowed.&lt;ref name="MM4e-61" /&gt;&lt;ref name="MotP3e-119" /&gt;
+* [[Gargauth]] was thought to have been an [[archdevil]] cast out of the Hells long ago for betrayal. He eventually achieved godhood corrupting souls on the [[Prime Material Plane]].&lt;ref name="DS-6"&gt;{{Cite web enhancement/Deities|6}}&lt;/ref&gt;
+* [[Geryon]] once ruled Stygia, the fifth circle of Hell,&lt;ref name="MM1e-22"&gt;{{Cite book/Monster Manual 1st edition|22}}&lt;/ref&gt; from a castle/city called ''Tantlin''.&lt;ref name="MotP1e-111" /&gt; At some point he was replaced or deposed by [[Levistus]]&lt;ref name="FRCG-81" /&gt; before that archdevil was imprisoned in the ice.&lt;ref name="MM4e-61" /&gt;
+* [[Glasya]], daughter of [[Asmodeus]] and former consort of [[Mammon]]&lt;ref name="MMII1e-47"&gt;{{Cite book/Monster Manual II (1983)|47}}&lt;/ref&gt; was the ruler of the sixth circle, Malbolge, after her father removed the [[Hag Countess]].&lt;ref name="MotP3e-121" /&gt;
+* [[Gruumsh]], god of slaughter,&lt;ref name="MM4e-203"&gt;{{Cite book/Monster Manual 4th edition|203}}&lt;/ref&gt; chief god of the [[orc]]s, once had a realm in the Nine Hells&lt;ref name="DD1e-112"&gt;{{Cite book/Deities &amp; Demigods 1st edition|112}}&lt;/ref&gt; and other [[Lower planes]] (see [[Acheron]]) before relocating his family to the ''Iron Fortress'' in the [[astral dominion]] of [[Nishrek]].&lt;ref name="FRCG-64" /&gt;&lt;ref name="PGtF-162" /&gt;
+* The [[Hag Countess]] held sway over Malbolge, the sixth Hell, after giving unwise council to [[Moloch]] causing him to rebel against [[Asmodeus]] and be defeated.&lt;ref name="MotP3e-121" /&gt;&lt;ref name="BoVD-157"&gt;{{Cite book/Book of Vile Darkness|157}}&lt;/ref&gt; Asmodeus eventually got rid of her and installed his daughter [[Glasya]] as Lord of the Sixth.&lt;ref name="FRCG-81" /&gt;&lt;ref name="MM4e-61" /&gt;
+* [[Hecate]], the [[Greek pantheon|Greek]] interloper deity of magic and the moon, had her second realm, named [[Aeaea]], in Minauros.&lt;ref&gt;{{Cite book/On Hallowed Ground|123}}&lt;/ref&gt;&lt;ref name="GtH-p31"&gt;{{Cite book/Guide to Hell|31}}&lt;/ref&gt;&lt;ref group="note" name="note1"&gt;''[[Tales of the Outer Planes]]'' identifies Hecate's divine realm as residing on [[Phlegethos]], the fourth layer of the Nine Hells, but the later books ''[[Guide to Hell]]'' and ''[[Fiendish Codex II: Tyrants of the Nine Hells]]'' change its location as being in the third layer, [[Minauros]].&lt;/ref&gt;
+* [[Ilneval]], master of strategy and chief lieutenant to [[Gruumsh]], once lived in the Nine Hells&lt;ref name="UA1e-120"&gt;{{Cite book/Unearthed Arcana 1st edition|120}}&lt;/ref&gt; before moving to [[Nishrek]] as described by the [[World Tree cosmology]] model.&lt;ref name="PGtF-162" /&gt;
+* [[Inanna]], an [[Untheric pantheon|Untheric]] goddess of love and war,&lt;ref name="DD1e-126"&gt;{{Cite book/Deities &amp; Demigods 1st edition|126}}&lt;/ref&gt; once had a realm in the fourth circle, Phlegethos.&lt;ref name="MotP1e-111" /&gt;
+* [[Kurtulmak]], god of the [[kobold]]s,&lt;ref name="DD1e-110"&gt;{{Cite book/Deities &amp; Demigods 1st edition|110}}&lt;/ref&gt; once lived in the caverns of Avernus named [[Draukari]] where he maintained the appearance of friend and ally to whichever archduke was trying to lure him to their faction at the time.&lt;ref name="MotP1e-112"&gt;{{Cite book/Manual of the Planes 1st edition|112}}&lt;/ref&gt;&lt;ref&gt;{{Cite book/On Hallowed Ground|176}}&lt;/ref&gt; He eventually moved his realm to [[Clangor]], according to the [[World Tree cosmology]] model, but maintained a portal to the Nine Hells.&lt;ref name="PGtF-147-148"&gt;{{Cite book/Player's Guide to Faerûn|147-148}}&lt;/ref&gt;
+* [[Levistus]] was the ruler of Stygia&lt;ref name="FRCG-81" /&gt; before (and perhaps even while) he was imprisoned in an iceberg floating on the frozen sea.&lt;ref name="MM4e-61" /&gt;&lt;ref name="MotP3e-121" /&gt;
+* [[Luthic]], mate of [[Gruumsh]] and [[orc]]ish goddess of caverns, female orc fertility, and primitive medicine, shared a realm with Gruumsh in the Nine Hells&lt;ref name="UA1e-120" /&gt; before moving with him and her son to [[Nishrek]].&lt;ref name="FRCG-64" /&gt;&lt;ref name="PGtF-162" /&gt;
+* [[Maglubiyet]] the Mighty One, Lord of Depths and Darkness, once had a realm in the Nine Hells&lt;ref name="DD1e-109"&gt;{{Cite book/Deities &amp; Demigods 1st edition|109}}&lt;/ref&gt; as well as other [[Lower planes]] as part of his wandering (see [[Acheron]]). Later, he moved his realm to [[Clangor]], but he maintained a portal to the Nine Hells.&lt;ref name="PGtF-147-148" /&gt;
+* [[Mammon]] once ruled Minauros, the swampy third circle of Hell,&lt;ref name="FRCG-81" /&gt;&lt;ref name="MM4e-61" /&gt;&lt;ref name="MotP3e-119" /&gt;&lt;ref name="MMII1e-47" /&gt; in a city of the same name&lt;ref name="MotP1e-111" /&gt; built on many huge pillars of black stone that were constantly sinking slowly into the sludge.&lt;ref name="Dragon075-24" /&gt;
+* [[Mephistopheles]] presided over the frigid eighth circle of hell, Cania,&lt;ref name="FRCG-79"&gt;{{Cite book/Forgotten Realms Campaign Guide|79}}&lt;/ref&gt; from his mighty citadel ''Mephistar'', overlooking the Nargus glacier.&lt;ref name="MotP1e-111" /&gt;&lt;ref name="Dragon076-28" /&gt;&lt;ref name="MotP3e-122" /&gt;
+* [[Moloch]] ruled the sixth circle of Hell, Malbolge, as the viceroy of [[Baalzebul]]&lt;ref name="Dragon076-22" /&gt;&lt;ref name="MotP1e-111" /&gt;&lt;ref name="MMII1e-48" /&gt; before it was taken over by the [[Hag Countess]]&lt;ref name="MotP3e-121" /&gt; and later [[Glasya]].&lt;ref name="FRCG-81" /&gt;&lt;ref name="MM4e-61" /&gt;
+* [[Sekolah]], the god of the [[sahuagin]],&lt;ref name="DD1e-112" /&gt;&lt;ref name="MM4e-225"&gt;{{Cite book/Monster Manual 4th edition|225}}&lt;/ref&gt; once swam in the deep waters beneath the ice of Stygia&lt;ref name="MotP1e-111" /&gt; in a realm called ''[[Sheyruushk]].''&lt;ref name="MotP3e-121" /&gt;
+* [[Set]], the jackal-headed [[Mulhorandi pantheon|Mulhorandi]] Lord of Evil,&lt;ref name="DD1e-53"&gt;{{Cite book/Deities &amp; Demigods 1st edition|53}}&lt;/ref&gt; once controlled a huge realm in Avernus that he turned into a desert under a blazing sun.&lt;ref name="MotP1e-111" /&gt; He called this realm ''[[Ankhwugaht]]''. Later it was moved to Stygia.&lt;ref name="OHG-91"&gt;{{Cite book/On Hallowed Ground|91}}&lt;/ref&gt;&lt;ref name="P&amp;P-126"&gt;{{Cite book/Powers &amp; Pantheons|126}}&lt;/ref&gt;
+* [[Tiamat]] once ruled the first circle of Hell, Avernus,&lt;ref name="MM1e-32"&gt;{{Cite book/Monster Manual 1st edition|32}}&lt;/ref&gt; from her cavernous lair ''[[Azharul]]'', "[[Tiamat's Lair|The Dragonspawn Pits]]",&lt;ref name="Dragon075-18" /&gt; attended by evil dragons both spiritual and incarnate, and a host of [[abishai]]&lt;ref name="MotP1e-111" /&gt; At some point she was demoted to guarding the barrier between Avernus and Dis&lt;ref name="MotP3e-117" /&gt; before moving to her ''[[Cave of Greed]]'' in [[Dragon Eyrie]].&lt;ref name="PGtF-150"&gt;{{Cite book/Player's Guide to Faerûn|150}}&lt;/ref&gt; After the [[Spellplague]] she became a servant of [[Bane]] in [[Banehold]].&lt;ref name="FRCG-238"&gt;{{Cite book/Forgotten Realms Campaign Guide|238}}&lt;/ref&gt;
+
+==Appendix==
+===See Also===
+* [[Lords of the Nine]]
+
+===Appearances===
+:;Novels
+::{{refonly}}
+::&lt;small&gt;''[[The Summoning]]'' &amp;bull; ''[[The Glass Prison]]''&lt;/small&gt;
+:;Video Games
+::''[[Planescape: Torment]]'' &amp;bull; ''[[Baldur's Gate III]]''
+
+===Gallery===
+&lt;gallery&gt;
+Nine Hells World Axis.jpg|The [[World Axis cosmology]] view of the Nine Hells.
+Great-Wheel-Map-Nine-Hells-3e.jpg|The [[Great Wheel cosmology]] view of the Nine Hells.
+NineHellsMap-Rob Lazzaretti-GuideToHell-p29.jpg|A map of the Nine Hells.
+&lt;/gallery&gt;
+
+===Notes===
+{{Notes}}
+
+===Further Reading===
+* {{Cite dragon/75/The Nine Hells}}
+* {{Cite dragon/76/The Nine Hells, Part II}}
+
+===External Links===
+* {{EW|Baator}}
+
+===References===
+{{Refs|2}}
+
+===Connections===
+{{Nine Hells}}
+{{Cosmologies}}
+[[Category:Astral dominions]]
+[[Category:Fiendish planes]]
+[[Category:Planes of law]]
+[[Category:Great Wheel planes]]
+[[Category:World Tree planes]]
+[[Category:World Axis planes]]
+[[Category:Outer Planes]]
+[[Category:Planes of existence]]
+[[Category:Lower Planes]]
+[[Category:Locations on the River Styx]]
+[[Category:Exports steel]]
+[[Category:Exports whiskey]]</text>
+      <sha1>howk176v8yf3jypwgzcsf0bv1jsjycw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nine Hells/Imagemap</title>
+    <ns>0</ns>
+    <id>641</id>
+    <revision>
+      <id>1072</id>
+      <parentid>1071</parentid>
+      <timestamp>2023-01-05T02:35:17Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1071</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3339" sha1="9u3tk6vzdm4sh6y1bb2sh473tqkdasq" xml:space="preserve">&lt;noinclude&gt;The following image map was generated using information compiled from the following sources:
+* {{Cite book/Manual of the Planes 3rd edition}}
+&lt;/noinclude&gt;&lt;div class="imageMapHighlighter"&gt;
+&lt;imagemap&gt;
+File:Great-Wheel-Map-Nine-Hells-3e.jpg|thumb|370px|right|A representation of the layers of the Nine Hells  and a few notable locations, according to the Great Wheel Cosmology. Hovering over the map will reveal main features. Clicking will link to the article for that location.
+
+desc none
+rect 44 149 106 164 [[Avernus]]
+rect 78 224 105 238 [[Dis]]
+rect 45 282 115 299 [[Minauros]]
+rect 212 165 238 186 [[Styx]]
+rect 252 180 314 192 [[Tiamat's Lair]]
+rect 332 130 391 142 [[Bel's Fortress]]
+rect 233 290 303 301 [[Jangling Hiter]]
+rect 57 346 138 365 [[Phlegethos]]
+rect 102 410 145 426 [[Stygia]]
+rect 122 491 191 511 [[Malbolge]]
+rect 259 330 315 343 [[Abriymoch]]
+rect 254 387 289 399 [[Tantlin]]
+rect 297 463 357 475 [[Sheyruushk]]
+rect 401 540 490 555 [[Maladomini]]
+rect 307 533 350 547 [[Malagard]]
+rect 230 551 272 564 [[Grenpoli]]
+rect 381 611 423 626 [[Cania]]
+rect 186 625 235 640 [[Mephistar]]
+rect 367 645 416 656 [[Malsheem]]
+rect 342 675 394 692 [[Nessus]]
+rect 227 681 256 704 [[Styx]]
+rect 323 304 371 315 [[Minauros (city)]]
+poly 301 621 327 622 311 638 311 695 300 692 300 638 286 629 [[Styx]]
+poly 301 143 287 144 285 134 303 131 [[Bel's Fortress]]
+poly 164 170 197 169 211 161 267 157 273 147 262 150 259 154 246 156 211 158 191 166 162 167 [[Styx]]
+poly 351 300 310 300 317 284 342 286 [[Minauros (city)]]
+poly 204 292 216 312 192 318 172 307 188 295 193 282 201 284 201 285 [[Jangling Hiter]]
+poly 235 358 209 359 214 346 234 346 238 356 [[Abriymoch]]
+poly 324 452 303 452 300 439 327 438 [[Sheyruushk]]
+poly 261 432 250 437 237 429 238 425 255 420 [[Tantlin]]
+poly 319 550 308 562 293 561 288 548 300 546 303 539 308 546 [[Malagard]]
+poly 259 544 251 550 242 542 245 535 257 536 [[Grenpoli]]
+poly 293 613 276 613 274 605 293 603 [[Mephistar]]
+poly 328 667 312 679 309 674 309 667 317 662 [[Malsheem]]
+poly 527 162 510 185 459 195 386 205 255 209 158 207 89 198 77 177 79 170 106 163 121 152 131 150 138 165 151 158 149 147 137 132 158 101 189 131 215 115 238 112 257 136 271 106 279 115 296 95 302 108 312 108 325 123 338 113 350 119 358 96 364 115 372 96 380 118 393 98 400 118 405 103 423 122 427 99 437 121 446 104 451 118 459 103 461 125 470 102 477 132 487 109 489 136 497 146 501 136 503 151 524 156 [[Avernus]]
+poly 503 232 497 250 422 271 301 283 187 279 113 273 100 258 95 247 115 230 194 206 394 205 460 215 502 231 [[Dis]]
+poly 492 281 488 303 424 334 361 342 293 349 214 344 153 335 110 315 110 298 149 280 175 273 434 265 471 272 [[Minauros]]
+poly 464 346 446 392 416 398 325 406 238 408 160 387 141 375 138 351 188 337 443 324 451 327 [[Phlegethos]]
+poly 449 410 438 455 387 471 309 480 251 476 203 463 162 452 147 416 205 397 390 390 425 398 [[Stygia]]
+poly 428 464 423 490 383 520 315 534 253 533 218 524 196 502 180 478 186 469 206 465 424 459 [[Malbolge]]
+poly 370 522 402 535 398 572 387 590 325 603 270 603 233 590 206 565 205 539 241 529 [[Maladomini]]
+poly 384 601 365 648 314 658 267 657 240 648 229 597 235 584 376 593 [[Cania]]
+poly 353 658 318 705 331 709 324 722 302 724 260 675 258 654 279 650 342 653 [[Nessus]]
+&lt;/imagemap&gt;
+&lt;/div&gt;&lt;noinclude&gt;
+[[Category:Imagemaps]]&lt;/noinclude&gt;</text>
+      <sha1>9u3tk6vzdm4sh6y1bb2sh473tqkdasq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nishrek</title>
+    <ns>0</ns>
+    <id>1484</id>
+    <revision>
+      <id>2063</id>
+      <parentid>2062</parentid>
+      <timestamp>2023-01-05T11:25:13Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2062</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="10379" sha1="s415to1vzqn44jh0p5s7g6ahldmrsam" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Nishrek
+| othernames        = 
+| symbol            = Acheron.png
+| demonym           = 
+| natives           = [[Hellwasp swarm|Hellwasps]], [[rust dragon]]s
+| languages         = 
+| basicrefs         = &lt;ref name="PGtF-162"&gt;{{Cite book/Player's Guide to Faerûn|162}}&lt;/ref&gt;&lt;ref name="DoF-11"&gt;{{Cite book/Dragons of Faerûn|11}}&lt;/ref&gt;
+| type-GW           = Realm
+| shape-size-GW     = Infinite plain, floating cube
+| gravity-GW        = Objective directional gravity
+| time-GW           = Normal
+| morphic-GW        = Alterable morphic, divine realms were divinely morphic
+| element-energy-GW = 
+| alignment-GW      = [[Lawful evil]]
+| magical-GW        = Normal magic
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = [[Avalas]]
+| refs-GW           = &lt;ref name="OHG-177"&gt;{{Cite book/On Hallowed Ground|177}}&lt;/ref&gt;&lt;ref name="PoL-Ach2e-p16"&gt;{{Cite book/Planes of Law/Acheron|16}}&lt;/ref&gt;
+| type-WA           = [[Astral dominion]]
+| shape-size-WA     = Finite
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = [[Chaotic evil]]
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = &lt;ref name="FRCG4e-64"&gt;{{Cite book/Forgotten Realms Campaign Guide|64}}&lt;/ref&gt;
+| type-WT           = [[Fiendish Plane]]
+| shape-size-WT     = 
+| gravity-WT        = Normal gravity
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = Minor positive-dominant
+| alignment-WT      = Mildly [[evil]]-aligned&lt;br /&gt;Mildly [[chaos]]-aligned&lt;ref name="drag291-p108"&gt;{{Cite dragon/291/Sage Advice|108}}&lt;/ref&gt;
+| magical-WT        = 
+| faith-WT          = Strong faith trait
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = &lt;ref name="FRCS3e-257"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|257}}&lt;/ref&gt;&lt;ref name="PGtF-140"&gt;{{Cite book/Player's Guide to Faerûn|140}}&lt;/ref&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| usethe            = 
+| useon             = 
+}}
+'''Nishrek''' was a [[fiendish plane]] in the [[World Tree cosmology]] model&lt;ref name="FRCS3e-257" /&gt;&lt;ref name="PGtF-140" /&gt; and later an [[astral dominion]] in the [[World Axis cosmology]] model.&lt;ref name="FRCG4e-64" /&gt; Prior to the discovery of the [[World Tree]], it was [[Gruumsh]]'s realm in [[Acheron]], occupying one face of a gigantic cube&lt;ref name="OHG-133"&gt;{{Cite book/On Hallowed Ground|133}}&lt;/ref&gt; (and then later, the whole cube&lt;ref name="MotP3e-124"&gt;{{Cite book/Manual of the Planes 3rd edition|124}}&lt;/ref&gt;&lt;ref name="CD-128"&gt;{{Cite book/Complete Divine|128}}&lt;/ref&gt;) as described by the [[Great Wheel cosmology]] model.&lt;ref name="OHG-177" /&gt; Nishrek was the last known home of the [[orc pantheon]],&lt;ref name="MotP3e-125"&gt;{{Cite book/Manual of the Planes 3rd edition|125}}&lt;/ref&gt;&lt;ref name="PGtF-161"&gt;{{Cite book/Player's Guide to Faerûn|161}}&lt;/ref&gt;&lt;ref name="FRPG4e-159"&gt;{{Cite book/Forgotten Realms Player's Guide|159}}&lt;/ref&gt;&lt;ref name="PWHB-16"&gt;{{Cite book/The Planewalker's Handbook|16}}&lt;/ref&gt; which tended to wander or be forced out of various previous homes.&lt;ref name="OHG-133" /&gt;&lt;ref name="MotP1e-114"&gt;{{Cite book/Manual of the Planes 1st edition|114}}&lt;/ref&gt;
+
+==Description==
+Nishrek was once just the name of Gruumsh's realm, stuck to the side of a moon-sized cube floating in the air of Acheron. As new [[cosmology|cosmologies]] were invented to explain what planar travelers discovered, the name followed Gruumsh to new realms and became synonymous with the plane he dominated. Endless war was a constant across all cosmological models,&lt;ref name="FRCG4e-64" /&gt;&lt;ref name="PGtF-161" /&gt;&lt;ref name="TPH-15"&gt;{{Cite book/The Planewalker's Handbook|15}}&lt;/ref&gt; made possible by the positive-dominant feature of this plane&amp;mdash;all those who died in battle were raised at sunset to fight again the next night.&lt;ref name="PGtF-161" /&gt;&lt;ref name="MotP1e-113"&gt;{{Cite book/Manual of the Planes 1st edition|113}}&lt;/ref&gt;
+
+===Great Wheel Model===
+As a realm in Acheron, Nishrek was a square, flat, barren plain broken only by trenches dug for defense, conical pits and mountains, perhaps a segment of the River [[Styx]], and the occasional iron citadel, which the orcs and other evil races merely occupied until the tide of battle pushed or pulled them elsewhere.&lt;ref name="MotP1e-113" /&gt; The main conflicts were between the orcs and the [[goblin]]s, but there was plenty of inter-tribe squabbling as well.&lt;ref name="MotP1e-114" /&gt;
+
+===World Tree Model===
+When the World Tree cosmology supplanted the Great Wheel model, Nishrek became its own plane, which the orcs had all to themselves, but without much improvement in the environment, although there was at least a sea and some hills.&lt;ref name="MotP.FAQ-3"&gt;{{Cite web/Manual of the Planes: Frequently Asked Questions|3}}&lt;/ref&gt; &lt;ref group="note"&gt;The Manual of the Planes FAQ states that Nishrek was "similar to the first layer of Ysgard, but dangerous and evil." The entry on page 91 of the ''[[Manual of the Planes 3rd edition]]'' describes Ysgard as "rough and wild" with "hilly terrain leading down to cold seas."&lt;/ref&gt; It was an immeasurable plane with battlements, entrenchments, and fortresses, contested over nightly by petitioners who healed quickly and even regenerated lost limbs. If they fell in battle, they received a ''[[true resurrection]]'' at the next sunset and joined the battle again. Each tribe vied for the favor of Gruumsh, whom they believed would someday declare a winner and thereby raise the status of their tribe above all others.&lt;ref name="PGtF-161" /&gt;
+
+===World Axis Model===
+When the [[Spellplague]] caused Nishrek to be cast adrift upon the [[Astral Sea]], it changed from being a practically limitless plain to a finite [[dominion]] with a more varied landscape&amp;mdash;dense forests, broiling deserts, flinty badlands, murky rivers and foreboding seas&amp;mdash;all bearing the ravages of constant war. Like [[Warrior's Rest]], this plane tallied untold deaths but no losses, as each combatant rose to fight again and again.&lt;ref name="FRCG4e-64" /&gt;
+
+==Inhabitants==
+The only creatures tenacious enough to call Nishrek home were swarms of [[Hellwasp swarm|hellwasps]], which could ruin the best-laid battle plans very quickly.&lt;ref name="PGtF-162" /&gt; [[Rust dragon]]s were also seen on this plane, as well as [[styx dragon]]s where the [[River of Blood]] ran its course.&lt;ref name="DoF-11" /&gt; Orc and [[half-orc]] (including [[orog]] and [[tanarukk]]&lt;ref name="FaP-149"&gt;{{Cite book/Faiths &amp; Pantheons|149}}&lt;/ref&gt;) petitioners made up the vast majority of the population,&lt;ref name="PGtF-162" /&gt; organized by tribe and faction.&lt;ref name="PGtF-161" /&gt; After the Spellplague, [[ogres]] and [[troll]]s saw Nishrek in the [[afterlife]], when [[Vaprak]] became an [[exarch]] of Gruumsh.&lt;ref name="FRCG4e-64" /&gt;
+
+==Realms==
+* [[Bahgtru]] the Leg Breaker&lt;ref name="FaP-148"&gt;{{Cite book/Faiths &amp; Pantheons|148}}&lt;/ref&gt; made his home in Gruumsh's [[Iron Fortress]].&lt;ref name="FRCG4e-64" /&gt;&lt;ref name="PGtF-162" /&gt; Prior to this, his home was one of the smaller cubes that floated in orbit around the moon-sized block that held Nishrek in [[Acheron]].&lt;ref name="OHG-177" /&gt;&lt;ref name="MotP1e-114" /&gt;
+* [[Gruumsh]] the One-Eyed God&lt;ref name="FaP-148" /&gt; was the primary power that shaped Nishrek&lt;ref name="OHG-177" /&gt; and built his Iron Fortress&lt;ref name="FRCG4e-64" /&gt; large enough to hold armies (when he deigned to allow them in).&lt;ref name="PGtF-162" /&gt;
+* [[Ilneval]] the Hoard Leader's&lt;ref name="FaP-149" /&gt; fate after the Spellplague was unknown. Prior to his disappearance, he shared the Iron Fortress with Gruumsh and Bahgtru.&lt;ref name="PGtF-162" /&gt; During his time on Acheron, he also had a geometrically shaped satellite.&lt;ref name="OHG-177" /&gt;&lt;ref name="MotP1e-114" /&gt;
+* [[Luthic]] the Cave Mother&lt;ref name="FaP-150"&gt;{{Cite book/Faiths &amp; Pantheons|150}}&lt;/ref&gt; carved her lair out of solid rock and iron with her incredibly long claws&lt;ref name="FaP-149" /&gt;&lt;ref name="UA1e-120-121"&gt;{{Cite book/Unearthed Arcana 1st edition|120&amp;ndash;121}}&lt;/ref&gt; deep beneath the Iron Fortress.&lt;ref name="FRCG4e-64" /&gt;&lt;ref name="PGtF-162" /&gt;
+* [[Obould]] was once [[King Obould Many-Arrows]] in Faerûn until he became an exarch of Gruumsh and joined the orcish pantheon in the Iron Fortress.&lt;ref name="FRCG4e-64" /&gt;
+* [[Shargaas]] the Stalker Below&lt;ref name="FaP-150" /&gt; carved out a pitch-black realm somewhere deep under the surface of Nishrek.&lt;ref name="FRCG4e-64" /&gt; Prior to this, his realm, known as the [[Night Below]], was located in the coldest, darkest layer of [[Gehenna]].&lt;ref name="OHG-134"&gt;{{Cite book/On Hallowed Ground|134}}&lt;/ref&gt;&lt;ref name="UA1e-119"&gt;{{Cite book/Unearthed Arcana 1st edition|119}}&lt;/ref&gt;
+* [[Vaprak]], god of ogres and trolls,&lt;ref name="FaP-221"&gt;{{Cite book/Faiths &amp; Pantheons|221}}&lt;/ref&gt; also made his home in caverns somewhere on this plane after he became an exarch of Gruumsh.&lt;ref name="FRCG4e-64" /&gt; He moved here after the Spellplague from Shatterstone, the 524th [[Layers of the Abyss|layer]] of the [[Abyss]].&lt;ref name="OHG-176"&gt;{{Cite book/On Hallowed Ground|176}}&lt;/ref&gt;&lt;ref name="DD1e-111"&gt;{{Cite book/Deities &amp; Demigods 1st edition|111}}&lt;/ref&gt;
+* [[Yurtrus]] White Hands&lt;ref name="FaP-151"&gt;{{Cite book/Faiths &amp; Pantheons|151}}&lt;/ref&gt; had a towering hill named [[Fleshslough]] overlooking the battlefields of Nishrek, where the threat of permanent death by unimaginably horrible means was enough to motivate most petitioners to give their best effort in battle.&lt;ref name="PGtF-162" /&gt; Before joining the rest of the orc pantheon in Nishrek, he made his home in the Gray Wastes of [[Hades]].&lt;ref name="OHG-176" /&gt;&lt;ref name="UA1e-120"&gt;{{Cite book/Unearthed Arcana 1st edition|120}}&lt;/ref&gt;
+
+==Appendix==
+===Notes===
+{{Notes}}
+
+===References===
+{{Refs}}
+
+===Connections===
+{{Acheron}}
+{{Cosmologies}}
+[[Category:Astral dominions]]
+[[Category:Divine realms]]
+[[Category:Fiendish planes]]
+[[Category:World Tree planes]]
+[[Category:World Axis planes]]
+[[Category:Planes of existence]]
+[[Category:Locations in Acheron]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations]]
+[[Category:Locations on the River Styx]]
+[[Category:Locations in the Lower Planes]]</text>
+      <sha1>s415to1vzqn44jh0p5s7g6ahldmrsam</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nonaton</title>
+    <ns>0</ns>
+    <id>398</id>
+    <revision>
+      <id>5385</id>
+      <parentid>4776</parentid>
+      <timestamp>2024-04-23T19:52:06Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>rogue modron</comment>
+      <origin>5385</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4326" sha1="pshtqftqejqty6ymhe9fu3psejgst7o" xml:space="preserve">{{Creature
+| image        = 
+&lt;gallery&gt;
+Modrnona.gif|2e
+Nonaton1e.jpg|1e
+&lt;/gallery&gt;
+| caption      = A nonaton.
+| name         = Nonaton
+| size5e       = 
+| type5e       = 
+| subtype5e    = 
+| alignment5e  = 
+| challenge5e  = 
+| refs5e       = 
+| size4e       = Large
+| origin4e     = [[Immortal]]
+| type4e       = [[Animate]]
+| subtype4e    = [[Modron]]
+| alignment4e  = 
+| refs4e       = &lt;ref name="D414-Ecology-p15"&gt;{{Cite dragon/414/Ecology of the Modron|15}}&lt;/ref&gt;
+| size3e       = Large
+| type3e       = [[Outsider]]
+| subtype3e    = 
+| alignment3e  = Always [[lawful neutral]]
+| challenge3e  = 10
+| refs3e       = &lt;ref name="WEM3e-p11-12"&gt;{{Cite book/Manual of the Planes 3rd edition/WE1|11-12}}&lt;/ref&gt;
+| size2e       = Large
+| alignment2e  = [[Lawful neutral]]
+| refs2e       = &lt;ref name="PCS-MS2e-p16-18,20"&gt;{{Cite book/Planescape Campaign Setting/Monstrous Supplement|16-18,20}}&lt;/ref&gt;
+| size1e       = 
+| alignment1e  = [[Lawful neutral]]
+| refs1e       = &lt;ref name="MMII1e-89"&gt;{{Cite book/Monster Manual II 1st edition|89}}&lt;/ref&gt;
+| patron deity =[[Primus]] 
+| vision       = [[Darkvision]], [[Blindsight]]&lt;ref name="WEM3e-p11-12" /&gt;&lt;ref name="D414-Ecology-p15" /&gt;
+| activecycle  = 
+| diet         = 
+| lifespan     = 
+| location     = 
+| language     = [[Celestial language|Celestial]], [[Modron language|Modron]], [[Infernal language|Infernal]]&lt;ref name="WEM3e-p11-12" /&gt;
+| subraces     = 
+| climate      = Any&lt;ref name="WEM3e-p11-12" /&gt;
+| terrain      = Any land&lt;ref name="WEM3e-p11-12" /&gt;
+| height       = 
+| length       = 
+| wingspan     = 
+| weight       = 
+| skincolor    = 
+| haircolor    = 
+| hairstyles   = 
+| feathers     = 
+| eyecolor     = 
+| build        = 
+| distinctions = 
+| based        = 
+| first        = [[Monster Manual II 1st edition|''Monster Manual II'' 1{{st}} edition]]
+}}
+'''Nonatons''' were the second-lowest rank of hierarch [[modron]]s in the modron hierarchy.&lt;ref name="MMII1e-89" /&gt;
+
+==Description==
+A nonatons body was shaped like a cylinder. A ring of nine tentacles circled its midriff, an equal distance from one another. Two stout legs provided locomotion. On each side of of the upper part of its body, it had two eyes and mouths on opposite sides.&lt;ref name="WEM3e-p11-12" /&gt;
+
+==Combat==
+If forced into combat, a nonaton used a combination of psionics, spells and their tentacles.&lt;ref name="WEM3e-p11-12" /&gt;
+
+==Abilities==
+Like all hierarch modrons, nonatons had the innate ability to duplicate the effects of ''[[clairaudience]]'', ''[[clairvoyance]]'', ''[[command]]'', ''[[dimension door]]'', ''[[teleport without error]]'', and ''[[wall of force]]'' spells at will.&lt;ref name="TGMMp126"&gt;{{Cite book/The Great Modron March|126}}&lt;/ref&gt; Additionally, they were able to duplicate the effects of ''[[detect charm]]'', ''[[detect evil and good]]'', ''[[detect lie]]'', ''[[ESP]]'', ''[[mirror image]]'', ''[[slow]]'' and ''[[web]]'' spells at will. Once per day, a nonaton could cast ''[[power word, stun]]''.&lt;ref name="TGMMp127"&gt;{{Cite book/The Great Modron March|127}}&lt;/ref&gt; Nonatons were immune to effects and spells that influenced the mind and had a resistance to acid, cold and fire.&lt;ref name="WEM3e-p11-12" /&gt;
+
+==Society==
+There were exactly 81 nonatons in modron society. They acted as captains and chief inspectors of the [[pentadrone]] police force. One served each sector, nine served the [[tertian]]s, and the remaining eight reported directly to [[Primus]] himself. Each nonaton had twelve pentadrone lieutenants, each of whom commanded twelve [[quadrone]] sergeants, who in turn  each commanded twelve [[tridrone]]s.&lt;ref name="MMII1e-89" /&gt;
+
+Nonatons are often used to head investigations into [[rogue modron]]s.
+
+==Ecology==
+Nonatons were able to see in all directions simultaneously, due to the placement of their two eyes. They were able to see in [[darkvision]] up to {{SI|60|ft}}. They could communicate to any sentient creature within {{SI|63|mi|k}} telepathically.&lt;ref name="WEM3e-p11-12" /&gt;
+
+==Appendix==
+===Appearances===
+:;Adventures
+::''[[The Great Modron March]]''
+:;Comics
+::''[[Evil at Baldur's Gate 3|Evil at Baldur's Gate #3]]
+===References===
+{{Refs}}
+{{-}}
+===Connections===
+{{Modrons}}
+[[Category:Hierarch modrons]]
+[[Category:Modrons]]
+[[Category:Creatures found in Mechanus]]
+[[Category:Creatures found in Regulus]]
+[[Category:Monster|Modron, 9]]</text>
+      <sha1>pshtqftqejqty6ymhe9fu3psejgst7o</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nordom</title>
+    <ns>0</ns>
+    <id>2930</id>
+    <redirect title="Nordom Whistleklik" />
+    <revision>
+      <id>5383</id>
+      <timestamp>2024-04-23T16:09:31Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>IanWatson moved page [[Nordom]] to [[Nordom Whistleklik]]: nordom's full name</comment>
+      <origin>5383</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="32" sha1="dgg1psz9ufuc7fnetblrhp9hvoze0su" xml:space="preserve">#REDIRECT [[Nordom Whistleklik]]</text>
+      <sha1>dgg1psz9ufuc7fnetblrhp9hvoze0su</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nordom Whistleklik</title>
+    <ns>0</ns>
+    <id>406</id>
+    <revision>
+      <id>5382</id>
+      <parentid>4147</parentid>
+      <timestamp>2024-04-23T16:09:31Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>IanWatson moved page [[Nordom]] to [[Nordom Whistleklik]]: nordom's full name</comment>
+      <origin>4147</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3402" sha1="fu2ibhhywl0tunzt7cctv91ew04bwrv" xml:space="preserve">{{Person
+| image          = Nordom-Planescape.png
+| caption        = 
+| name           = Nordom Whistleklik
+| alt_spelling   = 
+| titles         = 
+| aliases        = The backwards modron
+| nicknames      = 
+| true name      = 
+| home           = 
+| formerhomes    = [[Regulus]]
+| sex            = 
+| gender         = Genderless
+| race           = [[Quadrone]] [[modron]]
+| ethnicity      = 
+| occupation     = 
+| age            = 
+| patron deity   = 
+| languages      = 
+| basicrefs      = &lt;ref name="PST"&gt;{{Cite game/Planescape: Torment}}&lt;/ref&gt;
+| reckoning      = 
+| dob            = 
+| dobnotes       = 
+| turned         = 
+| turnednotes    = 
+| death          = 
+| deathnotes     = 
+| destroyed      = 
+| destroyednotes = 
+| daterefs       = 
+| parents        = 
+| spouses        = 
+| siblings       = 
+| children       = 
+| familyrefs     = 
+| dynasty        = 
+| start of reign = 
+| end of reign   = 
+| predecessor    = 
+| successor      = 
+| successionrefs = 
+| alignment1e    = 
+| class1e        = 
+| refs1e         = 
+| alignment2e    = [[Lawful neutral]]&lt;ref name="PS:T:EE"&gt;{{Cite game/Planescape: Torment: Enhanced Edition}}&lt;/ref&gt;
+| class2e        = {{Class table|edition=2e|Fighter|6}}
+| refs2e         = &lt;ref name="PST" /&gt;
+| alignment3e    = 
+| challenge3e    = 
+| class3e        = 
+| refs3e         = 
+| alignment35    = 
+| challenge35    = 
+| class35        = 
+| refs35         = 
+| alignment4e    = 
+| class4e        = 
+| refs4e         = 
+| alignment5e    = [[Lawful neutral]]
+| challenge5e    = 
+| class5e        = [[Fighter]]
+| refs5e         = &lt;ref name="IC"&gt;{{Cite game/Idle Champions of the Forgotten Realms}}&lt;/ref&gt;
+}}
+'''Nordom Whistleklik''', also known as the '''backwards modron''', was a [[quadrone]] that took part in the construction of the Rubikon, a [[modron]]-made dungeon in [[Limbo]]. Due to the chaotic energies of the plane, Nordom went rogue.&lt;ref name="PST" /&gt;
+
+==Description==
+Unlike most quadrones, Nordom had a second pair of arms instead of wings.&lt;ref name="PST" /&gt;
+
+==Possessions==
+Nordom wielded a pair of [[gear spirit]]s that were shaped and functioned like [[crossbow]]s.&lt;ref name="PST" /&gt;
+
+==History==
+[[File:Nordom promo.jpg|thumb|''Nordom in Regulus.'']]
+When a [[Great Modron March]] passed through [[Waterdeep]] somewhere in the late 15{{th}} century DR, Nordom attempted to assist the defense of the city, but inadvertently empowered the invading modrons with the lightning crossbow bolts he used as ammunition.&lt;ref name="ICotFR"&gt;{{Cite game/Idle Champions of the Forgotten Realms}}&lt;/ref&gt;
+
+After the march, Nordom remained in Waterdeep, even taking part in a mission to protect one of the [[Lords of Waterdeep]] from an assassination attempt. Due to his resemblance to his non-rogue kin, he was unpopular with Waterdhavians affected by the march.&lt;ref name="ICotFR" /&gt;
+
+==Appendix==
+{{incomplete|Needs plot information from ''[[Planescape: Torment]]''.}}
+===Appearances===
+:;Video Games
+::''[[Planescape: Torment]]'' • ''[[Idle Champions of the Forgotten Realms]]''
+===Gallery===
+===External Links===
+===References===
+{{Refs}}
+
+[[Category:Inhabitants of unspecified gender]]
+[[Category:Modrons]]
+[[Category:Fighters (5e)]]
+[[Category:Fighters]]
+[[Category:Inhabitants of lawful neutral alignment]]
+[[Category:Inhabitants of Toril]]
+[[Category:Inhabitants of the Outer Planes]]
+[[Category:Inhabitants of Mechanus]]
+[[Category:Inhabitants of Regulus]]</text>
+      <sha1>fu2ibhhywl0tunzt7cctv91ew04bwrv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Now in Print</title>
+    <ns>0</ns>
+    <id>2888</id>
+    <revision>
+      <id>5179</id>
+      <timestamp>2024-03-30T05:50:23Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5179</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="734" sha1="du300sx1zebn7fzn2r2fxrzebcm1vk0" xml:space="preserve">'''Now in Print''' is the print-on-demand (PoD) program operated by Wolves of Freeports's series of sites: DMsGuild, DriveThruRPG, DriveThruComics, and DriveThruFiction. The program converts D&amp;D's back catalog to a print format wherever possible through the use of original electronic files or high-resolutio nscans.
+
+Many older products are out of print and no longer supported; the secondary market prices for some of these older books can be astronomical. The Now in Print program means they'll never be out of print again.
+
+Here on the Wiki, in addition to our PDF notation ([[Image:Bullet-pdf.png|DMsGuild]]) we denote products available via the Now in Print program via a small book symbol: [[Image:Bullet-nip.png|Now in Print]]</text>
+      <sha1>du300sx1zebn7fzn2r2fxrzebcm1vk0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nut</title>
+    <ns>0</ns>
+    <id>3390</id>
+    <revision>
+      <id>7234</id>
+      <parentid>7232</parentid>
+      <timestamp>2025-12-30T11:31:29Z</timestamp>
+      <contributor>
+        <username>Senlimsghost</username>
+        <id>50355097</id>
+      </contributor>
+      <origin>7234</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="930" sha1="5hhj5nct8090ek9c53jwzqgnr74ly23" xml:space="preserve">{{Deity|name=Nut|title=Mother Night|symbol=Stars in the night sky|alignment=Neutral Good|power=Intermediate Power|pantheon=[[Pharaonic pantheon]]|gender=Feminine|realm=[[The Refuge of Night]]|portfolio=Sky, couples forbidden to marry|cleric alignments=Any}}
+
+'''Nut''' was an Intermediate Power of the [[Pharaonic pantheon]], the daughter of [[Shu]] and [[Tefnut]] and a member of [[Ra]]'s Ennead family.&lt;ref&gt;{{Cite book/On Hallowed Ground|84}}&lt;/ref&gt; Her love with her brother-husband [[Geb]] was forbidden by Ra and Shu, and they were kept apart by the latter's atmosphere domain.&lt;ref&gt;{{Cite book/On Hallowed Ground|91}}&lt;/ref&gt; 
+
+Nut ruled the realm of [[the Refuge of Night]] on [[Belierin]], a directionless field of starry sky where petitioners manifested as the stars themselves. Although she knew she wasn't beyond Ra's reach, she enjoyed the layer's solitude.&lt;ref&gt;{{Cite book/On Hallowed Ground|90}}&lt;/ref&gt; 
+
+== References ==</text>
+      <sha1>5hhj5nct8090ek9c53jwzqgnr74ly23</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ocanthus</title>
+    <ns>0</ns>
+    <id>234</id>
+    <revision>
+      <id>274</id>
+      <timestamp>2022-02-11T17:50:08Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "'''Ocanthus''' was the fourth layer of the plane of [[Acheron]].    == Realms ==  * [[Zoronor]], City of Shadows * [[Blade Maze of Therores]] * [[Blood Forest]]  Category:La..."</comment>
+      <origin>274</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="181" sha1="gf5zh36c6j4tt3i9qlhfvqtajn6urc6" xml:space="preserve">'''Ocanthus''' was the fourth layer of the plane of [[Acheron]].
+
+
+
+== Realms ==
+
+* [[Zoronor]], City of Shadows
+* [[Blade Maze of Therores]]
+* [[Blood Forest]]
+
+[[Category:Layers]]</text>
+      <sha1>gf5zh36c6j4tt3i9qlhfvqtajn6urc6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Oceanus</title>
+    <ns>0</ns>
+    <id>1308</id>
+    <revision>
+      <id>2618</id>
+      <parentid>1707</parentid>
+      <timestamp>2023-08-09T01:51:42Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1707</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5659" sha1="mpw8r5r0i0evwhj1mn2qi45a9rtg1b7" xml:space="preserve">{{Body of water
+| image          = Oceanus_dragon-3e.jpg
+| caption        = An Oceanus dragon protecting travelers from a storm on the River Oceanus.
+| name           = River Oceanus
+| aliases        = 
+| type           = River
+| region         = [[Outer Planes]]
+| size           = 
+| depth          = 
+| river source   = [[Thalasia]]
+| river mouth    = [[Aquallor]]
+| tributaries    = 
+| tributary of   = 
+| georefs        = &lt;ref name="MotP3e-p21,77,86,138-146"&gt;{{Cite book/Manual of the Planes 3rd edition|21,77,86,138-146}}&lt;/ref&gt;
+| races          = 
+| socrefs        = 
+| usethe         = yes
+| useon          = yes
+| inhabitants    = yes
+| locations      = yes
+| organizations  = 
+| settlements    = 
+| mountains      = 
+| events         = 
+| food and drink = 
+| items          = 
+| based          = [[wikipedia:en:Oceanus|Oceanus]] (Greek)
+}}
+The '''Oceanus''' was a river that connected several [[upper planes]] of the [[Great Wheel cosmology]].&lt;ref name="MotP3e-p21,77,86,138-146" /&gt;
+
+==Geography==
+The Oceanus's source was located in [[Thalasia]], the fourth layer of [[Elysium]]. From there, it flowed through the layers of [[Belierin]], [[Eronia]], and [[Amoria]], moving on to [[Krigala]], the first layer of the [[Beastlands (plane)|Beastlands]], where it was joined by several streams flowing from the second layer, [[Brux]]. Finally, the river passed through [[Arvandor (layer)|Arvandor]] and ended by flowing into the waters of [[Aquallor]], the second layer of [[Arborea]], although several maelstroms at the bottom of the infinite ocean transported travelers back to the river's headwaters in Thalasia. This cyclic nature led many sages to believe that the Oceanus, in fact, had no beginning and no end.&lt;ref name="MotP3e-p21,77,86,138-146" /&gt;&lt;ref name="PoC-BoC2e-p50"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|50}}&lt;/ref&gt;
+
+Close to Arborea, the river was tenuously drawn to the [[Gates of the Moon]] in [[Ysgard (layer)|the first layer]] of [[Ysgard]]. The connection, however, was faint, and dependent on the tides.&lt;ref name="PC-BC2e-p107"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|107}}&lt;/ref&gt;
+
+The water of the Oceanus was sweet and fragrant.&lt;ref name="MotP3e-p21,77,86,138-146" /&gt; Its banks were broad, its surface was calm, and its depth was immeasurably great. Travel time along the Oceanus varied, as the borders between [[planes]] were not always objectively located.&lt;ref name="PCS-DM2e-p44"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|44}}&lt;/ref&gt;
+
+[[File:DMG5e_-_Elysium_-_Olly_lawson_-_p60.jpg|thumb|left|250px|''The plane of Elysium along the banks of the Oceanus.'']]
+The Oceanus dominated the features of all four layers of Elysium. The river branched off and rejoined throughout its flow, sometimes even doubling back on itself at certain places.&lt;ref name="MotP1e-p90"&gt;{{Cite book/Manual of the Planes 1st edition|90}}&lt;/ref&gt;
+
+The river was the main means of travel throughout the layers of Elysium, and was frequently used to connect to the other planes along its course. Although the river did not suffer from pirate raids, there were many natural hazards along its course, such as rapids, eddies, and whirlpools, as well as large natural predators.&lt;ref name="PoConf-LB2e-p52"&gt;{{Cite book/Planes of Conflict/Liber Benevolentiae|52}}&lt;/ref&gt;
+
+Many towns were established along the banks of the Oceanus. Its course was always populated with boats sailing up or downstream. It was easy to rent or hire boats in one such town.&lt;ref name="PCS-DM2e-p44" /&gt;
+
+==History==
+The Oceanus was the preferred course of the [[Great Modron March]] as it passed through Amoria towards the [[gate-town]] of [[Ecstasy]] in the [[Outlands]].&lt;ref name="GMM2e-p42"&gt;{{Cite book/The Great Modron March|42}}&lt;/ref&gt;
+
+==Inhabitants==
+The River Oceanus was guarded by [[Oceanus dragon]]s, who protected travelers along its course from evil creatures and natural hazards.&lt;ref name="DN3e-p181-182"&gt;{{Cite book/Draconomicon: The Book of Dragons|181-182}}&lt;/ref&gt; Although they spent most of the time on patrol, it was common for Oceanus dragons to visit the [[Dragon Eyrie]] from time to time.&lt;ref name="PGF3e-p150"&gt;{{Cite book/Player's Guide to Faerûn|150}}&lt;/ref&gt;
+
+The depths of the river were also inhabited by [[delphon]]s, or songsharks, mysterious singing creatures that could reveal secrets about the Oceanus itself or the workings of the [[multiverse]] to careful listeners.&lt;ref name="PoConf-MS2e-p8"&gt;{{Cite book/Planes of Conflict/Monstrous Supplement|8-9}}&lt;/ref&gt; Other intelligent aquatic life that could be found in its waters included [[asrai]], [[balaena]],&lt;ref&gt;{{Cite book/Planes of Conflict/Liber Benevolentiae|6,52}}&lt;/ref&gt; [[dolphin]]s, [[nereid]]s, [[selkie]]s, and [[aquatic elves]].&lt;ref&gt;{{Cite book/Planes of Conflict/Liber Benevolentiae|52}}&lt;/ref&gt;
+
+==Appendix==
+===See Also===
+* [[Styx]]
+===Appearances===
+:;Adventures
+::''[[The Great Modron March]]''
+::{{Refonly}}
+::&lt;small&gt;''[[For Duty &amp; Deity]]''&lt;/small&gt;
+===References===
+{{Refs}}
+===Connections===
+{{Cosmologies}}
+[[Category:Locations in Thalasia]]
+[[Category:Locations in Eronia]]
+[[Category:Locations in Belierin]]
+[[Category:Locations in Amoria]]
+[[Category:Locations in Elysium]]
+[[Category:Locations in Krigala]]
+[[Category:Locations in the Beastlands (plane)]]
+[[Category:Locations in Arvandor (layer)]]
+[[Category:Locations in Aquallor]]
+[[Category:Locations in Arborea]]
+[[Category:Locations in the Gates of the Moon]]
+[[Category:Locations in Ysgard (layer)]]
+[[Category:Locations in Ysgard]]
+[[Category:Locations in the Upper Planes]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Planar pathways]]</text>
+      <sha1>mpw8r5r0i0evwhj1mn2qi45a9rtg1b7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ochlocrats</title>
+    <ns>0</ns>
+    <id>2962</id>
+    <revision>
+      <id>7309</id>
+      <parentid>6273</parentid>
+      <timestamp>2026-05-17T07:02:40Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>template</comment>
+      <origin>7309</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1028" sha1="j62ogm8tl375etb4m4z3qm2k6m23nma" xml:space="preserve">{{Faction
+  | faction        = Ochlocrats
+  | image1         = 
+  | caption-image1 = 
+  | nickname       = 
+  | philosophy     = 
+  | founded        = 
+  | factol         = 
+  | sigilhq        = 
+  | homefield      = 
+  | allies         = 
+  | enemies        = 
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Ochlocrats''' were a chaos-aligned faction in Sigil's history. Given the propensity for chaos-aligned factions to avoid keeping records of any kind, it's uncertain if they were a previous incarnation of the [[Xaositects]] operating under a different name, or if they were truly an unrelated organization.
+
+== History ==
+
+== Philosophy ==
+
+== Role ==
+
+== Membership ==
+
+
+== Background Information ==
+
+* The name "Ochlocrats" comes from the Greek ὄχλος (''ochlos'', crowd). An ''ochlocracy'' is otherwise known as "{{w|mob rule}}."
+
+== References ==
+* 2nd Edition
+** {{b|Planescape|The Factol's Manifesto|pdf=17275|page=152}}
+
+&lt;references /&gt;
+
+{{FallenFactions}}
+
+[[Category:Faction]]
+[[Category:Ochlocrats]]</text>
+      <sha1>j62ogm8tl375etb4m4z3qm2k6m23nma</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Octon</title>
+    <ns>0</ns>
+    <id>399</id>
+    <revision>
+      <id>4775</id>
+      <parentid>498</parentid>
+      <timestamp>2024-02-03T22:56:15Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>cat</comment>
+      <origin>4775</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4746" sha1="sjrg4ad99sbud0rnibnou9csp3gbfih" xml:space="preserve">{{Creature
+| image        = 
+&lt;gallery&gt;
+Modrocto.gif|2e
+Octon.jpg|1e
+&lt;/gallery&gt;
+| caption2     = Various depictions of octons.
+| name         = Octon
+| size5e       = 
+| type5e       = 
+| subtype5e    = 
+| alignment5e  = 
+| challenge5e  = 
+| refs5e       = 
+| size4e       = 
+| origin4e     = 
+| type4e       = 
+| subtype4e    = 
+| alignment4e  = 
+| refs4e       = 
+| size3e       = Large
+| type3e       = [[Outsider]]
+| subtype3e    = 
+| alignment3e  = Always [[lawful neutral]]
+| challenge3e  = 11
+| refs3e       = &lt;ref name="MotPWE3e"&gt;{{Cite web enhancement/The Modrons|12}}&lt;/ref&gt;
+| size2e       = Large
+| alignment2e  = [[Lawful neutral]]
+| refs2e       = &lt;ref name="PSCS-MS-16"&gt;{{Cite book/Planescape Campaign Setting/Monstrous Supplement|16}}&lt;/ref&gt;
+| size1e       = Large
+| alignment1e  = [[Lawful neutral]]
+| refs1e       = &lt;ref name="MMII1e-89"/&gt;
+| patron deity = [[Primus]]&lt;ref name="MMII1e-86"/&gt;
+| vision       = [[Darkvision]]&lt;ref name="MotPWE3e" /&gt;
+| activecycle  = Any&lt;ref name="PSCS-MS-16"/&gt;
+| diet         = 
+| lifespan     = 
+| location     = [[Mechanus]]&lt;ref name="PSCS-MS-16"/&gt;
+| language     = [[Auran]], [[Celestial language|Celestial]], [[Modron language|Modron]], [[Infernal language|Infernal]]&lt;ref name="MotPWE3e" /&gt;
+| subraces     = 
+| climate      = Any&lt;ref name="MotPWE3e" /&gt;
+| terrain      = Any&lt;ref name="MotPWE3e" /&gt;
+| height       = {{SI|7|ft}}&lt;ref name="MMII1e-86" /&gt;
+| length       = 
+| wingspan     = 
+| weight       = 
+| skincolor    = 
+| haircolor    = 
+| hairstyles   = 
+| feathers     = 
+| eyecolor     = 
+| build        = 
+| distinctions = 
+| based        = 
+| first        = [[Monster Manual II 1st edition|''Monster Manual II'' 1{{st}} edition]]
+}}
+'''Octons''' were the third lowest rank among the hierarch [[modron]]s.&lt;ref name="MMII1e-86"&gt;{{Cite book/Monster Manual II 1st edition|86}}&lt;/ref&gt;
+
+==Description==
+Octons looked like an elongated cylinder that tapered to a point at the top. Just below this point and on either side they had a set of two eyes and a mouth. About a third of the way down their body was a collar-like "shoulder" ring that encircled their entire body. Attached to this ring were eight evenly-spaced tentacles.&lt;ref name="MotPWE3e" /&gt;
+
+==Combat==
+If forced into combat, an octon used a combination of innate abilities, spells and their tentacles.&lt;ref name="MotPWE3e" /&gt;
+
+==Abilities==
+Like all hierarch modrons, octons had the innate ability to duplicate the effects of ''[[clairaudience]]'', ''[[clairvoyance]]'', ''[[command]]'', ''[[dimension door]]'', ''[[haste]]'', ''[[telekinesis]]'', ''[[teleport without error]]'', and ''[[wall of force]]'' spells at will.&lt;ref name="TGMM-p126"&gt;{{Cite book/The Great Modron March|126}}&lt;/ref&gt; Additionally, they were able to duplicate the effects of ''[[detect evil and good]]'', ''[[haste]]'', ''[[telekinesis]]'' and ''[[water walk]]'' spells. Octons were able to cast [[divine]] spells from the [[Law domain|Law]], [[Protection domain|Protection]] and [[War domain|War]] domains. Octons were immune to all effects that influenced the mind and all psionic-based attacks and had a resistance to acid, cold and fire.&lt;ref name="MotPWE3e" /&gt;&lt;ref name="TGMM-p127"&gt;{{Cite book/The Great Modron March|127}}&lt;/ref&gt;
+
+==Society==
+There were exactly 64 octons in modron society. They acted as governors to each of the sixty-four sectors of [[Nirvana]]. As such, they were considered responsible for the base modrons of their sector, as well as the [[decaton]]s and [[nonaton]]s that were assigned to them. Each octon had a personal staff consisting of one decaton, one nonaton, five [[pentadrone]]s, sixteen [[quadrone]]s, eighty-one [[tridrone]]s, two hundred and fifty-six [[duodrone]]s, and one thousand, seven hundred and twenty eight [[monodrone]]s. They maintained small towers, which resembled smaller versions of the towers of the [[quarton]]s, the [[Secundus|secundi]], and [[Primus]].&lt;ref name="MMII1e-89"&gt;{{Cite book/Monster Manual II 1st edition|89}}&lt;/ref&gt;
+
+==Ecology==
+Octons were able to float through air and water with equal ease. Locomotion was provided by forcing either air or water through its collar-like shoulder ring. Due to the position of their eyes, octons had a 360 degree field of vision and could see in [[darkvision]] up to {{SI|60|ft}}. Octons were able to communicate telepathically with any sentient creature within {{SI|80|mi|k}}.&lt;ref name="MotPWE3e" /&gt;
+
+==Appendix==
+===Appearances===
+:;Adventures
+::''[[The Great Modron March]]''
+:;Comics
+::''[[Evil at Baldur's Gate 3|Evil at Baldur's Gate #3]]
+===References===
+{{Refs}}
+
+===Connections===
+{{Modrons}}
+[[Category:Hierarch modrons]]
+[[Category:Modrons]]
+[[Category:Creatures found in Mechanus]]
+[[Category:Creatures found in Regulus]]
+[[Category:Monster|Modron, 8]]</text>
+      <sha1>sjrg4ad99sbud0rnibnou9csp3gbfih</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Oerth</title>
+    <ns>0</ns>
+    <id>2868</id>
+    <revision>
+      <id>7291</id>
+      <parentid>6533</parentid>
+      <timestamp>2026-02-27T22:00:15Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <minor/>
+      <comment>Added external link.</comment>
+      <origin>7291</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4993" sha1="3m9e1i8gokrca2bfopwp1bnpm7wud3s" xml:space="preserve">[[File:GreyhawkLogo2e.png|300px|thumb|right|[[Greyhawk]] (AD&amp;D 2nd Edition)]]
+
+'''Oerth''' is the primary inhabited world found within [[w:c:spelljammer:Greyspace|Greyspace]] on the [[Prime Material plane]]. Contrary to most other Prime systems, it's geocentric, with Oerth at the center, orbited by the sun, Liga. Although not as magic-rich as worlds like [[Toril]], some of the most well-known sorcerers of the planes come from this world.
+
+Oerth is most infamous as the home of the lich-turned-power, [[Vecna]].
+
+== Personalities ==
+
+The following planar personalities came from Oerth:
+
+* [[Acererak]]&lt;ref name="tip112"&gt;{{b|Planescape|The Inner Planes|pdf=17296|page=112}}&lt;/ref&gt;
+* [[Oolan]]&lt;ref name="tip79"&gt;{{b|Planescape|The Inner Planes|pdf=17296|page=79}}&lt;/ref&gt;
+* [[Factol]] Duke [[Rowan Darkwood]]&lt;ref name="pscspg73"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=73, ''Sigil and Beyond''}}&lt;/ref&gt;&lt;ref name="fm61"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=61}}&lt;/ref&gt; (although he claims to come from Toril)
+* [[Talun Underfoot]]&lt;ref name="fw19"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=19}}&lt;/ref&gt;
+* [[Tylaric Stormwing]]&lt;ref name="teb17"&gt;{{b|Planescape|The Eternal Boundary|pdf=17300|page=17}}&lt;/ref&gt;
+* [[Verden]]&lt;ref name="uncaged108"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=108}}&lt;/ref&gt;
+
+[[Jemorille]] the Exile claims to have "balanced the forces of good and evil" by creating -- and then bringing about the destruction of -- a [[w:c:greyhawk:Temple of Elemental Evil|temple dedicated to elemental evil]].&lt;ref name="uncaged50"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=50}}&lt;/ref&gt;
+
+
+== Portals ==
+
+Natives of Oerth have a healthy fear of portals and what horrors might come pouring through, so any portals discovered tend to be destroyed or magically sealed. As such, planar portals tend to be fairly rare.
+
+The following portals are known to link to Oerth:
+
+* Between the [[Inner Planes]] and the [[Temple of Elemental Evil]]&lt;ref name="pwhb33"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|page=33}}&lt;/ref&gt;
+* Between the [[Elemental Plane of Fire]] and the [[Vault of the Drow]]&lt;ref name="dg86"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=86}}&lt;/ref&gt;
+* Between the [[Elemental Plane of Water]] and an underground shrine to Blibdoolpoolp&lt;ref name="dg86"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=86}}&lt;/ref&gt;
+* Between the [[Demonweb Pits]] ([[Abyss]]) and the [[Vault of the Drow]]&lt;ref name="pwhb50"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|page=50}}&lt;/ref&gt; (technically an astral conduit)&lt;ref name="gtta27"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=27}}&lt;/ref&gt;&lt;ref name="dg72"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=72}}&lt;/ref&gt;
+* Between the [[Lower Planes]] and [[Castle Greyhawk]]&lt;ref name="pwhb33"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|page=33}}&lt;/ref&gt;
+* A window in [[Harbinger House]] looks out over the Domain of Greyhawk.&lt;ref name="hh52"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=52}}&lt;/ref&gt;
+* The [[Seafarer's Arch]] in the [[Ditch]] links to an oblong shoal of rocks in the Nyv Dyr&lt;ref name="poly137-15"&gt;{{b|Polyhedron|Polyhedron Magazine 137|page=15}}&lt;/ref&gt;
+
+== Gods ==
+
+: See also: [[Oerth powers]]&lt;ref name="ohg165"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=165}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+A pact between the gods prevents them from manifesting avatars.
+
+* [[Beory]] (Greater)
+* [[Boccob]] (Greater)
+* [[Istus]] (Greater)
+* [[Incabulos]] (Greater)
+* [[Nerull]] (Greater)
+* [[Pelor]] (Greater)
+* [[Vecna]] (Greater)
+* [[Celestian]] (Intermediate)
+* [[Ehlonna]] (Intermediate)
+* [[Fharlanghn]] (Intermediate)
+* [[Heironeous]] (Intermediate)
+* [[Kord]] (Intermediate)
+* [[Lendor]] (Intermediate)
+* [[Obad-Hai]] (Intermediate)
+* [[Olidammara]] (Intermediate)
+* [[Pholtus]] (Intermediate)
+* [[St. Cuthbert]] (Intermediate)
+* [[Trithereon]] (Intermediate)
+* [[Ulaa]] (Intermediate)
+* [[Wee Jas]] (Intermediate)
+* [[Alia Allitur]] (Lesser)
+* [[Atroa]] (Lesser)
+* [[Berei]] (Lesser)
+* [[Bleredd]] (Lesser)
+* [[Bralm]] (Lesser)
+* [[Cyndor]] (Lesser)
+* [[Dalt]] (Lesser)
+* [[Delleb]] (Lesser)
+* [[Fortubo]] (Lesser)
+* [[Geshtai]] (Lesser)
+* [[Jascar]] (Lesser)
+* [[Joramy]] (Lesser)
+* [[Lirr]] (Lesser)
+* [[Llerg]] (Lesser)
+* [[Lydia]] (Lesser)
+* [[Myhriss]] (Lesser)
+* [[Osprem]] (Lesser)
+* [[Phaulkon]] (Lesser)
+* [[Phyton]] (Lesser)
+* [[Sotillon]] (Lesser)
+* [[Velnius]] (Lesser)
+* [[Wenta]] (Lesser)
+* [[Zodal]] (Lesser)
+* [[Al'Akbar]] (Demipower)
+* [[Iuz]] (Demipower)
+* [[Mayaheine]] (Demipower)
+* [[Ye'Cind]] (Demipower)
+
+
+== Background Information ==
+
+'''Oerth''' is the primary setting for the ''[[Greyhawk]]'' campaign setting.
+
+== External Links ==
+* {{FRW}}
+* [[w:c:greyhawk:Oerth|Oerth]] on the ''Greyhawk Wiki''
+* [[w:c:spelljammer:Oerth|Oerth]] on the ''Spelljammer Wiki''
+
+== References ==
+&lt;references /&gt;
+
+[[Category:Prime Material worlds]]
+[[Category:Oerth]]</text>
+      <sha1>3m9e1i8gokrca2bfopwp1bnpm7wud3s</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Oinos</title>
+    <ns>0</ns>
+    <id>195</id>
+    <revision>
+      <id>960</id>
+      <parentid>216</parentid>
+      <timestamp>2023-01-05T02:35:11Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>216</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="457" sha1="nenji0tcla4ke7hsrnleowmz4b9ume6" xml:space="preserve">'''Oinos''' was the first layer of the plane of The [[Gray Waste]].
+
+It was the main battlefield of the [[Blood Wars]], and was a land of disease and stunted trees. The [[River Styx]] flowed through this layer.
+
+== Realms ==
+
+* [[Khin-Oin]], the Wasting Tower
+* [[Lodestone of Misery]]
+* [[Crystal Spire]]
+* [[Fleshslough]]
+* [[Fortress of Disease]]
+* [[Glitterhell]]
+** [[The Village]]
+* [[Urdsrest]]
+* [[Charnelhouse]]
+* [[Nergaltos]]
+
+[[Category:Layers]]</text>
+      <sha1>nenji0tcla4ke7hsrnleowmz4b9ume6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Olympus (layer)</title>
+    <ns>0</ns>
+    <id>308</id>
+    <revision>
+      <id>379</id>
+      <parentid>377</parentid>
+      <timestamp>2022-02-12T13:39:49Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <origin>379</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1076" sha1="mljlsyvjkh2wytigqrqk7chgdwpyh90" xml:space="preserve">[[File:Olympus map.jpg|thumb|right|400px]]
+'''Olympus''' (also called '''Arvandor''' by the Elves) was the first layer of the plane of [[Arborea]].
+
+== Realms ==
+
+* [[Thrassos]]
+* [[Gilded Hall]]
+* [[Arvandor]]
+** [[Grandfather Oak]]
+** [[Evergold]] ''(also known as Canathas)''
+** [[Gnarl]]
+** [[Ingmar Brook]]
+** [[Lolth's Grove]]
+** [[Pale Tree]]
+** [[Roaring Gate]]
+** [[Sparkling Sea]]
+** [[Lake Goneril]]
+** [[Highhunt River]]
+** [[Hill of the Dancing Man]]
+** [[Brandywine River]]
+** [[Apprentice's Reverie]]
+* [[Brightwater]]
+* [[Loom of the Celestial River]]
+* [[Florallium]]
+* [[Olympus (realm)|Olympus]]
+** [[Arkenos]]
+** [[Polykeptolon]]
+** [[Thalassia]]
+** [[Hephaestus's Forge]]
+** [[Demeter's Field]]
+** [[Dionysus's Vineyard]]
+** [[Mount Olympus]]
+*** [[Vast Temple]]
+*** [[Golden Falls]]
+*** [[Aphrodite's Palace]]
+*** [[Athena's Hall]]
+*** [[Ares's Fortress]]
+*** [[Apollo's Temple]]
+*** [[Hermes's Den]]
+** [[Kourakis River]]
+* [[Whistledge]]
+* [[Absorbing Light]]
+* [[River Alph]]
+* [[Forking Road]]
+* [[Portage Inn]]
+* [[Songsheight]]
+
+[[Category:Layers]]</text>
+      <sha1>mljlsyvjkh2wytigqrqk7chgdwpyh90</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>On Hallowed Ground</title>
+    <ns>0</ns>
+    <id>505</id>
+    <revision>
+      <id>7030</id>
+      <parentid>6996</parentid>
+      <timestamp>2025-08-27T07:24:06Z</timestamp>
+      <contributor>
+        <username>UnseenServantBot</username>
+        <id>11660122</id>
+      </contributor>
+      <minor/>
+      <comment>dmsguild links</comment>
+      <origin>7030</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3982" sha1="teuy68mii8fqqfqfpl15el0tzwuddmb" xml:space="preserve">{{Book
+| image       = [[Image:OnHallowedGroundCover.jpg|250px]]
+| caption     = Cover of 2nd edition sourcebook
+| code        = TSR2623
+| title       = On Hallowed Ground
+| author      = [[Colin McComb]]
+| editor       = [[Ray Vallese]]
+| cover_artist = [[Robh Ruppel]]
+| inter_artist = [[Adam Rex]]&lt;br/&gt;[[Brain Despain]]&lt;br/&gt;[[Biran Fox]]&lt;br/&gt;[[Lubov]]
+| cartography  = [[Roy Bohoist]]
+| typography   = [[Angelika Lokotz]]
+| publisher   = [[TSR, Inc.]]
+| released    = October 1996
+| type        = Accessory
+| binding     = Paperback
+| pages       = 192
+| game_edition = 2
+| isbn10      = 0-7869-0430-5
+| isbn13      = 9780786904303
+| Roll20number = 121101
+}}
+'''''On Hallowed Ground''''' is a Planescape&lt;sup&gt;®&lt;/sup&gt; AD&amp;D 2nd edition accessory. It contains information about the planar domains of deities from 20 separate pantheons. New ideas and rules for priest characters on the planes are included, as well as tips on creating, visiting and surviving divine realms, comprehensive appendices listing gods by pantheon and portfolio, and planar maps.
+
+{{Quote|'''''THE POWERS MOVE IN MYSTERIOUS WAYS.'''''
+'''''AT LEAST, THEY DID &amp;mdash; UNTIL NOW.'''''
+
+''No ordinary tome can hold the powers of the planes, berk. That's why ''On Hallowed Ground'' is two books in one. In the first chapters, learn what divine compacts keep the gods from tearing the multiverse apart. Get the dark on turning player characters into proxies. Find out what happens when a spellslinger brings a petitioner back to life. And tumble to the awesome prestige &amp;ndash; and awesome ''danger'' &amp;ndash; of walking the Great Ring as a priest.''
+
+''The second part of ''On Hallowed Ground'' delivers the chant on hundreds of AD&amp;amp;D&lt;sup&gt;&amp;reg;&lt;/sup&gt; game powers, from Aasterinian to Zivilyn &amp;ndash; and just about every high-up in between. More than a summary of old material, it updates the AD&amp;D game's gods for the [[Wikipedia:Planescape|PLANESCAPE]]&amp;trade; campaign setting, featuring their trusted proxies, their brash rivalries, and their hard-won roles in the cosmos.''}}
+
+==Contents==
+* Introduction
+* Priests
+* Proxies
+* Petitioners
+* The Powers
+* Planar Affairs
+* Realms of the Gods
+* The Ancient Pantheons
+* The Celtic Pantheon
+* The Dwarvish Pantheon
+* The Egyptian Pantheon
+* The Elvish Pantheon
+* The Finnish Pantheon
+* Gnomes and Halfings
+* The Greek Pantheon
+* Monstrous Powers
+* The Norse Pantheon
+* The Reclusive Pantheons
+* Single-Sphere Pantheons
+* Appendix 1: The Powers by Pantheon
+* Appendix 2: The Powers by Sphere
+* Appendix 3: The Powers by Name
+
+==Index==
+===Characters===
+:[[Barr-Find]] • [[Tomas Bookbinder]] • [[Fial Cairbre]] • [[Hierophant (proxy)|Hierophant]] • [[Khamallan Teren]]
+
+==Appendix==
+===Credits===
+* '''Designer:''' [[Colin McComb]]
+* '''Editor:''' [[Ray Vallese]]
+* '''Cover Artist:''' [[Robh Ruppel]]
+* '''Interior Artists:''' [[Brian Despain]], [[Brian Fox]], [[Lubov]], [[Adam Rex]]
+* '''Cartographer:''' [[Roy Boholst]]
+* '''Art Director:''' [[Bob Galica]]
+* '''Project Manager:''' [[Andria Hayday]], [[Karen Boomgarden]]
+* '''Electronic Prepress Coordinator:''' [[Dave Conant]]
+* '''Typography:''' [[Angelika Lokotz]]
+* '''Border Art:''' [[Robert Repp]]
+* '''Graphic Design/Cover:''' [[Dawn Murin]]
+* '''Graphic Design:''' [[Dee Barnett]]
+* '''Appendices, Proofreading, and Helping Hand:''' [[Michele Carter ]]
+* '''Map Design Assistance:''' [[Monte Cook]]
+* '''Cool Ideas and Advice:''' [[Jon Winter]], [[MC Gianni]]
+* '''Author Thanks to:''' [[Michele Carter]] for her unflagging devotion to the gods, the Planescape e-mail list for support and suggestions, and, of course, [[Dave Zenz]] for being godlike.
+* '''Dedicated to:''' [[Hamilton McComb]] (1903-1995)
+
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild}}
+* {{DriveThruRPG}}
+
+===Connections===
+{{Planescape sourcebooks}}
+[[Category:2nd edition sourcebooks]]
+[[Category:Sourcebooks]]
+[[Category:Works by Colin McComb]]
+[[Category:Published in 1996]]
+[[Category:Books]]</text>
+      <sha1>teuy68mii8fqqfqfpl15el0tzwuddmb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Opposition</title>
+    <ns>0</ns>
+    <id>2728</id>
+    <revision>
+      <id>6756</id>
+      <parentid>6340</parentid>
+      <timestamp>2025-06-19T17:27:03Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>6756</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1451" sha1="m0zxps4g1ti06l33kjz514iui2ps3qn" xml:space="preserve">{{Faction
+  | faction        = Opposition
+  | image1         = SectOpposition.png
+  | caption-image1 = 
+  | nickname       = Opposers
+  | philosophy     = Anything can be defined by its opposite; opposites give meaning.
+  | founded        = 
+  | factol         = 
+  | sigilhq        = 
+  | homefield      = [[Inner Planes]], mostly the [[Elemental Plane of Air]]
+  | allies         = [[Believers of the Source]], [[Bleak Cabal]], and [[Fated]] find points of agreement, but Opposers want no allies.
+  | enemies        = Pretty much everyone
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Opposition''' are a [[sect]] mostly found on the Inner Planes, who believe in the power of opposites. Without something to oppose -- something to struggle against -- a thing becomes weak. Therefore, they make themselves the enemy of most of those who they encounter, not out of malice, but out of a desire to improve both.
+
+== History ==
+
+== Philosophy ==
+
+Whatever you think is wrong. Greatness comes from hardship, and hardship is brought about by conflict. Everything is honed to perfection by clashing with its opposite. Agreement is weakness.
+
+== Role ==
+
+== Membership ==
+
+Only those who are true neutral may join.
+
+== Background Information ==
+
+== References ==
+* {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294|page=66-67}}
+
+{{scroll|&lt;references /&gt;}}
+
+{{Sects}}
+
+[[Category:Sect]]
+[[Category:Monster]]
+[[Category:Opposition]]</text>
+      <sha1>m0zxps4g1ti06l33kjz514iui2ps3qn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Order of the Planes-Militant</title>
+    <ns>0</ns>
+    <id>2659</id>
+    <revision>
+      <id>6757</id>
+      <parentid>6740</parentid>
+      <timestamp>2025-06-19T17:27:18Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>6757</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1622" sha1="1aktpa3y1gr5gicl0oxx1e33mdzhsxi" xml:space="preserve">{{Faction
+  | faction        = The Order of the Planes-Militant
+  | image1         = SectOrderofthePlanesMilitant2e.png
+  | caption-image1 = 
+  | nickname       = The Children of Heaven, the Brethren, the Faithful
+  | philosophy     = Defend Mount Celestia at all costs
+  | founded        = [[874 BFHR]]
+  | factol         = Prefect [[Increase VII]]
+  | sigilhq        = 
+  | homefield      = [[Mount Celestia]]
+  | allies         = [[Fraternity of Order]], [[Harmonium]]
+  | enemies        = [[Athar]], [[Fated]], [[Doomguard]]
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Order of the Planes-Militant''' are a [[sect]] dedicated to the protection and defenses of Mount Celestia, which they see as a mighty fortress. Members raid the lower planes, fight evil and chaos within neutral boundary territories like Mechanus and Acheron, and expand their holdings by shifting territory over from Arcadia and the Outlands.
+
+== History ==
+
+== Philosophy ==
+
+== Role ==
+
+== Membership ==
+: ''See also:'' [[List of Order of the Planes-Militant members]]
+
+; '''[[Factol]]'''
+
+''Current Factol'':
+* Prefect {{NPC|Increase VII|planar|female|human|priest|15|Order of the Planes-Militant|lg}}&lt;ref name="pol-mc11"&gt;{{b|Planescape|Planes of Law (boxed set)|alt=Planes of Law|pdf=17272|nip=1|page=11}}, ''Mount Celestia''&lt;/ref&gt;
+
+== Background Information ==
+
+== References ==
+* 2nd Edition
+** {{b|Planescape|Planes of Law|pdf=17272|nip=1|page=11, Mount Celestia}}
+** {{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=15}}
+
+{{scroll|&lt;references /&gt;}}
+
+{{Sects}}
+
+[[Category:Sect]]
+[[Category:Order of the Planes-Militant]]</text>
+      <sha1>1aktpa3y1gr5gicl0oxx1e33mdzhsxi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ortho</title>
+    <ns>0</ns>
+    <id>2916</id>
+    <revision>
+      <id>7287</id>
+      <parentid>5314</parentid>
+      <timestamp>2026-02-19T12:51:27Z</timestamp>
+      <contributor>
+        <username>RexNexus</username>
+        <id>49660258</id>
+      </contributor>
+      <comment>Added external link</comment>
+      <origin>7287</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1316" sha1="11j5qz5akgrulwbwskrzswncclcjkad" xml:space="preserve">'''Ortho''' the homeworld of the [[Harmonium]] faction on the [[Prime Material plane]]. 
+
+The Harmonium began in [[374 BFHR]] as an adventuring party on the Prime world of Ortho, setting a goal to "rid the country of chaos and bring peace to the land." Unlike most such parties, they actually did it. Gradually, they would bring peace to the entire world (whether it wanted it or not). Occasionally chaos would rampage across the land, and they tracked these to demonic incursions from the [[Outer Planes]]. &lt;ref name="fm90"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=90}}&lt;/ref&gt; Once they discovered the Outer Planes, it wasn't long before they found their way to [[Sigil]].&lt;ref name="pwhb33"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|page=33}}&lt;/ref&gt;
+
+== Personalities ==
+
+The following planar personalities came from Ortho:
+* [[Sarin]]&lt;ref name="fm91"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=91}}&lt;/ref&gt;
+
+
+== Portals ==
+
+The following portals are known to link to Ortho:
+
+* The [[Seafarer's Arch]] in the [[Ditch]] links to Ortho&lt;ref name="poly137-15"&gt;{{b|Polyhedron|Polyhedron Magazine 137|page=15}}&lt;/ref&gt;
+
+
+== Background Information ==
+
+== External Links ==
+* {{Spelljammer Wiki external link}}
+== References ==
+&lt;references /&gt;
+
+[[Category:Prime Material worlds]]
+[[Category:Ortho]]</text>
+      <sha1>11j5qz5akgrulwbwskrzswncclcjkad</sha1>
+    </revision>
+  </page>
+</mediawiki>

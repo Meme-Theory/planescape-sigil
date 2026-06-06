@@ -1,0 +1,7 @@
+# Reconstitution deps for the three core MCPs (mimir / mechanus / modron)
+# and the extraction pipeline. Python 3.13 via the py launcher:
+#   py -3.13 -m pip install -r pipeline/requirements.txt
+# (dabus/cant have their own stacks — see tools/README.md and pipeline/cant/CANT.md)
+pymupdf          # fitz — PDF text/render extraction (psx, book, text caches)
+mcp              # MCP server SDK (all five servers)
+pytest           # the suites: mechanus 47+, modron 171, mimir 102, cant 43

@@ -1,0 +1,2388 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Planescape Wiki</sitename>
+    <dbname>planescape</dbname>
+    <base>https://planescape.fandom.com/wiki/Planescape_Wiki</base>
+    <generator>MediaWiki 1.43.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Planescape Wiki</namespace>
+      <namespace key="5" case="first-letter">Planescape Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>A Player's Primer to the Outlands/Mausoleum of Chronepsis</title>
+    <ns>0</ns>
+    <id>2954</id>
+    <revision>
+      <id>5477</id>
+      <timestamp>2024-09-12T14:30:22Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5477</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1850" sha1="73symekr5ujidxvyzvnzb6q0dlm1a9x" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Mausoleum of Chronepsis'' is the 30th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': In a city lost to time and knowledge dwells [[Chronepsis]], the dragon god of fate, who looks over the lives of all the dragons in the multiverse, with their lives numbered in hourglasses spread throughout its hidden realm. This is an account by [[Heea Gee]], self-appointed master thief:
+
+: '''Heea Gee''': I'm moving through a set of ruins. This place is very big, and I'm pretty sure I'm getting close to the place I need to be. ...All right, here's the cave I need to go down.
+
+: This place smells like a big snake. You know that dry, reptile smell?
+
+: Powers above, this place is huge! I mean, it's farther than they eye can see, and there's hourglasses lining every wall! I mean, this means that there's a lot more dragons than I thought!
+
+: I've heard a big dragon power's supposed to be here, but there's no sign of it. Just as well, I suppose. Let's see, what hourglass am I supposed to take? [[Enfirana]]... En-fir-ana... ah! Here it is. Hoo hoo hoo! That prime's going to pay dearly for this one.
+
+: '''Chronepsis''': ''roars in distance''
+
+: '''Heea Gee''': Agh!
+
+
+== Background Information ==
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=qUQCFWCN7_s This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;29. [[A Player's Primer to the Outlands/Thoth's Estate/Thebestys|Thoth's Estate/Thebestys]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;31: [[A Player's Primer to the Outlands/The Vale of the Spine|The Vale of the Spine]]
+|}
+
+
+{{DEFAULTSORT:Mausoleum of Chronepsis}}
+[[Category:Audio tracks]]</text>
+      <sha1>73symekr5ujidxvyzvnzb6q0dlm1a9x</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Mimir's Introduction</title>
+    <ns>0</ns>
+    <id>2817</id>
+    <revision>
+      <id>6669</id>
+      <parentid>5572</parentid>
+      <timestamp>2025-06-14T17:49:30Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>lk</comment>
+      <origin>6669</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2587" sha1="75zjy5m84tan4ur2wcecuq9mjpj6kp2" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Mimir's Introduction'' is the first track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''. 
+
+== Transcript ==
+
+: '''Mimir''': I am [[mimir (item)|mimir]]: a magical construct designed to provide information. I can be of most valuable aid in the successful exploration of the [[Outer Planes]]. If you have stolen me, please be aware that now, bounty hunters are coming to claim me for justice.
+
+: I perform only in the Outer Planes. My information comes straight from the mouths of [[planewalker]]s, [[proxy|proxies]], or [[petitioner]]s. I have been carried around the Outer Planes by agents who have sought out those who have had experience in various subjects. Inscribed on me are their voices and impressions.
+
+: '''(Various overlapping voices)'''
+: '''[[Ariana Arachnis]]''': There are sixteen [[gate-town]]s in the &amp;mdash;
+: '''Various voices''': Why won't it stop whistling in my ears?!
+: '''[[Jeobi Groove]]''': If you're looking for more, there's plenty of inns &amp;mdash;
+: '''[[Flatnose Grim]]''': Get out!
+: '''Various voices''': Lord [[Quentill Paracs|Paracs]] is the brains behind the&amp;mdash;
+
+: '''Mimir''': And they will speak to you directly of their experiences, though they cannot answer questions. They are simply recordings, and the sights they see may or may not be true, or they may color the sights and sounds with their own perceptions.
+
+: I am yours to command. Speak to me, and I will tell you all I know.
+
+== Background Information ==
+* Due to the overlapping voices that make up the mimir's voice, it's difficult to tell if the opening line is "I am mimir" or "I am a mir" -- it may have been intended to be "I am a mimir" but two syllables were inadvertently combined by the voices.
+* The voice samples come from, in order, Track 2: [[A Player's Primer to the Outlands/Gate-towns|Gate-towns]], Track 4: [[A Player's Primer to the Outlands/Bedlam|Bedlam]], Track 17: [[A Player's Primer to the Outlands/Tradegate|Tradegate]], Track 10: [[A Player's Primer to the Outlands/Glorium|Glorium]], and Track 13: [[A Player's Primer to the Outlands/Ribcage|Ribcage]].
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=O05Pr6b_CAw This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;N/A
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;2. [[A Player's Primer to the Outlands/Gate-towns|Gate-towns]]
+|}
+
+
+{{DEFAULTSORT:Mimir's Introduction}}
+[[Category:Audio tracks]]</text>
+      <sha1>75zjy5m84tan4ur2wcecuq9mjpj6kp2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/No Information</title>
+    <ns>0</ns>
+    <id>2819</id>
+    <revision>
+      <id>4992</id>
+      <timestamp>2024-02-21T03:07:39Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4992</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="676" sha1="inabh9m71vggxon4eqptf5gyubbkup6" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''No Information'' is the 41st track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''. 
+
+== Transcript ==
+
+: '''Mimir''': I'm sorry. I do not possess that knowledge.
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=EgvC21cUP1g This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;40. [[A Player's Primer to the Outlands/Malfunction Track|Malfunction Track]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;N/A
+|}
+
+
+{{DEFAULTSORT:No Information}}
+[[Category:Audio tracks]]</text>
+      <sha1>inabh9m71vggxon4eqptf5gyubbkup6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Plague-Mort</title>
+    <ns>0</ns>
+    <id>3361</id>
+    <revision>
+      <id>7277</id>
+      <parentid>7228</parentid>
+      <timestamp>2026-02-04T10:05:51Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7277</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1975" sha1="97543ow9ezho8pvid3anak0nlqpwdyb" xml:space="preserve">['''Mimir''']
+
+The gate-town to the Abyss is called Plague-Mort. It is a collection of buildings loosely governed by a being called the Arch-Lector, with his group of secret police, the Hounds, enforcing his edicts. Speaking of Plague-Mort is Alexander Brisimain.
+
+
+[Alexander Brisimain ]
+
+
+
+I'm a member of the Hounds. Let's get that straight right off the mark, berk. And I won't crease your face for you!. I'm one of the watchmen for this here, berk. And I do my duty, see? Make sure that old Birry gets his sum and protection money. And that no leatherhead comes along and burns down the town! Which reminds me, it almost happened a wee while back. The Abyss decided that Plague-Mort 's time had come. And so they sent a bag of fiends up to collect it!. Well, a few berks can outfight a ta'nari. And besides, the fiends were offering a lot of power to a lot of people. Only a total berk could turn that down. So we went along with the fiends in their plan to bring chaos and evil to the town! I mean, it's not like the locals are all sweetness and light, right? We were told to wait until the signal, which turned out to be the death of Arch-Lector Birry Yarmoril! So we all got together and muscled around some of the weaker sods. And then it turns out the fiends are peeling us... cuz there's other groups of ants who want to loot the birds and they're led by a ta'nari too!
+
+
+
+Well, the chaos started and the flames were spouting out of the buildings like blades of razor vine. So, we figured to profit from the chaos anyway. The gate to the abyss was getting bigger. But, but no one paid that any mind. Then, someone realizes... we're all going to wind up in the abyss! And so, we get the town together enough to keep the gate at bay.
+
+
+So, the fiends are defeated, the town gets rebuilt, and the Arch-Lector comes back. What's the point of the whole thing? I ask. What a waste of time. All that mutiny for nothing. Hey, no one else is going to hear this, right? Huh?</text>
+      <sha1>97543ow9ezho8pvid3anak0nlqpwdyb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Realm of the Norns</title>
+    <ns>0</ns>
+    <id>3365</id>
+    <revision>
+      <id>7269</id>
+      <parentid>7240</parentid>
+      <timestamp>2026-02-04T09:58:10Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7269</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1680" sha1="dyrvinj1y31nzziq2yr7ub2znwdryju" xml:space="preserve">['''Mimir''']
+
+Deep in the undergrowth, fairly near Faunel, there sits a Grove of trees. Inside the Grove lies The Well of Earth, a scrying pool controlled by the Norns, or the three Fates.
+
+
+[He Ge]
+
+Hi, my name is He Ge, and I'm from Bedlam. Or was it Pandemonium? Well, whatever. I'm the best sodding thief in Mimir-recording in the Outlands, and don't let anyone tell you otherwise. I like to talk but I can also put a lid on it man, you know? I'm not one to rattle on and on like some berks I know, but they still say I talk too much. It's not true. Anyway, I'm here in the realm of the Norns to take a look into the scrying pool. They said I should check this place out and I figured I might as well take a quick glimpse into what the future's got in store for me. All right. there's no Norns around. Little gray witches always scare me anyway for some reason. So that's just as well. Hmm, I'll look into the pool.
+
+All right, there I am walking juntly into a dragon’s lair. I'm talking to something I'm holding but I can't see what... Hmmm, now all I see is a mouthful of teeth, like a dragon's. Then there's an hourglass, with all the sand run out... oh then just red, uh-oh. Does this mean I'm going to die? Well, if I'm going into a dragon lair, you can bet that I'm going to be a lot more careful than that. Boy, I really look stupid there. I think I'll have to change my wardrobe. Oh well, I can't understand this thing. It doesn't make any sense at all. Stupid fate pool. Well, I'm off to this place called the Mausoleum of Chronepsis- I'm going to be taking something from there for one of my clients. Maybe that'll be a little more exciting than this stupid pool.</text>
+      <sha1>dyrvinj1y31nzziq2yr7ub2znwdryju</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Ribcage</title>
+    <ns>0</ns>
+    <id>3360</id>
+    <revision>
+      <id>7278</id>
+      <parentid>7266</parentid>
+      <timestamp>2026-02-04T10:06:34Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7278</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1932" sha1="642t8ax4qx4irlqbdz8zs3yu3ejxkq2" xml:space="preserve">['''Mimir''']
+
+In the veil of the Spine, sandwiched between Torch and Rigus, is Ribcage, the gate-town to Baator, the pits of desolation and despair. The great pass nearby cuts through the veil of the spine, significantly shortening the distance between Rigus and Ribcag. The town is said to be the most blatantly political in the Outlands with the power of all sorts buying influence, and influence buying a lucrative life. Lord quental parents controls the city with five Senators underneath him who can overturn his vote. This is Senator Lauren Dilfar, a member of one of the five senatorial families. Though he appears to be nothing more than a blowhard, Dilfar is said to be one of the most dangerous men in the city.
+
+
+
+[Senator Lauren Dilfar]
+
+
+The way I see it, Ribcage is like a great big body: The gate to Baator is the heart of town, what keeps the town functioning. And lord Parox is the brains behind the whole operation. My family is the lungs, providing refreshing necessary air to the body. The other families are the other organs, each providing a valuable service in its own way, but none of them are as valuable as the lungs, heart, and head. The brain can tell the lungs to stop breathing, but that doesn't last for long, otherwise the brain doesn't get air, and it withers and dies. The heart doesn't command, but without it, none of the other organs could function. Speaking of the heart, I've heard it said that Rigus is looking to tear the heart out of this body politic. Those scummy military swine want to take over everything. Well, trust me, not going to happen, no sire, no matter what they do. We're well defended, and we've got some allies that can swing any kind of battle our way. I'm talking about the pack, we're about to seal with some of the good gate towns. The good gate towns will just be acting in their own interest, and they'll certainly want to resist the expansionism of Rigus won't they</text>
+      <sha1>642t8ax4qx4irlqbdz8zs3yu3ejxkq2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Rigus</title>
+    <ns>0</ns>
+    <id>3359</id>
+    <revision>
+      <id>7279</id>
+      <parentid>7219</parentid>
+      <timestamp>2026-02-04T10:08:22Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7279</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2087" sha1="naxyz4r21kah1m09koxsg9cspkpb14r" xml:space="preserve">['''Mimir''']
+The military order of Acheron imposes itself on the gate-town of Rigus, making this a permanent encampment for armies great and small. It is built on a hill more than a mile tall, with seven terrace rings dividing the mighty from the meek, the powerful from the powerless. The top of the hill is called the crown. And it's from here that the generals of Rigus command the rest of the citizenry. Captain Timeroth Ress.
+
+
+
+[Captain Timoth]
+
+Right, new here are you? From Sigil, eh? Well, listen to me carefully. Do as I say and you won't have any problems. Life down here is a lot different than in Sigil, mark my words. Our orderly rank system keeps the town running smooth, with the lower ranks instantly obeying anything a higher rank tells them. Let me show you: Trooper.
+
+
+[Random Soldier]
+
+Sir! Yes, sir!
+
+
+[Captain Timoth]
+
+Climb at top that brick wall and jump off.
+
+
+[Random Soldier]
+
+Sir! Yes, sir!
+
+
+
+[Captain Timoth]
+
+Now you, as a visitor, wear this plaque to let people know you don't know the dark of things here. Since you're marked as a visitor, you don't have to do everything someone higher than you says (screams from a random soldier). You can claim the privilege of professional ignorance, see? But don't do it on purpose or you'll find the plaque stripped from you and there won't be a sodding thing you can do about it, right? Outstanding, trooper. Stand at ease.
+
+
+[Random Soldier]
+
+Sir. Thank you, sir.
+
+
+[Captain Timoth]
+
+This is for a Mimir, you say? That's as good a way as any to spread this news. We're looking to take Ribcage, and there ain't a thing they can do about it. Let them shiver when they hear this and let them know that the attack will come within a year's time. Probably through the Great Pass. You know, I like the look of you. Let me see that plaque (sounds of breaking). Well, well, well. Look at that. Walking around Rigus without a ranking. Looks like you're at my mercy now. Troopers!
+
+
+
+[Random Soldier]
+
+Sir! Yes, sir!
+
+
+[Captain Timoth]
+
+Escort our new recruit to the induction center!
+
+
+
+[Random Soldiee]
+
+Sir! Yes, sir!</text>
+      <sha1>naxyz4r21kah1m09koxsg9cspkpb14r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Semuanya's Bog</title>
+    <ns>0</ns>
+    <id>2889</id>
+    <revision>
+      <id>5180</id>
+      <timestamp>2024-03-30T06:29:49Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5180</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1590" sha1="r3l98u8cjyg8uwwsz4nyzrh5h9aftt4" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Semuanya's Bog'' is the 24th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': One of the more untamed regions of the [[Outlands]] is [[Semuanya's Bog]], home to the lizardman [[power]] of the [[Samuanya|same name]]. It lies on the far shore of [[Tir fo Thuinn]], and its realms are uncharted. [[Derelid Gras]] speaks of his new home:
+
+: '''Derelid Gras''': Well, I wasn't too welcome in the town where I was, and no, I ain't telling you where it is. They was looking to put me in the dead-book. So I left, came here, fought off some lizard berks, and made my kip. Now, I'm looking to try to get some of these sods to help me venge myself back into-- oh, ah, in the burg where I were. But I ain't had too much success. I could beat any of these lizard leatherheads in a fair fight. But they fights dirty. So I fights back dirty. Let 'em come for me, 'cause I got something that'll boil 'em in their tracks. And then [[Torch (gate-town)|Torch]] gets it!
+
+
+== Background Information ==
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=glWNbFNkpUI This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;23. [[A Player's Primer to the Outlands/Ironridge|Ironridge]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;25: [[A Player's Primer to the Outlands/Gzemnid's Realm|Gzemnid's Realm]]
+|}
+
+
+{{DEFAULTSORT:Semuanya's Bog}}
+[[Category:Audio tracks]]</text>
+      <sha1>r3l98u8cjyg8uwwsz4nyzrh5h9aftt4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Sylvania</title>
+    <ns>0</ns>
+    <id>2825</id>
+    <revision>
+      <id>5000</id>
+      <timestamp>2024-02-23T01:01:01Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5000</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="960" sha1="9daa8jl70iuvuz7s99p4zw28em4y2wx" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Sylvania'' is the 15th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': The town of [[Sylvania]] surrounds the gate to [[Arborea]]. Unfortunately, there was no use in trying to get a description of the place, for every agent sent failed to return with any usable information. "Too many parties," they said.
+
+: '''Reveler''': Hey c'mon, let's go to the [[Dipping Dragon Inn]]! Come on!
+
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=YErjHOgm2dM This track on YouTube]
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;14. [[A Player's Primer to the Outlands/Rigus|Rigus]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;16: [[A Player's Primer to the Outlands/Torch|Torch]]
+|}
+
+
+{{DEFAULTSORT:Sylvania}}
+[[Category:Audio tracks]]</text>
+      <sha1>9daa8jl70iuvuz7s99p4zw28em4y2wx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/The Caverns of Thought</title>
+    <ns>0</ns>
+    <id>2955</id>
+    <revision>
+      <id>5478</id>
+      <timestamp>2024-09-12T15:05:03Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5478</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2410" sha1="0oq11rsijh3aifhlyxxbu7qx6joogs5" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''The Caverns of Thought'' is the 26th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': [[Illithid]]s &amp;mdash; or mind flayers, as they are more commonly known &amp;mdash; place their power in a winding maze of tunnels near the [[Dwarven Mountain]]. It's actually connected to both the Mountain and [[Gzemnid's Realm]]. But a traveler who passes into [[Ilsensine]]'s [[Caverns of Thought]] will know it: the mental drone becomes steadily worse as a body penetrates farther into the realm. [[Isusslis]], an illithid traveler, speaks of the Caverns of Thought:
+
+: '''Isusslis''': From the Cavern of Thought, stay away! Friendly advice, give I. Though brains eat people my, given heed this advice. What? Speak I you for? Do not go to the caverns. Ilsensine will your brains suck dry, taking thoughts for itself. The brain-god hate non-illithid destroy. Even fiends steer clear of caverns. Their brains eat good as anyone. Mark my words: caverns dangerous. Do not go in. 
+
+== Background Information ==
+
+* The voice actors for both Isusslis and the Mimir repeatedly use "Ilsenine" erroneously, when the illithid god's name is "Ilsensine," with two S's. We used the correct name in the transcript above.
+* Although Isusslis' speech initially seems Yoda-esque, fitting a repeatable pattern, it quickly devolves, with words within a sentence mixed in random order, before returning to something approaching normal at "Speak I for you," suggesting they're intentionally making their speech more understandable for the listener's benefit. They may be a [[Xaositect]], naturally speaking in Chaosspeak.
+** The beginning dialogue should be translated: "Stay away from the Caverns of Thought! I give friendly advice. Though my people eat brains, heed this advice given. What? I speak for you?"
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=pTbeJSkLCBw This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;25. [[A Player's Primer to the Outlands/Gzemnid's Realm|Gzemnid's Realm]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;27: [[A Player's Primer to the Outlands/The Palace of Judgment|The Palace of Judgment]]
+|}
+
+
+{{DEFAULTSORT:Caverns of Thought}}
+[[Category:Audio tracks]]</text>
+      <sha1>0oq11rsijh3aifhlyxxbu7qx6joogs5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/The Great Pass</title>
+    <ns>0</ns>
+    <id>2839</id>
+    <revision>
+      <id>5041</id>
+      <timestamp>2024-03-03T19:07:57Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>great pass</comment>
+      <origin>5041</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1884" sha1="s6cv3hb7fqxip26mqgz5udegof8b725" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''The Great Pass'' is the 32nd track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': Cutting through the [[Vale of the Spine]], and connecting [[Ribcage]] to [[Rigus]], lies the [[Great Pass]]. The Pass is said to be controlled by a small bandit army. It's for this reason that many merchants making the Ribcage-Rigus circuit take the long way. One such merchant is [[Terennius Red]]:
+
+: '''Terennius Red''': The bandits ain't the only reason I don't go through the Pass anymore. I can take a small hit in my profits. I didn't complain about [[Quentill Paracs|Paracs]] or General [[Nagaro|what's-her-name]] from Rigus, but both sorts threatened to have me executed, or worse, for spreading fear among the merchants. So, I let it drop. Anyways, the main reason I don't go there no more is that I've seen armies start to cordon off both ends of the Pass like they're getting ready for war on both sides. While I'd like to think that Paracs and the General listened to me, I think there's something much more dangerous going on. And I ain't gonna get my [indecipherable] muddied.
+
+
+== Background Information ==
+* The Great Pass is a track that doesn't have an accompanying section in the Primer book. The Pass material is instead included in the section on [[Ribcage]].
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=tcUCqxawfTs This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;31. [[A Player's Primer to the Outlands/The Vale of the Spine|The Vale of the Spine]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;33: [[A Player's Primer to the Outlands/Bariaur Tribes|Bariaur Tribes]]
+|}
+
+
+{{DEFAULTSORT:Great Pass}}
+[[Category:Audio tracks]]</text>
+      <sha1>s6cv3hb7fqxip26mqgz5udegof8b725</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/The Great Road</title>
+    <ns>0</ns>
+    <id>2890</id>
+    <revision>
+      <id>5181</id>
+      <timestamp>2024-03-30T06:42:29Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5181</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1920" sha1="rfcuat76du3v87ddjqr34fntqeygtv8" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''The Great Road'' is the 39th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': The [[Outer Planes]] can be imagined as a Great Ring, with the [[Outlands]] in the center, and the city of [[Sigil]] in the center of the Outlands. There is said to be a road linking all the planes to each other, one that can be traveled by a being with determination. [[Dae Zeka]] tells us more:
+
+: '''Dae Zeka''': The path that links all the planes is called the [[Great Road]]! Since the planes are all in a ring around the Outlands, it's not hard to imagine. Sometimes the Road's paved, more often, it's not. There's permanent gates that don't need keys abutting the neighboring planes, and towns spring up around these, so if you wanted to walk all the way from [[Elysium]] and back without passing through the same place, you could. You'd need the permission of the fiends in the [[Lower Planes]] to walk on their portion of the Great Road. And I don't know of anyone or anything that's walked the whole Ring except the [[Great Modron March|Modron Procession]]. It's a good way to get lost. Besides, folks get mighty leery of people just "passing through." If you're thinking about doing the walk, do it carefully. 
+
+
+== Background Information ==
+* ''The Great Road'' is the final informational track on the CD.
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=glWNbFNkpUI This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;38. [[A Player's Primer to the Outlands/Walking Castles|Walking Castles]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;40: [[A Player's Primer to the Outlands/Malfunction Track|Malfunction Track]]
+|}
+
+
+{{DEFAULTSORT:Great Road, The}}
+[[Category:Audio tracks]]</text>
+      <sha1>rfcuat76du3v87ddjqr34fntqeygtv8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/The Hinterlands</title>
+    <ns>0</ns>
+    <id>2906</id>
+    <revision>
+      <id>5278</id>
+      <timestamp>2024-04-05T20:11:38Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5278</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2209" sha1="p3atns38wyowy6h1n7vfq9k5zit7poq" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''The Hinterlands'' is the 34th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': Vast stretches on the infinite [[Outlands|plane]] are unexplored and unknown. Their secrets remain dark to the eyes of mortals. Listen to [[David Zerins]]:
+
+: '''David Zerins''': Hey! You've gotta help me, I've been out here for days on end trying to get back to Sigil! Which way's spireward? Which way, eh?! C'mon!
+
+: Sorry 'bout that. I've just been real worried that the first sod I've run across was going to be a fiend or something worse. And so naturally the sight of you fills me with relief. I'm babbling again, aren't I? I've been across all the Outlands, it seems, from the tallest mountain to the lowest valley, from rivers that make Prime worlds look small to the barest trickle of a spring in the desert. And not once in all that time did I run across a road.
+
+: There're cities out there. Whole civilizations, I tell you. But I was too scared to check 'em out! I don't think they was even humanoid, you know? There's more of them than anyone knows, and it's a lot different than they might think. I tried to go back to one of the cities, and came across a ruin that was nothing like the city I saw there before. Even the landscape around was completely different!
+
+: Time messes with you out here. And there's no telling how it's going to be.
+
+: So. Let's get back to the [[Spire]]. Why are you shaking your head? Are you lost too?!
+
+== Background Information ==
+
+* The "time messes with you out here" line has a faint echo on the words, but played in reverse, such that the echo precedes the words.
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=SELJxY4MFwM This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;33. [[A Player's Primer to the Outlands/Bariaur Tribes|Bariaur Tribes]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;35. [[A Player's Primer to the Outlands/Indep Villages|Indep Villages]]
+|}
+
+
+{{DEFAULTSORT:Hinterlands, The}}
+[[Category:Audio tracks]]</text>
+      <sha1>p3atns38wyowy6h1n7vfq9k5zit7poq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/The Modron Procession</title>
+    <ns>0</ns>
+    <id>2932</id>
+    <revision>
+      <id>5404</id>
+      <parentid>5403</parentid>
+      <timestamp>2024-05-17T08:22:16Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>fm</comment>
+      <origin>5404</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2383" sha1="4stxl9srh8e3d8oti6yiyz1wdf3p1mo" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''The Modron Procession'' is the 37th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': This is [[Keeleg Boulier]], speaking of the Modron Procession:
+
+: '''Keeleg Boulier''': Periodically, though the exact period is not known, a great [[modron]] army marches out from the inner reaches of [[Mechanus]], and makes its way across the [[Great Ring]], sometimes heading through [[Arcadia]], sometimes through [[Acheron]]. These armies are comprised of varying shapes and sizes, with nary a group the same.
+
+: Few of the modron hierarchs accompany the Great March, instead, attending to their duties in Mechanus. However, there are great masses of the lesser modrons, each of which is under the command of one greater. The purpose of these walkabouts is dark. Some sages speculate that the modrons are gathering information about the state of the multiverse, so that the modrons can calibrate the gears of Mechanus accordingly. Others say that the Great March is simply a modron plot to usurp the universe, that they're gathering information for their armies.
+
+: Since modron energy is never lost, the creatures as a whole suffer no real damage during the March, and can always return to report on their findings. Whatever the true purpose of the Procession, it's something that scares the fiend out of people simply because they don't know what it's for.
+
+: '''Army General''': Retreat! Retreat!
+
+
+== Background Information ==
+
+* Although a number of different terms were used early in Planescape, later products settled on the "[[Great Modron March]]" as the official title of the Procession.
+* Likewise the exact period between Marches (17 cycles of the largest gear of Mechanus, each cycle lasting 17 years = 17&lt;sup&gt;2&lt;/sup&gt; = 289 years) wasn't solidified initially.
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=k2zpjSeiC74 This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;36. [[A Player's Primer to the Outlands/Lost Patrols|Lost Patrols]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;38. [[A Player's Primer to the Outlands/Walking Castles|Walking Castles]]
+|}
+
+
+{{DEFAULTSORT:Modron Procession, The}}
+[[Category:Audio tracks]]</text>
+      <sha1>4stxl9srh8e3d8oti6yiyz1wdf3p1mo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/The Palace of Judgment</title>
+    <ns>0</ns>
+    <id>3362</id>
+    <revision>
+      <id>7268</id>
+      <parentid>7242</parentid>
+      <timestamp>2026-02-04T09:56:49Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7268</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1862" sha1="03x9b6x099oup9j5zd09h7r9p4xjghi" xml:space="preserve">['''Mimir'''] 
+
+Every petitioner who answers to the celestial bureaucracy, also known as the Chinese pantheon, must come to the Palace of Judgment for assignment in the afterlife.
+
+
+[Random Female 1]
+
+You'd think somebody who died as horribly as I did a little special consideration.
+
+
+
+[Random Male 1]
+
+How much longer is this going to take?
+
+
+[Random Male 2]
+
+I'm sorry, form 179 B, not 179 C. That means another 16-month wait.
+
+
+
+[Random Male 3]
+
+This time I want to come back as a mage.
+
+
+[Random Male 4]
+
+It wasn't as if this was the first time it ever happened.
+
+
+['''Mimir''']
+
+It has the second greatest concentration of gates in the multiverse, second only to the City of Doors itself. A body hoping to use these gates must first receive permission from the bureaucracy. A process that could literally take years. Chen Yu, a go Zu factotum, or guide, tells of the palace of judgment.
+
+
+[Chen Yu]
+
+I have seen it all, honored, master. There are millions who come through here every year, and each of them has their own story to tell.
+
+
+[Random Female 2]
+
+It wasn't as if I meant to take that ???.
+
+
+[Random Female 3]
+
+There I was without a stitch on.
+
+
+[Random Male 5]
+
+The king swore he would pardon me.
+
+
+[Random Male 6]
+
+Uh, exactly how many murders does it take before you're considered a mass murderer?
+
+
+[Random Female 4]
+
+All right, so I took one tainty little dragon egg.
+
+
+[Chen Yu]
+
+Some of them are honest, some blatant liars. Nearly all of them are frightened senseless by the knowledge that they will receive their just deserts here in the palace. Of course, nothing is done without the accompanying permits from the Celestial Bureaucracy.
+
+Oh dear. Form 9.17 has been misfiled. You'll have to do that one over and all the supporting documents. Now, if you will, sir. You are not permitted in there. No, wait. That's a gate to Acheron. Fool!</text>
+      <sha1>03x9b6x099oup9j5zd09h7r9p4xjghi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/The Vale of the Spine</title>
+    <ns>0</ns>
+    <id>2838</id>
+    <revision>
+      <id>5040</id>
+      <parentid>5039</parentid>
+      <timestamp>2024-03-03T18:54:45Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>fm</comment>
+      <origin>5040</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1716" sha1="gueqnd0tcdlx144uwcf0oifqn1fp3on" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''The Vale of the Spine'' is the 31st track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': Everyone knows that the town of [[Ribcage]] is nestled in the [[Vale of the Spine]] like a malignant heart. But why is it called the Vale of the Spine? Noted planar geologist [[Zandal Withem]] explains:
+
+: '''Zandal Withem''': It's mainly a matter of geologic pressures. [[Baator]]'s influence on the [[Outlands]] creates a tortured appearance on the land, giving it the ''appearance'' of a ruptured ribcage. But there's absolutely no credence to the rumor that this the body of a dead god. That's simply&amp;mdash; that's simply morbid thinking. Likewise, reports that the ribs above the city are extending, as if a body were forming in the Vale of the Spine, are entirely ludicrous. If there's any growth there, it's natural geological processes. I'm sure of it. Well, ''mostly'' sure.
+
+
+== Background Information ==
+* The Vale of the Spine is a track that doesn't have an accompanying section in the Primer book. The Vale material is instead included and interwoven in the section on [[Ribcage]].
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=hSbhrhxjTrY This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;30. [[A Player's Primer to the Outlands/Mausoleum of Chronepsis|Mausoleum of Chronepsis]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;32: [[A Player's Primer to the Outlands/The Great Pass|The Great Pass]]
+|}
+
+
+{{DEFAULTSORT:Vale of the Spine}}
+[[Category:Audio tracks]]</text>
+      <sha1>gueqnd0tcdlx144uwcf0oifqn1fp3on</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Thoth's Estate/Thebestys</title>
+    <ns>0</ns>
+    <id>2829</id>
+    <revision>
+      <id>5010</id>
+      <parentid>5008</parentid>
+      <timestamp>2024-02-25T00:27:32Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>correction</comment>
+      <origin>5010</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1708" sha1="n12t2bzpycud742scmrv4zngieofnlm" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Thoth's Estate/Thebestys'' is the 29th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': One of the greatest attractions to sages in the [[Outer Planes]] is the [[Great Library]], found in [[Thoth's Estate]]. [[Alphys]]  is one such sage:
+
+: '''Alphys''': I've been coming to the Library for oh, let's see, 20 years now? I originally came to do some research on old burials and the contents of a certain tomb, but the lure of all the knowledge accumulated here is too great! I didn't realize that there was so much to learn in the multiverse! I love the dusty air here, I love the way the light streams in from the outside. Most of all, I love the company of scholars!
+
+: '''Other scholar''': Shh!
+
+: '''Alphys''': Another reason I'm here is, I'm ashamed to admit, that I still haven't found the scroll I came here for initially. If you'll excuse me, I've got to get back to it!
+
+== Background Information ==
+* The adjacent realms of Thoth's Estate and [[Thebestys]] are both mentioned in the track's title, but Thebestys isn't mentioned at all in the track itself.
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=C4Dj4-il5XE This track on YouTube]
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;28. [[A Player's Primer to the Outlands/Tvashtri's Lab|Tvashtri's Lab]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;30: [[A Player's Primer to the Outlands/Mausoleum of Chronepsis|Mausoleum of Chronepsis]]
+|}
+
+
+{{DEFAULTSORT:Thoth's Estate/Thebestys}}
+[[Category:Audio tracks]]</text>
+      <sha1>n12t2bzpycud742scmrv4zngieofnlm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Tir fo Thuinn</title>
+    <ns>0</ns>
+    <id>2897</id>
+    <revision>
+      <id>5195</id>
+      <parentid>5194</parentid>
+      <timestamp>2024-03-31T18:05:02Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>number</comment>
+      <origin>5195</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2096" sha1="7zhoajxh1kwl9elz7z5i1q2t54gcx2n" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Tir fo Thuinn'' is the 20th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': Nearby to [[Tir na Og]] is [[Tir fo Thuinn]]: the Land Under the Waves. It's ruled by [[Manannan mac Lir]], the king of the undersea realm. This is a half-elf, [[Flynn Sidhe]]: 
+
+: '''Flynn Sidhe''': Powers preserve us, look at you! How did you get under here, anyway? Well, now that you're here, you might as well make yourself welcome. Sure and I'll be one of the more friendly folks you'll meet here. You didn't come here in a boat, did you? There's nothing quite like a boat to be stirring the waves up top something fierce. Well, it's all for the best, anyway. A body can breathe down here just fine. Or at least, that's the current [indecipherable].
+
+: '''Mimir Agent''' (drowning): ''Help, get me out of here! I can't breathe!''
+
+: '''Flynn Sidhe''': The Sea Lord can revoke the breathing any time, so it's best to be prepared. I am! I don't fancy drowning all of a sudden. 
+
+: '''Mimir Agent''' (drowning): ''Help me, what do I do?''
+
+: '''Flynn Sidhe''': Well, good luck to you [indecipherable]. You're about six rings out from the [[Spire]], with water all of the way.
+
+: '''Mimir Agent''' (drowning, overlapping): ''No, no! Help, help! Please! I can't swim, help!''
+
+: '''Flynn Sidhe''': Maybe if you appeal to someone's good nature to guide you out. Maybe if you paid them.
+
+: '''Mimir Agent''' (drowning, overlapping): ''Oh, please, where do I go? How do I get out of here? Help me, please!''
+
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=zPqZpfFJru8 This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;19. [[A Player's Primer to the Outlands/Tir na Og|Tir na Og]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;21: [[A Player's Primer to the Outlands/Realm of the Norns|Realm of the Norns]]
+|}
+
+
+{{DEFAULTSORT:Tir fo Thuinn}}
+[[Category:Audio tracks]]</text>
+      <sha1>7zhoajxh1kwl9elz7z5i1q2t54gcx2n</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Tir na Og</title>
+    <ns>0</ns>
+    <id>2821</id>
+    <revision>
+      <id>4994</id>
+      <timestamp>2024-02-21T03:19:02Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4994</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1138" sha1="b59af2pov82dkc34adedgeg95p6ldvb" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Tir na Og'' is the 19th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''. It's the first track to cover areas of the [[Outlands]] outside the [[gate-town]]s.
+
+== Transcript ==
+
+: '''Mimir''': [[Tir na Og]], also called the Land of Youth, is home to a pantheon calling themselves the [[Celtic power]]s. The powers are very independent, and so are the people.
+
+: This is [[Erin McQuinn]], resident of [[Daghda]]'s realm.
+
+: '''Erin McQuinn''': Get off! I've better things to do than talk to some sod all day. I'm very busy, so if you'll excuse me please. Thank you very much, good day.
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=PragJMELsdw This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;18. [[A Player's Primer to the Outlands/Xaos|Xaos]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;20: [[A Player's Primer to the Outlands/Tir fo Thuinn|Tir for Thuinn]]
+|}
+
+
+{{DEFAULTSORT:Tir na Og}}
+[[Category:Audio tracks]]</text>
+      <sha1>b59af2pov82dkc34adedgeg95p6ldvb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Torch</title>
+    <ns>0</ns>
+    <id>3351</id>
+    <revision>
+      <id>7270</id>
+      <parentid>7229</parentid>
+      <timestamp>2026-02-04T09:59:01Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7270</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1229" sha1="clhug2gh6t1kdtxmk5gvlceufxsuh42" xml:space="preserve">['''Mimir'''] The gate town for Gehenna is Torch. It's built on the side of volcanic mountain above of all that's pestilential. The chant is, that Torch never stops, that there's always a deal going on and a tavern always open. The most famous tavern is the Festival of the falling Coins operated by a drow named Gutter.
+
+
+
+[drow named Cutter.]
+
+What can I do for you, cutter? You want an information about Torch, do you? You've come to the right blood. I know just about everything that goes on in this pitiful excuse for a town, and I can tell you for a price. That's a good piece of jink you got there, my friend. Now, you want I should tell you about the six thieves' guilds or that you'd best be perry in this town. There are those here who wouldn't even try to peel you. They just stick a shiv in your ribs and leave you. I can tell you about the gate hovering hundreds of feet above the ground. and the best way to get to it. I could even tell you that a people of Torch among the worst in all the Outlands. Greedy for money and power, willing to do whatever it takes to get either one. Take for example, the basher behind you. I think he's looking for your purse. Oh dear. I guess he's looking for your life, too, hehehe!</text>
+      <sha1>clhug2gh6t1kdtxmk5gvlceufxsuh42</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Tradegate</title>
+    <ns>0</ns>
+    <id>2971</id>
+    <revision>
+      <id>5570</id>
+      <timestamp>2025-03-01T14:30:07Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5570</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2001" sha1="ltooxno59zcy1j3h20q3y81tzjuji7v" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''[[Tradegate]]'' is the 17th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': [[Bytopia]]'s gate is Tradegate, a town that's basically a huge thriving marketplace. Master Trader [[Jeobi Groove]] speaks of Tradegate... for a substantial fee.
+
+: '''Jeobi Groove''': The buildings of Tradegate are always going up and down, but they don't change in architecture or purpose. The people of Tradegate are like the buildings; always changing, yet always remaining the same. 
+
+: The main objective here is to amass a fortune: not to amass a personal fortune out of greed or any of the base emotions like that, no no. They want to do it to prove they can. And the work ethic's stronger here than just about anywhere else, save the Dwarven Mountain. 
+
+: There's not much else in Tradegate besides the trading. If you're looking for more, there's plenty of inns and taverns that'd be more than happy to accept your patronage. For instance, let's check into the [[Dragon's Sun]], shall we?
+
+: '''Woman''': Oh, come a bit soon to be picking up your share, aren't you, Master Groove?
+
+: '''Jeobi Groove''': 'Course, I've got a teeny-weeny bit of interest here. But! If you're willing to forfeit chances of becoming a [[petitioner]], I can steer you to the right people.
+
+== Background Information ==
+
+* "Master Trader" here seems to be a rank, and not a reference to [[Master Trader]], the entity which serves as Tradegate's gate to Bytopia.
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=XxqHcJI6sUA This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+|-
+| class="prev"|'''Previous Track'''&lt;br /&gt;16. [[A Player's Primer to the Outlands/Torch|Torch]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;18. [[A Player's Primer to the Outlands/Xaos|Xaos]]
+|}
+
+
+{{DEFAULTSORT:Tradegate}}
+[[Category:Audio tracks]]</text>
+      <sha1>ltooxno59zcy1j3h20q3y81tzjuji7v</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Tvashtri's Lab</title>
+    <ns>0</ns>
+    <id>2830</id>
+    <revision>
+      <id>5009</id>
+      <timestamp>2024-02-25T00:26:17Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5009</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1562" sha1="1s4mne0qlh9o46kn0d15ibqxi62rsna" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Tvashtri's Lab'' is the 28th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': Couched next to the [[Dwarven Mountain]], the realm of [[Tvashtri]], the god of science and invention, is a bright place of devices for which few can fathom the purpose. [[Rathray Cyclo]] explains some of the appeal of Tvashtri's workshop:
+
+: '''Worker''': All right, put it in gear!
+
+: '''Rathray Cyclo''': 'Ey, cutter, whaddya need? This place has got everything! Magic? Weapons? Sure, they're better quality than the Dwarven Mountain. But not by much! And there's lots more over here!
+
+: '''Worker''': Release the slip-belt!
+
+: '''Rathray Cyclo''': C'mon, buy something! Otherwise, invent something yourself! The whole burg's based on invention, and it's there for whoever wants to use it. Maybe not for ''who''ever, but&amp;mdash; whoop! Gotta go! Just remember the rules!
+
+: '''Worker''': Back to&amp;mdash; back to the drawing board.
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=C3gXj4-IcYc This track on YouTube]
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;27. [[A Player's Primer to the Outlands/The Palace of Judgment|The Palace of Judgment]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;29: [[A Player's Primer to the Outlands/Thoth's Estate/Thebestys|Thoth's Estate/Thebestys]]
+|}
+
+
+{{DEFAULTSORT:Tvashtri's Lab}}
+[[Category:Audio tracks]]</text>
+      <sha1>1s4mne0qlh9o46kn0d15ibqxi62rsna</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Walking Castles</title>
+    <ns>0</ns>
+    <id>3363</id>
+    <revision>
+      <id>7267</id>
+      <parentid>7244</parentid>
+      <timestamp>2026-02-04T09:56:04Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7267</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2291" sha1="d1yig7q756cubqp7fldmb2cmwjkiycw" xml:space="preserve">
+['''Mimir''']
+
+Walking Castles, as described by Limoney Gabledrop, called "The Mad" by some.
+
+
+[Liony Gable Drop]
+
+Hey, you want to know about walking castles, hey, berk? I can tell you all about the one I ran into. I was traveling with my fiance Clarissa and a party of our friends back from Funnel and we were walking to a portal we knew of in the second ring.
+
+[Male]
+
+It's raining!
+
+
+[Clarissa]
+
+Find shelter!
+
+
+[Male]
+
+Over there, look!
+
+(to many talking at once, couldn’t make out)
+
+[Clarissa]
+
+Come on.
+
+[Male?]
+
+It wet.
+
+The nearest shelter was a decrepit looking hut like an ancient Hermitage. But that didn't look like it was being used. I mean like a bunch of clueless sods, we figured that it meant it wasn't and we bolted in doors. (good, huh?), it turned out to be a lot bigger on the inside than we expected, and a lot better decorated, but none of us took that to mean that anything was a miss. Clarissa picked up some jade figurine that was sitting on a shelf littered with jade figurines and promptly dropped it. (Oops). Suddenly the whole hut shakes, like it's been hit by an earthquake
+
+[Male]
+
+Quick! the door!
+
+We ran to the door, and see the ground dropping away like we'd been lost into space, shooting us thousands of feet into the air! Below the hut an enormous pair of goat legs pushed the Hut from the ground, leaving a crater the size of a small moon and the legs started running. And fast! It turned out that the hut's just an observation room on the top of a mobile tower, and apparently, the owner decided to pick up and leave! Well, discretion being the better part of valour, I hide behind a potted plant. Just in time too. Some horrid abomination that bitter belongs in the slimes spawning pits of the Abyss burst through the floor and engulfs Clarissa!
+
+[screams of Clarissa]
+
+
+
+
+[Limoney Gabledrop]
+
+Then it looks around and sees our friends. The lucky ones jumped out the door and died easy. The screaming of the others will echo in my head until the furies come to take me. I don't know how I was overlooked, but I'll tell you one thing, berk: when the castle settled down again, I ran so fast and so far that my feet didn't touch the ground until the first ring. And I'll never, never, never, get closer than miles away from another Walking Castle.</text>
+      <sha1>d1yig7q756cubqp7fldmb2cmwjkiycw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Xaos</title>
+    <ns>0</ns>
+    <id>2837</id>
+    <revision>
+      <id>5038</id>
+      <parentid>5037</parentid>
+      <timestamp>2024-03-03T18:39:00Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>num</comment>
+      <origin>5038</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1637" sha1="hgetlr2wn1b0brequz2f1uvt76s67wv" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Xaos'' is the 18th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': [[Xaos|ZAY-ohs]] sits just outside [[Limbo]], watching over its gate like a lunatic watching over the stones of a river: fanatically and uncaringly at the same time. The residents are, for the most part, unqualifiably barmy. For example, the [[Nameless Sage]] of the Marketplace:
+
+: '''Nameless Sage''': [[Xaos|ACK-so]]&amp;mdash;
+
+: '''Helpful Narrator''': (pronounced: [[Xaos|SA-xo]])
+
+: '''Nameless Sage''': &amp;mdash;great is. He love it much I. To try talk you careful, I say. Tongue to understand you for. [[Xaos|ACK-so]]&amp;mdash;
+
+: '''Helpful Narrator''': (pronounced: [[Xaos|AX-oss]])
+
+: '''Nameless Sage''': &amp;mdash;greeters have many. One you next minute me minute. Long be to long be, change. Can't always understand you no?
+
+: '''Helpful Narrator''': Help I talk to try careful more. You can't make curdled milk from boiled eggs. You see?
+
+: '''Nameless Sage''': Bye bye, come soon! Here, smack! this is [[Xaos|ACK-sos]]&amp;mdash;
+
+: '''Helpful Narrator''': (pronounced: [[Xaos|bob]])
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=kFnziU74fOk This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;17. [[A Player's Primer to the Outlands/Tradegate|Tradegate]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;19: [[A Player's Primer to the Outlands/Tir na Og|Tir na Og]]
+|}
+
+
+{{DEFAULTSORT:Xaos}}
+[[Category:Audio tracks]]</text>
+      <sha1>hgetlr2wn1b0brequz2f1uvt76s67wv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Abellio</title>
+    <ns>0</ns>
+    <id>264</id>
+    <revision>
+      <id>428</id>
+      <parentid>415</parentid>
+      <timestamp>2023-01-02T14:08:04Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <origin>428</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3409" sha1="sovfcdqka6jp2p4h8kudz8dsziyksxs" xml:space="preserve">
+'''Abellio''' was the first layer of [[Arcadia]] in the [[Great Wheel cosmology]]. An endless stretch of orderly plains dotted with a few mountains and hills, it contained the [[divine realm]]s of [[Clangeddin Silverbeard]] and [[Marduk]].&lt;ref name="PL2e-p12-17"&gt;{{Cite book/Planes of Law/Arcadia|12-17}}&lt;/ref&gt;&lt;ref name="MP3e-p130-132"&gt;{{Cite book/Manual of the Planes 3rd edition|130-132}}&lt;/ref&gt;&lt;ref name="OHG2e-172"&gt;{{Cite book/On Hallowed Ground|172}}&lt;/ref&gt;
+
+==Geography==
+The large flat expanse of Abellio was a land of plenty. There were abundant forests, lakes, rivers, and open fields. In the harmonious ecosystem, even wild beasts contributed to the common good.&lt;ref name="PL2e-p12-17" /&gt;&lt;ref name="MP3e-p130-132" /&gt; 
+
+Abellio was a well-ordered place with well-tended crops, orchards, and cities all laid out in regular geometric shapes. Properly shaped and arranged flowerbeds of every color were always in bloom and never needed a gardener, nourished by gentle rains. Night and day were provided by a huge rotating sphere, half radiant, half dark, set into the highest mountain in the plane. The trees of Abellio grew in straight orchard rows or tidy forests. They had bark of [[iron]], [[copper]], [[silver]], or [[gold]], depending on the type of tree. The leaves resembled those of [[Prime Material Plane]] trees but were colored dark green to fire red and never fell to the ground. Each type of tree constantly produced a particular fruit which had magical properties like a [[potion]] when consumed.&lt;ref name="MotP1e-86"&gt;{{Cite book/Manual of the Planes 1st edition|86}}&lt;/ref&gt;
+
+==Trade==
+The main trade post of Abellio was the district of [[Mercantus]], the portion of the city of [[Mandible (city)|Mandible]] that was above ground. It welcomed traders and travelers to its markets and inns.&lt;ref name="PL2e-p12-17" /&gt;&lt;ref name="MP3e-p130-132" /&gt;
+
+==Notable Locations==
+* [[Mandible (city)|Mandible]], a highly militaristic hive-city inhabited by [[formian]]s, and the layer's main trading post. It was ruled by the Queen Mother [[K'l'tk'thra]].&lt;ref name="PL2e-p12-17" /&gt;&lt;ref name="MP3e-p130-132" /&gt;
+
+* [[Marduk (realm)|Marduk]], the divine realm of the [[Untheric pantheon|Untheric]] deity Marduk. A dry and arid land, it still allowed trees to grow and streams to flow. It was inhabited by a peaceful and mostly complacent population.&lt;ref name="PL2e-p12-17" /&gt;
+
+* [[Mount Clangeddin]], the divine realm of Clangeddin Silverbeard. It was a perfectly conical mountain that rose about {{SI|30000|ft|long=yes}} at its cloudy and stormy peak, whose interior had been expertly and luxuriously carved and decorated. Visitors were welcome in its halls, in particular for the purpose of ordering weapons from the expert smiths that worked on the mountain's forges.&lt;ref name="PL2e-p12-17" /&gt;&lt;ref name="MP3e-p130-132" /&gt;
+
+== Realms ==
+
+* [[The Ghetto]]
+* [[Mandible]]
+* [[Citadel of the Cloud King]]
+* [[Citadel of the Lightning King]]
+* [[Citadel of the Rain King]]
+* [[Citadel of the Wind King]]
+* [[Anvil of Creation]]
+* [[Cherry Blossom]]
+* [[Ministry of Rewards]]
+* [[Marduk (realm)]]
+** [[Marduk (city)]]
+* [[Mount Clangeddin]]
+* [[Bastion of Law]]
+
+==Appendix==
+===References===
+{{Refs}}
+===Connections===
+{{Arcadia}}
+[[Category:Locations in the Upper Planes]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations]]
+[[Category:Layers]]</text>
+      <sha1>sovfcdqka6jp2p4h8kudz8dsziyksxs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Abyss</title>
+    <ns>0</ns>
+    <id>572</id>
+    <revision>
+      <id>2168</id>
+      <parentid>2167</parentid>
+      <timestamp>2023-08-09T01:03:14Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2167</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="25303" sha1="lg8d4lpc7nm4zaz1z7ijp5h7ctmfoth" xml:space="preserve">{{Plane
+| image             = Abyss-5e.jpg
+| caption           = The desolate landscape of the Abyss.
+| name              = Abyss
+| othernames        = 
+| symbol            = Abyss.png
+| natives           = [[Demon]]s&lt;ref name="FRCG-66" /&gt;&lt;ref name="PGtF-142" /&gt;&lt;ref name="MotP1e-101"&gt;{{Cite book/Manual of the Planes 1st edition|101}}&lt;/ref&gt;&lt;ref name="FRCS-258"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|258}}&lt;/ref&gt;&lt;ref name="DMG3.5-160"&gt;{{Cite book/Dungeon Master's Guide v.3.5|160}}&lt;/ref&gt;
+| languages         = 
+| color-pool-color  = Amethyst or&lt;br /&gt;swirling dark purple
+| color-pool-image  = ColorPoolAbyss.png
+| fork-material     = [[Iron]]
+| fork-note         = D
+| fork-audio        = D5.ogg
+| basicrefs         = &lt;ref name="Dr120-p42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;&lt;ref name="MotP1e-62"&gt;{{Cite book/Manual of the Planes 1st edition|62}}&lt;/ref&gt;&lt;ref name="MotP3e-p49"&gt;{{Cite book/Manual of the Planes 3rd edition|49}}&lt;/ref&gt;&lt;ref name="MotP4e-p16"&gt;{{Cite book/Manual of the Planes 4th edition|16}}&lt;/ref&gt;&lt;ref name="DMG5e-p47"&gt;{{Cite book/Dungeon Master's Guide 5th edition|47}}&lt;/ref&gt;
+| type-GW           = [[Outer Plane]]
+| shape-size-GW     = Innumerable, immeasurable layers
+| gravity-GW        = Normal, varies between layers
+| time-GW           = Normal
+| morphic-GW        = Divinely
+| element-energy-GW = Mixed
+| alignment-GW      = {{Alignment grid|off|off|off|off|off|off|off|off|on}}
+| magical-GW        = Normal
+| layers-GW         = [[Layers of the Abyss]]
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="MotP1e-101" /&gt;&lt;ref name="DMG5e-p58,62-63"&gt;{{Cite book/Dungeon Master's Guide 5th edition|58,62-63}}&lt;/ref&gt;&lt;ref name="MotP1e-73"&gt;{{Cite book/Manual of the Planes 1st edition|73}}&lt;/ref&gt;&lt;ref name="MotP1e-75"&gt;{{Cite book/Manual of the Planes 1st edition|75}}&lt;/ref&gt;&lt;ref name="MotP1e-101-2"&gt;{{Cite book/Manual of the Planes 1st edition|101-102}}&lt;/ref&gt;&lt;ref name=MotP3e-p99-103"&gt;{{Cite book/Manual of the Planes 3rd edition|99-103}}&lt;/ref&gt;
+| type-WA           = [[Elemental realm]]
+| shape-size-WA     = Innumerable, immeasurable layers
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = [[Chaotic evil]]
+| magical-WA        = 
+| layers-WA         = [[Layers of the Abyss]]
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = &lt;ref name="FRCG-66"&gt;{{Cite book/Forgotten Realms Campaign Guide|66}}&lt;/ref&gt;
+| type-WT           = [[Fiendish plane]]
+| shape-size-WT     = Innumerable, immeasurable layers
+| gravity-WT        = ''Varies''
+| time-WT           = 
+| morphic-WT        = ''Varies'', usually Alterable Morphic
+| element-energy-WT = 
+| alignment-WT      = Mildly chaotic and mildly evil
+| magical-WT        = Normal magic
+| faith-WT          = 
+| layers-WT         = [[Layers of the Abyss]]
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = &lt;ref name="PGtF-142"&gt;{{Cite book/Player’s Guide to Faerûn|142}}&lt;/ref&gt;&lt;ref name="DMG3.5-160" /&gt;&lt;ref name="DMG3.5-149"&gt;{{Cite book/Dungeon Master's Guide v.3.5|149}}&lt;/ref&gt;&lt;ref name="DMG3.5-161"&gt;{{Cite book/Dungeon Master's Guide v.3.5|161}}&lt;/ref&gt;
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| based             = [[wikipedia:en:Abyss (religion)|Abyss]] (Biblical)
+| usethe            = yes
+| useon             = 
+}}
+The '''Infinite Layers of the Abyss''' ({{Pronounce|a|BIS|refs=&lt;ref name="D.93:APG-p25"&gt;{{Cite dragon/93/Ay pronunseeAYshun gyd|25}}&lt;/ref&gt;|audio=Abyss.ogg}}) was the birth place of the [[demon]]s,&lt;ref name="MotP1e-101" /&gt; a [[chaotic evil]] universe unto itself with uncountable layers of infinite variety connected haphazardly.&lt;ref name="PGtF-142" /&gt;&lt;ref name="DMG5e-p58,62-63"&gt;{{Cite book/Dungeon Master's Guide 5th edition|58,62-63}}&lt;/ref&gt; The Abyss's place in the [[cosmology]] of the Forgotten Realms shifted over time, but the nature of the plane remained fairly constant: a violent, malevolent place where the strong survived on the backs of the weak, the weak conspired to overthrow the strong, alliances only lasted while convenient,&lt;ref name="MotP1e-102"&gt;{{Cite book/Manual of the Planes 1st edition|102}}&lt;/ref&gt; and the landscape itself tortured the mind and body of all who dared to pass.&lt;ref name="FRCG-66"&gt;{{Cite book/Forgotten Realms Campaign Guide|66}}&lt;/ref&gt;
+
+{{Quote
+|Ah, the infinite wonders of the Abyss. If there's anything you don't like, you'll find it here.
+|A [[tanar'ri]] saying.&lt;ref name="PoC-A-p12"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|12}}&lt;/ref&gt;
+}}
+
+==Cosmology==
+In the [[Great Wheel cosmology]] model, the Abyss was an [[Outer plane]] on the Great Wheel connected to the [[Astral plane]], [[Pandemonium]], [[Carceri]], and the [[Outlands]].&lt;ref name="MotP1e-74"&gt;{{Cite book/Manual of the Planes 1st edition|74}}&lt;/ref&gt; Some estimated that the Abyss had 666 layers,&lt;ref name="MotP3e-p99"&gt;{{Cite book/Manual of the Planes 3rd edition|99}}&lt;/ref&gt; while the [[Fraternity of Order]] claimed to have catalogued 679 layers.&lt;ref name="PC-BC2e-p20"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|20}}&lt;/ref&gt; It was possible that the number of layers was infinite, but no one could be certain. The first layer, named Pazunia after the demon lord [[Pazuzu]], was described as a barren, dusty place baking under a red sun, broken only by great [[iron]] fortresses, huge holes in the ground, and the river [[Styx]]. Some branches of the Styx flowed down the holes (which were conduits to the various layers) and some of these holes supplied water to the Styx in reverse waterfalls.&lt;ref name="MotP1e-101" /&gt;
+
+When the Great Wheel model was replaced by the [[World Tree cosmology]] model, the river Styx was renamed the [[River of Blood]] and it flowed through all the [[fiendish planes]] (except for the [[Supreme Throne]] and the [[Demonweb Pits]]) originating in the Abyss, passing through the [[Blood Rift]]&amp;mdash;an unusual plane that connected the Abyss with the [[Nine Hells]]&lt;ref name="PGtF-140"&gt;{{Cite book/Player's Guide to Faerûn|140}}&lt;/ref&gt;&amp;mdash;bringing the demons even closer to their arch-enemies the [[devil]]s,&lt;ref name="PGtF-141"&gt;{{Cite book/Player's Guide to Faerûn|141}}&lt;/ref&gt; resulting in the [[Blood War]]. Cosmologists found evidence of portals between the Abyss and the [[Barrens of Doom and Despair]], [[Clangor]], the [[Demonweb Pits]], and [[Hammergrim]], with intermittent portals to [[Deep Caverns]] and [[Fated Depths]].&lt;ref name="PGtF-142" /&gt; The [[Astral plane]] connected all of the fiendish planes to the [[Prime Material Plane]], but not directly to each other.&lt;ref name="PGtF-139"&gt;{{Cite book/Player's Guide to Faerûn|139}}&lt;/ref&gt;
+
+[[File:The Abyss.jpg|thumb|300px|''[[Asmodeus]] and his armies attacking demons in the [[Blood War]].'']]
+After the [[Spellplague]], [[Asmodeus]] consumed the essence of the fallen [[Azuth]] and ended the Blood War by casting the Abyss to the furthest depths of the [[Elemental Chaos]].&lt;ref name="FRCG-73"&gt;{{Cite book/Forgotten Realms Campaign Guide|73}}&lt;/ref&gt; The [[World Axis cosmology]] described the ruined Abyss as a domain with ever-changing features and realms, where the demons waged futile wars over meaningless empires. Once again the river Styx flowed through the [[Nine Hells]] and the Abyss, but then emptied its pollution into the [[Astral Sea]].&lt;ref name="FRCG-64,66"&gt;{{Cite book/Forgotten Realms Campaign Guide|64,66}}&lt;/ref&gt; Other than the Styx or braving the Elemental Chaos, the only known passages to the Abyss were found in the [[Demonweb Pits]], the [[Dismal Caverns]], and [[Nishrek]].&lt;ref name="FRCG-66" /&gt;
+
+==Layers==
+[[Image:Abyss Map.jpg|300px|thumb|right|An artist's rendering of the Abyss]]
+
+{{main|Layers of the Abyss}}
+The number of layers in the Abyss was unknown and perhaps unknowable, with at least 679 having been catalogued&lt;ref name="PoC2e-p19"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|19-20}}&lt;/ref&gt; but this article attempts to list them regardless of which cosmology model was in favor at the time of discovery. Each layer had its own characteristics, which were as varied as the demons themselves.&lt;ref name="PGtF-142" /&gt; All types of terrain, atmosphere, weather, gravity, and material composition were represented in the myriad layers. Some examples were:
+* [[Planar traits#Elemental and Energy Traits|Air-dominant]]&amp;mdash;zero gravity, no matter except air&lt;ref name="MotP1e-101-2" /&gt;&lt;ref name="DMG3.5-161" /&gt;
+* Ash&amp;mdash;blowing dunes of ashes&lt;ref name="DMG3.5-161" /&gt;
+* Battleground&amp;mdash;[[Blood War]] or other&lt;ref name="DMG3.5-161" /&gt;
+* City&amp;mdash;warrens and slums to citadels and palaces, teeming with demons&lt;ref name="DMG3.5-161" /&gt;
+* [[Planar traits#Elemental and Energy Traits|Earth-dominant]]&amp;mdash;solid rock tunneled by the inhabitants&lt;ref name="MotP1e-101-2" /&gt;&lt;ref name="DMG3.5-161" /&gt;
+* [[Planar traits#Elemental and Energy Traits|Fire-dominant]]&amp;mdash;everburning flames with [[salamander]]s, ''etc''.&lt;ref name="DMG3.5-161" /&gt;
+* Delusion&amp;mdash;appears to be Normal but the flowers are poisonous or the trees attack&lt;ref name="MotP1e-101-2" /&gt;
+* Desert&amp;mdash;endless tracts of black, white, or red sand with no water&lt;ref name="MotP1e-101-2" /&gt;
+* Glacier&amp;mdash;infinite black, white, or orange ice with few rocky peaks breaking the surface&lt;ref name="MotP1e-101-2" /&gt;
+* Hellscape&amp;mdash;a burning mix of magma, rock, and belching brimstone&lt;ref name="DMG3.5-161" /&gt;
+* Maelstrom&amp;mdash;swirling, bubbling chaos like [[Limbo]]&lt;ref name="MotP1e-101-2" /&gt;&lt;ref name="DMG3.5-161" /&gt;
+* Mountainous&amp;mdash;rocky crags, precipitous cliffs, soaring peaks&lt;ref name="DMG3.5-161" /&gt;
+* [[Planar traits#Elemental and Energy Traits|Negative-dominant]]&amp;mdash;major or minor&lt;ref name="DMG3.5-161" /&gt;
+* Normal&amp;mdash;similar to a Prime plane with various flora and fauna&lt;ref name="MotP1e-101-2" /&gt;&lt;ref name="DMG3.5-161" /&gt;
+* Ocean&amp;mdash;a trackless ocean, with a surface&lt;ref name="MotP1e-101-2" /&gt;&lt;ref name="DMG3.5-161" /&gt;
+* Salt&amp;mdash;crystalline badlands or desert&lt;ref name="DMG3.5-161" /&gt;
+* Sea&amp;mdash;of acid, blood, garbage, insects, oil, or worms, ''etc''.&lt;ref name="DMG3.5-161" /&gt;
+* Swamp&amp;mdash;noisome bog inhabited by predators&lt;ref name="DMG3.5-161" /&gt;
+* Undead&amp;mdash;[[specter]]s, spooks, and [[ghost]]s&lt;ref name="DMG3.5-161" /&gt;
+* Volcanic&amp;mdash;lava flows, earthquakes, volcanoes, and smoke&lt;ref name="MotP1e-101-2" /&gt;
+* [[Planar traits#Elemental and Energy Traits|Water-dominant]]&amp;mdash;nightmarish creatures in the murk&lt;ref name="DMG3.5-161" /&gt;
+
+Despite its name and notoriety for being never-ending, it was not known whether the layers of the Abyss were truly infinite in number.&lt;ref name="PoC2e-p19" /&gt;&lt;ref group="note"&gt;The Abyss is often listed as infinite but so are the other Outer Planes, or, as per ''[[Manual of the Planes 3rd edition]]'', "at least so large that they may as well be infinite."&lt;/ref&gt; Part of the reason for this was that some places might have been so absolutely inhospitable that none, not mortal, nor god, nor demon lords themselves could survive (the deeper layers reportedly having been even worse in the past), and hence were not known about.&lt;ref name="PoC2e-p19" /&gt;&lt;ref name="D149p31"&gt;{{Cite dragon/349/Demonomicon of Iggwilv: Dagon: Prince of Darkened Depths|31}}&lt;/ref&gt;&lt;ref name="Demons"&gt;{{Cite book/Demonomicon|8, 42-43}}&lt;/ref&gt;
+
+While the hundreds of layers of the Abyss might seem to utterly eclipse all other Outer planes put together, this figure was misleading. Besides the issue of uninhabitability, layers and [[divine realm]]s, the personal territories of [[power]]s, were often one in the same in the Abyss, whereas other planes often had several realms on one layer.&lt;ref name="PoC2e-p19" /&gt; Exacerbating the problem, and another reason why the Abyssal layers could not be properly counted, was that the number was always in a state of flux.&lt;ref name="FOETF"&gt;{{Cite book/Faces of Evil: The Fiends|62-63}}&lt;/ref&gt;&lt;ref name="Demons" /&gt;
+[[File:Alkilith-5e.png|thumb|right|250px|An alkilith weakens the fabric of reality, opening a window into the Abyss.]]
+In the very depths of the Abyss, the heart of the plane was constantly cleaving through the primal foundations of the cosmos, as it had since before the dawn of mortals, spawning new layers.&lt;ref name="D149p31" /&gt; Arguably worse, if a demonic invasion was allowed to fester, entire worlds could fall into the Abyss, becoming the basis of new layers and realms.&lt;ref name="MTF"&gt;{{Cite book/Mordenkainen's Tome of Foes|25-26}}&lt;/ref&gt; Conversely, the Abyss was also capable of losing layers. The individual layers of the Abyss had primal urges and a constant need for nourishment, shrinking and weakened until nothing was left if not fed. Alternatively, they might be absorbed by other layers, only able to escape this state by acquiring sufficient sustenance.&lt;ref name="FOETF" /&gt; Occassionally the battling of demons over control of a layer could become so cataclysmic that the entire realm was outright obliterated.&lt;ref name="MTF" /&gt;
+
+Layers could also be intentionally removed, such as when [[Lolth]] expended much of her divine energy seperating the [[Demonweb Pits]],&lt;ref name="Annih-p311"&gt;{{Cite book/Annihilation/Paperback|311}}&lt;/ref&gt; or when a pantheon of offended deities ripped out and condensed a demon lord's entire layer (with him still in it) and cast it into the [[Astral plane]]. Despite this ending in the Abyss, much like a hungry, rudely awakened beast, almost instantly striking down the entire pantheon in that case, the attack itself was successful, leaving nothing but a void and their own decomposing divine corpses.&lt;ref name="Dra357"&gt;{{Cite dragon/357/Demonomicon of Iggwilv: Demogorgon: Prince of Demons|30}}&lt;/ref&gt;
+{{Fq
+| width  = 300px
+| source = [[Mordenkainen]]&lt;ref name="MTF" /&gt;
+| text   = Some scholars number and name the parts of the Abyss, declaring that this demon lord or that rules a portion of the place. When your house is on fire, does it matter what the flames look like in each room? Should you bother to give them names? What's important is escaping and putting out any fire that clings to you.
+}}
+
+It was also a possibility that destroyed layers were capable of being reborn elsewhere in the Abyss, although this was not a certainty. This was ignoring the fact that layers were shaped by the conscious manipulations and subconscious wills of its resident demon lord, and so even the nature of a single layer could become obsolete by the time such information was established.&lt;ref name="MTF" /&gt;
+
+==Inhabitants==
+{{main|Demon}}
+There were myriad types of [[demon]]s, too numerous to catalog here, but including the [[tanar'ri]], [[obyrith]]s, and [[loumara]]s. Non-demonic life could be found in the Abyss as well, with both mortal explorers and captives and the [[petitioner]]s brought there after death. Many wicked [[deities]] also based themselves here.&lt;ref name="FC13e-p107"&gt;{{Cite book/Fiendish Codex I: Hordes of the Abyss|107-109}}&lt;/ref&gt;
+
+==Afterlife==
+{{Main|Afterlife}}
+Beliefs about the journey of souls to the afterlife changed with the shifting [[cosmology|cosmologies]] and the [[crystal sphere]] in which one resided. In some worlds, [[chaotic evil]] souls would travel directly to the Abyss and become [[mane]]s, the lowest form of sub-demon.&lt;ref name="MM1e-17"&gt;{{Cite book/Monster Manual 1st edition|17}}&lt;/ref&gt; Manes were treated as slaves, cannon fodder, and food by the demon lords.&lt;ref name="MM1e-17" /&gt;&lt;ref name="Demonom-126"&gt;{{Cite book/Demonomicon|26}}&lt;/ref&gt; For mortals of [[Realmspace]], however,  all souls would first go to the [[Fugue Plane]] and await transport to their final resting place.&lt;ref name="FRCS-258"/&gt;&lt;ref name="F&amp;A-pp2-3"&gt;{{Cite book/Faiths and Avatars|2-3}}&lt;/ref&gt;&lt;ref name="PGtF-153"&gt;{{Cite book/Player's Guide to Faerûn|153}}&lt;/ref&gt; Greedy demon lords would open a portal to the Fugue Plane and conduct raids to steal souls and bring them back to the Abyss to become manes.&lt;ref name="FRCS-259"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|259}}&lt;/ref&gt; After the [[Spellplague]], [[Shar]] reshaped the [[Plane of Shadow]] and folded in what death energy did not get absorbed into the [[Elemental Chaos]] and created the [[Shadowfell]].&lt;ref name="FRCG-69"&gt;{{Cite book/Forgotten Realms Campaign Guide|69}}&lt;/ref&gt; After that, souls on their way to the afterlife started their journey in the Shadowfell and most made it to the Fugue Plane to await judgment, but a few remained behind or were lost.&lt;ref name="FRCG-65"&gt;{{Cite book/Forgotten Realms Campaign Guide|65}}&lt;/ref&gt;
+
+==Powers==
+
+Relatively few [[Greater deity|greater powers]] carved out a realm in the Abyss because dealing with the ubiquitous hordes of demons and ambitious [[demon lord]]s would require too much of their attention.&lt;ref name="MotP1e-102"/&gt; Those deities for whom the chaotic evil nature of the Abyss was attractive at some point in time, along with the demon "royalty" whose names were not spoken openly in civil society, were:
+* [[Ahazu]] the Seizer.&lt;ref name="MMII1e-35"&gt;{{Cite book/Monster Manual II 1st edition|35}}&lt;/ref&gt;
+* [[Baphomet]]&lt;ref name="FRCG-66" /&gt;&lt;ref name="PGtF-143"&gt;{{Cite book/Player's Guide to Faerûn|143}}&lt;/ref&gt; created an [[Endless Maze]] that changed form as it passed between layers. It was populated by a variety of [[minotaur]]s said to have breath weapons or magical abilities.&lt;ref name="MotP1e-102" /&gt;&lt;ref name="OHG-176"&gt;{{Cite book/On Hallowed Ground|176}}&lt;/ref&gt;
+* [[Beshaba]], the Goddess of Mischief and Maid of Misfortune once made her home in the Abyss.&lt;ref name="CotR-10"&gt;{{Cite book/Cyclopedia of the Realms|10}}&lt;/ref&gt;&lt;ref name="FRA-16"&gt;{{Cite book/Forgotten Realms Adventures|16}}&lt;/ref&gt;
+* [[Dagon]]&lt;ref name="FRCG-66" /&gt; controlled a watery layer filled with [[hezrou]] and aquatic [[dretch]].&lt;ref name="MMII1e-35" /&gt;
+* [[Demogorgon]]&lt;ref name="FRCG-66" /&gt;&lt;ref name="PGtF-143" /&gt; controlled several layers, each filled with dinosaurs, wild apes, and flying monsters as well as the usual demonkind.&lt;ref name="MotP1e-102" /&gt;
+* [[Diinkarazan]], crazed twin brother of [[derro]] deity [[Diirinka]], was held by a curse in the [[Prison of the Mad God]], the [[Layers of the Abyss#Layer 586: Prison of the Mad God|586{{th}} layer]].&lt;ref&gt;{{Cite book/Monster Mythology|65}}&lt;/ref&gt;&lt;ref&gt;{{Cite book/On Hallowed Ground|83}}&lt;/ref&gt;
+* [[Eltab]] lurked on this plane&lt;ref name="PGtF-143" /&gt; in the "[[Hidden Layer]]".&lt;ref name="FC13e-p156-157" /&gt;
+* [[Fraz-Urb'luu]] had a realm that reportedly rivaled the beauty of the [[Twin Paradises]] or [[Arvandor]] but it was an illusion covering decay and rotting flesh.&lt;ref name="MotP1e-102" /&gt;
+* [[Garyx]] the All-Destroyer, [[Draconic pantheon|dragon god]] of [[fire]], made his lair somewhere in the Abyss.&lt;ref&gt;{{Cite book/Cult of the Dragon|120}}&lt;/ref&gt;&lt;ref&gt;{{Cite book/Draconomicon (1990)|25-26}}&lt;/ref&gt;&lt;ref group="note"&gt;The more recent but Core source ''[[Races of the Dragon]]'' places Garyx in [[Pandemonium]] instead, which more closely fits his alignment between chaotic evil and chaotic neutral.&lt;/ref&gt;
+* [[Gorellik]], the abandoned god of the [[gnoll]]s, spent much of his time wandering the Abyss.&lt;ref&gt;{{Cite book/Planes of Chaos/The Book of Chaos|9}}&lt;/ref&gt;
+* [[Grankhul]], the hunter god of the [[bugbear]]s,&lt;ref&gt;{{Cite book/Demihuman Deities|151}}&lt;/ref&gt; had the 241st layer, [[Palpitatia]], as divine realm.&lt;ref name="OHG-175"&gt;{{Cite book/On Hallowed Ground|175}}&lt;/ref&gt;
+* [[Graz'zt]]&lt;ref name="FRCG-66" /&gt;&lt;ref name="PGtF-143" /&gt; had a great palace that covered an entire layer where he would marshal his armies to fight [[Orcus]] and [[Demogorgon]].&lt;ref name="MotP1e-102" /&gt;
+* The [[Great Mother]], tyrannical chief deity of the [[beholder]]s, held her [[Realm of a Million Eyes]] on the [[Layers of the Abyss#Layer 6: Realm of a Million Eyes|6{{th}} Layer]].&lt;ref name="OHG-175"/&gt;
+* [[Grolantor]], god of the [[hill giant]]s, stayed in the Abyss when not in [[Steading|his realm]] in [[Tarterus]].&lt;ref&gt;{{Cite book/Monster Mythology|78}}&lt;/ref&gt;
+* [[Juiblex]] lived in a layer full of fungus and rot, where [[:Category:Oozes|slimes]] and molds fed off the decaying matter of the plane, and each other.&lt;ref name="MotP1e-102" /&gt;
+* [[Kali]], the feared Black Earth Mother of the [[Vedic pantheon]], held sway over both the [[Layers of the Abyss#Layer 500: Unnamed|500th layer]], and the [[Caverns of the Skull]], the [[Layers of the Abyss#Layer 643: Caverns of the Skull|663rd layer]].&lt;ref name="FC13e-p156-157"&gt;{{Cite book/Fiendish Codex I: Hordes of the Abyss|156-157}}&lt;/ref&gt;&lt;ref name="OHG-155"&gt;{{Cite book/On Hallowed Ground|155}}&lt;/ref&gt;
+* [[Kostchtchie]]&lt;ref name="FRCG-66" /&gt;&lt;ref name="PGtF-143" /&gt; controlled only part of a layer, but his ice palace was filled with creatures of cold.&lt;ref name="MotP1e-102" /&gt;
+* [[Laogzed]], god of [[troglodyte]]s, had a realm called the [[Rotting Plain]] here.&lt;ref name="MotP1e-102" /&gt;&lt;ref name="DD1e-112"&gt;{{Cite book/Deities &amp; Demigods 1st edition|112}}&lt;/ref&gt;&lt;ref name="OHG"&gt;{{Cite book/On Hallowed Ground|177}}&lt;/ref&gt;
+* [[Lolth]]&lt;ref name="DD1e-107"&gt;{{Cite book/Deities &amp; Demigods 1st edition|107}}&lt;/ref&gt; spun her webs on the 65th layer in the midst of a maelstrom that was the portal to her abode on the 66th layer&lt;ref name="MotP1e-102-3"&gt;{{Cite book/Manual of the Planes 1st edition|102,103}}&lt;/ref&gt; before she became a [[greater deity|greater god]] and removed her [[Demonweb Pits]] from the Abyss to join the [[fiendish plane]]s.&lt;ref name="PGtF-149"&gt;{{Cite book/Player’s Guide to Faerûn|149}}&lt;/ref&gt; After the [[Spellplague]] her realm survived to float in the [[Astral Sea]].&lt;ref name="FRCG-63-74"&gt;{{Cite book/Forgotten Realms Campaign Guide|63,74}}&lt;/ref&gt;
+* [[Merrshaulk]], the ancient [[yuan-ti]] deity, resided on the 74{{th}} layer called [[Smaragd]].&lt;ref name="OHG"/&gt;
+* [[Moander]], the Rotting God, had a realm called [[Offalmound]] on the 223rd layer, also known as Rarandreth, before his demise.&lt;ref&gt;{{Cite book/Faiths &amp; Avatars|119}}&lt;/ref&gt;&lt;ref&gt;{{Cite book/On Hallowed Ground|182}}&lt;/ref&gt;
+* [[Obox-ob]]&lt;ref name="MMII1e-35" /&gt; once had a realm here called [[Zionyn]].&lt;ref name="FC13e-p156-157" /&gt;
+* [[Orcus]]&lt;ref name="FRCG-66" /&gt;&lt;ref name="PGtF-143" /&gt; had an enormous palace made of bones, rising out of a field of bone dust. He employed many [[undead]] as his guards and servants.&lt;ref name="MotP1e-102" /&gt;
+* [[The Pack (fiends)|The Pack]], a group of powerful entities worshiped by the [[leucrotta]], roamed the Abyss in search of prey (usually tanar'ri).&lt;ref&gt;{{Cite book/Elminster's Ecologies/The Great Gray Land of Thar|14-15}}&lt;/ref&gt;
+* [[Pale Night]], the Mother of Demons, lived in a bone castle in the maze of Baphomet&lt;ref name="FC13e-p152-154"&gt;{{Cite book/Fiendish Codex I: Hordes of the Abyss|152-154}}&lt;/ref&gt; and controlled her own layer called ''Androlynne''.&lt;ref name="FC13e-p156-157" /&gt;
+* [[Pazuzu]] had no real home but controlled the skies above every layer of the Abyss. He, like [[Charon]] on the [[Styx]], controlled a primary mode of travel in the Abyss and was respected if not feared.&lt;ref name="MotP1e-102" /&gt;
+* The [[Queen of Chaos]] ruled the fourteenth layer called the ''Steaming Fen''.&lt;ref name="FC13e-p156-157" /&gt;
+* [[Ramenos]], the deity of the [[bullywug]]s, slumbered on the 74{{th}} layer most of the time, sharing Merrshaulk's realm of Smaragd.&lt;ref name="OHG"/&gt;&lt;ref&gt;{{Cite book/Monster Mythology|78}}&lt;/ref&gt;
+* [[Skiggaret]], the bugbear god of fear, shared the realm of Palpitatia with his fellow power Grankhul.&lt;ref name="OHG-175"/&gt;
+* [[Sseth]], the god of the [[yuan-ti]], called his realm on the 74{{th}} layer the [[Viper Pit]].&lt;ref&gt;{{Cite book/Powers &amp; Pantheons|84}}&lt;/ref&gt;
+* [[Tharizdun]], the god of destruction who created the Abyss, was imprisoned in a remote layer of the Abyss during the Dawn War.&lt;ref name="Demonom-8"&gt;{{Cite book/Demonomicon|8}}&lt;/ref&gt;
+* [[Umberlee]], the Bitch Queen once hailed from the Abyss.&lt;ref name="CotR-16"&gt;{{Cite book/Cyclopedia of the Realms|16}}&lt;/ref&gt;&lt;ref name="FRA-35"&gt;{{Cite book/Forgotten Realms Adventures|35}}&lt;/ref&gt;
+* [[Urdlen]], the evil [[gnome]] deity carved his realm out of a layer of solid rock, crisscrossing it with tunnels filled with hate for beautiful things.&lt;ref name="MotP1e-102" /&gt;&lt;ref name=UA-117"&gt;{{Cite book/Unearthed Arcana 1st edition|117}}&lt;/ref&gt;
+* [[Vaprak]], deity of [[troll]]s and father of [[ogre]]s, had a realm here&lt;ref name="MotP1e-102" /&gt;&lt;ref name="DD1e-111"&gt;{{Cite book/Deities &amp; Demigods 1st edition|111}}&lt;/ref&gt;&lt;ref name="GC-9"&gt;{{Cite book/Giantcraft|9}}&lt;/ref&gt; on a layer called ''[[Shatterstone]]''.&lt;ref name="OHG-176"/&gt;
+* [[Yeenoghu]] had a mansion the size of a city that rolled across barren salt flats, pulled by slaves driven by [[gnoll]]s.&lt;ref name="FRCG-66" /&gt;&lt;ref name="MotP1e-102" /&gt;&lt;ref name="PGtF-143" /&gt;
+* [[Zuggtmoy]] had several realms scattered throughout the layers, all echos of normal environments but bathed in a purplish light and being overtaken by fungus and fungoid creatures.&lt;ref name="MotP1e-102" /&gt;
+
+==Appendix==
+===Notes===
+{{Notes}}
+===References===
+{{Refs}}
+===Connections===
+{{Cosmologies}}
+[[Category:Planes of chaos|Abyss, the]]
+[[Category:Elemental realms|Abyss, the]]
+[[Category:Fiendish planes|Abyss, the]]
+[[Category:Outer Planes]]
+[[Category:Planes of existence]]
+[[Category:Great Wheel planes]]
+[[Category:World Tree planes]]
+[[Category:World Axis planes]]
+[[Category:Lower Planes]]
+[[Category:Locations on the River Styx]]
+[[Category:Locations on Yggdrasil]]</text>
+      <sha1>lg8d4lpc7nm4zaz1z7ijp5h7ctmfoth</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Acheron</title>
+    <ns>0</ns>
+    <id>228</id>
+    <revision>
+      <id>932</id>
+      <parentid>931</parentid>
+      <timestamp>2023-01-05T02:35:06Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>931</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="12269" sha1="11p6ximlmk80vjnznsieq7xa50m5sh6" xml:space="preserve">{{Plane
+| image             = Acheron-2e.jpg
+| caption           = The cubes of Acheron.
+| name              = Acheron
+| othernames        = Infernal Battlefield of Acheron
+| symbol            = Acheron.png
+| demonym           = 
+| natives           = None known
+| languages         = 
+| color-pool-color  = Flame
+| color-pool-image  = ColorPoolAcheron.png
+| fork-material     = [[Iron]]
+| fork-note         = G
+| fork-audio        = G4.ogg
+| basicrefs         = &lt;ref name="MotP1e-113"&gt;{{Cite book/Manual of the Planes 1st edition|113}}&lt;/ref&gt;&lt;ref name="MotP3e-p123-127"&gt;{{Cite book/Manual of the Planes 3rd edition|123-127}}&lt;/ref&gt;&lt;ref name="Dr120-p42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;&lt;ref name="MotP1e-62"&gt;{{Cite book/Manual of the Planes 1st edition|62}}&lt;/ref&gt;&lt;ref name="MotP3e-p49"&gt;{{Cite book/Manual of the Planes 3rd edition|49}}&lt;/ref&gt;&lt;ref name="DMG5e-p47"&gt;{{Cite book/Dungeon Master's Guide 5th edition|47}}&lt;/ref&gt;
+| type-GW           = [[Outer Plane]]
+| shape-size-GW     = Infinite void, four layers shaped like floating blocks
+| gravity-GW        = Objective Directional: toward the surface of each floating block
+| time-GW           = Normal
+| morphic-GW        = Divinely
+| element-energy-GW = 
+| alignment-GW      = {{alignment grid|off|off|off|on|off|off|on|off|off}}
+| magical-GW        = Normal with special cases
+| layers-GW         = [[Avalas]]&lt;br /&gt;[[Thuldanin]]&lt;br /&gt;[[Tintibulus]]&lt;br /&gt;[[Ocanthus]]
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="MotP1e-73"&gt;{{Cite book/Manual of the Planes 1st edition|73}}&lt;/ref&gt;&lt;ref name="MotP1e-113" /&gt;&lt;ref name="MotP1e-78-82"&gt;{{Cite book/Manual of the Planes 1st edition|78-82}}&lt;/ref&gt;&lt;ref name="MotP3e-p123-127" /&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| based             = [[wikipedia:en:Acheron|Acheron]] (Greek)
+| usethe            = 
+| useon             = 
+}}The '''Infinite Battlefield of Acheron'''&lt;ref name="DMG5e-p58"&gt;{{Cite book/Dungeon Master's Guide 5th edition|58}}&lt;/ref&gt; ({{Pronounce|ÆTCH|ur|un|refs=&lt;ref name="D.93-APG-p25"&gt;{{Cite dragon/93/Ay pronunseeAYshun gyd|25}}&lt;/ref&gt;|audio=Acheron.ogg}}) was an [[Outer Plane]] in the [[Great Wheel cosmology]] model representing alignments between [[lawful evil]] and [[lawful neutral]] with emphasis on law.&lt;ref name="MotP1e-73" /&gt; Some characteristics of this plane were ascribed to the [[World Tree cosmology]] planes of [[Clangor]],&lt;ref name="PGtF-147"&gt;{{Cite book/Player's Guide to Faerûn|147}}&lt;/ref&gt; [[Nishrek]],&lt;ref name="PGtF-161"&gt;{{Cite book/Player's Guide to Faerûn|161}}&lt;/ref&gt; and [[Warrior's Rest]]&lt;ref name="PGtF-163"&gt;{{Cite book/Player's Guide to Faerûn|163}}&lt;/ref&gt; when that cosmology became popular. Nishrek and Warrior's Rest survived the [[Spellplague]] and became part of the [[World Axis cosmology]] model.&lt;ref name="FRCG-64-65"&gt;{{Cite book/Forgotten Realms Campaign Guide|64,65}}&lt;/ref&gt;
+
+{{Quote
+|Acheron is the home of dreams gone wrong.
+|[[Deva]] Isab of the Bent Wing.&lt;ref name="PoL2"&gt;{{Cite book/Planes of Law/Acheron|2}}&lt;/ref&gt;
+}}
+==Description==
+Acheron was the bridge between the ultimate order of [[Nirvana]] and the regimented evil of the [[Nine Hells]] and as such, each layer emphasized order over evil. The land masses on each layer were blocks of geometric simplicity the size of nations floating in a sea of air. The blocks would slowly collide and part without causing any upheaval or tremor, allowing beings to move to a new block if desired. The dance of the blocks was carefully orchestrated and creatures of high intelligence could usually discern a pattern for an area by studying the motions. It was said gravity pulled toward the center of the blocks but in practical terms gravity was normal to each surface.&lt;ref name="MotP1e-113" /&gt;
+
+===Avalas===
+{{Main|Avalas}}
+Acheron was sometimes known as the "iron-shod battle planes of Acheron" due to the characteristics of the first layer, Avalas. The blocks of the top plane were black with a metallic hardness that allowed the sounds of battle and troop movements to reverberate loudly. Avalas had the most block-like worlds and the highest population as the armies of the [[Outer Planes]] spent their [[afterlife]] clashing in neutral territory over differences both subtle and gross. The landscape consisted of cone-shaped mountains and pits plus the iron fortresses of the various armies. The only other remarkable feature of this layer was the river [[Styx]] that would bubble up from one pit, meander across two or three sides of a block, and then disappear down another pit. The Styx did not visit all the blocks, but those it did could be reached by [[Charon]] and his servants.&lt;ref name="MotP1e-113" /&gt;
+
+Avalas touched the [[Astral Plane]] and had spherical portals to the three adjacent planes: [[Nirvana]], the [[Nine Hells]], and [[Concordant Opposition]]. The portals hung at fixed locations in space and would pass harmlessly through the blocks, becoming inactive while inside a block and reactivating when they reappeared. Anyone emerging from a portal would start to fall toward the nearest block and almost certainly required some form of flight to avoid a high velocity impact. The portals were activated by touch and the destination could be determined by the sound it made when activated. A harmonious chord indicated a portal to Nirvana, a dissonant chord meant the Nine Hells, and silence indicated Concordant Opposition.&lt;ref name="MotP1e-113" /&gt;
+
+Avalas was the location of the [[orc]] realm of [[Nishrek]]&lt;ref name="OHG-177"&gt;{{Cite book/On Hallowed Ground|177}}&lt;/ref&gt; and the [[goblin]] realm of [[Clangor]].&lt;ref name="OHG-176"&gt;{{Cite book/On Hallowed Ground|176}}&lt;/ref&gt; [[Bane]]'s realm, ''the Black Bastion'', was also on Avalas.&lt;ref name="OHG-182"&gt;{{Cite book/On Hallowed Ground|182}}&lt;/ref&gt; [[Gilgeam]]'s realm [[Zigguraxus]] existed here until that god's death.&lt;ref name="P&amp;P-102"&gt;{{Cite book/Powers &amp; Pantheons|102}}&lt;/ref&gt;
+
+===Thuldanin===
+{{/Imagemap}}
+{{Main|Thuldanin}}
+This layer was the [[wikipedia:en:Sargasso Sea|Sargasso Sea]], [[wikipedia:en:Elephants' graveyard|Elephants' graveyard]], and scrap heap for countless contraptions, creations, weapons, armor, failed experiments, broken devices, fallen buildings, and shipwrecks of sea and air. The blocks of Thuldanin were hollow and pockmarked with pits that lead to the interior a few miles/kilometers down. There the flotsam and jetsam of the ages turned to stone in a matter of days or weeks due to the magic of this layer. Thuldanin had no inhabitants, only the occasional visitor from Avalas looking for some piece of magic or technology that might turn the tide of battle.&lt;ref name="MotP1e-113" /&gt;
+
+[[Laduguer]]'s realm ''Hammergrim'' was here.&lt;ref name="OHG2e-p172"&gt;{{Cite book/On Hallowed Ground|172}}&lt;/ref&gt;
+
+===Tintibulus===
+{{Main|Tintibulus}}
+The third layer of Acheron had blocks different than those of the other layers. Here the blocks were made of gray volcanic stone and the faces were six-sided, eight-sided, or even higher in number of edges. When the blocks of Tintibulus collided the surfaces would fracture along natural fault lines into hexagons great and small. This layer had no inhabitants but was attractive to magical researchers for its emptiness and isolation.&lt;ref name="MotP1e-113" /&gt;
+
+===Ocanthus===
+{{Main|Ocanthus}}
+The blocks of the fourth and final layer were square and so razor-thin as to be almost two-dimensional. They ranged in size from a few inches/centimeters to several miles/kilometers across. Both sides of the hard black squares had normal gravity pulling to the surface and could be walked upon. Being hit by the edge of one of these razor-sharp squares could be deadly.&lt;ref name="MotP1e-113" /&gt;
+
+==Inhabitants==
+The main inhabitants of Acheron were the spirit legions occupying Avalas. They were made up of the spirits of [[human]]s, [[dwarves]], [[halfling]]s, [[ogre]]s, and many other mindless soldiers who died in wars after forgetting their purpose; those for whom war became an end in itself. The spirits would congregate with others of similar beliefs or alignment and form nations on the surface of a block. They would fight to control a block and then join forces to conquer another block when it came within their reach. Legion members who were slain in battle would return with full strength within 24 hours, ready to fight again.&lt;ref name="MotP1e-113" /&gt; The [[orc]] and [[goblinoid]] spirit legions shared the same large block in Avalas and besieged one another regularly.&lt;ref name="MotP1e-114"&gt;{{Cite book/Manual of the Planes 1st edition|114}}&lt;/ref&gt;
+
+Other creatures that could be found in Acheron were wandering [[imp]]s, [[rust monster]]s, [[achaierai]], and occasionally [[devil]]s and [[modron]]s.&lt;ref name="MotP1e-113" /&gt;
+
+==Realms==
+* [[Bahgtru]], son of Gruumsh, held a realm on a smaller block which orbited Gruumsh's block.&lt;ref name="MotP1e-114" /&gt;
+* [[Bane]], God of Strife, Hatred, and Tyranny, once had a realm in Acheron&lt;ref name="CotR-10"&gt;{{Cite book/Cyclopedia of the Realms|10}}&lt;/ref&gt;&lt;ref name="FRA-37"&gt;{{Cite book/Forgotten Realms Adventures|37}}&lt;/ref&gt; before he was slain by [[Torm]] during the [[Time of Troubles]].&lt;ref name="FRCG-238"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|238}}&lt;/ref&gt; After his resurrection, he carved out a realm in the [[Barrens of Doom and Despair]] as described by the [[World Tree cosmology]] model.&lt;ref name="PGtF-145"&gt;{{Cite book/Player's Guide to Faerûn|145}}&lt;/ref&gt; (After the [[Spellplague]] he had his own realm, [[Banehold]], that floated in the [[Astral Sea]] as described by the [[World Axis cosmology]] model.&lt;ref name="FRCG-62"&gt;{{Cite book/Forgotten Realms Campaign Guide|62}}&lt;/ref&gt;)
+* [[Deep Duerra]] maintained the [[Citadel of Thought]] in Thuldanin.&lt;ref name="DD-54"&gt;{{Cite book/Demihuman Deities|62}}&lt;/ref&gt;
+* [[Gilgeam]], Supreme Ruler of [[Unther]], had his realm, [[Zigguraxus]], on Avalas.&lt;ref name="P&amp;P-102"/&gt;
+* [[Gruumsh]] of the [[orc]]s at one time made his home, [[Nishrek]], consisting of several large citadels, on a large block in the first layer.&lt;ref name="MotP1e-114" /&gt;&lt;ref&gt;{{Cite book/On Hallowed Ground|133}}&lt;/ref&gt;
+* [[Ilneval]], lieutenant of Gruumsh, had holdings on a smaller block which orbited Gruumsh's block.&lt;ref name="MotP1e-114" /&gt;
+* [[Khurgorbaeyag]], [[goblin]] god of slavery and patron of the [[Batiri]], resided in his pantheon's realm of [[Clangor]] in [[Avalas]].&lt;ref&gt;{{Cite book/Demihuman Deities|85}}&lt;/ref&gt;&lt;ref name="OHG-132"&gt;{{Cite book/On Hallowed Ground|132}}&lt;/ref&gt;
+* [[Laduguer]], the Gray Protector of the [[duergar]], maintained his realm of [[Hammergrim]] on Thuldanin.&lt;ref&gt;{{Cite book/Demihuman Deities|71}}&lt;/ref&gt;
+* [[Luthic]], the cave goddess and wife of Gruumsh, lived on a smaller block that orbited Gruumsh's block.&lt;ref name="MotP1e-114" /&gt;
+* [[Maglubiyet]], war god of the [[goblin]]s and [[hobgoblin]]s, shared the same block as Gruumsh and maintained citadels as well in the never-ending battle between these hated enemies.&lt;ref name="MotP1e-114" /&gt; His realm was named Clangor.&lt;ref name="OHG-132"/&gt;
+* [[Nomog-Geaya]], the divine General of the hobgoblins, resided with his superior in Clangor.&lt;ref name="OHG-132"/&gt;
+
+==Appendix==
+===Appearances===
+:;Novels
+::{{Refonly}}
+::&lt;small&gt;''[[Shadowdale (novel)|Shadowdale]]''&lt;/small&gt;
+===References===
+{{Refs}}
+===Connections===
+{{Acheron}}
+{{Cosmologies}}
+[[Category:Outer Planes]]
+[[Category:Great Wheel planes]]
+[[Category:Planes of law]]
+[[Category:Planes of existence]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations]]
+[[Category:Lower Planes]]
+[[Category:Locations on the River Styx]]</text>
+      <sha1>11p6ximlmk80vjnznsieq7xa50m5sh6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Acheron/Imagemap</title>
+    <ns>0</ns>
+    <id>699</id>
+    <revision>
+      <id>1192</id>
+      <parentid>1191</parentid>
+      <timestamp>2023-01-05T02:35:22Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1191</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3419" sha1="dmjss8yjjev5w0ttxgs5mu0xp5kph83" xml:space="preserve">&lt;noinclude&gt;The following image map was generated using information compiled from the following sources:
+* {{Cite book/Manual of the Planes 3rd edition}}
+&lt;/noinclude&gt;&lt;div class="imageMapHighlighter"&gt;
+&lt;imagemap&gt;
+File:Acheron-3e.png|thumb|300px|right|A representation of the layers of Acheron, according to the Great Wheel Cosmology. Hovering over the map will reveal main features. Clicking will link to the article for that location.
+
+desc none
+poly 597 263 636 281 626 328 593 344 551 326 565 275 [[Avalas]]
+poly 549 375 564 387 554 404 534 410 519 395 533 377 [[Avalas]]
+poly 602 416 660 406 681 429 688 487 633 498 607 471 [[Avalas]]
+poly 440 394 480 385 492 428 479 451 430 460 418 414 [[Avalas]]
+poly 508 495 522 479 533 479 548 490 534 510 522 508 [[Avalas]]
+poly 425 542 439 509 479 522 485 541 482 548 482 551 476 565 474 574 470 583 429 570 [[Thuldanin]]
+poly 475 590 509 557 540 559 565 594 533 628 499 628 [[Thuldanin]]
+poly 566 541 593 539 602 565 591 580 563 584 556 557 [[Thuldanin]]
+poly 641 575 654 572 663 575 661 590 650 592 637 590 639 590 [[Thuldanin]]
+poly 457 614 469 627 468 640 448 654 437 638 440 624 [[Thuldanin]]
+poly 345 648 382 628 409 642 404 680 375 702 335 700 332 678 [[Tintibulus]]
+poly 528 669 542 660 563 672 559 693 538 698 525 685 [[Tintibulus]]
+poly 589 670 605 679 601 699 583 723 575 685 [[Tintibulus]]
+poly 637 681 655 683 664 699 649 720 627 716 624 694 [[Tintibulus]]
+poly 452 710 493 694 525 753 459 757 [[Tintibulus]]
+poly 399 733 422 726 432 743 426 757 403 765 394 751 [[Tintibulus]]
+poly 521 792 611 766 644 766 610 783 [[Ocanthus]]
+poly 366 766 398 771 444 791 394 785 [[Ocanthus]]
+poly 445 820 480 786 473 814 441 851 [[Ocanthus]]
+poly 562 814 586 838 600 876 579 860 579 859 577 858 [[Ocanthus]]
+poly 406 875 472 847 499 848 476 865 [[Ocanthus]]
+poly 352 873 412 890 434 906 403 904 351 876 352 875 [[Ocanthus]]
+poly 504 895 521 868 522 891 497 928 496 926 496 925 [[Ocanthus]]
+poly 143 964 162 963 175 955 180 954 182 960 187 953 193 954 199 960 210 950 222 946 225 948 256 915 265 919 253 938 256 940 256 943 245 959 247 963 263 959 281 949 294 951 305 944 314 944 334 936 346 938 358 934 372 948 378 942 388 950 402 949 427 958 453 951 488 954 507 951 512 956 530 950 543 956 548 952 556 954 564 946 597 932 602 936 596 942 603 946 602 951 612 954 598 913 607 911 614 927 623 929 641 944 650 944 654 946 657 942 680 953 736 954 737 963 728 970 729 973 721 981 721 975 719 976 717 980 717 987 709 991 685 991 683 988 678 991 671 991 661 994 652 992 643 990 621 991 614 994 613 988 613 984 623 971 625 962 619 963 610 972 610 979 601 987 597 989 592 990 587 993 576 993 572 994 566 986 557 985 552 988 548 983 543 984 540 981 540 971 536 973 535 966 531 970 531 980 526 984 525 981 516 985 518 979 515 981 508 985 510 990 506 993 503 991 485 994 482 992 482 988 473 987 464 987 463 982 456 987 457 989 438 986 439 971 434 979 432 977 432 984 427 990 423 988 418 992 411 989 405 991 404 997 381 996 375 992 363 991 363 995 342 996 340 994 322 996 317 996 295 997 272 995 258 995 249 989 248 994 231 994 225 991 208 994 204 991 186 991 183 994 180 990 159 988 152 986 151 988 141 980 133 978 116 966 107 969 102 961 [[Ocanthus]]
+rect 180 802 336 822 [[Cabal Macabre]]
+rect 581 793 685 811 [[Ocanthus]]
+rect 602 599 712 618 [[Tintibulus]]
+rect 163 532 277 553 [[Thuldanin]]
+rect 624 355 688 374 [[Avalas]]
+&lt;/imagemap&gt;
+&lt;/div&gt;
+&lt;noinclude&gt;[[Category:Imagemaps]]&lt;/noinclude&gt;</text>
+      <sha1>dmjss8yjjev5w0ttxgs5mu0xp5kph83</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Acheron (card)</title>
+    <ns>0</ns>
+    <id>230</id>
+    <revision>
+      <id>268</id>
+      <timestamp>2022-02-11T02:18:47Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "[[File:Acheron card.jpg|thumb|right|300px]]  '''Acheron''' was a Battlefield card from the [[Blood Wars]] game, depicting [[Acheron]].  It was released as part of the Blood..."</comment>
+      <origin>268</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="711" sha1="pqyd60927trj3tfp0ihm7gr0jht6cv9" xml:space="preserve">[[File:Acheron card.jpg|thumb|right|300px]]
+
+'''Acheron''' was a Battlefield card from the [[Blood Wars]] game, depicting [[Acheron]].
+
+It was released as part of the [[Blood Wars basic set|basic set]], and had a rarity of "common". The artwork was by [[Tony DiTerlizzi]].
+
+{| border="1" cellpadding="1" cellspacing="1" style="width: 500px;"
+! scope="col"|Stats
+! scope="col"|Acheron
+|-
+|Type
+|Battlefield
+|-
+|Alignment
+|Lawful Neutral
+|-
+|Victory Points
+|2
+|-
+|Random Result
+|8
+|-
+|Description
+|Plane
+|-
+|Notes
+|Any player who holds this Battlefield in his Victory Pool can assemble Legions under 1 active Warlord during his Resolution Phase.
+|}
+
+[[Category:Blood Wars cards]]
+[[Category:Blood Wars basic set]]</text>
+      <sha1>pqyd60927trj3tfp0ihm7gr0jht6cv9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Aebrynis</title>
+    <ns>0</ns>
+    <id>2873</id>
+    <revision>
+      <id>7294</id>
+      <parentid>7292</parentid>
+      <timestamp>2026-03-03T10:45:04Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <minor/>
+      <origin>7294</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2580" sha1="h6y08elp29cs38fpo3p5ydikag5wb6a" xml:space="preserve">[[File:BirthrightLogo2e.png|300px|thumb|right|[[Birthright]] (AD&amp;D 2nd Edition)]]
+
+'''Aebrynis''' is the primary inhabited world found within [[w:c:spelljammer:Aebrynisspace|an unknown crystal sphere]] on the [[Prime Material plane]].
+
+Many planars consider it "hardly worth noting," with few portals or sites of interest to planewalkers. It does, however, have some connections to a plane called the Shadow World. Once a realm of spirit and faerie called the Spirit World, it has gradually succumbed to the leftover taint from the destroyed Azrai. It's as though the local [[Feywild]] was gradually transforming into the [[Shadowfell]].&lt;ref name="pwhb31"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|page=31}}&lt;/ref&gt;&lt;ref name="pwhb147"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|page=147}}&lt;/ref&gt; The Shadow World also seems to serve as Aebrynis' [[Border Ethereal]].&lt;ref name="gtte16"&gt;{{b|Planescape|A Guide to the Ethereal Plane|pdf=17293|page=16}}&lt;/ref&gt;
+
+
+== Personalities ==
+
+The following planar personalities came from Aebrynis:
+
+* The {{NPC|Blowfish|monster|genderless|awnshegh|unclassed|12||ne}}&lt;ref name="poclm33"&gt;{{b|Planescape|Planes of Conflict|pdf=17278|page=33, ''Liber Malevolentiae''}}&lt;/ref&gt;
+
+
+== Portals ==
+
+The following portals are known to link to Aebrynis:
+
+* The [[Seafarer's Arch]] in the [[Ditch]] links to a waterfall in Cariele&lt;ref name="poly137-15"&gt;{{b|Polyhedron|Polyhedron Magazine 137|page=15}}&lt;/ref&gt;
+
+== Gods ==
+
+: See also: [[Cerilian powers]]&lt;ref name="ohg160-164,179"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=160-164,179}}&lt;/ref&gt;&lt;ref name="woh9195"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-95}}&lt;/ref&gt;
+
+Around [[Prehistory|1398 BFHR]], the gods of the people of ''Cerilia'' sacrificed themselves in one great battle (the Battle of Mount Deismaar) in order to defeat the dark power Azrai. Their closest mortal servants, however, absorbed much of their power, and themselves ascended to godhood. All of Cerilia's current pantheon of gods can trace themselves to this event.
+
+* [[Avani]] (Greater)
+* [[Erik]] (Greater)
+* [[Haelyn]] (Greater)
+* [[Belinik]] (Intermediate)
+* [[Nesirie]] (Intermediate)
+* [[Sera]] (Intermediate)
+* [[Cuiraécen]] (Lesser)
+* [[Eloéle]] (Lesser)
+* [[Kriesha]] (Lesser)
+* [[Laerme]] (Lesser)
+* [[Ruornil]] (Lesser)
+
+
+== Background Information ==
+
+'''Aebrynis''' is the primary setting for the ''[[Birthright]]'' campaign setting.
+
+== External Links ==
+* {{FRW}}
+* {{Spelljammer Wiki external link}}
+
+== References ==
+&lt;references /&gt;
+
+[[Category:Prime Material worlds]]
+[[Category:Aebrynis]]</text>
+      <sha1>h6y08elp29cs38fpo3p5ydikag5wb6a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Agathion</title>
+    <ns>0</ns>
+    <id>291</id>
+    <revision>
+      <id>339</id>
+      <timestamp>2022-02-12T11:19:13Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "'''Agathion''' was the fourth layer of the plane of [[Pandemonium]].  == Realms ==  * [[Forgotten Vault]]  [[Category:Layers]]"</comment>
+      <origin>339</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="126" sha1="59fpzkywfppyur91940nxexyplvp2pf" xml:space="preserve">'''Agathion''' was the fourth layer of the plane of [[Pandemonium]].
+
+== Realms ==
+
+* [[Forgotten Vault]]
+
+[[Category:Layers]]</text>
+      <sha1>59fpzkywfppyur91940nxexyplvp2pf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Agathys</title>
+    <ns>0</ns>
+    <id>181</id>
+    <revision>
+      <id>200</id>
+      <timestamp>2022-02-06T19:54:36Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "'''Agathys the Ice-Bound''' was the sixth layer of the plane of [[Carceri]].  The layer is covered in ice formed from the acidic sea dripping down from [[Porphatys]], the laye..."</comment>
+      <origin>200</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="324" sha1="iemv9f5kv3gecrbjc4tfgr0eggvcafb" xml:space="preserve">'''Agathys the Ice-Bound''' was the sixth layer of the plane of [[Carceri]].
+
+The layer is covered in ice formed from the acidic sea dripping down from [[Porphatys]], the layer above. The layer is home to false friends and betrayers who have been sent to Carceri.
+
+== Realms ==
+
+* [[Three-Sided Palace]]
+
+[[Category:Layers]]</text>
+      <sha1>iemv9f5kv3gecrbjc4tfgr0eggvcafb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Al-Qadim</title>
+    <ns>0</ns>
+    <id>3307</id>
+    <redirect title="Forgotten Realms" />
+    <revision>
+      <id>6893</id>
+      <timestamp>2025-08-01T21:33:29Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>redirect</comment>
+      <origin>6893</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30" sha1="5wben4pwlkwvkbck33g4amiclfpszbc" xml:space="preserve">#REDIRECT [[Forgotten Realms]]</text>
+      <sha1>5wben4pwlkwvkbck33g4amiclfpszbc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Alfheim</title>
+    <ns>0</ns>
+    <id>1695</id>
+    <revision>
+      <id>2594</id>
+      <parentid>2593</parentid>
+      <timestamp>2023-08-09T01:28:09Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2593</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4686" sha1="cy3j96zrnfbe0mhtly391qdcno822ns" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Alfheim
+| othernames        = Elfheim
+| symbol            = Ysgard.png
+| demonym           = 
+| natives           = [[Elf|Elves]]
+| languages         = 
+| basicrefs         = &lt;ref name="MotP3e-p90-92"&gt;{{Cite book/Manual of the Planes 3rd edition|90-92}}&lt;/ref&gt;&lt;ref name="D236"/&gt;&lt;ref name="D41"/&gt;
+| type-GW           = Realm
+| shape-size-GW     = 
+| gravity-GW        = Normal
+| time-GW           = Normal
+| morphic-GW        = Divinely
+| element-energy-GW = Mildly [[Positive energy|positive]]-dominant
+| alignment-GW      = {{Alignment grid|off|off|on|off|off|on|off|off|off}}
+| magical-GW        = Normal
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = [[Ysgard (layer)|Ysgard]]
+| refs-GW           = &lt;ref name="MotP3e-p90-92" /&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = 
+| settlements       = 
+| usethe            = 
+| useon             = 
+}}
+'''Alfheim''', rarely also called '''Elfheim''',&lt;ref name="D236"&gt;{{Cite dragon/236/The Seldarine Revisited}}&lt;/ref&gt;&lt;ref name="D41"&gt;{{Cite dragon |issue=41 |title=Giants in the Earth |author=[[Tom Moldvay]] |editor=[[Jake Jaquet]] |date=September 1980 |pages=19}}&lt;/ref&gt; was an [[elf|elven]] realm in the [[Ysgard (layer)|first layer]] of [[Ysgard]]. It was occasionally the location of [[Aerie (realm)|Aerie]], the [[divine realm]] of [[Aerdrie Faenya]], according to the [[Great Wheel cosmology]].&lt;ref name="DD2e-p94"&gt;{{Cite book/Demihuman Deities|94}}&lt;/ref&gt;&lt;ref name="OHG2e-p95"&gt;{{Cite book/On Hallowed Ground|95}}&lt;/ref&gt;
+
+==Description==
+The realm was a beautiful and joyful region imbued in sunlight. The landscape was rich with untouched wilds with sunlit forests, streams, and hills, all teeming with wildlife.&lt;ref name="MotP3e-p90-92" /&gt;&lt;ref name="PC-BC2e-p109-111"&gt;{{Cite book/Planes of Chaos/The Book of Chaos|109-111}}&lt;/ref&gt;
+
+Seasons in Alfheim were well defined, with long and mild summers and extremely harsh winters.&lt;ref name="MotP3e-p90-92" /&gt;
+
+==Cosmography==
+Alfheim was believed to have been once part of [[Arvandor]], but the realm gradually shifted into Ysgard as its inhabitants grew increasingly concerned with honor and survival.&lt;ref name="PC-BC2e-p109-111" /&gt;
+
+==Notable Locations==
+* [[Aerie (realm)|Aerie]], the divine realm of [[Aerdrie Faenya]], was occasionally located in Alfheim, as it constantly shifted back and forth from Arvandor.&lt;ref name="DD2e-p94" /&gt;&lt;ref name="OHG2e-p95" /&gt;
+* The [[High Grove]], a copse of enormous [[sequoia]]s that connected to one of the branches of [[Yggdrasil]]. It was the site of large festivals in spring and autumn.&lt;ref name="PC-TL2e-p42,45"&gt;{{Cite book/Planes of Chaos/The Travelogue|42,45}}&lt;/ref&gt;
+
+==Inhabitants==
+Most of the elves in Alfheim dwelt on the surface, but it was also common to find settlements located in glittering underground caves. During winter, all surface dwellers retreated to those caves after the first snow. The caves were then sealed off for the duration of the season. Wintertime visitors to Alfheim were met with a deserted landscape devoid of its inhabitants.&lt;ref name="MotP3e-p90-92" /&gt;&lt;ref name="PC-BC2e-p109-111" /&gt;
+
+During summer, the elven inhabitants of Alfheim were very welcoming to visitors, bestowing them with valuable gifts and insisting for travelers to share tales of their journeys. However, they strongly disliked the [[Ysgardian dwarves]] and [[gnome]]s,&lt;ref name="PC-BC2e-p109-111" /&gt; the former of whom would come up to the surface during this season to farm or engage in trade,&lt;ref name="FB-p124"&gt;{{Cite book/Frostburn|124}}&lt;/ref&gt; and made every effort to make them feel unwelcome and uncomfortable.&lt;ref name="PC-BC2e-p109-111" /&gt;
+
+==Appendix==
+===Further Reading===
+*{{Cite dragon/90/Plane Facts on Gladsheim}}
+*{{Cite book/Manual of the Planes 1st edition|95}}
+
+===References===
+{{Refs}}
+
+===Connections===
+{{Ysgard}}
+[[Category:Locations in Ysgard]]
+[[Category:Locations in the Upper Planes]]
+[[Category:Locations in the Outer Planes]]
+[[Category:Locations in the Great Wheel planes]]
+[[Category:Locations on Yggdrasil]]</text>
+      <sha1>cy3j96zrnfbe0mhtly391qdcno822ns</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Amoria</title>
+    <ns>0</ns>
+    <id>202</id>
+    <revision>
+      <id>2572</id>
+      <parentid>226</parentid>
+      <timestamp>2023-08-09T01:28:07Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>226</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="378" sha1="462oyklxqleb70cz3dxw3ueimkmsw46" xml:space="preserve">'''Amoria''' was the first layer of the plane of [[Elysium]].
+
+
+
+== Realms ==
+
+* [[Release From Care]]
+* [[The Asuras' Bridge]]
+* [[City of the Star]]
+* [[Contemplation]]
+* [[Domain of the Day-Long Sun]]
+* [[Healers' Home]]
+* [[Principality]]
+** [[Pax Benefice]]
+** [[Nest of the Phoenix]]
+* [[Quietude]]
+* [[Valorhome]]
+* [[Light's Blessing]]
+* [[Ro Stau]]
+
+[[Category:Layers]]</text>
+      <sha1>462oyklxqleb70cz3dxw3ueimkmsw46</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Anarch's Guild</title>
+    <ns>0</ns>
+    <id>2654</id>
+    <revision>
+      <id>6749</id>
+      <parentid>6323</parentid>
+      <timestamp>2025-06-19T17:24:47Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>6749</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1080" sha1="4xkn7j3ay1lsxyda2iiba22mrzkgjk0" xml:space="preserve">{{Faction
+  | faction        = The Anarch's Guild
+  | image1         = SectAnarchsGuild2e.png
+  | caption-image1 = 
+  | nickname       = Chaos Masters, Groundsmen
+  | philosophy     = Creating and maintaining stability.
+  | founded        = 
+  | factol         = 
+  | sigilhq        = 
+  | homefield      = [[Limbo]]
+  | allies         = 
+  | enemies        = 
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Anarch's Guild''' (not to be confused with the Anarchists of the [[Revolutionary League]]) are a [[sect]] whose philosophy, if you can call it that, is the creation and maintenance of stable pockets of reality in [[Limbo]] via a process called chaos-shaping.
+
+== History ==
+
+== Philosophy ==
+
+== Role ==
+
+== Membership ==
+: ''See also:'' [[List of Anarch's Guild members]]
+
+
+== Background Information ==
+
+== References ==
+* 2nd Edition
+** {{b|Planescape|Planes of Chaos|pdf=17298|nip=1|page=26, The Travelogue}}
+** {{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=14}}
+
+{{scroll|&lt;references /&gt;}}
+
+{{Sects}}
+
+[[Category:Sect]]
+[[Category:Anarch's Guild]]</text>
+      <sha1>4xkn7j3ay1lsxyda2iiba22mrzkgjk0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Andria Hayday</title>
+    <ns>0</ns>
+    <id>547</id>
+    <revision>
+      <id>856</id>
+      <timestamp>2023-01-04T01:48:22Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <comment>Created page with "{{DEFAULTSORT:Hayday, Andria}} {{Real-world person | image              =  | caption            =  | name               = Andria Hayday | fullname           =  | othername          =  | nickname           =  | pseudonym          =  | occupation         = Game designer, graphic designer | period             =  | series             =  | media              =  | settings           =  | works              = yes | images             =  | home               =  | birthplace..."</comment>
+      <origin>856</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="866" sha1="dr2kpp4thz4gj6ye7snruc4tclay0o0" xml:space="preserve">{{DEFAULTSORT:Hayday, Andria}}
+{{Real-world person
+| image              = 
+| caption            = 
+| name               = Andria Hayday
+| fullname           = 
+| othername          = 
+| nickname           = 
+| pseudonym          = 
+| occupation         = Game designer, graphic designer
+| period             = 
+| series             = 
+| media              = 
+| settings           = 
+| works              = yes
+| images             = 
+| home               = 
+| birthplace         = 
+| born               = 
+| died               = 
+| signature-image    = 
+| signature-caption  = 
+}}
+'''Andria Hayday''' is a game designer who has worked for [[TSR, Inc.]] and was one of the founders of [[wikipedia:en:Pacesetter Ltd|Pacesetter]]. She headed the graphic design of the [[Al-Qadim]] setting.
+
+==External Links==
+* {{Wikipedia external link}}
+{{Stub}}
+[[Category:Authors]]</text>
+      <sha1>dr2kpp4thz4gj6ye7snruc4tclay0o0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Anhur</title>
+    <ns>0</ns>
+    <id>3391</id>
+    <revision>
+      <id>7235</id>
+      <timestamp>2025-12-30T11:45:11Z</timestamp>
+      <contributor>
+        <username>Senlimsghost</username>
+        <id>50355097</id>
+      </contributor>
+      <comment>Created page with "{{Deity|name=Anhur|title=The Falcon of War|symbol=Bird of prey|alignment=Chaotic Good|power=Lesser Power|pantheon=[[Pharaonic pantheon]]|gender=Masculine|realm=[[Netaph]]|portfolio=War|cleric alignments=Good}}  '''Anhur''' was a Lesser Power of the [[Pharaonic pantheon]]. He shared his portfolio as the Pharaonic god of war with his rival Montju, and they were technically both proxies of the other. Anhur and Montju kept this arrangement to keep an eye on each other in lie..."</comment>
+      <origin>7235</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="823" sha1="gronkr2wm2zaxzd4bo5s35l48iaxpzs" xml:space="preserve">{{Deity|name=Anhur|title=The Falcon of War|symbol=Bird of prey|alignment=Chaotic Good|power=Lesser Power|pantheon=[[Pharaonic pantheon]]|gender=Masculine|realm=[[Netaph]]|portfolio=War|cleric alignments=Good}}
+
+'''Anhur''' was a Lesser Power of the [[Pharaonic pantheon]]. He shared his portfolio as the Pharaonic god of war with his rival Montju, and they were technically both proxies of the other. Anhur and Montju kept this arrangement to keep an eye on each other in lieu of being able to kill their rival.&lt;ref name=":0"&gt;{{Cite book/On Hallowed Ground|86}}&lt;/ref&gt;
+
+Anhur ruled the realm of [[Netaph]] on [[Ysgard (layer)|Ysgard]]. His petitioners were fiercely loyal, raiding the [[Hades|Gray Waste]] and [[Abyss]] without the safety net of their god saving them from permanent death.&lt;ref name=":0" /&gt;
+
+== References ==</text>
+      <sha1>gronkr2wm2zaxzd4bo5s35l48iaxpzs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Anubis</title>
+    <ns>0</ns>
+    <id>3392</id>
+    <revision>
+      <id>7236</id>
+      <timestamp>2025-12-30T11:55:57Z</timestamp>
+      <contributor>
+        <username>Senlimsghost</username>
+        <id>50355097</id>
+      </contributor>
+      <comment>Created page with "{{Deity|name=Anubis|title=The Hound of the Dead|symbol=Black jackal|alignment=Lawful Good|power=Unknown|pantheon=[[Pharaonic pantheon]]|home=[[Astral Plane]]|gender=Masculine|portfolio=Dead gods|cleric alignments=Any}}  '''Anubis''' was a wandering [[Pharaonic pantheon|Pharaonic]] power of unknown status. He was the guardian of the dead until [[Osiris]] was deified and took over Anubis's portfolio. In danger of being forgotten, he took to wandering the [[Astral Plane]] a..."</comment>
+      <origin>7236</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="764" sha1="8ljqq0yyi63vhe18soxu8e0qd5t2xbn" xml:space="preserve">{{Deity|name=Anubis|title=The Hound of the Dead|symbol=Black jackal|alignment=Lawful Good|power=Unknown|pantheon=[[Pharaonic pantheon]]|home=[[Astral Plane]]|gender=Masculine|portfolio=Dead gods|cleric alignments=Any}}
+
+'''Anubis''' was a wandering [[Pharaonic pantheon|Pharaonic]] power of unknown status. He was the guardian of the dead until [[Osiris]] was deified and took over Anubis's portfolio. In danger of being forgotten, he took to wandering the [[Astral Plane]] and guarding the still-potent corpses of dead powers. Anubis had no realm, just a throne to sit on and a book to take notes in. He was described as not quite a true deity, but rather something entirely unique among the cosmos.&lt;ref&gt;{{Cite book/On Hallowed Ground|87}}&lt;/ref&gt;
+
+== References ==</text>
+      <sha1>8ljqq0yyi63vhe18soxu8e0qd5t2xbn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Aoskar</title>
+    <ns>0</ns>
+    <id>3379</id>
+    <revision>
+      <id>7283</id>
+      <parentid>7184</parentid>
+      <timestamp>2026-02-15T14:38:34Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <minor/>
+      <comment>Added external link.</comment>
+      <origin>7283</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8328" sha1="8bk9h3lqcq8fpa7i6y0m3y6sfzieey1" xml:space="preserve">{{Deity
+| image               = Aoskar_symbol.jpg
+| caption             = Aoskar's holy symbol
+| name                = Aoskar
+| title               = Keeper of Gateways, God of Doors
+| adjective           = 
+| aspects             = 
+| status              = Dead
+| primordial          = 
+| pantheon            = 
+| home                = 
+| formerhomes         = 
+| gender              = Masculine
+| died                = [[Prehistory|3373 BFHR]]
+| basicrefs           = 
+| mortalrace          = 
+| mortalsex           = 
+| mortalhomes         = 
+| apotheosis          = 
+| mortalrefs          = 
+| power5e             = 
+| alignment5e         = 
+| symbol5e            = 
+| homeplane5e         = 
+| realm5e             = 
+| serves5e            = 
+| servedby5e          = 
+| portfolio5e         = 
+| domains5e           = 
+| worshipers5e        = 
+| channel divinity5e  = 
+| holy days5e         = 
+| challenge5e         = 
+| class5e             = 
+| refs5e              = 
+| power4e             = 
+| alignment4e         = 
+| symbol4e            = 
+| dominion4e          = 
+| realm4e             = 
+| serves4e            = 
+| servedby4e          = 
+| sphere4e            = 
+| domains4e           = 
+| worshipers4e        = 
+| cleric alignments4e = 
+| channel divinity4e  = 
+| holy days4e         = 
+| class4e             = 
+| refs4e              = 
+| power3e             = 
+| alignment3e         = 
+| symbol3e            = 
+| homeplane3e         = 
+| realm3e             = 
+| serves3e            = 
+| servedby3e          = 
+| portfolio3e         = 
+| domains3e           = 
+| mantles3e           = 
+| worshipers3e        = 
+| cleric alignments3e = 
+| favored weapon3e    = 
+| holy days3e         = 
+| challenge3e         = 
+| class3e             = 
+| refs3e              = 
+| power2e             = Greater power
+| alignment2e         = [[Neutral|N]]
+| symbol2e            = A great key with an open door for a pommel. Inside the door are stars on a black field.
+| homeplane2e         = 
+| realm2e             = 
+| serves2e            = 
+| servedby2e          = 
+| portfolio2e         = Portals, Opportunity
+| spheres2e           = 
+| worshipers2e        = 
+| cleric alignments2e = {{alignment grid|on|on|on|on|on|on|on|on|on}}
+| holy days2e         = 
+| class2e             = 
+| refs2e              = 
+| power1e             = 
+| alignment1e         = 
+| symbol1e            = 
+| homeplane1e         = 
+| realm1e             = 
+| serves1e            = 
+| servedby1e          = 
+| portfolio1e         = 
+| worshipers1e        = 
+| cleric alignments1e = 
+| holy days1e         = 
+| class1e             = 
+| refs1e              = 
+| animals             = 
+| plants              = 
+| monsters            = 
+| minerals            = 
+| colors              = 
+| misc manifestations = 
+| manifestation refs  = 
+| usethe              = 
+| church              = 
+| temples             = yes
+}}
+
+==Description==
+Aoskar is described as a "planar power"&lt;ref name="ohg182"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=182}}&lt;/ref&gt;, suggesting that while most powers' worshippers are primarily from a [[Prime Material plane|prime]] world, Aoskar's worshippers were mostly found in the planes.
+
+==Personality==
+==Abilities==
+==Possessions==
+==Divine Realm==
+==Activities==
+==Relationships==
+==History==
+
+At his peak, Aoskar claimed half the planewalkers in Sigil among his worshippers. By all appearances, his power was growing, and he may have stood a chance to claim the entire city. However, the [[Lady of Pain]] did nothing.
+
+It's only when one of her [[dabus]] declared himself a priest of Aoskar that the Lady acted.
+
+The dabus in question was exiled. Shunned by other dabus, barred from official duties, consigned to walk the ground instead of floating above it. Considering him a "fallen" dabus, Cagers named him {{NPC|Fell|proxy|male|dabus|unclassed|7|Sign of One|n}}.&lt;ref name="unc37"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=37}}&lt;/ref&gt;&lt;ref name="unc112"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=112}}&lt;/ref&gt;
+
+Aoskar's temple in Sigil's [[Lower Ward]], the Great Temple of Doors&lt;ref name="unc37"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=37}}&lt;/ref&gt;&lt;ref name="unc112"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=112}}&lt;/ref&gt;, was destroyed, becoming the landmark known to modern Cagers as the [[Shattered Temple]].&lt;ref name="pscs-sab82"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1|page=82}}, ''Sigil and Beyond''&lt;/ref&gt;&lt;ref name="pscs-pggtp16"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1|page=16}}, ''A Player's Guide to the Planes''&lt;/ref&gt;&lt;ref name="fm8"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17265|nip=1|page=8}}&lt;/ref&gt; Aoskar's image was stricken from the Cage. Aoskar was killed by the Lady, his withered husk consigned to float in the [[Astral Plane]].&lt;ref name="unc37"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=37}}&lt;/ref&gt;&lt;ref name="unc89"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=89}}&lt;/ref&gt;&lt;ref name="ohg43"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=43}}&lt;/ref&gt;&lt;ref name="gttap38"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=38}}&lt;/ref&gt;&lt;ref name="dttu4"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|nip=1|page=4}}&lt;/ref&gt;
+
+The name is rarely uttered, and when it is, it's often used as a curse. The punishment for worshipping Aoskar is death. Although, since Fell was spared by the Lady, most are too afraid of her ire to risk extending the punishment to him.
+
+On the day Aoskar died, [[Four Doors|four portals]] vanished. They reappear for a brief period only once every 500 years, leading some to call them "blinks." No one's sure if the blinks are the Lady's doing or if the portals were Aoskar's dying act, or what the reason either would have to do this in any case.&lt;ref name="dttu4"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|nip=1|page=4}}&lt;/ref&gt;
+
+In recent years, the [[Sign of One]] &amp;mdash; particularly the [[Will of the One]] subsect &amp;mdash; raised [[Aoskar]] as a potential candidate for a god to resurrect through the power of their belief, to convince everyone of the correctness of their philosophy.&lt;ref name="fm125"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17265|nip=1|page=125}}&lt;/ref&gt;&lt;ref name="unc7"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=7}}&lt;/ref&gt;&lt;ref name="unc37"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=37}}&lt;/ref&gt;&lt;ref name="unc112"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=112}}&lt;/ref&gt;&lt;ref name="hbtbw21"&gt;{{b|Planescape|Hellbound: The Blood War|pdf=17281|nip=1|page=21}}&lt;/ref&gt;&lt;ref name="dttu5"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|nip=1|page=5}}&lt;/ref&gt;&lt;ref name="dttu9"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|nip=1|page=9}}&lt;/ref&gt;
+
+==Rumors &amp; Legends==
+* Some say that Cagers started revering the [[Lady of Pain]] as one of Aoskar's aspects.&lt;ref name="fm124"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17265|nip=1|page=124}}&lt;/ref&gt;
+* {{NPC|Wooly Cupgrass|planar|male|bariaur|unclassed|7|Society of Sensation|cn}} is searching for some of Aoskar's blood, having heard a rumor that it functions as a multiversal gate key.&lt;ref name="unc23"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=23}}&lt;/ref&gt;
+* {{NPC|Djhek'nlarr|planar|female|githyanki|fighter|7|class2=mage|level2=4|Free League|le}} sells figurines of Aoskar to [[prime]]s. Though not enough to earn the Lady's ire, it's punishably by two years' hard labor.&lt;ref name="unc25"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1|page=25}}&lt;/ref&gt;
+* Some say that Aoskar will only stay dead as long as there's no god in the Cage. If people start worshipping the Lady &amp;mdash; making her a power &amp;mdash; Aoskar would be able to return.&lt;ref name="ohg52"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=52}}&lt;/ref&gt;
+
+==Appendix==
+* Priests of Aoskar had a sacred tongue of their own. In this language, "athaon" meant "godless." ''Athaon'' was later adopted by the [[Athar]] as a term for their [[factotum]]s.&lt;ref name="fm14"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17265|nip=1|page=14}}&lt;/ref&gt;
+
+===See Also===
+===Notes===
+{{Notes}}
+===Appearances===
+===Gallery===
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+
+
+== References ==
+
+&lt;references /&gt;
+
+[[Category:Sigil]]
+[[Category:Powers]]</text>
+      <sha1>8bk9h3lqcq8fpa7i6y0m3y6sfzieey1</sha1>
+    </revision>
+  </page>
+</mediawiki>

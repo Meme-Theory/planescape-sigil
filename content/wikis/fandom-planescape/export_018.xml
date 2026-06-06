@@ -1,0 +1,3789 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Planescape Wiki</sitename>
+    <dbname>planescape</dbname>
+    <base>https://planescape.fandom.com/wiki/Planescape_Wiki</base>
+    <generator>MediaWiki 1.43.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Planescape Wiki</namespace>
+      <namespace key="5" case="first-letter">Planescape Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Planescape: Adventures in the Multiverse</title>
+    <ns>0</ns>
+    <id>2458</id>
+    <revision>
+      <id>7063</id>
+      <parentid>7019</parentid>
+      <timestamp>2025-08-27T07:42:47Z</timestamp>
+      <contributor>
+        <username>UnseenServantBot</username>
+        <id>11660122</id>
+      </contributor>
+      <minor/>
+      <comment>dmsguild links</comment>
+      <origin>7063</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5653" sha1="btvzloy9vb879587lv62ebbch5l4ra3" xml:space="preserve">{{Book
+| image        = 
+&lt;gallery&gt;
+Planescape Adventures in the Multiverse product shot.png|Standard  
+Planescape Adventures in the Multiverse product shot alt.png|Variant 
+&lt;/gallery&gt;
+| caption      = 
+| code         = 
+| title        = Planescape: Adventures in the Multiverse
+| author       = [[Justice Ramin Arman]], [[Dan Dillon]], [[F. Wesley Schneider]]
+| editor       = 
+| publisher    = [[Wizards of the Coast]]
+| volume       = 
+| type         = Boxed set
+| languages    = 
+| reprinted    = 
+| cover_artist = [[Tyler Jacobson]] &lt;small&gt;(standard)&lt;/small&gt;&lt;br /&gt;[[Tony DiTerlizzi]] &lt;small&gt;(alternate)&lt;/small&gt;
+| inter_artist = [[Alfven At]], [[Luca Bancone]], [[Alix Branwyn]], [[Bruce Brenneise]], [[Kai Carpenter]], [[CoupleOfKooks]], [[Nikki Dawes]], [[Max Dunbar]], [[Michele Giorgi]], [[Oksana Kerro]], [[PINDURSKI]], [[One Pixel Brush]], [[Sam Keiser]], [[Linda Lithen]], [[Adrián Ibarra Lugo]], [[Warren Mahy]], [[Robson Michel]], [[Calder Moore]], [[Riccardo Moscatello]], [[Martin Mottet]], [[Vicki Pangestu]], [[Mike Pape]], [[Claudio Pozas]], [[Noor Rahman]], [[Matias Tapia]], [[Terraform Studios]], [[Zuzanna Wuzyk]]
+| cartography  = [[Jared Blando]], [[Francesca Baerald]]
+| typography   = 
+| realm year   = 
+| setting      = [[Planescape]]
+| game_edition = 5
+| edition1     = &lt;!-- leave blank if there is only one --&gt;
+| binding1     = Hardcover
+| released1    = October 17, 2023
+| pages1       = 
+| isbn10-1     = 
+| isbn13-1     = 978-0-7869-6904-3
+| cite1        = 
+| series       = 
+| preceded_by  = 
+| followed_by  = 
+| Roll20number = 453930
+}}
+'''''Planescape: Adventures in the Multiverse''''' is a boxed set containing three sourcebooks for 5{{th}}-edition ''[[Dungeons &amp; Dragons]]'': a setting guide, a bestiary, and an adventure, all focused on [[Sigil]], the City of Doors.
+
+{{Quote|An adventure setting spanning the infinite realities of the world’s greatest roleplaying game.
+
+Infinite realms of immortals and impossibilities, the Outer Planes brim with celestials, fiends, gods, and the dead&amp;mdash;and they're all just a step away. Enter a portal to Sigil, the City of Doors&amp;mdash;an incredible metropolis where portals connect to every corner of the multiverse. From there, venture to the Outlands, the hub of the Outer Planes, and discover wonders beyond imagination, as well as the secrets of celestials, fiends, gods, and the dead.
+
+''Planescape: Adventures in the Multiverse'' contains everything a Dungeon Master needs to run adventures and campaigns set in Sigil and the Outlands, as well as new options for players who want to create characters prepared to explore the planes.}}
+
+==Contents==
+* "[[Planescape: Adventures in the Multiverse/Sigil and the Outlands|Sigil and the Outlands]]", a 96-page hardcover book that includes player options as well as details on Sigil, the [[Outlands]], and the [[gate-town]]s.
+* "[[Planescape: Adventures in the Multiverse/Turn of Fortune's Wheel|Turn of Fortune's Wheel]]", a 96-page hardcover adventure set in Sigil and the Outlands for levels 3&amp;ndash;10.
+* "[[Planescape: Adventures in the Multiverse/Morte's Planar Parade|Morte's Planar Parade]]", a 64-page hardcover book with stats and descriptions of creatures found in the Outer Planes.
+* Double-sided poster map showing both Sigil and the Outlands.
+* Sturdy, four-panel Dungeon Master's screen.
+{{-}}
+
+==Appendix==
+=== Background Information ===
+* Although the scant Planescape material in 3rd and 4th seemed to follow on the same timeline as 2nd Edition, it's uncertain where 5e's ''Adventures in the Multiverse'' fits into the timeline, if anywhere. It may be a reboot, or given how many plane-shaking events happen during the life of Dungeons &amp; Dragons, there may be reality-alteration at play.
+** Evidence indicating a continued timeline:
+*** The [[Mind's Eye]] faction: it came into existence as a result of the [[Faction War]]. The text even indicates it's the result of a merging of two previous factions.
+*** [[Jeremo]] the Natterer ({{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274}}) claims he wants to bring the [[Ring-Givers]] into Sigil as a full faction, with plans to take over from Factol [[Ingwe]]. Here, the Ring-Givers are a minor faction, with Jeremo listed as factol. His earlier headquarters, the [[Palace of the Jester]], is mentioned as having been sold by the Ring-Givers.
+*** The [[Tower Sorcerous]] has recently returned to Sigil.
+*** The [[Grixitt]] ({{b|Planescape|Uncaged: Faces of Sigil|pdf=17285}}) has been captured and imprisoned.
+*** The events of ''Turn of Fortune's Wheel'' are a direct result of the events of the 2e {{b|Planescape|The Great Modron March|pdf=17302}} adventure.
+** Evidence indicating a reboot of some sort:
+*** The factions are in Sigil with no suggestion that they were ever kicked out. Factions and factols may have returned, but even factols who were killed in the Faction War (e.g. [[Hashkar]]) are back.
+*** The structure of many faction headquarters is inconsistent with their original appearance.
+*** [[Morte Rictusgrin]] appears in the ''Turn of Fortune's Wheel'', evidently waiting for [[The Nameless One|someone]] in the [[Mortuary]], suggesting it takes place before the events of {{b|Torment|Planescape: Torment}}. ''Torment'' takes place in [[125 YFHR]], just before 2nd Edition's books.
+
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild|Planescape: Adventures in the Multiverse (Roll20 VTT)}}
+* {{DriveThruRPG|Planescape: Adventures in the Multiverse (Roll20 VTT)}}
+
+===Connections===
+[[Category:Planescape sourcebooks]]
+[[Category:5th edition sourcebooks]]
+[[Category:Boxed sets]]
+[[Category:Published in 2023]]</text>
+      <sha1>btvzloy9vb879587lv62ebbch5l4ra3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Planescape: Adventures in the Multiverse/Morte's Planar Parade</title>
+    <ns>0</ns>
+    <id>2460</id>
+    <revision>
+      <id>7064</id>
+      <parentid>7020</parentid>
+      <timestamp>2025-08-27T07:42:59Z</timestamp>
+      <contributor>
+        <username>UnseenServantBot</username>
+        <id>11660122</id>
+      </contributor>
+      <minor/>
+      <comment>dmsguild links</comment>
+      <origin>7064</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2423" sha1="d93mpagnzd5d9xoah148rozz6cg3rks" xml:space="preserve">{{Book/subsection
+| image        = Planescape Morte's Planar Parade cover.jpg
+| caption      = 
+| title        = Morte's Planar Parade
+| author       = [[Justice Arman]], [[F. Wesley Schneider]]
+| editor       = 
+| cover_artist = &lt;small&gt;(standard)&lt;/small&gt;&lt;br /&gt;[[Tony DiTerlizzi]] &lt;small&gt;(alternate)&lt;/small&gt;
+| inter_artist = 
+| cartography  = 
+| included_in  = ''[[Planescape: Adventures in the Multiverse]]''
+| publisher    = [[Wizards of the Coast]]
+| released     = October 17, 2023
+| type         = Sourcebook
+| languages    = 
+| pages        = 64
+| reprinted    = 
+| realm year   = 
+| setting      = 
+| game_edition = 5
+| series       = 
+| preceded_by  = 
+| followed_by  = 
+| Roll20number = 453930
+}}
+"'''Morte's Planar Parade'''" is a sourcebook included in the boxed set ''[[Planescape: Adventures in the Multiverse]]''.
+
+==Index==
+== Bestiary A to Z ==
+
+* [[Archon]]s
+** [[Hound Archon]]
+** [[Lantern Archon]]
+** [[Warden Archon]]
+* [[Baernaloth]]
+* [[Bariaur]] wanderer
+* [[Cranium rat]] squeakers
+* [[Dabus]]
+* [[Darkweaver]]
+* [[Demodand]]s (gehreleths)
+** [[Farastu]]
+** [[Kelubar]]
+** [[Shator]]
+* [[Eater of Knowledge]]
+* [[Githzerai]] futurist, traveler, and uniter
+* [[Guardinal]]s
+** [[Avoral]]
+** [[Equinal]]
+** [[Musteval]]
+* [[Kolyarut]]
+* [[Maelephant]]
+* [[Modron]]s
+** [[Decaton]]
+** [[Nonaton]]
+** [[Octon]]
+** [[Septon]]
+** [[Hexton]]
+* Planar [[incarnate]]
+* [[Razorvine blight]]
+* [[Rilmani]]
+** [[Aurumach]]
+** [[Cuprilach]]
+** [[Ferrumach]]
+* [[Shemeshka]]
+* [[Sunfly|Sunflies]]
+* [[Time dragon]]
+* [[Vargouille reflection]]
+* Faction agents
+** [[Athar]] null
+** [[Bleak Cabal]] void soother
+** [[Doomguard]] doom lord
+** [[Doomguard]] rot blade
+** [[Fated]] shaker
+** [[Fraternity of Order]] law bender
+** [[Hands of Havoc]] fire starter
+** [[Harmonium]] captain
+** [[Harmonium]] peacekeeper
+** [[Heralds of Dust]] remnant
+** [[Mercykiller]] bloodhound
+** [[Mind's Eye]] matter smith
+** [[Society of Sensation]] muse
+** [[Transcendent Order]] conduit
+** [[Transcendent Order]] instinct
+
+==Appendix==
+===References===
+{{Refs}}
+
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild|Planescape: Adventures in the Multiverse (Roll20 VTT)}}
+* {{DriveThruRPG|Planescape: Adventures in the Multiverse (Roll20 VTT)}}
+
+===Connections===
+[[Category:Works by Justice Arman]]
+[[Category:Works by F. Wesley Schneider]]
+[[Category:Published in 2022]]
+[[Category:5th edition sourcebooks]]</text>
+      <sha1>d93mpagnzd5d9xoah148rozz6cg3rks</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Planescape: Adventures in the Multiverse/Sigil and the Outlands</title>
+    <ns>0</ns>
+    <id>2461</id>
+    <revision>
+      <id>7065</id>
+      <parentid>4251</parentid>
+      <timestamp>2025-08-27T07:48:21Z</timestamp>
+      <contributor>
+        <username>BadCatMan</username>
+        <id>3030475</id>
+      </contributor>
+      <minor/>
+      <comment>dmsguild links</comment>
+      <origin>7065</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1421" sha1="a34yazazbh5hw8xo6m2azbxh24mxp1b" xml:space="preserve">{{Book/subsection
+| image        = Planescape Sigil and the Outlands cover.jpg
+| caption      = 
+| title        = Sigil and the Outlands
+| author       = [[Justice Arman]], [[F. Wesley Schneider]]
+| editor       = 
+| cover_artist = [[Tyler Jacobson]] &lt;small&gt;(standard)&lt;/small&gt;&lt;br /&gt;[[Tony DiTerlizzi]] &lt;small&gt;(alternate)&lt;/small&gt;
+| inter_artist = 
+| cartography  = 
+| included_in  = ''[[Planescape: Adventures in the Multiverse]]''
+| publisher    = [[Wizards of the Coast]]
+| released     = October 17, 2023
+| type         = Sourcebook
+| languages    = 
+| pages        = 96
+| reprinted    = 
+| realm year   = 
+| setting      = 
+| game_edition = 5
+| series       = 
+| preceded_by  = 
+| followed_by  = 
+| Roll20number = 453930
+}}
+"'''Sigil and the Outlands'''" is a sourcebook included in the boxed set ''[[Planescape: Adventures in the Multiverse]]''.
+
+==Contents==
+* Introduction: Infinite Doors to Adventure
+* Chapter 1: Character Options
+* Chapter 2: Sigil, the City of Doors
+* Chapter 3: The Outlands
+
+==Index==
+==Appendix==
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild|Planescape: Adventures in the Multiverse (Roll20 VTT)}}
+* {{DriveThruRPG|Planescape: Adventures in the Multiverse (Roll20 VTT)}}
+
+===References===
+{{Refs}}
+
+===Connections===
+
+[[Category:Works by Justice Arman]]
+[[Category:Works by F. Wesley Schneider]]
+[[Category:Published in 2022]]
+[[Category:5th edition sourcebooks]]</text>
+      <sha1>a34yazazbh5hw8xo6m2azbxh24mxp1b</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Planescape: Adventures in the Multiverse/Turn of Fortune's Wheel</title>
+    <ns>0</ns>
+    <id>2459</id>
+    <revision>
+      <id>7066</id>
+      <parentid>4247</parentid>
+      <timestamp>2025-08-27T07:48:27Z</timestamp>
+      <contributor>
+        <username>BadCatMan</username>
+        <id>3030475</id>
+      </contributor>
+      <origin>7066</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1273" sha1="mza9beu15peiztvtu6yg1xxhvkn0oya" xml:space="preserve">{{Book/subsection
+| image        = Planescape Turn of Fortune's Wheel cover.jpg
+| caption      = 
+| title        = Turn of Fortune's Wheel
+| author       = [[Justice Arman]], [[F. Wesley Schneider]]
+| editor       = 
+| cover_artist = [[Magali Villeneuve]] &lt;small&gt;(standard)&lt;/small&gt;&lt;br /&gt;[[Tony DiTerlizzi]] &lt;small&gt;(alternate)&lt;/small&gt;
+| inter_artist = 
+| cartography  = 
+| included_in  = ''[[Planescape: Adventures in the Multiverse]]''
+| publisher    = [[Wizards of the Coast]]
+| released     = October 17, 2023
+| type         = Sourcebook
+| languages    = 
+| pages        = 96
+| reprinted    = 
+| realm year   = 
+| setting      = 
+| game_edition = 5
+| series       = 
+| preceded_by  = 
+| followed_by  = 
+| Roll20number = 453930
+}}
+"'''Turn of Fortune's Wheel'''" is an adventure included in the boxed set ''[[Planescape: Adventures in the Multiverse]]''.
+
+==Index==
+==Appendix==
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild|Planescape: Adventures in the Multiverse (Roll20 VTT)}}
+* {{DriveThruRPG|Planescape: Adventures in the Multiverse (Roll20 VTT)}}
+
+===References===
+{{Refs}}
+
+===Connections===
+
+[[Category:Works by Justice Arman]]
+[[Category:Works by F. Wesley Schneider]]
+[[Category:Published in 2022]]
+[[Category:5th edition adventures]]</text>
+      <sha1>mza9beu15peiztvtu6yg1xxhvkn0oya</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Planescape Wiki</title>
+    <ns>0</ns>
+    <id>1</id>
+    <revision>
+      <id>6674</id>
+      <parentid>6673</parentid>
+      <timestamp>2025-06-14T18:27:01Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>lk</comment>
+      <origin>6674</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1998" sha1="iwxb4jzaf1jpy85umsm7hsxbfqa0qsj" xml:space="preserve">&lt;mainpage-leftcolumn-start /&gt;
+[[File:PlanescapeWikiLogo.png|500px|center]]
+
+&lt;div style="text-align: center; font-size: x-large; padding: 1em;"&gt;'''Welcome to the {{SITENAME}}!'''&lt;/div&gt;
+
+A Wiki for the ''Planescape'' Campaign Setting for Dungeons &amp; Dragons
+
+{{Quote|You figure a sword and a bunch of spells makes you tough? It ain't what you got that counts, berk. It's what you know.|Fairven}}
+
+==Important articles==
+&lt;gallery position="center" captionalign="center" navigation="true"&gt;
+File:FactionTranscendentOrder5e.png | [[Faction]] |link=Faction
+File:LadyofPain5eRedesignDiterlizzi.jpg | Her Serenity, the [[Lady of Pain]] |link=Lady of Pain
+File:PlanewalkersHandbookCover.jpg | [[The Planewalker's Handbook]] |link=The Planewalker's Handbook
+File:Sigil-5e.jpg | [[Sigil]], the City of Doors |link=Sigil
+File:LadyofPainAdamRex.jpg | [[Faction War]] |link=Faction War
+File:MimirTheSentinel.jpg | [[Mimir (item)|Mimir]] |link=Mimir (item)
+&lt;/gallery&gt;
+&lt;!-- The gallery above works well for individual articles, but it would also be good to have another below it that points to important Category: pages. --&gt;
+&lt;mainpage-endcolumn /&gt;
+
+&lt;mainpage-rightcolumn-start /&gt;
+''Need help building out this community?''
+
+*[[Project:Wiki rules|Rules of this wiki]]
+*[[w:c:community:Help:Getting Started|Getting Started]]
+*[[w:c:community:Help:Contributing|How to Contribute]]
+*[[w:c:community:Help:Community Management|Managing your new community]]
+*[[w:c:community:Help:Contents|Guides]]
+*[[w:c:community:Help:Index|All Help articles]]
+
+You can also be part of the larger Fandom family of communities. Visit [[w:c:community|Fandom's Community Central]]!
+
+
+
+''Community Founders'': Write a good and paragraph-length description for your welcome section about your topic. Let your readers know what your topic is about and add some general information about it. Then you should visit [[Special:AdminDashboard|the admin dashboard for more tips]]. 
+&lt;mainpage-endcolumn /&gt;
+{{raw:w:Dndfooter}}
+[[Category:{{SITENAME}}]]</text>
+      <sha1>iwxb4jzaf1jpy85umsm7hsxbfqa0qsj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Pluton</title>
+    <ns>0</ns>
+    <id>197</id>
+    <revision>
+      <id>221</id>
+      <timestamp>2022-02-09T23:04:34Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "'''Pluton''' was the third layer of the plane of The [[Gray Waste]].  The lower reaches of [[Mount Olympus]] are found in this layer. It is filled with dying willows, olive tr..."</comment>
+      <origin>221</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="322" sha1="kdpsjb2haf3h7qnk9n8w9wj3n8ost24" xml:space="preserve">'''Pluton''' was the third layer of the plane of The [[Gray Waste]].
+
+The lower reaches of [[Mount Olympus]] are found in this layer. It is filled with dying willows, olive trees and poplars.
+
+== Realms ==
+
+* [[Corpus]]
+* [[Hill of Bone]]
+* [[Aeaea]]
+** [[Thalatta]]
+* The [[Underworld]]
+* [[Hagsend]]
+
+[[Category:Layers]]</text>
+      <sha1>kdpsjb2haf3h7qnk9n8w9wj3n8ost24</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Pocket Plane</title>
+    <ns>0</ns>
+    <id>924</id>
+    <revision>
+      <id>2212</id>
+      <parentid>2211</parentid>
+      <timestamp>2023-08-09T01:03:30Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2211</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5883" sha1="th689llpo0duqq637nnkboqnqicnza2" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Pocket Plane
+| othernames        = 
+| demonym           = 
+| natives           = 
+| languages         = 
+| basicrefs         = 
+| type-GW           = [[Demiplane]]
+| shape-size-GW     = 
+| gravity-GW        = Normal
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = [[Throne of Blood]]
+| refs-GW           = &lt;ref name="BG.SoA"/&gt;&lt;ref name="BG.ToB"/&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = 
+| deities           = 
+| locations         = 
+| organizations     = 
+| settlements       = 
+| usethe            = 
+| useon             = 
+}}
+The '''Pocket Plane''' was a [[demiplane]] that was formed as plane-within-a-plane of [[Bhaal]]'s divine realm, the [[Throne of Blood]]. It was an aspect of the final destination that faced all of [[Bhaalspawn|Bhaal's mortal children]] after their deaths.&lt;ref name="BG.SoA"&gt;{{Cite game/Baldur's Gate II: Shadows of Amn}}&lt;/ref&gt;&lt;ref name="BG.ToB"&gt;{{Cite game/Baldur's Gate II: Throne of Bhaal}}&lt;/ref&gt;
+
+The plane was believed to have been formed by the will of the [[Bhaalspawn]] [[Abdel Adrian]], to safeguard his mind and shield him from Bhaal's complete power.&lt;ref name="BG.ToB"/&gt;
+
+==Description==
+The plane was a smaller version of Bhaal's Throne of Blood. It comprised a central area with a large stone gate, known as the ''Gate of the Watchers''.&lt;ref name="BG.ToB"/&gt; Extending off the main chamber were five smaller passages leading to smaller, enclosed areas.&lt;ref name="BG.SoA"/&gt; 
+
+When the Pocket Plane first appeared, the gate was surrounded by eyes of different colors.&lt;ref name="BG.SoA"/&gt; In its later iteration the eyes were absent and each of the smaller passages were closed off by some manner of supernatural barrier. These barriers could be bypassed upon the completion of several trials.&lt;ref name="BG.ToB"/&gt;
+
+Beyond the ''Gate of the Watchers'' was a passageway that took Abdel "where he needed to be" and was capable of connecting to the [[Mana Forge]] in the Throne of Blood.&lt;ref name="BG.ToB"/&gt;
+
+==Cosmography==
+This plane was referred to as being a part of [[Hell]]&lt;ref name="BG.SoA"/&gt; but also [[Abyss]]al in nature. It was in fact a part [[Bhaal]]'s ream of the [[Throne of Blood]],&lt;ref name="BG.ToB"/&gt; which at the time was adrift in the [[Astral Plane]].&lt;ref name="F&amp;A-p45"&gt;{{Cite book/Faiths &amp; Avatars|45}}&lt;/ref&gt;
+
+==Inhabitants==
+Although the plane was readily accessible by Abdel Adrian, it was also the temporary home to two other individuals. One of the residence was an unnamed [[solar]] who was tasked to watch over and guide Abdel through the [[Bhaalspawn crisis]]. The second was an [[imp]] by the name of [[Cespenar]], who once served as a "butler" to Bhaal.&lt;ref name="BG.ToB"/&gt;
+
+==History==
+The first confirmed existence of the plane occurred in the {{YearlinkName|1369}}. While it existed beforehand,&lt;ref name="BG.SoA"/&gt; it was believed to have been significantly shaped by the simultaneous deaths of Abdel Adrian and Jon Irenicus, the latter of whom who had stolen most of Abdel's divine soul.&lt;ref name="BG.ToB"/&gt;
+
+During the plane's first iteration, each of its chambers held a different trial that was put for to Abdel Adrian on their path to self-discovery. These were tests of fear, selfishness, greed, pride and wrath; during which he faced several demons, an imprisoned [[genie]] in the possession of the famed ''[[Blackrazor]]'', and a [[wraith]]-like apparition of [[Sarevok#Existence After Death|Sarevok]]. Upon the completion of each trial, Abdel received one of the ''[[Tears of Bhaal]]'' which could be used to close one of the gate's eyes.&lt;ref name="BG.SoA"/&gt;
+
+After closing the final eye, Abdel was confronted by Irenicus one last time. The exiled [[mage]] appeared in the form of Bhaal's [[avatar]], the [[Slayer]]. The fought once again, but ultimately Abdel was able to claim his soul back and return to [[Toril]] on the [[Prime Material plane]].&lt;ref name="BG.SoA"/&gt;
+
+The ''Pocket Plane'' appeared again when Abdel slew another individual who possessed part of Bhaal's divine essence." This person was [[Illasera|Illasera the Quick]], one of the actual Bhaalspawn.&lt;ref name="BG.ToB"/&gt;
+
+Abdel was greeted by his guardian Solar, who in turn presented him with an apparition of Sarevok. Abdel's half-brother had been in Bhaal's realm for some time and sought to live a mortal life once again.&lt;ref name="BG.ToB"/&gt;
+
+Under the direction of [[Amelyssan the Blackhearted]], Abdel confronted the other Bhaalspawn of [[the Five]]. Every time he slew another member of [[the Five]], Abdel was transported back to the Pocket Plate and presented with another challenge. Upon the death of all members of the Five, Abdel was forced to destroy the Pocket Plane and face Amelyssan at the Mana Forge in Bhaal's Throne of Blood.&lt;ref name="BG.ToB"/&gt;
+
+==Appendix==
+===Appearances===
+;Video Games:
+: ''[[Baldur's Gate II: Shadows of Amn]];; &amp;bull; ''[[Baldur's Gate II: Throne of Bhaal]]''
+
+===References===
+{{Refs}}
+[[Category:Demiplanes]]
+[[Category:Locations in the Throne of Blood]]
+[[Category:Locations in Khalas]]
+[[Category:Locations in Gehenna]]
+[[Category:Locations on the River Styx]]
+[[Category:Locations in the Lower Planes]]
+[[Category:Locations in the Outer Planes]]</text>
+      <sha1>th689llpo0duqq637nnkboqnqicnza2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Polyhedron</title>
+    <ns>0</ns>
+    <id>2847</id>
+    <revision>
+      <id>5059</id>
+      <parentid>5058</parentid>
+      <timestamp>2024-03-07T01:32:21Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>image</comment>
+      <origin>5059</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2508" sha1="d7g4tzzba9i54pcahht2o8ukzpyw9m5" xml:space="preserve">[[File:Polyhedron100.png|thumb|right|300|Polyhedron #100]]
+
+'''Polyhedron''' was one of several official magazines published to support [[Dungeons &amp; Dragons]], in this case is was part of the benefits for membership in the Role-Playing Game Association.
+
+''Polyhedron'' launched five years after ''[[Dragon]]'' and five years before ''[[Dungeon]]'', in 1981. It was published quarterly until 1982, bimonthly until 1991, monthly until [[1996]], and then bimonthly until May 2003. It was published in even-numbered months (February, April, June, August, October, December) while ''Dungeon'' appeared in odd-numbered months (January, March, May, July, September, November).
+
+From 2002 to 2004, ''Polyhedron'' was merged with ''Dungeon'', with individual issues being dual-numbered: Dungeon #90 and Polyhedron #149 are the same magazine. After 2004, the ''Polyhedron'' content was dropped.
+
+== Planescape Content ==
+=== 2nd Edition ===
+* October [[1994]]: {{b|Polyhedron|Polyhedron Magazine 100}}
+** '''Cover''': [[James Halloway]] depicts the [[Lady of Pain]] playing cards and observing a bar brawl.
+** '''The Analects of Sigil''': [[Monte Cook]] describes a scholar searching for the Five Citadels of Surrender on the negative side of the Inner Planes. Although the citadels are different, this may be the inspiration for what became the four Citadels of the [[Doomguard]] bordering on the [[Negative Energy plane]].
+
+* December [[1997]]: {{b|Polyhedron|Polyhedron Magazine 127}}
+** '''Cover''': ''Have a Holly Jolly, Berk.'' [[Rob Lazzaretti]] depicts the encounter from the [[Day of Grace]] article.
+** '''The Day of Grace''': [[Monte Cook]] describes an event in [[Sigil]]'s history between a young girl and the [[Lady of Pain]] which began the annual holiday known as the Day of Grace (or simply "Grace"). The timing of the article (and cover caption) suggest it's Sigil's version of Christmas.
+
+* December [[1998]]: {{b|Polyhedron|Polyhedron Magazine 133}}
+** '''Stench Kine Recipes!''': [[William James Cuffe]] offers stats on the [[stench kine]] as well as two related recipes.
+
+* April [[1999]]: {{b|Polyhedron|Polyhedron Magazine 135}}
+** '''Gifts from Below''': [[Erik Mona]] offers a look at some magic items from the planes. Planar-themed, but not Planescape-specific.
+
+* August [[1999]]: {{b|Polyhedron|Polyhedron Magazine 137}}
+** '''Of Sigil and the Sea''': [[William James Cuffe]] provides a tour of the [[Ditch]], the most prominent "waterway" in [[Sigil]].
+
+
+[[Category:Polyhedron Magazine]]</text>
+      <sha1>d7g4tzzba9i54pcahht2o8ukzpyw9m5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Polyhedron Magazine 100</title>
+    <ns>0</ns>
+    <id>2983</id>
+    <revision>
+      <id>6079</id>
+      <parentid>5623</parentid>
+      <timestamp>2025-05-31T23:41:26Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>factor</comment>
+      <origin>6079</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3220" sha1="pqc0o5smcyrcvnpygcdzo80p8hsl879" xml:space="preserve">{{Polyhedron magazine
+| image        = Polyhedron100.png
+| caption      = 
+| issue        = 100
+| volume       = 15, No 10
+| publisher    = [[TSR, Inc.]]
+| editor       = [[Jean Rabe]]
+| cover_artist = [[James Holloway]]
+| edition      = 2
+| month        = October
+| year         = 1994
+| previous     = 
+| next         = [[Polyhedron Magazine 127|''Polyhedron'' #127]]
+| source       = [https://archive.org/details/Polyhedron155/polyhedron%20100/page/n1/mode/2up ''Polyhedron'' #100 at archive.org]
+}}
+
+'''''Polyhedron'' issue 100''' was released in October of 1994. It contained the following articles related to Planescape:
+
+== Cover ==
+The cover depicts, among other things, the [[Lady of Pain]] playing cards, watching a bar brawl.
+
+: Artist [[James Holloway]] aptly penned his rendition of a celebration over our 100th issue. The Network member who creates the most 
+interesting AD&amp;D® Game NPC from among the characters pictured will win the original piece of art. Deadline: December 15, 1994. Best of luck!
+
+== Analects of Sigil: The Five Citadels of the PLANESCAPE Setting ==
+: ''By [[David Cook|David "Zeb" Cook]], artwork by [[Tony DiTerlizzi]].'' '''p. 6-7'''
+
+The article is presented as the confessions of [[Handulus]], scholar of the third rank, as extracted by the [[Mercykillers|Mercykiller]] [[Jerak]]. Handulus is under arrest for the murder of his mentor, Factor [[Jeron]].
+
+Handulus describes five citadels found on the [[Inner Planes]], the [[Five Citadels of Surrender]]. He'd found some hints about then in the ''[[Grand Dictum]]'', and then found a single page from the ''[[Codex of Infinite Planes]]''. He likens them to the four [[Doomguard]] citadels. Each of the five citadels is a stop on a journey, with one leading to the next.
+
+# The [[Great Mine]] in the [[Quasi-Elemental Plane of Salt]], through which you must surrender your fear.
+# The [[Embracing Tower]] in the [[Quasi-Elemental Plane of Ash]], through which you must surrender your hope.
+# The [[Invisible Labyrinth]] in the [[Quasi-Elemental Plane of Vacuum]], through which you must surrender compassion.
+# An unnamed citadel in the [[Quasi-Elemental Plane of Dust]], through which you lose all remorse.
+# The final citadel is in the [[Negative Energy plane]]. Handulus didn't visit that one.
+
+Handulus admits he didn't kill Jeron, but Jeron is still surely dead, as Handulus had shown him his notes on the citadels. Because Jeron had departed to explore all five citadels. And without fear, hope, compassion, or remorse, what remains to be taken?
+
+==Appendix==
+=== Background Information ===
+* The article title is misleading:
+** An "analect" is a series of short philosophical or literary extracts. The title isn't exact; the article itself is such an extract, but not a collection of them.
+** While the extract is "of Sigil," the citadels described are found on the [[Inner Planes]].
+* Handulus mentions the "Governors." This presumably refers to the Guvners, the nickname of the [[Fraternity of Order]]. This may be the only time that "Governors" is used in reference to them.
+* This article is the first appearance of the term [[factor]] to refer to a faction rank.
+
+
+===External Links===
+
+[[Category:Polyhedron Magazine]]</text>
+      <sha1>pqc0o5smcyrcvnpygcdzo80p8hsl879</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Porphatys</title>
+    <ns>0</ns>
+    <id>180</id>
+    <revision>
+      <id>199</id>
+      <timestamp>2022-02-06T19:43:17Z</timestamp>
+      <contributor>
+        <username>Acer4666</username>
+        <id>1474707</id>
+      </contributor>
+      <comment>Created page with "'''Porphatys of the Black Snow''' was the fifth layer of the plane of [[Carceri]].  The layer was covered in shallow ocean and black snow. There were tiny sandbars that formed..."</comment>
+      <origin>199</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="315" sha1="jqncbycpuo4gn8ue0wfveq2pj5m1ict" xml:space="preserve">'''Porphatys of the Black Snow''' was the fifth layer of the plane of [[Carceri]].
+
+The layer was covered in shallow ocean and black snow. There were tiny sandbars that formed small islands in the water, where most of the inhabitants of the layer reside. 
+
+== Realms ==
+
+* [[Temple of Oceanus]]
+
+[[Category:Layers]]</text>
+      <sha1>jqncbycpuo4gn8ue0wfveq2pj5m1ict</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Portal</title>
+    <ns>0</ns>
+    <id>1707</id>
+    <revision>
+      <id>4196</id>
+      <parentid>2622</parentid>
+      <timestamp>2023-10-10T03:14:43Z</timestamp>
+      <contributor>
+        <username>BadCatMan</username>
+        <id>3030475</id>
+      </contributor>
+      <minor/>
+      <comment>/* Malfunction */ typo, italics</comment>
+      <origin>4196</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="19530" sha1="ex1w20eg1ipazpdj0ekjvm0ovglqykm" xml:space="preserve">{{Item
+| image         = portal 4e.jpg
+| caption       = ''A portal to someplace else.''
+| name          = ''Portal''
+| othernames    = 
+| nicknames     = 
+| type          = 
+| location      = 
+| value1e       = 
+| weight1e      = 
+| refs1e        = 
+| school2e      = 
+| level2e       = 
+| value2e       = 
+| weight2e      = 
+| refs2e        = 
+| school3e      = Strong [[transmutation]] (while functioning)&lt;br/&gt;Weak [[transmutation]] (while not functioning)
+| casterlevel3e = 
+| itemlevel3e   = 
+| value3e       = 
+| weight3e      = 
+| refs3e        = &lt;ref name="FRCS-59"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|59}}&lt;/ref&gt;
+| level4e       = 
+| value4e       = 
+| weight4e      = 
+| refs4e        = 
+| rarity5e      = 
+| attunement5e  = 
+| school5e      = 
+| level5e       = 
+| value5e       = 
+| weight5e      = 
+| refs5e        = 
+| communication = 
+| languages     = 
+| alignment     = 
+}}
+'''Portals''' were permanent teleportation effects that linked many places in and outside [[Abeir-Toril|Toril]], including other planes and planets.&lt;ref name="FRCS-p59"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|59}}&lt;/ref&gt;
+{{Quote
+|Ah, yes, spellspun gates. Portals, some call them. "Death-doors" is the term I prefer. The reason? Well, each step through one is a step closer to the time when your death is standing waiting for you on the other side&amp;mdash;with a big cold grin on its face and a sword in its hand you'll have no time nor chance to avoid.
+|[[Bharajak Steelshar]]&lt;ref name="Spf"&gt;{{Cite book/Hand of Fire}}&lt;/ref&gt;
+}}
+==Description==
+[[File:Portal.JPG|250px|thumb|''A transparent portal gave off information about its destination.'']]
+A ''portal'' was a two-dimensional, often up to {{SI|15|ft|long=yes}} circle, but not limited to it both in size and shape, area that was both intangible and invisible. Due to this, a freestanding archway of some kind usually was built to identify the location of a ''portal'', so those who could not [[detect magic|detect magical auras]] did not stumble into them accidentally. It was impossible to visually find out a ''portal's'' destination. For example, sticking one's head into that field to find out the destination was impossible, for touching a ''portal'' activated it.&lt;ref name="FRCS-p59" /&gt;
+
+One way to find out the location of a ''portal'' was to cast ''detect magic''. The magical aura of a functional ''portal'' was much stronger than that whose uses were completely exhausted. Finding out more about a ''portal'' required an ''[[analyze portal]]'' [[spell]].&lt;ref name="FRCS-p59" /&gt;
+
+The portal itself was completely intangible.&lt;ref name="FRCS-p59" /&gt; ''[[Portal finder]]s'' were tools to find ''portals''.&lt;ref name="U-72"&gt;{{Cite book/Underdark|72}}&lt;/ref&gt; A ''[[greater Underdark map]]'' also had the location of every ''portal'' within the mapped area.&lt;ref name="U-77"&gt;{{Cite book/Underdark|77}}&lt;/ref&gt;
+
+Passing through a portal was described as an unsettling experience: space between the "fabric of the planes" was entirely dark, devoid of air and offering no sensation of temperature. Oddly enough, it seemed to elicit phantom scents, like the smell of wintergreen or stale [[wine]].&lt;ref name="Adversary-p172"&gt;{{Cite book/The Adversary/Hardcover|172}}&lt;/ref&gt;
+
+==Powers==
+''Portals'' were magical transportation devices. When somebody touched the two-dimensional field, that person was affected by a ''[[greater teleport]]'' effect towards a pre-set destination. This was the reason why the "sticking the head through"-method to find out the destination failed. Creatures could enter and be transported by a ''portal'', as long as they could pass through them, and objects could not. For example, one could not shoot arrows through a ''portal'', they would not just not pass through, but bounce off. An exception to this no-object-rule were those objects carried by creatures passing through a ''portal''. However, even this had a limit of 850 pounds (386 kilograms) and the definition of "carried" was anything touched. This weight limit had the peculiarity that an object that was touched by several creatures dropped the amount of objects the creatures could carry by its weight for all and not just for one. The limit on how many creatures could pass through a ''portal'' was the one that the builder set and the usual limit was as many creatures as wanted to pass through.&lt;ref name="FRCS-p59" /&gt;
+
+A ''portal'' could only send a person to its destination, but not back. Quite often, people built directly at the destination a second ''portal'' to effectively create a two-way-''portal''.&lt;ref name="FRCS-p59" /&gt;
+
+Destroying a ''portal'' was very difficult. ''[[Disintegrate]]'' or other physical means were not means by which a ''portal'' could be destroyed. Successfully using ''dispel magic'' could stop the working of a ''portal'' for up to twenty four seconds. It required a ''[[Mordenkainen's disjunction]]'' spell to turn a ''portal'' permanently non-functional. Another means was the ''[[gate seal]]'' spell.&lt;ref name="FRCS-60" /&gt; A tool to manipulate and glean information from ''portals'' was a ''[[staff of portals]]''.&lt;ref name="U-72"&gt;{{Cite book/Underdark|72}}&lt;/ref&gt; A tool to destroy a ''portal'' was a ''[[portal demolisher]]''.&lt;ref name="U-75"&gt;{{Cite book/Underdark|75}}&lt;/ref&gt;
+
+===Special Portals===
+There were some special types of ''portals'':
+;Creature-Only ''Portals'':Creature-only ''portals'' were what they sounded like. Only creatures could pass through them, their clothes or other equipment could not,&lt;ref name="FRCS-60" /&gt; those simply stayed behind while the body moved on.&lt;ref name="DRP"&gt;{{Cite web/Perilous Gateways/One-Way Portals in Amn:The Dusty Rat}}&lt;/ref&gt; A variety that was hard to create allowed both creatures and equipment to pass through the same ''portal'', but the body and equipment reached different destinations.&lt;ref name="FRCS-60" /&gt;
+;Keyed ''Portals'':It happened quite often that ''portals'' were keyed. This meant that the created ''portal'' could only be used if a special condition was met. Such conditions could be ones that needed to be met by the user, like being a member of a specific race, or ones that needed to be met otherwise like specific time. Keyed ''portals'' needed to be activated and remained so for six seconds. Once activated, anybody could use it during its activation by touching the ''portal'', even without fulfilling the criteria.&lt;ref name="FRCS-60"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|60}}&lt;/ref&gt; For example, the [[Ched Nasad portal]] could only be activated by [[drow]] who were male and not divine spellcasters. When it came to the surface end, it was only possible to activate it while [[the sun]] was set.&lt;ref name="CNP"&gt;{{Cite web/Perilous Gateways/Dark Elf Portals: The Ched Nasad Portal}}&lt;/ref&gt; A tool that allowed a person to activate any keyed ''portal'', even without knowledge of its key, was a ''[[universal key]]''.&lt;ref name="U-76"&gt;{{Cite book/Underdark|76}}&lt;/ref&gt;
+;Impassable ''Portals'':Impassable ''portals'' were not passable for anything. An impassable ''portal'' differentiated from most ''portals'' in that it could be used like a window to the destination nobody could reach,&lt;ref name="U-52" /&gt; while normal ''portals'' gave off no information about its destination.&lt;ref name="FRCS-p59" /&gt;
+;Nonliving-Only ''Portals'':A nonliving-only ''portal'' was one that allowed only nonliving material through. It was the only type of ''portals'' that allowed nonliving things to pass through without a living creature carrying it.&lt;ref name="U-52"&gt;{{Cite book/Underdark|52}}&lt;/ref&gt;
+;Random ''Portals'':A random ''portal's'' randomness lay in its activation time. It was random and even when a person hit upon a random ''portal'' that was in its activation time, it could be impossible to use, because one lacked the proper key. There was one pattern for a random ''portal'' that was quite common. It was one that worked for a random number of creatures between seven and twelve and once the random number went through the ''portal'' stopped working for a random time up to six days.&lt;ref name="FRCS-60" /&gt;
+;Transparent ''Portals'':Transparent ''portals'' were ''portals'' whose destination could be seen.&lt;ref name="U-52-53"&gt;{{Cite book/Underdark|52-53}}&lt;/ref&gt;
+;Variable ''Portals'':Variable  ''portals'' were ''portals'' with more than one set destination. These ''portals'' were considered dangerous to those who were not familiar with them. The reason was that the multiple destinations could change according to a pattern or at random depending on how they were created. A possible danger, which aforementioned people with no familiarity could encounter was that the ''portal'' was set to transport a person with the proper key to the actually intended destination while sending people without the proper key to a dangerous location like the inside of a volcano.&lt;ref name="FRCS-60" /&gt;
+
+===Malfunction===
+[[File:Bar the Gate.jpg|thumb|right|300px|''An adventurer closing a ''portal'' opened by the [[Cult of the Dragon]].'']]
+A ''portal's'' magic was very durable, but it was subject to wear. ''Portals'' could also be influenced by global magical catastrophes. Such ''portals'' started to malfunction. Malfunctioning ''portals'' were generally a century or older. When such a malfunctioning continuous ''portal'' was activated, the ''portal'' could start to show its malfunctions and applied such effects for up to a minute. Possible malfunctions were that the ''portal'' did not apply a ''greater teleport'' but a ''[[greater dispel magic]]'' effect to either the user or the user's [[magic item]]s. When the former happened, the target was the user and could lose magical effects he or she was benefiting from. When the latter happened, what the ''portal'' did was draining the magic items of magic to power itself, the magic items stopped working for a short time, when it came to charge-based magic items, they lost charges. Another effect that could happen was that the user was shoved off as though he or she suffered a ''[[telekinesis]]'' effect. Another possible effect was that the ''portal'' spilled either and ''[[inflict serious wounds]]'' or ''[[cure serious wounds]]'' out against the user.&lt;ref name="FRCS-61"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|61}}&lt;/ref&gt;
+
+Even when the ''portal'' sent somebody off, it could send somebody to a wrong place. However, about half the time, a ''portal'' worked properly&lt;ref name="FRCS-61" /&gt; and one could further stabilize it with a ''[[portal stabilization]]'' spell&lt;ref name="U-60"&gt;{{Cite book/Underdark|60}}&lt;/ref&gt; or by applying special ''portal''-related stabilization skills.&lt;ref name="PG-42" /&gt;
+
+;''Portal'' Seepage:''Portal'' seepage was an occurrence that accompanied malfunctioning ''portals''. It happened when ''portals'' grew old and their magic started to deteriorate. ''Portal'' seepage happened often to malfunctioning ''portals'' that were more than a millennium old and was an often encountered problem in the [[Lowerdark]]. When this occurred, qualities of the ''portal's'' destination such as planar qualities affected the origin point as well.&lt;ref name="U-53, 120"&gt;{{Cite book/Underdark|53, 120}}&lt;/ref&gt;
+
+==Creation==
+The creation of a ''portal'' was formerly believed to require specific ''portal''-knowledge,&lt;ref name="FRCS-61" /&gt; but it turned out that they could be created by anybody who could create [[:Category:Wondrous items|wondrous items]]. However, having specific knowledge still helped to cut the costs of creation by half.&lt;ref name="PG-42"&gt;{{Cite book/Player's Guide to Faerûn|42}}&lt;/ref&gt; The creation required one of the following spells: ''[[teleport]]'', ''greater teleport'', ''[[teleportation circle]]'', or ''[[gate]]''. It was also a very costly process. A default ''portal'', meaning one-way, always active, and of 10 feet (3 meters) radius, cost 50,000 [[gp]], a large part of the creator's personal essence, and one hundred days. When creating a ''portal'', the creator needed to set a destination. Any place could be this destination, as long as it fulfilled two criteria. First, it needed to be a place where the creator had been at least once. Second, it needed to be a place where travel via the [[Astral Plane]] was possible, this was due to the nature of teleportation spells in general.&lt;ref name="FRCS-61" /&gt;
+
+As mentioned above, a so called two-way ''portal'' was actually not one ''portal'' but two ''portals'', one being built on the other's destination point. Creating a second ''portal'' on the destination point cost half the amount of money to create the first one, more personal essence, and fifty days or more in time.&lt;ref name="FRCS-61" /&gt;
+
+As mentioned above, a standard ''portal'' was created with a 10 feet (3 meters) radius, but could be as small as 6 inches (15 centimeters) in radius. As a rule of thumb, ''portals'' that were bigger than the aforementioned 10 feet in radius cost more for every 300 square feet fraction by another 100% in monetary cost.&lt;ref name="FRCS-61" /&gt;
+
+Turning a ''portal'' into an impassable one&lt;ref name="U-52" /&gt; or keying and randomizing a ''portal'' incurred no additional costs, but adding more destinations than one increased the cost by a fourth for every additional destination, when it came to creature-only ''portals'', the cost was actually doubled. Those creature-only ''portals'' that sent equipment and body to different destinations incurred costs like a creature-only ''portal'' with one additional destination and were very costly.&lt;ref name="FRCS-61" /&gt; When it came to nonliving-only ''portals'', the cost was four times as high as a normal one. Turning a ''portal'' transparent cost a flat 50,000 gp.&lt;ref name="U-52-53" /&gt;
+
+The creation of a ''portal'' with limited number of usages was a cost-saving measure. A continuously active portal and one that could be used five times per day cost the same. It cost less as less frequently the ''portal'' could be used. A portal could be created to work even less frequently than once per day dropping the cost even further, but this had a limit. A portal that allowed travel once a tenday was the limit, ''portals'' that worked even less frequently could be still created, there was simply no saving regarding the costs.&lt;ref name="FRCS-61" /&gt;
+
+==Reputation==
+A lot of people created ''portals'' in Toril's history. Due to the durable nature of this [[magic]], Toril had ''portals'' in the hundreds by [[1372 DR]]. However, quite often, the purpose and usage instructions went lost over time alongside their creators. Therefore, ''portals'' were considered both mysterious and unpredictable.&lt;ref name="FRCS-p59" /&gt;
+{{fq
+| float  = right
+| width  = 255px
+| source = Graffiti on a ''portal'' to the [[Elemental Plane of Fire]]
+| text   = Don’t forget the marshmallows!
+}}
+''Portals'' existed throughout the [[Underdark]]. Entire networks were the primary means people moved around in the Realms Below. Such a ''portal's'' location was often made clear by means of archways, columns, or simple stone piles, if it was part of a trade route. A site with a ''portal'' often had graffiti carved or written. Graffiti provided from time to time information about the ''portal's'' nature or its destination, albeit not always in a clear manner.&lt;ref name="U-52" /&gt;
+
+One group of people who sought the destruction of interplanar ''portals'' were the [[incantatrix|incantatar]]s. They did not want creatures from foreign planes to enter their own and as such viewed it as their duty to destroy as many interplanar connections as possible. That said, they were a font of knowledge for ''portals'' in general.&lt;ref name="PG-61"&gt;{{Cite book/Player's Guide to Faerûn|61}}&lt;/ref&gt; The existence of spells developed by mages from other planes like ''[[Otto's irresistible dance]]'' or ''[[Tenser's transformation]]'' was accredited to interplanar ''portals''.&lt;ref name="PG-140"&gt;{{Cite book/Player's Guide to Faerûn|140}}&lt;/ref&gt;
+
+
+==Notable Portals==
+{{Quote|''It's amazing that Faerûn holds together, considering how it's been riddled with gates and conduits, portals and doorways from a dozen lost peoples. If I had anything like a sense of wonder I might be impressed.''|[[Eidola]] of [[Neverwinter]]&lt;ref name="easy41"&gt;{{Cite book/Easy Betrayals|41}}&lt;/ref&gt;}}&lt;br/&gt;
+===Elfgates===
+The elfgates were portals that could teleport things to and from [[Evermeet]].
+;[[Elion]] to [[Evereska]]: One side of this gate was on a hill about a mile above the palace of [[Seiveril Miritar]] near Elion in northern Evermeet. It was in a broad glade and consisted of three old stone markers.&lt;ref name="FH-p197"&gt;{{Cite book/Forsaken House|197}}&lt;/ref&gt; The other side was a plaza in Evereska.&lt;ref name="FH-p199"&gt;{{Cite book/Forsaken House|199}}&lt;/ref&gt;
+;[[Moonwood]] to [[Evereska]]: The Evereskan side of this gate lay high in the northern [[Shaeradim]] surrounding Evereska, and consisted of a stone marker covered in [[Espruar]] runes beside a waterfall beneath a stone cliff. The other side of the gate linked to a northerly outpost of [[Sharrven]] before it became a ruin.&lt;ref name="FH-p232-233"&gt;{{Cite book/Forsaken House|232-233}}&lt;/ref&gt;
+
+===Bukhara Spires===
+{{Main|Bukhara Spires}}
+These were teleportation spires created by the [[Imaskari]].&lt;ref name="TGHotR-18"&gt;{{Cite book/The Grand History of the Realms|18}}&lt;/ref&gt;
+
+===Elemental Vortices===
+[[Elemental vortices]] were pathways connecting [[elemental planes]] with one another&lt;ref name="SotL.GL-p10"&gt;{{Cite book/Secrets of the Lamp/Genie Lore|10}}&lt;/ref&gt; or the [[Prime Material Plane]].&lt;ref name="PSCS.DM-p20"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|20-21}}&lt;/ref&gt;
+
+===Shadow Portals===
+A shadow ''portal'' was a naturally occurring ''portal'' like one of the vortices. The difference was that it did not connect to one of the [[Inner Planes]] but to the [[Shadowfell]]. Technically, these were simple planar holes towards the Shadowfell and not ''portals'', but they worked like ''portals''. About four-fifths of them were two-way ''portals'' and the other one-fifth were one-way ''portals'' They were always active and did not need to be specifically activated. They were a specific feature of the Lowerdark and were more common the deeper one went.&lt;ref name="U-120"&gt;{{Cite book/Underdark|120}}&lt;/ref&gt;
+
+===Time Gates===
+Much rarer than normal portals, a few [[time gate]]s existed throughout Faerûn. They were physically similar to other portals, but transported an individual not through space, but into a different time.&lt;ref name="C.EoE-p6"&gt;{{Cite book/Cormanthyr: Empire of the Elves|6}}&lt;/ref&gt;
+
+===Weavegates===
+A weavegate looked and behaved similarly to a regular portal, unless the user knew how to navigate the [[Weave]]. For such users, the weavegate could be used to reach any other portal reached by the Weave, instead of the pre-set destination. Traveling in this way gave the sensation of gently falling through a glowing blue void.&lt;ref name="Twitter-2022-06-30"&gt;{{Cite web/theedverse/2022-06-30 - Weavegate to RenFaire}}&lt;/ref&gt;
+
+==Appendix==
+===See Also===
+* [[Perilous Gateways]]: A webseries that featured portals found across [[Faerûn]].
+* [[Elemental vortex]]
+===Appearances===
+:;Novels
+::''[[The Glass Prison]]'' •''[[Sentinelspire (novel)|Sentinelspire]]'' • ''[[The Fanged Crown]]'' • ''[[The Adversary]]''
+===References===
+{{Refs}}
+[[Category:Magic items]]
+[[Category:Wondrous items]]
+[[Category:Items from the Underdark]]
+[[Category:Items]]
+[[Category:Items from Toril]]
+[[Category:Items from Faerûn]]
+[[Category:Planar pathways]]</text>
+      <sha1>ex1w20eg1ipazpdj0ekjvm0ovglqykm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Positive Energy Plane</title>
+    <ns>0</ns>
+    <id>1500</id>
+    <redirect title="Positive Energy plane" />
+    <revision>
+      <id>2095</id>
+      <parentid>2094</parentid>
+      <timestamp>2023-01-05T11:25:18Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2094</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="35" sha1="q9eqabe80o0tsn6kxqjgbasp41lyevz" xml:space="preserve">#REDIRECT [[Positive Energy plane]]</text>
+      <sha1>q9eqabe80o0tsn6kxqjgbasp41lyevz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Positive Energy plane</title>
+    <ns>0</ns>
+    <id>884</id>
+    <revision>
+      <id>7326</id>
+      <parentid>1277</parentid>
+      <timestamp>2026-06-02T14:37:49Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <minor/>
+      <origin>7326</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="10487" sha1="hugknuv3l4s8et541mip2xb0rhtyu2b" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Positive Energy Plane
+| othernames        = 
+| natives           = [[Xag-ya]], [[ravid]]s
+| languages         = 
+| color-pool-color  = Shining white
+| color-pool-image  = ColorPoolPositive.png
+| curtain-color     = Shining white
+| curtain-image     = EtherealCurtainPositive.png
+| basicrefs         = &lt;ref name="MotP1e-54"&gt;{{Cite book/Manual of the Planes 1st edition|54}}&lt;/ref&gt;&lt;ref name="MotP3e-83"&gt;{{Cite book/Manual of the Planes 3rd edition|83}}&lt;/ref&gt;&lt;ref name="MotP1e-pp12,62"&gt;{{Cite book/Manual of the Planes 1st edition|12,62}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="MotP3e-pp49,57"&gt;{{Cite book/Manual of the Planes 3rd edition|49,57}}&lt;/ref&gt;
+| type-GW           = [[Energy Plane]]
+| shape-size-GW     = Infinite Size
+| gravity-GW        = Subjective Directional
+| time-GW           = Normal&lt;br /&gt;{{Former}} Flowing Time (1 real day = 2 subjective days)
+| morphic-GW        = Alterable Morphic
+| element-energy-GW = Major Positive-Dominant with some Minor Dominant regions
+| alignment-GW      = 
+| magical-GW        = Enhanced Magic: ''cure'' spells, positive-energy related; Impeded Magic: ''inflict'' spells, [[negative energy|negative-energy]] related
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="DMG5e-p43"&gt;{{Cite book/Dungeon Master's Guide 5th edition|43}}&lt;/ref&gt;&lt;ref name="MotP1e-22-24"&gt;{{Cite book/Manual of the Planes 1st edition|22-24}}&lt;/ref&gt;&lt;ref name="MotP3e-6"&gt;{{Cite book/Manual of the Planes 3rd edition|6-7}}&lt;/ref&gt;&lt;ref name="DMG3.5-158"&gt;{{Cite book/Dungeon Master's Guide v.3.5|155}}&lt;/ref&gt;&lt;ref name="MotP3e-82-83"&gt;{{Cite book/Manual of the Planes 3rd edition|82-83}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = 
+| deities           = 
+| locations         = 
+| organizations     = 
+| settlements       = 
+| usethe            = 
+| useon             = 
+}}
+The '''Positive Energy plane''', sometimes called the '''Plane of Life'''&lt;ref name="MotP1e-54" /&gt; or the '''Positive Material plane''', was an [[Inner Plane]]&lt;ref name="MotP1e-22-24" /&gt; or [[Energy Plane]]&lt;ref name="FRCS-256"&gt;{{Cite book/Forgotten Realms Campaign Setting 3rd edition|256}}&lt;/ref&gt; of the [[Great Wheel cosmology]] and the [[World Tree cosmology]] models. After the [[Spellplague]], the Positive Energy plane collapsed into the [[Elemental Chaos]], mixing with all the other Inner Planes.&lt;ref name="FRCG-66"&gt;{{Cite book/Forgotten Realms Campaign Guide|66}}&lt;/ref&gt; Cosmologists believe that [[positive energy]] and its opposite [[negative energy]], combined with the four elements, make up the known universe.&lt;ref name="DMG3.5-148"&gt;{{Cite book/Dungeon Master's Guide v.3.5|148}}&lt;/ref&gt; This plane was a continuous explosion of energy not meant for mortals. Despite its nickname, the Plane of Life could bring swift death to the unprotected by filling them with positive energy until their cells burst and they joined the conflagration.&lt;ref name="MotP1e-54" /&gt;&lt;ref name="MotP3e-82-83" /&gt;
+
+==Cosmology==
+According to the Great Wheel cosmology model, the Positive Energy plane could be reached via the [[Ethereal Plane]] or an adjacent elemental plane, but ''not'' by an elemental vortex.&lt;ref name="MotP1e-22-24" /&gt; If traveling through the Deep Ethereal, a pure white ''curtain of vaporous color'' indicated the boundary of the Plane of Life's Border Ethereal region.&lt;ref name="MotP1e-12"&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt; Such was the power of the Positive Energy plane that the boundary with the Border Ethereal was weak and fluctuated randomly at times. Travelers thinking they were safe staying in the Border Ethereal could suddenly be dumped on the Plane of Life some distance from the rapidly receding border.&lt;ref name="MotP1e-54" /&gt; Using the [[Great Wheel cosmology#Basic Structure|spherical model]], this plane was adjacent to the quasi-elemental planes of [[Quasielemental Plane of Mineral|Minerals]], [[Quasielemental Plane of Radiance|Radiance]], [[Quasielemental Plane of Lightning|Lightning]], and [[Quasielemental Plane of Steam|Steam]].&lt;ref name="MotP1e-52"&gt;{{Cite book/Manual of the Planes 1st edition|52}}&lt;/ref&gt; Temporary gates could be created by the ''[[plane shift]]'' spell.&lt;ref name="PHB2ed-224"&gt;{{Cite book/Player's Handbook 2nd edition|224}}&lt;/ref&gt;
+
+As described by the World Tree cosmology model, the [[Astral Plane]] connected all planes with the [[Prime Material Plane]] and the Ethereal Plane was only used for journeying between locations on the Prime.&lt;ref name="DMG3.5-147"&gt;{{Cite book/Dungeon Master's Guide v.3.5|147}}&lt;/ref&gt; The Positive Energy plane was not connected or coterminous with any other elemental plane.&lt;ref name="DMG3.5-150"&gt;{{Cite book/Dungeon Master's Guide v.3.5|150}}&lt;/ref&gt; The spell ''[[astral projection]]''&amp;nbsp;&lt;ref name="DMG3.5-151"&gt;{{Cite book/Dungeon Master's Guide v.3.5|151}}&lt;/ref&gt;&lt;ref name="PHB3.5-201"&gt;{{Cite book/Player's Handbook v.3.5|201}}&lt;/ref&gt; could be used to reach the Positive Energy plane via a shining white ''color pool''.&lt;ref name="MotP3e-49"&gt;{{Cite book/Manual of the Planes 3rd edition|49}}&lt;/ref&gt; Additionally, the ''[[gate]]''&amp;nbsp;&lt;ref name="MotP3e-33"&gt;{{Cite book/Manual of the Planes 3rd edition|33}}&lt;/ref&gt;&lt;ref name="PHB3.5-234"&gt;{{Cite book/Player's Handbook v.3.5|234}}&lt;/ref&gt; and ''[[plane shift]]''&amp;nbsp;&lt;ref name="DMG3.5-151" /&gt;&lt;ref name="PHB3.5-262"&gt;{{Cite book/Player's Handbook v.3.5|262}}&lt;/ref&gt; spells could be used to open a temporary portal to this plane.
+
+==Description==
+{{quote
+|It is power incarnate.&lt;br /&gt;It is radiance beyond compare.&lt;br /&gt;It is life realized to the fullest.
+|[[Manual of the Planes 3rd edition|Manual of the Planes]]&lt;ref name="MotP3e-82-83" /&gt;
+}}
+Both the [[Great Wheel cosmology|Great Wheel]] and [[World Tree cosmology|World Tree]] cosmological models were in nearly complete agreement about the nature of this plane, describing it as an infinite, empty, blinding firestorm of life-giving light, but object proof that too much of good thing can kill you&amp;mdash;quickly. Upon entering this plane, an unprepared traveler would have first noticed the sun-like brilliance burning into her eyes, severely limiting the range of vision and only being able to discern nearby beings or objects by the shadow they made in the backdrop of infinite dazzle. As she gasped at a sight not meant for mortal eyes, she would have quickly realized there was no breathable atmosphere to even form a scream. The sudden feeling of weightlessness might not have been cause for concern because almost immediately any wounds would have been healed as the life-giving energy permeated her entire being and then went beyond any sense of wellness she had ever experienced. Infused with power only felt in dreams, she might have briefly entertained the thought that air was no longer necessary as she ascended to godhood, but as her cells reached their capacity, she would have realized in a fleeting moment what it means to be mortal before exploding in a burst of [[radiant energy]].&lt;ref name="DMG3.5-158" /&gt;&lt;ref name="MotP1e-54" /&gt;&lt;ref name="MotP3e-82-83" /&gt;
+
+In any infinite plane there is room for variation and the Positive Energy plane was no exception. The ebb and flow of energies created zones that could be classified as [[Planar traits#Elemental and Energy Traits|minor-positive dominant]] as well as places that detonated with concentrated bursts even more intense than the usual activity. Matter from other planes could sometimes be found in the more stable minor-positive dominant areas and some were even inhabited, but there was the constant danger that an energy surge could overwhelm an area without warning. Travelers were advised to have some form of [[positive energy protection]] ready at all times because even brief exposure to the raw energy of this plane could be fatal. There were reports that the life energy would even seep into the possessions of visitors, occasionally imbuing them with a form of life both animated and aggressive. A small biting coin purse might not pose much of a threat, but an angry helmet squeezing your favorite head could be quite a distraction.&lt;ref name="MotP3e-83" /&gt;
+
+The rapid healing and boosting properties of this plane drew the very desperate and the very ambitious to attempt exposing themselves to the life-giving energy for just the right amount of time to gain the benefits and not pay the ultimate price. Those that succeeded in exiting the plane or removing themselves from the radiation in time would be completely healed of all wounds and their supercharged bodies could withstand more damage than usual. This effect lasted anywhere from a few minutes up to about three hours, after which all things returned to normal.&lt;ref name="MotP1e-54" /&gt; Note that the Positive Energy plane has no effect on disease because the energy helps the disease as much as the victim. Healing also does not prevent thirst, starvation, or suffocation.&lt;ref name="MotP3e-83" /&gt;
+
+==Inhabitants==
+Inhabitants were extremely rare on this plane. The only creatures known to inhabit the Plane of Life were the mysterious [[outsider]]s, the [[xag-ya]],&lt;ref name="MotP1e-54" /&gt; and [[ravid]]s. Constructs such as [[golem]]s and other things that do not benefit from healing could exist here without detrimental effects.&lt;ref name="MotP3e-83" /&gt;
+
+==Appendix==
+===Further reading===
+For possible (non-canon) inhabitants of the [[Quasielemental Plane of Radiance]], see:
+* {{Cite dragon
+| author    = [[Bennet Marks]]
+| editor    = [[Matthew Sernett]]
+| title     = Creatures of Brilliance: Inhabitants of the Plane of Radiance
+| issue     = 321
+| date      = July 2004
+| pages     = {{{1|70-75}}}
+}}
+===External Links===
+* {{FRW}}
+===References===
+{{Refs}}
+===Connections===
+{{Cosmologies}}
+[[Category:Inner Planes]]
+[[Category:Energy planes]]
+[[Category:Great Wheel planes]]
+[[Category:World Tree planes]]
+[[Category:Planes of existence]]</text>
+      <sha1>hugknuv3l4s8et541mip2xb0rhtyu2b</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Power</title>
+    <ns>0</ns>
+    <id>2823</id>
+    <revision>
+      <id>7293</id>
+      <parentid>7286</parentid>
+      <timestamp>2026-03-03T10:44:05Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <comment>/* Aebrynis Pantheon */</comment>
+      <origin>7293</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="17687" sha1="8dan88aa0r2hafas8zknf8ssmxw1fsn" xml:space="preserve">The '''powers''' are a term used by [[planar]]s to refer to the gods of the Outer Planes, although it sometimes also refers to other incredibly powerful beings, like the [[Lords of the Nine]], who are nonetheless not typically considered gods.
+
+Although she technically qualifies, the [[Lady of Pain]] is rarely considered a power, probably due to superstitious reasons: associating her with the powers may be too close to worship for many Cagers, and no one wants to be thrown to the [[Maze]]s.
+
+The powers are one of the alliterative groups used to represent the denizens of the planes: [[prime]]s, [[planar]]s, [[petitioner]]s, [[proxy|proxies]], and powers.
+
+Gods typically organize themselves into pantheons, where each pantheon is worshipped by a particular culture, race, or entire Prime world.
+
+In terms of puissance, sages recognize several tiers: near-powers, demi-powers, lesser powers, intermediate powers, and greater powers.
+
+= Cultural Powers =
+
+== Babylonian Pantheon ==
+: See also: [[Babylonian powers]]&lt;ref name="ohg60"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=60}}&lt;/ref&gt;&lt;ref name="woh9293"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=92-93}}&lt;/ref&gt;
+
+* [[Anu]] (Greater)
+* [[Ishtar]] (Greater)
+* [[Marduk]] (Greater)
+* [[Anshar]] (Lesser)
+* [[Druaga]] (Lesser)
+* [[Girru]] (Lesser)
+* [[Nergal]] (Lesser)
+* [[Ramman]] (Lesser)
+
+== Celtic Pantheon ==
+: See also: [[Celtic powers]]&lt;ref name="ohg66"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=66}}&lt;/ref&gt;&lt;ref name="woh9195"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-95}}&lt;/ref&gt;
+
+The Celts largely keep confined to [[Tir na Og]] and the adjacent [[Tir fo Thuinn]] in the [[Outlands]].
+
+* [[Daghdha]] (Greater)
+* [[Nuada]] (Greater)
+* [[Silvanus]] (Greater)
+* [[Arawn]] (Intermediate)
+* [[Belenus]] (Intermediate)
+* [[Brigantia]] (Intermediate)
+* [[Diancecht]] (Intermediate)
+* [[Goibhniu]] (Intermediate)
+* [[Lugh]] (Intermediate)
+* [[Manannan mac Lir]] (Intermediate)
+* [[Math Mathonwy]] (Intermediate)
+* [[Morrigan]] (Intermediate)
+* [[Oghma]] (Intermediate)
+* [[Dunatis]] (Lesser)
+
+== Chinese Pantheon ==
+: See also: [[Chinese powers]]&lt;ref name="ohg152"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=152}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+* [[Shang-ti]] (Greater)
+* [[Chih-Nii]] (Intermediate)
+* [[Chung-Kuei]] (Intermediate)
+* [[Fu Hsing]] (Intermediate)
+* [[Kuan-ti]] (Intermediate)
+* [[Kuan Yin]] (Intermediate)
+* [[Lei Kung]] (Intermediate)
+* [[Liu]] (Intermediate)
+* [[Lu Hsing]] (Intermediate)
+* [[Shou Hsing]] (Intermediate)
+* [[Sung Chiang]] (Intermediate)
+* [[Yen-Wang-Yeh]] (Intermediate)
+* [[K'ung Fu-tzu]] (Lesser)
+* [[Lao Tzu]] (Lesser)
+
+== Egyptian Pantheon ==
+: See also: [[Egyptian powers]]&lt;ref name="ohg84"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=84}}&lt;/ref&gt;&lt;ref name="woh9195"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-95}}&lt;/ref&gt;
+
+* [[Ra]] (Greater)
+* [[Geb]] (Intermediate)
+* [[Isis]] (Intermediate)
+* [[Nephythys]] (Intermediate)
+* [[Nut]] (Intermediate)
+* [[Osiris]] (Intermediate)
+* [[Set]] (Intermediate)
+* [[Shu]] (Intermediate)
+* [[Tefnut]] (Intermediate)
+* [[Anhur]] (Lesser)
+* [[Bast]] (Lesser)
+* [[Bes]] (Lesser)
+* [[Horus]] (Lesser)
+* [[Ptah]] (Lesser)
+* [[Seker]] (Lesser)
+* [[Thoth]] (Lesser)
+* [[Apshai]] (Demipower)
+* [[Anubis]] (Unknown)
+
+== Finnish Pantheon ==
+: See also: [[Finnish powers]]&lt;ref name="ohg102"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=102}}&lt;/ref&gt;&lt;ref name="woh9195"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-95}}&lt;/ref&gt;
+
+* [[Ahto]] (Greater)
+* [[Hiisi]] (Greater)
+* [[Tuonetar]] and [[Tuoni]] (Greater)
+* [[Ukko]] (Greater)
+* [[Ilmatar]] (Lesser)
+* [[Mielikki]] (Lesser)
+* [[Untamo]] (Lesser)
+* [[Loviatar]] (Demipower)
+* [[Surma]] (Demipower)
+
+== Greek Pantheon ==
+: See also: [[Greek powers]]&lt;ref name="ohg114"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=114}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+The majority of the Greek pantheon lives in [[Olympus]], a domain on the [[Olympus (layer)|eponymous]] top layer of [[Arborea]], which it shares with the Elvish pantheon.
+
+* [[Zeus]] (Greater)
+* [[Hades (power)|Hades]] (Greater)
+* [[Hera]] (Greater)
+* [[Poseidon]] (Greater)
+* [[Aphrodite]] (Intermediate)
+* [[Apollo]] (Intermediate)
+* [[Ares]] (Intermediate)
+* [[Artemis]] (Intermediate)
+* [[Athena]] (Intermediate)
+* [[Demeter]] (Intermediate)
+* [[Dionysus]] (Intermediate)
+* [[Hecate]] (Intermediate)
+* [[Hephaestus]] (Intermediate)
+* [[Hermes]] (Intermediate)
+* The [[Furies]] (Lesser)
+* [[Nike]] (Lesser)
+* [[Pan]] (Lesser)
+* [[Tyche]] (Lesser)
+
+Titans:
+* [[Cronus]] (Greater)
+* [[Gaea]] (Greater)
+* [[Rhea]] (Greater)
+* [[Uranus]] (Greater)
+
+== Indian Pantheon ==
+: See also: [[Indian powers]]&lt;ref name="ohg154"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=154}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+* [[Brahman]] (Greater)
+* [[Siva]] (Greater)
+* [[Vishnu]] (Greater)
+* [[Agni]] (Intermediate)
+* [[Brihaspati]] (Intermediate)
+* [[Indra]] (Intermediate)
+* [[Kali]] (Intermediate)
+* [[Mitra]] (Intermediate)
+* [[Puchan]] (Intermediate)
+* [[Rudra]] (Intermediate)
+* [[Savitri]] (Intermediate)
+* [[Soma]] (Intermediate)
+* [[Surya]] (Intermediate)
+* [[Ushas]] (Intermediate)
+* [[Varuna]] (Intermediate)
+* [[Yama]] (Intermediate)
+* [[Lakshmi]] (Lesser)
+* [[Ratri]] (Lesser)
+* [[Vayu]] (Lesser)
+* [[Karttikeya]] (Demipower)
+* [[Tvashtri]] (Demipower)
+
+== Japanese Pantheon ==
+: See also: [[Japanese powers]]&lt;ref name="ohg158"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=158}}&lt;/ref&gt;&lt;ref name="woh9195"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-95}}&lt;/ref&gt;
+
+* [[Izanagi]] and [[Izanami]] (Greater)
+* [[Amaterasu]] (Intermediate)
+* [[Ama-Tsu-Mara]] (Intermediate)
+* [[Amatsu-Mikaboshi]] (Intermediate)
+* [[Hachiman]] (Intermediate)
+* [[Ho Masubi]] (Intermediate)
+* [[Inari]] (Intermediate)
+* [[Kura Okami]] (Intermediate)
+* [[Nai No Kami]] (Intermediate)
+* [[O-Kuni-Nushi]] (Intermediate)
+* [[O-Wata-Tsu-Mi]] (Intermediate)
+* [[Raiden]] (Intermediate)
+* [[Shichifukujin]] (Intermediate)
+* [[Shina-Tsu-Hiko]] (Intermediate)
+* [[Susanoo]] (Intermediate)
+* [[Tsuki-Yomi]] (Intermediate)
+* [[Kishijoten]] (Lesser)
+
+== Norse Pantheon ==
+: See also: [[Norse powers]]&lt;ref name="ohg138"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=138}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+The Norse pantheon has two main areas of strength: The Aesir live in [[Asgard]], while the Vanir live in [[Vanaheim]], both on the [[Ysgard (layer)|first layer]] of [[Ysgard]].
+
+Aesir:
+* [[Odin]] (Greater)
+* [[Aegir]] (Intermediate)
+* [[Baldur]] (Intermediate)
+* [[Bragi]] (Intermediate)
+* [[Forseti]] (Intermediate)
+* [[Frigga]] (Intermediate)
+* [[Heimdall]] (Intermediate)
+* [[Hel]] (Intermediate)
+* [[Idun]] (Intermediate)
+* [[Loki]] (Intermediate)
+* [[Sif]] (Intermediate)
+* [[Thor]] (Intermediate)
+* [[Tyr]] (Intermediate)
+* [[Magni]] and [[Modi]] (Lesser)
+* [[Uller]] (Lesser)
+* [[Vidar]] (Lesser)
+* The [[Valkyries]] (Demipowers)
+* The [[Norns]] (Unknown)
+
+Vanir:
+* [[Frey]] (Intermediate)
+* [[Freya]] (Intermediate)
+* [[Uller]] (Lesser)
+
+== Sumerian Pantheon ==
+: See also: [[Sumerian powers]]&lt;ref name="ohg63"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=63}}&lt;/ref&gt;&lt;ref name="woh9396"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=93-96}}&lt;/ref&gt;
+
+These powers mostly live on the [[Great Mountain of the East]], the mightiest crag on [[Elysium]].
+
+* [[Enlil]] (Greater)
+* [[Inanna]] (Greater)
+* [[Ki]] (Greater)
+* [[Utu]] (Greater)
+* [[Nanna-Sin]] (Lesser)
+* [[Nin-Hursag]] (Lesser)
+
+= Racial Powers = 
+== Dwarven Pantheon ==
+: See also: [[Dwarvn powers]]&lt;ref name="ohg78"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=78}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+* [[Moradin]] (Greater)
+* [[Abbathor]] (Intermediate)
+* [[Berronar Truesilver]] (Intermediate)
+* [[Clangeddin Silverbeard]] (Intermediate)
+* [[Dumathoin]] (Intermediate)
+* [[Vergadain]] (Intermediate)
+* [[Dugmaren Brightmantle]] (Lesser)
+* [[Muamman Duathal]] (Lesser)
+
+Other Dwarven:
+* [[Laduguer]] (Intermediate), the duergar power
+* [[Diirinka]] (Intermediate), a derro power
+* [[Diinkarazan]] (Demipower), a derro power
+
+== Elven Pantheon ==
+: See also: [[Elven powers]]&lt;ref name="ohg92"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=92}}&lt;/ref&gt;&lt;ref name="woh9195"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-95}}&lt;/ref&gt;
+
+The home of the Elven powers is [[Arvandor]], the primary domain within the first layer of [[Arborea]].
+
+* [[Corellon Larethain]] (Greater)
+* [[Aerdrie Faenya]] (Intermediate)
+* [[Deep Sashelas]] (Intermediate)
+* [[Erevan Ilesere]] (Intermediate)
+* [[Hanali Celanil]] (Intermediate)
+* [[Labelas Enoreth]] (Intermediate)
+* [[Sehanine Moonbow]] (Intermediate)
+* [[Solonor Thelandira]] (Intermediate)
+* [[Fenmarel Mestarine]] (Lesser)
+* [[Sarula Iliene]] (Lesser)
+* [[Alathrien Druanna]] (Demipower)
+* [[Darahl Firecloak]] (Demipower)
+* [[Mythrien Sarath]] (Demipower)
+
+Drow Powers:
+* [[Lolth]] (Intermediate)
+* [[Eilistraee]] (Lesser)
+* [[Vhaeraun]] (Lesser)
+* [[Kiaransalee]] (Demipower)
+* [[Zinzerena]] (Demipower)
+
+Sea Elf Powers:
+* [[Trishna]] (Lesser)
+
+== Gnome Pantheon ==
+: See also: [[Gnomish powers]]&lt;ref name="ohg106"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=106}}&lt;/ref&gt;&lt;ref name="woh9195"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-95}}&lt;/ref&gt;
+
+The gnomish pantheon calls the [[Golden Hills]] home, on [[Dothion]], the first level of [[Bytopia]].
+
+* [[Garl Glittergold]] (Greater)
+* [[Baervan Wildwanderer]] (Intermediate)
+* [[Flandal Steelskin]] (Intermediate)
+* [[Segojan Earthcaller]] (Intermediate)
+* [[Urdlen]] (Intermediate)
+* [[Baravar Cloakshadow]] (Lesser)
+* [[Gaerdal Ironhand]] (Lesser)
+* [[Nebelun]] (Lesser)
+
+Svirfnebli:
+* [[Callarduran Smoothhands]] (Intermediate)
+
+
+== Goblin Pantheon ==
+: See also: [[Goblin powers]]&lt;ref name="ohg130"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=130}}&lt;/ref&gt;&lt;ref name="woh93"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=93}}&lt;/ref&gt;
+
+* [[Maglubiyet]] (Greater)
+* [[Meriadar]] (Intermediate
+* [[Bargrivyek]] (Lesser)
+* [[Khurgorbaeyag]] (Lesser)
+* [[Nobog-Geaya]] (Lesser)
+
+== Halfling Pantheon ==
+: See also: [[Halfling powers]]&lt;ref name="ohg111"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=111}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+The halfling pantheon calls the [[Green Fields]] home, on [[Venya]], the third layer of [[Mount Celestia]].
+
+* [[Yondalla]] (Greater)
+* [[Arvoreen]] (Intermediate)
+* [[Cyrrollalee]] (Intermediate)
+* [[Sheela Peryroyl]] (Intermediate)
+* [[Brandobaris]] (Lesser)
+* [[Urogalan]] (Demipower)
+
+== Orcish Pantheon ==
+: See also: [[Orcish powers]]&lt;ref name="ohg133"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=133}}&lt;/ref&gt;
+
+* [[Gruumsh]] (Greater)
+* [[Bahgtru]] (Intermediate)
+* [[Ilneval]] (Intermediate)
+* [[Shargaas]] (Intermediate)
+* [[Yurtrus]] (Intermediate)
+* [[Luthic]] (Lesser)
+
+== Other Monstrous Powers ==
+: See also: [[Monstrous powers]]&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+* [[Annam]] (Giants, Greater)
+* [[Ilsensine]] (Greater)
+* [[Jazerian]] (Couatl, Greater)
+* [[Shekinester]] (Nagas, Greater)
+* [[Stronmaus]] (Giants, Greater)
+* [[Titania]] (Faerie, Greater)
+* [[Blibdoolpoolp]] (Intermediate)
+* [[Eadro]] (Merfolk/Locathah, Intermediate)
+* [[Emmantiensien]] (Treant, Intermediate)
+* [[Koriel]] (Ki-rin, Intermediate)
+* [[Persana]] (Tritons, Intermediate)
+* [[Syranita]] (Aarakocra, Intermediate)
+* [[Bahamut]] (Draconic, Lesser)
+* [[Balador]] (Werebear, Lesser)
+* [[Eachthighern]] (Unicorn/Pegasi, Lesser)
+* [[Ferrix]] (Weretiger, Lesser)
+* [[Gzemnid]] (Lesser)
+* [[Iallanis]] (Giant, Lesser)
+* [[Oberon]] (Faerie, Lesser)
+* [[Quorlinn]] (Kenku, Lesser)
+* [[Remnis]] (Eagles, Lesser)
+* [[Skerrit]] (Centaurs, Lesser)
+* [[Surminare]] (Selkies, Lesser)
+* [[Talisid]] (Guardinals, Lesser)
+* [[Tiamat]] (Lesser)
+* [[Verenestra]] (Nymphs, Lesser)
+* [[Yeenoghu]] (Lesser)
+* [[Ben-hadar]] (Elemental, Demipower)
+* [[Chan]] (Elemental, Demipower)
+* [[Fionnghuala]] (Swanmay, Demipower)
+* [[Sunnis]] (Elemental, Demipower)
+
+; Unknown
+* [[Cloud King]] (Demipower)
+* [[Lightning King]] (Demipower)
+* [[Rain King]] (Demipower)
+
+= Single-Sphere Powers = 
+== Aebrynis Pantheon ==
+: See also: [[Cerilian powers]]&lt;ref name="ohg160-164,179"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=160-164,179}}&lt;/ref&gt;&lt;ref name="woh9195"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-95}}&lt;/ref&gt;
+
+
+The powers of the ''Birthright'' campaign setting.
+
+* [[Avani]] (Greater)
+* [[Erik]] (Greater)
+* [[Haelyn]] (Greater)
+* [[Belinik]] (Intermediate)
+* [[Nesirie]] (Intermediate)
+* [[Sera]] (Intermediate)
+* [[Cuiraécen]] (Lesser)
+* [[Eloéle]] (Lesser)
+* [[Kriesha]] (Lesser)
+* [[Laerme]] (Lesser)
+* [[Ruornil]] (Lesser)
+
+== Faerûnian Pantheon ==
+: See also: [[Faerûn powers]]&lt;ref name="ohg168"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=168}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+The powers of the ''Forgotten Realms'' campaign setting.
+
+* [[Ao]] (Overpower)
+* [[Chauntea]] (Greater)
+* [[Cyric]] (Greater)
+* [[Kelemvor]] (Greater)
+* [[Lathander]] (Greater)
+* [[Mystra]] (Greater)
+* [[Shar]] (Greater)
+* [[Silvanus]] (Greater)
+* [[Sune]] (Greater)
+* [[Talos]] (Greater)
+* [[Tempus]] (Greater)
+* [[Gond]] (Intermediate)
+* [[Helm]] (Intermediate)
+* [[Ilmater]] (Intermediate)
+* [[Oghma]] (Intermediate)
+* [[Selûne]] (Intermediate)
+* [[Tymora]] (Intermediate)
+* [[Tyr]] (Intermediate)
+* [[Azuth]] (Lesser)
+* [[Deneir]] (Lesser)
+* [[Eldath]] (Lesser)
+* [[Iyachtu Xvim]] (Lesser)
+* [[Lliira]] (Lesser)
+* [[Mielikki]] (Lesser)
+* [[Milil]] (Lesser)
+* [[Shaundakul]] (Lesser)
+* [[Torm]] (Lesser)
+* [[Finder Wyvernspur]] (Demipower)
+* [[Gwaeron Windstrom]] (Demipower)
+* [[Lurue]] (Demipower)
+* [[Nobanian]] (Demipower)
+* [[Red Knight]] (Demipower)
+* [[Savras]] (Demipower)
+* [[Sharess]] (Demipower)
+* [[Shiallia]] (Demipower)
+* [[Siamorphe]] (Demipower)
+* [[Uthgar]] (Demipower)
+* [[Valkur]] (Demipower)
+
+; [[Chult powers]]
+* [[Ubtao]] (Greater)
+
+; [[Mulhorandi powers]]
+* [[Horus-Re]] (Greater) 
+* [[Hathor]] (Lesser)
+
+
+
+
+== Krynnish Pantheon ==
+: See also: [[Krynnish powers]]&lt;ref name="ohg164"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=164}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+
+The powers of the ''Dragonlance'' campaign setting.
+
+; Good
+* [[Paladine]] (Greater)
+* [[Mishakal]] (Greater)
+* [[Branchala]] (Intermediate)
+* [[Habbakuk]] (Intermediate)
+* [[Kiri-Jolith]] (Intermediate)
+* [[Majere]] (Intermediate)
+* [[Solinari]] (Intermediate)
+
+; Neutrality
+* [[Gilean]] (Greater)
+* [[Reorx]] (Greater)
+* [[Chislev]] (Intermediate)
+* [[Lunitari]] (Intermediate)
+* [[Shinare]] (Intermediate)
+* [[Sirrion]] (Intermediate)
+* [[Zivilyn]] (Intermediate)
+
+; Evil
+* [[Takhisis]] (Greater)
+* [[Sargonnas]] (Greater)
+* [[Chemosh]] (Intermediate)
+* [[Hiddukei]] (Intermediate)
+* [[Morgion]] (Intermediate)
+* [[Nuitari]] (Intermediate)
+* [[Zeboim]] (Intermediate)
+
+== Oerth Pantheon ==
+: See also: [[Oerth powers]]&lt;ref name="ohg165"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|nip=1|page=165}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+The powers of the ''Greyhawk'' campaign setting.
+
+* [[Beory]] (Greater)
+* [[Boccob]] (Greater)
+* [[Istus]] (Greater)
+* [[Incabulos]] (Greater)
+* [[Nerull]] (Greater)
+* [[Pelor]] (Greater)
+* [[Celestian]] (Intermediate)
+* [[Ehlonna]] (Intermediate)
+* [[Fharlanghn]] (Intermediate)
+* [[Heironeous]] (Intermediate)
+* [[Kord]] (Intermediate)
+* [[Lendor]] (Intermediate)
+* [[Obad-Hai]] (Intermediate)
+* [[Olidammara]] (Intermediate)
+* [[Pholtus]] (Intermediate)
+* [[St. Cuthbert]] (Intermediate)
+* [[Trithereon]] (Intermediate)
+* [[Ulaa]] (Intermediate)
+* [[Wee Jas]] (Intermediate)
+* [[Alia Allitur]] (Lesser)
+* [[Atroa]] (Lesser)
+* [[Berei]] (Lesser)
+* [[Bleredd]] (Lesser)
+* [[Bralm]] (Lesser)
+* [[Cyndor]] (Lesser)
+* [[Dalt]] (Lesser)
+* [[Delleb]] (Lesser)
+* [[Fortubo]] (Lesser)
+* [[Geshtai]] (Lesser)
+* [[Jascar]] (Lesser)
+* [[Joramy]] (Lesser)
+* [[Lirr]] (Lesser)
+* [[Llerg]] (Lesser)
+* [[Lydia]] (Lesser)
+* [[Myhriss]] (Lesser)
+* [[Osprem]] (Lesser)
+* [[Phaulkon]] (Lesser)
+* [[Phyton]] (Lesser)
+* [[Sotillon]] (Lesser)
+* [[Velnius]] (Lesser)
+* [[Wenta]] (Lesser)
+* [[Zodal]] (Lesser)
+* [[Al'Akbar]] (Demipower)
+* [[Mayaheine]] (Demipower)
+* [[Ye'Cind]] (Demipower)
+
+== Mystaran Pantheon ==
+: See also [[Mystaran powers]]&lt;ref name="woh91"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91}}&lt;/ref&gt;&lt;ref name="woh9196"&gt;{{b|D&amp;D|Warriors of Heaven|pdf=17387|page=91-96}}&lt;/ref&gt;
+
+
+The powers of the ''Mystara'' campaign setting.
+
+* [[Atruaghin]] (Greater)
+* [[Djaea]] (Greater)
+* [[Isundal]] (Greater)
+* [[Ixion]] (Greater)
+* [[Ka]] (Greater)
+* [[Khoronus]] (Greater)
+* [[Ordana]] (Greater)
+* [[Razud]] (Greater)
+* [[Terra]] (Greater)
+* [[Valerius]] (Greater)
+* [[Aphatia]] (Intermediate)
+* [[Eiryndul]] (Intermediate)
+* [[Noumena]] (Intermediate)
+* [[Protius]] (Intermediate)
+* [[Rad]] (Intermediate)
+* [[Rafiel]] (Intermediate)
+* [[Vanya]] (Intermediate)
+* [[Zirchev]] (Intermediate)
+* [[Asterius]] (Lesser)
+* [[Calitha Starbrow]] (Lesser)
+* [[Diulanna]] (Lesser)
+* [[Halav]] (Lesser)
+* [[Kagyar]] (Lesser)
+* [[Petra]] (Lesser)
+* [[Pflarr]] (Lesser)
+* [[Rathanos]] (Lesser)
+* [[Tarastia]] (Lesser)
+* [[Al'Kalim]] (Demipower)
+* [[Benekander]] (Demipower)
+* [[Faunus]] (Demipower)
+* [[Koryis]] (Demipower)
+
+
+
+
+= References =
+&lt;references /&gt;
+
+[[Category:Powers]]</text>
+      <sha1>8dan88aa0r2hafas8zknf8ssmxw1fsn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Prehistory</title>
+    <ns>0</ns>
+    <id>2474</id>
+    <revision>
+      <id>5360</id>
+      <parentid>5357</parentid>
+      <timestamp>2024-04-18T06:19:52Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>i can math, honest</comment>
+      <origin>5360</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5032" sha1="m6aa0micnci6x36vlas9bgv5kdl8rl6" xml:space="preserve">== Deep History ==
+
+The multiverse was swirling chaos. Forms coalesced, creating the planes and the first [[power]]s.
+
+Two of the powers championing the forces Law were the [[Twin Serpents]]: [[Jazirian]], a winged and feathered serpent dedicated to Good, and [[Ahriman]], a scaled serpent dedicated to evil. The ring formed by two biting each others' tails demarcated a new plane called the [[Outlands]], and other planes fell in around it, forming the [[Great Ring]] of the [[Outer Plane]]s. This action also enshrined the [[Unity of Rings]] as a fundamental multiversal law.&lt;ref name="gth2"&gt;{{b|D&amp;D|Guide to Hell|pdf=17390|page=2}}&lt;/ref&gt;
+
+In honor of the triple aspects of Law, Good, and Evil, the Serpents established the [[Rule of Three]]. The Serpents attempted to define a center for the multiverse. Despite the advantage of the Outlands, Jazirian pushed for [[Mount Celestia]], while Ahriman pushed for the inverted mountain of [[Baator]].
+
+The two tore themselves apart in their disagreement, with both fleeing to their respective preferred planes. Jazirian bled from her tail, the tip torn off. Wherever drops landed, a [[couatl]] was born. Wingless Ahriman fell to the deepest pit of Baator, and wherever he bled, a [[baatezu|devil]] arose. The lack of a defined center paradoxically gave rise to the third multiversal law, the [[Center of All]].
+
+Weakened in their struggle, other powers usurped them, founding pantheons and spreading their influence across the planes.&lt;ref name="gth3"&gt;{{b|D&amp;D|Guide to Hell|pdf=17390|page=3}}&lt;/ref&gt;
+
+Ahriman rebranded himself as [[Asmodeus]], lord of [[Nessus]], a near-[[power]] at best, although he secretly remained a Greater Power.&lt;ref name="gth48"&gt;{{b|D&amp;D|Guide to Hell|pdf=17390|page=48}}&lt;/ref&gt;
+
+
+== Unknown ==
+
+* [[Gifad]] arrives in the ancient past, and works his way through the planes learning as much magic as he can, dedicated to overthrowing the [[Lady of Pain]]. He arrives in [[Sigil]], and works a vast enchantment into the structure of [[Ward of Masks]] -- what will one day be called the [[Clerk's Ward]]. As he is about to complete his spell to take control of the city, the Lady appears, trapping him in a [[Labyrinth Stone]], and telling him, ''None but you may unlock this jewel, and then only from without. Thus you are snared, till eons hence.'' The gem is then cast into the [[Lower Planes]].&lt;ref name="fw112113"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=112-113}}&lt;/ref&gt;
+
+== 10,000 BFHR ==
+
+* Around this time, a mage named [[Shekelor]] leaves [[Sigil]] in search of the [[Labyrinth Stone]]. His journey takes him through [[Pandemonium]]], but ends with him burning from within in front of the [[City Courts]]. This may be before the Lady knew how to create a [[Maze]].&lt;ref name="itc73"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=73}}&lt;/ref&gt;&lt;ref name="uncaged63"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=63}}&lt;/ref&gt;&lt;ref name="fw34"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=34}}&lt;/ref&gt;
+
+
+== 3373 BFHR ==
+
+* After discovering [[Fell|one]] of her own [[dabus]] has begun worshipping [[Aoskar]], the god of portals, the [[Lady of Pain]] kills the god and destroys his [[Shattered Temple|temple]]. [[Four Doors|Four portals]] around the city, perhaps tied to Aoskar in some way, vanish and will not return for 500 years.&lt;ref name="dttu4"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|page=4}}&lt;/ref&gt;
+
+== 2873 BFHR ==
+
+* [[Four Doors|Four portals]] around [[Sigil]] appear, and vanish again two months later. The dwarf [[Fargullen]] figures out the entrance to the Second Door and vanishes within. The city's sage go wild trying to figure out the secret to the doors&lt;ref name="dttu4"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|page=4}}&lt;/ref&gt;, including the ogre mage [[Estavan]]&lt;ref name="dttu10"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|page=140}}&lt;/ref&gt;
+
+== 2373 BFHR ==
+* [[Four Doors|Four portals]] around [[Sigil]] appear, and vanish again two months later. The dwarf [[Fargullen]] returns from beyond the Second Door, spouting prophecies related to [[Aoskar]], the Lady, and the Doors.&lt;ref name="dttu4"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|page=4}}&lt;/ref&gt;
+
+== 1873 BFHR ==
+* [[Four Doors|Four portals]] around [[Sigil]] appear, and vanish again two months later.&lt;ref name="dttu4"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|page=4}}&lt;/ref&gt;
+
+== 1398 BFHR ==
+* Around this time on the world of [[Aebrynis]], the gods sacrificed themselves at the Battle of Mount Deismaar to destroy their evil brother, [[Azrai]]. However, they passed their powers on to their greatest champions, who became the new generation of gods.&lt;ref name="ohg160162"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|page=160-162}}&lt;/ref&gt;
+
+== 1373 BFHR ==
+
+* [[Four Doors|Four portals]] around [[Sigil]] appear, and vanish again two months later.&lt;ref name="dttu4"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|page=4}}&lt;/ref&gt;
+
+
+
+
+== References ==
+&lt;references /&gt;
+
+Return to [[Timeline]]
+
+[[Category:Timeline]]</text>
+      <sha1>m6aa0micnci6x36vlas9bgv5kdl8rl6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Primals</title>
+    <ns>0</ns>
+    <id>2731</id>
+    <revision>
+      <id>6758</id>
+      <parentid>6344</parentid>
+      <timestamp>2025-06-19T17:27:37Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>6758</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1651" sha1="erxw5db5f8o9bf1jt6i0v6jhdmzo5zt" xml:space="preserve">{{Faction
+  | faction        = Primals
+  | image1         = SectPrimals.png
+  | caption-image1 = 
+  | nickname       = 
+  | philosophy     = Unknown.
+  | founded        = 
+  | factol         = 
+  | sigilhq        = 
+  | homefield      = [[Inner Planes]]
+  | allies         = Too withdrawn for allies.
+  | enemies        = No real enemies, but few trust them.
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Primals''' are a [[sect]] mostly found on the Inner Planes. No one knows much about about them, as they remain very secretive. One can surmise from the "Primal" name and their base of operations that it has something to do with the elemental planes as the building blocks of the multiverse.
+
+== History ==
+
+== Philosophy ==
+
+Other than whatever their core philosophy might be, Primals often say "power told is power lost," explaining their profound secrecy. Whatever they've found, or are looking for, they don't want to share it with anyone.
+
+== Role ==
+
+== Membership ==
+
+Presumably anyone willing to explore the elements and also keep a secret is welcome to join. Potential initiates go through a long screening process and probationary period, but the criteria for admission remain a mystery. 
+
+The first rank are ''initiates''. Those who apply themselves may become ''lorewardens''. The third and final rank is ''loremaster'', a title held by extremely few.
+
+Members can never leave the Inner Planes.
+
+== Background Information ==
+
+== References ==
+* {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294|page=74-75}}
+
+{{scroll|&lt;references /&gt;}}
+
+{{Sects}}
+
+[[Category:Sect]]
+[[Category:Monster]]
+[[Category:Primals]]</text>
+      <sha1>erxw5db5f8o9bf1jt6i0v6jhdmzo5zt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Prime</title>
+    <ns>0</ns>
+    <id>3126</id>
+    <revision>
+      <id>6768</id>
+      <parentid>5994</parentid>
+      <timestamp>2025-06-20T04:52:27Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>prime</comment>
+      <origin>6768</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1203" sha1="rhjv18bc3iyy4ihsju6fdal9ar3fm0p" xml:space="preserve">A '''prime''' is a creature born on the [[Prime Material plane]]. Often called [[Outsider (Prime)|Outsider]]s, or more derogatorily, "Clueless," although that depends on the prime. Getting to the planes generally requires a certain degree of power, even if they have some strange ideas in their heads, so primes are afforded some amount of respect.
+
+Most primes encountered on the planes are adventurers, there for a specific task, and will likely return home once their job's done. Others are trapped, or take a liking to their new surroundings, and set up a permanent home in the planes.
+
+Primes have some qualities that planars do not:
+
+* Primes have a [[silver cord]] in the [[Astral Plane]], tracing their way back to their bodies left behind on the Prime Material.
+* Primes are completely immune to planar magic, like ''protection from evil'' or ''monster summonings''.
+
+"Prime" is also sometimes used as a shorthand for the Prime Material Plane, but in such cases, the word is capitalized: e.g. "a ''prime'' comes from the ''Prime''."
+
+== References ==
+
+* {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1|page=8}}, ''A Player's Guide to the Planes''
+
+&lt;References /&gt;
+
+[[Category:Origin]]</text>
+      <sha1>rhjv18bc3iyy4ihsju6fdal9ar3fm0p</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Prime Material Plane</title>
+    <ns>0</ns>
+    <id>1473</id>
+    <redirect title="Prime Material plane" />
+    <revision>
+      <id>2041</id>
+      <parentid>2040</parentid>
+      <timestamp>2023-01-05T11:25:06Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>2040</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="34" sha1="3aa69nohnhrl31bcav3m25v39i6sf4x" xml:space="preserve">#REDIRECT [[Prime Material plane]]</text>
+      <sha1>3aa69nohnhrl31bcav3m25v39i6sf4x</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Prime Material plane</title>
+    <ns>0</ns>
+    <id>899</id>
+    <revision>
+      <id>7313</id>
+      <parentid>6769</parentid>
+      <timestamp>2026-06-02T10:58:59Z</timestamp>
+      <contributor>
+        <username>An Italian Guy</username>
+        <id>5363669</id>
+      </contributor>
+      <minor/>
+      <comment>Added external link.</comment>
+      <origin>7313</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8809" sha1="tcl069z0lp9781iumy50o2x7t6f5dx7" xml:space="preserve">{{Plane
+| image             = Ethereal-map-2e.jpg
+| caption           = The Prime Material plane (right) and its connection to the [[Ethereal plane|Ethereal]] and [[Inner Planes]].
+| name              = Prime Material Plane
+| othernames        = 
+| natives           = 
+| languages         = 
+| color-pool-color  = Silver
+| color-pool-image  = ColorPoolMaterial.png
+| curtain-color     = Metallic silver&lt;br /&gt;or turquoise
+| curtain-image     = EtherealCurtainMaterial.png
+| fork-material     = [[Steel]]
+| fork-note         = C
+| fork-audio        = C5.ogg
+| basicrefs         = &lt;ref name="MotP1e-pp12,62"&gt;{{Cite book/Manual of the Planes 1st edition|12,62}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="MotP3e-pp49,57"&gt;{{Cite book/Manual of the Planes 3rd edition|49,57}}&lt;/ref&gt;&lt;ref name="MotP4e-p16"&gt;{{Cite book/Manual of the Planes 4th edition|16}}&lt;/ref&gt;&lt;ref name="DMG5e-pp47,49"&gt;{{Cite book/Dungeon Master's Guide 5th edition|47,49}}&lt;/ref&gt;&lt;ref name="Dr120-pp42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;
+| type-GW           = Material Plane
+| shape-size-GW     = Infinite
+| gravity-GW        = Normal
+| time-GW           = Normal
+| morphic-GW        = Alterable
+| element-energy-GW = 
+| alignment-GW      = {{Alignment grid|off|off|off|off|on|off|off|off|off}}
+| magical-GW        = Normal
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="MP3e-p41-44"&gt;{{Cite book/Manual of the Planes 3rd edition|41-44}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = yes
+| usethe            = yes
+| useon             = 
+}}
+The '''Prime Material plane''' (also seen as '''Prime Material Plane''') was the plane in which worlds like [[Toril]] and [[Oerth]] existed. The phrase "Prime Material plane," or simply the "Prime," was generally used by beings from other planes in the [[multiverse]] (notably [[Sigil]]), and "[[prime]]" was used by the same beings to refer to the inhabitants of the Material Plane.&lt;ref name="TPH-8"&gt;{{Cite book/The Planewalker's Handbook|8}}&lt;/ref&gt;
+
+{{Quote
+|You want to know of the Prime, visit it. The boundless worlds of that plane have an infinite variety, as do the [[plane]]s, but I cannot encapsulate them as I have here. Suffice it to say they are the birth of the [[Outer Planes]], the children of the [[Inner Planes|Inner]], and they hold limitless potential within their boundaries.
+|The spirit [[Asonje]].&lt;ref name="PST"&gt;{{Cite game/Planescape: Torment}}&lt;/ref&gt;
+}}
+
+==Cosmography==
+In the [[Great Wheel cosmology]], the Prime Material plane consisted of an infinite expanse filled with a fluid known as [[phlogiston]], within which floated immense [[crystal sphere]]s, each enclosing an entire system of one or more worlds. Specific conditions varied greatly from one crystal sphere to another, but they were all considered to be part of the same plane.&lt;ref name="GEP2e-p7"&gt;{{Cite book/A Guide to the Ethereal Plane|7}}&lt;/ref&gt;&lt;ref name="TPH-32"&gt;{{Cite book/The Planewalker's Handbook|32}}&lt;/ref&gt;&lt;ref name="PHB5e-p300"&gt;{{Cite book/Player's Handbook 5th edition|300}}&lt;/ref&gt;
+
+The mostly empty space contained inside the crystal spheres, known as [[wildspace]], as well as all the worlds that existed within each sphere, were connected to the border of the [[Ethereal plane]]. It was unclear whether the phlogiston was also connected. The Ethereal plane served as a conduit between the Prime and the [[Inner Planes]].&lt;ref name="GEP2e-p7" /&gt;
+
+The Prime Material plane was also connected to the [[Astral Plane]], which served as a conduit to the [[Outer Planes]].&lt;ref name="GAP2e-p8-9"&gt;{{Cite book/A Guide to the Astral Plane|8-9}}&lt;/ref&gt; There was no known direct way to travel between the Inner and the Outer Planes, or between the Astral and the Ethereal, that did not pass through the Material Plane first.&lt;ref name="GEP2e-p7" /&gt; Similarly, the Prime was the only plane in which [[spell]]s that required a connection to the Ethereal or the Astral both worked.&lt;ref name="PCS-DGP2e-p10-11"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|10-11}}&lt;/ref&gt;
+
+Being the only plane that intersected both the Ethereal and the Astral, the Prime Material plane occupied an important position as a crossroads of the [[multiverse]],&lt;ref name="PCS-DGP2e-p20"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|20}}&lt;/ref&gt; and all other planes were defined in relation to the Prime.&lt;ref name="DMG5e-p43"&gt;{{Cite book/Dungeon Master's Guide 5th edition|43}}&lt;/ref&gt;{{fq
+| text = I'm not from here. I'm from the Prime. The Prime Material Plane? The place where the belief the Outer Planes are shaped of is born? The world? Stars, moons, and so forth? Belief and reality? I sure hope you know what the Prime is, because it's an essential part of planar knowledge."
+| source = Kiarus Thorntongue, Smoldering Corpse Patron in [[Sigil]]&lt;ref name="ps"&gt;{{Cite game/Planescape: Torment}}&lt;/ref&gt;
+}}A few early versions of the Great Wheel cosmology, as well as the [[World Tree cosmology]],&lt;ref name="PGF3e-p139-140"&gt;{{Cite book/Player's Guide to Faerûn|139-140}}&lt;/ref&gt; considered that there was an infinite number of material planes, among them [[Toril]]'s Material Plane, [[Oerth]]'s material plane, [[Krynn]]'s material plane, and the universe in which [[Earth]] was located.&lt;ref name="MM1e-p117"&gt;{{Cite book/Manual of the Planes 1st edition|117}}&lt;/ref&gt; 
+
+In the World Tree cosmology, Toril's Material Plane was the main hub that connected all the planes of the cosmology.&lt;ref name="DMG5e-p44"&gt;{{Cite book/Dungeon Master's Guide 5th edition|44}}&lt;/ref&gt; For that reason, travel between planes was almost exclusively done via passing through the Material Plane first. ''[[Portal]]s'' were rumored to exist that connected Toril to other material planes, using conduits that passed through the [[Plane of Shadow]].&lt;ref name="PGF3e-p139-140" /&gt;
+
+In the [[World Axis cosmology]], the Material Plane, more usually called "the mortal world",&lt;ref name="MotP4e-p7"&gt;{{Cite book/Manual of the Planes 4th edition|7}}&lt;/ref&gt; existed between the two opposing [[fundamental plane]]s: the Astral Plane, commonly called the Astral Sea, and the [[Elemental Chaos]].&lt;ref name="DMG5e-p44" /&gt;
+
+== Known Worlds ==
+
+The Prime Material Plane was known to be home to:
+* [[Aebrynis]] (the homeworld of the ''Birthright'' setting)
+* [[Athas]] (the homeworld of the ''Dark Sun'' setting)
+* [[Krynn]] (the homeworld of the ''Dragonlance'' setting, found in [[w:c:spelljammer:Krynnspace|Krynnspace]])
+* [[Mystara]] (the homeworld of the ''Mystara'' setting)
+* [[Oerth]] (the homeworld of the ''Greyhawk'' setting, found in [[w:c:spelljammer:Greyspace|Greyspace]])
+* [[Toril]] (the homeworld of the ''Forgotten Realms'' setting, found in [[w:c:spelljammer:Realmspace|Realmspace]])
+* Other worlds, such as:
+** [[Gith (world)|Gith]], the original home of the [[githyanki]] and [[githzerai]] people
+** [[Glemayne]]
+** The unnamed world on which can be found the [[Io's Blood Isles]] archipelago
+** [[Logicus]]
+** [[Neirston]]
+** [[Ortho]], the homeworld of the [[Harmonium]]
+** [[Qua-Nosham]]
+** [[Ranais]]
+** The [[Rock of Bral]]
+** [[Rublia]]
+** [[Terras]]
+** [[Tuimuhva]]
+
+==Appendix==
+===External Links===
+* {{EW|Material Plane}}
+* {{FRW}}
+* {{RW}}
+
+=== Background Information ===
+In 1st Edition (q.v. {{b|D&amp;D|Manual of the Planes}}), the term "Prime" was used as "Primary" -- seeming to imply only the campaign world an individual group was using. In a Forgotten Realms game, [[Toril]] and its environs would be the "Prime" Material Plane, while another world like Krynn might be an "Alternate" Material Plane.
+
+With the introduction of 2nd Edition, and [[Spelljammer]] setting placing each campaign world within their own crystal sphere floating in phlogiston, "Prime Material" terminology expanded to include every known world.
+
+3rd Edition seems to have banked on the original definition, and simply used "Material Plane," dropping the "Prime" part, but subsequent editions have included it once again.
+
+===References===
+{{Refs}}
+===Connections===
+{{Material plane}}
+{{Cosmologies}}
+[[Category:Locations]]
+[[Category:Planes of existence]]
+[[Category:Locations on Yggdrasil]]</text>
+      <sha1>tcl069z0lp9781iumy50o2x7t6f5dx7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Primus</title>
+    <ns>0</ns>
+    <id>388</id>
+    <revision>
+      <id>4767</id>
+      <parentid>476</parentid>
+      <timestamp>2024-02-03T22:47:58Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>cat</comment>
+      <origin>4767</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="11945" sha1="lkawv11hc560fwio4lcrv9dpggd0p1s" xml:space="preserve">{{Deity
+| image               = &lt;gallery&gt;
+Primus_3e.png|3e
+Primus and Tenebrous-2e.jpg|2e
+Primus-1e.png|1e
+&lt;/gallery&gt;
+| caption2            = ''Various depictions of Primus.''
+| name                = Primus
+| title               = The One&lt;br /&gt;One and Prime&lt;br /&gt;One and the Prime&lt;br /&gt;Supreme Modron
+| adjective           = 
+| aspects             = 
+| status              = 
+| primordial          = 
+| pantheon            = 
+| home                = [[Mechanus]]
+| formerhomes         = 
+| gender              = Agendered&lt;ref group="note"&gt;Nearly every source refrains from referring to Primus with gendered pronouns. The only exception is the ''[[Monster Manual 5th edition|5th edition Monster Manual]]''.&lt;/ref&gt;
+| died                = 
+| basicrefs           = &lt;ref name="MMII1e-p86"&gt;{{Cite book/Monster Manual II 1st edition|86}}&lt;/ref&gt;&lt;ref name="PCSPG2e-p61" /&gt;&lt;ref name="PCSMS2e-p16-22" /&gt;&lt;ref name="Dr341-p72-73" /&gt;
+| mortalrace          = 
+| mortalsex           = 
+| mortalhomes         = 
+| apotheosis          = 
+| mortalrefs          = 
+| power5e             = 
+| alignment5e         = 
+| symbol5e            = 
+| homeplane5e         = 
+| realm5e             = 
+| serves5e            = 
+| servedby5e          = 
+| portfolio5e         = 
+| domains5e           = 
+| worshipers5e        = 
+
+| channel divinity5e  = 
+| holy days5e         = 
+| challenge5e         = 
+| class5e             = 
+| refs5e              = 
+| power4e             = 
+| alignment4e         = 
+| symbol4e            = 
+| dominion4e          = 
+| realm4e             = 
+| serves4e            = 
+| servedby4e          = 
+| sphere4e            = 
+| domains4e           = 
+| worshipers4e        = 
+| cleric alignments4e = 
+| channel divinity4e  = 
+| holy days4e         = 
+| class4e             = 
+| refs4e              = 
+| power3e             = 
+| alignment3e         = 
+| symbol3e            = 
+| homeplane3e         = 
+| realm3e             = 
+| serves3e            = 
+| servedby3e          = 
+| portfolio3e         = 
+| domains3e           = 
+| mantles3e           = 
+| worshipers3e        = 
+| cleric alignments3e = 
+| favored weapon3e    = 
+| holy days3e         = 
+| challenge3e         = 
+| class3e             = 
+| refs3e              = 
+| power2e             = 
+| alignment2e         = [[Lawful neutral]]
+| symbol2e            = 
+| homeplane2e         = [[Mechanus]]
+| realm2e             = [[Regulus]]
+| serves2e            = 
+| servedby2e          = 
+| portfolio2e         = 
+| spheres2e           = 
+| worshipers2e        = 
+| cleric alignments2e = 
+| holy days2e         = 
+| class2e             = 
+| refs2e              = &lt;ref name="PCSPG2e-p61" /&gt;&lt;ref name="PCSMS2e-p16-22"&gt;{{Cite book/Planescape Campaign Setting/Monstrous Supplement|16-22}}&lt;/ref&gt;
+| power1e             = 
+| alignment1e         = [[Lawful neutral]]
+| symbol1e            = 
+| homeplane1e         = 
+| realm1e             = 
+| serves1e            = 
+| servedby1e          = 
+| portfolio1e         = 
+| worshipers1e        = 
+| cleric alignments1e = 
+| holy days1e         = 
+| class1e             = 
+| refs1e              = &lt;ref name="MM21e-p91"&gt;{{Cite book/Monster Manual II (1983)|91}}&lt;/ref&gt;
+| animals             = 
+| plants              = 
+| monsters            = 
+| minerals            = 
+| colors              = 
+| misc manifestations = 
+| manifestation refs  = 
+| usethe              = 
+| church              = 
+| temples             = 
+}}
+'''Primus''' ({{Pronounce|PREE|mus|refs=&lt;ref name="D93-APG-p28"&gt;{{Cite dragon/93/Ay pronunseeAYshun gyd|28}}&lt;/ref&gt;}} {{Pronounce|PRI|mus|refs=&lt;ref name="D93-APG-p28" /&gt;|alt=yes}}), also known as '''The One and Prime''' and the '''Supreme Modron''', was a [[Greater Power]] and the immortal ruler of [[Mechanus]] and the [[modron]]s. While it retained godlike power within its realm, Primus was not immortal and could be killed.&lt;ref name="PCSPG2e-p61"&gt;{{Cite book/Planescape Campaign Setting/A Player's Guide to the Planes|61}}&lt;/ref&gt;&lt;ref name="Dr341-p72-73" /&gt;
+
+{{Quote|Quote? You desire a quote? The One and the Prime does not give 'quotes'.|Primus to a record keeper of the [[Fraternity of Order]]&lt;ref name="GMM2e-p12"&gt;{{Cite book/The Great Modron March|12}}&lt;/ref&gt;}}
+
+==Description==
+Primus appeared as a large being—sometimes in a form of an androgynous [[gold]]-skinned&lt;ref name="Dr341-p72-73" /&gt; [[humanoid]] with an face of emotionless expression. While in Mechanus, its body remained half-submerged in an energy pool within the center of the [[Great Modron Cathedral]].&lt;ref name="PCSMS2e-p16-22" /&gt;&lt;ref name="Dr341-p72-73" /&gt; Primus' form was connected to the expansive interface network known as the ''Infinity Web''.&lt;ref name="GMM-p11-13" /&gt; Primus' hands always remained unseen. Its right hand was obscured by vibrant, rainbow hued radiance, and the left was shrouded in black clouds.&lt;ref name="PCSMS2e-p16-22" /&gt;
+
+The Supreme Modron retained much of its form after it was slain and reborn as a [[vestige]]. As Primus was no longer bound to the ''Infinity Web'' and its energy pool, its humanoid form manifested atop a floating platform of a [[bronze]] seal, intricately linked to cogs, gears, and other revolving machinery.&lt;ref name="Dr341-p72-73" /&gt;
+
+==Personality==
+Primus was a manifestation of perfect logic and strict order. It was linked with the plane of Mechanus and they shared the same goals and actions.&lt;ref name="PCSMS2e-p16-22" /&gt; While some believed it only concerned itself with the plane's modrons,&lt;ref name="PCSMS2e-p16-22" /&gt; others believed Primus sought to extend perfect law and order throughout the entirety of the [[multiverse]].&lt;ref name="Dr341-p72-73" /&gt;&lt;ref name="MM5e-p224"&gt;{{Cite book/Monster Manual 5th edition|224}}&lt;/ref&gt;
+
+It absolutely detested the [[tanar'ri]] of the [[Abyss]], and held similar, if not as intense, enmity for the [[baatezu]] of the [[Nine Hells]].&lt;ref name="H.DW-p69"&gt;{{Cite book/Hellbound: The Blood War/The Dark of the War|69}}&lt;/ref&gt;
+
+==Abilities==
+[[File:Monodrone-5e.jpg|thumb|right|300px|''Primus was the divine creator of Mechanus' monodrones.]]
+Primus was considered a greater [[deity]] in Mechanus. Its power over the modrons was absolute. Nearly all modrons obeyed the orders of Primus and carried out its plans,&lt;ref name="PCSPG2e-p61" /&gt; save for those that were disconnected from Primus' network and went 'rogue'.&lt;ref name="AcqInc-p134"&gt;{{Cite book/Acquisitions Incorporated|134}}&lt;/ref&gt;  
+
+Despite its immense power while in Mechanus, Primus was incapable of dispatching [[avatar]]s to other planes of existence.&lt;ref name="PCSMS2e-p16-22" /&gt; It could however instantly transport any being it touched to either [[Arcadia]] or [[Acheron]], by mere touch of its right or left hand respectively.&lt;ref name="MM21e-p91" /&gt; Primus itself was entirely immune to [[magic]].&lt;ref name="PCSMS2e-p16-22" /&gt; 
+
+While Primus held the powers of a god, it was not immortal and could still be killed. Whenever slain, the highest-ranking [[secundus]] modron was promoted to its position and became the new Primus.&lt;ref name="PCSMS2e-p16-22" /&gt;
+
+==Possessions==
+Primus had access to the [[Grand Orrery]], an elaborate and complex device that calculated the changes between the heavenly bodies of space, the numerous [[planes of existence]], and the infinite powers of the cosmos.&lt;ref name="Dr341-p72-73" /&gt;
+
+==Activities==
+The One and Prime established the rules and laws that governed all of Mechanus and its inhabitants.&lt;ref name="MM21e-p91" /&gt; Through its supervision of the modrons, Primus maintained near-perfect order within the plane.&lt;ref name="PCSPG2e-p61" /&gt; Primus could issue to each modron telepathic commands&lt;ref name="PCSMS2e-p16-22" /&gt; and perceive the plane through their eyes, by means of the ''Infinity Web''.&lt;ref name="GMM-p11-13"&gt;{{Cite book/The Great Modron March|11-13}}&lt;/ref&gt;&lt;ref name="Dr341-p72-73" /&gt; Primus was often subtle in its maneuvering, arranging for events that would cause its followers to take actions that were deemed most suitable.&lt;ref name="H.DW-p69"&gt;{{Cite book/Hellbound: The Blood War/The Dark of the War|69}}&lt;/ref&gt; 
+
+Due to the fact many modrons died in the [[lower planes]] during their [[Great Modron March]]es, Primus sought a solution to lessening their casualties as a result of the eternal [[Blood War]].&lt;ref name="H.DW-p33"&gt;{{Cite book/Hellbound: The Blood War/The Dark of the War|33}}&lt;/ref&gt;
+
+==Worshipers==
+While there were no known cults of Primus within Mechanus,&lt;ref name="PCSPG2e-p61" /&gt; it was worshipped as a deity by modrons.&lt;ref name="Dr341-p72-73" /&gt; Primus was capable of creating new [[monodrone]]s&lt;ref name="MM5e-p224" /&gt; and could grant any modron divine powers.&lt;ref name="PCSMS2e-p16-22" /&gt;
+
+As a vestige, Primus was capable of attracting [[binder]]s, spellcasters that gained powers from powerful extra-planar beings.&lt;ref name="Dr341-p72-73" /&gt;
+
+==History==
+[[File:Primus and Tenebrous-2e.jpg|thumb|right|300px|''Primus confronted by Tenebrous in the Great Modron Cathedral.'']]
+At some point in existence, Primus created a massive stone crafted in complex geometry known as the ''[[Spawning Stone]]'' and imbued it with the essence of law itself. It then cast it into the plane of [[Limbo]], believing it would cure its chaotic nature and establish some form of order. This act had an effect that was diametrically opposed to Primus' original intent: it led to the creation of the [[slaad]]i race. The Slaadi then proceeded to annihilate every modron outpost within all of Limbo.&lt;ref name="MM5e-p224" /&gt;&lt;ref name="AL.HOH-p29"&gt;{{Cite adventurers league/The Harrowing of Hell|29}}&lt;/ref&gt;
+
+Primus was said to have once adjudicated the trial of [[Asmodeus]], when he was accused of horrific atrocities by the [[angel]]s of [[Celestia]]. In the end, Primus did not find wholly in favor of either party. Rather he rebuked the celestial angels and ensured Asmodeus would always have to be bound to the force of law.&lt;ref name="MTF-p9-10"&gt;{{Cite book/Mordenkainen's Tome of Foes|9-10}}&lt;/ref&gt;
+
+The One and Prime and its distinguished position among the modrons were known in the Realms since at least since {{Yearlink|-346}}. It was that year the plane of Mechanus was discovered by the [[Netherese]] [[archmage]], Lady [[Polaris]].&lt;ref name="HMF-p3,31"&gt;&gt;{{Cite book/How the Mighty Are Fallen|3, 31}}&lt;/ref&gt;
+
+Primus was killed by [[Tenebrous]]—the dark [[vestige]] created after the death of [[Orcus]]—during the [[demon lord]]'s quest for divinity. Tenebrous then temporarily took over its position as head of the modrons, and initiated an unscheduled Modron March in order to recover his lost ''[[Wand of Orcus]]''.&lt;ref name="GMM-p11-13" /&gt;&lt;ref name="DG-p8-9"&gt;{{Cite book/Dead Gods|8-9}}&lt;/ref&gt;&lt;ref name="DG-p37"&gt;{{Cite book/Dead Gods|37}}&lt;/ref&gt;
+
+While the role of Primus was replaced by one of its [[Secundus|secundi]], the mind of the previous Primus remained present in the [[multiverse]] in the form of a [[vestige]].&lt;ref name="Dr341-p72-73"&gt;{{cite dragon/341/The Ties that Bind|72-73}}&lt;/ref&gt;
+
+==Appendix==
+===Notes===
+{{Notes}}
+===Appearances===
+:;Adventures
+::''[[The Great Modron March]]'' • ''[[Dead Gods]]''
+:;Card Games
+::''[[Blood Wars]]''
+:;Organized Play &amp; Licensed Adventures
+::{{Refonly}}
+::&lt;small&gt;[[Adventurers League/Dreams of the Red Wizards|Dreams of the Red Wizards]] (''[[The Harrowing of Hell]]'')&lt;/small&gt;
+===Gallery===
+&lt;gallery widths="300"&gt;
+Image:Primus.jpg|Concept art for 5{{th}} edition Primus, by [[Conceptopolis]]
+&lt;/gallery&gt;
+===Further reading===
+*{{Cite web enhancement/The Modrons}}
+*{{Cite dragon/341/The Ties that Bind}}
+===References===
+{{Refs}}
+===Connections===
+{{Modrons}}
+[[Category:Inhabitants of unspecified gender]]
+[[Category:Modrons]]
+[[Category:Rulers]]
+[[Category:Deities]]
+[[Category:Greater deities]]
+[[Category:Vestiges]]
+[[Category:Lawful neutral deities]]
+[[Category:Inhabitants of Regulus]]
+[[Category:Inhabitants of Mechanus]]
+[[Category:Inhabitants of the Outer Planes]]
+[[Category:Inhabitants of the Great Wheel planes]]
+[[Category:Inhabitants]]
+[[Category:Monster|Modron, 1]]</text>
+      <sha1>lkawv11hc560fwio4lcrv9dpggd0p1s</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Prismeer</title>
+    <ns>0</ns>
+    <id>931</id>
+    <revision>
+      <id>1369</id>
+      <parentid>1368</parentid>
+      <timestamp>2023-01-05T02:41:56Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1368</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5627" sha1="avmg5zfjlkkw3efhvgpzhq7wfkkl3m1" xml:space="preserve">{{Plane
+| image             = Prismeer.png
+| caption           = ''A stylized map of Prismeer.''
+| name              = Prismeer
+| othernames        = 
+| symbol            = 
+| demonym           = 
+| natives           = 
+| languages         = 
+| basicrefs         = 
+| type-GW           = [[Demiplane]]
+| shape-size-GW     = 
+| gravity-GW        = 
+| time-GW           = 
+| morphic-GW        = Alterable
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = the [[Feywild]]
+| refs-GW           = &lt;ref name="WBW-p57-58" /&gt;&lt;ref name="WBW-p60" /&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| creatures         = 
+| deities           = 
+| locations         = yes
+| organizations     = yes
+| settlements       = 
+| usethe            = 
+| useon             = 
+}}
+'''Prismeer''' was a [[Domain of Delight]] found in the [[parallel plane]] known as the [[Feywild]]. It was created and ruled by the [[archfey]] [[Zybilna]], an alias of the [[Oerth]]ian [[archmage]] [[Tasha]].&lt;ref name="WBW-p171" /&gt;&lt;ref name="WBW-p215"&gt;{{Cite book/The Wild Beyond the Witchlight|215}}&lt;/ref&gt;
+
+{{Quote|This is all very odd. This doesn't feel like Prismeer at all...Zybilna can't possibly be in charge anymore|[[Ellywick Tumblestrum]], venturing into the warped forest of [[Thither]].&lt;ref name="ICFR"&gt;{{Cite game/Idle Champions of the Forgotten Realms}}&lt;/ref&gt;}}
+
+==Description==
+Like other domains within the Feywild, Prismeer's appearance shifted depending on the emotions of those that dwelled within. Zybilna herself could reshape all of Prismeer with a dramatic shift in her feelings, while her period of dormancy allowed others to alter the domain to their own will.&lt;ref name="WBW-p60"&gt;{{Cite book/The Wild Beyond the Witchlight|60}}&lt;/ref&gt;
+
+Following its takeover by a [[coven]] of [[hag]]s, Prismeer was split into three distinct realms: the lurking swamp of [[Hither]], the ancient woods of [[Thither]], and the perilous mountains of [[Yon]]. Each of the realms were separated from the others by obstructive walls of mist, similar to those that surrounded the domain as a whole.&lt;ref name="WBW-p57-58"&gt;{{Cite book/The Wild Beyond the Witchlight|57-58}}&lt;/ref&gt;
+
+===Magic===
+Any children that entered into Prismeer―whether intentionally, inadvertently, or otherwise―were protected by magic enchantments created by Zybilna. It was noteworthy that children never seemed to age within Prismeer, regardless of how long they dwelled within.&lt;ref name="WBW-p60" /&gt;
+
+Death played out different in Prismeer than it did on the [[Prime Material plane]]. In some instances, a creature's body could decay in here moments or turn to stone after its death. In others, the remains could be ''[[gentle repose|placed into a form of stasis]]'' or ''[[revivify|instantly rejuvinated]]'', albeit in a weakened state.&lt;ref name="WBW-p60" /&gt;
+
+===Laws===
+Prismeer was bound by a set of laws forged by Zybilna, to which every living being within was subject:
+* The '''Rule of Hospitality''', which stated everyone was required to be welcoming and congenial to anyone that entered into their home, unless they demonstrated they were unworthy of such accommodation.&lt;ref name="WBW-p57-58" /&gt;
+* The '''Rule of Ownership''', which forbade thievery or burglary of any kind.&lt;ref name="WBW-p57-58" /&gt;
+* The '''Rule of Reciprocity''', which directed that anyone receiving of a gift was expected to return the gesture in kind, even if in the distant future.&lt;ref name="WBW-p57-58" /&gt;
+
+Failure to adhere to Zybilna's three rules led to excommunication from Prismeer.&lt;ref name="WBW-p57-58" /&gt;
+
+==Cosmography==
+Like other Domains of Delight, Prismeer was bound entirely within the Feywild. It was confined within great walls of mists, passage through was was only granted by express consent of the domain's ruling archfey.&lt;ref name="WBW-p57-58" /&gt;
+
+The ancient forests of Prismeer held numerous ''[[faerie ring]]s'' that were ''[[fey crossroad]]s'' that bound Prismeer to various worlds in different [[crystal sphere]]s,&lt;ref name="WBW-p99"&gt;{{Cite book/The Wild Beyond the Witchlight|99}}&lt;/ref&gt; and one within the [[Witchlight Carnival]].&lt;ref name="WBW-p23"&gt;{{Cite book/The Wild Beyond the Witchlight|23}}&lt;/ref&gt;
+
+==Notable Locations==
+[[File:Palace_of_Heart's_Desire.jpg|thumb|right|300px|''The Palace of Heart's Desire, Zybilna's home in the center of Prismeer.'']]
+* [[Palace of Heart's Desire]], Zybilna's personal refuge that attracted wayward mortal visitors from across the [[multiverse]].&lt;ref name="WBW-p171"&gt;{{Cite book/The Wild Beyond the Witchlight|171}}&lt;/ref&gt;
+
+==History==
+At some point in time, control over Prismeer was stripped from Zybilna from her three hag stepsisters, known collectively as the [[Hourglass Coven]]. The coven split the domain into three distinct realms, each of which one of the sisters claimed as their own.&lt;ref name="WBW-p99" /&gt;
+
+==Appendix==
+===Appearances===
+:;Adventures
+:: ''[[The Wild Beyond the Witchlight]]''
+:;Video Games
+:: ''[[Idle Champions of the Forgotten Realms]]''
+===External Links===
+*{{ICW}}
+===References===
+{{Refs}}</text>
+      <sha1>avmg5zfjlkkw3efhvgpzhq7wfkkl3m1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Prolongers</title>
+    <ns>0</ns>
+    <id>3210</id>
+    <revision>
+      <id>6399</id>
+      <timestamp>2025-06-08T01:09:20Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>6399</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1677" sha1="oi72fr0k18ojeqlv49jma012wni47sj" xml:space="preserve">{{Faction
+  | faction        = Prolongers
+  | image1         = 
+  | caption-image1 = 
+  | nickname       = Cheaters
+  | philosophy     = Life is the only point to living.
+  | founded        = 
+  | factol         = 
+  | sigilhq        = 
+  | homefield      = [[Ysgard]]
+  | allies         = [[Fated]], [[Doomguard]], [[Xaositects]]
+  | enemies        = [[Fraternity of Order]], [[Harmonium]], [[Mercykillers]]
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Prolongers''' aren't really a sect, although they're often seen as one by others who are aware of them&lt;ref name="pwhb56"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|nip=1|page=56}}&lt;/ref&gt;. They're a secret brotherhood of people who believe life is the only point to living. Or, depending on who you ask, are absolutely terrified of death.
+
+Through a secretive process, a Prolonger's body is changed so they can drain the life force from others, similar to the undead, in order to help bolster their own lives.
+
+== History ==
+
+== Philosophy ==
+
+== Role ==
+
+== Membership ==
+: ''See also:'' [[List of Prolongers members]]
+
+Although open to anyone, the vast majority of Prolongers are human; apparently the terror of mortality runs deep in humans. Prolongers' eyes become cold and dead, as they cannot hide the age of their spirits. They're easy to startle, and always uncomfortable, due to living in a state of perpetual paranoia that death could be just around the corner.
+
+== Background Information ==
+
+== References ==
+* {{b|Planescape|Planescape Monstrous Compendium Appendix II|page=72-73}}
+
+{{scroll|&lt;references /&gt;}}
+
+{{Sects}}
+
+[[Category:Sect]]
+[[Category:Monster|Prolongers]]
+[[Category:Prolongers]]</text>
+      <sha1>oi72fr0k18ojeqlv49jma012wni47sj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Prophyra</title>
+    <ns>0</ns>
+    <id>2826</id>
+    <revision>
+      <id>6638</id>
+      <parentid>6420</parentid>
+      <timestamp>2025-06-13T22:19:14Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>eschaton</comment>
+      <origin>6638</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1833" sha1="1xr3w9oig83bn747ijxr61lyz90c1vr" xml:space="preserve">{{Character
+ | name         = Prophyra
+ | image        = 
+ | imagecaption = 
+ | aliases      = 
+ | relatives    = 
+ | affiliation  = 
+ | occupation   = 
+ | marital      = 
+ | birthDate    = 
+ | birthPlace   = 
+ | deathDate    = 
+ | deathPlace   = 
+ | origin       = 
+ | species      = 
+ | gender       = female
+ | height       = 
+ | weight       = 
+ | eyes         = 
+ | alignment    = 
+ | faction      = 
+ | class        = 
+ | level        = 
+ | portrayedby  = 
+ | appearsin    = {{b|Torment|Planescape: Torment}}
+ | debut        = {{b|Torment|Planescape: Torment}}
+}}
+
+'''Prophyra''' is a woman who stood on a stage in the [[Marketplace Area]] of the [[Hive Ward]] in [[125 YFHR]].
+
+She shouted to the assembled crowd, predicting an upcoming event:
+
+: "Woe be to those who listen but do not heed!
+: To the [[mazes]] they shall go!
+: Where the [[Lady of Pain|Lady]]'s shadow falls, so do men fall!
+: [[130 YFHR|Five years hence]]! Damnation!
+: [[Faction War|The factions shall be cast out]]!"
+
+== Background Information ==
+
+* Prophyra's name is similar to that of {{w|Porphyrion}}, a giant from Greek mythology. While Porphyrion didn't possess any prophetic powers, Prophyra's name (Proph-) suggests she has some prophetic ties.
+* The Black Isle development team weren't initially aware that {{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299}} was coming, so in order to maintain the [[faction]] status quo already implemented, they set ''Torment'' five years earlier. Prophyra was the only indication of where in the timeline ''Torment'' was set.&lt;ref name="yt"&gt;[https://www.youtube.com/watch?v=yg7K6zorPcA Planescape: Torment - A Retrospective Review]&lt;/ref&gt;
+* Prophyra may be a member of the [[Eschaton]].
+
+== References ==
+
+* {{b|Torment|Planescape: Torment}}
+
+&lt;references /&gt;
+
+[[Category:Planescape: Torment characters]]</text>
+      <sha1>1xr3w9oig83bn747ijxr61lyz90c1vr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ptah</title>
+    <ns>0</ns>
+    <id>3399</id>
+    <revision>
+      <id>7257</id>
+      <parentid>7256</parentid>
+      <timestamp>2026-01-19T08:04:25Z</timestamp>
+      <contributor>
+        <username>Senlimsghost</username>
+        <id>50355097</id>
+      </contributor>
+      <origin>7257</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1357" sha1="am0nm4u27aragzwh323cbtkdinf4t4p" xml:space="preserve">{{Deity|name=Ptah|title=The Opener of the Way|symbol=Mummified hand|alignment=Lawful Neutral|power=Lesser Power|pantheon=[[Pharaonic pantheon]]|home=[[Ethereal Plane]]|gender=Masculine|portfolio=Artisans, craftsmen, travelers|cleric alignments=Any|worshipers=Planar travelers, artisans}}
+
+'''Ptah''' was a Lesser Power of the [[Pharaonic pantheon]] and a god of craftsmen and travelers. According to legend, he predated even [[Ra]] but stepped down in favour of the stronger power. He wandered the [[Ethereal plane|Ethereal Plane]] and was one of the few powers approachable by mortals, but he was known to fling those who displeased him across the planes. His worshippers included artisans and craftsmen who desired inspiration in creating beauty.&lt;ref&gt;{{Cite book/On Hallowed Ground|90}}&lt;/ref&gt;
+
+Ptah's name was commonly invoked by travelers of the [[Inner Planes]]. It was believed that his inspiration allowed planewalkers to cross the harsh elemental landscapes more easily than those of the [[Outer Planes]].&lt;ref&gt;{{Cite book/On Hallowed Ground|46}}&lt;/ref&gt;
+
+In the year −2488 by the Faerûn calendar,&lt;ref&gt;{{Cite book/The Grand History of the Realms|18}}&lt;/ref&gt; Ptah led the Pharaonic deities to assist the [[Mulhorand|Mulhorandi]] people in overthrowing their enslavers, the Imaskar Empire.&lt;ref&gt;{{Cite book/Powers &amp; Pantheons|94}}&lt;/ref&gt;
+
+== References ==</text>
+      <sha1>am0nm4u27aragzwh323cbtkdinf4t4p</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Qua-Nosham</title>
+    <ns>0</ns>
+    <id>3227</id>
+    <revision>
+      <id>6539</id>
+      <timestamp>2025-06-11T05:30:21Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>6539</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="876" sha1="bso37st4kh2lzdlrwueh8bfrg0expv9" xml:space="preserve">'''Qua-Nosham''' is a world on the [[Prime Material plane]]. It was overrun by fiends, but in the carnage, the hero Sir Praetol managed to discover the source of the fiends' ability to ''teleport without error'': a creature named [[Maeldur Et Kavurik]].
+
+== Personalities ==
+
+The following planar personalities came from Qua-Nosham:
+* Father {{NPC|Irynimas Sanuire|prime|male|human|specialty priest|12||lg}}&lt;ref name="htbw40"&gt;{{b|Planescape|Hellbound: The Blood War|pdf=17281|nip=1|page=40}}, ''War Games''&lt;/ref&gt;
+* Sir [[Praetol]]&lt;ref name="htbw41"&gt;{{b|Planescape|Hellbound: The Blood War|pdf=17281|nip=1|page=41}}, ''War Games''&lt;/ref&gt;
+
+== Portals ==
+
+The following portals are known to link to Qua-Nosham:
+
+== Gods ==
+
+* [[Ukko]]
+
+
+== Background Information ==
+
+== External Links ==
+
+== References ==
+&lt;references /&gt;
+
+[[Category:Prime Material worlds]]
+[[Category:Qua-Nosham]]</text>
+      <sha1>bso37st4kh2lzdlrwueh8bfrg0expv9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quadrone</title>
+    <ns>0</ns>
+    <id>391</id>
+    <revision>
+      <id>4779</id>
+      <parentid>482</parentid>
+      <timestamp>2024-02-03T22:59:56Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>cat</comment>
+      <origin>4779</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6502" sha1="9mg92iqsa42ay669il1y3svzknj238q" xml:space="preserve">{{Creature
+| image        = &lt;gallery&gt;
+Quadrone.jpeg|5e
+4e modrons - Craig J. Spearing.jpg|4e
+Quadrone.jpeg|3e
+Quadrone-2e.jpg|2e
+Quadrone-1e.png|1e
+&lt;/gallery&gt;
+| caption2     = Various depictions of quadrones.
+| name         = Quadrone
+| size5e       = Medium
+| type5e       = [[Construct]]
+| subtype5e    = 
+| alignment5e  = [[Lawful neutral]]
+| challenge5e  = 1
+| refs5e       = &lt;ref name="MM5e-p224,226"&gt;{{Cite book/Monster Manual 5th edition|224,226}}&lt;/ref&gt;
+| size4e       = 
+| origin4e     = 
+| type4e       = 
+| subtype4e    = 
+| alignment4e  = 
+| refs4e       = 
+| size3e       = Medium
+| type3e       = [[Outsider]]
+| subtype3e    = 
+| alignment3e  = Always [[lawful neutral]]
+| challenge3e  = 3
+| refs3e       = &lt;ref name="MotPWE3e-p8-9"&gt;{{Cite web enhancement/The Modrons|8-9}}&lt;/ref&gt;
+| size2e       = Medium
+| alignment2e  = [[Lawful neutral]]
+| refs2e       = &lt;ref name="PSCS"&gt;{{Cite book/Planescape Campaign Setting/Monstrous Supplement|16-20}}&lt;/ref&gt;
+| size1e       = Medium
+| alignment1e  = [[Lawful neutral]]
+| refs1e       = &lt;ref name="MM21e-p88"&gt;{{Cite book/Monster Manual II (1983)|88}}&lt;/ref&gt;
+| patron deity = [[Primus]]&lt;ref name="MM5e-p224,226" /&gt;
+| vision       = [[True seeing|Truesight]],&lt;ref name="MM5e-p224,226" /&gt; [[Infravision]], [[Ultravision]]&lt;ref name="MM21e-p88" /&gt;
+| activecycle  = Any&lt;ref name="PSCS"/&gt;
+| diet         = 
+| lifespan     = 
+| location     = [[Mechanus]]&lt;ref name="MM5e-p224,226" /&gt;
+| language     = [[Modron language|Modron]],&lt;ref name="MM5e-p224,226" /&gt; [[Celestial language|Celestial]]&lt;ref name="MotPWE3e-p8-9" /&gt;
+| subraces     = 
+| climate      = Any&lt;ref name="MotPWE3e-p8-9" /&gt;
+| terrain      = Any land&lt;ref name="MotPWE3e-p8-9" /&gt;
+| height       = 
+| length       = 
+| wingspan     = 
+| weight       = 
+| skincolor    = 
+| haircolor    = 
+| hairstyles   = 
+| feathers     = 
+| eyecolor     = 
+| build        = 
+| distinctions = 
+| based        = 
+| first        = [[Monster Manual II 1st edition|''Monster Manual II'' 1{{st}} edition]]
+}}
+'''Quadrones''' were the second most advanced type of base [[modron]].&lt;ref name="MM5e-p224,226" /&gt;
+
+==Description==
+Quadrones were cube-shaped and winged.&lt;ref name="MM5e-p224,226" /&gt;&lt;ref name="MM21e-p88" /&gt; Though some older versions were known to have a second set of arms in place of wings.&lt;ref name="MM21e-p88" /&gt;
+
+==Personality==
+Like all modrons, quadrones had an absolute sense of hierarchy and order, and could not be persuaded to disobey their instructions or betray their purpose in any way.&lt;ref name="MM5e-p224,226" /&gt;&lt;ref name="MM21e-p86"&gt;{{Cite book/Monster Manual II (1983)|86}}&lt;/ref&gt;
+
+It was possible, however, for a defective quadrone to go rogue and start acting in its own interests or no longer in accordance with its instructions, sometimes even becoming violent. Such rogues were relentlessly hunted by other modrons, although, unlike their properly operating fellows, they could be reasoned with.&lt;ref name="MM5e-p224,226" /&gt;&lt;ref name="MM21e-p87"&gt;{{Cite book/Monster Manual II (1983)|87}}&lt;/ref&gt;
+
+==Biology==
+On all six sides of their bodies were sensory organs far superior to that of any [[human]]. These granted them&lt;ref name="MM21e-p88" /&gt; [[True seeing|truesight]],&lt;ref name="MM5e-p224,226" /&gt; in addition to being able to view the [[Infravision|infrared]] and [[Ultravision|ultraviolet spectrums]] out to {{SI|180|ft|long=yes}} and {{SI|200|yards|long=yes}}, respectively. These senses enabled them to rarely be surprised by opponents.&lt;ref name="MM21e-p88" /&gt;
+
+==Abilities==
+Like all modrons, quadrones were immune to all effects and spells that influenced the mind, fear and attacks that rely on energy from either the [[Negative Energy plane|Negative]] or [[Positive Energy plane|Positive]] energy planes. They also had a resistance to acid, cold and fire.&lt;ref name="TGMM"&gt;{{Cite book/The Great Modron March|126}}&lt;/ref&gt;
+
+Unlike tridones and other lower ranked modrons, these creatures had four complete functions&lt;ref name="MM21e-p88" /&gt; and thus were capable of performing four simultaneous tasks at a time.&lt;ref name="MM5e-p224,226" /&gt; These functions typically included being able to report actions as well as observations, devise plans, react to situations that were unexpected, and act in accordance to solve those situations.&lt;ref name="MM21e-p88" /&gt;
+
+==Combat==
+Quadrones were capable of wielding weapons and were exceptionally proficient with bows, with which they capable of performing four attacks at a time. If destroyed, a quadrone disintegrated completely into dust and a [[tridrone]] was instantly upgraded into a quadrone to fill its position.&lt;ref name="MM5e-p224,226" /&gt;
+
+==Society==
+[[File:Rogue-quadrone-5e.jpg|thumb|250px|''A rogue quadrone.'']]
+Quadrones could communicate with other quadrones and with [[tridrone]]s and [[pentadrone]]s. They were incapable of communicating directly with lesser modrons and could not comprehend any of the hierarch modrons, such as [[decaton]]s.&lt;ref name="MM5e-p224,226" /&gt;
+
+In modron society, they were responsible for supervising other groups of modrons, as well as performing services as multifunctional laborers.&lt;ref name="MotPWE3e-p2"&gt;{{Cite web enhancement/The Modrons|2}}&lt;/ref&gt; During battles they often served the role of a field officer.&lt;ref name="MM21e-p88" /&gt; They were always created as the result of tridrones being upgraded to take the place of destroyed or further upgraded units.&lt;ref name="MM5e-p224,226" /&gt;
+
+There were approximately one and and a half million quadrones in modron society at any time.&lt;ref name="MM21e-p86"&gt;{{Cite book/Monster Manual II (1983)|86}}&lt;/ref&gt; During battles, a regiment would typically feature a dozen of the best quadrones available.&lt;ref name="MM21e-p88" /&gt;
+
+==Notable Quadrones==
+* [[Halastron]], a rogue quadrone adopted by [[Halaster Blackcloak]] who lived in the [[Arcane Chambers]] level of [[Undermountain]].&lt;ref name="WDMM5e-p41"&gt;{{Cite book/Waterdeep: Dungeon of the Mad Mage|41}}&lt;/ref&gt;
+* [[Nordom]], a rogue quadrone and companion of the [[Nameless One]].&lt;ref&gt;{{Cite game/Planescape: Torment}}&lt;/ref&gt;
+
+==Appendix==
+===Appearances===
+:;Adventures
+::''[[The Great Modron March]]'' • ''[[Tomb of Annihilation]]'' • ''[[Waterdeep: Dungeon of the Mad Mage]]''
+:;Comics
+::''[[Evil at Baldur's Gate 3|Evil at Baldur's Gate #3]]''
+:;Video Games
+::''[[Idle Champions of the Forgotten Realms ]]''
+===References===
+{{Refs}}
+
+===Connections===
+{{Modrons}}
+[[Category:Modrons]]
+[[Category:Creatures found in Mechanus]]
+[[Category:Creatures found in Regulus]]
+[[Category:Monster|Modron, 12]]</text>
+      <sha1>9mg92iqsa42ay669il1y3svzknj238q</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quarton</title>
+    <ns>0</ns>
+    <id>402</id>
+    <revision>
+      <id>4771</id>
+      <parentid>504</parentid>
+      <timestamp>2024-02-03T22:52:08Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>cat</comment>
+      <origin>4771</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3864" sha1="cu99741ptvszwtjf2witw3qgdig0q3q" xml:space="preserve">{{Creature
+| image        = 
+&lt;gallery&gt;
+Quarton1.jpg|2e
+Quarton.jpg|1e
+&lt;/gallery&gt;
+| caption      = A quarton.
+| name         = Quarton
+| size5e       = 
+| type5e       = 
+| subtype5e    = 
+| alignment5e  = 
+| challenge5e  = 
+| refs5e       = 
+| size4e       = 
+| origin4e     = 
+| type4e       = 
+| subtype4e    = 
+| alignment4e  = 
+| refs4e       = 
+| size3e       = 
+| type3e       = [[Outsider]]
+| subtype3e    = 
+| alignment3e  = Always [[Lawful neutral]]
+| challenge3e  = 
+| refs3e       = &lt;ref name="MotPWE3e-p14-15"&gt;{{Cite book/Manual of the Planes 3rd edition/WE1|14-15}}&lt;/ref&gt;
+| size2e       = Large
+| alignment2e  = [[Lawful neutral]]
+| refs2e       = &lt;ref name="PSCS-p16"&gt;{{Cite book/Planescape Campaign Setting/Monstrous Supplement|16}}&lt;/ref&gt;
+| size1e       = Large
+| alignment1e  = [[Lawful neutral]]
+| refs1e       = &lt;ref name="MMII1-p90"&gt;{{Cite book/Monster Manual II 1st edition|90}}&lt;/ref&gt;
+| patron deity = [[Primus]]
+| vision       = [[Darkvision]]&lt;ref name="MotPWE3e-p14-15" /&gt;
+| activecycle  = Any&lt;ref name="PSCS-p16"&gt;{{Cite book/Planescape Campaign Setting/Monstrous Supplement|16}}&lt;/ref&gt;
+| diet         = 
+| lifespan     = 
+| location     = 
+| language     = [[Abyssal language|Abyssal]], [[Auran]], [[Celestial language|Celestial]], [[Infernal language|Infernal]], [[Modron language|Modron]]&lt;ref name="MotPWE3e-p14-15" /&gt;
+| subraces     = 
+| climate      = Any&lt;ref name="MotPWE3e-p14-15" /&gt;
+| terrain      = Any&lt;ref name="MotPWE3e-p14-15" /&gt;
+| height       = {{SI|12|ft}}&lt;ref name="MotPWE3e-p14-15" /&gt;
+| length       = 
+| wingspan     = 
+| weight       = 
+| skincolor    = 
+| haircolor    = 
+| hairstyles   = 
+| feathers     = 
+| eyecolor     = 
+| build        = 
+| distinctions = 
+| based        = 
+| first        = [[Monster Manual II 1st edition|''Monster Manual II'' 1{{st}} edition]]
+}}
+'''Quartons''' were the third highest rank of hierarch [[modron]]s.&lt;ref name="MMII1-p90"&gt;{{Cite book/Monster Manual II 1st edition|90}}&lt;/ref&gt;
+
+==Description==
+Quartons were very tall humanoids, with a height of {{SI|12|ft}}. From their back grew two large wings that resembled fans. They had four arms with multiple joints.&lt;ref name="MotPWE3e-p14-15" /&gt;
+
+==Combat==
+If forced into combat, quartons used a combination of innate abilities, spells, tail and their fists.
+
+==Abilities==
+Like all hierarch modrons, quartons had the innate ability to duplicate the effects of ''[[clairaudience]]'', ''[[clairvoyance]]'', ''[[command]]'', ''[[dimension door]]'', ''[[teleport without error]]'', and ''[[wall of force]]'' spells at will.&lt;ref name="TGMM"&gt;{{Cite book/The Great Modron March|126}}&lt;/ref&gt; Quartons were able to cast [[arcane]] spells as well as [[divine]] spells from the [[Law domain|Law]], [[Protection domain|Protection]] and [[War domain|War]] domains. Quartons were immune to all effects that influenced the mind, all psionic-based attacks and had a resistance to acid, cold and fire.&lt;ref name="MotPWE3e-p14-15" /&gt;
+
+==Society==
+There were exactly sixteen quartons in modron society, each overseeing the operation of the bureaus, sector governors, and army units attached to their region.&lt;ref name="MMII1-.&lt;p90"&gt;{{Cite book/Monster Manual II 1st edition|90}}&lt;/ref&gt; 
+
+Each quarton had a personal staff of these hierarchs attached to his staff, plus thirty-six [[pentadrone]]s who acted as a guard unit.&lt;ref name="MMII1-.&lt;p90"&gt;{{Cite book/Monster Manual II 1st edition|90}}&lt;/ref&gt;
+
+==Ecology==
+Quartons were able to communicate telepathically with any sentient creature within {{SI|405|mi|k}} and could see in [[darkvision]] up to {{SI|60|ft}}.
+
+==Appendix==
+===Appearances===
+:;Adventures
+::''[[The Great Modron March]]''
+===References===
+{{refs}}
+{{-}}
+
+==Connections==
+{{Modrons}}
+[[Category:Hierarch modrons]]
+[[Category:Modrons]]
+[[Category:Creatures found in Regulus]]
+[[Category:Creatures found in Mechanus]]
+[[Category:Monster|Modron, 4]]</text>
+      <sha1>cu99741ptvszwtjf2witw3qgdig0q3q</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quasi-Elemental Plane of Ash</title>
+    <ns>0</ns>
+    <id>917</id>
+    <revision>
+      <id>5094</id>
+      <parentid>2206</parentid>
+      <timestamp>2024-03-10T07:08:14Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>Regions, Crumbling citadel, proper spelling for vaitius</comment>
+      <origin>5094</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5965" sha1="9y5cnth5xr5verw4dsltah53ve3ddag" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Quasi-Elemental Plane of Ash
+| othernames        = 
+| natives           = [[Ash mephit]]s, [[Ash quasi-elemental]]s, [[Rast]]s
+| languages         = 
+| curtain-color     = Dark gray
+| fork-material     = [[Copper]]
+| fork-note         = Ab
+| fork-audio        = A4-flat.ogg
+| basicrefs         = &lt;ref name="TIP-pp108-113"&gt;{{Cite book/The Inner Planes|108-113}}&lt;/ref&gt;&lt;ref name="PCS-ADMGttP-p37"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|37}}&lt;/ref&gt;&lt;ref name="MotP1e-p12"&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="Dr120-pp42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;&lt;ref name="MCPA III-p10-11"&gt;{{Cite book/Monstrous Compendium Planescape Appendix III|10-11}}&lt;/ref&gt;
+| type-GW           = [[Inner Plane]]
+| shape-size-GW     = 
+| gravity-GW        = Subjective directional
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="TIP-pp108-113" /&gt;&lt;ref name="PCS-ADMGttP-p37" /&gt;&lt;ref name="MotP1e-p58"&gt;{{Cite book/Manual of the Planes 1st edition|58}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Quasi-Elemental Plane of Ash''' was the [[Inner Plane]] at the intersection of the [[Elemental Plane of Fire]] and the [[Negative Energy Plane]]. It was a place that sucked the warmth from any living creature.&lt;ref name="TIP-pp108-113" /&gt;&lt;ref name="PCS-ADMGttP-p37" /&gt;&lt;ref name="MotP1e-p58" /&gt;
+
+==Description==
+In most areas of this plane the ash had the consistency of hard-packed soil, though in some regions it was much less dense.&lt;ref name="TIP-p9"&gt;{{Cite book/The Inner Planes|9}}&lt;/ref&gt;
+
+The cooling cinders within the air of this plane sucked the warmth from not only living creatures, but from magical effects as well. This made long term [[spell]]s such as ''[[heat metal]]'' and ''[[wall of fire]]'' ineffective on this plane. These cinders also gradually deteriorated the health of creatures of [[elemental fire]] and magma.&lt;ref name="PCS-p37"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|37}}&lt;/ref&gt;
+
+==History==
+Records found inside of an abandoned citadel on the world of [[Oerth]] hint that a community of [[dwarves]] may have tried to establish a colony in this plane, though their fate was unknown.&lt;ref name="TIP-p111-112"&gt;{{Cite book/The Inner Planes|111-112}}&lt;/ref&gt;
+
+==Notable Locations==
+Other than the core of Ash, the regions of the quasiplane are measured by their proximity to other Inner Planes.
+
+* The '''[[Citadel of Former Flame]]''':  the home of [[Gazra (archomental)|Gazra]], a creature who claimed to be the [[archomental]] of the plane, and the capital of the [[ash quasi-elemental]] empire. A variety of undead guarded the citadel including [[ghoul]]s, [[spectre]]s, and [[wraith]]s. The citadel itself was made from the very ash of this plane, carved and magically fused together, and was constantly altering its form in a gradual manner. Inside it was devoid of both heat and light. Both mundane and [[magic]]al forms of illumination wouldn't function within it.&lt;ref name="TIP-p112" /&gt;
+
+=== [[Wasting Place]] ===
+
+The border between Ash and the [[Quasi-Elemental Plane of Dust]].
+
+=== [[Cinder Wells]] ===
+
+The border between Ash and the [[Fountains of Creation|Paraelemental Plane of Magma]].
+
+=== [[Sea of Frozen Flames]] ===
+
+The border between Ash and the [[Elemental Plane of Fire]].
+
+=== [[Embers]] ===
+
+The border between Ash and the [[Great Conflagration|Paraelemental Plane of Smoke]].
+
+=== [[Sparkling Vast]] ===
+
+The border between Ash and the [[Quasi-Elemental Plane of Vacuum]].
+
+=== [[Empty Winter]] ===
+
+The border between Ash and the [[Negative Energy plane]].
+
+* [[Citadel Cavitius]]: a massive skull-shaped fortress that was constructed by the [[Doomguard]] and later taken from them by [[Vecna]], who partially repurposed the stronghold as a prison.&lt;ref name="PCS-p37" /&gt;
+* The [[Crumbling Citadel]]: Once Cavitius was taken by Vecna, the Doomguard built a replacement citadel. It's constantly in the process of falling apart, and no one's quite sure why, but the Doomguard at least seem to enjoy constantly rebuilding it and shoring it up.
+
+==Inhabitants==
+The two most predominant sentient species on this plane were [[ash mephit]]s and ash quasi-elementals. The former lived in scattered communities, while the latter had a substantial empire centered around the Citadel of Former Flame.&lt;ref name="TIP-p111"&gt;{{Cite book/The Inner Planes|111}}&lt;/ref&gt;
+
+There lived a roaming group of [[ghast]]s and ghouls on this plane, numbering in the hundreds, that were referred to as the '''Flesh Renders'''. Due to going great lengths of time without any sustenance, they were particularly savage [[undead]]. Some speculated that they may have once been minions of Vecna.&lt;ref name="TIP-p112"&gt;{{Cite book/The Inner Planes|112}}&lt;/ref&gt;
+
+==Appendix==
+{{Stub-geo}}
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:Quasi-Elemental Planes]]
+[[Category:Inner Planes]]
+[[Category:Great Wheel planes]]
+[[Category:Planes of existence]]</text>
+      <sha1>9y5cnth5xr5verw4dsltah53ve3ddag</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quasi-Elemental Plane of Dust</title>
+    <ns>0</ns>
+    <id>910</id>
+    <revision>
+      <id>1327</id>
+      <parentid>1326</parentid>
+      <timestamp>2023-01-05T02:41:43Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1326</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2496" sha1="ejustcmxxoui5qukeq285n1lt0qx2ka" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Quasi-Elemental Plane of Dust
+| othernames        = 
+| natives           = [[Dune stalker]]s&lt;br /&gt;[[Dust mephit]]s&lt;br /&gt;[[Sandling]]s&lt;br /&gt;[[Sandman|Sandmen]]
+| languages         = 
+| curtain-color     = Dun
+| fork-material     = [[Zinc]]
+| fork-note         = Ab
+| fork-audio        = A4-flat.ogg
+| basicrefs         = &lt;ref name="TIP-pp114-117"&gt;{{Cite book/The Inner Planes|114-117}}&lt;/ref&gt;&lt;ref name="PCS-ADMGttP-p38"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|38}}&lt;/ref&gt;&lt;ref name="MotP1e-p12"&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="Dr120-pp42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;
+| type-GW           = [[Inner Plane]]
+| shape-size-GW     = 
+| gravity-GW        = Normal
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="TIP-pp114-117" /&gt;&lt;ref name="PCS-ADMGttP-p38" /&gt;&lt;ref name="MotP1e-p58"&gt;{{Cite book/Manual of the Planes 1st edition|58}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Quasi-Elemental Plane of Dust''' was the [[Inner Plane]] at the intersection of the [[Elemental Plane of Earth]] and the [[Negative Energy Plane]]. It was a place of wind, sand, and grit, where living creatures ever decayed to dust.&lt;ref name="TIP-pp114-117" /&gt;&lt;ref name="PCS-ADMGttP-p38" /&gt;&lt;ref name="MotP1e-p58" /&gt;
+
+==Appendix==
+{{Stub-geo}}
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:Quasi-Elemental Planes]]
+[[Category:Inner Planes]]
+[[Category:Great Wheel planes]]
+[[Category:Planes of existence]]</text>
+      <sha1>ejustcmxxoui5qukeq285n1lt0qx2ka</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quasi-Elemental Plane of Lightning</title>
+    <ns>0</ns>
+    <id>915</id>
+    <revision>
+      <id>1337</id>
+      <parentid>1336</parentid>
+      <timestamp>2023-01-05T02:41:46Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1336</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2696" sha1="lw5z92cx651yy1zcnbzc140ghbx0ft6" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Quasi-Elemental Plane of Lightning
+| othernames        = Plane of Storms&lt;br /&gt;Vengeful Land&lt;br /&gt;Great Illumination
+| natives           = [[Lightning quasi-elemental]]s&lt;br/&gt;[[Lightning mephit]]s&lt;br /&gt;[[Shocker]]s&lt;br /&gt;[[Nimbus]]&lt;ref name="GA-p29-30"&gt;{{Cite book/Greyhawk Adventures|29-30}}&lt;/ref&gt;&lt;br/&gt;[[Thunder children]]
+| languages         = 
+| curtain-color     = Violet
+| fork-material     = [[Tin]]
+| fork-note         = A#
+| fork-audio        = A4-sharp.ogg
+| basicrefs         = &lt;ref name="TIP-pp92-95"&gt;{{Cite book/The Inner Planes|92-95}}&lt;/ref&gt;&lt;ref name="PCS-ADMGttP-p34"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|34}}&lt;/ref&gt;&lt;ref name="MotP1e-p12"&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="Dr120-pp42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;
+| type-GW           = [[Inner Plane]]
+| shape-size-GW     = 
+| gravity-GW        = Subjective directional
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="TIP-pp92-95" /&gt;&lt;ref name="PCS-ADMGttP-p34" /&gt;&lt;ref name="MotP1e-pp55-56"&gt;{{Cite book/Manual of the Planes 1st edition|55-56}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = 
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Quasi-Elemental Plane of Lightning''', or the '''Plane of Storms''', was the [[Inner Plane]] at the intersection of the [[Elemental Plane of Air]] and the [[Positive Energy Plane]]. It was a place of constant electrical storms and the stench of ozone.&lt;ref name="TIP-pp92-95" /&gt;&lt;ref name="PCS-ADMGttP-p34" /&gt;&lt;ref name="MotP1e-pp55-56" /&gt;
+
+==Appendix==
+{{Stub-geo}}
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:Quasi-Elemental Planes]]
+[[Category:Inner Planes]]
+[[Category:Great Wheel planes]]
+[[Category:Planes of existence]]</text>
+      <sha1>lw5z92cx651yy1zcnbzc140ghbx0ft6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quasi-Elemental Plane of Minerals</title>
+    <ns>0</ns>
+    <id>914</id>
+    <revision>
+      <id>1335</id>
+      <parentid>1334</parentid>
+      <timestamp>2023-01-05T02:41:46Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1334</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2851" sha1="100eqa9t577scyapp6syn04rvsvxxh7" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Quasi-Elemental Plane of Minerals
+| othernames        = Plane of Gems, Para-elemental Plane of Minerals&lt;ref name="ab360"&gt;{{Cite book/Azure Bonds|360}}&lt;/ref&gt;
+| natives           = [[Dao]]&lt;br /&gt;[[Mineral mephit]]s&lt;br /&gt;[[Pech]]s&lt;br /&gt;[[Xaren]]s&lt;br /&gt;[[Xorn]]s&lt;br /&gt;[[Tssng]]&lt;br /&gt;[[Mineral quasi-elemental]]s
+| languages         = 
+| curtain-color     = Milky pink
+| fork-material     = [[Zinc]]
+| fork-note         = A#
+| fork-audio        = A4-sharp.ogg
+| basicrefs         = &lt;ref name="TIP-pp96-99"&gt;{{Cite book/The Inner Planes|96-99}}&lt;/ref&gt;&lt;ref name="PCS-ADMGttP-p36"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|36}}&lt;/ref&gt;&lt;ref name="MotP1e-p12"&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="Dr120-pp42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;
+| type-GW           = [[Inner Plane]]
+| shape-size-GW     = 
+| gravity-GW        = Subjective directional
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="TIP-pp96-99" /&gt;&lt;ref name="PCS-ADMGttP-p36" /&gt;&lt;ref name="MotP1e-pp55-56"&gt;{{Cite book/Manual of the Planes 1st edition|55-56}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = 
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Quasi-Elemental Plane of Minerals''', or '''Quasi-Elemental Plane of Mineral''', was the [[Inner Plane]] at the intersection of the [[Elemental Plane of Earth]] and the [[Positive Energy Plane]]. It was a place rich in gems and ore.&lt;ref name="TIP-pp96-99" /&gt;&lt;ref name="PCS-ADMGttP-p36" /&gt;&lt;ref name="MotP1e-pp55-56" /&gt;
+
+Traveling to the Plane of Gems was deadly perilous for all unprotected living beings, as they were transformed into stunningly beautiful crystals devoid of life.&lt;ref name="ab360" /&gt;
+
+==Appendix==
+{{Stub-geo}}
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:Quasi-Elemental Planes]]
+[[Category:Inner Planes]]
+[[Category:Great Wheel planes]]
+[[Category:Planes of existence]]</text>
+      <sha1>100eqa9t577scyapp6syn04rvsvxxh7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quasi-Elemental Plane of Radiance</title>
+    <ns>0</ns>
+    <id>898</id>
+    <revision>
+      <id>1303</id>
+      <parentid>1302</parentid>
+      <timestamp>2023-01-05T02:41:33Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1302</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5722" sha1="m9mvyuk62mwb7mrykwldmucp30a7hzb" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Quasi-Elemental Plane of Radiance
+| othernames        = 
+| natives           = 
+| languages         = 
+| curtain-color     = Shifting rainbow
+| fork-material     = [[Copper]]
+| fork-note         = A#
+| fork-audio        = A4-sharp.ogg
+| basicrefs         = &lt;ref name="MotP1e-p12"&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="Dr120-pp42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;
+| type-GW           = [[Inner Plane]]
+| shape-size-GW     = Infinite
+| gravity-GW        = Subjective Directional
+| time-GW           = Normal
+| morphic-GW        = Alterable Morphic
+| element-energy-GW = 
+| alignment-GW      = Mildly chaos-aligned
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="PSIP2e-p100-103" /&gt;&lt;ref name="MP3e-p68"&gt;{{Cite book/Manual of the Planes 3rd edition|68}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = 
+| locations         = yes
+| organizations     = 
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Quasi-Elemental Plane of Radiance''', also known simply as '''Radiance''', was an [[Inner Plane]] in the [[Great Wheel cosmology]].&lt;ref name="PSIP2e-p100-103"&gt;{{Cite book/The Inner Planes|100-103}}&lt;/ref&gt;
+
+==Geography==
+Radiance stood at the border between the [[Elemental Plane of Fire]] and the [[Positive Energy plane]]. It was an extremely beautiful and overwhelmingly bright place, whose constant luminosity threatened to blind anyone who stared for too long.&lt;ref name="PSIP2e-p9"&gt;{{Cite book/The Inner Planes|9}}&lt;/ref&gt;
+
+[[Portal]]s leading to Radiance resembled bright colorful rings of light that tended to be ephemeral and fickle, changing in and out of shape and leading to different locations within the plane.&lt;ref name="PSIP2e-p100-103" /&gt;
+
+Along the inner side of the [[crystal sphere]] of [[Realmspace]], there were numerous portals to Radiance that ranged between a few yards and hundreds of miles in diameter, that appeared at the dots and dashes of the strange writings that were marked on the surface of the sphere. These brilliant portals, thousands of miles apart from each other on the sphere's surface, were seen from the inhabitants of all the planets as stars and [[constellation]]s.&lt;ref name="RS2e-p3-4"&gt;{{Cite book/Realmspace|3-4}}&lt;/ref&gt;
+
+Although Radiance was highly destructive to creatures and [[spelljammer]]s that dared enter it, portals through the sphere could be safely created on top of a star-opening, temporarily superseding it. For an inhabitant on one of the planets, that particular star would seem to disappear for a few minutes and then reappear.&lt;ref name="RS2e-p3-4" /&gt;
+
+The brilliance of the plane was blinding to unprotected visitors. Spells such as ''[[darkness]]'' were capable of offering protection and allowed visitors to see normally, providing only a weak shade.&lt;ref name="MP1e-p55-56"&gt;{{Cite book/Manual of the Planes 1st edition|55-56}}&lt;/ref&gt;&lt;ref name="PSIP2e-p100-103" /&gt;
+
+The plane was as hot as the Plane of Fire,&lt;ref name="MP1e-p55-56" /&gt; so unprotected flammable materials would burst into flames within seconds. Liquids also boiled away into superheated steam. Not even [[magic item]]s were completely immune to the raw energy of the place. Creatures that lacked [[fire]] resistance needed magical protection from spells such as ''[[protection from energy]]'' or items such as ''[[ring of fire resistance|rings of fire resistance]]''. The atmosphere, however, was breathable.&lt;ref name="PSIP2e-p100-103" /&gt;
+
+Like the [[Elemental Plane of Air]], Radiance did not possess a solid ground and its gravity was subjective to an individual's perception.&lt;ref name="PSIP2e-p100-103" /&gt;
+
+==Notable Locations==
+Near the boundary with the [[Quasi-Elemental Plane of Lightning]], multicolored storms could throw creatures enormous distances away. A small island known as the [[Refuge of Color]] was the only naturally occurring solid ground on the plane.&lt;ref name="PSIP2e-p100-103" /&gt;
+
+The main reason for visitors to go to Radiance was the [[Heart of Light]], a mysterious tower of blue light that stood near the boundary with the Positive Energy Plane.&lt;ref name="PS2e-DM-p35"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|35}}&lt;/ref&gt; It was a place where injuries and wounds healed at a rapid pace, whose origins were unknown.&lt;ref name="PSIP2e-p100-103" /&gt;
+
+==Inhabitants==
+The Plane of Radiance had few native creatures. It was inhabited by [[radiance quasi-elemental]]s, [[radiant mephit]]s, [[darklight]]s, [[scile]], and [[varisoh]]. Most natives tended to be solitary thinkers and philosophers.&lt;ref name="PS32e-p11,84"&gt;{{Cite book/Monstrous Compendium Planescape Appendix III|11,84}}&lt;/ref&gt;
+
+==Appendix==
+===Further Reading===
+*{{Cite dragon/321/The Limitless Light: A Tour of the Plane of Radiance|64-68}}
+===References===
+{{Refs}}
+===Connections===
+{{Cosmologies}}
+[[Category:Planes of existence]]
+[[Category:Great Wheel planes]]
+[[Category:Inner Planes]]
+[[Category:Quasi-Elemental Planes]]</text>
+      <sha1>m9mvyuk62mwb7mrykwldmucp30a7hzb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quasi-Elemental Plane of Salt</title>
+    <ns>0</ns>
+    <id>913</id>
+    <revision>
+      <id>1333</id>
+      <parentid>1332</parentid>
+      <timestamp>2023-01-05T02:41:45Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1332</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2807" sha1="cpoe86vah3jy9dqwwzvqh4exb44xj9h" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Quasi-Elemental Plane of Salt
+| othernames        = 
+| natives           = [[Salt mephit]]s&lt;br /&gt;[[Undead]]
+| languages         = 
+| curtain-color     = Tan
+| fork-material     = [[Lead]]
+| fork-note         = Ab
+| fork-audio        = A4-flat.ogg
+| basicrefs         = &lt;ref name="TIP-pp118-121"&gt;{{Cite book/The Inner Planes|118-121}}&lt;/ref&gt;&lt;ref name="PCS-ADMGttP-p38"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|38}}&lt;/ref&gt;&lt;ref name="MotP1e-p12"&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="Dr120-pp42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;
+| type-GW           = [[Inner Plane]]
+| shape-size-GW     = 
+| gravity-GW        = Subjective directional
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="TIP-pp118-121" /&gt;&lt;ref name="PCS-ADMGttP-p38" /&gt;&lt;ref name="MotP1e-p58"&gt;{{Cite book/Manual of the Planes 1st edition|58}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Quasi-Elemental Plane of Salt''' was the [[Inner Plane]] at the intersection of the [[Elemental Plane of Water]] and the [[Negative Energy Plane]]. It was a place of endless thirst.&lt;ref name="TIP-pp118-121" /&gt;&lt;ref name="PCS-ADMGttP-p38" /&gt;&lt;ref name="MotP1e-p58" /&gt;
+
+==Description==
+Creatures and [[elemental]]s of [[water]], as well as creatures containing water, suffered rapid dehydration the longer they stood in this plane. This also affected elementals of water-related liquid [[plane]]s, such as [[ice para-elemental]]s, [[ooze para-elemental]]s, and [[steam para-elemental]]s.&lt;ref name="MotP1e-p58"&gt;{{Cite book/Manual of the Planes 1st edition|58}}&lt;/ref&gt;
+
+==Appendix==
+{{Stub-geo}}
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:Quasi-Elemental Planes]]
+[[Category:Inner Planes]]
+[[Category:Great Wheel planes]]
+[[Category:Planes of existence]]</text>
+      <sha1>cpoe86vah3jy9dqwwzvqh4exb44xj9h</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quasi-Elemental Plane of Steam</title>
+    <ns>0</ns>
+    <id>912</id>
+    <revision>
+      <id>1331</id>
+      <parentid>1330</parentid>
+      <timestamp>2023-01-05T02:41:45Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1330</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2479" sha1="koac1zbwojhyrfww0tavq6vjs5rlprk" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Quasi-Elemental Plane of Steam
+| othernames        = 
+| natives           = [[Marid]]s&lt;br /&gt;[[Mist mephit]]s&lt;br /&gt;[[Steam mephit]]s
+| languages         = 
+| curtain-color     = [[Ivory]]
+| fork-material     = [[Lead]]
+| fork-note         = A#
+| fork-audio        = A4-sharp.ogg
+| basicrefs         = &lt;ref name="TIP-pp104-107"&gt;{{Cite book/The Inner Planes|104-107}}&lt;/ref&gt;&lt;ref name="PCS-ADMGttP-p36"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|36}}&lt;/ref&gt;&lt;ref name="MotP1e-p12"&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="Dr120-pp42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;
+| type-GW           = [[Inner Plane]]
+| shape-size-GW     = 
+| gravity-GW        = Subjective directional
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="TIP-pp104-107" /&gt;&lt;ref name="PCS-ADMGttP-p36" /&gt;&lt;ref name="MotP1e-pp55-56"&gt;{{Cite book/Manual of the Planes 1st edition|55-56}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = 
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Quasi-Elemental Plane of Steam''' was the [[Inner Plane]] at the intersection of the [[Elemental Plane of Water]] and the [[Positive Energy Plane]]. It was a place of cool&amp;mdash;not hot&amp;mdash;mist and glowing vapor.&lt;ref name="TIP-pp104-107" /&gt;&lt;ref name="PCS-ADMGttP-p36" /&gt;&lt;ref name="MotP1e-pp55-56" /&gt;
+
+==Appendix==
+{{Stub}}
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:Quasi-Elemental Planes]]
+[[Category:Inner Planes]]
+[[Category:Great Wheel planes]]
+[[Category:Planes of existence]]</text>
+      <sha1>koac1zbwojhyrfww0tavq6vjs5rlprk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quasi-Elemental Plane of Vacuum</title>
+    <ns>0</ns>
+    <id>911</id>
+    <revision>
+      <id>1329</id>
+      <parentid>1328</parentid>
+      <timestamp>2023-01-05T02:41:44Z</timestamp>
+      <contributor>
+        <username>Regis87</username>
+        <id>33869732</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>1328</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2429" sha1="0agvujdtfkajje2xr80co0m4s9duc16" xml:space="preserve">{{Plane
+| image             = 
+| caption           = 
+| name              = Quasi-Elemental Plane of Vacuum
+| othernames        = Empty Reach&lt;br /&gt;The End
+| natives           = {{Former}} [[Void mephit]]s
+| languages         = 
+| curtain-color     = Ebony
+| fork-material     = [[Tin]]
+| fork-note         = Ab
+| fork-audio        = A4-flat.ogg
+| basicrefs         = &lt;ref name="TIP-pp122-125"&gt;{{Cite book/The Inner Planes|122-125}}&lt;/ref&gt;&lt;ref name="PCS-ADMGttP-p37"&gt;{{Cite book/Planescape Campaign Setting/A DM Guide to the Planes|37}}&lt;/ref&gt;&lt;ref name="MotP1e-p12"&gt;{{Cite book/Manual of the Planes 1st edition|12}}&lt;/ref&gt;&lt;ref name="AGttEP-p20"&gt;{{Cite book/A Guide to the Ethereal Plane|20}}&lt;/ref&gt;&lt;ref name="Dr120-pp42-43"&gt;{{Cite dragon/120/Plane Speaking|42-43}}&lt;/ref&gt;
+| type-GW           = [[Inner Plane]]
+| shape-size-GW     = 
+| gravity-GW        = Subjective directional
+| time-GW           = 
+| morphic-GW        = 
+| element-energy-GW = 
+| alignment-GW      = 
+| magical-GW        = 
+| layers-GW         = 
+| layer-number-GW   = 
+| location-GW       = 
+| refs-GW           = &lt;ref name="TIP-pp122-125" /&gt;&lt;ref name="PCS-ADMGttP-p37" /&gt;&lt;ref name="MotP1e-p58"&gt;{{Cite book/Manual of the Planes 1st edition|58}}&lt;/ref&gt;
+| type-WA           = 
+| shape-size-WA     = 
+| gravity-WA        = 
+| mutability-WA     = 
+| element-energy-WA = 
+| alignment-WA      = 
+| magical-WA        = 
+| layers-WA         = 
+| layer-number-WA   = 
+| location-WA       = 
+| refs-WA           = 
+| type-WT           = 
+| shape-size-WT     = 
+| gravity-WT        = 
+| time-WT           = 
+| morphic-WT        = 
+| element-energy-WT = 
+| alignment-WT      = 
+| magical-WT        = 
+| faith-WT          = 
+| layers-WT         = 
+| layer-number-WT   = 
+| location-WT       = 
+| refs-WT           = 
+| inhabitants       = yes
+| deities           = yes
+| locations         = yes
+| organizations     = yes
+| settlements       = 
+| usethe            = yes
+| useon             = 
+}}
+The '''Quasi-Elemental Plane of Vacuum''' was the [[Inner Plane]] at the intersection of the [[Elemental Plane of Air]] and the [[Negative Energy Plane]]. It was a place of utter emptiness.&lt;ref name="TIP-pp122-125" /&gt;&lt;ref name="PCS-ADMGttP-p37" /&gt;&lt;ref name="MotP1e-p58" /&gt;
+
+==Appendix==
+{{Stub}}
+===References===
+{{Refs}}
+
+===Connections===
+{{Cosmologies}}
+[[Category:Quasi-Elemental Planes]]
+[[Category:Inner Planes]]
+[[Category:Great Wheel planes]]
+[[Category:Planes of existence]]</text>
+      <sha1>0agvujdtfkajje2xr80co0m4s9duc16</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Quinton</title>
+    <ns>0</ns>
+    <id>401</id>
+    <revision>
+      <id>4772</id>
+      <parentid>502</parentid>
+      <timestamp>2024-02-03T22:53:03Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>cat</comment>
+      <origin>4772</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4475" sha1="0mpfb8ppcr0uaz6la2eae5gbyi8igs4" xml:space="preserve">{{Creature
+| image        = 
+&lt;gallery&gt;
+Modrquin.gif|2e
+Quinton.jpg|1e
+&lt;/gallery&gt;
+| caption      = A quinton.
+| name         = Quinton
+| size5e       = 
+| type5e       = 
+| subtype5e    = 
+| alignment5e  = 
+| challenge5e  = 
+| refs5e       = 
+| size4e       = 
+| origin4e     = 
+| type4e       = 
+| subtype4e    = 
+| alignment4e  = 
+| refs4e       = 
+| size3e       = Large
+| type3e       = [[Outsider]]
+| subtype3e    = 
+| alignment3e  = Always [[lawful neutral]]
+| challenge3e  = 14
+| refs3e       = &lt;ref name="MotPWE3e-p14-15"&gt;{{Cite book/Manual of the Planes 3rd edition/WE1|14-15}}&lt;/ref&gt;
+| size2e       = Large
+| alignment2e  = [[Lawful neutral]]
+| refs2e       = &lt;ref name="PSCS"&gt;{{Cite book/Planescape Campaign Setting/Monstrous Supplement|16-19, 21}}&lt;/ref&gt;
+| size1e       = Large
+| alignment1e  = [[Lawful neutral]]
+| refs1e       = &lt;ref name="MMII1e-p90"&gt;{{Cite book/Monster Manual II 1st edition|90}}&lt;/ref&gt; 
+| patron deity = [[Primus]]
+| vision       = [[Darkvision]]&lt;ref name="MotPWE3e"&gt;{{Cite web enhancement/The Modrons|14-15}}&lt;/ref&gt;
+| activecycle  = Any&lt;ref name="PSCS"/&gt;
+| diet         = 
+| lifespan     = 
+| location     = [[Mechanus]]&lt;ref name="MotPWE3e-p14-15" /&gt;
+| language     = [[Abyssal language|Abyssal]], [[Auran]], [[Celestial language|Celestial]], [[Infernal language|Infernal]], [[Modron language|Modron]]&lt;ref name="MotPWE3e-p14-15" /&gt;
+| subraces     = 
+| climate      = Any&lt;ref name="MotPWE3e" /&gt;
+| terrain      = Any&lt;ref name="MotPWE3e" /&gt;
+| height       = 
+| length       = 
+| wingspan     = 
+| weight       = 
+| skincolor    = 
+| haircolor    = 
+| hairstyles   = 
+| feathers     = 
+| eyecolor     = 
+| build        = 
+| distinctions = 
+| based        = 
+| first        = [[Monster Manual II 1st edition|''Monster Manual II'' 1{{st}} edition]]
+}}
+'''Quintons''' were the fourth highest rank of hierarch [[modron]]s.&lt;ref name="MotPWE3e-p2"&gt;{{Cite book/Manual of the Planes 3rd edition/WE1|2}}&lt;/ref&gt;
+
+==Description==
+Quintons were tall yet heavyset humanoid with four arms and a prehensile tail, all of which sported a five-fingered hand. They had a pair of wings that resembled fans on their backs. Upon their forehead was a diamond symbol, which denoted their rank.&lt;ref name="MotPWE3e" /&gt;
+
+==Combat==
+If forced into combat, quintons used a combination of innate abilities, spells and their fists.&lt;ref name="MotPWE3e" /&gt;
+
+==Abilities==
+Like all hierarch modrons, quintons had the innate ability to duplicate the effects of ''[[clairaudience]]'', ''[[clairvoyance]]'', ''[[command]]'', ''[[dimension door]]'', ''[[teleport without error]]'', and ''[[wall of force]]'' spells at will.&lt;ref name="TGMM"&gt;{{Cite book/The Great Modron March|126}}&lt;/ref&gt; Quintons were able to cast [[divine]] spells from the [[Law domain|Law]], [[Protection domain|Protection]] and [[War domain|War]] domains. Quintons were immune to all effects that influenced the mind, all psionic-based attacks and had a resistance to acid, cold and fire.&lt;ref name="MotPWE3e" /&gt;
+
+==Society==
+There were exactly twenty-five quintons in modron society—one stationed at each of the twenty bureaus in the region and quarter towers, and five in the bureaus at [[Primus Tower]] at the capital. They acted as the bureau chiefs and record keepers of [[Mechanus|Nirvana]].&lt;ref name="MMII1e-p90" /&gt;
+
+Each quinton had one [[hexton]] assistant,&lt;ref name="MotPWE3e-p14-15" /&gt; plus a staff of one [[septon]], twenty-five [[pentadrone]]s, sixty-four [[quadrone]]s, eighty-one [[tridrone]]s, and an unknown number of [[duodrone]]s and [[monodrone]]s.&lt;ref name="MMII1e-p90" /&gt;
+
+==Ecology==
+Quintons were able to communicate telepathically with any sentient creature within {{SI|238|mi|k}} and could see in [[darkvision]] up to {{SI|60|ft}}.&lt;ref name="MotPWE3e" /&gt;
+
+==History==
+The [[Great Modron March]], the periodic tour of the [[Outer Planes]] carried out once every 289 years, was led by a quinton, who was also the chief record-keeper of the voyage.&lt;ref name="GMM2e-p8"&gt;{{Cite book/The Great Modron March|8}}&lt;/ref&gt; The march passed briefly through [[Undermountain]], using one of the rare ''[[portal]]s'' that led out of [[Carceri]].&lt;ref name="GMM2e-p91"&gt;{{Cite book/The Great Modron March|91}}&lt;/ref&gt;
+
+==Appendix==
+===Appearances===
+:;Adventures
+::''[[The Great Modron March]]''
+===References===
+{{Refs}}
+==Connections==
+{{Modrons}}
+[[Category:Hierarch modrons]]
+[[Category:Modrons]]
+[[Category:Creatures found in Regulus]]
+[[Category:Creatures found in Mechanus]]
+[[Category:Monster|Modron, 5]]</text>
+      <sha1>0mpfb8ppcr0uaz6la2eae5gbyi8igs4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ra</title>
+    <ns>0</ns>
+    <id>3380</id>
+    <revision>
+      <id>7207</id>
+      <parentid>7193</parentid>
+      <timestamp>2025-12-14T05:37:03Z</timestamp>
+      <contributor>
+        <username>Senlimsghost</username>
+        <id>50355097</id>
+      </contributor>
+      <origin>7207</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1859" sha1="ab24sk2nn10kmoy457las6012gm2ki6" xml:space="preserve">{{Deity|name=Ra|title=Pharaoh of the Gods|symbol=Ankh on a solar disc|power=Greater Power|pantheon=[[Pharaonic pantheon]]|gender=Masculine|realm=[[Thekele-Re]], [[Heliopolis]]|portfolio=The sun, kings|worshipers=|cleric alignments=Lawful|alignment=Lawful Good}}
+'''Ra''' was a Greater [[Power]] and leader of the [[Pharaonic pantheon]], who brought forth the Ennead and raised many of the other Pharaonic powers to divinity.&lt;ref name=":0"&gt;{{Cite book/On Hallowed Ground|84}}&lt;/ref&gt; He was symbolised in Egyptian and Mulhorandi culture as a human with the head of a falcon.&lt;ref name=":1"&gt;{{Cite book/On Hallowed Ground|86}}&lt;/ref&gt; In the Mulhorandi interpretation of the pantheon, his personality and sphere were combined with those of [[Horus]] and worshipped as '''Horus-Re''', who was sometimes interpreted as Ra's son.&lt;ref&gt;{{Cite book/Faiths &amp; Pantheons|143||chapter=}}&lt;/ref&gt;
+
+Ra was known as the original Pharaonic deity, who brought life to the rest of his extended family, the Ennead. He was one of the first to understand the power of the [[Three Truths|Rule of Threes]], and created eight other gods to rule with him for a three-threes structure. Rumours claimed that [[Ptah]] was the original head of the pantheon, or that another group called the Eight Fathers and Mothers predate even him, but the truth of this was lost to time.&lt;ref name=":0" /&gt;
+
+Ra ruled the First Realm of [[Heliopolis]], [[Thekele-Re]], where he brought light to the world with his solar barge [[Matet|''Manjet'']]. He guided the pharaohs of Mulhorand, Egypt and countless other civilisations, and protected them from the world-destroyer serpent [[Apophis]]. The chant went that as Apophis stirred once again, Ra was preparing to move onto "bigger and better things", and had his second-in-command [[Osiris]] lined up to take over the pantheon.&lt;ref name=":1" /&gt;
+
+== References ==</text>
+      <sha1>ab24sk2nn10kmoy457las6012gm2ki6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Race</title>
+    <ns>0</ns>
+    <id>3254</id>
+    <redirect title="Species" />
+    <revision>
+      <id>6689</id>
+      <timestamp>2025-06-15T01:32:39Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>IanWatson moved page [[Race]] to [[Species]]: better name, establishing redirect</comment>
+      <origin>6689</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="21" sha1="4uexon8qy5gn63vtx01wdn1yobtpzds" xml:space="preserve">#REDIRECT [[Species]]</text>
+      <sha1>4uexon8qy5gn63vtx01wdn1yobtpzds</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ragers</title>
+    <ns>0</ns>
+    <id>2664</id>
+    <revision>
+      <id>6759</id>
+      <parentid>6346</parentid>
+      <timestamp>2025-06-19T17:27:57Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>6759</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1291" sha1="1gj24gg7gitxr1ys7xaah4w47pz9k5p" xml:space="preserve">{{Faction
+  | faction        = Ragers
+  | image1         = 
+  | caption-image1 = 
+  | nickname       = 
+  | philosophy     = Life is a test. Find out where you stand.
+  | founded        = 
+  | factol         = 
+  | sigilhq        = 
+  | homefield      = [[Ysgard]]
+  | allies         = [[Fated]], [[Doomguard]], [[Xaositects]]
+  | enemies        = [[Fraternity of Order]], [[Harmonium]], [[Mercykillers]]
+  | predecessor    = 
+  | successor      = 
+}}
+
+The '''Ragers''' are a [[sect]] who believe that they need to find out where you stand in the cosmic pecking order, and the way to do that is by picking fights.
+
+== History ==
+
+== Philosophy ==
+
+The Ragers treat life like a big tournament: If you can defeat someone, you're above them on the ladder. If they can defeat you, they're above you. The only way to figure out where you stand is by confronting and fighting nearly everyone.
+
+== Role ==
+
+== Membership ==
+: ''See also:'' [[List of Ragers members]]
+
+
+== Background Information ==
+* The Ragers are similar in behavior to the [[Dispossessed]], although their philosophies differ.
+
+== References ==
+* {{b|Planescape|Planescape Monstrous Compendium Appendix II|page=76-77}}
+
+{{scroll|&lt;references /&gt;}}
+
+{{Sects}}
+
+[[Category:Sect]]
+[[Category:Monster|Rager (Sect)]]
+[[Category:Ragers]]</text>
+      <sha1>1gj24gg7gitxr1ys7xaah4w47pz9k5p</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ranais</title>
+    <ns>0</ns>
+    <id>2952</id>
+    <revision>
+      <id>5470</id>
+      <timestamp>2024-08-15T10:53:10Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5470</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2790" sha1="lp489lxp94u3jsnvqjpr4zgbqx39j7o" xml:space="preserve">'''Ranais''', "the Funereal World," is the primary inhabited world found within an unknown crystal sphere on the [[Prime Material plane]].&lt;ref name="dg28"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=28}}&lt;/ref&gt; The world was subject to some form of calamity centuries ago. It was often used as a quick way to travel between [[Crux]] and [[Sigil]]: the portals were only about 15 miles apart, through the ruins of a once-great city.
+
+The sun is tiny and white, providing little in the way of warmth or illumination. As a result, even during daytime, the effect is that of constant night.
+
+The population revered death in many forms (although they were unconnected to the [[Heralds of Dust]]), including [[Orcus]]. When the city of Moil turned away from Orcus, he cast it into a demiplane, and the rest of the world was plunged into chaos. Those who could, escaped to other planes, the rest perishing, haunting the world as a form of spirit called the [[Lovelost]].
+
+When Orcus returned as [[Tenebrous]], he commanded his servants, the [[visage]]s, use the ruins of Ranais as their base of operations, specifically the ruins of a Temple of Orcus.&lt;ref name="dg52"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=52}}&lt;/ref&gt;
+
+
+== Personalities ==
+
+Centuries ago, refugees from Ranais fled to the planes. Many settled into the town of [[Crux]] on [[Yggdrasil]], while others settled in their own neighborhood in [[Sigil]], which they call [[Goatswood]]. It was originally in the Lower Ward, but as ward boundaries shifted, Goatswood is now considered part of the [[Hive Ward]].&lt;ref name="fw27"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=27}}&lt;/ref&gt;
+
+== Portals ==
+
+The following portals are known to link to Ranais:
+
+* From High Point in [[Crux]] to Ranais. The portal was always open, resembling a [[color pool]].&lt;ref name="dg47"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=47}}&lt;/ref&gt;&lt;ref name="dg51"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=51}}&lt;/ref&gt; The portal closed following the return of Orcus, cutting Crux off from both their ancestral homeworld and also Sigil.&lt;ref name="dg124"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=124}}&lt;/ref&gt;
+* A set of double-doors on a stable in the [[Market Ward]] to Ranais.&lt;ref name="dg51"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=51}}&lt;/ref&gt;
+* To the fortress of [[Tcian Sumere]] in the [[Negative Energy plane]] from the Temple of Orcus. The portal (and the whole temple) vanished once Orcus returned.&lt;ref name="dg124"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=124}}&lt;/ref&gt;
+
+== Gods ==
+
+The people of Ranais venerated many gods of death, including (but not limited to) Orcus. Each major city had their own patron god.
+
+
+== Background Information ==
+
+== External Links ==
+
+== References ==
+&lt;references /&gt;
+
+[[Category:Prime Material worlds]]
+[[Category:Ranais]]</text>
+      <sha1>lp489lxp94u3jsnvqjpr4zgbqx39j7o</sha1>
+    </revision>
+  </page>
+</mediawiki>

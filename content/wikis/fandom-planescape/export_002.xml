@@ -1,0 +1,2068 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Planescape Wiki</sitename>
+    <dbname>planescape</dbname>
+    <base>https://planescape.fandom.com/wiki/Planescape_Wiki</base>
+    <generator>MediaWiki 1.43.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Planescape Wiki</namespace>
+      <namespace key="5" case="first-letter">Planescape Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>134 YFHR</title>
+    <ns>0</ns>
+    <id>3370</id>
+    <revision>
+      <id>7165</id>
+      <timestamp>2025-11-02T22:35:42Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>7165</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="384" sha1="7oqxj78m8d10519kqlm9f7pr43od02d" xml:space="preserve">{{YFHR|134}}
+
+==Events==
+* Four years post-[[Faction War]].
+
+== Background Information ==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%; text-align:center;"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[133 YFHR|133]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[130d YFHR|130s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[135 YFHR|135]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>7oqxj78m8d10519kqlm9f7pr43od02d</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>135 YFHR</title>
+    <ns>0</ns>
+    <id>3371</id>
+    <revision>
+      <id>7166</id>
+      <timestamp>2025-11-02T22:37:06Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>7166</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="665" sha1="cchdfpfq5dg6yjmaqnk521d6us69q7n" xml:space="preserve">{{YFHR|135}}
+
+==Events==
+* Five years post-[[Faction War]].
+
+== Background Information ==
+* Dating information post-[[Faction War]] is nonexistent, but if we assume that time continues to pass at the same rate of one in-universe year per real-world production year, the following titles take place in this year:
+** {{b|Dragon|Dragon Magazine 315}}, "The Exiled Factions"
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%; text-align:center;"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[134 YFHR|134]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[130d YFHR|130s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[136 YFHR|136]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>cchdfpfq5dg6yjmaqnk521d6us69q7n</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>136 YFHR</title>
+    <ns>0</ns>
+    <id>3372</id>
+    <revision>
+      <id>7169</id>
+      <parentid>7168</parentid>
+      <timestamp>2025-11-02T23:16:08Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>lk</comment>
+      <origin>7169</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="644" sha1="6j7o9j06ok3a3dgb01r62elx2h31kce" xml:space="preserve">{{YFHR|136}}
+
+==Events==
+* Six years post-[[Faction War]].
+
+== Background Information ==
+* Dating information post-[[Faction War]] is nonexistent, but if we assume that time continues to pass at the same rate of one in-universe year per real-world production year, the following titles take place in this year:
+** {{b|D&amp;D|Planar Handbook|pdf=27882}}
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%; text-align:center;"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[135 YFHR|135]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[130d YFHR|130s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[137 YFHR|137]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>6j7o9j06ok3a3dgb01r62elx2h31kce</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>137 YFHR</title>
+    <ns>0</ns>
+    <id>3373</id>
+    <revision>
+      <id>7170</id>
+      <timestamp>2025-11-02T23:17:27Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>7170</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="385" sha1="ts4fh2w0fjwjd03b5rbwx42y05kovwi" xml:space="preserve">{{YFHR|137}}
+
+==Events==
+* Seven years post-[[Faction War]].
+
+== Background Information ==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%; text-align:center;"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[136 YFHR|136]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[130d YFHR|130s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[138 YFHR|138]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>ts4fh2w0fjwjd03b5rbwx42y05kovwi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>138 YFHR</title>
+    <ns>0</ns>
+    <id>3374</id>
+    <revision>
+      <id>7171</id>
+      <timestamp>2025-11-02T23:21:40Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>7171</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="660" sha1="bcmxeoonduxskhr36u2tgimipkmdbma" xml:space="preserve">{{YFHR|138}}
+
+==Events==
+* Eight years post-[[Faction War]].
+
+== Background Information ==
+* Dating information post-[[Faction War]] is nonexistent, but if we assume that time continues to pass at the same rate of one in-universe year per real-world production year, the following titles take place in this year:
+** {{b|Dragon|Dragon Magazine 339}}, "Dead Factions"
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%; text-align:center;"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[137 YFHR|137]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[130d YFHR|130s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[139 YFHR|139]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>bcmxeoonduxskhr36u2tgimipkmdbma</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>139 YFHR</title>
+    <ns>0</ns>
+    <id>3375</id>
+    <revision>
+      <id>7172</id>
+      <timestamp>2025-11-02T23:23:20Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>7172</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="743" sha1="7fe8r174gucqvedkctxpwani1w503hg" xml:space="preserve">{{YFHR|139}}
+
+==Events==
+* Nine years post-[[Faction War]].
+
+== Background Information ==
+* Dating information post-[[Faction War]] is nonexistent, but if we assume that time continues to pass at the same rate of one in-universe year per real-world production year, the following titles take place in this year:
+** {{b|Dragon|Dragon Magazine 351}}, "The Gatetown of Ecstasy"
+** {{b|Dragon|Dragon Magazine 354}}, "I, Modron," "Return of the Modrons"
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%; text-align:center;"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[138 YFHR|138]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[130d YFHR|130s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[140 YFHR|140]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>7fe8r174gucqvedkctxpwani1w503hg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>170d BFHR</title>
+    <ns>0</ns>
+    <id>2599</id>
+    <revision>
+      <id>4542</id>
+      <timestamp>2024-01-19T06:10:18Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4542</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="hb18fa9yp4kntnxnc3sdaw2eox9had0" xml:space="preserve">18 decades before Factol Hashkar's reign begins.
+
+*[[179 BFHR]]
+*[[178 BFHR]]
+*[[177 BFHR]]
+*[[176 BFHR]]
+*[[175 BFHR]]
+*[[174 BFHR]]
+*[[173 BFHR]]
+*[[172 BFHR]]
+*[[171 BFHR]]
+*[[170 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[180d BFHR|180s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[100c BFHR|100s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[160d BFHR|160s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>hb18fa9yp4kntnxnc3sdaw2eox9had0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>171 BFHR</title>
+    <ns>0</ns>
+    <id>2574</id>
+    <revision>
+      <id>4495</id>
+      <timestamp>2024-01-17T23:05:42Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>uncaged</comment>
+      <origin>4495</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="422" sha1="6ulkhr3pnvqgumk5u05eg8mhifmhabi" xml:space="preserve">{{BFHR|171}}
+
+==Events==
+* The gnome [[Kesto Brighteyes]] is born.&lt;ref name="uncaged16"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=16}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[172 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[170d BFHR|170s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[170 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>6ulkhr3pnvqgumk5u05eg8mhifmhabi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>174 BFHR</title>
+    <ns>0</ns>
+    <id>2547</id>
+    <revision>
+      <id>4459</id>
+      <parentid>4406</parentid>
+      <timestamp>2024-01-17T05:42:13Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>fm</comment>
+      <origin>4459</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="824" sha1="4j8urtihk5kpo0tl1tghhanioq8htod" xml:space="preserve">{{BFHR|174}}
+
+==Events==
+* The [[erinyes]] [[Mysdemn Wordtwister]] builds [[Grenpoli]], the City of Diplomacy, in [[Baator]], around this time.&lt;ref name="polbaa23"&gt;{{b|Planescape|Planes of Law|pdf=17272|page=23, Baator}}&lt;/ref&gt;
+* An [[Revolutionary League|Anarchist]] kills the [[factol]] of the [[Mercykillers]] via a spell, then managed to pin the blame on the [[Fated]]. The following war involved almost a dozen factions and results in the destruction of three of them.&lt;ref name="fm114"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=114}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[175 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[170d BFHR|170s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[173 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>4j8urtihk5kpo0tl1tghhanioq8htod</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>180d BFHR</title>
+    <ns>0</ns>
+    <id>2598</id>
+    <revision>
+      <id>4541</id>
+      <timestamp>2024-01-19T06:09:36Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4541</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="pi1ct5ep3hqzcq8ruiysvmw2di10r8r" xml:space="preserve">19 decades before Factol Hashkar's reign begins.
+
+*[[189 BFHR]]
+*[[188 BFHR]]
+*[[187 BFHR]]
+*[[186 BFHR]]
+*[[185 BFHR]]
+*[[184 BFHR]]
+*[[183 BFHR]]
+*[[182 BFHR]]
+*[[181 BFHR]]
+*[[180 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[190d BFHR|190s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[100c BFHR|100s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[170d BFHR|170s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>pi1ct5ep3hqzcq8ruiysvmw2di10r8r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>183 BFHR</title>
+    <ns>0</ns>
+    <id>2508</id>
+    <revision>
+      <id>4345</id>
+      <parentid>4341</parentid>
+      <timestamp>2024-01-15T06:17:06Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>bad at math</comment>
+      <origin>4345</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="294" sha1="clhwagcaqyfxuo2mihl799kkywqaw5t" xml:space="preserve">{{BFHR|183}}
+
+==Events==
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[184 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[180d BFHR|180s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[182 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>clhwagcaqyfxuo2mihl799kkywqaw5t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>187 BFHR</title>
+    <ns>0</ns>
+    <id>2512</id>
+    <revision>
+      <id>4416</id>
+      <parentid>4412</parentid>
+      <timestamp>2024-01-17T00:52:40Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>pg</comment>
+      <origin>4416</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="551" sha1="9rlwot2xsslo4yeo8ma2ooak2d28jx1" xml:space="preserve">{{BFHR|187}}
+
+==Events==
+* The dwarf [[Traban]]'s son [[Trabanson]] is born in [[Krynn]].&lt;ref name="sab80"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=80, Sigil and Beyond}}&lt;/ref&gt;&lt;ref name="itc45"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=45}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[188 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[180d BFHR|180s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[186 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>9rlwot2xsslo4yeo8ma2ooak2d28jx1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1970d</title>
+    <ns>0</ns>
+    <id>3304</id>
+    <revision>
+      <id>6884</id>
+      <timestamp>2025-08-01T20:26:18Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>6884</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="481" sha1="omhnkvyg3elqdhkkkg20eluq6sxolei" xml:space="preserve">The eighth decade of the 20th century.
+
+*[[1970]]
+*[[1971]]
+*[[1972]]
+*[[1973]]
+*[[1974]]
+*[[1975]]
+*[[1976]]
+*[[1977]]
+*[[1978]]
+*[[1979]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[1960d|1960s]]
+| class="topic"|'''Timeline'''&lt;br/ &gt;[[:Category:Real-world Timeline|Timeline]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[1980d|1980s]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>omhnkvyg3elqdhkkkg20eluq6sxolei</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1978</title>
+    <ns>0</ns>
+    <id>3302</id>
+    <revision>
+      <id>6859</id>
+      <timestamp>2025-08-01T16:16:34Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>6859</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="472" sha1="ijl9ks3t314v0yqan31t8u8ssqthvly" xml:space="preserve">[[File:ADnD1e.png|300px|center|AD&amp;D 1st Edition]]
+{{timeline|1978}}
+
+* Released:
+** {{dd|Vault of the Drow|pdf=17043}}, referenced in:
+*** {{b|Planescape|Dead Gods|pdf=17297|nip=1}}
+
+
+== References ==
+
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1977]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1970d|1970s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1979]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>ijl9ks3t314v0yqan31t8u8ssqthvly</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1980</title>
+    <ns>0</ns>
+    <id>3301</id>
+    <revision>
+      <id>6852</id>
+      <timestamp>2025-08-01T15:58:21Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>6852</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="512" sha1="hc0ij0eyb3wf7pmefo82a7dzhl48loz" xml:space="preserve">[[File:ADnD1e.png|300px|center|AD&amp;D 1st Edition]]
+{{timeline|1980}}
+
+* Released:
+** {{dd|Deities &amp; Demigods (1e)|alt=Deities &amp; Demigods|pdf=110198}}, referenced in:
+*** {{b|Planescape|On Hallowed Ground|pdf=121101|nip=1}}
+
+
+== References ==
+
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1979]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1980d|1980s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1981]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>hc0ij0eyb3wf7pmefo82a7dzhl48loz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1980d</title>
+    <ns>0</ns>
+    <id>2809</id>
+    <revision>
+      <id>4973</id>
+      <timestamp>2024-02-17T21:14:36Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4973</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="461" sha1="rc6r48oc0okj54o4mqb4sy7xykqgzvm" xml:space="preserve">The ninth decade of the 20th century.
+
+*[[1980]]
+*[[1981]]
+*[[1982]]
+*[[1983]]
+*[[1984]]
+*[[1985]]
+*[[1986]]
+*[[1987]]
+*[[1988]]
+*[[1989]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[1970d|1970s]]
+| class="topic"|'''Timeline'''&lt;br/ &gt;[[:Category:Real-world Timeline|Timeline]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[1990d|1990s]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>rc6r48oc0okj54o4mqb4sy7xykqgzvm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1981</title>
+    <ns>0</ns>
+    <id>3303</id>
+    <revision>
+      <id>6867</id>
+      <parentid>6861</parentid>
+      <timestamp>2025-08-01T16:42:20Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>tip</comment>
+      <origin>6867</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="589" sha1="nrzcgsj43rvcq6s0cv5lwznam3d5w0p" xml:space="preserve">[[File:ADnD1e.png|300px|center|AD&amp;D 1st Edition]]
+{{timeline|1981}}
+
+=== July ===
+* Released:
+** {{dd|Fiend Folio (1e)|alt=Fiend Folio|pdf=50012}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294|nip=1}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+
+== References ==
+
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1980]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1980d|1980s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1982]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>nrzcgsj43rvcq6s0cv5lwznam3d5w0p</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1983</title>
+    <ns>0</ns>
+    <id>3072</id>
+    <revision>
+      <id>6868</id>
+      <parentid>6862</parentid>
+      <timestamp>2025-08-01T16:55:51Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>tip</comment>
+      <origin>6868</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="669" sha1="0nn7rlkh9z3oh1v1yt9wbf0bjww28cj" xml:space="preserve">[[File:ADnD1eRev.png|300px|center|AD&amp;D 1st Edition Revised]]
+{{timeline|1983}}
+
+* Released:
+** {{dd|Monster Manual II|pdf=17005}}. Referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}} (via {{b|Dragon|Dragon Magazine 218}})
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294|nip=1}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== References ==
+
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1982]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1980d|1980s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1984]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>0nn7rlkh9z3oh1v1yt9wbf0bjww28cj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1987</title>
+    <ns>0</ns>
+    <id>2766</id>
+    <revision>
+      <id>6481</id>
+      <parentid>6480</parentid>
+      <timestamp>2025-06-10T07:28:16Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>nav</comment>
+      <origin>6481</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="402" sha1="sztcag0gg1og5b7940chzbherrhvorx" xml:space="preserve">[[File:ADnD1eRev.png|300px|center|AD&amp;D 1st Edition Revised]]
+{{timeline|1987}}
+
+== July ==
+* Released:
+** {{b|D&amp;D|Manual of the Planes|pdf=17009}}
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1986]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1980d|1980s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1988]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>sztcag0gg1og5b7940chzbherrhvorx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1988</title>
+    <ns>0</ns>
+    <id>2881</id>
+    <revision>
+      <id>6869</id>
+      <parentid>6482</parentid>
+      <timestamp>2025-08-01T16:57:11Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>tip</comment>
+      <origin>6869</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="562" sha1="01z8tdxynglhpqutrxsyc2kfpoajlgn" xml:space="preserve">[[File:ADnD1eRev.png|300px|center|AD&amp;D 1st Edition Revised]]
+{{timeline|1988}}
+
+== April ==
+* Released:
+** {{b|D&amp;D|Tales of the Outer Planes|pdf=17055|nip=1}}
+
+== September ==
+* Released:
+** {{b|Greyhawk|Greyhawk Adventures|pdf=17407}}, referenced in:
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1987]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1980d|1980s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1989]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>01z8tdxynglhpqutrxsyc2kfpoajlgn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1989</title>
+    <ns>0</ns>
+    <id>2767</id>
+    <revision>
+      <id>6882</id>
+      <parentid>6840</parentid>
+      <timestamp>2025-08-01T20:17:11Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>gth</comment>
+      <origin>6882</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1430" sha1="p4rogxpfs8glgvr2dtopcntdj96uzb0" xml:space="preserve">[[File:ADnD2e.png|300px|center|AD&amp;D 2nd Edition]]
+{{timeline|1989}}
+
+== February ==
+* Advanced Dungeons &amp; Dragons 2nd Edition officially begins. Released are:
+** {{dd|Player's Handbook (2e)|alt=Player's Handbook}}, referenced in:
+*** {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1}}
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}}
+*** {{b|Planescape|The Deva Spark|pdf=17271|nip=1}}
+
+== May ==
+** {{dd|Dungeon Master Guide (2e)|alt=Dungeon Master's Guide}}, referenced in:
+*** {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1}}
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}}
+*** {{b|Planescape|The Deva Spark|pdf=17271|nip=1}}
+
+== June ==
+* Released:
+** {{dd|Monstrous Compendium Volume One|pdf=183092}}, referenced in:
+*** {{b|D&amp;D|Guide to Hell|pdf=17390}}
+
+== October ==
+* Released:
+** {{b|Spelljammer|Spelljammer: Adventures in Space|pdf=17263|nip=1}}, D&amp;D's first foray into a "meta-setting" that includes all other D&amp;D worlds (albeit not [[Ravenloft]]).
+** {{Dragonlance|Time of the Dragon|pdf=16960}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}} (via {{b|Dragon|Dragon Magazine 218}})
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1988]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1980d|1980s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1990]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>p4rogxpfs8glgvr2dtopcntdj96uzb0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1990</title>
+    <ns>0</ns>
+    <id>3071</id>
+    <revision>
+      <id>6870</id>
+      <parentid>6851</parentid>
+      <timestamp>2025-08-01T16:58:58Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>tip</comment>
+      <origin>6870</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1706" sha1="ofnoo2wpzuyjcah9jb666spriq3fc1w" xml:space="preserve">[[File:ADnD2e.png|300px|center|AD&amp;D 2nd Edition]]
+{{timeline|1990}}
+
+== February ==
+* Released:
+** {{Dragonlance|Monstrous Compendium: Dragonlance Appendix|pdf=16963}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}} (via {{b|Dragon|Dragon Magazine 218}})
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== April ==
+* Released:
+** {{b|Greyhawk|Monstrous Compendium: Greyhawk Appendix|pdf=17409}}, referenced in:
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== June ==
+* Released:
+** {{b|Kara-Tur|Monstrous Compendium: Kara-Tur Appendix|pdf=17319}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}} (via {{b|Dragon|Dragon Magazine 218}})
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== July ==
+* Released:
+** {{b|Greyhawk|Greyhawk Ruins|pdf=17421}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}} (via {{b|Dragon|Dragon Magazine 218}})
+
+== August ==
+* Released:
+** {{dd|Legends &amp; Lore (2e)|alt=Legends &amp; Lore|pdf=116010}}, referenced in:
+*** {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1}}
+*** {{b|Planescape|Planes of Conflict|pdf=17278|nip=1}}
+*** {{b|Planescape|On Hallowed Ground|pdf=121101|nip=1}}
+
+== December ==
+* Released:
+** {{Dragonlance|Dragon's Rest|pdf=16963}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}} (via {{b|Dragon|Dragon Magazine 218}})
+
+== References ==
+
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1989]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1990d|1990s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1991]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>ofnoo2wpzuyjcah9jb666spriq3fc1w</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1990d</title>
+    <ns>0</ns>
+    <id>2808</id>
+    <revision>
+      <id>4972</id>
+      <timestamp>2024-02-17T21:13:55Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4972</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="461" sha1="4trkjr40i1rsg9x6p9b8dpk6734cloa" xml:space="preserve">The tenth decade of the 20th century.
+
+*[[1990]]
+*[[1991]]
+*[[1992]]
+*[[1993]]
+*[[1994]]
+*[[1995]]
+*[[1996]]
+*[[1997]]
+*[[1998]]
+*[[1999]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[1980d|1980s]]
+| class="topic"|'''Timeline'''&lt;br/ &gt;[[:Category:Real-world Timeline|Timeline]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[2000d|2000s]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>4trkjr40i1rsg9x6p9b8dpk6734cloa</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1991</title>
+    <ns>0</ns>
+    <id>2827</id>
+    <revision>
+      <id>6860</id>
+      <parentid>6849</parentid>
+      <timestamp>2025-08-01T16:19:36Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>dg</comment>
+      <origin>6860</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1111" sha1="5892rfpfshpz75v3ct30l9q2uxjvg9q" xml:space="preserve">[[File:ADnD2e.png|300px|center|AD&amp;D 2nd Edition]]
+{{timeline|1991}}
+
+== January ==
+* Released:
+** {{b|D&amp;D|Monstrous Compendium: Outer Planes Appendix|pdf=16892}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}} (via {{b|Dragon|Dragon Magazine 218}})
+
+== June ==
+* Released:
+** {{dd|Tome of Magic (2e)|alt=Tome of Magic|pdf=17391}}, referenced in:
+*** {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1}}
+
+== July ==
+* Released:
+** {{Forgotten Realms|The Drow of the Underdark|pdf=16829|nip=1}}, referenced in:
+*** {{b|Planescape|Dead Gods|pdf=17297|nip=1}}
+
+== December ==
+* Released:
+** {{Forgotten Realms|Monstrous Compendium Forgotten Realms Appendix (MC11)|pdf=16798}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}} (via {{b|Dragon|Dragon Magazine 218}})
+
+== References ==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1990]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1990d|1990s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1992]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>5892rfpfshpz75v3ct30l9q2uxjvg9q</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1992</title>
+    <ns>0</ns>
+    <id>3073</id>
+    <revision>
+      <id>6871</id>
+      <parentid>6857</parentid>
+      <timestamp>2025-08-01T17:02:33Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>tip</comment>
+      <origin>6871</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1574" sha1="204gxwl9m2fks0wq5g5hnkmjcconc9d" xml:space="preserve">[[File:ADnD2e.png|300px|center|AD&amp;D 2nd Edition]]
+{{timeline|1992}}
+
+== February ==
+* Released:
+** {{b|Dark Sun|Monstrous Compendium: Dark Sun Appendix: Terrors of the Desert|pdf=17180}}, referenced in:
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== March ==
+* Released:
+** {{b|Al-Qadim|Monstrous Compendium: Al-Qadim Appendix|pdf=16872}}, referenced in:
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== April ==
+* Released:
+** {{dd|Monstrous Compendium: Fiend Folio Appendix|pdf=16892}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix}} (via {{b|Dragon|Dragon Magazine 218}})
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== May ==
+* Released:
+** {{dd|Monster Mythology|pdf=16895|nip=1}}, referenced in:
+*** {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1}}
+*** {{b|Planescape|Planes of Conflict|pdf=17278|nip=1}}
+*** {{b|Planescape|On Hallowed Ground|pdf=121101|nip=1}}
+
+== July ==
+* Released:
+** {{Dragonlance|Tales of the Lance|pdf=16961}}, referenced in:
+*** {{b|Planescape|Planes of Conflict|pdf=17278|nip=1}}
+*** {{b|Planescape|On Hallowed Ground|pdf=121101|nip=1}}
+
+== October ==
+* Released:
+** {{b|Greyhawk|From the Ashes|pdf=17399}}, referenced in:
+*** {{b|Planescape|On Hallowed Ground|pdf=121101|nip=1}}
+
+
+
+== References ==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1991]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1990d|1990s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1993]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>204gxwl9m2fks0wq5g5hnkmjcconc9d</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1993</title>
+    <ns>0</ns>
+    <id>3296</id>
+    <revision>
+      <id>6881</id>
+      <parentid>6876</parentid>
+      <timestamp>2025-08-01T20:13:26Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>gth</comment>
+      <origin>6881</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="900" sha1="0hqrk3t774rzsag2i3o28g25xgnqx0r" xml:space="preserve">[[File:ADnD2e.png|300px|center|AD&amp;D 2nd Edition]]
+{{timeline|1993}}
+
+* Released:
+** {{Forgotten Realms|Forgotten Realms Campaign Setting 2nd Edition}}, referenced in:
+*** {{b|Planescape|Planes of Conflict|pdf=17278|nip=1}}
+
+== August ==
+* Released:
+** {{dd|Monstrous Manual|pdf=16865|nip=1}}, referenced in:
+*** {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+*** {{b|D&amp;D|Guide to Hell|pdf=17390}}
+
+== November ==
+* Released:
+** {{b|Al-Qadim|Secrets of the Lamp|pdf=16877}}, referenced in:
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+
+== References ==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1992]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1990d|1990s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1994]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>0hqrk3t774rzsag2i3o28g25xgnqx0r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1994</title>
+    <ns>0</ns>
+    <id>2732</id>
+    <revision>
+      <id>6877</id>
+      <parentid>6863</parentid>
+      <timestamp>2025-08-01T17:08:15Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>tip</comment>
+      <origin>6877</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2139" sha1="d1y0smyts31oiny1w8zu5jdyswe4dsp" xml:space="preserve">[[File:ADnD2e.png|300px|center|AD&amp;D 2nd Edition]]
+{{timeline|1994}}
+
+* Released:
+** {{b|Ravenloft|Monstrous Compendium: Ravenloft Appendix III: Creatures of Darkness|pdf=17524}}, referenced in:
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== March ==
+
+* Released:
+** {{b|Dragon|Dragon Magazine 203}}. Key article: "The Plane Truth, Part I: Codifying Sigil"
+
+== April ==
+
+* Released:
+** {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1}}
+** {{b|Dragon|Dragon Magazine 204}}. Key article: "The Plane Truth, Part II: A Journey to the Outlands"
+
+== May ==
+
+* Released:
+** {{b|Dragon|Dragon Magazine 205}}. Key article: "The Plane Truth, Part III: The Transformation"
+
+== June ==
+* Released:
+** {{b|Planescape|The Eternal Boundary|pdf=17300}}
+
+== July ==
+* Released:
+** {{b|Planescape|Planescape Monstrous Compendium Appendix}}
+** {{b|Dragon|Dragon Magazine 207}}. Key article: "Role-Playing Reviews"
+
+== August ==
+* Released:
+** {{b|Planescape|Planes of Chaos (boxed set)|alt=Planes of Chaos|pdf=17298|nip=1}}
+** {{b|Dragon|Dragon Magazine 208}}. Key article: "Behind the Scenes: The making of the Planescape setting."
+** {{b|Mystara|Monstrous Compendium: Mystara Appendix|pdf=16911}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294|nip=1}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== September ==
+* Released:
+** {{b|Dragon|Dragon Magazine 209}}. Key article: "Sage Advice"
+
+== October ==
+* Released:
+** {{b|Planescape|Well of Worlds|pdf=17269|nip=1}}
+** {{b|Dragon|Dragon Magazine 210}}. Key article: "Sage Advice"
+** {{b|Polyhedron|Polyhedron Magazine 100}}. Key article: "The Analects of Sigil."
+
+== November ==
+* Released:
+** {{b|Planescape|In the Abyss|pdf=17270}}
+** {{b|Dragon|Dragon Magazine 211}}. Key article: "Sage Advice"
+
+== December ==
+* Released:
+** {{b|Planescape|The Deva Spark|pdf=17271|nip=1}}
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1993]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1990d|1990s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1995]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>d1y0smyts31oiny1w8zu5jdyswe4dsp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1995</title>
+    <ns>0</ns>
+    <id>2765</id>
+    <revision>
+      <id>6883</id>
+      <parentid>6878</parentid>
+      <timestamp>2025-08-01T20:17:39Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>gth</comment>
+      <origin>6883</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7015" sha1="c85rxwh93nnt3xjmufgw00zqa80oqm9" xml:space="preserve">[[File:ADnD2e.png|300px|center|AD&amp;D 2nd Edition]]
+{{timeline|1995}}
+
+* Released:
+** {{dd|Encyclopedia Magica Volume One|pdf=17450}}
+** {{dd|Encyclopedia Magica Volume Two|pdf=117439}}
+** {{dd|Encyclopedia Magica Volume Three|pdf=17462}}
+** {{dd|Encyclopedia Magica Volume Four|pdf=17451}}), series referenced in:
+*** {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1}}
+** {{b|Birthright|Birthright Campaign Setting|pdf=16938}}, referenced in:
+*** {{b|Planescape|On Hallowed Ground|pdf=121101|nip=1}}
+
+** 10-519 {{b|Ral Partha|Planescape Miniatures}}
+** 10-520 {{b|Ral Partha|Powers of Chaos Miniatures}}
+** 10-521 {{b|Ral Partha|Powers of Law Miniatures}}
+** 10-522 {{b|Ral Partha|Powers of Conflict Miniatures}}
+** 11-600 {{b|Ral Partha|Factol/Mercykillers}}
+** 11-601 {{b|Ral Partha|Factol Ambar}}
+** 11-602 {{b|Ral Partha|Factol Lhar}}
+** 11-603 {{b|Ral Partha|Factol Darius}}
+** 11-604 {{b|Ral Partha|Lei Kung (RP)|alt=Lei Kung}}
+** 11-605 {{b|Ral Partha|Thor (RP)|alt=Thor}}
+** 11-606 {{b|Ral Partha|Factol Koran}}
+** 11-607 {{b|Ral Partha|Mask (RP)|alt=Mask}}
+** 11-608 {{b|Ral Partha|Freya (RP)|alt=Freya}}
+** 11-609 {{b|Ral Partha|A'kin (RP)|alt=A'kin}}
+** 11-610 {{b|Ral Partha|Estavan (RP)|alt=Estavan}}
+** 11-611 {{b|Ral Partha|Kylie (RP)|alt=Kylie}}
+** 11-612 {{b|Ral Partha|Shemeshka &amp; Colcook}}
+** 11-613 {{b|Ral Partha|Cirily (RP)|alt=Cirily}}
+** 11-614 {{b|Ral Partha|Djhek Nlarr (RP)|alt=Djhek Nlarr}}
+** 11-615 {{b|Ral Partha|Fell (RP)|alt=Fell}}
+** 11-616 {{b|Ral Partha|Jemorille the Exile}}
+** 11-617 {{b|Ral Partha|Sly Nye (RP)|alt=Sly Nye}}
+** 11-618 {{b|Ral Partha|Parakk the Rat Catcher}}
+** 11-619 {{b|Ral Partha|Alluvius Ruskin (RP)|alt=Alluvius Ruskin}}
+** 11-620 {{b|Ral Partha|Transcendent Order (2)}}
+** 11-621 {{b|Ral Partha|Xaositects (2)}}
+** 11-622 {{b|Ral Partha|Free League Bariaur (2)}}
+** 11-623 {{b|Ral Partha|Mercykillers (2)}}
+** 11-624 {{b|Ral Partha|Anarchists (2)}}
+** 11-625 {{b|Ral Partha|Incantifiers (2)}}
+** 11-626 {{b|Ral Partha|Aasimar (2)}}
+** 11-627 {{b|Ral Partha|The 'Us'}}
+** 11-640 {{b|Ral Partha|Greater Gelugon}}
+** 11-641 {{b|Ral Partha|Aasimon Solar}}
+** 11-642 {{b|Ral Partha|Tanar'ri Succubus}}
+** 11-643 {{b|Ral Partha|Erinye}}
+** 11-644 {{b|Ral Partha|Armanites (2)}}
+** 11-645 {{b|Ral Partha|Hamatula (3)}}
+** 11-646 {{b|Ral Partha|Marut (RP)|alt=Marut}}
+** 11-647 {{b|Ral Partha|Cornugon (RP)|alt=Cornugon}}
+** 11-648 {{b|Ral Partha|Pit Fiend (RP)|alt=Pit Fiend}}
+** 11-649 {{b|Ral Partha|Chasme (RP)|alt=Chasme}}
+** 11-650 {{b|Ral Partha|Elemental Vermin (5)}}
+** 11-651 {{b|Ral Partha|Dretch (RP)|alt=Dretch}}
+** 11-652 {{b|Ral Partha|Molydeus (RP)|alt=Molydeus}}
+** 11-653 {{b|Ral Partha|Marilith (RP)|alt=Marilith}}
+** 11-654 {{b|Ral Partha|Barbazu (4)}}
+** 11-655 {{b|Ral Partha|Black Abishai (2)}}
+** 11-656 {{b|Ral Partha|Doomguard (2)}}
+
+== January ==
+* Released:
+** {{b|Dragon|Dragon Magazine 213}}. Key articles: "Godsmen, Guvners, &amp; Takers: Secrets of the Planescape Setting's Factions" and "Planar Personalities: A Few of Sigil's More Colorful Residents"
+** {{dd|Monstrous Compendium Annual Volume One|pdf=16944}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== February ==
+* Released:
+** {{b|Planescape|Planes of Law (boxed set)|alt=Planes of Law|pdf=17272|nip=1}}
+** {{b|Dragon|Dragon Magazine 214}}. Key article: "Role-Playing Reviews"
+** {{b|Dark Sun|Monstrous Compendium Dark Sun Appendix II: Terrors Beyond Tyr|pdf=17201}}, referenced in:
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== March ==
+* Released:
+** {{b|Planescape|Fires of Dis|pdf=17273}}
+** {{b|Blood Wars|Blood Wars Card Game}}
+** {{b|Blood Wars|Escalation Pack 1: Rebels and Reinforcements}}
+** {{b|Dragon|Dragon Magazine 215}}. Key article: "The Game Wizards: How to build the [[Blood Wars]] deck from heck"
+
+== April ==
+* Released:
+** {{b|Dragon|Dragon Magazine 216}}. Key article: "April Fools [[Faxion]]s"
+
+[[File:ADnD2eRev.png|300px|center|AD&amp;D 2nd Edition Revised]]
+
+* ''April 25'': A revised version of the AD&amp;D 2nd Edition is released, bringing with it a new AD&amp;D logo (which drops the "2nd Edition"). All Planescape products starting with May's ''A Player's Primer to the Outlands'' bear the new logo (including reprints of earlier titles).
+** {{dd|Player's Handbook (2e revised)|alt=Player's Handbook|pdf=16868|nip=1}}, referenced in:
+*** {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1}} (reprint)
+*** {{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1}}
+*** {{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277}}
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix II}}
+*** {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1}}
+*** {{b|Planescape|Doors to the Unknown|pdf=17290|nip=1}}
+*** {{b|D&amp;D|Guide to Hell|pdf=17390}}
+** {{dd|Dungeon Master Guide (2e revised)|alt=Dungeon Master Guide|pdf=17552|nip=1}}, referenced in:
+*** {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1}} (reprint)
+*** {{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1}}
+*** {{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277}}
+*** {{b|Planescape|Planescape Monstrous Compendium Appendix II}}
+*** {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1}}
+*** {{b|Planescape|Doors to the Unknown|pdf=17290|nip=1}}
+*** {{b|D&amp;D|Guide to Hell|pdf=17390}}
+
+== May ==
+* Released:
+** {{b|Planescape|A Player's Primer to the Outlands|pdf=17301}}
+** {{b|Dragon|Dragon Magazine 217}}. Key article: "Sage Advice"
+
+== June ==
+* Released:
+** {{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|nip=1}}
+** {{b|Blood Wars|Escalation Pack 2: Factols and Factions}}
+** {{b|Dragon|Dragon Magazine 218}}. Key article: "The Game Wizards: Flashpoint Sigil!"
+
+== July ==
+* Released:
+** {{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1}}
+
+== August ==
+* Released:
+** {{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277}}
+** {{b|Blood Wars|Escalation Pack 3: Powers and Proxies}}
+** {{dd|Chronomancer|pdf=17442}}
+*** An updated ''Chronomancer'' excerpt, ''[[Chronomancy &amp; the Multiverse]]'', is placed online for free.
+
+== September ==
+* Released:
+** {{b|Dragon|Dragon Magazine 221}}. Key article: "Lords of Chaos: Four Great Slaad-gods descend on the Multiverse"
+** {{b|Dungeon|Dungeon Magazine 55}}. Key article: "Umbra"
+
+== October ==
+* Released:
+** {{b|Ravenloft|The Nightmare Lands|pdf=17526|nip=1}}, referenced in:
+*** {{b|Planescape|Something Wild|pdf=17279}}
+
+== November ==
+* Released:
+** {{b|Planescape|Planescape Monstrous Compendium Appendix II}}
+** {{b|Dragon|Dragon Magazine 223}}. Key article: "The Lords of the Nine"
+
+== December ==
+* Released:
+** {{b|Planescape|Planes of Conflict (boxed set)|alt=Planes of Conflict|pdf=17278|nip=1}}
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1994]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1990d|1990s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1996]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>c85rxwh93nnt3xjmufgw00zqa80oqm9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1996</title>
+    <ns>0</ns>
+    <id>2768</id>
+    <revision>
+      <id>6879</id>
+      <parentid>6873</parentid>
+      <timestamp>2025-08-01T17:10:31Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>tip</comment>
+      <origin>6879</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2578" sha1="7i0eio2b7i4ys8dcn2w8fwohaqo434g" xml:space="preserve">[[File:ADnD2eRev.png|300px|center|AD&amp;D 2nd Edition Revised]]
+{{timeline|1996}}
+
+* Released:
+** {{b|Planescape|Conspectus|pdf=284496}}
+** {{Forgotten Realms|Forgotten Realms Campaign Setting 2nd edition (revised)|alt=Forgotten Realms Campaign Setting (Revised)|pdf=283992}}, referenced in:
+*** {{b|Planescape|On Hallowed Ground|pdf=121101|nip=1}}
+** {{b|Ravenloft|Monstrous Compendium: Ravenloft Appendices I &amp; II|pdf=17485}}, referenced in:
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== January ==
+* Released:
+** {{b|Planescape|The Blood Wars 1: Blood Hostages}}
+** {{b|Blood Wars|Warlord's Tactical Manual}}
+** {{dd|Monstrous Compendium Annual Volume Two}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== March ==
+* Released:
+** {{b|Planescape|Something Wild|pdf=17279}}
+** {{b|Blood Wars|Escalation Pack 4: Insurgents of the Inner Planes}} (Cancelled)
+** {{b|Dragon|Dragon Magazine 227}}. Key article: "[[Blood Wars]]: Tactics for Two"
+
+== April ==
+** {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1}}
+** {{Forgotten Realms|Faiths &amp; Avatars|pdf=17569}}, referenced in:
+*** {{b|Planescape|On Hallowed Ground|pdf=121101|nip=1}}
+
+== May ==
+* Released:
+** {{b|Dragon|Dragon Magazine 229}}. Key article: "Role-Playing Reviews"
+
+== June ==
+* Released:
+** {{b|Planescape|The Blood Wars 2: Abyssal Warriors}}
+** {{b|Dragon|Dragon Magazine 230}}. Key article: "Sage Advice"
+
+== July ==
+* Released:
+** {{b|Planescape|Hellbound: The Blood War|pdf=17281|nip=1}}
+** {{b|Dungeon|Dungeon Magazine 60}}. Key article: "Nemesis"
+
+== September ==
+* Released:
+** {{b|Planescape|The Planewalker's Handbook|pdf=17280|nip=1}}
+** {{b|Planescape|Pages of Pain}}
+** {{b|Dragon|Dragon Magazine 233}}. Key article: "Fiendish Fortresses"
+
+== October ==
+* Released:
+** {{b|Planescape|On Hallowed Ground|pdf=121101|nip=1}}
+** {{b|Dragon|Dragon Magazine 234}}. Key article: "Role-Playing Reviews"
+
+== November ==
+* Released:
+** {{b|Planescape|A Guide to the Astral Plane|pdf=17287}}
+** {{b|Dragon|Dragon Magazine 235}}. Key article: "Planar Heroes"
+** {{b|Dragon|Dragon Annual 1}}. Key article: "A Handful of Keys: Portal Transportation in the Planescape Campaign"
+
+== December ==
+* Released:
+** {{b|Planescape|Doors to the Unknown|pdf=17290|nip=1}}
+** {{b|Dragon|Dragon Magazine 236}}. Key article: "Role-Playing Reviews"  
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1995]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1990d|1990s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1997]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>7i0eio2b7i4ys8dcn2w8fwohaqo434g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1997</title>
+    <ns>0</ns>
+    <id>2769</id>
+    <revision>
+      <id>6874</id>
+      <parentid>6558</parentid>
+      <timestamp>2025-08-01T17:05:42Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>nip</comment>
+      <origin>6874</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1583" sha1="0ih80jl2ayksw0b87j6e3mdoyqjg724" xml:space="preserve">[[File:ADnD2eRev.png|300px|center|AD&amp;D 2nd Edition Revised]]
+{{timeline|1997}}
+
+Deep in dept, TSR sells itself to Wizards of the Coast. Due to the surrounding issues, few products are released in the first half of the year, and nothing at all for Planescape.
+
+== January ==
+** {{dd|Monstrous Compendium Annual Volume Three|pdf=16906}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== July ==
+* Released:
+** {{b|Planescape|The Blood Wars 3: Planar Powers}}
+** {{Forgotten Realms|Finder's Bane|alt=The Lost Gods 1: Finder's Bane}}
+
+== September ==
+* Released:
+** {{b|Planescape|Faces of Evil: The Fiends|pdf=121100}}
+
+== October ==
+* Released:
+** {{b|Planescape|The Great Modron March|pdf=17302|nip=1}}
+** {{Dragonlance|Fistandantilus Reborn|alt=The Lost Gods 2: Fistandantilus Reborn}}
+** {{b|Dragon|Dragon Magazine 240}}. Key article: "Mysteries of the Dead Gods"
+
+== November ==
+* Released:
+** {{b|Planescape|Dead Gods|pdf=17297|nip=1}}
+** {{b|Dragon|Dragon Magazine 241}}. Key article: "Modron Magic: The Sorcery of Structure"
+** {{b|Dragon|Dragon Annual 2}}. Key article: "Pox of the Planes"
+
+== December ==
+* Released:
+** {{b|Planescape|Pages of Pain}} (paperback)
+** {{Forgotten Realms|Tymora's Luck|alt=The Lost Gods 3: Tymora's Luck}}
+** {{b|Polyhedron|Polyhedron Magazine 127}}. Key article: "The Day of Grace"
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1996]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1990d|1990s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1998]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>0ih80jl2ayksw0b87j6e3mdoyqjg724</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1998</title>
+    <ns>0</ns>
+    <id>2770</id>
+    <revision>
+      <id>6880</id>
+      <parentid>6875</parentid>
+      <timestamp>2025-08-01T17:11:43Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>tip</comment>
+      <origin>6880</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2413" sha1="jt4i4bi5shqwh4wnad76by3umt5p1f0" xml:space="preserve">[[File:ADnD2eRev.png|300px|center|AD&amp;D 2nd Edition Revised]]
+{{timeline|1998}}
+
+== January ==
+* Released:
+** {{b|Dragon|Dragon Magazine 243}}. Key article: "Destriers of the Planes: Magical Steeds for Knights of All Alignments"
+** {{dd|Monstrous Compendium Annual Volume Four|pdf=16935}}
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== March ==
+* Released:
+** {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294}}
+** {{b|Dragon|Dragon Magazine 245}}. Key article: "Bazaar of the Bizarre: Dwarven Relics"
+
+== May ==
+* Released:
+** {{b|Planescape|Tales from the Infinite Staircase|pdf=17291|nip=1}}
+** {{Forgotten Realms|For Duty &amp; Deity|pdf=17576|nip=1}}, referenced in:
+*** {{b|Planescape|Tales from the Infinite Staircase|pdf=17291|nip=1}}
+
+== July ==
+* Released:
+** {{dd|Return to the Tomb of Horrors|pdf=17473}}, referenced in:
+*** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+== August ==
+* Released:
+** {{b|Planescape|A Guide to the Ethereal Plane|pdf=17293|nip=1}}
+
+== September ==
+* Released:
+** {{b|D&amp;D|A Paladin in Hell|pdf=17356|nip=1}}
+
+== October ==
+* Released:
+** {{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299}}
+
+== November ==
+* Released:
+** {{b|Dragon|Dragon Annual 3}}. Key article: "Planar Pestilence"
+
+== December ==
+* Released:
+** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}, the final product for AD&amp;D 2nd Edition Planescape
+** {{b|D&amp;D|Monstrous Compendium Annual, Volume Four|pdf=16935}}
+*** [[Darklore]]
+*** [[Mercurial]]
+*** Lesser [[Tanar'ri]]: [[Uridezu]]
+** {{b|Polyhedron|Polyhedron 133}}. Key article: "Stench Kine Recipes!"
+
+== Background Information ==
+
+* Although ''Faction War'''s epilogue promised that upcoming products would change things further and allow the factions back into Sigil, unfortunately it would prove to be the penultimate product for the line before Wizards of the Coast decided to cancel it, leaving Sigil to be factionless for years to come. Other planned planar projects were folded into the main D&amp;D line. For example, the planned counterpart to ''Faces of Evil: The Fiends'', "Faces of Good: The Celestials," was rebranded as "Warriors of Heaven."
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1997]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1990d|1990s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[1999]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>jt4i4bi5shqwh4wnad76by3umt5p1f0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1999</title>
+    <ns>0</ns>
+    <id>2771</id>
+    <revision>
+      <id>6494</id>
+      <parentid>5658</parentid>
+      <timestamp>2025-06-10T07:37:24Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>d&amp;d</comment>
+      <origin>6494</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1547" sha1="dp7rgfafrb3kivyjv2mpv0rj6i76pz6" xml:space="preserve">[[File:ADnD2eRev.png|300px|center|AD&amp;D 2nd Edition Revised]]
+{{timeline|1999}}
+
+== March ==
+* Released:
+** {{b|D&amp;D|TSR Jam 1999|pdf=17292}}. Adventure: "The Manxome Foe"
+
+== April ==
+** {{b|Planescape|Servants of Light: The Celestials}} (postponed to October, renamed "Warriors of Heaven" after cancellation of Planescape)
+** {{b|Dragon|Dragon Magazine 258}}. Key article: "Sage Advice"
+** {{b|Polyhedron|Polyhedron Magazine 135}}. Key article: "Gifts from Below"
+
+== August ==
+* Released:
+** {{b|Dragon|Dragon Magazine 262}}. Key article: "Creatures of Torment"
+*** [[Gronk]]
+*** [[Grillig]]
+*** [[Sohmien]]
+*** [[Trelon]]
+** {{b|Polyhedron|Polyhedron Magazine 137}}. Key article: "Of Sigil and the Sea"
+
+== September ==
+* Released:
+** {{b|D&amp;D|Warriors of Heaven|pdf=17387}}
+
+== October ==
+* Released:
+** {{b|Dragon|Dragon Magazine 264|pdf=17299}}. Key article: "Rogue's Gallery: Planescape Torment"
+*** [[Morte]]
+*** [[Ravel Puzzlwell]]
+*** [[Pharod Wormhair]]
+*** [[Fall-from-Grace]]
+
+== November ==
+* Released:
+** {{b|Torment|Planescape: Torment (novel)|alt=Planescape: Torment novelization}}
+** {{b|D&amp;D|Guide to Hell|pdf=17390}}
+** {{b|Dragon|Dragon Magazine 265}}. Key article: "Sage Advice"
+
+== December ==
+* Released:
+* ''December 10'': Released:
+** {{b|Torment|Planescape: Torment}}
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1998]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[1990d|1990s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[2000]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>dp7rgfafrb3kivyjv2mpv0rj6i76pz6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>19 BFHR</title>
+    <ns>0</ns>
+    <id>2491</id>
+    <revision>
+      <id>4307</id>
+      <parentid>4302</parentid>
+      <timestamp>2024-01-14T22:17:42Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>bad at math</comment>
+      <origin>4307</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="289" sha1="ox4vk9dmmaylro5ppeh64pp5gaf9fbp" xml:space="preserve">{{BFHR|19}}
+
+==Events==
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[20 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[10d BFHR|10s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[18 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>ox4vk9dmmaylro5ppeh64pp5gaf9fbp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2000</title>
+    <ns>0</ns>
+    <id>2772</id>
+    <revision>
+      <id>6495</id>
+      <parentid>5640</parentid>
+      <timestamp>2025-06-10T07:38:19Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>d&amp;d</comment>
+      <origin>6495</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1283" sha1="8y9j5jm4hbwced2x8b8zbcmvklexr71" xml:space="preserve">[[File:ADnD2eRev.png|300px|center|AD&amp;D 2nd Edition Revised]]
+{{timeline|2000}}
+
+== January ==
+* Released:
+** {{b|D&amp;D|The Vortex of Madness and Other Planar Perils|pdf=17282|nip=1}}
+
+== April ==
+* Released:
+** {{b|Dragon|Dragon Magazine 270}}. Key article: "Tormenting your PCs"
+
+== June ==
+* Released:
+** {{b|D&amp;D|Die Vecna Die!|pdf=17483|nip=1}}. The final title for AD&amp;D 2nd Edition returns to Sigil, and kicks off a planar realignment that sets the stage for 3rd Edition.
+** {{b|Dragon|Dragon Magazine 272}}. Key article: "Bazaar of the Bizarre: The Planar Armory"
+
+== August ==
+[[File:DnD3e.png|300px|center|D&amp;D 3rd Edition]]
+
+* ''August 10'': Dungeons &amp; Dragons 3rd Edition begins with the release of the new 3rd Edition ''Player's Handbook''. The new edition drops the "Advanced," uniting both branches of the D&amp;D ruleset, and drops the TSR branding in favor of Wizards of the Coast's own logos.
+
+== November ==
+* ''November 11'': [[Tony DiTerlizzi]] marries his girlfriend and frequent model [[Angela DiTerlizzi|Angela]].
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1999]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[2000d|2000s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[2001]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>8y9j5jm4hbwced2x8b8zbcmvklexr71</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2000d</title>
+    <ns>0</ns>
+    <id>2810</id>
+    <revision>
+      <id>4974</id>
+      <timestamp>2024-02-17T21:16:27Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4974</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="461" sha1="pzzmzp6opeeorhujdoxa5oavfn3kpsg" xml:space="preserve">The first decade of the 21st century.
+
+*[[2000]]
+*[[2001]]
+*[[2002]]
+*[[2003]]
+*[[2004]]
+*[[2005]]
+*[[2006]]
+*[[2007]]
+*[[2008]]
+*[[2009]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[1990d|1990s]]
+| class="topic"|'''Timeline'''&lt;br/ &gt;[[:Category:Real-world Timeline|Timeline]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[2010d|2010s]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>pzzmzp6opeeorhujdoxa5oavfn3kpsg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2001</title>
+    <ns>0</ns>
+    <id>2773</id>
+    <revision>
+      <id>6807</id>
+      <parentid>6806</parentid>
+      <timestamp>2025-06-30T12:41:12Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>lk</comment>
+      <origin>6807</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1087" sha1="k2dqr6cnf9nb6g34kttxgpf5nr63sdo" xml:space="preserve">[[File:DnD3e.png|300px|center|D&amp;D 3rd Edition]]
+{{timeline|2001}}
+
+== March ==
+* Released:
+** {{b|D&amp;D|The Quesar}} ({{b|D&amp;D|Warriors of Heaven|pdf=17387}} free web enhancement)
+
+== June ==
+* Released:
+** The {{Forgotten Realms|Forgotten Realms Campaign Setting 3rd edition|alt=Forgotten Realms Campaign Setting}} for 3e is released, allowing players to play versions of [[tiefling]]s and [[eladrin]] [[race]]s from ''[[Planescape]]''.
+
+== September ==
+* Released:
+** {{b|Dragon|Dragon Magazine 287}}. Key article: "Fractious Factions: Planar Prestige Classes." This article presents 3e prestige classes for the [[Athar]], [[Doomguard]], [[Fated]], [[Society of Sensation]], [[Transcendent Order]], and [[Xaositects]]. It also acknowledges the [[Faction War]].
+** {{b|D&amp;D|Manual of the Planes 3e|alt=Manual of the Planes|pdf=25109}}
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[2000]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[2000d|2000s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[2002]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>k2dqr6cnf9nb6g34kttxgpf5nr63sdo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2002</title>
+    <ns>0</ns>
+    <id>3294</id>
+    <revision>
+      <id>6813</id>
+      <timestamp>2025-07-03T01:52:34Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>6813</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="392" sha1="54ocev425b83fxk35mj7gtt04ynkxhf" xml:space="preserve">[[File:DnD3e.png|300px|center|D&amp;D 3rd Edition]]
+{{timeline|2002}}
+
+== October ==
+* Released:
+** {{b|D&amp;D|Book of Vile Darkness|pdf=3723}}
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[2001]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[2000d|2000s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[2003]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>54ocev425b83fxk35mj7gtt04ynkxhf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2003</title>
+    <ns>0</ns>
+    <id>2774</id>
+    <revision>
+      <id>6814</id>
+      <parentid>6497</parentid>
+      <timestamp>2025-07-03T01:53:25Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>exalted</comment>
+      <origin>6814</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="856" sha1="9x6ruyv42etgu5uhwhu7881qgmrdtcg" xml:space="preserve">[[File:DnD3e.png|300px|center|D&amp;D 3rd Edition]]
+{{timeline|2003}}
+
+== July ==
+* Like the 2nd Edition before it, Dungeons &amp; Dragons 3rd Edition is updated with a revised ''Player's Handbook'', dubbed 3.5 edition.
+
+== October ==
+* Released:
+** {{b|D&amp;D|Book of Exalted Deeds|pdf=25928}}
+
+
+== November ==
+* Released:
+** {{b|Planescape|The Unity of Rings}}. A promotional comic created, but never published, for Planescape's 1994 release was discovered while preparing for an office move, and was placed online for free.
+** {{b|Dragon|Dragon Magazine 305}}. Key article: "Cities of the Planes: [[N'Gati]]"
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[2002]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[2000d|2000s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[2004]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>9x6ruyv42etgu5uhwhu7881qgmrdtcg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2004</title>
+    <ns>0</ns>
+    <id>2775</id>
+    <revision>
+      <id>6498</id>
+      <parentid>5643</parentid>
+      <timestamp>2025-06-10T07:41:08Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>d&amp;d</comment>
+      <origin>6498</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1128" sha1="25zghs7cbk28ub2zpgpek69z4dkulg0" xml:space="preserve">[[File:DnD3e.png|300px|center|D&amp;D 3rd Edition]]
+{{timeline|2004}}
+
+== January ==
+* Released:
+** {{b|Dragon|Dragon Magazine 315}}. Key article: "The Exiled Factions." A look at six factions for the 3.5 rules: the [[Athar]], [[Fraternity of Order]], [[Doomguard]], [[Harmonium]], [[Fated]], and [[Revolutionary League]].
+
+== July ==
+* Released:
+** {{b|D&amp;D|Planar Handbook|pdf=27882}}. Prestige classes and faction updates for the [[Athar]], [[Doomguard]], [[Fated]], [[Mind's Eye]], [[Society of Sensation]], [[Transcendent Order]], and [[Xaositects]] are covered.
+
+== Background Information ==
+The Planar Handbook refers to the [[Faction War]] as taking place "a few years ago." While vague, it does suggest that there's no major time jump between 2nd and 3rd editions.&lt;ref name="plhb144"&gt;{{b|D&amp;D|Planar Handbook|pdf=27882|page=144}}&lt;/ref&gt;
+
+== References ==
+
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[2003]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[2000d|2000s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[2005]]
+|}
+
+[[Category:Real-world Timeline]]</text>
+      <sha1>25zghs7cbk28ub2zpgpek69z4dkulg0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>20 BFHR</title>
+    <ns>0</ns>
+    <id>2489</id>
+    <revision>
+      <id>4301</id>
+      <parentid>4299</parentid>
+      <timestamp>2024-01-14T22:10:14Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>whoops, miscalculated</comment>
+      <origin>4301</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="305" sha1="gl8uj81fpl8y8c99runwayh1klt9494" xml:space="preserve">{{BFHR|20}}
+
+==Events==
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[21 BFHR|21 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[20d BFHR|20s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[19 BFHR|19 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>gl8uj81fpl8y8c99runwayh1klt9494</sha1>
+    </revision>
+  </page>
+</mediawiki>

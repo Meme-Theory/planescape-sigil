@@ -1,0 +1,2053 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Planescape Wiki</sitename>
+    <dbname>planescape</dbname>
+    <base>https://planescape.fandom.com/wiki/Planescape_Wiki</base>
+    <generator>MediaWiki 1.43.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Planescape Wiki</namespace>
+      <namespace key="5" case="first-letter">Planescape Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>800c BFHR</title>
+    <ns>0</ns>
+    <id>2608</id>
+    <revision>
+      <id>4552</id>
+      <timestamp>2024-01-19T06:23:47Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4552</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="631" sha1="bfaxdif0033nh72qzinb6mdr5igwt3x" xml:space="preserve">Nine centuries before [[Factol]] [[Hashkar]]'s Reign.
+
+*[[890d BFHR|890s BFHR]]
+*[[880d BFHR|880s BFHR]]
+*[[870d BFHR|870s BFHR]]
+*[[860d BFHR|860s BFHR]]
+*[[850d BFHR|850s BFHR]]
+*[[840d BFHR|840s BFHR]]
+*[[830d BFHR|830s BFHR]]
+*[[820d BFHR|820s BFHR]]
+*[[810d BFHR|810s BFHR]]
+*[[800d BFHR|800s BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev" |'''Previous Century'''&lt;br /&gt;[[900c BFHR|900s BFHR]]
+| class="topic" |'''[[Timeline]]'''&lt;br /&gt;[[0m BFHR|1st millennium BFHR]]
+| class="next" |'''Next Century'''&lt;br /&gt;[[700c BFHR|700s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>bfaxdif0033nh72qzinb6mdr5igwt3x</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>80 YFHR</title>
+    <ns>0</ns>
+    <id>2617</id>
+    <revision>
+      <id>4570</id>
+      <timestamp>2024-01-19T16:15:28Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4570</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="513" sha1="r9ryr1cxak6bc6mvav4jk9y7yqt9k0j" xml:space="preserve">{{YFHR|80}}
+
+==Events==
+
+* [[Dalton]] takes over as overseer of the [[Believer's Forge]], a [[Believers of the Source]] haven in the [[Ethereal plane]].&lt;ref name="tftis78"&gt;{{b|Planescape|Tales from the Infinite Staircase|pdf=17291|page=78}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[79 YFHR|79]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[80d YFHR|80s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[81 YFHR|81]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>r9ryr1cxak6bc6mvav4jk9y7yqt9k0j</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>80d BFHR</title>
+    <ns>0</ns>
+    <id>2844</id>
+    <revision>
+      <id>5048</id>
+      <parentid>5047</parentid>
+      <timestamp>2024-03-04T03:14:14Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>oops</comment>
+      <origin>5048</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="476" sha1="tg3bcm4bqawh7mik205fhc3rnfa21v3" xml:space="preserve">Nine decades before Factol Hashkar's reign begins.
+
+*[[89 BFHR]]
+*[[88 BFHR]]
+*[[87 BFHR]]
+*[[86 BFHR]]
+*[[85 BFHR]]
+*[[84 BFHR]]
+*[[83 BFHR]]
+*[[82 BFHR]]
+*[[81 BFHR]]
+*[[80 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[90d BFHR|90s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c BFHR|0s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[70d YFHR|70s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>tg3bcm4bqawh7mik205fhc3rnfa21v3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>80d YFHR</title>
+    <ns>0</ns>
+    <id>2533</id>
+    <revision>
+      <id>4383</id>
+      <timestamp>2024-01-15T07:02:44Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4383</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="480" sha1="253996u0404cw4vgnzw94o6ugt4ezza" xml:space="preserve">The ninth decade of the first century of Factol Hashkar's Reign.
+
+*[[80 YFHR]]
+*[[81 YFHR]]
+*[[82 YFHR]]
+*[[83 YFHR]]
+*[[84 YFHR]]
+*[[85 YFHR]]
+*[[86 YFHR]]
+*[[87 YFHR]]
+*[[88 YFHR]]
+*[[89 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[70d YFHR|70s]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c YFHR|0s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[90d YFHR|90s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>253996u0404cw4vgnzw94o6ugt4ezza</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>850d BFHR</title>
+    <ns>0</ns>
+    <id>2583</id>
+    <revision>
+      <id>4524</id>
+      <timestamp>2024-01-19T05:51:23Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4524</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="gzybeqzjfdluwlne19x93j0o82y3a2f" xml:space="preserve">86 decades before Factol Hashkar's reign begins.
+
+*[[859 BFHR]]
+*[[858 BFHR]]
+*[[857 BFHR]]
+*[[856 BFHR]]
+*[[855 BFHR]]
+*[[854 BFHR]]
+*[[853 BFHR]]
+*[[852 BFHR]]
+*[[851 BFHR]]
+*[[850 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[860d BFHR|860s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[800c BFHR|800s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[840d BFHR|840s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>gzybeqzjfdluwlne19x93j0o82y3a2f</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>856 BFHR</title>
+    <ns>0</ns>
+    <id>2561</id>
+    <revision>
+      <id>4444</id>
+      <timestamp>2024-01-17T04:50:13Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4444</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="618" sha1="lyiv54v46coh0w8jbkuorqe5py1655a" xml:space="preserve">{{BFHR|856}}
+
+==Events==
+* The [[Fraternity of Order]] becomes an organized group, establishing the rules for charting a [[faction]]. Accordingly, since they were the first chartered under their own rules, the Guvners consider themselves the first and oldest faction.&lt;ref name="fm69"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=69}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[857 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[850d BFHR|850s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[855 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>lyiv54v46coh0w8jbkuorqe5py1655a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>85 YFHR</title>
+    <ns>0</ns>
+    <id>2747</id>
+    <revision>
+      <id>4861</id>
+      <parentid>4860</parentid>
+      <timestamp>2024-02-10T08:36:32Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>torment</comment>
+      <origin>4861</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="772" sha1="46jhdyo2b1gxcce0i6o7gz379u6xbgz" xml:space="preserve">{{YFHR|85}}
+
+==Events==
+
+* [[Ingress]] is born.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}&lt;/ref&gt;
+* [[Miccah]] and [[Brokah]] get married.&lt;ref name="pstmb"&gt;{{b|Planescape|Planescape: Torment}}. "She is my devoted wife of some two-score years..."&lt;/ref&gt;
+
+== Background Information ==
+
+* Miccah and Brokah's memories are inconsistent: Brokah claims Miccah is his "wife of some two-score years" (a score is 20, so two-score is 40), while Miccah claims that Brokah is her "husband of twenty-some years."
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[84 YFHR|84]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[80d YFHR|80s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[86 YFHR|86]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>46jhdyo2b1gxcce0i6o7gz379u6xbgz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>870d BFHR</title>
+    <ns>0</ns>
+    <id>2582</id>
+    <revision>
+      <id>4526</id>
+      <parentid>4523</parentid>
+      <timestamp>2024-01-19T05:53:11Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>sort</comment>
+      <origin>4526</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="libyzjhfn6k2nlxyqqbxfgxtno4ovx2" xml:space="preserve">88 decades before Factol Hashkar's reign begins.
+
+*[[879 BFHR]]
+*[[878 BFHR]]
+*[[877 BFHR]]
+*[[876 BFHR]]
+*[[875 BFHR]]
+*[[874 BFHR]]
+*[[873 BFHR]]
+*[[872 BFHR]]
+*[[871 BFHR]]
+*[[870 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[880d BFHR|880s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[800c BFHR|800s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[860d BFHR|860s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>libyzjhfn6k2nlxyqqbxfgxtno4ovx2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>873 BFHR</title>
+    <ns>0</ns>
+    <id>2578</id>
+    <revision>
+      <id>5282</id>
+      <parentid>5280</parentid>
+      <timestamp>2024-04-05T21:08:47Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>four door</comment>
+      <origin>5282</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="721" sha1="571hfwsad07zwf59h3n2t0wgnz8us2e" xml:space="preserve">{{BFHR|873}}
+
+==Events==
+
+* [[Four Doors|Four portals]] around [[Sigil]] appear, and vanish again two months later. The [[mercurial]] [[Lathuraz]] arrives from beyond the Fourth Door and begins a reign of terror across the multiverse.&lt;ref name="dttu4"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|page=4}}&lt;/ref&gt; The chronicler [[Triand]] writes about the [[Four Doors]].&lt;ref name="dttu37"&gt;{{b|Planescape|Doors to the Unknown|pdf=17290|page=37}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[874 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[870d BFHR|870s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[872 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>571hfwsad07zwf59h3n2t0wgnz8us2e</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>874 BFHR</title>
+    <ns>0</ns>
+    <id>2548</id>
+    <revision>
+      <id>4499</id>
+      <parentid>4496</parentid>
+      <timestamp>2024-01-17T23:19:35Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>uncaged</comment>
+      <origin>4499</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="967" sha1="3h19cn5txv7wvktugo8tsvz0ugio0c1" xml:space="preserve">{{BFHR|874}}
+
+==Events==
+* The [[Order of the Planes-Militant]], a [[Mount Celestia]] [[Sect]], is founded.&lt;ref name="polmtc11"&gt;{{b|Planescape|Planes of Law|pdf=17272|page=11, Mount Celestia}}&lt;/ref&gt;
+* Around this time, in a meeting in the catacombs beneath [[Sigil]], twelve of the city's [[factol]]s met to beg the [[Lady of Pain]] to deal with the [[Expansionists]]. The Expansionist factol [[Vartus Timlin]] was [[Maze]]d soon after.&lt;ref name="itc73"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=73}}&lt;/ref&gt;&lt;ref name="uncaged42"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=42}}&lt;/ref&gt;&lt;ref name="uncaged89"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=89}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[875 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[870d BFHR|870s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[873 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>3h19cn5txv7wvktugo8tsvz0ugio0c1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>87 YFHR</title>
+    <ns>0</ns>
+    <id>2553</id>
+    <revision>
+      <id>5102</id>
+      <parentid>4446</parentid>
+      <timestamp>2024-03-13T03:26:49Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>link</comment>
+      <origin>5102</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1059" sha1="tstf0z1bl4s2ym5s5sdtv3zl5iib973" xml:space="preserve">{{YFHR|87}}
+
+==Events==
+* [[Sign of One|Cipher]] [[Imel Brustur]] is directed by his [[factol]] to retrieve a squid, in order to wine and dine an ambassador from [[Ysgard]]. Through a series of miscommunications, Imel ends up at [[S&amp;J Transport]] with a spelljamming [[squid-ship]] and a big dept to pay, and only 24 hours to pay it. He convinces a trio of [[Doomguard]] to buy the "magnificent pirate ship," pays off his debt, and invests in a building on [[Risvold Street]]. It becomes one of Sigil's premier eateries, [[Imel's Happy Tongue]].&lt;ref name="itc82"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=82}}&lt;/ref&gt;
+* [[Jamis]], future Bureau Chief of the Ad Hoc Bureau of Courts, is born.&lt;ref name="fm72"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=72}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[86 YFHR|86]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[80d YFHR|80s YFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[88 YFHR|88]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>tstf0z1bl4s2ym5s5sdtv3zl5iib973</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>90 YFHR</title>
+    <ns>0</ns>
+    <id>2618</id>
+    <revision>
+      <id>4571</id>
+      <timestamp>2024-01-19T16:23:47Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4571</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="594" sha1="jx5d88lk2fyp41o5erkoo0andrgszl1" xml:space="preserve">{{YFHR|90}}
+
+==Events==
+* The hero [[Vhans]] of Lostcrag thrusts a [[chillsword]] into the crust in the [[Paraelemental Plane of Magma]]. The sword's effects cancel out those of the plane. In the safe area, travelers create a city, [[Nevermore]].&lt;ref name="tip78"&gt;{{b|Planescape|The Inner Planes|pdf=17296|page=78}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[89 YFHR|89]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[90d YFHR|90s YFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[91 YFHR|91]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>jx5d88lk2fyp41o5erkoo0andrgszl1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>90d YFHR</title>
+    <ns>0</ns>
+    <id>2524</id>
+    <revision>
+      <id>4384</id>
+      <parentid>4371</parentid>
+      <timestamp>2024-01-15T07:03:05Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>ten</comment>
+      <origin>4384</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="482" sha1="cxgsp9jdz1v6lgcvspx4o3wh3afxd8z" xml:space="preserve">The tenth decade of the first century of Factol Hashkar's Reign.
+
+*[[90 YFHR]]
+*[[91 YFHR]]
+*[[92 YFHR]]
+*[[93 YFHR]]
+*[[94 YFHR]]
+*[[95 YFHR]]
+*[[96 YFHR]]
+*[[97 YFHR]]
+*[[98 YFHR]]
+*[[99 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[80d YFHR|80s]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c YFHR|0s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[100d YFHR|100s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>cxgsp9jdz1v6lgcvspx4o3wh3afxd8z</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>92 YFHR</title>
+    <ns>0</ns>
+    <id>2554</id>
+    <revision>
+      <id>4425</id>
+      <timestamp>2024-01-17T01:14:06Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4425</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="421" sha1="d045uy19y0z2wmpif3o5q5n42vxfew2" xml:space="preserve">{{YFHR|92}}
+
+==Events==
+* [[Bronze Bezants]] opens its doors.&lt;ref name="itc90"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=90}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[91 YFHR|91]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[90d YFHR|90s YFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[93 YFHR|93]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>d045uy19y0z2wmpif3o5q5n42vxfew2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>93 YFHR</title>
+    <ns>0</ns>
+    <id>2750</id>
+    <revision>
+      <id>4859</id>
+      <timestamp>2024-02-10T08:32:07Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4859</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="679" sha1="cl0wv91g9kwto8xfqtqt7q5hafsuq46" xml:space="preserve">{{YFHR|93}}
+
+==Events==
+
+* An [[Arcadian Stained Glass Window]] is found hovering in [[Nemausus]], depicting a scene that has not yet occurred.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}.&lt;/ref&gt;
+
+== Background Information ==
+* Given the stained glass window is found in "Arcadia's third layer," the event it foretells is likely the [[cosmic realignment]] that had the entire layer shift into [[Mechanus]].
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[92 YFHR|92]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[90d YFHR|90s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[94 YFHR|94]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>cl0wv91g9kwto8xfqtqt7q5hafsuq46</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>94 YFHR</title>
+    <ns>0</ns>
+    <id>2566</id>
+    <revision>
+      <id>4485</id>
+      <parentid>4482</parentid>
+      <timestamp>2024-01-17T22:19:52Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>lk</comment>
+      <origin>4485</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="840" sha1="bt1f22lkqtmss1yvvbx8n6xalktwu0t" xml:space="preserve">{{YFHR|94}}
+
+==Events==
+
+* [[Erin Darkflame Montgomery]], future [[factol]] of the [[Society of Sensation]], is born in the village of [[Grim's Head]] in [[Tir na Og]].&lt;ref name="fm133"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=133}}&lt;/ref&gt;
+* A [[Fraternity of Order|Guvner]], [[Scunbaa]], offers to pay a 50 gold bounty for the head of a [[diakk]], after one kills their brother in the [[Gray Waste]]. [[Tayll Nin]] decides to collect on the bounty. Repeatedly.&lt;ref name="pokms10"&gt;{{b|Planescape|Planes of Conflict|pdf=17278|page=10, Monstrous Supplement}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[93 YFHR|93]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[90d YFHR|90s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[95 YFHR|95]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>bt1f22lkqtmss1yvvbx8n6xalktwu0t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>95 YFHR</title>
+    <ns>0</ns>
+    <id>2746</id>
+    <revision>
+      <id>4855</id>
+      <parentid>4854</parentid>
+      <timestamp>2024-02-10T08:10:32Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>ref</comment>
+      <origin>4855</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="784" sha1="l7abllqrjzrbij01p2qv3okwdi8fs8o" xml:space="preserve">{{YFHR|95}}
+
+==Events==
+
+* A ten-year-old [[Ingress]] decides to stay in Sigil after all previous attempts to find a portal to her home ended in disaster.&lt;ref name="pstingress"&gt;{{b|Planescape|Planescape: Torment}}. "Since m'tenth Turning... I'm in me fourth tenth Turning that, now."&lt;/ref&gt;
+* [[Candrian Illborne]] last uses the portal to [[Ingress]]' home.&lt;ref name="pstcandrian"&gt;{{b|Planescape|Planescape: Torment}}. "I know the portal of which you speak, though I have not traveled it these thirty years gone."&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[94 YFHR|94]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[90d YFHR|90s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[96 YFHR|96]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>l7abllqrjzrbij01p2qv3okwdi8fs8o</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>97 YFHR</title>
+    <ns>0</ns>
+    <id>2557</id>
+    <revision>
+      <id>4439</id>
+      <parentid>4432</parentid>
+      <timestamp>2024-01-17T04:27:26Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>fm</comment>
+      <origin>4439</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="674" sha1="p822mgxj4vkil8gb5a02khp12p5kde2" xml:space="preserve">{{YFHR|97}}
+
+==Events==
+
+* The last known mass [[Grim Retreat]] -- the strange illness which impacts [[Bleak Cabal|Bleakers]] -- happens around this time. &lt;ref name="fm28"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=28}}&lt;/ref&gt;
+* [[Pentar]], future [[factol]] of the [[Doomguard]], is born in [[Xaos]] around this time.&lt;ref name="fm41"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=41}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[96 YFHR|96]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[90d YFHR|90s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[98 YFHR|98]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>p822mgxj4vkil8gb5a02khp12p5kde2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>99 YFHR</title>
+    <ns>0</ns>
+    <id>2611</id>
+    <revision>
+      <id>4561</id>
+      <timestamp>2024-01-19T15:46:36Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>psmca3</comment>
+      <origin>4561</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="534" sha1="msn971scu7lv0gachxg72eaykembsi4" xml:space="preserve">{{YFHR|99}}
+
+==Events==
+
+* [[Fraternity of Order]] planar explorer [[Rit'ha]] travels to the [[Quasi-Elemental Plane of Steam]] to converse with a [[klyndes]].&lt;ref name="pmcaiii56"&gt;{{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294|page=56}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[98 YFHR|98]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[90d YFHR|90s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[100 YFHR|100]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>msn971scu7lv0gachxg72eaykembsi4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>9 BFHR</title>
+    <ns>0</ns>
+    <id>2510</id>
+    <revision>
+      <id>4353</id>
+      <parentid>4343</parentid>
+      <timestamp>2024-01-15T06:24:12Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>math</comment>
+      <origin>4353</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="284" sha1="5hsx826vcpc6vb0vykfawra8iv78j47" xml:space="preserve">{{BFHR|9}}
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[10 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[0d BFHR|0s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[8 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>5hsx826vcpc6vb0vykfawra8iv78j47</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Guide to the Astral Plane</title>
+    <ns>0</ns>
+    <id>519</id>
+    <revision>
+      <id>7044</id>
+      <parentid>7003</parentid>
+      <timestamp>2025-08-27T07:34:59Z</timestamp>
+      <contributor>
+        <username>UnseenServantBot</username>
+        <id>11660122</id>
+      </contributor>
+      <minor/>
+      <comment>dmsguild links</comment>
+      <origin>7044</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3901" sha1="asc6swt6gk53m761apzv4ni2x68pp3m" xml:space="preserve">{{Book
+| image        = A-Guide-to-the-Astral-Plane-cover.jpg
+| caption      = 
+| code         = TSR2625
+| title        = A Guide to the Astral Plane
+| author       = [[Monte Cook]]
+| editor       = [[Miranda Horner]]
+| cover_artist = [[Robh Ruppel]]
+| inter_artist = [[Adam Rex]], [[Jason Behnke]], [[Tony DiTerlizzi]]
+| cartography  = [[Dennis Kauth]], [[Robert Lazzaretti]]
+| typography   = [[Angelika Lokotz]]
+| publisher    = [[TSR, Inc.]]
+| released     = October 1996
+| reprinted    = 
+| type         = Accessory
+| binding      = 
+| pages        = 96
+| languages    = 
+| realm year   = 
+| game_edition = 2
+| isbn10       = 0786904380
+| isbn13       = 978-0786904389
+| series       = 
+| preceded_by  = 
+| followed_by  = 
+| source       = 
+| Roll20number = 17287
+}}
+'''''A Guide to the Astral Plane''''' is a 2{{nd}}-edition ''Advanced Dungeons &amp; Dragons'' accessory. It is part of the ''Planescape'' campaign setting. 
+
+{{Quote|''Most berks think the Astral Plane's an empty place, serving as nothing but a cosmic highway connecting all the other places in the multiverse. Canny planewalkers know differently, though. Here are just a few of the 'secrets' of the Silver Void that this book explains:''
+* ''It is the backdrop of the multiverse, where phenomena such as space and time are so vastly different from 'normal' that only a true blood knows his way around.''
+* ''When he's on the Astral Plane, a basher moves, fights, and acts solely with his mind.''
+* ''It is the closest thing the multiverse has to a 'plane of magic,' where sorcery and spells are not only more powerful, but are palpable, tangible objects.''
+* ''The primary inhabitants are the infamous githyanki, an ancient race of wizards and warriors who know the dark of many secrets forbidden to others.''
+* ''The Astral Plane is literally the dead-book of the gods.''}}
+
+==Description==
+The book explains rules for astral travel, zero-gravity combat and spellcasting in the [[Astral Plane]]. It also provides information on the [[Githyanki]], the indigenous species on the Astral, which is suggested as an optional player species. The final section of the guide deals with other creatures that live on the plane, and describes a few locations.
+
+==Contents==
+* All The World's A Stage: Introduction
+* The Space Between: Astral Space and Time
+* Racing Through Nothing: Astral Movement
+* Mindwar: Astral Combat
+* Spellwarp: Astral Magic
+* Mind Over Matter: Proficiencies
+* The Spiritweb: Conduits
+* Holes in the Fabric: Color Pools
+* Forgotten Husks: Dead gods
+* Mindstorms: Psychic Winds
+* The Githyanki
+* Creatures of the Void: Other Astral Inhabitants
+* Locations in Nowhere: Specific Astral Encounters
+
+==Gallery==
+&lt;gallery&gt;
+A Guide to the Astral Plane Back Cover.jpg|''Back Cover''
+&lt;/gallery&gt;
+
+==Credits==
+* '''Designer:''' [[Monte Cook]]
+* '''Editor:''' [[Miranda Horner]]
+* '''Cover Artist:''' [[Robh Ruppel]]
+* '''Interior Artist:''' [[Jason Alexander Behnke]], [[Tony DiTerlizzi]], [[Adam Rex]]
+* '''Conceptual Artist:''' [[Dana Knutson]]
+* '''Cartographer:''' [[Dennis Kauth]] &amp; [[Rob Lazzaretti]]
+* '''Project Manager:''' [[Karen S. Boomgarden]]
+* '''Art Director:''' [[Bob Galica]]
+* '''Electronic Prepress Coordinator:''' [[Dave Conant]]
+* '''Typography:''' [[Angelika Lokotz]]
+* '''Graphic Design/Cover:''' [[Dawn Murin]]
+* '''Graphic Design:''' [[Dee Barnett]]
+* '''Proofreader:''' [[Ray Vallese]]
+* '''Special Thanks:''' [[Michele Carter]]
+* '''Dedication:''' To, who else, [[Timothy Leary]].
+
+==Appendix==
+===See Also===
+*[[:Category:Images from A Guide to the Astral Plane|Images from A Guide to the Astral Plane]]
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild}}
+* {{DriveThruRPG}}
+
+===Connections===
+{{Planescape sourcebooks}}
+[[Category:Planes sourcebooks]]
+[[Category:Sourcebooks]]
+[[Category:2nd edition sourcebooks]]
+[[Category:Works by Monte Cook]]
+[[Category:Published in 1996]]</text>
+      <sha1>asc6swt6gk53m761apzv4ni2x68pp3m</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Guide to the Ethereal Plane</title>
+    <ns>0</ns>
+    <id>516</id>
+    <revision>
+      <id>7041</id>
+      <parentid>7004</parentid>
+      <timestamp>2025-08-27T07:34:09Z</timestamp>
+      <contributor>
+        <username>UnseenServantBot</username>
+        <id>11660122</id>
+      </contributor>
+      <minor/>
+      <comment>dmsguild links</comment>
+      <origin>7041</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5398" sha1="1wzohrlf08vs7e664jpt5fgq95ahxt4" xml:space="preserve">{{Book
+| image        = GuideEthereal.jpg
+| code         = TSR2633
+| title        = A Guide to the Ethereal Plane
+| author       = [[Bruce R. Cordell]]
+| editor       = [[Michael Carter]]&lt;br/&gt;[[Keith Strohm]]
+| cover_artist = [[Randy Post]]
+| inter_artist = [[Adam Rex]]&lt;br/&gt;[[Hannibal King]]
+| cartography  = [[Sam Wood]]
+| typography   = [[Angelika Lokotz]]
+| publisher    = [[TSR]]
+| released     = August 1998
+| reprinted    =
+| realm year   =  
+| type         = Accessory
+| binding      = Paperback
+| pages        = 96
+| game_edition = 2
+| isbn10       = 0786912057
+| isbn13       = 978-0786912056
+| series       = 
+| preceded_by  = 
+| followed_by  = 
+| source       = 
+| Roll20number = 17293
+}}
+'''''A Guide to the Ethereal Plane''''' is an accessory for the ''Planescape''&lt;sup&gt;®&lt;/sup&gt; setting using the 2{{nd}}-edition [[AD&amp;D]] rules.
+
+{{Quote|''Within the Ethereal Plane, [[demiplane]] islands and creatures both odd and dangerous float in an endless field of possibility. Canny folks know that the Ethereal also leads the way to the [[Inner Planes]], infinite arenas of elemental fury. See, it's more than just a backdrop to other adventures - the [[plane]] itself offers wonder and opportunity for those with courage enough to explore its limitless expanse.''
+ 
+''This guide includes the following information:''
+* ''Ethereal environments and conditions - including methods of getting there in the first place''
+* ''How the alien medium of the [[Waveless Sea]] affects combat and [[magic]]''
+* ''New [[spell]]s, [[magical item]]s, and proficiencies dealing specifically with the Ethereal Plane''
+* ''The chant on demiplanes - islands in the Deep Ethereal that obey no rules but their own - including information on old and new demiplanes, plus DM guidelines for creating these unique "pocket dimensions"''
+* ''A complete listing of the creatures of the Ethereal, including several new monsters and an Ethereal encounter Table''
+* ''Two new Ethereal-based player character races: [[nathri]] and renegade [[nethling]]s''}}
+
+==Contents==
+* The Fabric of the Multiverse: Introduction
+* The Shape of the Waveless Sea
+* Standing on the Shore: The Border Ethereal
+* Into the Depths: The Deep Ethereal
+* Taming the Ether: Proficiencies
+* Spellwarp: Ethereal Magic
+* Islands in the Mist: The Demiplanes
+* Alternate Realities: Realms of Dreams and Powers
+* Creatures of the Mist: Ethereal Inhabitants
+* Locations in the Ether: Specific Ethereal Encounters
+* Appendix: Ethereal Encounter Table
+
+==Index==
+;Creatures:
+:[[aerial servant]] • [[apparition]] • [[basilisk]] • [[cerebral parasite]] • [[chulcix]] • [[cockatrice]] • [[devourer]] • [[dharculus]] • [[dhour]] • [[ebon tiger]] • [[ether horse]] • [[foo creature]] • [[ghost]] • [[gingwatzin]] • [[gk'lok-lok]] • [[magran]] • [[medusa]] • [[meme]] • [[memedi]] • [[Mordenkainen's faithful hound]] • [[nathri]] • [[nethling]] • [[phase spider]] • [[phirblas]] • [[plasm]] • [[rabbiun]] • [[sehdu]] • [[terithran]] • [[thought eater]] • [[tween]] • [[xill]]
+;Locations:
+:;Planes 
+:[[Ethereal plane]] • [[Demiplane of Dread]] • [[Demiplane of Electromagnetism]] • [[Demiplane of Nightmares]] • [[Demiplane of Imprisonment]] • [[Demiplane of Nightmares]] • [[Demiplane of Time]]
+:;Planets
+:[[Athas]] • [[Krynn]]
+
+==Appendix==
+===Credits===
+* '''Designer:''' [[Bruce R. Cordell]]
+* '''Editors:''' [[Michele Carter]] and [[Keith Strohm]]
+* '''Cover Artist:''' [[rk post]]
+* '''Interior Artists:''' [[Adam Rex]] and [[Hannibal King]]
+* '''Cartographer:''' [[Sam Wood]]
+* '''Brand Manager:''' [[Thomas Reid]]
+* '''Art Director:''' [[Dawn Murin]]
+* '''Typography:''' [[Angelika Lokotz]]
+* '''Graphic Designer:''' [[Matt Adelsperger]]
+* '''Conceptual Artist:''' [[Dana Knutson]]
+* '''Special Thanks to:''' [[John W. Mangrum, [[MagianChua]], [[Mr. Niceguy]], and the rest of the PLANESCAPE mailing list for their help in compiling the list of demiplanes.
+* '''Sources:''' Sources for this work include the following: {{b|Planescape|Planescape Campaign Setting|pdf=17267|nip=1}} by [[David Cook|Zeb Cook]]; {{b|Planescape|The Planewalker's Handbook|pdf=17280|nip=1}}, {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294}}, and {{b|Planescape|Tales from the Infinite Staircase|pdf=17291|nip=1}} by [[Monte Cook]]; {{b|Ravenloft|The Nightmare Lands|pdf=17526|nip=1}} by [[Shane Lacy Hensley]] and [[Bill Slavicsek]]; the {{b|Forgotten Realms|Desert of Desolation|pdf=196428}} adventure trilogy by [[Tracy Hickman]]; "The Demiplane of Shadow" ({{b|Dragon|Dragon Magazine 213}} article) by [[Edward Bonny]]; {{b|Greyhawk|Greyhawk Ruins|pdf=17421}} by [[Blake Mobley]] and [[Tim Brown]]; {{b|Dragonlance|Dragon's Rest|pdf=17371|nip=1}} by [[Rick Swan]]; {{b|D&amp;D|Tales of the Outer Planes|pdf=17055|nip=1}} "Castle at the Edge of Time" by [[Christopher Mortika]]; {{b|D&amp;D|Return to the Tomb of Horrors|pdf=17473|nip=1}} and {{b|D&amp;D|Dungeon Builder's Guidebook|pdf=17447}} by [[Bruce R. Cordell]]; and, of course, the {{b|D&amp;D|Manual of the Planes|pdf=17009}} by [[Jeff Grubb]].
+
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild}}
+* {{DriveThruRPG}}
+
+===Connections===
+{{Planescape sourcebooks}}
+[[Category:Books]]
+[[Category:Sourcebooks]]
+[[Category:2nd edition sourcebooks]]
+[[Category:Published in 1998]]
+[[Category:Works by Bruce R. Cordell]]</text>
+      <sha1>1wzohrlf08vs7e664jpt5fgq95ahxt4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands</title>
+    <ns>0</ns>
+    <id>520</id>
+    <revision>
+      <id>7281</id>
+      <parentid>7132</parentid>
+      <timestamp>2026-02-04T10:12:10Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <comment>/* Audio Tracks */</comment>
+      <origin>7281</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7396" sha1="6mxq2qx9kr2s238c60z2hfzdv7je25t" xml:space="preserve">{{Book
+| image        = A-Players-Primer-to-the-Outlands-cover.jpg
+| caption      = 
+| code         = TSR2610
+| title        = A Player's Primer to the Outlands
+| author       = [[Jeff Grubb]]
+| editor       = [[Ray Vallese]]
+| cover_artist = [[Robh Ruppel]]
+| inter_artist = [[Tony DiTerlizzi]]
+| cartography  = [[Robert Lazzaretti]]
+| typography   = [[Angelika Lokotz]]
+| publisher    = [[TSR, Inc.]]
+| released     = May [[1995]]
+| reprinted    = 
+| type         = Boxed Set
+| binding      = 
+| pages        = 32
+| languages    = 
+| realm year   = 
+| game_edition = 2
+| isbn10       = 0786901217
+| isbn13       = 978-0786901210
+| series       = 
+| preceded_by  = [[Fires of Dis]]
+| followed_by  = [[In the Cage: A Guide to Sigil]]
+| source       = 
+| Roll20number = 17301
+}}
+'''''A Player's Primer to the Outlands''''' is a 2{{nd}}-edition ''Advanced Dungeons &amp; Dragons'' boxed set. It is part of the ''Planescape'' campaign setting.
+
+{{Quote|''You've never seen a skull like this one, cutter - it's made of a silvery metal, with rainbow hues cascading over its shiny surface. Local bashers call it a mimir. Toss it into the air, and ask it questions: What is Ecstasy? Do fiends patrol the Outlands? The floating skull slicks softly, scouring its enchanted vaults for the answers. Then its bone-box opens, drivens by ancient pistons, and it begins to speak....''
+
+''A PLANESCAPE accessory for player characters of all levels, the Player's Primer provides a look at the Outlands, which surround the great city of Sigil - the gateway to all the Outer Planes. In this box, a cutter'll find:''
+
+* ''An audio compact disc that represents the mimir, a new magical item offering a strange and thrilling tour of the Outlands. More than 40 CD tracks allow players to hear what their characters would hear when consulting this handy (and some say dangerous) oracle.''
+* ''A 32-page guide to the most important sites and features of the Outlands.''
+*''A full-color poster map of the Outlands with never-before-seen maps of gate-towns.''}}
+
+==Description==
+''A Player's Primer to the Outlands'' is a boxed set containing a 32-page book written by [[Jeff Grubb]], a full-color poster map by [[Robert Lazzaretti]], and an audio CD.
+
+''A Player's Primer to the Outlands'' is a guide to the [[Outlands]]--those areas surrounding [[Sigil]]--including descriptions of the locations and inhabitants of the Outlands. The interactive audio CD contains 41 tracks of Mimir interaction.
+
+==Contents==
+* Welcome to the Outlands
+* Using the Booklet
+* Using the CD
+* A Word of Warning
+* The Mimir
+* An Overview of the Outlands
+* Moving through the Outlands
+* Magic in the Outlands
+* A Tour of the Outlands
+
+== Audio Tracks ==
+# [1:44] [[/Mimir's Introduction|Mimir's Introduction]]
+# [3:04] [[/Gate-towns|Gate-towns]]
+# [3:12] [[/Automata|Automata]]
+# [2:28] [[/Bedlam|Bedlam]] 
+# [1:50] [[/Curst|Curst]] 
+# [1:44] [[/Ecstasy|Ecstasy]] 
+# [1:59] [[/Excelsior|Excelsior]] 
+# [2:26] [[/Faunel|Faunel]] 
+# [2:22] [[/Fortitude|Fortitude]] 
+# [1:24] [[/Glorium|Glorium]]
+# [2:02] [[/Hopeless|Hopeless]] 
+# [2:33] [[/Plague-Mort|Plague-Mort]] 
+# [2:30] [[/Ribcage|Ribcage]] 
+# [2:11] [[/Rigus|Rigus]] 
+# [0:53] [[/Sylvania|Sylvania]]
+# [1:48] [[/Torch|Torch]] 
+# [1:39] [[/Tradegate|Tradegate]]
+# [1:16] [[/Xaos|Xaos]]
+# [0:42] [[/Tir na Og|Tir na Og]]
+# [1:25] [[/Tir fo Thuinn|Tir fo Thuinn]]
+# [2:00] [[/Realm of the Norns|Realm of the Norns]] 
+# [2:14] [[/Dwarven Mountain|Dwarven Mountain]] 
+# [1:25] [[/Ironridge|Ironridge]]
+# [1:20] [[/Semuanya's Bog|Semuanya's Bog]]
+# [0:44] [[/Gzemnid's Realm|Gzemnid's Realm]]
+# [1:36] [[/The Caverns of Thought|The Caverns of Thought]]
+# [2:22] [[/The Palace of Judgment|The Palace of Judgment]] 
+# [1:10] [[/Tvashtri's Lab|Tvashtri's Lab]]
+# [1:05] [[/Thoth's Estate/Thebestys|Thoth's Estate/Thebestys]]
+# [1:35] [[/Mausoleum of Chronepsis|Mausoleum of Chronepsis]]
+# [1:16] [[/The Vale of the Spine|The Vale of the Spine]]
+# [1:16] [[/The Great Pass|The Great Pass]]
+# [0:51] [[/Bariaur Tribes|Bariaur Tribes]]
+# [1:30] [[/The Hinterlands|The Hinterlands]]
+# [1:41] [[/Indep Villages|Indep Villages]]
+# [1:15] [[/Lost Patrols|Lost Patrols]]
+# [1:31] [[/The Modron Procession|The Modron Procession]]
+# [2:40] [[/Walking Castles|Walking Castles]] 
+# [1:20] [[/The Great Road|The Great Road]]
+# [0:28] [[/Malfunction Track|Malfunction Track]]
+# [0:15] [[/No Information|No Information]]
+
+==Gallery==
+&lt;gallery&gt;
+A Player's Primer to the Outlands Back Cover.jpg|''Back Cover''
+A Player's Primer to the Outlands CD.jpg|''Cover of the audio CD jewel case that comes with the boxed set''
+Dragon217AdMimir.jpg|"A Real Screamin' Artifact." A Player's Primer to the Outlands ad from {{b|Dragon|Dragon Magazine 217}}.
+&lt;/gallery&gt;
+
+==Credits==
+* '''Designer:''' [[Jeff Grubb]]
+* '''Editor:''' [[Ray Vallese]]
+* '''Cover Artist:''' [[Robh Ruppel]]
+* '''Interior Artist:''' [[Tony DiTerlizzi]]
+* '''Conceptual Artist:''' [[Dana Knutson]]
+* '''Cartographer:''' [[Rob Lazzaretti]]
+* '''Typography:''' [[Angelika Lokotz]]
+* '''Border Art:''' [[Robert Repp]]
+* '''Graphics Coordinator:''' [[Sarah Feggestad]]
+* '''Art Coordinator:''' [[Peggy Cooper]]
+* '''Graphic Design:''' [[Dee Barnett]], [[Dawn Murin]]
+* '''Electronic Prepress Coordinator:''' [[Tim Coumbe]]
+* '''Proofreader:''' [[Wolfgang Baur]], [[Michele Carter]], [[Bill Slavicsek]]
+
+== Audio CD Credits ==
+* '''Producer:''' [[Gordon Hookailo]]
+* '''Interactive Direct:''' [[Flint Dille]]
+* '''Associate Producer:''' [[Buzz Dixon]]
+* '''Script Writer:''' [[Colin McComb]]
+* '''Script Editors:''' [[Flint Dille]], [[Buzz Dixon]]
+* '''TSR Project Manager:''' [[Andria Hayday]]
+* '''Creative Services:''' [[Ground Zero Productions]]
+* '''Project Coordinator:''' [[Terrie Berlin]]
+* '''Original Score by:''' [[Craig Stuart Garfinkle]]
+* '''Music Performed &amp; Produced by:''' [[CSG Music]]
+* '''Music Engineered by:''' [[Josh Schneider]]
+* '''Supervising Sound Editor &amp; Lead Mixer:''' [[Gordon Hookailo]]
+* '''Sound Design:''' [[Roy Braverman]] / [[Gordon Hookailo]]
+* '''Sound Effects Mixer:''' [[Roy Braverman]]
+* '''Dialogue Editor:''' [[Neal Lampert]]
+* '''Background Sounds Effects Editor:''' [[Laurence M. Schwarz]]
+* '''Audio Project Management by:''' [[GDH Digital]]
+
+Studio Credits
+* '''Dialogue Recorded at''' [[Mark Gruae Recording]]
+* '''Dialogue Engineered by''' [[Rick Dasher]]
+* '''Foley Recorded at''' The [[ID Group]]
+* '''Foley Recordist:''' [[Arthur Farkas]]
+* '''Final Mix and CD Premastering by''' [[GDH Digital]]
+* '''Final CD Preparation by''' [[Pacific Coast Soundworks]]
+
+
+==Appendix==
+=== Background Information ===
+* This is the first Planescape product released following the release of the AD&amp;D 2nd Edition Revised core rulebooks [[1995|one month earlier]]. As such, it's the first Planescape product to feature the new "Advanced Dungeons &amp; Dragons" logo, which omits the "2nd Edition" text. Future reprints of earlier products will likewise update the branding.
+
+===See Also===
+*[[:Category:Images from A Player's Primer to the Outlands|Images from A Player's Primer to the Outlands]]
+
+===External Links===
+{{External link disclaimer}}
+* {{FRW}}
+* {{DMsGuild}}
+* {{DriveThruRPG}}
+
+===Connections===
+{{Planescape sourcebooks}}
+[[Category:Planes sourcebooks]]
+[[Category:Sourcebooks]]
+[[Category:2nd edition sourcebooks]]
+[[Category:Works by Jeff Grubb]]
+[[Category:Published in 1995]]
+[[Category:Outlands sourcebooks]]</text>
+      <sha1>6mxq2qx9kr2s238c60z2hfzdv7je25t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Automata</title>
+    <ns>0</ns>
+    <id>2818</id>
+    <revision>
+      <id>4989</id>
+      <timestamp>2024-02-21T02:36:22Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4989</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4542" sha1="dex1awhm54dwxehh2bd11tdhfxpkgxg" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Automata'' is the third track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''. 
+
+== Transcript ==
+
+: '''Mimir''': Automata is the gate to the plane of [[Mechanus]], the plane of ultimate order. The members of the [[Council of Anarchy]] were tracked down, and a discussion of theirs was secretly recorded by me. A small portion of it follows:
+
+: '''[[Leggis Scrog]]''': Now remember: when the berk with the mimir comes by here, we pretend we're the [[Council of Order]], so we lure more leatherheads to this stupid town. No slip-ups this time, right, Ravis?
+
+: '''[[Ravis Corcuncewl]]''': Pike it, Leggis. You were the sod who slipped up last time.
+
+: '''Leggis Scrog''': And how do you figure that?
+
+: '''Ravis Corcuncewl''': You and your stinkin' accent. Puttin' on the &amp;apos;''oh, I'm so holier than thou''&amp;apos; act that you practically fell over your own soddin' tongue.
+
+: '''Leggis Scrog''': Paugh! What a bunch of wash.
+
+: '''Ravis Corcuncewl''': Help me out here, Aurach.
+
+: '''[[Aurach|Aurach the Fair]]''': Right, Ravis. Don't try to put the blame where it don't belong, Leggis. And both of you remember your parts. Not like last time, right?
+
+: '''Ravis Corcuncewl''': Got that, Leggis?
+
+: '''Leggis Scrog''': ''(grumbles)''
+
+: '''Ravis Corcuncewl''': Shapeshift, Aurach, he's coming!
+
+: '''Leggis Scrog''': Greetings, honored one!
+
+: '''Mimir Agent''': How d'you do.
+
+: '''Leggis Scrog''': Welcome to our fair city. My name is Captain [[Arstimis]], and these are my fellow Councilors: [[Pelnis]] the Clockmaker...
+
+: '''Aurach the Fair, Mimir Agent''': (simultaneously) Hello.
+
+: '''Leggis Scrog''': ... and [[Serafil]], priestess of [[Lei Kung]].
+
+: '''Ravis Corcuncewl''': How'd you do?
+
+: '''Mimir Agent''': Nice to meet you.
+
+: '''Leggis Scrog''': Now I understand that you desired a small description of our city for your master.
+
+: '''Mimir Agent''': Ha, indeed!
+
+: '''Aurach the Fair''': (aside to Ravis) Pompous windbag.
+
+: '''Ravis Corcuncewl''': (laughs, quickly covers it up with coughing) Excuse me.
+
+: '''Mimir Agent''': S'quite all right.
+
+: '''Aurach the Fair''': I am Pelnis, and I'm proud to make your acquaintance.
+
+: '''Mimir Agent''': Nice to meet you.
+
+: '''Leggis Scrog''': (aside to Ravis) That was close, I thought she'd forgot to shapechange.
+
+: '''Ravis Corcuncewl''': Let me formally introduce myself. I'm Serafil of Lei Kung...
+
+: '''Mimir Agent''': Lovely.
+
+: '''Ravis Corcuncewl''': ... and it falls to me to tell you about our town. First I would like to stress exactly how easy it is to pass through the gate to [[Mechanus]].
+
+: '''Mimir Agent''': Ah.
+
+: '''Ravis Corcuncewl''': There are a few ''minor'' forms...
+
+: '''Leggis Scrog''': (aside to Aurach) A few thousand!
+
+: '''Ravis Corcuncewl''': ...So that we can ease the traffic through the gate and ensure proper placement in Mechanus.
+
+: '''Mimir Agent''': Excellent.
+
+: '''Ravis Corcuncewl''': Our town is quiet, but there are many exciting features here. If a body's a merchant, we like him to come in with a fat purse &amp;mdash;
+
+: '''Mimir Agent''': ... what?
+
+: '''Ravis Corcuncewl''': I mean, a full load of goods, and ''leave'' with a fat purse.
+
+: '''Mimir Agent''': Wha... uh... I?
+
+: '''Leggis Scrog''': Well, you blew this one all by yourself, Ravis. Hey, berk. We're the Council of Anarchy.
+
+: '''Mimir Agent''': You&amp;mdash;!
+
+: '''Leggis Scrog''': And we've just scragged our peel for your precious mimir.
+
+: '''Mimir Agent''': How dare you!
+
+: '''Leggis Scrog''': Oh, now, don't try to run!
+
+: '''Ravis Corcuncewl''': Make with the dagger, Leggis!
+
+: '''Mimir Agent''': (sounds of a scuffle, a cry of pain, the thud of a body hitting the floor)
+
+: '''Aurach the Fair''': That's just great. We go to all that trouble and you two drop it like a [[tanar'ri]] baby. Now we've got to start all over. Hand me that mimir and we'll destroy it.
+
+: '''Ravis Corcuncewl''': I'd like to, but I'm afraid it's dissolvin' away.
+
+: '''Leggis Scrog''': Looks like it's time to change our identities. Again.
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=y3gR0_RfOpc This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;2. [[A Player's Primer to the Outlands/Gate-towns|Gate-towns]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;4. [[A Player's Primer to the Outlands/Bedlam|Bedlam]]
+|}
+
+
+{{DEFAULTSORT:Automata}}
+[[Category:Audio tracks]]</text>
+      <sha1>dex1awhm54dwxehh2bd11tdhfxpkgxg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Bariaur Tribes</title>
+    <ns>0</ns>
+    <id>2824</id>
+    <revision>
+      <id>7243</id>
+      <parentid>4999</parentid>
+      <timestamp>2026-01-04T01:48:46Z</timestamp>
+      <contributor>
+        <username>Tx2P</username>
+        <id>28063354</id>
+      </contributor>
+      <origin>7243</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1198" sha1="tkc8v3jb84g8s167p8edqx8ljltg4yo" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Bariaur Tribes'' is the 33rd track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': [[Bariaur]], the goat-men of the [[Outer Planes]], have long had tribes roaming around the [[Outlands]]. They are [[planar]] gypsies, never keeping to one place. They bring items to trade, and offer tests of skill. They also provide aid, if it is asked for; and opinions, even if they are not asked for. It has been said that what one tribe knows, the rest soon know, and so it is good advice for travelers to stay on a bariaur's good side.
+
+: For more information on these tribes, ask them directly.
+
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=3537E_IyEsU This track on YouTube]
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;32. [[A Player's Primer to the Outlands/The Great Pass|The Great Pass]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;34: [[A Player's Primer to the Outlands/The Hinterlands|The Hinterlands]]
+|}
+
+
+{{DEFAULTSORT:Bariaur Tribes}}
+[[Category:Audio tracks]]</text>
+      <sha1>tkc8v3jb84g8s167p8edqx8ljltg4yo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Bedlam</title>
+    <ns>0</ns>
+    <id>3352</id>
+    <revision>
+      <id>7280</id>
+      <parentid>7263</parentid>
+      <timestamp>2026-02-04T10:08:55Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7280</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1689" sha1="28j67898ubd0e4i7mzqzbgx0khwlkcp" xml:space="preserve">['''Mimir''']
+
+
+
+The gate to Pandemonium is hidden away in a town called Bedlam. Part of the Outlands not oft visited by anyone in their right mind. To tell us about Bedlam, is Nicholas Silvar.
+
+
+
+[Nicholas Silvar]
+
+
+
+Damn this wind! Why won't it stop whistling in my ears!? Powers above! It's driving me crazy! Oh, wait. There it  goes. Ah, who are you? Oh, right. Sorry. Sorry if I'm acting a little strange. It's just this wind, is all. Bedlam? That's all you want? You sure? Sure. Right. Then here's the chant. It's built on the body of a god that tried to escape from the howling land. The plane of winds. You can see his hand right over there thrusting out from the ground. Word has it, that if you look at his face from the sky, you can see his face grimacing against the ground, like he's still straining to get free. Matter of fact, right now we're sitting right on his nose, hehehe. I hate to be him. I haven't had a bath in weeks!  Ahahahah! You don't suppose he knows who we are? Sorry, it was just a joke. You are a laughing kind of god, right? Probably not considering where you are. Oh well, it doesn't matter anyway. So, Bedlam 's run by a total flapping old bird. A wizard who can't cast a spell to save his life. Or so it seems. He's smarter than the rest of us combined. Comes from studying Pandemonium too much, hahaha!. One day I'll do him in and then I'll be the ruler here. Unless the god comes through. Of course if he did, he'll probably just get tumbled, sliced, and scragged, hehe, before he realized where he was. That's what sort of town this is. Hey, don't you get too close to me or I’ll nick you? I will. Ah! You're too close! (punching sounds, screams).</text>
+      <sha1>28j67898ubd0e4i7mzqzbgx0khwlkcp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Curst</title>
+    <ns>0</ns>
+    <id>3356</id>
+    <revision>
+      <id>7276</id>
+      <parentid>7221</parentid>
+      <timestamp>2026-02-04T10:04:45Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7276</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1268" sha1="0p5cnt3v4ydc4nnn0e2ywcz4zel46v0" xml:space="preserve">['''Mimir''']
+
+The Gate to Carceri is surrounded by the town of Curst, a five-ringed walled city. It's filled with those who can't stomach the thought of others in power. Bitter revolutionaries who seek revenge on the universe, that didn't treat them as they expected. The walls are covered in razor vine, and the guards of the town are instructed to let anyone in. It's getting out, that's the problem. A nameless local of Curst speaks of her town.
+
+
+
+[Nameless Local Female]
+
+Get that thing out of my face (punch sounds)! You want to know about Curst? I'll tell you about it, sod. It's the best place there is!. That is, if you're rich and have power. Otherwise, it's one of the most miserable places in the planes. Everyone here 'ates everyone else, and there's too much ??? going on for berks to control their tempers. It's a bloody mess, it is, and I'm not just saying that as a figure of speech. I mean it literally. Real blood, real mess. Works like this. Everybody plots against everybody else. Plots usually end in bloodshed, between the plotters most often. They just can't seem to get along with each other, or anyone else most often. So, 'at's Curst for you. Now buy me the drink I promised, or I'll make you sorry you ever talked to me in our first place.</text>
+      <sha1>0p5cnt3v4ydc4nnn0e2ywcz4zel46v0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Dwarven Mountain</title>
+    <ns>0</ns>
+    <id>3364</id>
+    <revision>
+      <id>7265</id>
+      <parentid>7248</parentid>
+      <timestamp>2026-02-04T09:53:57Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7265</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1609" sha1="kdj1t7jxvoj371p82a08vwkm21e4jgz" xml:space="preserve">['''Mimir''']
+
+High in the mountains of the Outlands lies a triple realm, shared by three Dwarven Powers. The rocky peaks outside hold the trading town of Iron Ridge. Inside and underneath sit the Realms. The three dwarven powers are: Vergadain, god of luck, Dugmaren the Smith, and Dumathoin, master of minds. Vergadain's proxy, Lazuli Clearfacet, was kind enough to speak for us.
+
+
+
+
+[Lazuli Clearfacet]
+
+(coughs) So, you want to come to the dwarven mountains, eh? (coughs) Well, bring your money and your luck, because you're going to need both (coughs, wheezing). The place where I work, Strong Gale (wheezing), the realm of Vergadain (wheezing), is a place of drinking and gambling, but unless you're invited (wheezing) you're probably not too welcome, cheaters especially (wheezing). Anyone who comes here to peel honest gamblers will see that we mean (wheezing) business when it comes to...
+
+
+[Male 1]
+
+Hey! That berk's using loaded dice!
+
+[Lazuli Clearfacet]
+
+(coughs) Excuse me...
+
+
+[Male 1]
+
+Told you about the loaded dice
+
+[Lazuli Clearfacet]
+
+What have we here? A cheating human? Loaded dice?! Let me see those. (Let's see those) Seven (seven!). And seven again (seven!) Seven once more. This bodes ill for you, friend.
+
+
+[Male 2]
+
+Look! Look!
+
+
+[Male 3]
+
+I swear! These were the dice at the table when I got here!
+
+
+[Male 4]
+
+How come I didn't roll those sevens?!
+
+
+[Male 3]
+
+Just unlucky.
+
+
+[Male 4]
+
+Unlucky?! I'll show you unlucky!
+
+[Lazuli Clearfacet]
+
+Take this berk out and execute him! He knew the rules when he came here!
+
+
+[Male 3]
+
+Please have mercy! I was framed!
+
+
+[Male 5]
+
+Bash him!</text>
+      <sha1>kdj1t7jxvoj371p82a08vwkm21e4jgz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Ecstasy</title>
+    <ns>0</ns>
+    <id>3353</id>
+    <revision>
+      <id>7275</id>
+      <parentid>7264</parentid>
+      <timestamp>2026-02-04T10:03:50Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7275</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1639" sha1="hch6m3629pujia923vok89sbs1mllu1" xml:space="preserve">['''Mimir''']
+Ecstasy is a gate-town to Elysium, the plane of utter goodness. This is Barathorn Maddison, a member of a Transcendent Order
+
+
+
+[Nameless Male 1]
+
+Hey, berk! Get out of the middle of the street!
+[Barathorn Maddison]
+
+Get one thing straight. I believe in action before thought. In training the body so much, it's always a step ahead of the mind. I also believe that Ecstasy is virtually perfect. Well, maybe virtually isn't the word to use. Anyway, it really gets up my nose that the philosophers' court is located in this town. What's the point of action without thought? The other day I heard a bunch of old philosophers arguing about how many baatezu it takes to put a torch in a ceset.
+
+[Nameless Male 2]
+
+None! My asked to see the way you draw see ya 
+
+(note I couldn’t hear this segment well 0:47 of the track I did my best this ia rough draft though)
+
+
+
+[Nameless Female]
+
+Or all of them want to put it in and the rest to claim credit for it.
+
+[Barathorn Maddison]
+
+See? See? Everyone's a wise guy, everyone's got an answer.
+
+
+[Nameless Male 3]
+
+one side
+
+
+[Barathorn Maddison]
+
+Worse, there's nothing physical about arguments here. I mean, there's still arguments, they're philosophers for crying out loud, but there's no violence in the court. A body's wit had better be sharper than her sword, for a well chosen word can decimate a foe better than a sword thrust.
+
+
+[Nameless Male 4]
+
+&lt;nowiki&gt;*&lt;/nowiki&gt;crying*
+
+
+[Nameless Female2]
+
+What happened?
+
+[Nameless Male 4]
+
+He used sarcasm...
+
+[Barathorn Maddison]
+
+That's why I hate it. I hate thinking about things! I figure, just do it! Hey, that's a catchy phrase...</text>
+      <sha1>hch6m3629pujia923vok89sbs1mllu1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Excelsior</title>
+    <ns>0</ns>
+    <id>3355</id>
+    <revision>
+      <id>7274</id>
+      <parentid>7224</parentid>
+      <timestamp>2026-02-04T10:01:31Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7274</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1744" sha1="jnqu2nsykxzp8y2zc8qn83hjgz9uot1" xml:space="preserve">
+['''Mimir''']
+
+Excelsior, the gate-town to mount Celestia- naturally attracts those who tend toward the tenants of Law and Good. This is the Gessare, Sarah La Siva
+
+
+(couldn’t understand the name so I know its butchered)
+
+[Gessare, Sarah La Siva]
+
+I traveled to Excelsior from Chals, hoping it would shake the dust of strangeness from my eyes. Unfortunately, the two places were so different and I had trouble getting used to life in this berg. After I did, I started making my keep near the forum and brought Mimir with me to capture any valuable darks the paladins might let slip. I went to that place for days on end, and finally decided to get this piece of a speech captured on the Mimir. The speech is exactly the same as every other speech I heard, only with different words. There was no difference in content.
+
+
+[Random Paladin Speach]
+
+Brethren! We have come here to share in each other knowledge, to write our own names in the book of glory and chivalry (absolutely right!). Yet we accomplish nothing by standing around speechifying (yeah, yeah!). We could be out addressing evil, smiting the foes of Law and Goodness where they stand. It is our duty, nay, our right to destroy our enemies. Our codes demand the destruction of these foes, yet we remain safely in Excelsior, while our antagonists grow stronger. Let us ride out my brothers and sisters! (continues in the background)...
+
+[Gessare, Sarah La Siva]
+
+The next speaker said approximately the same thing, and likewise the next after that. The only time it got interesting was when two paladins of a rival church nearly came to blows over their definitions of Law. I'm sure it's the same now as it was then, and it'll probably be the same when I go back, in about 20 years</text>
+      <sha1>jnqu2nsykxzp8y2zc8qn83hjgz9uot1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Faunel</title>
+    <ns>0</ns>
+    <id>3358</id>
+    <revision>
+      <id>7273</id>
+      <parentid>7225</parentid>
+      <timestamp>2026-02-04T10:01:18Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7273</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1350" sha1="9hcb5ugw46gb0u253g39b2i7l13s0b9" xml:space="preserve">['''Mimir''']
+
+Faunel's gate leads to the Beastlands. It's a ruined city, always teetering on the brink of destruction. To tell us of Faunel, is TOS to Sher, a zebra-striped cat centaur from an unknown  location.
+
+[TOS to Sher a Ze]
+
+The beauty of Faunel is that anyone partial to animals is welcome here. If you don't mind holding a conversation with an animal that's probably smarter than you are, purr, you'll get along fine. It's said that people come here to forget their past lives, to lose themselves in the dreaming nights and glorious ruins of Faunel. Tn fact that's where I met my mate. I was stalking dinner in some fascinating ruins that I'd never explored before, and he was doing the same. Except that he wasn't sure I was sentient, so he was hunting me. When we got that straightened out, we became fast friends. We still fight like sharks and dolphins but there's always love and trust there. We went to Rath, the ruler of Faunel, to get his official sanction to our union. I'll probably get killed by the vile hunt for saying this,hmm  but I don't really give a meow. The way I figure it, anything with a loving heart and some intelligence is good enough for me. That's what I look for in a mate. I don't care if it's green, purple, or pink bi- or quadrupedal human, or feline. As long as it's a loving soul. That's what I look for.</text>
+      <sha1>9hcb5ugw46gb0u253g39b2i7l13s0b9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Fortitude</title>
+    <ns>0</ns>
+    <id>3357</id>
+    <revision>
+      <id>7272</id>
+      <parentid>7226</parentid>
+      <timestamp>2026-02-04T10:00:33Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7272</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1864" sha1="kxc8yg7osi0ihkryezkcksvqqq6sng9" xml:space="preserve">['''Mimir''']
+
+Arcadia’s gate-town is Fortitude, also called the Egg. One of the main buildings of Fortitude is the confessional. It is a wide, ???-like amphitheater with perfect acoustics. The residents come here to admit their faults, and to let their fellow citizens pass judgment on them. All abide by the decisions of the many.
+
+
+Okay. Okay, okay, okay, come on, quiet down, quiet down, please come on. My turn! Come on, listen. I got to confess a sin. (what?) All right, here it is: I hate all this honesty . There it is, that's my crime, simple yet hideously complex. Please forgive me, listen, I hate this town. (what?) Are you listening? Listen, hey buddy! Hey, same to you. Bring your cow home later. I hate Fortitude! There it is, that's the crux of the matter. I can't lie here or else I'll be punished. you know what I mean? Listen, there's no diplomacy or tact here. I can't tell someone who's exceptionally large like, like, hey you! Hey, big butt. See? I can't say "You're big-boned". I mean. come on. I can't feign interest in someone like you, buddy, just cuz I want to get at your money. You know what I'm saying? Come on, people. I can't try to get rid of someone by saying "See you later", when I have no intention of ever seeing you again, you ugly berk! (laughs) You know what I mean? Come on, I'll be publicly flogged! Go on, get out of here! Listen, people, I want to live in a place where a body's always worried about crime, you know what I mean? I mean, I want to be able to lie, and have that to be the least of the things you have to look out for! You know what I'm saying! I mean, wacky, but, I hate law and order! (laughs) I don't want to be regulated and looked over. You know why? I'll tell you why! I love being insecure! There it is! What a horrible place this is! Yeah, don't you think so? Love these wacky audiences! See ya!</text>
+      <sha1>kxc8yg7osi0ihkryezkcksvqqq6sng9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Gate-towns</title>
+    <ns>0</ns>
+    <id>2816</id>
+    <revision>
+      <id>4987</id>
+      <timestamp>2024-02-21T01:53:05Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4987</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2314" sha1="2vxn8nq6f4wiktur9yq9rhq8m2qmh8h" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Gate-towns'' is the second track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''. 
+
+== Transcript ==
+
+: '''Mimir''': Scattered along the rim of the [[Outlands]] are the [[gate-town]]s: burgs that have grow up at the spots along the [[Great Road]] that branch off into the other [[Outer Planes]]. All of the Outer Planes have a gate-town associated with them.
+
+: Speaking of gate-towns is the noted sage, [[Ariana Arachnis]]:
+
+: '''Ariana Arachnis''': There are sixteen gate-towns that lead to the Outer Planes. By gate-town, I mean a town that has grown up ''around'' the gates, a natural point on a trade route. The towns are usually populated by those who find the plane beyond to their liking. The towns all possess a character much like the associated plane, but there's always something that keeps the town from [[Cosmic realignment|sliding]] over into the next plane; by this, I mean that there are elements that are drawn to the town simply because they want to become too much like its plane, keeping the town Outlands. I trust this is perfectly clear.
+
+: Alphabetically, the towns are: [[Automata]], leading to [[Mechanus]]; [[Bedlam]], leading to [[Pandemonium]]; [[Curst]], leading to [[Carceri]]; [[Ecstasy]], leading to [[Elysium]]; [[Excelsior]], leading to [[Mount Celestia]]; [[Faunel]], leading to the [[Beastlands]]; [[Fortitude]], leading to [[Arcadia]]; [[Glorium]], leading to [[Ysgard]]; [[Hopeless]], leading to the [[Hades|Gray Waste]]; [[Plague-Mort]], leading to the [[Abyss]]; [[Ribcage]], leading to [[Baator]]; [[Rigus]], leading to [[Acheron]]; [[Sylvania]], leading to [[Arborea]]; [[Torch]], leading to [[Gehenna]]; [[Tradegate]], leading to [[Bytopia]]; and [[Xaos]], leading to [[Limbo]].
+
+: Now, any questions?
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=GHXVPqCwbvY This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;1. [[A Player's Primer to the Outlands/Mimir's Introduction|Mimir's Introduction]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;3. [[A Player's Primer to the Outlands/Automata|Automata]]
+|}
+
+
+{{DEFAULTSORT:Gate-towns}}
+[[Category:Audio tracks]]</text>
+      <sha1>2vxn8nq6f4wiktur9yq9rhq8m2qmh8h</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Glorium</title>
+    <ns>0</ns>
+    <id>2891</id>
+    <revision>
+      <id>5182</id>
+      <timestamp>2024-03-30T20:00:39Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5182</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1689" sha1="88bhpzw8qhtqerssmj9iugg1m85mqry" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Glorium'' is the 10th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': The town of [[Glorium]] watches over the gate to [[Ysgard (plane)|Ysgard]], and the people watch over the town, though they deny caring about anything that much. [[Flatnose Grim]], a ranger who's got the town loyal to him, speaks of Glorium:
+
+: '''Flatnose Grim''': If you've gotta come here for business, get your business done, and get out, period. We don't much like outsiders, so don't expect sweetness and light from us, eh? If you're going to move here, come prepared to work and work hard. We all pull our own weight here, and there's no reason why ''you'' should be an exception. Now, if you're coming here to seek the wisdom of [[Odin]] or any of the other [[power]]s, stick around. You'll learn more by dealing with us than by prostrating yourself on some temple floor. If you've got the secret of the universe and you wanna tell us, ''do it''! If we don't like it, we'll ''pound'' you, but we'll do it friendly-like, just to let you know we disagree. And if you can't handle that, then you ''really'' don't belong here.
+
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=6KpbrPakdHY This track on YouTube]
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;9. [[A Player's Primer to the Outlands/Fortitude|Fortitude]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;11: [[A Player's Primer to the Outlands/Hopeless|Hopeless]]
+|}
+
+
+{{DEFAULTSORT:Glorium}}
+[[Category:Audio tracks]]</text>
+      <sha1>88bhpzw8qhtqerssmj9iugg1m85mqry</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Gzemnid's Realm</title>
+    <ns>0</ns>
+    <id>2822</id>
+    <revision>
+      <id>4996</id>
+      <parentid>4995</parentid>
+      <timestamp>2024-02-21T03:27:28Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>typo</comment>
+      <origin>4996</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1031" sha1="s3afx7rigedb7i1zeuoyxwk2n457e8o" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Gzemnid's Realm'' is the 25th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': Tangled in with the lowest levels of the [[Dwarven Mountain]] and [[Ilsensine]]'s [[Caverns of Thought]] is the [[Gzemnid's Realm|realm]] of [[Gzemnid]], the [[beholder]] god. All mimir agents who entered the realms never emerged again.
+
+: '''Mimir Agent''': No. No. No! Not that! Anything but that! No! Auuggghhhhhhhh!
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=PragJMELsdw This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;24. [[A Player's Primer to the Outlands/Semuanya's Bog|Semuanya's Bog]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;26: [[A Player's Primer to the Outlands/The Caverns of Thought|The Caverns of Thought]]
+|}
+
+
+{{DEFAULTSORT:Gzemnid's Realm}}
+[[Category:Audio tracks]]</text>
+      <sha1>s3afx7rigedb7i1zeuoyxwk2n457e8o</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Hopeless</title>
+    <ns>0</ns>
+    <id>3354</id>
+    <revision>
+      <id>7271</id>
+      <parentid>7227</parentid>
+      <timestamp>2026-02-04T09:59:33Z</timestamp>
+      <contributor>
+        <username>Legendary Senna</username>
+        <id>53419674</id>
+      </contributor>
+      <origin>7271</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1359" sha1="fazexo82mqplmo3sidc9jbci4evhcs4" xml:space="preserve">['''Mimir''']
+
+The gate to the Gray Waste is wrapped around by the city of Hopeless. The gate itself is a pool of a black, viscous, tar-like substance through which those who want to travel to the Gray Waste must jump. This is Klobby One-Hand.
+
+
+
+[Klobby one hand]
+
+
+Sure. I can tell you about Hopeless. There's probably no point to it, but I'll do it because there's nothing else to do. First off, you'll want to take off that blue cloak before you go any further into town, unless of course you feel like having it confiscated by berks whose eyes can't stand any color but gray. Now let's see... what can I say about this place? Huh, the people ain't got no individuality, they're all sort of shocked-looking, wandering through life like there's no point to the whole thing. That's probably true, but on the other hand I'm new here. Already told you about the "no color" thing. Hmm? Now the people here are pretty dullard bunch, and they can work up a huge mess of hatred that spills out like puss from a lanced boil when it suits them. Usually they don't, though, because they've got their feeling stripped away from them. What else? Oh yeah, if you've got the chance, catch Thingol the Mocking's next piece of art. I hear it's called "Child and Boulder". I don't know what happens, but Thingol got this thing for grotesque art. So it should be pretty good</text>
+      <sha1>fazexo82mqplmo3sidc9jbci4evhcs4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Indep Villages</title>
+    <ns>0</ns>
+    <id>2972</id>
+    <revision>
+      <id>5573</id>
+      <timestamp>2025-03-01T14:56:11Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>5573</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1593" sha1="389t7ou25qih7zr8a3ph5i0ca1dbrpw" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Indep Villages'' is the 35th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': Not every place in the Outlands is so fiercely contested as the gate-towns. Take, for instance, the Indep Villages, as described by [[Mara Gulajal]], a resident of a hidden village in the fourth ring.
+
+: '''Mara Gulajal''': Hey, berk. Sit at home and enjoy your experiences there. We don't want you leatherheads coming through here like you own the place. We make our own lives here, see? We don't want no trouble. We're peaceful and friendly... to each other, and everyone else can go pike themselves, right?
+
+: Now, I know I seem unfriendly, but if you'd see the things we have, you'd feel the same way. Rotting plague-walkers. [[Walking castle]]s. Fiend patrols. Herds of [[bariaur]] stampeding! Lizard-men! ''Armies marching right outside our door''!
+
+: You'll forgive us if we don't slaughter the fatted calf every time one of you barmy adventurers comes through!
+
+== Background Information ==
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=R0vifK1a31g This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+|-
+| class="prev"|'''Previous Track'''&lt;br /&gt;34. [[A Player's Primer to the Outlands/The Hinterlands|The Hinterlands]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;36. [[A Player's Primer to the Outlands/Lost Patrols|Lost Patrols]]
+|}
+
+
+{{DEFAULTSORT:Indep Villages}}
+[[Category:Audio tracks]]</text>
+      <sha1>389t7ou25qih7zr8a3ph5i0ca1dbrpw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Ironridge</title>
+    <ns>0</ns>
+    <id>2905</id>
+    <revision>
+      <id>5277</id>
+      <parentid>5276</parentid>
+      <timestamp>2024-04-05T17:42:28Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>fm</comment>
+      <origin>5277</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1780" sha1="mr4hukqvrmuh5jpg85glhmqukuvqv2w" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Ironridge'' is the 23rd track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': Perched on the outer crust of the [[Dwarven Mountain]], [[Ironridge]] is a community of bashers who decided to try their hands at dealing with the dwarves. This is [[Key Nilscar]], a trader, gambler, and jack-of-all-trades.
+
+: '''Key Nilscar''': Ironridge is an ideal place to jump off and hit three realms. It's only about a day away from [[Gzemnid's Realm]], the [[Caverns of Thought]], and even less from the Dwarven Mountain. I originally came here to see if I could get a shipment of dwarven weapons and iron to some friends of mine in [[Rigus]]. But I couldn't cut a deal, and I'm not being paid anywhere near enough to try and waylay a dwarf caravan. Though I probably could if I had half a mind to.''
+
+: Anyway, when the Rigus deal fell through, I figured I'd stick around and do some gaming in the Mountain. If I could just wangle an invite, I'll show those sods a thing or two about dice! I've heard they execute cheaters, so I guess I'll just have to be a little extra careful, eh? Heh.
+
+: If you're coming to Ironridge, ''have a reason''! People here don't like layabouts any more than dwarves do.
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=MkdZTLzdsHY This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;22. [[A Player's Primer to the Outlands/Dwarven Mountain]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;24: [[A Player's Primer to the Outlands/Semuanya's Bog|Semuanya's Bog]]
+|}
+
+
+{{DEFAULTSORT:Ironridge}}
+[[Category:Audio tracks]]</text>
+      <sha1>mr4hukqvrmuh5jpg85glhmqukuvqv2w</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Lost Patrols</title>
+    <ns>0</ns>
+    <id>2836</id>
+    <revision>
+      <id>5035</id>
+      <parentid>5034</parentid>
+      <timestamp>2024-03-03T18:23:55Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>no it isn't</comment>
+      <origin>5035</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1184" sha1="k97tolhqiq2ep5yjrq63wssjrc8tfxy" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Lost Patrols'' is the 36th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''.
+
+== Transcript ==
+
+: '''Mimir''': Many fiendish patrols, lost from their units, wander through the [[Outlands]].
+
+: '''Fiend''': Platoon halt! Hmm. A [[mimir]] agent. C'mere. I said c'mere! Get 'im! Gimme your toy. Ooo, look: it's all silvery. Hey, human! Get the heavens out of here before I decide to take your head along with your magicky thingy. Hey hey hey! A new amusement.
+
+: '''Mimir''': The rest of the cell is taken by fiendish expletives and reports of particularly vicious maiming. It has been deleted.
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=wspfS0MNvi4 This track on YouTube]
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Track'''&lt;br /&gt;35. [[A Player's Primer to the Outlands/Indep Villages|Indep Villages]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;37: [[A Player's Primer to the Outlands/The Modron Procession|The Modron Procession]]
+|}
+
+
+{{DEFAULTSORT:Lost Patrols}}
+[[Category:Audio tracks]]</text>
+      <sha1>k97tolhqiq2ep5yjrq63wssjrc8tfxy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>A Player's Primer to the Outlands/Malfunction Track</title>
+    <ns>0</ns>
+    <id>2820</id>
+    <revision>
+      <id>6677</id>
+      <parentid>4993</parentid>
+      <timestamp>2025-06-14T22:27:05Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>nav</comment>
+      <origin>6677</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="945" sha1="c48ymayhmis2lkuy8sedn6cz14zy42o" xml:space="preserve">[[File:A Player's Primer to the Outlands CD.jpg|300px|right]]
+
+''Malfunction Track'' is the 40th track on the audio CD portion of '''[[A Player's Primer to the Outlands]]'''. 
+
+== Transcript ==
+
+The mimir plays a series of random sounds and reverse-speech clips from throughout the rest of the CD, representing a malfunction. Mimirs removed from the Outer Planes are said to spout random gibberish, so this track may represent that.
+
+
+== External Links ==
+
+[https://www.youtube.com/watch?v=EgvC21cUP1g This track on YouTube]
+
+{| class="fandom-table browser" style="text-align:center; width:100%"
+|-
+| class="prev"|'''Previous Track'''&lt;br /&gt;39. [[A Player's Primer to the Outlands/The Great Road|The Great Road]]
+| class="topic"|'''[[A Player's Primer to the Outlands]]'''
+| class="next"|'''Next Track'''&lt;br /&gt;41: [[A Player's Primer to the Outlands/No Information|No Information]]
+|}
+
+
+{{DEFAULTSORT:Malfunction Track}}
+[[Category:Audio tracks]]</text>
+      <sha1>c48ymayhmis2lkuy8sedn6cz14zy42o</sha1>
+    </revision>
+  </page>
+</mediawiki>

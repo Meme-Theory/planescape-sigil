@@ -1,0 +1,1640 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Planescape Wiki</sitename>
+    <dbname>planescape</dbname>
+    <base>https://planescape.fandom.com/wiki/Planescape_Wiki</base>
+    <generator>MediaWiki 1.43.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Planescape Wiki</namespace>
+      <namespace key="5" case="first-letter">Planescape Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>0 BFHR</title>
+    <ns>0</ns>
+    <id>2535</id>
+    <redirect title="1 YFHR" />
+    <revision>
+      <id>4387</id>
+      <timestamp>2024-01-15T07:19:00Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>redirect</comment>
+      <origin>4387</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="20" sha1="m82qdwdo9wgjbk2yuegzyj57cmtcs0l" xml:space="preserve">#REDIRECT [[1 YFHR]]</text>
+      <sha1>m82qdwdo9wgjbk2yuegzyj57cmtcs0l</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>0 YFHR</title>
+    <ns>0</ns>
+    <id>2534</id>
+    <redirect title="1 BFHR" />
+    <revision>
+      <id>4386</id>
+      <timestamp>2024-01-15T07:18:21Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>redirect</comment>
+      <origin>4386</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="20" sha1="sct3w2cu0krl4e13wyhh8dz46gb99z7" xml:space="preserve">#REDIRECT [[1 BFHR]]</text>
+      <sha1>sct3w2cu0krl4e13wyhh8dz46gb99z7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>0c BFHR</title>
+    <ns>0</ns>
+    <id>2600</id>
+    <revision>
+      <id>4543</id>
+      <timestamp>2024-01-19T06:14:02Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4543</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="605" sha1="7ad7nji84dii3jphlgc6y21k1ye02lj" xml:space="preserve">The century before of [[Factol]] [[Hashkar]]'s Reign.
+
+*[[90d BFHR|90s BFHR]]
+*[[80d BFHR|80s BFHR]]
+*[[70d BFHR|70s BFHR]]
+*[[60d BFHR|60s BFHR]]
+*[[50d BFHR|50s BFHR]]
+*[[40d BFHR|40s BFHR]]
+*[[30d BFHR|30s BFHR]]
+*[[20d BFHR|20s BFHR]]
+*[[10d BFHR|10s BFHR]]
+*[[0d BFHR|0s BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev" |'''Previous Century'''&lt;br /&gt;[[100c BFHR|100s BFHR]]
+| class="topic" |'''[[Timeline]]'''&lt;br /&gt;[[0m BFHR|1st millennium BFHR]]
+| class="next" |'''Next Century'''&lt;br /&gt;[[0c YFHR|0s YFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>7ad7nji84dii3jphlgc6y21k1ye02lj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>0c YFHR</title>
+    <ns>0</ns>
+    <id>2523</id>
+    <revision>
+      <id>4370</id>
+      <timestamp>2024-01-15T06:52:03Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4370</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="594" sha1="e05zdheyp3fdrlel5rteu0x80ob394g" xml:space="preserve">The first century of [[Factol]] [[Hashkar]]'s Reign.
+
+*[[0d YFHR|0s YFHR]]
+*[[10d YFHR|10s YFHR]]
+*[[20d YFHR|20s YFHR]]
+*[[30d YFHR|30s YFHR]]
+*[[40d YFHR|40s YFHR]]
+*[[50d YFHR|50s YFHR]]
+*[[60d YFHR|60s YFHR]]
+*[[70d YFHR|70s YFHR]]
+*[[80d YFHR|80s YFHR]]
+*[[90d YFHR|90s YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev" |'''Previous Century'''&lt;br /&gt;[[0c BFHR|0s BFHR]]
+| class="topic" |'''[[Timeline]]'''&lt;br /&gt;[[0m YFHR|1st millennium]]
+| class="next" |'''Next Century'''&lt;br /&gt;[[100c YFHR|100s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>e05zdheyp3fdrlel5rteu0x80ob394g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>0d BFHR</title>
+    <ns>0</ns>
+    <id>2581</id>
+    <revision>
+      <id>4525</id>
+      <parentid>4522</parentid>
+      <timestamp>2024-01-19T05:52:00Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>lks</comment>
+      <origin>4525</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="450" sha1="9ggecxrkeq30vdecbsvv4jlyjidi5yf" xml:space="preserve">The decade before Factol Hashkar's reign begins.
+
+*[[9 BFHR]]
+*[[8 BFHR]]
+*[[7 BFHR]]
+*[[6 BFHR]]
+*[[5 BFHR]]
+*[[4 BFHR]]
+*[[3 BFHR]]
+*[[2 BFHR]]
+*[[1 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[10d BFHR|10s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c BFHR|0s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[0d YFHR|0s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>9ggecxrkeq30vdecbsvv4jlyjidi5yf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>0d YFHR</title>
+    <ns>0</ns>
+    <id>2525</id>
+    <revision>
+      <id>4372</id>
+      <timestamp>2024-01-15T06:55:08Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4372</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="461" sha1="m4jn045ss16n8sh6g21yv4sc6thydef" xml:space="preserve">The first decade of the first century of Factol Hashkar's Reign.
+
+*[[1 YFHR]]
+*[[2 YFHR]]
+*[[3 YFHR]]
+*[[4 YFHR]]
+*[[5 YFHR]]
+*[[6 YFHR]]
+*[[7 YFHR]]
+*[[8 YFHR]]
+*[[9 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[0d BFHR|0s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c YFHR|0s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[10d YFHR|10s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>m4jn045ss16n8sh6g21yv4sc6thydef</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>100 YFHR</title>
+    <ns>0</ns>
+    <id>2616</id>
+    <revision>
+      <id>4569</id>
+      <timestamp>2024-01-19T16:08:46Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4569</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="636" sha1="3npsv4kq85nrk7pbk283ov31sx87r5i" xml:space="preserve">{{YFHR|100}}
+
+==Events==
+
+* [[Ghuntomas]] of Thorn, a member of the [[Fraternity of Order]], pens ''[[Ever-changing Order]]'', an obtusely-written treatise on how chaos and order paradoxically work together. He's later kicked out of the faction for his heretical views.&lt;ref name="tftis113"&gt;{{b|Planescape|Tales from the Infinite Staircase|pdf=17291|page=113}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[99 YFHR|99]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[100d YFHR|100s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[101 YFHR|101]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>3npsv4kq85nrk7pbk283ov31sx87r5i</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>100c BFHR</title>
+    <ns>0</ns>
+    <id>2601</id>
+    <revision>
+      <id>4544</id>
+      <timestamp>2024-01-19T06:17:37Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4544</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="626" sha1="3o0wbwdq5um1ugogbcghmqdh8eq9fux" xml:space="preserve">Two centuries before [[Factol]] [[Hashkar]]'s Reign.
+
+*[[190d BFHR|190s BFHR]]
+*[[180d BFHR|180s BFHR]]
+*[[170d BFHR|170s BFHR]]
+*[[160d BFHR|160s BFHR]]
+*[[150d BFHR|150s BFHR]]
+*[[140d BFHR|140s BFHR]]
+*[[130d BFHR|130s BFHR]]
+*[[120d BFHR|120s BFHR]]
+*[[110d BFHR|110s BFHR]]
+*[[100d BFHR|100s BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev" |'''Previous Century'''&lt;br /&gt;[[200c BFHR|200s BFHR]]
+| class="topic" |'''[[Timeline]]'''&lt;br /&gt;[[0m BFHR|1st millennium BFHR]]
+| class="next" |'''Next Century'''&lt;br /&gt;[[0c BFHR|0s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>3o0wbwdq5um1ugogbcghmqdh8eq9fux</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>100c YFHR</title>
+    <ns>0</ns>
+    <id>2479</id>
+    <revision>
+      <id>4285</id>
+      <timestamp>2024-01-14T21:22:07Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4285</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="479" sha1="6e8neix3s0p28excrejpjf7pqgd0d2i" xml:space="preserve">The second century of the Year of [[Factol]] [[Hashkar]]'s Reign.
+
+*[[100d YFHR|100s YFHR]]
+*[[110d YFHR|110s YFHR]]
+*[[120d YFHR|120s YFHR]]
+*[[130d YFHR|130s YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev" |'''Previous Century'''&lt;br /&gt;[[0c YFHR|0s YFHR]]
+| class="topic" |'''[[Timeline]]'''&lt;br /&gt;[[0m YFHR|1st millennium]]
+| class="next" |'''Next Century'''&lt;br /&gt;[[200c YFHR|200s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>6e8neix3s0p28excrejpjf7pqgd0d2i</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>100d YFHR</title>
+    <ns>0</ns>
+    <id>2522</id>
+    <revision>
+      <id>4369</id>
+      <timestamp>2024-01-15T06:49:24Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4369</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="497" sha1="6pvhdid9ho1npr35s9yjwti4u82a7r6" xml:space="preserve">The first decade of the second century of Factol Hashkar's Reign.
+
+*[[100 YFHR]]
+*[[101 YFHR]]
+*[[102 YFHR]]
+*[[103 YFHR]]
+*[[104 YFHR]]
+*[[105 YFHR]]
+*[[106 YFHR]]
+*[[107 YFHR]]
+*[[108 YFHR]]
+*[[109 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[90d YFHR|90s]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[100c YFHR|100s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[110d YFHR|110s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>6pvhdid9ho1npr35s9yjwti4u82a7r6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>104 YFHR</title>
+    <ns>0</ns>
+    <id>2567</id>
+    <revision>
+      <id>4463</id>
+      <timestamp>2024-01-17T06:06:46Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4463</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="495" sha1="tq4htm25i9bfh5bx1mwh9qniz4qj85w" xml:space="preserve">{{YFHR|104}}
+
+==Events==
+
+* At the age of 10, [[Erin Darkflame Montgomery]] becomes a novitiate to [[Diancecht]], the Celtic god of healing.&lt;ref name="fm133"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=133}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[103 YFHR|103]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[100d YFHR|100s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[105 YFHR|105]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>tq4htm25i9bfh5bx1mwh9qniz4qj85w</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>107 YFHR</title>
+    <ns>0</ns>
+    <id>2551</id>
+    <revision>
+      <id>5537</id>
+      <parentid>4471</parentid>
+      <timestamp>2025-02-11T06:39:06Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>sarin</comment>
+      <origin>5537</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1222" sha1="smugx33n1aagsj6m2woy8vt9t2zgayt" xml:space="preserve">{{YFHR|107}}
+
+==Events==
+* [[Jeena Ealy]] is known primarily as the wife of [[Forddin Ealy]], importer of rare gems, .&lt;ref name="itc72"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=72}}&lt;/ref&gt;
+* The wizard [[Sruce]] leaves [[Krynn]], venturing to the planes.&lt;ref name="fm31"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=31}}&lt;/ref&gt;
+* [[Sarin]] arrives in [[Sigil]] around this time.&lt;ref name="fm91"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=91}}&lt;/ref&gt;
+* By the age of 13, [[Erin Darkflame Montgomery]] is a full-fledged priestess to [[Diancecht]], the Celtic god of healing.&lt;ref name="fm133"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=133}}&lt;/ref&gt;
+* A group of [[Xaositects]] enter the [[Lady's Ward]] and mess with some manor courtyards. Some owners wake up to razed grounds, while others have gorgeous new rock gardens.&lt;ref name="fm152"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=152}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[106 YFHR|106]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[100d YFHR|100s YFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[108 YFHR|108]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>smugx33n1aagsj6m2woy8vt9t2zgayt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>108 YFHR</title>
+    <ns>0</ns>
+    <id>2563</id>
+    <revision>
+      <id>4455</id>
+      <timestamp>2024-01-17T05:26:01Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4455</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="546" sha1="9rkf96hx77ch8imf0lvh351ca9pzlht" xml:space="preserve">{{YFHR|108}}
+
+==Events==
+
+* [[Alisohn Nilesia]], future [[Factol]] of the [[Mercykillers]], is born.&lt;ref name="fm102"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=102}}&lt;/ref&gt;&lt;ref name="fw90"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=33}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[107 YFHR|107]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[100d YFHR|100s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[109 YFHR|109]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>9rkf96hx77ch8imf0lvh351ca9pzlht</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>10 YFHR</title>
+    <ns>0</ns>
+    <id>2511</id>
+    <revision>
+      <id>4355</id>
+      <parentid>4344</parentid>
+      <timestamp>2024-01-15T06:25:29Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>math</comment>
+      <origin>4355</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="282" sha1="odqwqljiqson0l0fxb5xqsdyk2h65jn" xml:space="preserve">{{YFHR|10}}
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[9 YFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[10d YFHR|10s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[11 YFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>odqwqljiqson0l0fxb5xqsdyk2h65jn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>10d BFHR</title>
+    <ns>0</ns>
+    <id>2597</id>
+    <revision>
+      <id>4540</id>
+      <timestamp>2024-01-19T06:08:31Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4540</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="478" sha1="2a83enrizu3vj73i8j2bu0izfelrbub" xml:space="preserve">Two decades before Factol Hashkar's reign begins.
+
+*[[19 BFHR]]
+*[[18 BFHR]]
+*[[17 BFHR]]
+*[[16 BFHR]]
+*[[15 BFHR]]
+*[[14 BFHR]]
+*[[13 BFHR]]
+*[[12 BFHR]]
+*[[11 BFHR]]
+*[[10 BFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[20d BFHR|20s BFHR]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c BFHR|0s BFHR]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[0d BFHR|0s BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>2a83enrizu3vj73i8j2bu0izfelrbub</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>10d YFHR</title>
+    <ns>0</ns>
+    <id>2526</id>
+    <revision>
+      <id>4376</id>
+      <parentid>4374</parentid>
+      <timestamp>2024-01-15T06:57:13Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>lk</comment>
+      <origin>4376</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="479" sha1="q2y7cvogi23vx95x9kt908gvcvott7g" xml:space="preserve">The second decade of the first century of Factol Hashkar's Reign.
+
+*[[10 YFHR]]
+*[[11 YFHR]]
+*[[12 YFHR]]
+*[[13 YFHR]]
+*[[14 YFHR]]
+*[[15 YFHR]]
+*[[16 YFHR]]
+*[[17 YFHR]]
+*[[18 YFHR]]
+*[[19 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[0d YFHR|0s]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[0c YFHR|0s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[20d YFHR|20s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>q2y7cvogi23vx95x9kt908gvcvott7g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>110 YFHR</title>
+    <ns>0</ns>
+    <id>2486</id>
+    <revision>
+      <id>4852</id>
+      <parentid>4295</parentid>
+      <timestamp>2024-02-10T08:00:48Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>torment</comment>
+      <origin>4852</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="840" sha1="7334sdg9lwth4v9pqmi052vl9stg9q0" xml:space="preserve">{{YFHR|110}}
+
+==Events==
+
+* The [[Nontegue]] family retreat within their [[Nontegue Manor|Manor]], cutting themselves off from the public, feeling that they're the only ones worth of their own company.&lt;ref name="fw84"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=84}}&lt;/ref&gt;
+* [[The Nameless One]] smashed up the [[Smoldering Corpse Bar]], and gave owner [[Barkis]] insufficient funds to pay for damages. TNO then plucked out his eye to give it to Barkis as collateral for the missing money.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[109 YFHR|109]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[110d YFHR|110s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[111 YFHR|111]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>7334sdg9lwth4v9pqmi052vl9stg9q0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>110d YFHR</title>
+    <ns>0</ns>
+    <id>2521</id>
+    <revision>
+      <id>4368</id>
+      <timestamp>2024-01-15T06:48:45Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4368</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="500" sha1="iz9hbna4vcrj5jorr9bpwrzqcqdbvng" xml:space="preserve">The second decade of the second century of Factol Hashkar's Reign.
+
+*[[110 YFHR]]
+*[[111 YFHR]]
+*[[112 YFHR]]
+*[[113 YFHR]]
+*[[114 YFHR]]
+*[[115 YFHR]]
+*[[116 YFHR]]
+*[[117 YFHR]]
+*[[118 YFHR]]
+*[[119 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[100d YFHR|100s]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[100c YFHR|100s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[120d YFHR|120s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>iz9hbna4vcrj5jorr9bpwrzqcqdbvng</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>111 YFHR</title>
+    <ns>0</ns>
+    <id>2485</id>
+    <revision>
+      <id>4465</id>
+      <parentid>4454</parentid>
+      <timestamp>2024-01-17T06:11:15Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>fm</comment>
+      <origin>4465</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="716" sha1="i8hn4bocoreha8ajxkxntq512vhhutu" xml:space="preserve">{{YFHR|111}}
+
+==Events==
+
+* [[Eliath]] comes to [[Sigil]] from [[Toril]].&lt;ref name="teb16"&gt;{{b|Planescape|The Eternal Boundary|pdf=17300|page=16}}&lt;/ref&gt;
+* At 17, [[Erin Darkflame Montgomery]] leaves [[Tir na Og]] in an attempt to spare her family trouble from the [[tanar'ri]] assassins after her. She wanders from prime world to prime world for the next decade.&lt;ref name="fm133"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=133}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[110 YFHR|110]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[110d YFHR|110s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[112 YFHR|112]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>i8hn4bocoreha8ajxkxntq512vhhutu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>116 YFHR</title>
+    <ns>0</ns>
+    <id>2518</id>
+    <revision>
+      <id>4511</id>
+      <parentid>4456</parentid>
+      <timestamp>2024-01-19T02:00:14Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>cyric</comment>
+      <origin>4511</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1473" sha1="8pfyga47283cixd414kaa4anbruko49" xml:space="preserve">{{YFHR|116}}
+
+==Events==
+
+* [[Tylaric Stormwing]] came to [[Sigil]].&lt;ref name="teb17"&gt;{{b|Planescape|The Eternal Boundary|pdf=17300|page=17}}&lt;/ref&gt;
+* The town of [[Elshava]]'s Fisher King, [[Calleron]], Lord of the Selkies, dies unmarried and without an heir. He is succeeded by his sister, [[Elothien]] the Silent, over much public protest.&lt;ref name="pocboc52"&gt;{{b|Planescape|Planes of Chaos|pdf=17298|page=52, Book of Chaos}}&lt;/ref&gt;
+* [[Alisohn Nilesia]], eight years old, attempts to become a full member of the [[Mercykillers]]. [[Factol]] [[Mallin]] turns her down.&lt;ref name="fm102"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=102}}&lt;/ref&gt;
+
+* [[Cyric]], a mortal thief, slays one of the embodied gods of [[Toril]], and thus assumes his portfolio.&lt;ref name="ohg168"&gt;{{b|Planescape|On Hallowed Ground|pdf=121101|page=168}}&lt;/ref&gt;
+
+== Background Information ==
+* Cyric ascending to godhood happens "a dozen or so years ago" (from 128 YFHR), which we have assumed is literal, taking place in 116 YFHR. This event happens during Forgotten Realms' Time of Troubles in the year [[w:c:forgottenrealms:1358 DR|1358 DR]], which gives us a touchstone for comparing timelines between the two settings.
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[115 YFHR|115]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[110d YFHR|110s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[117 YFHR|117]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>8pfyga47283cixd414kaa4anbruko49</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>117 YFHR</title>
+    <ns>0</ns>
+    <id>2484</id>
+    <revision>
+      <id>4487</id>
+      <parentid>4476</parentid>
+      <timestamp>2024-01-17T22:28:08Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>conflict</comment>
+      <origin>4487</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1566" sha1="43z4vck1oz0djwsevh1jc2tkaphj66b" xml:space="preserve">{{YFHR|117}}
+
+==Events==
+
+* The [[First Eschaton]]: A year of bad omens. People have bad dreams and uneasy visions, the [[Lady of Pain]] make an inauspicious 13 appearances in the short timeframe of 23 days, and [[Mercykiller]] [[Factol]] [[Votohm]] dies under mysterious circumstances.&lt;ref name="fw64"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=64}}&lt;/ref&gt;
+* The [[Xaositects]] manage to arrange an alliance with every other [[faction]] at once. The alliance only lasts about 12 minute once everyone figures out what's going on.&lt;ref name="fm152"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=152}}&lt;/ref&gt;
+* [[Sougad Lawshredder]] goes on a murder spree for a week, leaving Cagers in terror. The [[Believers of the Source]] capture him and take him to [[Harbinger House]], with the hope that his murderous tendencies would fade as he ascended toward godhood.&lt;ref name="hh10"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=10}}&lt;/ref&gt;
+* [[Flandal Steelskin]]'s best smith and [[proxy]], [[Gilliana Heatforge]], loses several family members, including her father, when [[Urdlen]] the Crawler Below causes the collapse of her family's tunnels.&lt;ref name="poklb38"&gt;{{b|Planescape|Planes of Conflict|pdf=17278|page=38, Liber Benevolentiae}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[116 YFHR|116]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[110d YFHR|110s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[118 YFHR|118]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>43z4vck1oz0djwsevh1jc2tkaphj66b</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>118 YFHR</title>
+    <ns>0</ns>
+    <id>2575</id>
+    <revision>
+      <id>4503</id>
+      <timestamp>2024-01-17T23:28:08Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4503</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="616" sha1="r42opyl5w6bdfxa2915j8ztjdh2zi9m" xml:space="preserve">{{YFHR|118}}
+
+==Events==
+* After his wife [[Gertelen]] dies, [[Tarholt]] gets sick of [[Sigil]] and wants to leave. Not wanting to lose his grandson, [[Traban]] asks him to be a runner for [[Traban's Forge]] and drum up business outside of the city.&lt;ref name="uncaged100"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=100}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[117 YFHR|117]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[110d YFHR|110s YFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[119 YFHR|119]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>r42opyl5w6bdfxa2915j8ztjdh2zi9m</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>119 YFHR</title>
+    <ns>0</ns>
+    <id>2564</id>
+    <revision>
+      <id>4457</id>
+      <timestamp>2024-01-17T05:29:52Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>4457</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="532" sha1="cvfoutigu9sg98gthf7ixejdce7znx2" xml:space="preserve">{{YFHR|119}}
+
+==Events==
+
+* [[Alisohn Nilesia]], at 11 years old, once again attempts to become a full member of the [[Mercykillers]]. This time, [[Factol]] [[Mallin]] allows it.&lt;ref name="fm102"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=102}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[118 YFHR|118]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[110d YFHR|110s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[120 YFHR|120]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>cvfoutigu9sg98gthf7ixejdce7znx2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>120d YFHR</title>
+    <ns>0</ns>
+    <id>2520</id>
+    <revision>
+      <id>4367</id>
+      <parentid>4366</parentid>
+      <timestamp>2024-01-15T06:47:45Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>lk</comment>
+      <origin>4367</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="499" sha1="rjsrdj5f9iv535thjq149s54ptt5sdx" xml:space="preserve">The third decade of the second century of Factol Hashkar's Reign.
+
+*[[120 YFHR]]
+*[[121 YFHR]]
+*[[122 YFHR]]
+*[[123 YFHR]]
+*[[124 YFHR]]
+*[[125 YFHR]]
+*[[126 YFHR]]
+*[[127 YFHR]]
+*[[128 YFHR]]
+*[[129 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[110d YFHR|110s]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[100c YFHR|100s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[130d YFHR|130s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>rjsrdj5f9iv535thjq149s54ptt5sdx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>121 YFHR</title>
+    <ns>0</ns>
+    <id>2519</id>
+    <revision>
+      <id>4858</id>
+      <parentid>4477</parentid>
+      <timestamp>2024-02-10T08:24:26Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>torment</comment>
+      <origin>4858</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1501" sha1="n9zea96ghhhrtcxq1ee56pguwq550a5" xml:space="preserve">{{YFHR|121}}
+
+==Events==
+
+* [[Tylaric Stormwing]] takes a wrong turn and ends up in the [[Abyss]]. When he comes back, he's a screaming [[barmy]].&lt;ref name="teb17"&gt;{{b|Planescape|The Eternal Boundary|pdf=17300|page=17}}&lt;/ref&gt;
+
+* [[Erin Darkflame Montgomery]], a member of a decadent group called the [[Pax Imperica]], falls for a half-elf named [[Cuatha Da'nanin]]. She frees him from a death in a spectacle of atrocity called the [[Spit]], and the two flee to [[Sigil]].&lt;ref name="fm133134"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=133-134}}&lt;/ref&gt;
+* The bard [[Trolan]] of [[Ecstasy]] arrives in [[Sigil]] and finds a tavern to perform in. He performs a song of love to the [[Lady of Pain]]. The crowd flees and he's kicked out, with the expectation that the Lady would quickly arrive to dispatch him, but she never does. He's quickly branded Trolan the Mad. The [[Mercykillers]] were ready to deal with him when the [[dabus]] showed up to take him to [[Harbinger House]].&lt;ref name="hh11"&gt;{{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277|page=11}}&lt;/ref&gt;
+
+* [[The Nameless One]], going by the name "Thlium," is owed 100 copper by a Cager.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[120 YFHR|120]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[120d YFHR|120s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[122 YFHR|122]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>n9zea96ghhhrtcxq1ee56pguwq550a5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>122 YFHR</title>
+    <ns>0</ns>
+    <id>2560</id>
+    <revision>
+      <id>4467</id>
+      <parentid>4452</parentid>
+      <timestamp>2024-01-17T06:15:51Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>fm</comment>
+      <origin>4467</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="749" sha1="6we6zj6yizw4qaomv7qy0h50lakz2wj" xml:space="preserve">{{YFHR|122}}
+
+==Events==
+
+* [[Pentar]] becomes [[factol]] of the [[Doomguard]] around this time.&lt;ref name="fm41"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=41}}&lt;/ref&gt;
+* [[Sarin]] becomes [[factol]] of the [[Harmonium]] around this time.&lt;ref name="fm92"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=92}}&lt;/ref&gt;
+* [[Erin Darkflame Montgomery]] joins the [[Society of Sensation]].&lt;ref name="fm134"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=134}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[121 YFHR|121]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[120d YFHR|120s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[123 YFHR|123]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>6we6zj6yizw4qaomv7qy0h50lakz2wj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>123 YFHR</title>
+    <ns>0</ns>
+    <id>2517</id>
+    <revision>
+      <id>4494</id>
+      <parentid>4461</parentid>
+      <timestamp>2024-01-17T23:03:30Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>uncaged</comment>
+      <origin>4494</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1349" sha1="l54b1fkqahn4bhfkvj8pva9lu13oj9f" xml:space="preserve">{{YFHR|123}}
+
+==Events==
+
+* [[Eliath]] researched where a portal might lead, possibly the [[Isle of Black Trees]]. He disappeared for more than a year afterward -- the book in the city library drove him insane, and he ended up in the [[Hive]].&lt;ref name="teb7"&gt;{{b|Planescape|The Eternal Boundary|pdf=17300|page=7}}&lt;/ref&gt;&lt;ref name="teb16"&gt;{{b|Planescape|The Eternal Boundary|pdf=17300|page=16}}&lt;/ref&gt;
+* The wizard [[Rhaunades]] is killed in a magical duel, leaving behind a collection.&lt;ref name="teb17"&gt;{{b|Planescape|The Eternal Boundary|pdf=17300|page=17}}&lt;/ref&gt;
+* [[Interplanar Importers]] in The [[Lady's Ward]] is turned into a secret [[Revolutionary League]] safe house by the [[Quin|owner]]'s daughter [[Strader]].&lt;ref name="fm115"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=115}}&lt;/ref&gt;
+* [[Kesto Brighteyes]] buys a bookshop in the [[Lower Ward]] called the [[Parted Veil]]. He sets two dozen round panes of crystal into the outer wall so passers-by can see into the store.&lt;ref name="uncaged16"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=16}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[122 YFHR|122]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[120d YFHR|120s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[124 YFHR|124]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>l54b1fkqahn4bhfkvj8pva9lu13oj9f</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>124 YFHR</title>
+    <ns>0</ns>
+    <id>2483</id>
+    <revision>
+      <id>4856</id>
+      <parentid>4521</parentid>
+      <timestamp>2024-02-10T08:12:53Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>torment</comment>
+      <origin>4856</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="993" sha1="javrt7dg8k5l68rrpkt4zr7pejkzott" xml:space="preserve">{{YFHR|124}}
+
+==Events==
+
+* [[Kiim Madbone]] is framed by the [[Revolutionary League]] for the death of two [[Mercykiller]] [[factor]]s.&lt;ref name="fw90"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=90}}&lt;/ref&gt;
+* Half-orc [[Lhar]] becomes [[factol]] of the [[Bleak Cabal]].&lt;ref name="fm26"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=26}}&lt;/ref&gt;&lt;ref name="fm28"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=28}}&lt;/ref&gt;
+
+* The [[bariaur]] [[Zebrinth]] moves into [[Crux]].&lt;ref name="dg30"&gt;{{b|Planescape|Dead Gods|pdf=17297|page=30}}&lt;/ref&gt;
+
+* [[The Nameless One]] breaks into [[Iannis]]' office and burns his legal documentation.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}&lt;/ref&gt;
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[123 YFHR|123]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[120d YFHR|120s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[125 YFHR|125]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>javrt7dg8k5l68rrpkt4zr7pejkzott</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>125 YFHR</title>
+    <ns>0</ns>
+    <id>2482</id>
+    <revision>
+      <id>4512</id>
+      <parentid>4505</parentid>
+      <timestamp>2024-01-19T02:07:18Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>astral</comment>
+      <origin>4512</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2607" sha1="qvy43su714eafh6su4d3z1ikmocpjkt" xml:space="preserve">{{YFHR|125}}
+
+==Events==
+
+* Duke [[Rowan Darkwood]] enters [[Sigil]], and very shortly becomes one of the two most-powerful people in the city, the [[Factol]] of the [[Fated]]. He takes over from Factol [[Emma Oakwright]].&lt;ref name="sab73"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=73, Sigil and Beyond}}&lt;/ref&gt;&lt;ref name="fm58"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=58}}&lt;/ref&gt;&lt;ref name="fm60"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=60}}&lt;/ref&gt;
+
+* A half-elf going by "The [[Shadowknave]]" arrives in Sigil.&lt;ref name="teb6"&gt;{{b|Planescape|The Eternal Boundary|pdf=17300|page=6}}&lt;/ref&gt;
+* [[Hagus Gimcrack]] is banished to [[Pandemonium]], finds his way to [[Windglum]], applies for citizenship, and purchases the [[Scaly Dog Inn]] with jewelry he had on his person.&lt;ref name="poct36"&gt;{{b|Planescape|Planes of Chaos|pdf=17298|page=36, Travelogue}}&lt;/ref&gt;
+* The [[Xaositects]] collectively act "normal" for about a week. It weirded out Cagers who wondered what they were up to. Turns out nothing, it just worked out that way.&lt;ref name="fm156"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=156}}&lt;/ref&gt;
+* [[Caili Jaspar]] joins [[Corpus]] as the Mouth of the town.&lt;ref name="poklm60"&gt;{{b|Planescape|Planes of Conflict|pdf=17278|page=60, Liber Malevolentiae}}&lt;/ref&gt;
+
+* [[Sigil|Cager]]s create a press sheet with daily reports about the [[Blood War]], called ''[[Life in Wartime]]''.&lt;ref name="hellbound29"&gt;{{b|Planescape|Hellbound: The Blood War|pdf=17281|page=29, The Chant of the War}}&lt;/ref&gt;
+* The [[githyanki]] settle in the [[Astral Plane]].&lt;ref name="astral4"&gt;{{b|Planescape|A Guide to the Astral Plane|pdf=17287|page=4}}&lt;/ref&gt;
+
+* An earthquake shakes the [[Lady's Ward]], as [[Nontegue Manor]]'s efforts to extend their underground crypts break into an area of [[UnderSigil]].&lt;ref name="fw84"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=84}}&lt;/ref&gt;
+* The events of ''[[Planescape: Torment]]''. The [[Nameless One]]'s final incarnation awakens in the [[Mortuary]], gathers companions to his cause, and finally defeats the [[Transcendent One]] who has been chasing him for thousands of years.&lt;ref name="pst"&gt;{{b|Planescape|Planescape: Torment}}: [[Prophyra]], a woman in the Marketplace area of the [[Hive Ward]], predicts a great faction war in five years' time.&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[124 YFHR|124]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[120d YFHR|120s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[126 YFHR|126]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>qvy43su714eafh6su4d3z1ikmocpjkt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>126 YFHR</title>
+    <ns>0</ns>
+    <id>2502</id>
+    <revision>
+      <id>4498</id>
+      <parentid>4492</parentid>
+      <timestamp>2024-01-17T23:16:08Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>uncaged</comment>
+      <origin>4498</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1726" sha1="2tvy25j63z6grgsd4g34h4b5onyv3by" xml:space="preserve">{{YFHR|126}}
+
+==Events==
+* Wild mage [[Quake Lavender]] recruits her mentor [[Hornung]] the Anarch into the [[Xaositects]].&lt;ref name="fm156"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=156}}&lt;/ref&gt;
+* [[Pelimo]], owner of [[Fineweave Rugs and Carpets]], disappears after receiving a shipment of rugs imported from across the planes. He is presumed dead, and leaves behind a widow [[Ajami]] and their seven children.&lt;ref name="pokaic13"&gt;{{b|Planescape|Planes of Conflict|pdf=17278|page=13, Adventures in Conflict}}&lt;/ref&gt;
+* A [[githzerai]] discovers his master, [[Bilfar]], dead. The killers reveal themselves: a group of [[cranium rat]]s, agents of the [[Us]]. They offer to the githzerai to join them. He agrees, calling himself [[Parakk]] the Ratcatcher, a word that means both servant and master in the githzerai tongue.&lt;ref name="uncaged7677"&gt;{{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|page=76-77}}&lt;/ref&gt;
+
+
+== Background Information ==
+* Given in-universe time seems to advance at the same rate as the real world, these products released in 1994 are assumed to be set during this period:
+** {{b|Planescape|Planescape Campaign Setting|pdf=17267}}
+** {{b|Planescape|The Eternal Boundary|pdf=17300}}
+** {{b|Planescape|Planescape Monstrous Compendium Appendix}}
+** {{b|Planescape|Planes of Chaos|pdf=17298}}
+** {{b|Planescape|Well of Worlds|pdf=17269}}
+** {{b|Planescape|In the Abyss|pdf=17270}}
+** {{b|Planescape|The Deva Spark|pdf=17271}}
+
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[125 YFHR|125]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[120d YFHR|120s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[127 YFHR|127]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>2tvy25j63z6grgsd4g34h4b5onyv3by</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>127 YFHR</title>
+    <ns>0</ns>
+    <id>2503</id>
+    <revision>
+      <id>6155</id>
+      <parentid>4857</parentid>
+      <timestamp>2025-06-04T07:35:54Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>mallin</comment>
+      <origin>6155</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2308" sha1="gffayz6qsnx29zllm6hgzcvm62wcwbs" xml:space="preserve">{{YFHR|127}}
+
+==Events==
+
+* The [[Factol's Manifesto]] is published by an [[Akin|unnamed editor]]. The incredibly in-depth look into the operations and secrets of [[Sigil]]'s [[faction]]s means it's almost immediately banned as a publication.&lt;ref name="fm2-3"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=2-3}}&lt;/ref&gt;
+* [[Mercykillers]] Factol [[Mallin]] dies in mysterious circumstances, replaced by the new Factol [[Alisohn Nilesia]].&lt;ref name="fm5"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=5}}&lt;/ref&gt;&lt;ref name="fm87"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=87}}&lt;/ref&gt;&lt;ref name="fm100"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1|page=100}}&lt;/ref&gt;
+* The [[Xaositects]] paint a mural on an exterior wall of the [[Great Gymnasium]]. It's widely considered one of the most beautiful works of art in the planes.&lt;ref name="fm152"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=152}}&lt;/ref&gt;
+
+== Background Information ==
+* Given in-universe time seems to advance at the same rate as the real world, these products released in 1995 are assumed to be set during this period:
+** {{b|Planescape|Planes of Law|pdf=17272|nip=1}}
+** {{b|Planescape|Fires of Dis|pdf=17273}}
+** {{b|Planescape|A Player's Primer to the Outlands|pdf=17301}}
+** {{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|nip=1}}&lt;ref name="itc12"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=12}}&lt;/ref&gt;
+** {{b|Planescape|The Factol's Manifesto|pdf=17275|nip=1}}&lt;ref name="fm71"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=71}}&lt;/ref&gt;&lt;ref name="fm75"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=75}}&lt;/ref&gt;
+** {{b|Planescape|Harbinger House (book)|alt=Harbinger House|pdf=17277}}
+** {{b|Planescape|Planescape Monstrous Compendium Appendix II}}
+** {{b|Planescape|Planes of Conflict|pdf=17278|nip=1}}
+
+* [[Strahan's Diary]] in ''Planescape: Torment'' notes the date as the 127th Year of Factol Hashkar's Reign, but this conflicts with other dating information which suggests [[125 YFHR]].
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[126 YFHR|126]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[120d YFHR|120s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[128 YFHR|128]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>gffayz6qsnx29zllm6hgzcvm62wcwbs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>128 YFHR</title>
+    <ns>0</ns>
+    <id>2501</id>
+    <revision>
+      <id>4508</id>
+      <parentid>4330</parentid>
+      <timestamp>2024-01-19T01:37:59Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>pwhb</comment>
+      <origin>4508</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="966" sha1="85ybaau0l0heimuzodeqvomqw0nixa8" xml:space="preserve">{{YFHR|128}}
+
+==Events==
+
+
+== Background Information ==
+* Given in-universe time seems to advance at the same rate as the real world, these products released in 1996 are assumed to be set during this period:
+** {{b|Planescape|Something Wild|pdf=17279}}
+** {{b|Planescape|Uncaged: Faces of Sigil|pdf=17285|nip=1}}
+** {{b|Planescape|Hellbound: The Blood War|pdf=17281|nip=1}}
+** {{b|Planescape|The Planewalker's Handbook|pdf=17280|nip=1}}&lt;ref name="pwhb53"&gt;{{b|Planescape|The Planewalker's Handbook|pdf=17280|page=53}}&lt;/ref&gt;
+** {{b|Planescape|On Hallowed Ground|pdf=121101|nip=1}}
+** {{b|Planescape|A Guide to the Astral Plane|pdf=17287}}
+** {{b|Planescape|Doors to the Unknown|pdf=17290|nip=1}}
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[127 YFHR|127]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[120d YFHR|120s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[129 YFHR|129]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>85ybaau0l0heimuzodeqvomqw0nixa8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>129 YFHR</title>
+    <ns>0</ns>
+    <id>2504</id>
+    <revision>
+      <id>4518</id>
+      <parentid>4396</parentid>
+      <timestamp>2024-01-19T02:45:49Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>gmm</comment>
+      <origin>4518</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="864" sha1="5ntp5ezb6t46q1h1201f0mpt9wmu5r7" xml:space="preserve">{{YFHR|129}}
+
+==Events==
+* The [[Great Modron March]] starts, almost 200 years early.&lt;ref name="gmm11"&gt;{{b|Planescape|The Great Modron March|pdf=17302|page=11}}&lt;/ref&gt;&lt;ref name="gmm21"&gt;{{b|Planescape|The Great Modron March|pdf=17302|page=21}}&lt;/ref&gt;
+
+== Background Information ==
+* Given in-universe time seems to advance at the same rate as the real world, these products released in 1997 are assumed to be set during this period:
+** {{b|Planescape|Faces of Evil: The Fiends|pdf=121100}}
+** {{b|Planescape|The Great Modron March|pdf=17302|nip=1}}
+** {{b|Planescape|Dead Gods|pdf=17297|nip=1}}
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[128 YFHR|128]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[120d YFHR|120s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[130 YFHR|130]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>5ntp5ezb6t46q1h1201f0mpt9wmu5r7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>130 YFHR</title>
+    <ns>0</ns>
+    <id>2481</id>
+    <revision>
+      <id>7158</id>
+      <parentid>5499</parentid>
+      <timestamp>2025-11-02T21:45:55Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>nav</comment>
+      <origin>7158</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1820" sha1="879ykltderjhj536pm4tjn80gcrlgnp" xml:space="preserve">{{YFHR|130}}
+
+==Events==
+* [[Ronassic]] of Sigil publishes a treatise on the ethereal sea, ''[[A Guide to the Ethereal Plane]]''.&lt;ref name="gttep4"&gt;{{b|Planescape|A Guide to the Ethereal Plane|pdf=17293|nip=1|page=4}}&lt;/ref&gt;&lt;ref name="dvd131"&gt;{{b|D&amp;D|Die Vecna Die!|pdf=17483|nip=1|page=131}}&lt;/ref&gt;
+* Factol [[Lhar]] succumbs to the [[Grim Retreat]], and places [[Sruce]] in charge.&lt;ref name="fw38"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=38}}&lt;/ref&gt;
+* The [[Faction War]]. [[Factol]] [[Rowan Darkwood]] enacts an elaborate plan to take over [[Sigil]], deposing the [[Lady of Pain]]. The plan involves all-out war between the various [[faction]]s. Darkwood's plan ultimately fails, but the Lady pronounces: ''This city tolerates your faction no longer. Abandon it or die.'' Unsure if by "it" she means "your faction" or "the city," various factions either splinter, merge, or leave Sigil entirely.&lt;ref name="fw114"&gt;{{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299|page=114}}&lt;/ref&gt;
+
+== Background Information ==
+* Given in-universe time seems to advance at the same rate as the real world, these products released in 1998 are assumed to be set during this period:
+** {{b|Planescape|Planescape Monstrous Compendium Appendix III|pdf=17294}}
+** {{b|Planescape|Tales from the Infinite Staircase|pdf=17291|nip=1}}
+** {{b|Planescape|A Guide to the Ethereal Plane|pdf=17293|nip=1}}
+** {{b|Planescape|Faction War (book)|alt=Faction War|pdf=17299}}
+** {{b|Planescape|The Inner Planes|pdf=17296|nip=1}}
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%; text-align:center;"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[129 YFHR|129]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[130d YFHR|130s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[131 YFHR|131]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>879ykltderjhj536pm4tjn80gcrlgnp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>130d YFHR</title>
+    <ns>0</ns>
+    <id>2480</id>
+    <revision>
+      <id>7173</id>
+      <parentid>4286</parentid>
+      <timestamp>2025-11-02T23:31:21Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>lks</comment>
+      <origin>7173</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="500" sha1="64yvs5veiuksk8ips7mx1ztxywadsfr" xml:space="preserve">The fourth decade of the second century of Factol Hashkar's Reign.
+
+*[[130 YFHR]]
+*[[131 YFHR]]
+*[[132 YFHR]]
+*[[133 YFHR]]
+*[[134 YFHR]]
+*[[135 YFHR]]
+*[[136 YFHR]]
+*[[137 YFHR]]
+*[[138 YFHR]]
+*[[139 YFHR]]
+
+==Events==
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Decade'''&lt;br /&gt;[[120d YFHR|120s]]
+| class="topic"|'''Century'''&lt;br/ &gt;[[100c YFHR|100s]]
+| class="next"|'''Next Decade'''&lt;br /&gt;[[140d YFHR|140s]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>64yvs5veiuksk8ips7mx1ztxywadsfr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>131 YFHR</title>
+    <ns>0</ns>
+    <id>3367</id>
+    <revision>
+      <id>7163</id>
+      <parentid>7160</parentid>
+      <timestamp>2025-11-02T22:19:36Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>fw</comment>
+      <origin>7163</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1089" sha1="3a6jcpl7rs3y0a96tvbxuaugpg3rrcu" xml:space="preserve">{{YFHR|131}}
+
+==Events==
+* One year post-[[Faction War]].
+
+== Background Information ==
+* Dating information post-[[Faction War]] is nonexistent, but if we assume that time continues to pass at the same rate of one in-universe year per real-world production year, the following titles take place in this year:
+** {{b|D&amp;D|TSR Jam 1999|pdf=17297}}, "The Manxome Foe"
+** {{b|D&amp;D|Warriors of Heaven|pdf=17387}}
+** {{b|D&amp;D|Guide to Hell|pdf=17390}}
+** {{b|Polyhedron|Polyhedron Magazine 137}}, "Of Sigil and the Sea"
+* Given that Factol Hashkar died during the [[Faction War]] and the [[Fraternity of Order]] retreated to [[Mechanus]], they may have elected a new factol. In which case, this year would be recorded as year 1 of the new factol's reign, rather than year 131 of Factol Hashkar's reign.
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%; text-align:center;"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[130 YFHR|130]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[130d YFHR|130s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[132 YFHR|132]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>3a6jcpl7rs3y0a96tvbxuaugpg3rrcu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>132 YFHR</title>
+    <ns>0</ns>
+    <id>3368</id>
+    <revision>
+      <id>7162</id>
+      <parentid>7161</parentid>
+      <timestamp>2025-11-02T22:19:18Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>fw</comment>
+      <origin>7162</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1072" sha1="lz1dsjlsirwkv62qsoxlicrtcgolxwd" xml:space="preserve">{{YFHR|132}}
+
+==Events==
+* Two years post-[[Faction War]]
+
+== Background Information ==
+* Dating information post-[[Faction War]] is nonexistent, but if we assume that time continues to pass at the same rate of one in-universe year per real-world production year, the following titles take place in this year:
+** {{b|D&amp;D|The Vortex of Madness and Other Planar Perils|pdf=17282|nip=1}}
+** {{b|D&amp;D|Die Vecna Die!|pdf=17483|nip=1}}
+* Although there's no dating information following the Faction War, the one in-universe year to one production year standard may be assumed to at least persist to this point, the final year of AD&amp;D 2nd Edition. It's less clear if that continues between editions, but this wiki will continue to make that assumption for the purposes of the timeline.
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%; text-align:center;"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[131 YFHR|131]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[130d YFHR|130s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[133 YFHR|133]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>lz1dsjlsirwkv62qsoxlicrtcgolxwd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>133 YFHR</title>
+    <ns>0</ns>
+    <id>3369</id>
+    <revision>
+      <id>7164</id>
+      <timestamp>2025-11-02T22:30:39Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>created</comment>
+      <origin>7164</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="746" sha1="blbv0us15swodg48nwapg0frpokc85h" xml:space="preserve">{{YFHR|133}}
+
+==Events==
+* Three years post-[[Faction War]].
+
+== Background Information ==
+* Dating information post-[[Faction War]] is nonexistent, but if we assume that time continues to pass at the same rate of one in-universe year per real-world production year, the following titles take place in this year:
+** {{b|D&amp;D|Manual of the Planes 3rd edition|pdf=25109}}
+** {{b|Dragon|Dragon Magazine 287}}, "Fractious Factions: Planar Prestige Classes"
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%; text-align:center;"
+|-
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[132 YFHR|132]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[130d YFHR|130s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[134 YFHR|134]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>blbv0us15swodg48nwapg0frpokc85h</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>13 BFHR</title>
+    <ns>0</ns>
+    <id>2515</id>
+    <revision>
+      <id>4418</id>
+      <parentid>4414</parentid>
+      <timestamp>2024-01-17T00:53:22Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <minor/>
+      <comment>page</comment>
+      <origin>4418</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="608" sha1="2euiplr7tp7x1uepnuay3ugjk0t0bs4" xml:space="preserve">{{BFHR|13}}
+
+==Events==
+* The dwarf [[Tarholtson]], son of [[Tarholt]], grandson of [[Trabanson]], great-grandson of [[Traban]], is born in [[Krynn]].&lt;ref name="sab80"&gt;{{b|Planescape|Planescape Campaign Setting|pdf=17267|page=80, Sigil and Beyond}}&lt;/ref&gt;&lt;ref name="itc45"&gt;{{b|Planescape|In the Cage: A Guide to Sigil|pdf=17274|page=45}}&lt;/ref&gt;
+
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[14 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[10d BFHR|10s BFHR]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[12 BFHR]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>2euiplr7tp7x1uepnuay3ugjk0t0bs4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>1 YFHR</title>
+    <ns>0</ns>
+    <id>2497</id>
+    <revision>
+      <id>4323</id>
+      <parentid>4313</parentid>
+      <timestamp>2024-01-15T00:54:26Z</timestamp>
+      <contributor>
+        <username>IanWatson</username>
+        <id>3425</id>
+      </contributor>
+      <comment>lariset</comment>
+      <origin>4323</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="640" sha1="ilp2b61xrkwhx0v52zi3y65v1vfztro" xml:space="preserve">{{YFHR|1}}
+
+==Events==
+
+* [[Fraternity of Order]] [[Factol]] [[Lariset]] the Inescapable spends several months sequestered in research before vanishing from her quarters. It's assumed she ascended to a higher level of power. [[Hashkar]] becomes the new [[Factol]] of the [[Fraternity of Order]].&lt;ref name="fm77"&gt;{{b|Planescape|The Factol's Manifesto|pdf=17275|page=77}}&lt;/ref&gt;
+
+==References==
+&lt;references /&gt;
+
+{| class="fandom-table browser" style="width:100%"
+| class="prev"|'''Previous Year'''&lt;br /&gt;[[1 BFHR|1 BFHR]]
+| class="topic"|'''Decade'''&lt;br/ &gt;[[0d YFHR|0s]]
+| class="next"|'''Next Year'''&lt;br /&gt;[[2 YFHR|2]]
+|}
+
+[[Category:Timeline]]</text>
+      <sha1>ilp2b61xrkwhx0v52zi3y65v1vfztro</sha1>
+    </revision>
+  </page>
+</mediawiki>

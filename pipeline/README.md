@@ -47,6 +47,24 @@ Grades: **A** ≥90% dictionary-hit · **B** ≥80% · **C** ≥65% · **D** bel
 **blank** = art/map/cover page (<12 words). Vocabulary = SRD 5.1 corpus + cant lexicon,
 cached at `build/_vocab.json`.
 
+## Reconstitution (`uncage.py` · the `/uncage` skill)
+
+The repo ships no licensed corpus and no derived stores — a recipient DM who
+owns the same books rebuilds them and **proves** the result:
+
+```bash
+py -3.13 -m pip install -r pipeline/requirements.txt
+py -3.13 pipeline/uncage.py status     # which PDFs to drop where (exact paths + shas)
+py -3.13 pipeline/uncage.py run        # inventory → pilot per book → npc parse → gate pour → law caches
+py -3.13 pipeline/uncage.py verify     # fingerprints vs pipeline/uncage-manifest.json
+```
+
+`verify` verdicts: `RECONSTITUTED` (byte-same sources, identical end state) ·
+`DRIFT-EXPLAINED` (different scan — counts advisory; close real gaps via gate
+curations) · `DRIFTED` (same sources, different stores — a bug, see
+`build/uncage/verify-report.json`). Curator re-pins after every pour:
+`py -3.13 pipeline/uncage.py pin`.
+
 ## Windows gotchas (learned the hard way)
 
 - Native `jq`/tools emit CRLF — `tr -d '\r'` anything feeding APIs (see `content/_meta/`).

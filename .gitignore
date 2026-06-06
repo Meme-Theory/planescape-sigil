@@ -13,6 +13,7 @@ __pycache__/
 *.log
 Thumbs.db
 .claude/settings.local.json
+.claude/scheduled_tasks.lock
 
 # ── D&D Beyond browser-save inbox: user-purchased, local-only ───────────
 D&D Beyond/
@@ -29,6 +30,12 @@ content/**
 !content/_meta/**
 content/_meta/tmp/
 content/_meta/*.json
+# The gate's held-out witness corpus (CC-BY-SA wiki exports, attribution in the
+# XML revision history) ships so reconstituted confidence is deterministic —
+# uncage.py pins these shas.
+!content/wikis/
+!content/wikis/fandom-planescape/
+!content/wikis/fandom-planescape/export_*.xml
 
 # ── build/ (267M): derived — pipelines rebuild it from content/ ─────────
 # Per-book extraction trees hold the FULL TEXT + images of purchased
@@ -40,6 +47,7 @@ build/**
 !build/family/*.md
 !build/mechanus/vnv-report.md
 !build/mechanus/conversion-prior-art.md
+!build/mechanus/rulings-export.json
 !build/modron/vnv/*.json
 !build/encounters/**
 
