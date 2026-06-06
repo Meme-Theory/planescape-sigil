@@ -265,3 +265,108 @@ of 29 statblock triples are attested verbatim and the other two were not source 
 but an OCR miss the campaign caught and repaired** — the gate proves *consistency*; only the
 page proves *truth*, and the Handbook agrees with the page. Mimir remembers what is, and
 can show its work.
+
+---
+
+## Round 5 — the Great Audit apply pass (2026-06-06)
+
+**Scope:** Meme adopted the Great Audit correction docket wholesale ("Misbinds are
+expected - Implement the correction docket; good audit") — 314 confirmed findings +
+35 quarantine-court promotes, applied as data/lane edits + ONE re-pour, per
+`build/mimir/review/PLAN.md` Phase 3.
+
+**The audit itself (Phases 0-2, docket-first):** all 824 entities page-witness
+reviewed across 47 chunks (3 workflows, incl. a server-load-shed salvage with
+wave-throttled retry); every finding adversarially verified (2 refuters, refute-first;
+24 refuted findings preserved); 89 quarantined items judged by a six-bucket court;
+`handbook.db` sha byte-identical until sign-off (`db-sha-prework.txt`). Tools now
+permanent: `tools/integrity.py` (mechanical checker), `tools/review_chunks.py`
+(work-list dumper), `tools/assemble_docket.py`.
+
+**What the apply pass changed (verified post-pour):**
+- **Witnessed entry recoveries** — `cage.ENTRY_CURATIONS` (14 anchor-resolved spans;
+  anchors, never line numbers; a failed anchor re-queues the entry). All 10
+  `cage-head-lost` names POUR (location 90 → 97); Speckled Rat minted as a minor and
+  merged into its Uncaged node; `EXPECTED_ABSENT` queue drains to ZERO.
+- **The misbind family died at the root** — re-split scopes re-anchor the hook tagger:
+  `black-sails` no longer `seeks` Aoskar (Bones of the Night does); the Prison no
+  longer wears the Palace of the Jester's kriegstanz; the DM-mechanics seeds (vortex
+  d4, mount impairments) either reject by `HOOK_ADJUDICATIONS` (stable keys
+  book×object×flavor×page — seed ids renumber) or ceased to exist when the side-table
+  left the scope.
+- **Portals**: the Ditch over-mint rejected (4 plane-dest dups of one "respectively"
+  clause), `ditch--plague-mort` minted via the p49 spelling alias, the Great Ring
+  locative dup rejected, two off-by-page witnesses corrected → **29 stand**.
+- **Creatures**: `monstrous.CREATURE_CURATIONS` (22 entries keyed book×page×RAW name —
+  renames re-slug ids): Kytedn→Kyton, Sj.Asrath→Slasrath, Bj.Ade J.I Ng→Bladeling…;
+  6 court recoveries ADMIT (16 → 22; 3 confirm-rejects stay queued); Conflict
+  creatures' `attested_in` re-bound to their own box (MC_BOOK, not _box_source).
+- **Dialog**: 28 misattributed lines (anonymous narrators, the mimir's voice, column
+  splices) quarantined `dialog-rejected` by `DIALOG_ADJUDICATIONS`; 1 rebind; 14
+  court promotes admitted via the new vision-over-θ consult in `pour_dialog`
+  (content-addressed ids; the apply pass caught + pinned an owner-clobber defect in
+  the first rebind implementation — D-R5-1).
+- **Cards**: 18 fixes — Goldfire (not the Glass Tarn) and Windwrath (not CenterSpire)
+  renamed per witnesses; Noctos' Domain REMOVED (the moon is a layer epithet);
+  Blood Tor attests via whitespace-tolerant `_name_rx` (48 realm cards → 47 cards
+  poured 47/47, 0 refused); Unseelie Court fixed to Phlegethon; Vorkehan is the
+  Mercykillers'; Bleak Cabal home = Pandemonium; the Other Place ad is Harys
+  Hatchis's; `gate_town` fields now verified-or-absent (6 backfills stand).
+- **Items**: 7 extraction-debris drops + 4 de-fusion renames (`ITEM_CURATIONS`,
+  extraction-time so ids re-slug clean); Saure's and Shemeshka's SPECIAL EQUIPMENT
+  sections restored verbatim from their pages (110 → 106 items, all real).
+- **curations.json**: 3 → 130 entries, every one stamped with its docket adjudication;
+  the `_admit_seed` hook now applies curations across EVERY dimension (universal
+  lane-3 rail, pinned by 2 gate tests).
+
+**End state:** 814 entities · 1,817 edges · 91 quarantined in six HONEST buckets
+(dialog-rejected 28 · hook-rejected 5 · low-confidence-dialog 16 · low-confidence-hook
+29 · mc-parse 3 · portal-rejected 10 — every row carries its adjudicated why).
+Suite **104 green** · parse self-tests green · `integrity.py` **0 hard** (38 softs =
+documented danglers + name-style reports) · re-dumped chunks cover 814/814 with 0 page
+misses · cant harvest re-attested (85 terms, 0 unknown compounds) · live MCP traces
+walk the corrected graph (Bones of the Night's re-anchored hooks; Windwrath →
+Shurrock → Tefnut). Post-apply sha: `db-sha-postapply.txt`.
+
+**Defects caught during apply (fixed + pinned):**
+- **D-R5-1** `pour_dialog` rebind clobbered the node's `oid`, drifting the
+  content-addressed ids of every later utterance in that entry (2 court promotes
+  missed; 2 lines mis-bound to Ylem). Fixed with a per-utterance `owner_id`;
+  14/14 promotes verified admitted.
+- **D-R5-2** `pour_cage` merge path crashed on a curated hint whose target wasn't
+  poured (test fixtures); merge now requires the node to EXIST, else fresh-mint.
+- **D-R5-3** `_box_source` lacked the MC components and defaulted Conflict creatures
+  to `source:planes-of-law` — sources now derive from `MC_BOOK`.
+
+### Round 5 addendum — Modron's cross-audit wounds (same day)
+
+Modron's own audit (build/modron/review/correction-docket.md, the G-* gaps) handed
+back 18 field wounds in Mimir's lane. Every locator PAGE-VERIFIED here before
+writing; three resolved by TRUE VISION reads against the page scans
+(`pages/page-NNNN.jpg`, the Cirily precedent):
+
+- **Qaida** `ML elite (14)` — the reflow's `Q4JJ` was the OCR-eaten parenthetical;
+  the page image reads it plainly.
+- **Ylem** `M5` (mage 5) — the print carries a SPELLS line the reflow shredded
+  (1st: alarm/color spray/feather fall/phantasmal force; 2nd: blindness/web;
+  3rd: haste); spells through 3rd + THAC0 19 + hp 18 ∈ 5d4 settle Modron's
+  "genuinely ambiguous" slot.
+- **archon-lantern** `hit_dice 1` — the column-zip ate the lantern's HD cell (stored
+  6 was the hound's); its surviving THAC0 20 IS the 2e 1-HD bracket.
+
+Reflow-witnessed cures: morale for Kylie `champion (15)` / Sly Nye `steady (12)` /
+Adamok `elite (13)`; the 2e fractional attack rates restored (Autochon `5/2`,
+Djhek'nlarr `3/2`, Tarholt `3/2`, Jemorille `2 (beams) or 1`, Adamok `2 or 1`);
+Gabberslug `1d4/1d4/2d4`; **Alluvius's printed `HD 9d4+23` poured verbatim**
+(witnessed-waiver class — Modron can now compile the book's own dice); descriptor
+slots recovered (Omott `linqua/HD 2`, Grixitt `T1`, Setus `B1`, Sister Cade `C1`,
+Tcha `F11`, Brot `F1` — the l↔1 class-code family). Koe was already cured by the
+bulk pass. curations.json → 147; 58/58 npc admit (24 disclosed vision
+adjudications); 18/18 post-pour value checks pass; suite 104; integrity 0 hard.
+
+**Queued for the next EXTRACTION round (rules beat curations for systematics, but
+re-extraction churns the npc JSONs and is its own validation session):**
+normalize/book.py arms for (a) class-code l→1 (`^[BCDFMPRTW]l+$`, guarded off
+`Wil`/`Ill`), (b) C-for-( descriptor paren (Koe/Omott/Ly'kritch class), (c) morale
+tail forms (`Ml `→`ML `, `M.L`→`ML`, `C12)`→`(12)`), (d) `#AT n/2` fractional-rate
+capture. Modron's docket carries the per-case witnesses.

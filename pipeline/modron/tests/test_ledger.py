@@ -114,3 +114,28 @@ def test_replay_reproduces(tmp_ledger):
     rep = ledger.replay(rec["roll_id"])
     assert rep["identical_to_ledger"] is True
     assert rep["total"] == result.total
+
+
+def test_verify_session_sweeps_past_500(tmp_ledger):
+    """audit F-1-design-docs-02: verify_session must sweep EVERY roll, not
+    history()'s capped 500 — and cross-check the session counter."""
+    ses = ledger.open_session("long-night", view="2e", seed_phrase="marathon")
+    sid = ses["session_id"]
+    for _ in range(503):
+        _roll_into(sid, "1d6")
+    report = ledger.verify_session(sid)
+    assert report["rolls_checked"] == 503
+    assert report["verdict"] == "PASS"
+    assert "count_mismatch" not in report
+
+
+def test_verify_session_count_mismatch_fails(tmp_ledger):
+    """A counter that disagrees with the rolled rows is a FAIL, not a shrug."""
+    ses = ledger.open_session("tampered", view="2e", seed_phrase="hmm")
+    sid = ses["session_id"]
+    _roll_into(sid)
+    with ledger._connect() as conn:
+        conn.execute("UPDATE sessions SET counter=5 WHERE session_id=?", (sid,))
+    report = ledger.verify_session(sid)
+    assert report["verdict"] == "FAIL"
+    assert "count_mismatch" in report

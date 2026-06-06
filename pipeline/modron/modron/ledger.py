@@ -404,17 +404,30 @@ def _seed_id_for(row: dict) -> str:
 
 
 def verify_session(session_id: str) -> dict:
+    """Re-derive EVERY roll of the session — a dedicated unclamped read, not
+    history()'s capped page (audit F-1-design-docs-02: the old limit=500 sweep
+    could PASS a long night with its oldest rolls unchecked)."""
     ses = get_session(session_id)
-    rows = history(session_id=session_id, limit=500)
-    results = [verify_roll(r["roll_id"]) for r in rows]
+    with _connect() as conn:
+        ids = [r["roll_id"] for r in conn.execute(
+            "SELECT roll_id FROM rolls WHERE session_id=? ORDER BY counter, ts",
+            (session_id,))]
+    results = [verify_roll(rid) for rid in ids]
     fails = [r for r in results if r["verdict"] == "FAIL"]
     fiats = [r for r in results if r["verdict"] == "FIAT"]
-    return {"session_id": session_id, "status": ses["status"],
-            "seed_commitment": ses["seed_commitment"],
-            "seed_revealed": bool(ses["revealed"]),
-            "rolls_checked": len(results), "fiat_rows": len(fiats),
-            "verdict": "PASS" if not fails else "FAIL",
-            "failures": fails}
+    out = {"session_id": session_id, "status": ses["status"],
+           "seed_commitment": ses["seed_commitment"],
+           "seed_revealed": bool(ses["revealed"]),
+           "rolls_checked": len(results), "fiat_rows": len(fiats),
+           "verdict": "PASS" if not fails else "FAIL",
+           "failures": fails}
+    # cross-check: session-scope rolled rows must equal the session counter
+    rolled = len(results) - len(fiats)
+    if rolled != ses["counter"]:
+        out["verdict"] = "FAIL"
+        out["count_mismatch"] = (f"sessions.counter={ses['counter']} but "
+                                 f"{rolled} rolled rows verified")
+    return out
 
 
 def replay(roll_id: str) -> dict:

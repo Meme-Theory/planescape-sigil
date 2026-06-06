@@ -88,9 +88,11 @@ and the *values* come from the caller, Mimir, or Mechanus — never invented.
 *(This resolves MECHANUS.md §11 Q3 — and `roll` leaves Mechanus's surface; see §9.)*
 
 - **Derivation (engine v1, pinned):** die draws come from
-  `sha256(seed ‖ u64(roll_counter) ‖ u64(draw_index) ‖ u32(chunk))` →
-  first 8 bytes as u64 → **rejection-sampled** modulo sides (no modulo bias).
-  Uniform by construction, reproducible from `(seed, counter)` alone.
+  `sha256(seed ‖ u64be(roll_counter) ‖ u64be(draw_index) ‖ u32be(chunk))` →
+  first 8 bytes as a **big-endian** u64 → **rejection-sampled** modulo sides
+  (no modulo bias). Uniform by construction, reproducible from
+  `(seed, counter)` alone. *(Byte order added 2026-06-06, audit
+  F-1-design-docs-01 — the clean-room pin must name it.)*
 - **Sessions commit.** `session_open` records `sha256(seed)` — the
   **commitment** — before any die falls. `session_close` SEALS the stream;
   the seed is revealed **on demand** (`reveal=true`, at close or re-called
@@ -211,10 +213,11 @@ emits **roll specs with field-level provenance**:
 |---|---|
 | `roll(expr, view?, session?, mods?, label?, purpose?, context?)` | THE tool — parse, compose modifiers, evaluate on the stream, ledger, return total + per-die audit + applied-mods + `roll_id` |
 | `roll_check(kind, view, params, mods?, vs?, session?)` | semantic rolls per the pack: attack/save/check/initiative/morale/reaction/percent — returns outcome (success/margin/crit/"hits AC") |
+| `roll_damage(expr, view, crit?, mods?, session?)` | damage under edition law: `crit=true` applies the view's crit effect (5e doubles the DICE, never the modifiers; 2e `none` — noted) + `applies_when: crit` mods |
 | `roll_table(table, n?, session?)` | roll on a table (ref/inline), resolve entries, follow chains |
 | `rollables(entity, view?)` | compile an entity into roll specs (no dice fall) |
 | `encounter_rolls(encounter, steps?, plan_only?, session?)` | §6 orchestration; batch-ledgered |
-| `parse(expr)` / `stats(expr)` | AST + normal form + limits; exact PMF (convolution/enumeration) or Monte-Carlo **flagged `estimated`** — never dressed exact |
+| `parse_expr(expr)` / `dice_stats(expr, view?)` | AST + normal form + limits; exact PMF (convolution/enumeration) or Monte-Carlo **flagged `estimated`** — never dressed exact |
 
 **Ledger:**
 | tool | does |
@@ -350,6 +353,7 @@ emits **roll specs with field-level provenance**:
 | 2026-06-06 | rule-effect handoff §D (Q2): where does setting substance live? | check kinds → a SETTING pack `2e-planescape` riding the `extends` chain; tables/specs/lookups/encounters → the NEW rollables registry (`data/rollables/`, load-validated, source-required); base packs and overlays untouched | edition law stays FG&G-pure; overlays stay house-rule-only; "edition is a view" extends to "setting is a view" with zero new machinery — and the registry mirrors the modifier registry's provenance law (still d20-family, §12 Q3 holds) |
 | 2026-06-06 | rule-effect handoff §D (Q3): asserter seam for numeric deltas | CONFIRMED — modifier rows cite Mechanus law ids; pre-mint refs carry `proposed id (pending …; witness: product+page)` and upgrade in place | the `(FG&G cite pending pour)` lifecycle, reused; Modron never invents law, only cites its asserter |
 | 2026-06-06 | diceless witnesses (TABLE III/V, Wasting progression, Yscoppel, cube collisions, hope-drain) | lookups SERVED but never rolled; pure lore DECLINED to Mimir; flat progressions ride notes | a rollable without printed dice is provenance fraud — "verified or absent" applies to dice too |
+| 2026-06-06 | **the Great Audit (round 2)** — Meme adopted the correction docket in full | docket-first audit of all data/code/ledger/docs: 88 verified findings applied across L1–L5 (`build/modron/review/correction-docket.md`); reaction = FG&G Table 10.7 disposition matrix (`bands_by`); class-HD ladder per FG&G (rogue/wizard cap 10, `ILL`); 1/2 HD = 2d2; analysis cs/cf counts kept NATURALS (engine was right); `verify_session` sweeps unclamped; MC flat creatures compile (`_statblock_of`); all pending FG&G/Mechanus refs minted (M7 stays parked); registry 34→36 (`ice-extreme-cold`, `everymans-madness`); IOOfo = 10% CONFIRMED; `tests/smoke_server.py` minted (18/18, configured spawn); suite 171→185; **L6 deltas FILED to Mimir** (stat-shifted creatures linqua/archedn-lantern/vaath-family, fractional `#AT N/2` rates, morale OCR wounds incl. Kylie `(IS)`=15, hp-roster delta: Parakk now derives, Koe/Omott/Grixitt extractor misses, Ylem needs vision) **and Mechanus** (F4/F6 reaffirmed) — recorded here per sibling etiquette, never applied by this session | verified-or-absent extended to the engine itself: every check, every cite, every die path now carries a witness or a flag — and the audit's tooling (`tools/integrity.py` snapshot law, `tools/review_chunks.py`) stays as the standing re-audit rail |
 
 ## 12. Open questions (for Meme)
 

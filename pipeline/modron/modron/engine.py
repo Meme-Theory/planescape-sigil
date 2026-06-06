@@ -12,7 +12,10 @@ evaluate() — walks the grammar AST drawing from the stream, keeping a per-die
 audit trail (every raw face, every fate: kept/dropped/rerolled/exploded/clamped).
 Postfix pipeline order is FIXED and documented: reroll → explode → clamp(min/max)
 → keep/drop → count-successes. Rerolls apply to the initial face only; explosion
-chain dice neither reroll nor re-clamp the chain trigger.
+chain dice neither reroll nor re-clamp the chain trigger. Count-successes reads
+the KEPT dice's NATURALS — the post-reroll standing face, pre-explosion-sum,
+pre-clamp (keep/drop itself ranks by VALUE); analysis mirrors this exactly
+(audit F-1-design-docs-04).
 """
 
 from __future__ import annotations

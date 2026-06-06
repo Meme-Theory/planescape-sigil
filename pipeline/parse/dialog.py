@@ -161,5 +161,46 @@ def _selftest():
           f"stern={s[0]['register']}, emphasis/foreign/bleed/narration-dropped, hyphen-joined)")
 
 
+
+# Dialog adjudications (Great Audit docket -> Meme ADOPTED 2026-06-06), keyed by the
+# EXTRACTION-TIME content-addressed id (hash of extracted owner|text — stable while
+# the extraction is unchanged). reject = the span is not the owner NPC speaking
+# (anonymous bubber/thief-narrator/mimir voice, column splice); quarantined at pour,
+# never silently dropped. rebind = the line is real speech of ANOTHER admitted npc.
+DIALOG_ADJUDICATIONS = {
+    "dialog:uncaged:6bda14d627f2": {"action": "reject", "why": "on-page attribution '\u2014 Trez Damrod, a warrior of the Doomguard' (reflow p56 ln4-8); not Jemorille, not on p51, speaker not a poured npc"},
+    "dialog:uncaged:edaf8791f34e": {"action": "reject", "why": "Testimonial in KOE's entry, continuing on p56 and signed \"\u2014 Trez Damrod, a warrior of the Doomguard\". The \"\u2014 Jemorille the Exile\" dash-line above it closes Jemorille's OW"},
+    "dialog:uncaged:0e38a3c648e7": {"action": "reject", "why": "speaker is an anonymous bubber at the Fat Candle (reflow p30); Ebon's own witnessed line there is 'I don't need luck,' \u2014 re-extract that instead if a line is wanted"},
+    "dialog:uncaged:2b00ffca0b02": {"action": "reject", "why": "speaker is the anonymous night-hag customer ('she said', reflow p93), not Seamusxanthuszenus; no node to rebind to"},
+    "dialog:uncaged:334eecbf2fad": {"action": "reject", "why": "speaker is an unnamed night hag customer ('she croaked', uncaged reflow p93 ln75-77), not Seamus"},
+    "dialog:uncaged:33bc81e48804": {"action": "reject", "why": "speaker is the petty thief of recorder #17787 interrogating Qaida's mimir (reflow p84 ln1-3; endnote ln43-47); not Qaida's voice"},
+    "dialog:uncaged:51c2cbecb08b": {"action": "reject", "why": "speaker is Qaida's mimir ('I am owned by an aasimar named Qaida', reflow p81 ln53-54); a self-referential impossibility for Qaida as speaker"},
+    "dialog:uncaged:607c93380cc3": {"action": "reject", "why": "speaker is the thief narrator addressing the mimir (reflow p81 ln3-8); not Qaida's voice"},
+    "dialog:uncaged:f0225b715e99": {"action": "reject", "why": "Stored text interleaves two distinct quotes (this one + \"Guess again, smiley... not even aware that you're missing yet. See, you're plenty valuable...\") \u2014 column-reflow s"},
+    "dialog:uncaged:f72a8ec70db5": {"action": "rebind", "owner": "npc:uncaged:ylem",
+        "verb": "said", "register": "main",
+        "why": "Speaker is the modron \u2014 Ylem, named two lines later (\"Ylem congratulated Seamus...\") \u2014 replying to Seamus's warning \"I never barter.\" spoken_by seamusxanthuszenus is a ne"},
+    "dialog:uncaged:04c5a6dcb9ab": {"action": "reject", "why": "column splice fuses Estavan's quote head with Pavo's quote tail (reflow p55, Koe entry commentary); bound to Jemorille who speaks neither"},
+    "dialog:uncaged:243f2b8c1b9e": {"action": "reject", "why": "speaker is the anonymous petty-thief narrator of Qaida's interview-format entry (recorder #17787, reflow p84), not Qaida; text additionally splices the mimir's answer fro"},
+    "dialog:uncaged:38141731470f": {"action": "reject", "why": "hypothetical phrase in Unity-of-Rings prose (reflow p105 ln97-98), not anyone's speech; Tripicus span overran into printed 104"},
+    "dialog:uncaged:3d1e04ca9eb6": {"action": "reject", "why": "narrative prose about Unity-of-Rings spliced with an unrelated quote tail (reflow p105 ln60 + ln73-76); not dialog, wrong entry (Tripicus span overrun)"},
+    "dialog:uncaged:6072d1d1cac7": {"action": "reject", "why": "speaker is an unnamed staffer ('the staffer murmurs', uncaged reflow p49 ln120), not Iarmid"},
+    "dialog:uncaged:72567f234f7d": {"action": "reject", "why": "speaker is the petty thief addressing the mimir about its owner Qaida (reflow p81 ln37-38); text also carries neighbor-column interleave from ln45-46"},
+    "dialog:uncaged:ee721627b6e3": {"action": "reject", "why": "Italic first-person narration of the unnamed thief interrogating Qaida's stolen mimir (\"I'm the best sharper in the ward\", p81); the \"job\" is delivering HER skull to Shem"},
+    "dialog:uncaged:fbc701a34ddc": {"action": "reject", "why": "Unquoted italic monologue of the thief-narrator mocking the plan the mimir just described; Qaida is third-person throughout the entry and never speaks. Stored text is als"},
+    "dialog:uncaged:30ee7ed0fb2e": {"action": "reject", "why": "speaker is the anonymous petty-thief narrator of Qaida's entry (recorder #17787, reflow p84); 'her' = Qaida in third person \u2014 not her voice"},
+    "dialog:uncaged:448b15989005": {"action": "reject", "why": "mid-sentence fragment of the mimir's quoted monologue about Qaida (reflow p81 ln53-58); speaker is the mimir, not Qaida"},
+    "dialog:uncaged:7283e34a60e8": {"action": "reject", "why": "speaker is Qaida's mimir (silver skull), not Qaida; no npc node for the mimir"},
+    "dialog:uncaged:9e5413a3628b": {"action": "reject", "why": "mimir's exposition about Qaida, third person, mid-sentence fragment; not Qaida speaking"},
+    "dialog:uncaged:a83a1f4e12a9": {"action": "reject", "why": "spoken by anonymous Cagers about Harys, not by Harys; no speaker node"},
+    "dialog:uncaged:e818ceaf1bde": {"action": "reject", "why": "fields.text/name \"she said.\" is the narration tag between Adamok's actual lines, captured as the utterance \u2014 extraction debris, not speech. The witnessed real lines are \""},
+    "dialog:uncaged:781c02f83e95": {"action": "reject", "why": "narration between two real quotes admitted as dialog; adjacent genuine Ebon lines available for re-mint"},
+    "dialog:uncaged:80f691daf9e1": {"action": "reject", "why": "scare-quoted noun phrase in narration, not spoken dialog; not Zadara's words"},
+    "dialog:uncaged:9c6c070e5aa4": {"action": "reject", "why": "Xideous's essay narration about Shemeshka + column interleave; not spoken dialog"},
+    "dialog:uncaged:783d9420d6ab": {"action": "reject", "why": "narrator's internal monologue fragment ('I like her better and better.'), not Qaida's speech"},
+    "dialog:uncaged:f1b44eb1f3a4": {"action": "reject", "why": "An emphasis-label (the spa's street nickname), not speech \u2014 the exact class dialog.py's own self-test #3 drops. No spoken \"the other place.\" with a speech tag exists anyw"},
+}
+
+
 if __name__ == "__main__":
     _selftest()

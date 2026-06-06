@@ -157,3 +157,22 @@ def test_rejected_without_why_rejected():
                            {"position": "b", "fate": "rejected"}])
     with pytest.raises(DocketError, match="loser preservation"):
         validate_docket(d)
+
+def test_kindless_docket_sha_reproducible_as_stored(ledger):
+    """Correction docket C5 (2026-06-06): kind defaults BEFORE the content-address,
+    so a docket submitted WITHOUT kind is sha-reproducible from its stored row.
+    Pre-fix rows (rul:vnv:akin-mr-vs-spell-like:*) recompute with kind removed —
+    that historical derivation stays valid; this pins the post-fix law."""
+    import json
+    import sqlite3
+    from mechanus.ledger import _canonical_sha
+    d = docket()
+    assert "kind" not in d  # the fixture exercises the kind-less path
+    out = ledger.record_ruling(d)
+    cx = sqlite3.connect(ledger.db_path)
+    row = cx.execute("SELECT docket, sha, kind FROM rulings WHERE ruling_id = ?",
+                     (out["ruling_id"],)).fetchone()
+    cx.close()
+    stored = json.loads(row[0])
+    assert stored["kind"] == "ruling" == row[2]
+    assert _canonical_sha(stored) == row[1]  # as-stored recompute, no key surgery

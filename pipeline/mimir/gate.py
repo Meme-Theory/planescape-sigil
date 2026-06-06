@@ -28,6 +28,7 @@ import cage as C                                    # In the Cage: establishment
 import planes as P                                  # the three Planes boxes: curated cards, text-validated
 import boxset as B                                  # box-section harvest: proxy/sect/settlement/saying/adventure/timeline
 import monstrous as MC                              # 2e Monstrous Compendium parser (creature dim)
+import pwh as PW                                    # The Planewalker's Handbook: races + kits (cards) + spells (parsed)
 
 # Mechanus is the gate's L3 lawfulness channel (VALIDATION §2). Import her judge as a LIBRARY —
 # the same seam store.py is for the siblings, no MCP-over-MCP. Guarded: if she isn't importable
@@ -401,6 +402,40 @@ def _clean_item(s):
     return s.strip(" .,-")
 
 
+# Item curations (Great Audit docket -> Meme ADOPTED 2026-06-06), keyed
+# (npc name, slug of the cleaned item phrase). drop = extraction debris (dialogue
+# prose / descriptor fragments / OCR shred grabbed as equipment — the docket is the
+# record); rename = de-fuse an item name from interleaved body text.
+ITEM_CURATIONS = {
+    ("Tripicus", "after-a-lecture"): {"action": "drop",
+        "why": "dialogue prose grabbed as equipment (body-text bleed)"},
+    ("The Grixitt", "even-if-the-wards-are-taken-away"): {"action": "drop",
+        "why": "fragment of the planar-wards sentence, not an item"},
+    ("Saure", "fnv-tude-tfiaf-awle"): {"action": "drop",
+        "why": "OCR-shredded interleave, unrecoverable as an item"},
+    ("Saure", "huifivtoyno-net-acid-touch-to-wvtn-the-maw"): {"action": "drop",
+        "why": "OCR shred of the xaen's acid-touch ability text"},
+    ("Saure", "spikes"): {"action": "drop",
+        "why": "lifted from the xaen descriptor 'bony barbs, spikes, and hooks' (p92)"},
+    ("Zadara", "museum-opening"): {"action": "drop",
+        "why": "role-playing prose about outings, not equipment"},
+    ("Zadara", "maul-of-the-titans-attend-the-odd-art-exhibit"): {"action": "rename",
+        "to": "maul of the titans",
+        "why": "PERSONALITY text interleaved the SPECIAL EQUIPMENT line; de-fused"},
+    ("Farrow", "str-sa-strength-of-blending-3"): {"action": "rename",
+        "to": "leather armor of blending +3",
+        "why": "p35: OCR fused the statblock 'Str); SA' onto the armor phrase"},
+    ("Ylem", "sling-stones-20"): {"action": "rename",
+        "to": "sling stones (20)",
+        "why": "p117: extraction cut the storage-box parenthetical mid-phrase"},
+    ("Shemeshka the Marauder", "though-i-am-detection-and-location"): {"action": "rename",
+        "to": "amulet of proof against detection and location",
+        "why": "p100: column splice fused dialogue ('though I am…') onto the amulet name"},
+    ("Shemeshka the Marauder", "amulet-of-proof-against-more-pleasant"): {"action": "drop",
+        "why": "p100: fragment of the same splice — the real amulet rides the rename above"},
+}
+
+
 def pour_items(store, nodes):
     """Magic items from each cutter's SPECIAL EQUIPMENT → item nodes (deduped by name) + `wields`
     edges. Serves the project's marquee goal directly: the items are invokable at the table."""
@@ -415,6 +450,11 @@ def pour_items(store, nodes):
             it = _clean_item(raw)
             if not (3 <= len(it) <= 46 and re.search(r"[a-z]", it)) or re.match(r"^(and|or|a|the)\b", it):
                 continue
+            cur = ITEM_CURATIONS.get((v2["name"], S.slug(it)))
+            if cur:
+                if cur["action"] == "drop":
+                    continue
+                it = cur["to"]
             iid = f"item:{S.slug(it)}"
             enh = re.search(r"\+(\d)", it)
             env = {"type": "item", "id": iid, "name": it, "edition": "2e",
@@ -435,8 +475,10 @@ def pour_items(store, nodes):
 FICTION = [
     ("fiction:uncaged:shemeshka-journal", "From the Journal of Shemeshka the Marauder",
      "journal", "Shemeshka the Marauder", "p35"),
+    # Great Audit (Meme 2026-06-06): the ad is SIGNED "— H.H." (p50) and p47 names the
+    # hiring — the author is Harys Hatchis, advertising Iarmid's spa.
     ("fiction:uncaged:other-place-ad", "Advertisement for The Other Place", "advertisement",
-     "Iarmid", "p50"),
+     "Harys Hatchis", "p50"),
 ]
 
 
@@ -473,7 +515,8 @@ FACTION_DATA = [
      "Ethereal demiplanes",
      "All life springs from the same divine source, ascending and descending in form as the cosmos tests it.",
      ["Athar", "Doomguard"], ["Bleak Cabal", "Dustmen"]),
-    ("Bleak Cabal", "Bleakers / the Cabal", "Lhar", "Gatehouse", "Hive Ward", None,
+    # home_plane: Great Audit fix — manifesto p5 'Home Field: Pandemonium'
+    ("Bleak Cabal", "Bleakers / the Cabal", "Lhar", "Gatehouse", "Hive Ward", "Pandemonium",
      "The multiverse ain't supposed to make sense; the only escape from madness is to look inside yourself.",
      ["Doomguard", "Dustmen", "Revolutionary League"], ["Fraternity of Order", "Harmonium", "Mercykillers"]),
     ("Doomguard", "Sinkers", "Pentar", "Armory", "Lady's Ward", "Each negative quasiplane",
@@ -1033,8 +1076,8 @@ def pour_cage(store):
         body = e["body"][:6000]
         eid = e.get("hint") or resolve(e["name"])
         wid = f"location:sigil:{S.slug(e['ward'])}" if e.get("ward") else None
-        if eid:                                          # dual-source MERGE (the Manifesto pattern)
-            old = store.get(eid)
+        old = store.get(eid) if eid else None
+        if old:                                          # dual-source MERGE (the Manifesto pattern)
             fields = dict(old.get("fields") or {})
             fields.setdefault("kind", e["kind"])
             fields["cage_page"] = e["page"]
@@ -1072,9 +1115,15 @@ def pour_cage(store):
         store.add_edge("attested_in", eid, CAGE_SRC, src_type="location", tgt_type="source",
                        edition="2e")
 
-    # the named losses — review queue, never guesses (v1b re-OCR is the upgrade path)
+    # the named losses — review queue, never guesses (v1b re-OCR is the upgrade path).
+    # Entries RECOVERED by a witnessed ENTRY_CURATIONS span (Great Audit, Meme-adopted
+    # 2026-06-06) poured above and skip the queue; if a curation's anchors ever fail,
+    # the name lands back here automatically — verified or absent, both directions.
+    recovered = {e["name"] for e in entries if e.get("cured")}
     nabsent = 0
     for name, why in C.EXPECTED_ABSENT.items():
+        if name in recovered:
+            continue
         qid = f"location:sigil:{S.slug(name)}#cage-entry"
         store.quarantine({"type": "location", "id": qid, "name": name, "edition": "2e",
                           "fields": {"book": "in-the-cage"}, "content": why,
@@ -1304,7 +1353,9 @@ def pour_planes(store):
             fields["layer_count"] = len(attested)
         if card.get("layer_note"):
             fields["layer_note"] = card["layer_note"]
-        if card.get("gate_town"):
+        # verified-or-absent (Great Audit): the gate_town FIELD ships only when the
+        # box itself attests the town — an unattested claim stays off the node.
+        if card.get("gate_town") and rep["gate_town_pages"]:
             fields["gate_town"] = card["gate_town"]
         fields["book"] = card["book"]
         prov = old.get("provenance") or {"value_sources": [], "method": "cross-source"}
@@ -1647,6 +1698,21 @@ def pour_creatures(store):
         for r in MC.parse_component(_box_pages(comp), component=comp):
             if not r["name"]:
                 continue                                # page fragment, not a creature
+            # witnessed creature curations (Great Audit, Meme-adopted 2026-06-06):
+            # keyed by RAW extracted name — renames re-slug the id, field re-reads
+            # override the scramble, court recoveries flip ok and admit.
+            cur = MC.CREATURE_CURATIONS.get((book, r["page"], r["name"]))
+            curated = {}
+            if cur:
+                r = dict(r)
+                if cur.get("name"):
+                    r["name"] = cur["name"]
+                if cur.get("fields"):
+                    r["fields"] = {**r["fields"], **cur["fields"]}
+                    r["ok"] = True
+                curated["creature_curation"] = {
+                    "value": cur.get("why", ""),
+                    "adjudication": "Meme (Great Audit docket, 2026-06-06)"}
             cid = f"creature:{book}:{S.slug(r['name'])[:40]}"
             if r["ok"]:
                 if store.exists(cid):
@@ -1659,10 +1725,13 @@ def pour_creatures(store):
                                         f"{k}:{v}" for k, v in r["fields"].items()),
                                     "provenance": {"value_sources": [{"src": book,
                                                                       "loc": f"p{r['page']}"}],
-                                                   "method": "mc-parse"},
-                                    "confidence": 0.85, "curated": {}, "source_sha": None},
+                                                   "method": "mc-parse"
+                                                             + ("+curation" if cur else "")},
+                                    "confidence": 0.85, "curated": curated, "source_sha": None},
                         "mc-parse", len(r["fields"]))
-                store.add_edge("attested_in", cid, _box_source(comp), src_type="creature",
+                # source derives from the MC component's PARENT BOOK (audit misbind fix:
+                # _box_source lacks the MC comps and defaulted Conflict to planes-of-law)
+                store.add_edge("attested_in", cid, f"source:{book}", src_type="creature",
                                tgt_type="source", edition="2e")
                 nok += 1
             else:
@@ -1725,6 +1794,130 @@ def pour_timeline(store):
 
 # --- plothook dimension: mechanically-tagged adventure seeds (grain='seed') ------------------
 THETA_HOOK = 0.55                                  # adventure seeds are softer than facts; tune w/ review
+
+# Hook adjudications (Great Audit correction docket → Meme ADOPTED 2026-06-06). Seed ids
+# RENUMBER across pours, so rulings key on the tag's STABLE coordinates:
+#   (book, object_id, flavor, page-as-tagged) → ruling
+# rulings: {"reject": why}                        — not a seed (DM-mechanics box, mis-paired
+#                                                   subject); quarantined `hook-rejected`,
+#                                                   never silently dropped
+#          {"fix": {...}, "why": ...}             — rebind owner (reflow scramble), correct
+#                                                   the witnessed page, replace a spliced
+#                                                   premise, re-point the object, or raise
+#                                                   confidence (vision-over-θ promotes)
+# The cage entry re-splits (ENTRY_CURATIONS) fix most cage misbinds at the ROOT — only
+# residue that re-tagging cannot self-correct is ruled here.
+HOOK_ADJUDICATIONS = {
+    # — In the Cage: reflow scrambles the re-split can't reach —
+    ("in-the-cage", "plane:ysgard", "goal", 41): {
+        "fix": {"owner": "location:sigil:the-palace-of-the-jester"},
+        "why": "Jeremo's Ysgard-portal paragraph reflowed into the Prison span (the PORTAL_CURATIONS precedent, same page)"},
+    ("in-the-cage", "location:sigil:fortune-s-wheel", "goal", 39): {
+        "fix": {"owner": None},
+        "why": "Fortune's Wheel tail wrapped under the Golden Bariaur head; premise is about the Wheel itself — ownerless, object carries it"},
+    ("in-the-cage", "location:sigil:lady-s-ward", "quest", 55): {
+        "fix": {"owner": None},
+        "why": "'soft whispers' premise is ward lore about Lady's Ward knights, not an establishment's own hook"},
+    ("in-the-cage", "faction:free-league", "goal", 79): {
+        "fix": {"owner": None, "page": 80},
+        "why": "Market/Guildhall ward chatter following the nic'Epona entry, not nic'Epona content"},
+    ("in-the-cage", "location:sigil:the-great-bazaar", "goal", 79): {
+        "fix": {"owner": None, "page": 80}, "why": "ward chatter, as above"},
+    ("in-the-cage", "location:sigil:great-gymnasium", "goal", 79): {
+        "fix": {"owner": None, "page": 80}, "why": "ward chatter, as above"},
+    ("in-the-cage", "location:sigil:imel-s-happy-tongue", "goal", 79): {
+        "fix": {"owner": None, "page": 80}, "why": "ward chatter, as above"},
+    # — In the Cage: witnessed-page corrections (premise sits later in the entry) —
+    ("in-the-cage", "faction:fraternity-of-order", "goal", 19): {
+        "fix": {"page": 21}, "why": "Wyrm-execution premise prints on p21 (reflow page-0023); p19 is Harmonium Patrols"},
+    ("in-the-cage", "location:sigil:the-great-bazaar", "goal", 84): {
+        "fix": {"page": 86}, "why": "premise attested on p86 (reflow page-0088)"},
+    ("in-the-cage", "location:sigil:market-ward", "goal", 101): {
+        "fix": {"page": 103}, "why": "premise attested on p103 (reflow page-0105)"},
+    ("in-the-cage", "faction:harmonium", "goal", 74): {
+        "fix": {"page": 75}, "why": "sweeper-boys premise prints on p75; p74 ends mid-sentence at the footer"},
+    ("in-the-cage", "faction:free-league", "quest", 106): {
+        "fix": {"page": 107}, "why": "tout/bounty-hunter premise prints on p107"},
+    ("in-the-cage", "faction:free-league", "scheme", 43): {
+        "fix": {"page": 44, "premise": "He also commands a set of cambion twins who constantly maneuver to take Noshteroth's post for themselves (and whose schemes are transparent enough for even the rutterkin to see through — the chant is the brain intended for one was split between the two when they became twins)."},
+        "why": "premise witnessed complete on p44; cited p43 lacks it"},
+    ("in-the-cage", "faction:fraternity-of-order", "goal", 90): {
+        "fix": {"premise": "Before he'll make a loan, F. Moskin Faz (Pl/male human/F3/Fraternity of Order/LG) requires borrowers to provide a letter of recommendation from any reputable Cager and a statement of purpose explaining how the applicant intends to use the money."},
+        "why": "splitter broke at the 'F.' abbreviation; full sentence restored from the witnessed page (p90)"},
+    # — Uncaged: the p119 Zadara-entry bleed (appendix pp125-126 text in her span) —
+    ("uncaged", "npc:uncaged:rule-of-three", "scheme", 119): {
+        "fix": {"page": 125}, "why": "premise is the p125 plot-appendix line, not Zadara-entry prose"},
+    ("uncaged", "npc:uncaged:jemorille-the-exile", "scheme", 119): {
+        "fix": {"owner": "npc:uncaged:shemeshka-the-marauder", "page": 126},
+        "why": "SHEMESHKA'S WEB appendix: the schemer is Shemeshka ('her most seeming-loyal groomer guard')"},
+    ("uncaged", "npc:uncaged:xideous", "scheme", 119): {
+        "fix": {"owner": "npc:uncaged:jemorille-the-exile", "page": 126},
+        "why": "the appendix line's subject is Jemorille (the seeming-loyal groomer guard himself)"},
+    ("uncaged", "npc:uncaged:estavan", "conflict", 119): {
+        "fix": {"owner": "npc:uncaged:shemeshka-the-marauder", "page": 126},
+        "why": "'Her main business rivals are ESTAVAN and ZADARA' — 'her' is Shemeshka (her Web, p126)"},
+    ("uncaged", "npc:uncaged:xideous", "conflict", 119): {
+        "fix": {"owner": "npc:uncaged:shemeshka-the-marauder", "page": 126},
+        "why": "same Web line: Shemeshka 'holds a great enmity toward… XIDEOUS'"},
+    ("uncaged", "npc:uncaged:adamok-ebon", "quest", 119): {
+        "fix": {"owner": "organization:will-of-the-one", "page": 125},
+        "why": "'PRISINE, leader of the Will of the One, hires ADAMOK EBON' — the hirer is the sect (p125)"},
+    ("uncaged", "npc:uncaged:terwolfe", "quest", 119): {
+        "fix": {"owner": "organization:will-of-the-one", "page": 125},
+        "why": "same p125 statement; Terwolfe is the figurehead being maneuvered"},
+    ("uncaged", "organization:will-of-the-one", "quest", 119): {
+        "fix": {"page": 125}, "why": "premise witnessed on p125, not in the Zadara entry"},
+    ("uncaged", "npc:uncaged:black-marian", "goal", 119): {
+        "fix": {"page": 125}, "why": "Koe/Estavan delivery premise is the p125 appendix"},
+    ("uncaged", "npc:uncaged:tripicus", "goal", 119): {
+        "fix": {"page": 125}, "why": "same p125 appendix statement"},
+    # — Uncaged: other witnessed corrections —
+    ("uncaged", "deity:aoskar", "goal", 112): {
+        "fix": {"owner": "organization:will-of-the-one"},
+        "why": "the Omott-as-gate-key goal belongs to the Will of the One (Prisine), not Terwolfe personally"},
+    ("uncaged", "faction:dustmen", "goal", 23): {
+        "fix": {"object": "deity:aoskar"},
+        "why": "'blood of [the dead god]' premise's object is Aoskar; the Dustmen tag was a proximity false-positive (p23 witness)"},
+    ("uncaged", "npc:uncaged:ly-kritch", "scheme", 87): {
+        "fix": {"premise": "But while she gathers every spell and magical item she can get her hands on (often trading them for gate keys), she's got a scheme in the works that might quicken her rise to power. She trades raw evil magic to the shadow fiend Ly'kritch in exchange for gems that contain trapped intellects."},
+        "why": "extracted premise was a segmentation splice that INVERTED the meaning (she HAS the scheme); restored from p87"},
+    ("uncaged", "faction:dustmen", "quest", 39): {
+        "fix": {"page": 41}, "why": "Contract premise witnessed on p41"},
+    ("uncaged", "npc:uncaged:black-marian", "quest", 69): {
+        "fix": {"page": 71}, "why": "Phineas's pass-music proposal witnessed on p71"},
+    # — Manifesto —
+    ("manifesto", "sigil:the-lady-of-pain", "goal", 68): {
+        "fix": {"premise": "It's no dark that the Duke hopes to take over all of Sigil, though how he intends to take control of the Hall of Speakers, get the city's ruling class behind him, and avoid being trapped in one of the Lady of Pain's Mazes is any hasher's guess."},
+        "why": "premise truncated mid-word by the tagger cap; completed from manifesto p67 (reflow page-0068)"},
+    # — Rejects: rules-text and mis-paired subjects, recorded never dropped —
+    ("in-the-cage", "item:notes", "scheme", 110): {
+        "reject": "premise is the mount-IMPAIRMENTS DM box ('The DM notes the impairment in secret'), rules-text not a seed"},
+    ("in-the-cage", "plane:the-prime", "scheme", 115): {
+        "reject": "premise is the Slags vortex DM mechanic ('the DM should secretly roll 1d4'), rules-text not a seed"},
+    ("uncaged", "plane:the-abyss", "goal", 69): {
+        "reject": "'Non-Bleakniks dragged to the pub' has no Abyss goal — the Abyss mention is the neighboring Temple ad"},
+    ("uncaged", "npc:uncaged:jemorille-the-exile", "goal", 119): {
+        "reject": "Zadara↔Jemorille is not asserted by the premise; per BIGWIGS Zadara funds others, Shemeshka employs Jemorille"},
+    ("uncaged", "npc:uncaged:alluvius-ruskin", "goal", 119): {
+        "reject": "the Alluvius gem tie belongs to Ly'kritch's trade (Mind Trappers), not Zadara's goals"},
+    ("uncaged", "faction:incantifier", "goal", 87): {
+        "reject": "'wicker baskets for shoppers' — proximity false-positive on a shopping aside, no Incantifier goal"},
+    # — Vision-over-θ promotes (quarantine court) —
+    ("in-the-cage", "location:sigil", "goal", 41): {
+        "fix": {"owner": "location:sigil:the-palace-of-the-jester", "confidence": 0.7,
+                "premise": "Jeremo hopes to become the factol of the Ring-Givers when the sect finally moves into Sigil to begin its part in the kriegstanz, the undeclared war for control of Sigil, in earnest."},
+        "why": "vision-over-θ: real seed (the kriegstanz), owner re-bound off the Prison-span scramble; witnessed p41"},
+    ("in-the-cage", "location:sigil", "goal", 66): {
+        "fix": {"confidence": 0.7},
+        "why": "vision-over-θ: 'she' = Bordon Mok, chief of the Hall of Information; blackmail-evidence premise witnessed verbatim p66"},
+    ("uncaged", "location:sigil", "goal", 87): {
+        "fix": {"confidence": 0.7,
+                "premise": "See, Lu's ultimate goal is to drain Sigil itself of magic, and she's looking for a magical item (or perhaps a one-of-a-kind wild magic surge) that'll let her do it."},
+        "why": "vision-over-θ: real seed, premise de-interleaved from the Cania gate-key sales pitch; witnessed p87"},
+    ("uncaged", "location:sigil", "goal", 119): {
+        "fix": {"confidence": 0.7},
+        "why": "vision-over-θ: Zadara backs Darkwood's takeover of Sigil — playable as written, witnessed p119"},
+}
 PIVOT_TYPES = ("subject", "deity", "sigil", "event")   # cross-book MacGuffin anchors (boosted; get pivot edge)
 FLAVOR_REL = {"goal": "seeks", "scheme": "schemes_around", "conflict": "opposes", "quest": "hires"}
 FVERB = {"goal": "seeks", "scheme": "schemes around", "conflict": "opposes", "quest": "hires toward"}
@@ -1825,6 +2018,51 @@ def pour_plothooks(store):
         if r["object_type"] in PIVOT_TYPES:
             r["confidence"] = round(min(0.98, r["confidence"] * 1.15), 2)
 
+    # Great Audit adjudications, applied at the RAW-tag level (stable coordinates,
+    # never seed ids). Rejects quarantine `hook-rejected` — recorded, never dropped.
+    kept, rejected = [], {}
+    for r in raw:
+        adj = HOOK_ADJUDICATIONS.get((r["book"], r["object_id"], r["flavor"], r["page"]))
+        if not adj:
+            kept.append(r)
+            continue
+        if "reject" in adj:
+            rejected.setdefault((r["book"], r["object_id"], r["flavor"], r["page"]), (r, adj["reject"]))
+            continue
+        fix = adj.get("fix") or {}
+        if "owner" in fix:
+            r["owner"] = fix["owner"]
+            r["owner_type"] = fix["owner"].split(":")[0] if fix["owner"] else None
+        if "object" in fix:
+            r["object_id"] = fix["object"]
+            r["object_type"] = fix["object"].split(":")[0]
+        if "page" in fix:
+            r["page"] = fix["page"]
+        if "premise" in fix:
+            r["sentence"] = fix["premise"]
+        if "confidence" in fix:
+            r["confidence"] = max(r["confidence"], fix["confidence"])
+        r["adjudicated"] = adj["why"]
+        kept.append(r)
+    raw = kept
+    nrej = 0
+    for (book, obj, flavor, page), (r, why) in rejected.items():
+        qid = f"hook:{book}:rejected-{S.slug(obj.split(':')[-1])[:20]}-{flavor}-p{page}"
+        store.quarantine(
+            {"type": "hook", "id": qid, "name": f"Rejected seed: {flavor} {obj}", "edition": "2e",
+             "fields": {"grain": "seed", "flavor": flavor, "premise": r["sentence"],
+                        "object": obj, "book": book, "pages": [page]},
+             "content": r["sentence"],
+             "provenance": {"value_sources": [{"src": f"{book}:p{page}"}],
+                            "method": "mechanical-tag (hooks.py)"},
+             "confidence": r["confidence"], "curated": {}, "source_sha": None},
+            {"entity_id": qid, "decision": "QUARANTINE",
+             "adjudicator": "Meme (Great Audit docket, 2026-06-06)",
+             "checks": [{"layer": "L3", "name": "hook_adjudication", "sev": "hard",
+                         "result": "fail", "detail": why}]},
+            "hook-rejected")
+        nrej += 1
+
     groups = {}                                            # (owner,object,flavor) -> best seed + all pages
     for r in raw:
         g = groups.setdefault((r["owner"], r["object_id"], r["flavor"]),
@@ -1863,7 +2101,11 @@ def pour_plothooks(store):
                "content": f"{name} — {best['sentence']}",
                "provenance": {"value_sources": [{"src": f"{best['book']}:p{p}"} for p in pages],
                               "method": "mechanical-tag (hooks.py)"},
-               "confidence": best["confidence"], "curated": {}, "source_sha": None}
+               "confidence": best["confidence"],
+               "curated": ({"hook_adjudication": {"value": best["adjudicated"],
+                            "adjudication": "Meme (Great Audit docket, 2026-06-06)"}}
+                           if best.get("adjudicated") else {}),
+               "source_sha": None}
         if best["confidence"] < THETA_HOOK:
             docket = {"decision": "QUARANTINE", "adjudicator": "auto",
                       "checks": [{"layer": "L3", "name": "confidence_floor", "sev": "hard", "result": "fail",
@@ -1898,7 +2140,7 @@ def pour_plothooks(store):
                 store.add_edge("part_of", hid, pid, src_type="hook", tgt_type="hook", edition="2e")
                 n_partof += 1
     n_cross = sum(1 for b in subj_books.values() if len(b) >= 2)
-    return admitted, queued, n_partof, n_cross
+    return admitted, queued + nrej, n_partof, n_cross
 
 
 # --- dialog dimension: the NPC voice vector (bound speech, register-tagged) ------------------
@@ -1926,24 +2168,58 @@ def pour_dialog(store, nodes=None):
             # content-addressed id (owner+text) → STABLE across re-pours, so a rendered WAV stays
             # joined to its line. The Dabus voice MCP keys audio to this id (sequential ids renumber).
             did = "dialog:uncaged:" + hashlib.sha256(f"{oid}|{u['text']}".encode("utf-8")).hexdigest()[:12]
+            # Great Audit dialog adjudications (Meme ADOPTED 2026-06-06): reject = the
+            # span is not this npc speaking (anonymous narrator / mimir voice / splice)
+            # — quarantined, never dropped; rebind = real speech of ANOTHER npc.
+            adj = D.DIALOG_ADJUDICATIONS.get(did)
+            if adj and adj["action"] == "reject":
+                store.quarantine(
+                    {"type": "dialog", "id": did, "name": u["text"][:60], "edition": "2e",
+                     "fields": {"text": u["text"], "register": u["register"], "verb": u["verb"],
+                                "owner": oid, "attribution": u["attribution"], "page": u["page"]},
+                     "content": u["text"],
+                     "provenance": {"value_sources": [{"src": f"uncaged:p{u['page']}"}],
+                                    "method": "dialog-extract (dialog.py)"},
+                     "confidence": u["confidence"], "curated": {}, "source_sha": None},
+                    {"entity_id": did, "decision": "QUARANTINE",
+                     "adjudicator": "Meme (Great Audit docket, 2026-06-06)",
+                     "checks": [{"layer": "L3", "name": "dialog_adjudication", "sev": "hard",
+                                 "result": "fail", "detail": adj["why"]}]},
+                    "dialog-rejected")
+                queued += 1
+                continue
+            owner_id = oid                              # a rebind is per-UTTERANCE — never
+            if adj and adj["action"] == "rebind":       # clobber the node's own oid
+                owner_id = adj["owner"]
+                u = {**u, "verb": adj.get("verb", u["verb"]),
+                     "register": adj.get("register", u["register"])}
+                did = "dialog:uncaged:" + hashlib.sha256(
+                    f"{owner_id}|{u['text']}".encode("utf-8")).hexdigest()[:12]
             if did in seen_ids:
                 continue
             seen_ids.add(did)
             env = {"type": "dialog", "id": did, "name": u["text"][:60], "edition": "2e",
                    "fields": {"text": u["text"], "register": u["register"], "verb": u["verb"],
-                              "owner": oid, "attribution": u["attribution"], "page": u["page"]},
+                              "owner": owner_id, "attribution": u["attribution"], "page": u["page"]},
                    "content": u["text"],
                    "provenance": {"value_sources": [{"src": f"uncaged:p{u['page']}"}],
                                   "method": "dialog-extract (dialog.py)"},
                    "confidence": u["confidence"], "curated": {}, "source_sha": None}
-            if u["confidence"] >= D.THETA_DIALOG:
+            # vision-over-θ (the gate() pattern, Great Audit court promotes): a curation
+            # on this content-addressed id applies BEFORE the θ check — an adjudicated
+            # line admits below the floor, with the curated stamp disclosing it.
+            cur = (_CURATIONS or {}).get(did)
+            if cur:
+                apply_curation(env, cur)
+                env["name"] = (env["fields"].get("text") or env["name"])[:60]
+            if u["confidence"] >= D.THETA_DIALOG or env.get("curated"):
                 store.admit(env, {"decision": "ADMIT", "adjudicator": "auto",
                     "checks": [{"layer": "L1", "name": "speech_span", "sev": "hard", "result": "pass"},
                                {"layer": "L1", "name": "attributed", "sev": "hard", "result": "pass",
                                 "detail": u["attribution"]}],
                     "independent": {"channel": "speech-verb", "confirmations": 1},
                     "confidence_final": u["confidence"]})
-                store.add_edge("spoken_by", did, oid, src_type="dialog", tgt_type="npc", edition="2e")
+                store.add_edge("spoken_by", did, owner_id, src_type="dialog", tgt_type="npc", edition="2e")
                 admitted += 1
             else:
                 store.quarantine(env, {"decision": "QUARANTINE", "adjudicator": "auto",
@@ -1953,6 +2229,203 @@ def pour_dialog(store, nodes=None):
                     "confidence_final": u["confidence"]}, "low-confidence-dialog")
                 queued += 1
     return admitted, queued
+
+
+# --- BOOK 8: The Planewalker's Handbook (2620) — race · class · spell -------------------------
+def pour_pwh(store):
+    """The player bible: 8 races + 7 kits as curated cards (text-attested, the
+    planes.py law), 4 base-class stubs, ~57 spells parsed from Magic on the
+    Planes (identity certain; stats verified-or-absent, hand-curations carry
+    page witnesses). psionic does NOT pour — the book has none (ledger note).
+    Returns a counts dict."""
+    n = {"race": 0, "kit": 0, "base_class": 0, "spell": 0, "spell_q": 0,
+         "refused": [], "edges": 0}
+    pages = PW.load_component(ROOT / "build")
+    sid, sname, tsr, year = PW.SOURCE
+
+    sha = None
+    sj = ROOT / "build" / PW.COMPONENT / "source.json"
+    if sj.exists():
+        sha = (json.loads(sj.read_text(encoding="utf-8")) or {}).get("sha256")
+
+    _admit_seed(store, {"type": "source", "id": sid, "name": sname, "edition": "2e",
+                        "fields": {"tsr": tsr, "year": year, "kind": "accessory",
+                                   "line": "Planescape", "designer": "Monte Cook"},
+                        "content": f"{sname} TSR {tsr} Planescape player's guide planar races "
+                                   "kits proficiencies magic spells cant glossary belief",
+                        "provenance": {"value_sources": [{"src": PW.BOOK}], "method": "seed"},
+                        "confidence": 1.0, "curated": {}, "source_sha": sha}, "book", 1)
+
+    # — base classes (the four 2e class groups the kits + spells hang off) —
+    kit_pages_blob = {pg: pages[pg] for pg in PW.KIT_CHAPTER_PAGES if pg in pages}
+    for cid, cname, gloss in PW.BASE_CLASSES:
+        wit = PW.attest_name(cname, [cname + "s"], kit_pages_blob)
+        _admit_seed(store, {"type": "class", "id": cid, "name": cname, "edition": "2e",
+                            "fields": {"is_kit": False, "pages": wit},
+                            "content": f"{cname} 2e class group. {gloss}",
+                            "provenance": {"value_sources": [{"src": PW.BOOK,
+                                                              "loc": f"pp{wit[0]}-{wit[-1]}" if wit else "kit-chapter"}],
+                                           "method": "card-attestation"},
+                            "confidence": 0.95, "curated": {}, "source_sha": sha}, "pwh-card", max(len(wit), 1))
+        store.add_edge("attested_in", cid, sid, src_type="class", tgt_type="source", edition="2e")
+        n["base_class"] += 1
+
+    # — races (cards, attested; variants are structured sub-records) —
+    for card in PW.RACE_CARDS:
+        rep = PW.attest_race_card(card, pages)
+        if rep["refused"]:
+            n["refused"].append((card["id"], "name-unattested"))
+            continue
+        fields = {k: card[k] for k in ("ability_mods", "traits", "origin_plane",
+                                       "subtype", "classes", "alignment") if card.get(k)}
+        fields["playable"] = True
+        fields["pages"] = rep["pages"]
+        if card["variants"]:
+            fields["variants"] = [
+                {**{k: v[k] for k in ("name", "epithet", "ability_mods", "traits",
+                                      "classes", "alignment") if v.get(k)},
+                 "pages": rep["variants"].get(v["name"], [])}
+                for v in card["variants"]]
+            unattested = [v["name"] for v in card["variants"]
+                          if not rep["variants"].get(v["name"])]
+            if unattested:                       # a variant the text doesn't witness stays off
+                fields["variants"] = [v for v in fields["variants"]
+                                      if v["name"] not in unattested]
+                n["refused"] += [(card["id"], f"variant-unattested: {u}") for u in unattested]
+        content = (f"{card['name']} planar PC race. {card['gloss']}. "
+                   f"{card['ability_mods']}. " + " ".join(card["traits"])
+                   + " " + " ".join(v["name"] for v in card.get("variants", [])))
+        _admit_seed(store, {"type": "race", "id": card["id"], "name": card["name"],
+                            "edition": "2e", "fields": fields, "content": content,
+                            "provenance": {"value_sources": [{"src": PW.BOOK,
+                                                              "loc": f"pp{rep['pages'][0]}-{rep['pages'][-1]}"}],
+                                           "method": "card-attestation"},
+                            "confidence": 0.95, "curated": {}, "source_sha": sha},
+                    "pwh-race-card", len(rep["pages"]))
+        store.add_edge("attested_in", card["id"], sid, src_type="race", tgt_type="source", edition="2e")
+        if card.get("native_to") and store.exists(card["native_to"]):
+            store.add_edge("native_to", card["id"], card["native_to"],
+                           src_type="race", tgt_type="plane", edition="2e")
+            n["edges"] += 1
+        n["race"] += 1
+
+    # — kits (class dim, is_kit=True, parent_class field; location kits get plane edges) —
+    for card in PW.KIT_CARDS:
+        rep = PW.attest_kit_card(card, pages)
+        if rep["refused"]:
+            n["refused"].append((card["id"], "name-unattested"))
+            continue
+        fields = {"is_kit": True, "parent_class": card["parent_class"],
+                  "kind": card["kind"], "classes_allowed": card["classes_allowed"],
+                  "requirements": card["requirements"], "abilities": card["benefits"],
+                  "hindrances": card["hindrances"], "pages": rep["pages"]}
+        content = (f"{card['name']} planewalking kit ({card['kind']}). {card['gloss']}. "
+                   + " ".join(card["benefits"]) + " " + " ".join(card["hindrances"]))
+        _admit_seed(store, {"type": "class", "id": card["id"], "name": card["name"],
+                            "edition": "2e", "fields": fields, "content": content,
+                            "provenance": {"value_sources": [{"src": PW.BOOK,
+                                                              "loc": f"p{rep['pages'][0]}"}],
+                                           "method": "card-attestation"},
+                            "confidence": 0.95, "curated": {}, "source_sha": sha},
+                    "pwh-kit-card", len(rep["pages"]))
+        store.add_edge("attested_in", card["id"], sid, src_type="class", tgt_type="source", edition="2e")
+        store.add_edge("kit_of", card["id"], card["parent_class"],
+                       src_type="class", tgt_type="class", edition="2e")
+        n["edges"] += 1
+        if card.get("located_in") and store.exists(card["located_in"]):
+            store.add_edge("located_in", card["id"], card["located_in"],
+                           src_type="class", tgt_type="plane", edition="2e")
+            n["edges"] += 1
+        n["kit"] += 1
+
+    # — faction third witness (the player-bible faction chapter, printed 54-67):
+    #   an attested_in edge per faction the chapter names — provenance, not new fields
+    fac_pages = {pg: pages[pg] for pg in range(56, 70) if pg in pages}
+    for f in store.list("faction", limit=100):
+        wit = PW.attest_name(f["name"], (f.get("fields") or {}).get("aliases") or [], fac_pages)
+        if wit:
+            store.add_edge("attested_in", f["id"], sid, src_type="faction", tgt_type="source",
+                           edition="2e", provenance={"loc": f"pp{wit[0]}-{wit[-1]}"})
+            n["faction_witness"] = n.get("faction_witness", 0) + 1
+
+    # — spells (parsed; identity certain, stats verified-or-absent) —
+    w, wrej = PW.extract_spells(pages, PW.WIZARD_PAGES, "wizard")
+    p, prej = PW.extract_spells(pages, PW.PRIEST_PAGES, "priest")
+    spells = PW.finalize_spells(PW.merge_spells(w, p))
+    for s in spells:
+        slug = PW.slugify(s["name"])
+        eid = f"spell:{slug}"
+        fields = {"level": s["level"], "school": s["school"], "classes": s["classes"],
+                  "reversible": s["reversible"], "pages": sorted(set(s["pages"])),
+                  "printed_pages": sorted({pg - PW.PAGE_OFFSET for pg in s["pages"]})}
+        if s["elemental"]:
+            fields["elemental"] = s["elemental"]
+        fields.update({k: v for k, v in s["stats"].items()})
+        if s["level_by_class"]:
+            fields["level_by_class"] = s["level_by_class"]
+        if s["stats_by_class"]:
+            fields["stats_by_class"] = s["stats_by_class"]
+        if s.get("stats_cured"):
+            fields["stats_cured"] = s["stats_cured"]    # the witness rides the node
+        if s["origin"]:
+            fields["first_printed_in"] = s["origin"]
+        conf = 0.9 if s.get("stats_cured") else 0.95
+        content = (f"{s['name']} 2e spell level {s['level']} {s['school']} "
+                   f"({'/'.join(s['classes'])}). "
+                   + " ".join(f"{k.replace('_', ' ')}: {v}" for k, v in s["stats"].items())
+                   + (" elemental " + " ".join(s["elemental"]) if s["elemental"] else ""))
+        _admit_seed(store, {"type": "spell", "id": eid, "name": s["name"],
+                            "edition": "2e", "fields": fields, "content": content,
+                            "provenance": {"value_sources": [
+                                {"src": PW.BOOK, "loc": "pp" + ",".join(str(x) for x in sorted(set(s["pages"])))}],
+                                           "method": "spell-parse" + ("+stat-curation" if s.get("stats_cured") else "")},
+                            "confidence": conf, "curated": {}, "source_sha": sha},
+                    "pwh-spell-parse", len(set(s["pages"])))
+        store.add_edge("attested_in", eid, sid, src_type="spell", tgt_type="source", edition="2e")
+        for k in s["classes"]:
+            store.add_edge("castable_by", eid, f"class:{k}",
+                           src_type="spell", tgt_type="class", edition="2e")
+            n["edges"] += 1
+        if s["origin"] and store.exists(s["origin"]):
+            store.add_edge("attested_in", eid, s["origin"], role="first-printed-in",
+                           src_type="spell", tgt_type="source", edition="2e")
+            n["edges"] += 1
+        n["spell"] += 1
+
+    # — head-lost + parse rejects → quarantine by page, never guessed —
+    for h in PW.HEAD_LOST:
+        env = {"type": "spell", "id": f"spell:pwh-head-lost-p{h['printed_page']}",
+               "name": f"[head lost — PWH printed p{h['printed_page']}]", "edition": "2e",
+               "fields": {**h["stats"], "level": h["level"], "school": h["school"],
+                          "sphere": h["sphere"], "classes": [h["klass"]],
+                          "pages": [h["page"]], "note": h["note"]},
+               "content": h["note"],
+               "provenance": {"value_sources": [{"src": PW.BOOK, "loc": f"p{h['page']}"}],
+                              "method": "spell-parse"},
+               "confidence": 0.5, "curated": {}, "source_sha": sha}
+        store.quarantine(env, {"decision": "QUARANTINE", "adjudicator": "auto",
+            "checks": [{"layer": "L1", "name": "name_present", "sev": "hard", "result": "fail",
+                        "detail": "name line destroyed by OCR — promotion needs a print reading"}],
+            "independent": {"channel": "spell-parse", "confirmations": 1},
+            "confidence_final": 0.5}, "pwh-spell-head-lost")
+        n["spell_q"] += 1
+    for r in wrej + prej:
+        if not r["name_raw"]:
+            continue                                  # the empty pg132 echo of HEAD_LOST
+        env = {"type": "spell", "id": f"spell:pwh-reject-p{r['page']}-{PW.slugify(r['name_raw'])[:24]}",
+               "name": r["name_raw"], "edition": "2e",
+               "fields": {"level": r["level"], "school": r["school"], "pages": [r["page"]]},
+               "content": f"unparsed spell head {r['name_raw']!r} p{r['page']}",
+               "provenance": {"value_sources": [{"src": PW.BOOK, "loc": f"p{r['page']}"}],
+                              "method": "spell-parse"},
+               "confidence": 0.5, "curated": {}, "source_sha": sha}
+        store.quarantine(env, {"decision": "QUARANTINE", "adjudicator": "auto",
+            "checks": [{"layer": "L1", "name": "name_plausible", "sev": "hard", "result": "fail",
+                        "detail": f"OCR name {r['name_raw']!r} implausible — needs a fix-table entry"}],
+            "independent": {"channel": "spell-parse", "confirmations": 1},
+            "confidence_final": 0.5}, "pwh-spell-parse")
+        n["spell_q"] += 1
+    return n
 
 
 def main():
@@ -2010,6 +2483,7 @@ def main():
     ntl = pour_timeline(store)                          # Blood War chronology (Hellbound)
     hadm, hqd, hpart, hcross = pour_plothooks(store)   # mechanically-tagged adventure seeds (all three books)
     dadm, dqd = pour_dialog(store)                      # the NPC voice vector (bound speech, register-tagged)
+    pw = pour_pwh(store)                                # BOOK 8: The Planewalker's Handbook (race/class/spell)
     cov = store.coverage()
     adj = [e for e, r, d in admitted if e.get("curated")]
     print(f"=== MIMIR GATE — Uncaged ({len(nodes)} npc) ===")
@@ -2034,8 +2508,12 @@ def main():
           f"{bx['adventure']} adventures · {ncre} creatures ({ncre_q} mc-queued) · {ntl} timeline events")
     print(f"plothooks: {nsub} staging pivots · {hadm} seed-hooks tagged · {hqd} queued (<θ {THETA_HOOK}) · "
           f"{hpart} part_of links · {hcross} cross-book pivots")
-    print(f"dialog   : {dadm} utterances bound (spoken_by, register-tagged) · {dqd} queued (<θ {D.THETA_DIALOG})   "
-          f"·   total: {cov['admitted_total']} entities, {cov['edges']} edges")
+    print(f"dialog   : {dadm} utterances bound (spoken_by, register-tagged) · {dqd} queued (<θ {D.THETA_DIALOG})")
+    print(f"planewalker's-hbk: {pw['race']} races · {pw['kit']} kits + {pw['base_class']} base classes · "
+          f"{pw['spell']} spells · {pw['spell_q']} spell-quarantine · {pw['edges']} typed edges · "
+          f"{pw.get('faction_witness', 0)} faction 3rd-witnesses"
+          + (f" · REFUSED: {pw['refused']}" if pw['refused'] else " · 0 refused")
+          + f"   ·   total: {cov['admitted_total']} entities, {cov['edges']} edges")
     if unresolved:
         print(f"          plot edges unresolved (not poured): {sorted(set(unresolved))}")
     dang = store.dangling_edges()

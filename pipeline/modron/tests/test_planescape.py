@@ -126,15 +126,19 @@ def test_d1_lookups_served_not_rolled():
 # D2 — school-alteration deltas cite the Mechanus seam (Q3 standardized)
 # ---------------------------------------------------------------------------
 
-def test_d2_modifiers_cite_mechanus_pending():
+def test_d2_modifiers_cite_mechanus_minted():
+    """The D2 asserter seam, post-mint: refs are bare resolvable law ids
+    (upgraded from 'pending M* mint' by audit court-mechanus, 2026-06-06);
+    the page witness rides the notes."""
     from modron.modifiers import registry as mod_registry
     reg = mod_registry()
     for mid in ("enhanced-school-save-penalty", "enhanced-school-protection-bonus",
                 "spell-key-casting-delay"):
         row = reg[mid]
         assert row["source"]["kind"] == "mechanus", mid
-        assert "pending" in row["source"]["ref"], mid       # honest until minted
-        assert "witness" in row["source"]["ref"], mid       # page rides the ref
+        assert row["source"]["ref"].startswith("law:"), mid
+        assert "pending" not in row["source"]["ref"], mid
+        assert "witness" in row["notes"], mid               # page rides the notes
 
 
 def test_d2_save_penalty_composes():
@@ -262,7 +266,11 @@ def test_d7_hazard_damage_specs():
     magma = registry.get("lkp:2e:inner:magma-ambient-by-ac")
     assert magma["kind"] == "lookup"
     exprs = {r["key"]: r["expr"] for r in magma["rows"]}
-    assert exprs["AC 4 to 2"] == "4d8" and exprs["AC -8 to -10"] == "none"
+    # full seven-band chart, keyed to NATURAL AC (audit C-4-inner-b-01/-02)
+    assert exprs["natural AC 10 to 8"] == "6d8"
+    assert exprs["natural AC 4 to 2"] == "4d8"
+    assert exprs["natural AC -8 to -10"] == "none"
+    assert len(magma["rows"]) == 7
 
 
 def test_d8_acheron_landing():
@@ -302,12 +310,13 @@ def test_registry_search_by_used_at():
     assert len(hive) == 4
 
 
-def test_ocr_uncertain_entries_carry_the_flag():
-    """The illusion-real 10% rides an OCR-ambiguous witness — the entry must
-    say so (requires_confirmation, the rollables-compiler idiom)."""
+def test_ocr_adjudicated_entry_carries_the_ruling():
+    """The illusion-real 'IOOfo' was adjudicated 10% CONFIRMED (audit
+    C-1-chaos-law-02): the requires_confirmation flag retires and the
+    adjudication rides the notes."""
     row = registry.get("spc:2e:limbo:illusion-becomes-real")
-    assert row["requires_confirmation"] is True
-    assert "OCR" in row["notes"]
+    assert "requires_confirmation" not in row
+    assert "adjudicated 10%" in row["notes"] and "OCR" in row["notes"]
 
 
 # ---------------------------------------------------------------------------

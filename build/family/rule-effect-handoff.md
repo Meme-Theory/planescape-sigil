@@ -92,3 +92,61 @@ or amend **in their own docs**, and Mimir mints pointer edges only after their i
   plane-scoped check kinds ride `data/conventions/2e.json` or an overlay pack.
 - **Q3 → both:** the D2 seam (Modron modifiers citing Mechanus law ids) is the model for
   every numeric delta in §D — confirm and we standardize.
+
+---
+
+## §PWH — The Planewalker's Handbook round (added 2026-06-06, Mimir session)
+
+The player bible (2620) poured its identity dims today — race 8 · class 11 (7 kits +
+4 base-class stubs) · spell 57 (+1 head-lost quarantine) — per the registry close-out.
+Statline ATTRIBUTES ride the spell nodes (the creature-statblock precedent); governing
+RULES TEXT stayed un-poured, per the M6 lane. Page cites below are reflow-PDF pages of
+`build/the-planewalker-s-handbook/planescape-2620-the-planewalkers-handbook`
+(printed page = PDF − 2).
+
+### to MECHANUS (new law families on offer)
+
+- **M9 · Belief-points law** — the setting's signature mechanic (belief shapes the
+  planes): earning/spending belief points, conflicting beliefs, disregarding belief.
+  Witness: PDF 144-149 (printed 142-147). In NO current law family.
+- **M10 · Portal/conduit/vortex law (player-side)** — portal types & destinations,
+  finding/opening, portal dangers & tricks, conduits, vortices, paths & pools,
+  intraplanar travel. Witness: PDF 36-45. Cross-witnesses M3 (seals & wards).
+- **M11 · Magic-on-the-planes player-side law** — school alterations by plane
+  (quick-ref table PDF 109), magical-item bonus loss by plane (PDF 113; chart PDF 159),
+  priest level-loss by plane (PDF 111; chart PDF 158), spell keys / power keys
+  player-procedure (PDF 108-111), planar-pathway spell lists (wizard PDF 107,
+  priest PDF 112), True Names (PDF 113). Largely a SECOND WITNESS for M1/M2/M4 —
+  cross-attestation strengthens the boxed-set rows; the quick-ref consolidations
+  are new.
+- **M12 · Planewalking proficiencies** — new NWPs (planar sense, portal feel,
+  planology, planar survival, chaos shaping, spell recovery…, PDF 101-103) +
+  existing-proficiency planar amendments (PDF 103). Identity stays with the kit
+  cards' requirement fields (poured); slots/ability/category mechanics are law.
+- **M13 · Prime-vs-planar law** — summoning/banishment asymmetries (primes immune
+  to planar-creature summons; planars summonable), planar time. Witness: PDF 10-12, 55.
+
+### to MODRON (applied values on offer)
+
+- **D10 · Proficiency check kinds** — the M12 NWPs as `2e-planescape` pack check
+  kinds (ability + slots data per proficiency, PDF 101-103).
+- **D11 · Belief-point mechanics** — if M9 is accepted, its spend/earn dice and
+  check interactions ride as pack kinds/modifiers citing the M9 law ids (the D2 seam).
+- **D12 · Racial tables** — class/level-limit + starting-age tables (PDF 82-83,
+  printed 80-81), incl. the Tiefling Abilities (roll 5×) and Appearance (1d4×)
+  tables → rollables with `used_at race:tiefling`. Mimir holds the race identities.
+
+### Mimir's own queued follow-up (not a sibling lane)
+
+- **Planewalking-equipment item round** — PDF 134-143 (printed 132-141): Baatorian
+  green steel, bariaur equipment, celestial etheroscope, modron equipment, sickles &
+  scythes, new magical items, planar protections → `item` nodes (kind: equipment),
+  the marquee invoke-at-the-table dim. Queued as its own card round.
+- The **cant glossary** (PDF 152-159) feeds the cant sibling's harvest, not this doc.
+
+### Open questions (continuing the numbering)
+
+- **Q4 → Mechanus:** accept M9-M13? M11 is mostly cross-witness — prefer enriching
+  the existing M1/M2/M4 rows with PWH page cites over new families?
+- **Q5 → Modron:** D12's tiefling tables are player-facing chargen rollables — in
+  scope for the registry, or parked until a chargen lane exists?

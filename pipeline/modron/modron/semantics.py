@@ -194,6 +194,27 @@ def roll_check(kind: str, view: str, params: dict | None, mods: list | None,
                 notes.append("band table is provisional (see pack) — confirm against FG&G")
             break
 
+    # bands_by: a 2D cross-reference table — band columns keyed by a param
+    # (FG&G Table 10.7 encounter reactions: 2d10 x party disposition; audit
+    # A-1-2e-10). The default column is disclosed in the outcome.
+    bb = spec.get("bands_by")
+    if bb and "band" not in outcome:
+        pname = bb.get("param", "disposition")
+        column = str(params.get(pname, bb.get("default", ""))).lower().strip()
+        table = (bb.get("tables") or {}).get(column)
+        if table is None:
+            notes.append(f"no band column {column!r} for {pname} — known: "
+                         f"{', '.join(sorted(bb.get('tables') or {}))}")
+        else:
+            outcome[pname] = column
+            if pname not in params:
+                notes.append(f"{pname} not supplied — default column "
+                             f"{column!r} used (disclosed)")
+            for band in table:
+                if band["min"] <= result.total <= band["max"]:
+                    outcome["band"] = band["label"]
+                    break
+
     if spec.get("order"):
         outcome["order"] = spec["order"]  # asc = low wins (2e), desc = high wins (5e)
 

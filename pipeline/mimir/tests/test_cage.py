@@ -131,8 +131,9 @@ def cage_store(tmp_path_factory):
 @needs_corpus
 def test_pour_merges_never_collide(cage_store):
     st, counts = cage_store
-    # 15 seeded merge targets − Shattered Temple (expected-absent: no cage entry to merge)
-    assert counts["merged"] == 14 and counts["new"] >= 25
+    # all 15 seeded merge targets merge — the Shattered Temple now RECOVERS via its
+    # witnessed ENTRY_CURATIONS span (Great Audit, Meme-adopted 2026-06-06)
+    assert counts["merged"] == 15 and counts["new"] >= 25
     fw = st.get("location:sigil:fortune-s-wheel")
     srcs = [s["src"] for s in fw["provenance"]["value_sources"]]
     assert "uncaged" in srcs and "in-the-cage" in srcs          # dual-source, one node
@@ -142,10 +143,16 @@ def test_pour_merges_never_collide(cage_store):
 @needs_corpus
 def test_expected_absent_is_quarantined_not_guessed(cage_store):
     st, counts = cage_store
-    assert counts["absent"] == len(C.EXPECTED_ABSENT)
-    row = st.conn.execute("SELECT reason FROM quarantine WHERE id LIKE '%armory%cage-entry'").fetchone()
-    assert row and row["reason"] == "cage-head-lost"
-    assert not st.exists("location:sigil:armory#cage-entry")    # quarantine ≠ admission
+    # every EXPECTED_ABSENT name now carries a witnessed ENTRY_CURATIONS recovery
+    # (Great Audit court, all 10 promote-with-fix) — the queue drains to zero, and the
+    # recovered entries POUR. If a curation's anchors ever fail, the name re-queues.
+    assert counts["absent"] == 0
+    assert st.conn.execute("SELECT 1 FROM quarantine WHERE reason='cage-head-lost'").fetchone() is None
+    for lid in ("location:sigil:golden-bell", "location:sigil:green-mill",
+                "location:sigil:bones-of-the-night", "location:sigil:tower-of-the-wyrm"):
+        assert st.exists(lid), lid                               # recovered = admitted
+    armory = st.get("location:sigil:armory")                     # dual-source merge target
+    assert "in-the-cage" in [x["src"] for x in armory["provenance"]["value_sources"]]
 
 
 @needs_corpus

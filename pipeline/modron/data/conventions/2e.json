@@ -12,8 +12,8 @@
     "explicit": false,
     "die": 8,
     "template": "{n}d8{plus}",
-    "fractional": { "1/2": "1d4", "1/4": "1d2" },
-    "note": "monster HD are d8 (FG&G); '12+24' reads 12d8+24; fractional HD mapping is the standard rendering — provisional until FG&G pours"
+    "fractional": { "1/2": "2d2", "1/4": "1d2" },
+    "note": "monster HD are d8 (FG&G fgg-text p0309, printed 299); '12+24' reads 12d8+24; 1/2 HD = 2d2 (fgg-text p0293, printed 283 — audit cbt A-1/court-fgg 2026-06-06); 1/4 mapping unwitnessed in FG&G — provisional"
   },
   "checks": {
     "attack": {
@@ -28,7 +28,7 @@
       "nat_crit_auto_hits": true,
       "nat_fumble_auto_misses": true,
       "derived": { "hits_ac": "thac0 - total" },
-      "notes": "descending AC: you hit AC (THAC0 − roll); nat 20/1 auto rules per FG&G; RAW 2e has no critical damage effect (crit_effect: none)"
+      "notes": "descending AC: you hit AC (THAC0 − roll); nat 20/1 auto rules per FG&G; RAW 2e has no critical damage effect (crit_effect: none) — FG&G cite: fgg-text p0065 (printed 55, THACO procedure: modified d20 >= THAC0−AC, mods roll-side); p0074 (printed 64, nat 1 auto-failure); p0075 (printed 65, nat 20 auto-hit, no damage effect)"
     },
     "save": {
       "roll": "1d20",
@@ -37,62 +37,96 @@
       "vs": "target",
       "success_op": ">=",
       "categories": ["ppdm", "rsw", "pp", "breath", "spell"],
-      "notes": "save targets come from the class/HD matrices — law (Mechanus/caller supplies the target number)"
+      "notes": "save targets come from the class/HD matrices — law (Mechanus/caller supplies the target number) — FG&G cite: fgg-text p0069 (printed 59, procedure 1d20+mods >= save score); p0070 (printed 60, five categories in priority order; bonuses modify the die roll, not the target)"
     },
     "ability": {
       "roll": "1d20",
       "vs": "score",
       "success_op": "<=",
-      "notes": "roll-under: succeed by rolling your ability score or less"
+      "crit_nat": [1],
+      "fumble_nat": [20],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "notes": "roll-under: succeed by rolling your ability score or less; nat 1 always succeeds, nat 20 always fails (matters when modified targets exit the die range) — FG&G cite: fgg-text p0014 (printed 4, glossary: 1d20 <= ability score succeeds); p0045 (printed 35, chapter-6 check law incl. the nat-1/nat-20 auto rules) — audit A-1-2e-04"
     },
     "proficiency": {
       "roll": "1d20",
       "add_to_target": ["check_mod"],
       "vs": "score",
       "success_op": "<=",
-      "notes": "nonweapon proficiency: roll-under ability, check modifier adjusts the target"
+      "crit_nat": [1],
+      "fumble_nat": [20],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "notes": "nonweapon proficiency: roll-under ability, check modifier adjusts the target (positive = easier); nat 1 always succeeds, nat 20 always fails — FG&G cite: fgg-text p0045 (printed 35, skill-check law: roll-under; positive modifiers raise the score — the add_to_target direction; Advanced +3/Mastery +6) — audit A-1-2e-06"
     },
     "thief_skill": {
       "roll": "1d100",
       "vs": "pct",
-      "success_op": "<="
+      "success_op": "<=",
+      "notes": "roll-under percentile vs the final adjusted skill % (caller passes the modified pct) — FG&G cite: fgg-text p0035 (printed 25, Table 3.15 base %, 95% cap, <1% unusable); p0036 (printed 26, 96-100 auto-springs traps — high roll fails)"
     },
     "percent": {
       "roll": "1d100",
       "vs": "pct",
-      "success_op": "<="
+      "success_op": "<=",
+      "notes": "roll <= percentage succeeds — FG&G cite: fgg-text p0070 (printed 60, percentile direction via magic resistance); p0015 (printed 5, d% law, two 0s = 100)"
     },
     "morale": {
       "roll": "2d10",
       "vs": "morale",
       "success_op": "<=",
-      "notes": "holds if 2d10 <= morale rating (A'kin: champion (16))"
+      "notes": "holds if 2d10 <= morale rating (A'kin: champion (16)) — FG&G cite: fgg-text p0073 (printed 63, MORALE + Tables 8.11/8.12); p0074 (printed 64, procedure: 2d10 <= rating holds). Table 8.12 modifiers adjust the RATING — pass the modified rating as the morale param"
     },
     "reaction": {
       "roll": "2d10",
       "add": ["cha_mod"],
-      "bands": [
-        { "min": 2, "max": 4, "label": "friendly" },
-        { "min": 5, "max": 7, "label": "indifferent" },
-        { "min": 8, "max": 10, "label": "cautious" },
-        { "min": 11, "max": 15, "label": "threatening" },
-        { "min": 16, "max": 99, "label": "hostile" }
-      ],
-      "provisional": true,
-      "notes": "encounter-reaction banding per the common 2e DMG rendering — confirm against For Gold & Glory when it pours"
+      "bands_by": {
+        "param": "disposition",
+        "default": "indifferent",
+        "tables": {
+          "friendly": [
+            { "min": -999, "max": 7, "label": "friendly" },
+            { "min": 8, "max": 11, "label": "indifferent" },
+            { "min": 12, "max": 15, "label": "cautious" },
+            { "min": 16, "max": 18, "label": "threatening" },
+            { "min": 19, "max": 999, "label": "hostile" }
+          ],
+          "indifferent": [
+            { "min": -999, "max": 6, "label": "friendly" },
+            { "min": 7, "max": 11, "label": "indifferent" },
+            { "min": 12, "max": 14, "label": "cautious" },
+            { "min": 15, "max": 18, "label": "threatening" },
+            { "min": 19, "max": 999, "label": "hostile" }
+          ],
+          "threatening": [
+            { "min": -999, "max": 3, "label": "friendly" },
+            { "min": 4, "max": 9, "label": "cautious" },
+            { "min": 10, "max": 15, "label": "threatening" },
+            { "min": 16, "max": 999, "label": "hostile" }
+          ],
+          "hostile": [
+            { "min": -999, "max": 5, "label": "flight" },
+            { "min": 6, "max": 8, "label": "cautious" },
+            { "min": 9, "max": 12, "label": "threatening" },
+            { "min": 13, "max": 999, "label": "hostile" }
+          ]
+        }
+      },
+      "notes": "FG&G Table 10.7 (fgg-text p0094, printed 84) is a 2D cross-reference: 2d10 + Cha reaction adjustment, read against the PARTY's disposition column (friendly/indifferent/threatening/hostile; default indifferent, disclosed). Six outcomes incl. flight. Replaces the audit-condemned flat provisional bands (A-1-2e-10, court-fgg 2026-06-06)."
     },
     "surprise": {
       "roll": "1d10",
       "vs": 3,
       "success_op": "<=",
       "success_means": "surprised",
-      "notes": "1-3 on d10 = surprised; situational mods are law"
+      "notes": "1-3 on d10 = surprised; situational mods are law — FG&G cite: fgg-text p0093 (printed 83, 1d10, 1-3 = surprised); p0094 (printed 84, Table 10.8 surprise modifiers, roll-side)"
     },
     "initiative": {
       "roll": "1d10",
-      "add": ["speed", "mod"],
+      "add": ["casting_time", "mod"],
       "order": "asc",
-      "notes": "low wins; weapon speed / casting time adds"
+      "notes": "low wins, parties act ascending (FG&G fgg-text p0065, printed 55); casting time adds to the roll (p0066, printed 56; worked example p0074, printed 64); weapon combat speed breaks TIES only (p0057, printed 47 definition; p0065, printed 55 procedure) — it never adds. PHB-style speed-adds belongs in a disclosed house overlay (data/overrides/2e.json). Audit A-1-2e-13."
     }
   },
   "encounter_doctrine": {
@@ -100,5 +134,5 @@
     "check_default": { "roll": "1d10", "encounter_on": "<=1" },
     "note": "wandering-encounter doctrine; module set-pieces usually skip 'check' and 'table'; morale arms (never pre-rolls)"
   },
-  "sources": ["For Gold & Glory (free retroclone, pending pour)", "official 2e scans (user-purchased, local-only)"]
+  "sources": ["For Gold & Glory (quotable 2e RAW — poured: build/mechanus/fgg-text/, 384 pages, sha ce7b77c5ea36d67e5b35ffaea4c8e898784e154c079c18b499f3bbdb4db7e069; printed page = cache page − 10)", "official 2e scans (user-purchased, local-only, cite-only)"]
 }

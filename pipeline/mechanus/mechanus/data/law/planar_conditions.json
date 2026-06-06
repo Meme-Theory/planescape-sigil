@@ -50,7 +50,7 @@
    "law_id": "law:planar-conditions:arcadia",
    "plane": "plane:arcadia",
    "witness": [{"component": "ddps-planesoflaw-iii", "reflow": [7, 8], "printed": [6, 7]}],
-   "general": "All spells are ritualized, taking twice as long to cast. Spells not cast for the good of more than one person can simply fail — the caster's frame of mind governs, and selfish intent kills the magic (some evil mages train to mask their thoughts). Creatures native to the plane (not petitioners) are wholly immune to illusions/phantasms unless cast by a power or a peer; the plane's natural animals resist prime-cast summon/control spells entirely (planar casters work normally).",
+   "general": "All spells are ritualized, taking twice as long to cast. Spells not cast for the good of more than one person can simply fail, as can spells that favor a smaller band when wielded against a bigger one — the caster's frame of mind governs, and selfish intent kills the magic (some evil mages train to mask their thoughts). Creatures native to the plane (not petitioners) are wholly immune to illusions/phantasms unless cast by a power or a peer; the plane's natural animals resist prime-cast summon/control spells entirely (planar casters work normally).",
    "schools": {
     "conjuration-summoning": {"rule": "Noble/greater-good purpose: automatically the best possible result, and summoned creatures serve willingly. Selfish or anti-plane purpose: the weakest result is guaranteed and summoned creatures fight the caster's control whenever they can."},
     "divination": {"rule": "Only divinations determining the course of a group larger than four are effective; cast for smaller parties they reveal nothing (unless the spell is inherently single-target)."},
@@ -244,12 +244,12 @@
   "the-gray-waste": {
    "law_id": "law:planar-conditions:the-gray-waste",
    "plane": "plane:the-gray-waste",
-   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [48], "printed": [46]}],
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [46, 48], "printed": [44, 46]}],
    "general": "Spells always take the most evil effect possible — an inattentive caster injures comrades or draws hostile attention. All color-based spells (color spray, prismatic sphere...) are utterly ineffective.",
    "schools": {
     "necromancy": {"rule": "Never raises mindless undead: everything raised is free-willed and evil-aligned (a mere apprentice can field a ghoul pack — and nothing stronger until far greater power). Necromancy for good purposes fails automatically unless cast by a power or proxy, or inside a realm with a special feature."},
     "conjuration-summoning": {"rule": "Summonings usually drag a Blood War skirmisher off the Oinos lines — it obeys the letter of its binding, resents it, and remembers the summoner for later. Power level is uncapped: monster summoning I can net a pit fiend (the spell's laws still bind it for the duration)."},
-    "enchantment-charm": {"rule": "The hopeless natives save at +3 vs. charm (and get a save even when the spell normally allows none). A successful charm snaps the target out of the Waste's influence for the spell's duration (not if held more than two weeks); when it wears off, anger shields him about one more week — and then the next weekly save against the numbing fails automatically, no roll. Enchantments on objects are enhanced ~25% (duration, area) if the enchantment could conceivably serve evil; a good-only enchantment fails outright."},
+    "enchantment-charm": {"rule": "The hopeless natives save at +3 vs. charm (and get a save even when the spell normally allows none — though that granted save takes no +3). A successful charm snaps the target out of the Waste's influence for the spell's duration (not if held more than two weeks); when it wears off, anger shields him about one more week — and then the next weekly save against the numbing fails automatically, no roll. Enchantments on objects are enhanced ~25% (duration, area) if the enchantment could conceivably serve evil; a good-only enchantment fails outright."},
     "divination": {"rule": "Reveals little: messages arrive tinged with despair, promising sad ends — and may simply be false, since the plane doesn't differentiate truth from lie. It answers the caster's psyche; the same spell cast twice can return two different results."},
     "elemental": {"rule": "Basically unchanged, except summoned pseudoelementals are always evil and all summoned elementals are free from the moment of conjuration — they may serve, attack, or wander off."}
    }

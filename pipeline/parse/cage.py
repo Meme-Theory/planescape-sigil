@@ -167,7 +167,7 @@ ROSTER = [
     ("Gatehouse",                        110, "Hive Ward", "asylum", "site"),
     ("Green Stone Stables",              111, "Hive Ward", "stables", "site"),
     ("Hive",                             112, "Hive Ward", "tenement block", "site"),
-    ("Mortuary",                         112, "Hive Ward", "morgue", "site"),
+    ("Mortuary",                         113, "Hive Ward", "morgue", "site"),  # Great Audit card fix (Meme ADOPTED 2026-06-06)
     ("Scratch Wall",                     115, "Hive Ward", "landmark", "site"),
     ("Slags",                            115, "Hive Ward", "ruin-field", "site"),
     ("Weary Spirit Infirmary",           121, "Hive Ward", "infirmary", "site"),
@@ -206,6 +206,7 @@ HEAD_ALIAS = {
     "Bottle & Jug": ["The Bottle & Jug"],
     "Green Stone Stables": ["The Green Stone Stables"],
     "Hive": ["The Hive"],
+    "The Speckled Rat": ["The Rat", "Rat"],   # 'THE / RA +' two-line shred, MINOR_SPAN-scoped
     "Mortuary": ["The Mortuary"],
     "Scratch Wall": ["The Scratch Wall"],
     "Slags": ["The Slags"],
@@ -221,6 +222,10 @@ MINORS = [
     ("The Lantern", "thieves' tavern", None),
     ("The Mermaid's Cups", "tavern", None),
     ("The Red Pony", "tavern", None),
+    # Great Audit recovery: head shredded to 'THE / RA +' (pg59); its body had been
+    # absorbed by the Tenth Pit span, misbinding the Dustmen-Contract hooks. Merge
+    # target = the standing Uncaged node.
+    ("The Speckled Rat", "dive tavern", "location:sigil:the-speckled-rat"),
     ("The Tenth Pit", "tavern", None),
     ("The White Casket", "faction tavern", "location:sigil:the-white-casket"),
     ("The Sword and Buckler", "tavern", None),
@@ -245,6 +250,107 @@ EXPECTED_ABSENT = {
 # the purchaser watermark varies by component ("Meme (Order #…)" / "Ryan Berry (Order #…)")
 _FURNITURE = re.compile(
     r"^(?:.{0,40}\(Order #\d+\)|•\s*\d+\s*•|\d{1,3}|[-•·*]+)$")
+
+# ---- witnessed entry recoveries (Great Audit court → Meme ADOPTED 2026-06-06) --------
+# The grade-C/D scan ate display heads and the reflow interleaved bodies (the Jeremo
+# class, at entry scale): Bones of the Night's skull-hunt sat under the BLACK SAILS
+# head, Grundlethum's body under a drifted GREENGAGE head, Shattered Temple's tail
+# wrapped above Harbinger House's body. Each recovery names its body by ANCHOR TEXT —
+# resolved against the page at segment time, never by line number (a v1b re-OCR moves
+# lines; the page's own words are the witness). A segment whose anchors fail resolves
+# NOTHING and the entry stays absent/quarantined ("verified or absent").
+# Spans verified by the audit court with two adversarial refuters per finding;
+# correction-docket.md carries the page quotes.
+# name -> {"segments": [(scan_page, start_anchor, end_anchor), ...], "why": str}
+ENTRY_CURATIONS = {
+    "Armory": {
+        "segments": [(34, "Home to the Doomguard, this headquarters", "to meet their employers.")],
+        "why": "head residue '• THE' (pg32); body sat inside the Catacombs span"},
+    "Black Sails": {
+        "segments": [(50, "The Black Sails tavern stands in the shadow", "gather to drink quietly.")],
+        "why": "true body is 10 lines; the auto span absorbed Bones of the Night's wrapped column"},
+    "Bones of the Night": {
+        "segments": [(50, "The Guvners have reams of knowledge", "and a mind full"),
+                     (50, "of secrets. Called simply", "least not yet."),
+                     (50, "STONE GOLEM: AC 5", "greater wisdom.")],
+        "why": "column wrap: body runs head→'a mind full' then wraps to page top 'of secrets…'; golem statblock + spigot para are its sidebars"},
+    "Golden Bell": {
+        "segments": [(52, "Standing hard by the Temple of the Abyss", "swindle them.")],
+        "why": "head eaten on pg50; body had been swallowed by the Great Foundry span"},
+    "Green Mill": {
+        "segments": [(53, "This leafy sanctuary is half tavern", "smoke, sweat, and steel.")],
+        "why": "head lost at the pg50/51 column break; body self-names 4x"},
+    "Green Stone Stables": {
+        "segments": [(113, "Mounts in general are both very rare", "near Orsmonder's Meats.")],
+        "why": "head eaten in the pg113-114 drift zone; proprietor Bismen Yscoppel names the stable"},
+    "Greengage": {
+        "segments": [(65, "The Greengage, across the street from the Civic", "blessed orchards.")],
+        "why": "reflow INVERTED Greengage/Grundlethum: the GREENGAGE head drifted above Grundlethum's body; Greengage's true body sits below"},
+    "Grundlethum's Automatic Scribe": {
+        "segments": [(65, "This small shop's the only officially sanctioned one", "far more tangible) incidents.")],
+        "why": "head shredded ('BY LINN smcs / +HUm'S / SCRIBE'); body sat under the drifted GREENGAGE head"},
+    "Hall of Speakers": {
+        "segments": [(74, "The glistening spire atop the Hall of Speakers", "security force.")],
+        "why": "head fine but Jeena Ealy's Compound interleaves between head and body — bind around it"},
+    "Harbinger House": {
+        "segments": [(57, "Not well known, even to the touts, Harbinger House", "previous officeholder.")],
+        "why": "auto body absorbed Shattered Temple's wrapped tail (pg57 lines above its true start)"},
+    "Shattered Temple": {
+        "segments": [(57, "Once a temple to Aoskar, the Shattered Temple", "foolish enough to"),
+                     (57, "ignore the tradition. While all this", "low-life fun.")],
+        "why": "head residue 'THE'; body wraps from column bottom to page top above Harbinger House"},
+    "Society of the Luminiferous Aether": {
+        "segments": [(57, "A gentleman's club for working mages", "Bright magical lights shine warmly"),
+                     (58, "and the entire complex is", "works to the Society's library.")],
+        "why": "head eaten between Harbinger House and its body; entry crosses the page break mid-sentence"},
+    "Temple of Hermes": {
+        "segments": [(46, "Most planars don't concern themselves too much", "traveling through Mount Olympus.")],
+        "why": "head shredded on grade-D pg44; short entry had bled into the Temple of the Abyss span"},
+    "Tower of the Wyrm": {
+        "segments": [(46, "Filled with inhuman cries and droves", "venom induces delirium, making it"),
+                     (47, "easier for Mercykiller inquisitors", "the cost of Wyrm chow.")],
+        "why": "head residue 'THE' (pg44); entry crosses the page break mid-sentence to pg45"},
+}
+
+
+def _squash_lc(s):
+    return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+
+def _find_anchor_line(lines, anchor, lo=0, role="start"):
+    """First line at/after lo whose squashed text contains the anchor's distinctive
+    prefix (24 squashed chars rides under OCR hyphenation drift). The page wraps
+    mid-phrase ('to meet their / employers.'), so a TWO-LINE JOIN is also tried:
+    a join match resolves to the first line for a start anchor (the phrase begins
+    there) and the second for an end anchor (the body must include the wrap)."""
+    key = _squash_lc(anchor)[:24]
+    if not key:
+        return None
+    for i in range(lo, len(lines)):
+        if key in _squash_lc(lines[i]):
+            return i
+        if i + 1 < len(lines) and key in _squash_lc(lines[i] + lines[i + 1]):
+            return i if role == "start" else i + 1
+    return None
+
+
+def resolve_entry_curation(pages, cur):
+    """-> (body, hit) with hit=(page, line, score) for boundary participation, or
+    (None, None) when any anchor fails — the entry then stays absent, never guessed."""
+    parts, hits = [], []
+    for pg, a_start, a_end in cur["segments"]:
+        lines = (pages.get(pg) or "").splitlines()
+        s = _find_anchor_line(lines, a_start, role="start")
+        if s is None:
+            return None, None
+        t = _find_anchor_line(lines, a_end, lo=s, role="end")
+        if t is None:
+            return None, None
+        seg = "\n".join(_clean_lines("\n".join(lines[s:t + 1])))
+        parts.append(re.sub(r"(\w)-\n(\w)", r"\1\2", seg))
+        hits.append((pg, s))
+    pg0, s0 = min(hits)
+    return "\n\n".join(parts), (pg0, max(s0 - 1, 0), 1.0)
 
 # Witnessed sweep curations — the "fix a berk once" law. The reflow occasionally
 # scrambles a paragraph into the NEXT entry's span; when the witness sentence
@@ -299,6 +405,23 @@ PORTAL_ADJUDICATIONS = {
     ("plane:baator", 101): {
         "ruling": "reject",
         "why": "defunct ('USED TO BE a portal') and rumor-grade ('supposedly') — a Hive landmark, not a live door"},
+    # — Great Audit (Meme ADOPTED 2026-06-06): the Ditch over-mint. p49's one clause
+    # names four GATE-TOWN doors ('the portals of the gate towns Ribcage, Plaguemort,
+    # Rigus, and Hopeless, which lead respectively to…') — the 'respectively' planes
+    # describe the TOWNS' onward gates, not four additional direct Ditch portals.
+    ("plane:baator", 49): {"ruling": "reject",
+        "why": "onward-hop double-mint of Ribcage's gate (one teamsters clause)"},
+    ("plane:the-abyss", 49): {"ruling": "reject",
+        "why": "onward-hop double-mint of Plague-Mort's gate (same clause)"},
+    ("plane:acheron", 49): {"ruling": "reject",
+        "why": "onward-hop double-mint of Rigus's gate (same clause)"},
+    ("plane:the-gray-waste", 49): {"ruling": "reject",
+        "why": "onward-hop double-mint of Hopeless's gate (same clause)"},
+    # locative mis-extraction: 'the only place ON THE GREAT RING where a basher can
+    # reach the Inner Planes' — the dest is the Inner Planes (that portal stands);
+    # the Great Ring mention is where Sigil SITS, not where the door GOES.
+    ("cosmology:the-great-ring", 30): {"ruling": "reject",
+        "why": "locative dup of portal:sigil:sigil--the-inner-planes (same witness sentence)"},
 }
 
 
@@ -386,6 +509,18 @@ def segment(pages, roster=ROSTER, offset=None):
         hit = _find_heading(pages, pp + offset, name)
         located.append({"name": name, "page": pp, "ward": ward, "kind": kind,
                         "rtype": rtype, "hit": hit, "found": hit is not None})
+    # witnessed recoveries override the auto machinery (Great Audit, Meme-adopted):
+    # the curated hit places the entry for its NEIGHBORS' boundaries; the curated
+    # body replaces auto-slicing entirely. Failed anchors fall back honestly.
+    for e in located:
+        cur = ENTRY_CURATIONS.get(e["name"])
+        if not cur:
+            continue
+        body, hit = resolve_entry_curation(pages, cur)
+        if body:
+            e.update({"hit": hit, "found": True, "cured": True, "_cured_body": body})
+        elif e["found"]:
+            print(f"  !! ENTRY_CURATIONS anchors failed for {e['name']} — keeping auto span")
     founds = [e for e in located if e["found"]]
     for e in located:                                  # fallback boundary, local offset
         if not e["found"]:
@@ -408,7 +543,8 @@ def segment(pages, roster=ROSTER, offset=None):
             npg, nli = min(pg + 2, maxpg), 10 ** 9
         e.update({"scan_page": pg, "score": round(sc, 2),
                   "start": (pg, li + 1), "end": (npg, nli),      # body excludes the head line
-                  "body": _slice(pages, (pg, li + 1), (npg, nli))})
+                  "body": e.pop("_cured_body") if e.get("cured")
+                          else _slice(pages, (pg, li + 1), (npg, nli))})
     for e in located:
         e.pop("hit", None)
     # a found head whose body came out empty is ALSO missing — never drop it silently
@@ -451,6 +587,8 @@ def trim_entries(pages, entries, minors):
     first = min(m["start"] for m in minors)
     cut = (first[0], first[1] - 1)                     # the first minor's head line
     for e in entries:
+        if e.get("cured"):                             # witnessed bodies are explicit — never trim
+            continue
         if e.get("start") and e.get("end") and e["start"] < cut < e["end"]:
             e["end"] = cut
             e["body"] = _slice(pages, e["start"], cut)
@@ -528,10 +666,14 @@ GAZ = [
     ("gate-town:xaos", "Xaos", "gate-town", None, "plane:limbo", ["xaos"]),
     ("gate-town:bedlam", "Bedlam", "gate-town", None, "plane:pandemonium", ["bedlam"]),
     ("gate-town:plague-mort", "Plague-Mort", "gate-town", None, "plane:the-abyss",
-     ["plague-mort", "plague mort"]),
+     ["plague-mort", "plague mort", "plaguemort"]),  # 'Plaguemort' = p49 spelling (Great Audit)
     ("gate-town:curst", "Curst", "gate-town", None, "plane:carceri", ["curst"]),
     ("gate-town:hopeless", "Hopeless", "gate-town", None, "plane:the-gray-waste", ["hopeless"]),
-    ("gate-town:torch", "Torch", "gate-town", None, "plane:gehenna", ["torch"]),
+    # Great Audit (Meme 2026-06-06): the bare 'torch' alias matched the Arcadian pony
+    # statblock ("the tentacle can hold a torch", p75) — a common-noun false positive
+    # and the entity's ONLY cage witness. No alias => the cage sweep can't mint it;
+    # the node returns when a Planes-of-Conflict (Gehenna) witness attests it.
+    ("gate-town:torch", "Torch", "gate-town", None, "plane:gehenna", []),
     ("gate-town:ribcage", "Ribcage", "gate-town", None, "plane:baator", ["ribcage"]),
     ("gate-town:rigus", "Rigus", "gate-town", None, "plane:acheron", ["rigus"]),
     ("gate-town:automata", "Automata", "gate-town", None, "plane:mechanus", ["automata"]),

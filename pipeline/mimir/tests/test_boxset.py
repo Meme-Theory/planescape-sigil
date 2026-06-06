@@ -126,7 +126,14 @@ def test_settlement_binds_layer(seven_store):
 @needs_corpus
 def test_creatures_admit_or_queue_by_name(seven_store):
     st, _, (ncre, ncre_q), _ = seven_store
-    assert ncre >= 10 and ncre_q >= 8
+    # 22 admitted / 3 queued: the Great Audit court recovered 6 mc-parse creatures
+    # via CREATURE_CURATIONS (Delphon, Ethyk, Warden Beast, Baernaloth, Achaierai,
+    # Bladeling); the 3 confirm-rejects stay honestly queued (Meme-adopted 2026-06-06)
+    assert ncre >= 20 and ncre_q == 3
+    assert st.exists("creature:planes-of-law:bladeling")          # recovered + renamed
+    assert st.exists("creature:planes-of-conflict:delphon")
+    kyton = st.get("creature:planes-of-law:kyton")                # renamed off 'Kytedn'
+    assert kyton and kyton["fields"]["special_attacks"] == "Chain snag"
     rows = st.conn.execute("SELECT COUNT(*) c FROM quarantine WHERE reason='mc-parse'").fetchone()
     assert rows["c"] == ncre_q
     # a clean creature carries the MC fields

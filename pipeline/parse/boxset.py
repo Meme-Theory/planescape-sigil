@@ -93,10 +93,12 @@ SECT_CARDS = [
      ["ring-givers"], "Ysgardian sect: wealth exists to be given away — the gift binds fate"),
     ("The Banished", CHAOS, 95, "plane:pandemonium",
      ["banished"], "exiles who embrace the howling dark of Pandemonium"),
-    ("The Converts", CHAOS, 10, None,
-     ["converts sect", "converts"], "chaos-side sect of the newly persuaded"),
-    ("The Verdant Guild", BENEV, 8, "plane:the-beastlands",
-     ["verdant guild"], "Beastlands sect: protect the wild against civilization"),
+    ("The Converts", CHAOS, 10, "plane:limbo",  # Great Audit card fix (Meme ADOPTED 2026-06-06)
+     ["converts sect", "converts"],
+     "chaos-side sect of the newly persuaded; strongest in Limbo (scan p161)"),
+    ("The Verdant Guild", BENEV, 8, "plane:the-beastlands",  # Great Audit card fix (Meme ADOPTED 2026-06-06)
+     ["verdant guild", "wylders", "the wylders"],
+     "Beastlands sect: protect the wild against civilization (called the Wylders, pp9/17/23)"),
 ]
 
 
@@ -116,8 +118,8 @@ def attest_sect(card, pages):
 SETTLEMENT_CARDS = [
     ("Zoronor", "city", "layer:ocanthus", LAW + "ii",
      ["city of shadows"], "the bladelings' shadowed city on Ocanthus"),
-    ("Vorkehan", "city", "layer:avalas", LAW + "ii",
-     [], "the Harmonium's soot-stained cube-city"),
+    ("Vorkehan", "city", "layer:avalas", LAW + "ii",  # Great Audit card fix (Meme ADOPTED 2026-06-06)
+     [], "the Mercykillers' fume-clogged city of gleaming metal"),
     ("The Mines of Marsellin", "mining settlement", "layer:thuldanin", LAW + "ii",
      ["mines of marselun", "marsellin"], "duergar pit-works in Thuldanin's hulks"),
     ("Darkspine", "town", "layer:avernus", LAW + "iv",
@@ -128,9 +130,9 @@ SETTLEMENT_CARDS = [
      ["shra'kt"], "the githzerai war-capital, held coherent by will"),
     ("The Floating City", "city", "plane:limbo", CHAOS,
      ["floating city"], "Limbo's drifting trade-anarchy"),
-    ("Heart's Faith", "celestial burg", "plane:mount-celestia", LAW + "vi",
+    ("Heart's Faith", "celestial burg", "layer:lunia", LAW + "vi",  # Great Audit card fix (Meme ADOPTED 2026-06-06)
      ["heart's faith"], "a lantern-archon-lit port of pilgrims"),
-    ("Soqed Hezi", "city", "plane:mount-celestia", LAW + "vi",
+    ("Soqed Hezi", "city", "layer:mertion", LAW + "vi",  # Great Audit card fix (Meme ADOPTED 2026-06-06)
      ["soqed"], "the city of swords"),
     ("Windglum", "town", "layer:phlegethon", CHAOS,
      [], "a wind-scoured burg in Pandemonium's third layer"),
@@ -244,10 +246,25 @@ _FIELD = {
 }
 
 
+# Adventure recoveries (Great Audit court -> Meme ADOPTED 2026-06-06): cards the
+# SYNOPSIS sweep missed (display-font anchor shredded). Witnessed: page card + ToC.
+ADVENTURE_RECOVERIES = {
+    "planes-of-chaos/tsr2603-planes-of-chaos": [
+        {"page": 192, "title": "The Book of Lies", "levels": "High.",
+         "n_pcs": "Two or more.",
+         "factions": "Sensates and the Sign of One are most likely, because of their dislike of the Dustmen.",
+         "synopsis": 'The PCs "acquire" a magical tome from the Dustmen. Titled the Book of Lies, '
+                     "the tome contains every untruth ever uttered. But the PCs learn such knowledge "
+                     "can be less a boon than a curse.",
+         "why": "p192 card + p186 ToC 'The Book of Lies (High)' — sweep anchor shredded"},
+    ],
+}
+
+
 def sweep_adventures(pages, *, component):
     """One card per SYNOPSIS-anchored page: title from the page's best display header,
     fields from the literal field lines."""
-    out = []
+    out = [dict(r) for r in ADVENTURE_RECOVERIES.get(component, [])]
     for pg in sorted(pages):
         txt = pages[pg]
         sm = _SYN.search(txt)

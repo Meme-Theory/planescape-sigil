@@ -1,8 +1,10 @@
 {
  "_source": {
   "2e": "For Gold & Glory (free 2e retroclone) — decided 2e RAW, MECHANUS.md §10",
-  "method": "80 (Hit Dice, THACO) pairs harvested from bestiary pp.301-384, 2026-06-05; brackets fit canonical 2e monster table with plus-bump",
-  "warrior_table": "FG&G p.27 Table 3.3 (THACO 21-level) — monsters advance on the bracket table below"
+  "method": "80 (Hit Dice, THACO) pairs harvested from bestiary pp.309-384, 2026-06-05; brackets fit canonical 2e monster table with plus-bump",
+  "warrior_table": "FG&G p.27 Table 3.3 (THACO 21-level) — monsters advance on the bracket table below",
+  "creature_table": "FG&G p.310 Table C.3 (Creature THACO) — brackets <=16 HD match row-for-row; p.309 prints the +3-hp bump (one Hit Die greater); p.310 carve-out: humans/demi-humans always use PC THACO values (bestiary demi-human entries print 1 HD -> 20)",
+  "note_17plus": "[17,99]->3 extends past Table C.3 (which ends '16+: 5') via the warrior table (p.27, L18 -> 3); in-range specimens deviate (titan 20->5, tarrasque 70->-5, both recorded below). Meme ratified keep-3, 2026-06-06 (correction docket ask d)."
  },
  "brackets": [
   [
@@ -57,12 +59,12 @@
   ]
  ],
  "plus_bump": {
-  "rule": "HD bonus of +3 or more counts as the next bracket",
-  "evidence": "6+3→13, 8+8→11, 4+3→15, 7+3→13 all observed"
+  "rule": "HD bonus of +3 or more counts as one Hit Die greater (may cross into the next bracket) — FG&G p.309, 'treated as a creature of one hit die greater... for purposes of THACO and saving throws'",
+  "evidence": "6+3→13, 8+8→11, 4+3→15, 7+3→13 all observed (7+3→13 proves next-die, not next-bracket)"
  },
  "_evidence": {
   "pairs": 80,
-  "fit_after_fraction_fix": "~94%",
+  "fit_after_fraction_fix": "~84% (68/81 single-value stat pairs, full pp.309-384 census 2026-06-06; demi-human entries excluded — printed PC-THACO carve-out p.310)",
   "outliers_recorded": [
    {
     "hd": "13",
@@ -88,6 +90,30 @@
     "hd": "3+3",
     "thaco": 15,
     "n": 1
+   },
+   {
+    "hd": "8+3",
+    "thaco": 13,
+    "n": 1,
+    "who": "vampire p.364 (saves print unbumped Fighter 8)"
+   },
+   {
+    "hd": "8",
+    "thaco": 12,
+    "n": 2,
+    "who": "air/earth elemental p.328"
+   },
+   {
+    "hd": "16",
+    "thaco": 7,
+    "n": 2,
+    "who": "air/earth elemental p.328"
+   },
+   {
+    "hd": "70",
+    "thaco": -5,
+    "n": 1,
+    "who": "tarrasque p.360"
    }
   ],
   "note": "harvest regex initially swallowed '1/2' as '1'; fractional-HD monsters are the <1 bracket (20). severity: soft — 2e prints deviate by author intent."

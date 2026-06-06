@@ -148,9 +148,16 @@ class Ledger:
         """Validate, content-address, and append a ruling. Returns the stamped docket."""
         validate_docket(docket)
         d = dict(docket)
+        # kind defaults BEFORE the content-address (correction docket C5,
+        # 2026-06-06): hashing before setdefault made kind-less dockets
+        # non-reproducible from their stored rows. Pre-fix rows
+        # (rul:vnv:akin-mr-vs-spell-like:{001,002}) recompute with kind
+        # removed; verifiers accept either derivation for pre-fix rows —
+        # stored shas stay valid submission-time content-addresses, never
+        # rewritten or re-stamped.
+        d.setdefault("kind", "ruling")
         d["sha"] = _canonical_sha(d)
         d["ts"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        d.setdefault("kind", "ruling")
         d["law_version"] = tables.law_version()
 
         self._acquire()

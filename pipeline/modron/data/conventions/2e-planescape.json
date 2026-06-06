@@ -16,7 +16,7 @@
         "Natural 20 always fails AND sparks a wild surge regardless of terrain (reflow p72/book p68) — reported as fumble.",
         "Wild-magic school riders (reflow p72/book p68): on a SUCCESSFUL wild-magic cast roll level variation (Tome of Magic table — not in corpus); in the soup roll level variation TWICE and apply the more extreme (tie: 1d6 picks); wild magic cast in the soup always sparks a surge even on success.",
         "Priest spells are not subject to this test (reflow p68/book p64).",
-        "Outcome matrix identity: lkp:2e:limbo:spellcasting-outcomes (TABLE V). Law lane: pending Mechanus M1 mint (law:planar-conditions:limbo:*)."
+        "Outcome matrix identity: lkp:2e:limbo:spellcasting-outcomes (TABLE V). Law lane: Mechanus law:planar-conditions:limbo — school sub-ids (e.g. law:planar-conditions:limbo:divination) are synthesized by the accessor per the family _id_scheme. Ref upgraded from pending-M1 by audit court-mechanus, 2026-06-06."
       ]
     },
     "limbo_alteration": {
@@ -43,7 +43,8 @@
       "notes": [
         "Miniflux upkeep check (Planes of Chaos TSR 2603, reflow p70/book p66): when a character reaches for an item unused for some time, the DM may call a Wisdom check — roll-under. Pass params {score: Wis}.",
         "Failure: the item has drifted — dissolved or become something else (DM adjudicates). Worn clothes and constantly-handled possessions are maintained automatically by self-image.",
-        "Even stable regions of Limbo are subject to miniflux."
+        "Even stable regions of Limbo are subject to miniflux.",
+        "Law lane: Mechanus law:plane-environment:limbo:miniflux (ref added by audit court-mechanus, 2026-06-06)."
       ]
     },
     "wind_madness": {
@@ -57,7 +58,7 @@
         "Stage 2 despair: automatically surprised in combat; once able to act, +1 to attack and damage (modifier wind-madness-despair).",
         "Stage 3 hysteria: on the failed save the sod runs amok for minutes equal to the margin of failure (target - total), then collapses helpless — no fighting or casting; in shelter behaves as stage 2.",
         "Stage 4 resignation: a personal quirk/phobia/mania — roleplay, no fixed dice.",
-        "No permanent cure short of wish; symptoms remit off-plane and revert in full on return. Law lane: pending Mechanus M5 mint (law:plane-env:pandemonium:madness)."
+        "No permanent cure short of wish; symptoms remit off-plane and revert in full on return. Law lane: Mechanus law:plane-environment:pandemonium:wind-madness (ref upgraded from pending-M5 by audit court-mechanus, 2026-06-06). Stage-4 quirk menu: lkp:2e:pandemonium:everymans-madness."
       ]
     },
     "styx_memory": {
@@ -68,7 +69,8 @@
         "River Styx ingestion save, Pandemonium headwaters (Planes of Chaos TSR 2603, reflow p87/book p83): swallowing Styx water calls a save vs. spell. Save targets are law: Mechanus/caller supplies {target}.",
         "Failure: the past life is forgotten entirely and permanently — spells, class abilities, alignment included.",
         "SUCCESS STILL COSTS: the entire past day is forgotten.",
-        "In Pandemonium specifically, merely touching the water has no effect (deeper planes differ — their rows arrive with their books)."
+        "In Pandemonium specifically, merely touching the water has no effect (deeper planes differ — their rows arrive with their books).",
+        "Law lane: Mechanus law:plane-environment:lower-planes:styx-memory (ref added by audit court-mechanus, 2026-06-06)."
       ]
     },
     "wasting_contraction": {
@@ -80,7 +82,7 @@
         "The Wasting — contraction check, Oinos surface, the Gray Waste (Planes of Conflict Liber Malevolentiae, TSR 2615, reflow p53/book p51): 10% chance per day spent walking the layer's surface.",
         "Progression is diceless: drains 1 point EACH from Str, Con, Dex, and Cha per day; death only when all four reach 0; cure disease ends it.",
         "Realm exception: Abbathor's Glitterhell admits no disease (reflow p53).",
-        "Law lane: pending Mechanus M5 mint (law:plane-env:gray-waste:wasting). Hope-drain carries no stated dice in the witness — prose color, Mimir's lane."
+        "Law lane: Mechanus law:plane-environment:the-gray-waste:wasting-sickness (ref upgraded from pending-M5 by audit court-mechanus, 2026-06-06). Hope-drain carries no stated dice in the witness — prose color, Mimir's lane."
       ]
     }
   },

@@ -146,8 +146,9 @@ REALM_CARDS = [
     ("Cavern of Azuth", "Azuth", "plane:arcadia", "layer:buxenus",
      "planes-of-law/ddps-planesoflaw-iii", "planes-of-law", ["azuth's cavern"], [],
      "realm of Toril's god of mages"),
-    ("Ankhwugaht", "Set", "plane:baator", "layer:stygia",
-     "planes-of-law/ddps-planesoflaw-iv", "planes-of-law", [], [], "Set's desert of snow and ice"),
+    ("Ankhwugaht", "Set", "plane:baator", "layer:stygia",  # Great Audit card fix (Meme ADOPTED 2026-06-06)
+     "planes-of-law/ddps-planesoflaw-iv", "planes-of-law", [], [],
+     "Set's hot midnight desert amid Stygia's snow and ice"),
     ("Sheyruushk", "Sekolah", "plane:baator", "layer:stygia",
      "planes-of-law/ddps-planesoflaw-iv", "planes-of-law", [], [], "the sahuagin shark-god's hunting waters"),
     ("Draukari", "Kurtulmak", "plane:baator", "layer:avernus",
@@ -163,9 +164,11 @@ REALM_CARDS = [
     ("Erackinor", "Moradin", "plane:mount-celestia", "layer:solania",
      "planes-of-law/ddps-planesoflaw-vi", "planes-of-law", [], [],
      "the Soul Forges of the dwarf-father (with Berronar)"),
-    ("The Glass Tarn", "Mitra", "plane:mount-celestia", "layer:mercuria",
-     "planes-of-law/ddps-planesoflaw-vi", "planes-of-law", ["glass tarn"], [],
-     "shared by Mitra and Surya of the Vedic pantheon"),
+    # Great Audit (Meme 2026-06-06): the realm is GOLDFIRE (p-vi 'GOLDfIRE (Realm)');
+    # the Glass Tarn is a separate (Site) on Mercuria with no power.
+    ("Goldfire", "Mitra", "plane:mount-celestia", "layer:mercuria",
+     "planes-of-law/ddps-planesoflaw-vi", "planes-of-law", [], [],
+     "sun realm ruled by Mitra and Surya (LL); the Glass Tarn is a separate Site"),
     # — Planes of Chaos (Travelogue) —
     ("Azzagrat", "Graz'zt", "plane:the-abyss", None,
      "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], [],
@@ -204,21 +207,27 @@ REALM_CARDS = [
      "the slaadi's eternal spawning ground — ruled by the slaad lords Ssendam and Ygorl, not a power"),
     ("Winter's Hall", "Loki", "plane:pandemonium", "layer:pandesmos",
      "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], [], None),
-    ("The Unseelie Court", "The Queen of Air and Darkness", "plane:pandemonium", None,
+    # Great Audit (Meme 2026-06-06): p104 'Deep within Phlegethon… an immense cavern' —
+    # a fixed cavern center, not a wandering court.
+    ("The Unseelie Court", "The Queen of Air and Darkness", "plane:pandemonium",
+     "layer:phlegethon",
      "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", ["unseelie court"],
-     ["queen of air"], "a wandering court of fallen faerie"),
+     ["queen of air"], "the faerie Queen's court, centered in an immense cavern deep within Phlegethon"),
     ("Asgard", "Odin", "plane:ysgard", "layer:ysgard",
      "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], [],
      "hall-realm of the Norse pantheon"),
-    ("Alfheim", "Freya", "plane:ysgard", "layer:ysgard",
-     "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], [], "the elf-home of the Norse"),
+    ("Alfheim", "Freya", "plane:ysgard", "layer:ysgard",  # Great Audit card fix (Meme ADOPTED 2026-06-06)
+     "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], [],
+     "the elf-home of the Norse; co-ruled with Frey (p113 pairs them; printed POWER line shredded)"),
     ("Himinborg", "Heimdall", "plane:ysgard", "layer:ysgard",
      "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], [],
      "the watchtower at Bifrost's foot"),
-    ("Jotunheim", "Thrym", "plane:ysgard", "layer:ysgard",
-     "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], [], "the giants' realm"),
-    ("Gates of the Moon", "Selune", "plane:ysgard", "layer:ysgard",
-     "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], ["selune", "selûne"], None),
+    ("Jotunheim", "Thrym", "plane:ysgard", "layer:ysgard",  # Great Audit card fix (Meme ADOPTED 2026-06-06)
+     "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], [],
+     "the giants' realm; co-ruled with Surtr, who rules from Meerrauk (p119, equal billing)"),
+    ("Gates of the Moon", "Selune", "plane:ysgard", "layer:ysgard",  # Great Audit card fix (Meme ADOPTED 2026-06-06)
+     "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], ["selune", "selûne"],
+     "co-ruled with Soma (LL) — p111: both rule the realm"),
     ("Merratet", "Bast", "plane:ysgard", "layer:ysgard",
      "planes-of-chaos/tsr2603-planes-of-chaos", "planes-of-chaos", [], [], "the cat goddess's pleasure-realm"),
     ("Vanaheim", "The Vanir", "plane:ysgard", "layer:ysgard",
@@ -231,15 +240,18 @@ REALM_CARDS = [
     ("Ursis", "Balador", "plane:the-beastlands", "layer:brux",
      "planes-of-conflict/planes-of-conflict-2615-01-liber-benevolentiae", "planes-of-conflict",
      [], [], "Father Bear's realm"),
-    ("Noctos' Domain", "Noctos", "plane:the-beastlands", None,
-     "planes-of-conflict/planes-of-conflict-2615-01-liber-benevolentiae", "planes-of-conflict",
-     ["noctos"], [], "the owl power's night demesne"),
+    # REMOVED (Great Audit, Meme 2026-06-06): "Karasuthra, Noctos' Domain" is the layer
+    # EPITHET (cf. "Brux, the Land of Twilight Eternal"); Noctos is the plane's MOON
+    # (p12, p28), not a power with a realm. Neither node is minted.
     ("Stormhold", "Stronmaus", "plane:the-beastlands", None,
      "planes-of-conflict/planes-of-conflict-2615-01-liber-benevolentiae", "planes-of-conflict",
      [], [], "the giants' sky-father storms here"),
-    ("Centerspire", "Tefnut", "plane:bytopia", None,
+    # Great Audit (Meme 2026-06-06): the realm is WINDWRATH atop a Shurrock peak
+    # (2615-01 p46 'WINDWRA+H (Realm) … POWER. An intermediate power, Tefnut (LL)';
+    # the TOC nests it under Shurrock). CenterSpire itself is a (Site), not a realm.
+    ("Windwrath", "Tefnut", "plane:bytopia", "layer:shurrock",
      "planes-of-conflict/planes-of-conflict-2615-01-liber-benevolentiae", "planes-of-conflict",
-     [], [], "the mountain between Bytopia's facing layers"),
+     [], [], "Tefnut's storm-realm atop a Shurrock peak; CenterSpire is a Site, not the realm"),
     ("Stillsong", None, "plane:elysium", None,
      "planes-of-conflict/planes-of-conflict-2615-01-liber-benevolentiae", "planes-of-conflict",
      [], [], "'one of the few great mysteries of the plane' — a realm that is a song; no power named"),
@@ -298,10 +310,13 @@ def load_component(build_root, component):
 
 def _name_rx(name):
     """Word-boundary, case-insensitive — EXCEPT short common-word names ('Dis',
-    'Ossa'): case-sensitive exact word so prose 'dis' never counts."""
+    'Ossa'): case-sensitive exact word so prose 'dis' never counts. Multi-word
+    names join whitespace-TOLERANTLY (\\s+) so a reflow line wrap still attests
+    ('Blood\\nTor' — the Great Audit's Blood Tor recovery, Meme-adopted 2026-06-06)."""
+    pat = r"\s+".join(re.escape(w) for w in name.split())
     if len(name) <= 4:
-        return re.compile(rf"\b{re.escape(name)}\b")
-    return re.compile(rf"\b{re.escape(name)}\b", re.IGNORECASE)
+        return re.compile(rf"\b{pat}\b")
+    return re.compile(rf"\b{pat}\b", re.IGNORECASE)
 
 
 def attest_card(card, pages):

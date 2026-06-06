@@ -78,3 +78,29 @@ def test_success_pool_pmf():
 def test_mean_of_door():
     assert mean_of("2d8+5") == Fraction(14)
     assert mean_of("not dice") is None
+
+
+def test_cs_with_clamp_counts_naturals():
+    """audit F-1-design-docs-04 (ANALYSIS-WRONG): cs/cf reads kept NATURALS,
+    not post-clamp values — 4d6min3cs>=3 is binomial(4, 4/6) on naturals,
+    never the constant 4 that value-counting produced."""
+    from fractions import Fraction
+    from math import comb
+    from modron.analysis import pmf
+    from modron.grammar import parse
+    p, _ = pmf(parse("4d6min3cs>=3"))
+    want = {k: Fraction(comb(4, k)) * Fraction(4, 6) ** k * Fraction(2, 6) ** (4 - k)
+            for k in range(5)}
+    assert p == want
+
+
+def test_cs_reroll_still_engine_true():
+    """cs on a rerolled die counts the STANDING face: 1d6ro<=2cs>=5 succeeds
+    with P = 5/18 + 1/9 + ... — pin against the closed form."""
+    from fractions import Fraction
+    from modron.analysis import pmf
+    from modron.grammar import parse
+    p, _ = pmf(parse("1d6ro<=2cs>=5"))
+    # standing face after one reroll-on-<=2: P(face>=5) = 2/6 + (2/6 * 2/6)
+    hit = Fraction(2, 6) + Fraction(2, 6) * Fraction(2, 6)
+    assert p[1] == hit and p[0] == 1 - hit

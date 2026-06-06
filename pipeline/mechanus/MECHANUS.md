@@ -2,8 +2,8 @@
 
 > **Build status:** mechanical core + rulings ledger + MCP server v0 live at
 > `pipeline/mechanus/` (stores at `build/mechanus/`, Modron's convention).
-> 120 tests + 20-check stdio smoke, all green. Law data page-cited, content-
-> addressed (`law_version a15604342754bf34` — changes whenever law data does).
+> 121 tests + 20-check stdio smoke, all green. Law data page-cited, content-
+> addressed (`law_version 0d05d408b20e7314` — changes whenever law data does).
 > Store-backed tools parked NOT_POURED until Mimir's handbook.db lands (§9
 > steps 1–4). **2026-06-06: the §M planar-law pack landed** (§3a — the
 > rule-effect handoff accepted; 199 law ids across 7 families, served live by
@@ -321,19 +321,22 @@ principle, applied to conversion.)
 | `resolve(action, context, view)` | governing rules → ordered procedure, each step cited; marks exactly where DM discretion enters |
 | `delta(identity, from_view, to_view)` | diff two aspects of one identity (rule, spell, creature — same machinery) |
 | `apply_influence(creature, plane, view)` | applies a Mimir-stored `planar-influence` template (REVIEW-5E §F.2) → influenced variant; a template-view on the same primitives — dockets and proposes back like any derivation |
-| `dc_suggest(task, view)` / `encounter_budget(party[], difficulty, view)` | mechanical core; budget math per §3 licensing reality |
+| `dc_suggest(difficulty?, view)` / `encounter_budget(party[], difficulty, view)` | mechanical core; budget math per §3 licensing reality |
 | `planar_law(law_id? \| plane? \| family?)` | the §3a planar-law pack — per-plane conditions/keys/seals/priest/environment/spell/Cage rows, page-cited paraphrase, law_version-stamped; the resolver behind Mimir `exhibits` edges and Modron `{kind: mechanus, ref}` sources |
 | `is_lawful(entity)` | **gate-facing** (ARCHITECTURE.md §3): the REVIEW-5E §A derivable pack per edition — `PB == ceil(CR/4)+1`, mods, passive Perception, HP-from-dice, skill = mod+PB… Mimir's L3 consistency channel, served from one place |
 | *dice* | **Modron's** (§1a) — Mechanus consumes roll IDs, never rolls |
 | `precedents(topic, scope?)` / `house_rules(scope?)` | ledger reads |
+| `ruling_chain(ruling_id)` | a ruling's full `supersedes` chain, oldest first, plus the head docket — ledger read |
+| `law_info()` | `law_version` (content-address of every law table) + per-table source citations + known deviations |
+| `usage_stats()` | tool-call counts for this server |
 | `attribution()` | the CC-BY-4.0 block any published artifact must carry |
 
 **Arbitrate & convert (the slow path):**
 | tool | does |
 |---|---|
-| `arbitrate(question, context, view)` | §6 ladder → docket; does **not** write |
+| `arbitrate(question, context, view)` | §6 ladder → docket; does **not** write — **not yet served** (§9 step 8 'next': neither live nor parked on the server) |
 | `convert(entity_id, to_view)` | §5 engine explicitly → full docket + derived manifestation; queues the gate propose-back |
-| `record_ruling(docket, scope)` / `overrule(ruling_id, new_docket)` | the only ledger writes — guarded, locked, SHA-unique |
+| `record_ruling(docket)` / `overrule(ruling_id, new_docket)` | the only ledger writes — guarded, locked, SHA-unique (scope is a docket field) |
 | `answer_key(type?)` | calibration pairs + current conversion accuracy by field class (the engine grades itself in public) |
 
 Server skeleton mirrors `knowledge-mcp/server.py` (list_tools/call_tool dispatch,
@@ -410,6 +413,7 @@ usage counter, lock discipline on the one writable store).
 | 2026-06-06 | rule-effect handoff §M (M1–M8) | **accepted; poured as §3a** — 7 law families, 199 ids, `planar_law` live; **M7 parked** (joint pour with 2634's entity pour, id family reserved) | Mimir's lane ruling honored: identity/pointers stay hers, governing law lands here, dice deltas stay Modron's (§D). Q1 answered: id scheme reuses Mimir's plane slugs so `exhibits` edges suffix-join; school/key sub-ids give fine grain. `law_version` moved `018b2eed42e9afe7` → `a15604342754bf34`. |
 | 2026-06-06 | cite-only enforcement for official-scan law | **paraphrase law is now machine-checked** — `test_no_verbatim_leak` shingles every row (10 tokens, normalized) against its own witnessed reflow pages | "licensing enforced in code, not vibes" extended to authored law tables; 25 draft rows were caught and reworded before landing. Mechanical facts (names, dice, numbers) survive normalization as short runs; prose copying cannot. |
 | 2026-06-06 | the D2 modifier seam (handoff Q3) | **confirmed, Mechanus side** — Modron rows cite `source {kind: mechanus, ref: <law_id>}`; `planar_law(law_id)` resolves any such ref | the asserter chain is verifiable end-to-end: a school-alteration delta in Modron names the M1 row it implements; her acceptance of D1–D9 belongs in MODRON.md (her doc, her lane). |
+| 2026-06-06 | the Mechanus Assize (workflow audit) + correction docket APPLIED | **349 units + 1 bonus audited** (every law row witness-verified against its pages; code-as-law vs RAW; 6 dockets; seams; docs) — 47 findings, 38 confirmed/9 refuted, all refute-verified by full live panels. Lanes A–D applied 2026-06-06: `law_version` moved `a15604342754bf34` → `0d05d408b20e7314` (thac0 plus-bump rule text now matches FG&G p.309 next-DIE law; fit disclosure completed ~84%; Stygia year-loss tooth; Arcadia second intent-failure; surelock de-ranked; Well of Worlds = TSR 2604; witness corrections ×7; ledger.py kind-before-sha + pinned test = 121). Meme ratified keep-3 for the 17+ bracket (Table 3.3 L18→3; C.3 ceiling + specimens disclosed in `_source.note_17plus`). Lane E (11 sibling re-binds) handed off at `build/family/mechanus-audit-lane-e.md` — never applied cross-lane. | `build/mechanus/review/` holds the full record: correction-docket.{md,json}, run-summary.md (350-row coverage), integrity-report.json, PLAN.md. Audit law adopted: known-intentional.json (the don't-flag list) + tools/integrity.py as the standing post-pour gate. Old rulings keep their historical stamps — the stamp is the point. |
 | 2026-06-05 | conversion fusion design | **`CONVERSION.md` adopted** (Meme: official guide as guiding stone; build from the gist + O5R heavy lifting; "we aren't tied to anything being exact") | Three rungs over one action-by-action pipeline (card / quick-official / restate); 16 convert/ law tables, candidates[]-with-adopted, `conversion_law_version` axis; fit-on-FG&G-pairs / test-on-PAitM; derived blocks get no waivers; THAC0 never translated (verified at intake, rebuilt from PB+ability). Sources poured: gist + O5R → `content/fan/web-supplements/conversion-guides/` (SOURCES.md provenance). Build order in CONVERSION.md §5; un-parks `convert` at step 7. |
 
 ## 11. Open questions (for Meme)

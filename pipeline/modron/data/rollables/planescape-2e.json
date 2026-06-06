@@ -44,7 +44,7 @@
     "used_at": ["plane:limbo"],
     "source": { "product": "Planes of Chaos (TSR 2603)", "page": "reflow p72 / book p68", "cite_only": true },
     "spec": { "purpose": "save", "check": { "kind": "save", "params": {} }, "label": "divination portent reading (save vs. paralyzation)", "needs": ["target (save matrices are law — Mechanus/caller supplies)"] },
-    "notes": "Cast divinations face the plane's tumult on top of the casting test: the caster saves vs. paralyzation; failure reads as chaos — no information gained. Pending Mechanus M1 mint (law:planar-conditions:limbo:divination)."
+    "notes": "Cast divinations face the plane's tumult on top of the casting test: the caster saves vs. paralyzation; failure reads as chaos — no information gained. Mechanus law: law:planar-conditions:limbo (the divination sub-id is synthesized per the family _id_scheme; ref upgraded from pending-M1 by audit court-mechanus, 2026-06-06)."
   },
   {
     "id": "spc:2e:limbo:illusion-becomes-real",
@@ -52,16 +52,15 @@
     "kind": "spec",
     "used_at": ["plane:limbo"],
     "source": { "product": "Planes of Chaos (TSR 2603)", "page": "reflow p72 / book p68", "cite_only": true },
-    "requires_confirmation": true,
     "spec": { "purpose": "percent", "check": { "kind": "percent", "params": { "pct": 10 } }, "label": "illusion becomes fully, permanently real (10%)" },
-    "notes": "Each Illusion/Phantasm cast on Limbo has a chance of the effect turning real for good. OCR reads the figure as 'IOOfo' — transcribed 10% (the digit-pair reading); requires_confirmation against the print before it matters at the table."
+    "notes": "Each Illusion/Phantasm cast on Limbo has a chance of the effect turning real for good. OCR 'IOOfo' adjudicated 10% (audit 2026-06-06, C-1-chaos-law-02): digit-pair I/O with Ofo-as-%, the 'a ... chance of' framing excludes 100, and Mechanus law:planar-conditions:limbo independently reads 10%."
   },
   {
     "id": "tbl:2e:sigil:slags-vortex-type",
     "label": "The Slags: vortex type (secret 1d4)",
     "kind": "table",
     "used_at": ["location:sigil:the-slags"],
-    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p120 / book p115", "cite_only": true },
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p120 / book p118", "cite_only": true },
     "table": {
       "name": "Slags vortex type",
       "dice": "1d4",
@@ -70,14 +69,14 @@
         { "roll": "4", "result": "object-vortex: teleports inanimate objects only; a creature touching the edge is hurled straight up 1d6 x 10 feet — falling damage applies (1d6 per 10 feet)" }
       ]
     },
-    "notes": "DM rolls in SECRET when the party spots a vortex. Both types look identical: a flat spiral of spinning red mist, 10-20 feet across, hovering ~3 feet up. Duration spec: spc:2e:sigil:slags-vortex-duration; hurl height table: tbl:2e:sigil:slags-vortex-hurl. Mimir's portal node carries this witness already."
+    "notes": "DM rolls in SECRET when the party spots a vortex. The two types are indistinguishable on sight (low-hovering red spiral, roughly 10-20 ft wide — see the witness page for the look). Duration spec: spc:2e:sigil:slags-vortex-duration; hurl height table: tbl:2e:sigil:slags-vortex-hurl. Mimir's portal node carries this witness already. [Reworded + book page corrected 115->118 per audit C-2-cage-01/-01-alt.]"
   },
   {
     "id": "spc:2e:sigil:slags-vortex-duration",
     "label": "Slags vortex duration (turns)",
     "kind": "spec",
     "used_at": ["location:sigil:the-slags"],
-    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p120 / book p115", "cite_only": true },
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p120 / book p118", "cite_only": true },
     "spec": { "purpose": "duration", "expr": "3d6", "label": "vortex lasts (turns)" }
   },
   {
@@ -85,7 +84,7 @@
     "label": "Slags object-vortex hurl (height + falling dice)",
     "kind": "table",
     "used_at": ["location:sigil:the-slags"],
-    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p120 / book p115", "cite_only": true },
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p120 / book p118", "cite_only": true },
     "table": {
       "name": "Slags vortex hurl height",
       "dice": "1d6",
@@ -250,6 +249,15 @@
     "notes": "Serious nonmagical cold-weather gear mitigates per the print's terms; deep regions bite THROUGH immunity (dmg:2e:inner:ice-deep-cold)."
   },
   {
+    "id": "dmg:2e:inner:ice-extreme-cold",
+    "label": "Paraelemental Ice, extreme-cold spots — nonmagical protection useless (per round)",
+    "kind": "spec",
+    "used_at": ["plane:ice"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p71", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "2d6", "label": "extreme-cold spot / round (nonmagical gear useless; geared travelers take double the base)" },
+    "notes": "The print's middle freezing tier between ambient exposure and the deep cold: spots where no amount of nonmagical protection helps and damage runs twice normal. [Minted per audit C-4-inner-b-05.]"
+  },
+  {
     "id": "dmg:2e:inner:ice-deep-cold",
     "label": "Paraelemental Ice, deep regions — cold that ignores immunity (per round)",
     "kind": "spec",
@@ -265,21 +273,24 @@
     "used_at": ["plane:magma"],
     "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p77", "cite_only": true },
     "rows": [
-      { "key": "AC 4 to 2", "expr": "4d8" },
-      { "key": "AC 1 to -1", "expr": "3d8" },
-      { "key": "AC -2 to -4", "expr": "2d8" },
-      { "key": "AC -5 to -7", "expr": "1d8" },
-      { "key": "AC -8 to -10", "expr": "none" }
+      { "key": "natural AC 10 to 8", "expr": "6d8" },
+      { "key": "natural AC 7 to 5", "expr": "5d8" },
+      { "key": "natural AC 4 to 2", "expr": "4d8" },
+      { "key": "natural AC 1 to -1", "expr": "3d8" },
+      { "key": "natural AC -2 to -4", "expr": "2d8" },
+      { "key": "natural AC -5 to -7", "expr": "1d8" },
+      { "key": "natural AC -8 to -10", "expr": "none" }
     ],
-    "notes": "Read the row by AC, then roll the expr with roll_damage. Riders on the same page: above the lava surface = half damage; a ring of fire protection or protection from fire caps it at a flat 10/round; unprotected nonvolcanic stone melts in 5 rounds (3d10 to anyone in close contact); nonmagical metal hits melting point in 4 rounds (4d4 to anyone in contact, heat metal limb effects); bursting steam clouds 2d10; flesh saves vs. magical fire at -1 where the print calls for it."
+    "notes": "The print keys this chart to NATURAL Armor Class (worn armor doesn't shield from ambient heat). Read the row by natural AC, then roll the expr with roll_damage. Riders on the same page: above the lava surface = half damage; a ring of fire protection or protection from fire caps it at a flat 10/round; unprotected nonvolcanic stone melts in 5 rounds (3d10 to anyone in close contact); nonmagical metal hits melting point in 4 rounds (4d4 to anyone in contact, heat metal limb effects); bursting steam clouds 2d10; flesh saves vs. magical fire at -1 where the print calls for it. [Two hottest bands (AC 10-8: 6d8; AC 7-5: 5d8) restored + natural-AC keying per audit C-4-inner-b-01/-02.]"
   },
   {
     "id": "dmg:2e:inner:scald-heat",
-    "label": "Scald (Magma/Air border) — heat (per round, no save)",
+    "label": "Scald (Smoke, toward the Fire border) — heat (per round, no save)",
     "kind": "spec",
-    "used_at": ["plane:magma", "plane:air"],
+    "used_at": ["plane:smoke"],
     "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p87", "cite_only": true },
-    "spec": { "purpose": "damage", "expr": "1d10", "label": "Scald region heat / round (no saving throw)" }
+    "spec": { "purpose": "damage", "expr": "1d10", "label": "Scald region (Smoke, Fire side) heat / round (no saving throw)" },
+    "notes": "The witness page is the SMOKE chapter: Scald is the region entered moving from Smoke's heart toward Elemental Fire, hot as Fire itself. [Relabeled from 'Magma/Air border' + used_at retargeted per audit C-4-inner-b-04; plane:smoke dangles until TSR 2634 pours.]"
   },
   {
     "id": "dmg:2e:inner:hoarfrost-cold",
@@ -302,7 +313,7 @@
     "label": "Acheron free-floating portal — uncontrolled landing",
     "kind": "spec",
     "used_at": ["plane:acheron"],
-    "source": { "product": "Planes of Law (TSR 2607), Acheron booklet", "page": "reflow p5", "cite_only": true },
+    "source": { "product": "Planes of Law (TSR 2607), Acheron booklet", "page": "reflow p4-5", "cite_only": true },
     "spec": { "purpose": "damage", "expr": "20d6", "label": "drawn to the nearest cube — landing impact" },
     "notes": "Free-floating portals hang at fixed points while cubes orbit; an arriving walker drifts to the nearest large block and lands hard. Flight negates. Cube COLLISIONS carry no dice in the witness — nearing cubes are seen a day or two out (prose; crush is absolute). D8 amended accordingly."
   },
@@ -336,5 +347,34 @@
     "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p21 / book p19", "cite_only": true },
     "spec": { "purpose": "damage", "expr": "1d10", "label": "shift attempt shock (each attempt)" },
     "notes": "Any plane-shift attempt (innate, magical, item) fires it. Rider: per point of shock damage, a cumulative 1% chance (within one entrapment) of being knocked unconscious — after rolling N total shock points, check percent <= N."
+  },
+  {
+    "id": "lkp:2e:pandemonium:everymans-madness",
+    "label": "Everyman's Madness — stage-4 wind-madness quirk menu (suggestions)",
+    "kind": "lookup",
+    "used_at": ["plane:pandemonium"],
+    "source": { "product": "Planes of Chaos (TSR 2603)", "page": "reflow p91 / book p87", "cite_only": true },
+    "rows": [
+      { "key": "Accident Prone" }, { "key": "Amnesia" }, { "key": "Animal Senses" },
+      { "key": "Backpack Vortex" }, { "key": "Barking" }, { "key": "Compulsive Liar" },
+      { "key": "Conspiracy Nut" }, { "key": "Contrariness" }, { "key": "Dancing Mania" },
+      { "key": "Delusion" }, { "key": "Fear of Blood" }, { "key": "Fear of Disease" },
+      { "key": "Fear of Heights" }, { "key": "Fear of Magic" }, { "key": "Fear of Noise" },
+      { "key": "Fear of the Undead" }, { "key": "Fear of Water" }, { "key": "Foreign Accent" },
+      { "key": "Forgetful" }, { "key": "Fussy" }, { "key": "Greedy" },
+      { "key": "Hallucinations" }, { "key": "Howling" }, { "key": "Hypochondriac" },
+      { "key": "Jaded" }, { "key": "Kleptomania" }, { "key": "Laughs Too Much" },
+      { "key": "Messiness" }, { "key": "Mistaken Identity" }, { "key": "Multiple Personality" },
+      { "key": "Mute" }, { "key": "Narcolepsy" }, { "key": "Neatness" },
+      { "key": "Nerves" }, { "key": "No Sense of Direction" }, { "key": "Nudist" },
+      { "key": "Obsessive" }, { "key": "Pacing" }, { "key": "Paranoia" },
+      { "key": "Permanent Cynicism" }, { "key": "Photomania" }, { "key": "Possessed" },
+      { "key": "Pyromania" }, { "key": "Quick Tempered" }, { "key": "Rabid Optimism" },
+      { "key": "Rabid Pessimism" }, { "key": "Racist" }, { "key": "Scratching" },
+      { "key": "Seizures" }, { "key": "Sharpening" }, { "key": "Shaving Mania" },
+      { "key": "Stunned" }, { "key": "Talker" }, { "key": "Verbal Tics" },
+      { "key": "Visions" }, { "key": "Xenophobia" }
+    ],
+    "notes": "Stage-4 wind-madness quirk menu — suggested forms, players pick or invent their own; no dice stated in the witness, so this is a diceless lookup (served, never rolled). Quirk NAMES only — the page's catchphrases are prose, cite-only. Wired from the 2e-planescape wind_madness kind; Mechanus row law:plane-environment:pandemonium:everymans-madness-table cites this id. [Minted per audit A-2-2e-planescape-05; 'Fear of Water' normalized from OCR 'Fear or Water'.]"
   }
 ]

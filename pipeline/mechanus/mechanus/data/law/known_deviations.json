@@ -47,7 +47,7 @@
   "blink-dog": "passive_perception keyed 10; print p.368 reads 13 (= 10 + printed Perception +3)",
   "black-bear": "Skills row dropped; print p.367 has 'Perception +3' (passive 13 then derives)",
   "swarm-of-ravens": "Skills row dropped; print p.391 has 'Perception +5' (passive 15 then derives)",
-  "half-red-dragon-veteran": "Skills rows dropped (same pattern; MM Athletics +5/Perception +2) \u2014 print verification pending",
+  "half-red-dragon-veteran": "Skills row dropped; print p.321 has 'Athletics +5, Perception +2' (passive 12 then derives)",
   "halved_xp": [
    "dretch",
    "riding-horse",

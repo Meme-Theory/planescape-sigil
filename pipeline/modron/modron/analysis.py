@@ -132,6 +132,89 @@ def _single_die_pmf(node: Dice) -> tuple[PMF, list[str]]:
     return pmf, notes
 
 
+def _single_die_joint(node: Dice) -> tuple[dict[tuple[int, int], Fraction], list[str]]:
+    """Joint (natural, value) distribution of ONE die — the engine's two axes:
+    cs/cf reads the post-reroll NATURAL, keep/drop ranks (and sums use) the
+    post-explode/post-clamp VALUE (audit F-1-design-docs-04: value-only
+    collapse made analysis disagree with the engine on clamp+count combos)."""
+    notes: list[str] = []
+    if node.sides == FUDGE:
+        raise Inexact("cs/cf on fudge dice (the engine refuses postfix ops there)")
+    n = int(node.sides)
+    faces = _die_faces(node.sides)
+    p1 = Fraction(1, n)
+
+    rerolls = [op for op in node.ops if op.kind == "reroll"]
+    explodes = [op for op in node.ops if op.kind == "explode"]
+    clamps = [op for op in node.ops if op.kind in ("min", "max")]
+
+    nat: PMF = {f: p1 for f in faces}
+    for op in rerolls:
+        matched = [f for f in faces if op.cmp.matches(f)]
+        if len(matched) == len(faces):
+            raise Inexact("reroll matches every face")
+        if op.once:
+            out_nat: PMF = {}
+            p_match = sum(nat.get(f, Fraction(0)) for f in matched)
+            for f in faces:
+                if f not in matched:
+                    out_nat[f] = out_nat.get(f, Fraction(0)) + nat.get(f, Fraction(0))
+                out_nat[f] = out_nat.get(f, Fraction(0)) + p_match * p1
+            nat = out_nat
+        else:
+            keepers = [f for f in faces if f not in matched]
+            nat = {f: Fraction(1, len(keepers)) for f in keepers}
+
+    joint: dict[tuple[int, int], Fraction] = {}
+    if explodes:
+        op = explodes[0]
+        cmp = op.cmp or Cmp("=", n)
+        trigger = [f for f in faces if cmp.matches(f)]
+        if len(trigger) == len(faces):
+            raise Inexact("explode matches every face")
+        for f0, p0 in nat.items():
+            if f0 not in trigger:
+                joint[(f0, f0)] = joint.get((f0, f0), Fraction(0)) + p0
+                continue
+            alive: PMF = {f0: p0}
+            depth = 0
+            while alive and depth <= 64:
+                nxt: PMF = {}
+                for acc, p_acc in alive.items():
+                    for f in faces:
+                        p = p_acc * p1
+                        if f in trigger:
+                            nxt[acc + f] = nxt.get(acc + f, Fraction(0)) + p
+                        else:
+                            key = (f0, acc + f)
+                            joint[key] = joint.get(key, Fraction(0)) + p
+                alive = nxt
+                depth += 1
+                if sum(alive.values(), Fraction(0)) < EXPLODE_EPS:
+                    for acc, p_acc in alive.items():
+                        joint[(f0, acc)] = joint.get((f0, acc), Fraction(0)) + p_acc
+                    notes.append("explode: chain truncated (residual < 1e-12) — exact-truncated")
+                    alive = {}
+            if alive:
+                for acc, p_acc in alive.items():
+                    joint[(f0, acc)] = joint.get((f0, acc), Fraction(0)) + p_acc
+                notes.append("explode: chain truncated at depth 64 — exact-truncated")
+    else:
+        joint = {(f, f): p for f, p in nat.items()}
+
+    if clamps:
+        out: dict[tuple[int, int], Fraction] = {}
+        for (f, v), p in joint.items():
+            for op in clamps:
+                if op.kind == "min":
+                    v = max(v, op.n)
+                else:
+                    v = min(v, op.n)
+            out[(f, v)] = out.get((f, v), Fraction(0)) + p
+        joint = out
+    return joint, notes
+
+
 def _group_pmf(node: Dice) -> tuple[PMF, list[str]]:
     """PMF of a whole dice group, including keep/drop and success counting."""
     die_pmf, notes = _single_die_pmf(node)
@@ -142,7 +225,50 @@ def _group_pmf(node: Dice) -> tuple[PMF, list[str]]:
         # plain sum — convolve count times (fast exponentiation by doubling)
         return _convolve_power(die_pmf, node.count), notes
 
-    # multiset enumeration: identical dice → order doesn't matter
+    if counts:
+        # engine-exact: rank/keep by VALUE, count successes on kept NATURALS
+        # — needs the joint per-die distribution and ORDERED enumeration (the
+        # engine's stable keep-sort breaks value ties by position)
+        from itertools import product as _product
+        joint, jnotes = _single_die_joint(node)
+        notes.extend(jnotes)
+        support = sorted(joint)
+        if len(support) ** node.count > MAX_MULTISETS:
+            raise Inexact(f"{len(support)}^{node.count} ordered joint tuples "
+                          "exceeds exact guard")
+        out: PMF = {}
+        for combo in _product(support, repeat=node.count):
+            w = Fraction(1)
+            for pair in combo:
+                w *= joint[pair]
+            dice = [{"nat": f, "val": v, "kept": True} for f, v in combo]
+            for op in keeps:
+                alive = [d for d in dice if d["kept"]]
+                ranked = sorted(alive, key=lambda d: d["val"])
+                k = min(op.n, len(alive))
+                if op.kind == "kh":
+                    doomed = ranked[:-k] if k else ranked
+                elif op.kind == "kl":
+                    doomed = ranked[k:]
+                elif op.kind == "dh":
+                    doomed = ranked[len(ranked) - k:]
+                else:
+                    doomed = ranked[:k]
+                for d in doomed:
+                    d["kept"] = False
+            total = 0
+            for d in dice:
+                if not d["kept"]:
+                    continue
+                for op in counts:
+                    if op.cmp.matches(d["nat"]):
+                        total += 1 if op.kind == "cs" else -1
+            if all(op.kind == "cf" for op in counts):
+                total = -total
+            out[total] = out.get(total, Fraction(0)) + w
+        return out, notes
+
+    # keep/drop only — multiset enumeration: identical dice → order doesn't matter
     support = sorted(die_pmf)
     n_multisets = math.comb(len(support) + node.count - 1, node.count)
     if n_multisets > MAX_MULTISETS:
@@ -170,15 +296,7 @@ def _group_pmf(node: Dice) -> tuple[PMF, list[str]]:
                 values = values[: len(values) - k]
             else:
                 values = values[k:]
-        if counts:
-            total = 0
-            for op in counts:
-                hits = sum(1 for v in values if op.cmp.matches(v))
-                total += hits if op.kind == "cs" else -hits
-            if all(op.kind == "cf" for op in counts):
-                total = -total
-        else:
-            total = sum(values)
+        total = sum(values)
         out[total] = out.get(total, Fraction(0)) + w
     return out, notes
 

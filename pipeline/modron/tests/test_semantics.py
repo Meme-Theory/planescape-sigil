@@ -65,10 +65,29 @@ def test_2e_morale_margin():
 
 
 def test_2e_reaction_bands():
+    """FG&G Table 10.7 is a 2D disposition matrix (audit A-1-2e-10): default
+    column = indifferent, disclosed."""
     r = roll_check("reaction", "2e", {"cha_mod": 0}, None, DiceStream(SEED, 9))
     assert r["outcome"]["band"] in ("friendly", "indifferent", "cautious",
-                                    "threatening", "hostile")
-    assert any("provisional" in n for n in r["notes"])
+                                    "threatening", "hostile", "flight")
+    assert r["outcome"]["disposition"] == "indifferent"
+    assert any("default column" in n for n in r["notes"])
+
+
+def test_2e_reaction_disposition_columns():
+    """audit A-1-2e-10: each party-disposition column reads its own bands;
+    a hostile party at low totals reads FLIGHT (FG&G p84, Table 10.7)."""
+    low = _scan_for("reaction", "2e", {"cha_mod": 0, "disposition": "hostile"},
+                    lambda r: r["total"] <= 5)
+    assert low["outcome"]["band"] == "flight"
+    assert low["outcome"]["disposition"] == "hostile"
+    friendly = _scan_for("reaction", "2e", {"cha_mod": 0, "disposition": "friendly"},
+                         lambda r: r["total"] <= 7)
+    assert friendly["outcome"]["band"] == "friendly"
+    unknown = roll_check("reaction", "2e", {"cha_mod": 0, "disposition": "confused"},
+                         None, DiceStream(SEED, 11))
+    assert "band" not in unknown["outcome"]
+    assert any("no band column" in n for n in unknown["notes"])
 
 
 def test_2e_surprise_means():

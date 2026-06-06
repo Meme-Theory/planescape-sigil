@@ -19,14 +19,14 @@
   {
    "law_id": "law:seals-wards:planar-wards",
    "planes": ["sigil"],
-   "rule": "Named in the Sigil portal law as one of the two magics that hold a portal closed. Mechanics are printed in Well of Worlds (TSR 2602) — outside the currently distilled corpus; this row is a pointer, not a spell writeup.",
+   "rule": "Named in the Sigil portal law as one of the two magics that hold a portal closed. Mechanics are printed in Well of Worlds (TSR 2604) — outside the currently distilled corpus; this row is a pointer, not a spell writeup.",
    "witness": [{"component": "ddps-inthecage", "reflow": [10], "printed": [8]}],
    "gap": "Well of Worlds not yet distilled under build/ — mechanics unpoured. When it lands, mint law:planar-spell:planar-ward and link here."
   },
   {
    "law_id": "law:seals-wards:surelock",
    "planes": ["sigil", "acheron"],
-   "rule": "The stronger of Sigil's two portal-sealing magics (Acheron's gate ward is described as a lesser version of it). Named in both witnesses; its own spell text is not in the currently distilled corpus.",
+   "rule": "One of Sigil's two portal-sealing magics, named beside planar wards (Acheron's gate ward is described as a lesser version of it). Named in both witnesses; its own spell text is not in the currently distilled corpus.",
    "witness": [
     {"component": "ddps-inthecage", "reflow": [10], "printed": [8]},
     {"component": "ddps-planesoflaw-ii", "reflow": [8], "printed": [7]}
@@ -43,7 +43,7 @@
    "law_id": "law:seals-wards:gate-seal",
    "planes": ["acheron"],
    "rule": "Acheron's greater seal (wizard Abjuration 3, reversible): as gate ward but 1 turn/level — and cast over a battlefield it makes all cubehopper spells fail within the battle area. Acheron doctrine: generals seal gates to prevent desertion; these spells are widespread there and little known elsewhere. Full block: law:planar-spell:gate-seal.",
-   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [8], "printed": [7]}]
+   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [7, 8], "printed": [6, 7]}]
   }
  ]
 }

@@ -108,9 +108,9 @@
   },
   {
    "law_id": "law:plane-environment:lower-planes:styx-memory",
-   "rule": "The River Styx strips memory along its whole length: a touch or taste forces a save vs. spell or the victim loses knowledge of his past life (even success forgets the past day) — the standard strength on most Lower Planes (Avernus, Nessus, Carceri, the Waste; on Gehenna the print adds loss of ABILITIES unless repelled by an effort of will). In STYGIA the river is at its most potent: the merest drop forces the save at -4 or the victim forgets everything he has ever learned, with a follow-on save vs. paralyzation to keep motor skills and speech. Even powerful magic recovers Styx-lost memories only half the time.",
+   "rule": "The River Styx strips memory along its whole length: a touch or taste forces a save vs. spell or the victim loses knowledge of his past life (even success forgets the past day) — the standard strength on most Lower Planes (Avernus, Nessus, Carceri, the Waste; on Gehenna the print adds loss of ABILITIES unless repelled by an effort of will). In STYGIA the river is at its most potent: the merest drop forces the save at -4 or the victim forgets everything he has ever learned, with a follow-on save vs. paralyzation to keep motor skills and speech; even a successful save there still costs the victim the past year. Even powerful magic recovers Styx-lost memories only half the time.",
    "witness": [
-    {"component": "ddps-planesoflaw-iv", "reflow": [8], "printed": [7]},
+    {"component": "ddps-planesoflaw-iv", "reflow": [7], "printed": [6]},
     {"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [29, 11, 47], "printed": [27, 9, 45]}
    ],
    "sweep": true

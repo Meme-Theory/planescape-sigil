@@ -1,6 +1,6 @@
 from modron.conventions import get_pack
 from modron.rollables import (avg_crosscheck, encounter_plan, hp_range_crosscheck,
-                              parse_hd, prose_sweep, range_to_dice,
+                              parse_class_hp, parse_hd, prose_sweep, range_to_dice,
                               resolve_table_roll, statblock_2e, statblock_5e,
                               text_to_expr, validate_table)
 
@@ -32,8 +32,10 @@ def test_parse_hd_forms():
     assert parse_hd("12+24", PACK_2E)["expr"] == "12d8+24"
     assert parse_hd("8", PACK_2E)["expr"] == "8d8"
     assert parse_hd("1-1", PACK_2E)["expr"] == "1d8-1"
-    assert parse_hd("1/2", PACK_2E)["expr"] == "1d4"
+    assert parse_hd("1/2", PACK_2E)["expr"] == "2d2"   # FG&G printed 283 (audit court-fgg)
     assert parse_hd("variable", PACK_2E) is None
+    explicit = parse_hd("9d4+23", PACK_2E)             # audit G-2-npc-a-05
+    assert explicit["expr"] == "9d4+23" and "explicit" in explicit["note"]
 
 
 def test_crosschecks_honest():
@@ -148,7 +150,7 @@ def test_class_hp_and_hd_tripwires():
     f9 = parse_class_hp("F9", "9")
     assert f9["expr"] == "9d10" and f9["con_allowance"] == 36   # warrior: up to +4/die
     m12 = parse_class_hp("M12", None)
-    assert m12["expr"] == "9d4+3"                                # post-name-level flat adds
+    assert m12["expr"] == "10d4+2"     # wizards gain dice to 10 (FG&G p20; audit court-fgg)
     assert parse_class_hp("O-level", None)["expr"] == "1d6"
     assert parse_class_hp(None, "9") is None
     fused = parse_hd("740", PACK_2E)                             # OCR ate '+': 7+10 → 740
@@ -230,3 +232,99 @@ def test_encounter_initiative_sides_override():
     assert plan[0]["check"]["params"] == {"mod": 1}
     both = encounter_plan({"steps": ["initiative"]}, PACK_2E, "2e")
     assert [p["side"] for p in both] == ["party", "monsters"]
+
+
+# ---------------------------------------------------------------------------
+# Audit round 2 regressions (correction-docket 2026-06-06, lane L4)
+# ---------------------------------------------------------------------------
+
+BURAQ_FLAT = {
+    "type": "creature", "name": "Buraq", "edition": "2e",
+    "thac0": "13", "hit_dice": "7+7", "damage_attack": "1d4/1d4",
+    "no_of_attacks": "2", "magic_resistance": "30%", "morale": "elite (14)",
+    "armor_class": "2",
+}
+
+
+def test_mc_flat_creature_compiles_fully():
+    """audit G-1-creatures-01: MC flat fields alias into statblock shape —
+    THAC0/damage/MR/morale/HD must all compile, never the 1-spec ghost."""
+    specs = statblock_2e(BURAQ_FLAT, PACK_2E)
+    keys = {s["key"] for s in specs}
+    assert "attack" in keys and "hp" in keys and "morale" in keys \
+        and "magic_resistance" in keys
+    hp = next(s for s in specs if s["key"] == "hp")
+    assert hp["expr"] == "7d8+7"
+    atk = next(s for s in specs if s["key"] == "attack")
+    assert atk["check"]["params"]["thac0"] == 13
+    # provenance keeps the FLAT field names (the envelope's truth)
+    assert atk["provenance"]["field"] == "thac0"
+    assert hp["provenance"]["field"] == "descriptor.level_hd" or \
+        hp["provenance"]["raw"] == "7+7"
+    dmg = [s for s in specs if s["purpose"] == "damage"]
+    assert len(dmg) == 2
+    # nested statblock still wins when present (npc shape untouched)
+    nested = statblock_2e(AKIN_MIN, PACK_2E)
+    assert next(s for s in nested if s["key"] == "attack")["provenance"]["field"] \
+        == "statblock.thac0"
+
+
+def test_class_hp_specialist_illusionist_never_monster_d8():
+    """audit G-5-clean-sample-01: 'Ill 12' is a specialist wizard — d4 group,
+    dice cap 10 — never 12d8 monster dice."""
+    ill = parse_class_hp("Ill 12", "12")
+    assert ill is not None and ill["expr"] == "10d4+2"
+    kesto = {"name": "Kesto", "descriptor": {"char_class": "Ill 12", "level_hd": "12"},
+             "statblock": {"hp": "27"}}
+    hp = next(s for s in statblock_2e(kesto, PACK_2E) if s["key"] == "hp")
+    assert hp["expr"] == "10d4+2"
+
+
+def test_class_hp_per_class_dice_caps():
+    """audit court-fgg _provisional:class-hd: rogues/wizards gain dice to 10."""
+    assert parse_class_hp("T10", None)["expr"] == "10d6"
+    assert parse_class_hp("T11", None)["expr"] == "10d6+2"
+    assert parse_class_hp("M10", None)["expr"] == "10d4"
+    assert parse_class_hp("F10", None)["expr"] == "9d10+3"
+    assert parse_class_hp("C10", None)["expr"] == "9d8+2"
+
+
+def test_multiclass_never_silent():
+    """audit G-2-npc-a-09: 'F7,M4' must not silently degrade to monster d8s."""
+    djhek = {"name": "Djhek", "descriptor": {"char_class": "F7,M4", "level_hd": "7"},
+             "statblock": {"hp": "39"}}
+    hp = next(s for s in statblock_2e(djhek, PACK_2E) if s["key"] == "hp")
+    assert hp.get("requires_confirmation") is True
+    assert "component class HD: 7d10, 4d4" in hp["note"]
+    assert "SUSPECT" in hp["note"]
+
+
+def test_zero_level_digit_door():
+    """audit G-4-hp-roster-06: '0-level' (digit zero) == 'O-level' (letter O)."""
+    o = parse_class_hp("O-level", None)
+    z = parse_class_hp("0-level", None)
+    assert o and z and o["expr"] == z["expr"] == "1d6"
+    assert "per-profession" in z["note"]
+
+
+def test_morale_band_name_visible_not_silent():
+    """audit G-2-npc-a-13: a printed morale with no parseable rating emits a
+    VISIBLE flagged spec, never silence."""
+    kylie = {"name": "Kylie", "statblock": {"morale": "champion"}}
+    specs = statblock_2e(kylie, PACK_2E)
+    m = next(s for s in specs if s["key"] == "morale")
+    assert m["purpose"] == "info" and m["requires_confirmation"] is True
+    assert m["raw_morale"] == "champion"
+
+
+def test_prose_sweep_stat_array_guard():
+    """audit G-2/G-3 (seven denied specs): ' D 13' inside a 2e ability array
+    must not parse as 1d13."""
+    npc = {"name": "Adamok", "sections": {
+        "SOURCE": "Uncaged page. S 16, D 13, C 16, I 15, W 14, Ch 8. More prose.",
+        "TACTICS": "Her blade deals 2d6 damage in melee.",
+    }}
+    specs = prose_sweep(npc)
+    exprs = [s.get("expr") for s in specs if s.get("expr")]
+    assert "1d13" not in exprs and "1d15" not in exprs and "1d16" not in exprs
+    assert "2d6" in exprs       # real prose dice still sweep (flagged)

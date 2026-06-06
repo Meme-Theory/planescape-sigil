@@ -140,53 +140,75 @@ def hp_range_crosscheck(printed_hp: int, expr: str) -> dict:
 # 2e statblock compiler (shape: the v2 extraction envelopes, e.g. a-kin.json)
 # ---------------------------------------------------------------------------
 
-# 2e class hit dice (FG&G pending pour — provisional, like the fractional map):
-# warriors d10 (+3/level past 9), priests d8 (+2), rogues d6 (+2), wizards d4 (+1).
+# 2e class hit dice — FG&G class-advancement tables (fgg-text p0027/p0030/p0032/
+# p0034, printed 17/20/22/24): warriors d10 to LEVEL 9 then +3/level; priests d8
+# to 9 then +2; rogues d6 to LEVEL 10 then +2; wizards d4 to LEVEL 10 then +1.
+# Per-class dice caps + the specialist code per audit court-fgg
+# _provisional:class-hd + G-5-clean-sample-01 (2026-06-06).
 _CLASS_HD = {
-    "F": (10, 3), "PA": (10, 3), "RA": (10, 3),         # warrior group
-    "C": (8, 2), "P": (8, 2), "D": (8, 2),              # priest group
-    "T": (6, 2), "B": (6, 2),                            # rogue group
-    "M": (4, 1), "W": (4, 1), "MA": (4, 1),              # wizard group
+    "F": (10, 3, 9), "PA": (10, 3, 9), "RA": (10, 3, 9),    # warrior group
+    "C": (8, 2, 9), "P": (8, 2, 9), "D": (8, 2, 9),         # priest group
+    "T": (6, 2, 10), "B": (6, 2, 10),                        # rogue group
+    "M": (4, 1, 10), "W": (4, 1, 10), "MA": (4, 1, 10),      # wizard group
+    "ILL": (4, 1, 10),                                       # specialist wizard
 }
-_CLASS_CODE_RE = re.compile(r"^([A-Za-z]{1,2})\s*(\d{1,2})$")
+_CLASS_CODE_RE = re.compile(r"^([A-Za-z]{1,3})\s*(\d{1,2})$")
 
 
 def parse_class_hp(char_class: str | None, level_hd: str | None) -> dict | None:
     """Class-leveled 2e characters roll CLASS hit dice, not monster d8
     (family-integration catch G4: Tarholt F9 = 9d10+Con, not 9d8).
 
-    'F9' -> 9d10 (levels ≤ 9); 'M12' -> 9d4+3 (post-name-level flat adds).
+    'F9' -> 9d10; 'M12' -> 10d4+2 (wizards/rogues gain dice to level 10 —
+    FG&G class tables; audit court-fgg 2026-06-06).
     Con bonus is NOT included (unknown) — the range crosscheck allows it.
     """
     code = (char_class or "").strip()
     m = _CLASS_CODE_RE.match(code)
-    if not m and code.upper().startswith("O"):           # 0-level commoner
+    # 0-level door: both glyphs ('O-level' and digit-zero '0-level' — audit
+    # G-4-hp-roster-06). FG&G Table 13.1 (printed 91) is PER-PROFESSION; 1d6 is
+    # the craftsman/teenager default — pass the profession's die when known.
+    if not m and re.match(r"^[O0][-\s]?level", code, re.IGNORECASE):
         return {"expr": "1d6", "raw": code, "con_allowance": 2,
-                "note": "0-level: 1d6 (provisional pending FG&G)"}
+                "note": "0-level: 1d6 default — FG&G Table 13.1 (printed 91) is "
+                        "per-profession (laborer/soldier d8, scholar 1d3, ...); "
+                        "confirm the profession"}
     if not m:
         return None
     cls, level = m.group(1).upper(), int(m.group(2))
     if cls not in _CLASS_HD:
         return None
-    die, post9 = _CLASS_HD[cls]
-    dice = min(level, 9)
-    flat = (level - 9) * post9 if level > 9 else 0
+    die, post, cap = _CLASS_HD[cls]
+    dice = min(level, cap)
+    flat = (level - cap) * post if level > cap else 0
     expr = f"{dice}d{die}" + (f"+{flat}" if flat else "")
     con_allow = 4 if die == 10 else 2                     # warriors up to +4/die, others +2
     return {"expr": expr, "raw": code, "con_allowance": con_allow * dice,
-            "note": f"class HD ({cls} level {level}): d{die}"
-                    + (f", +{post9}/level past 9" if level > 9 else "")
-                    + " — Con bonus not included (provisional pending FG&G)"}
+            "note": f"class HD ({cls} level {level}): d{die} to level {cap}"
+                    + (f", +{post}/level past {cap}" if level > cap else "")
+                    + " — Con bonus not included (FG&G class tables, printed 17/20/22/24)"}
 
 
 def parse_hd(level_hd: str, pack: dict) -> dict | None:
-    """'12+24' -> 12d8+24 · '8' -> 8d8 · '1-1' -> 1d8-1 · '1/2' -> 1d4 (2e monster HD)."""
+    """'12+24' -> 12d8+24 · '8' -> 8d8 · '1-1' -> 1d8-1 · '1/2' -> 2d2 (2e monster HD)
+    · '9d4+23' passes through (explicit printed dice — audit G-2-npc-a-05)."""
     hd_cfg = (pack or {}).get("hp_from_hd", {})
     die = hd_cfg.get("die", 8)
     s = str(level_hd).strip()
     frac = (hd_cfg.get("fractional") or {}).get(s)
     if frac:
-        return {"expr": frac, "raw": s, "note": "fractional HD mapping (provisional)"}
+        return {"expr": frac, "raw": s,
+                "note": "fractional HD mapping (1/2 = 2d2 per FG&G printed 283; "
+                        "1/4 provisional)"}
+    if "d" in s.lower():
+        # explicit printed dice expression (Uncaged prints these for
+        # incantifier-class oddities) — prefer it verbatim
+        try:
+            parse(s)
+            return {"expr": s, "raw": s,
+                    "note": "explicit printed HD expression (audit G-2-npc-a-05)"}
+        except DiceSyntaxError:
+            pass
     m = re.match(r"^(\d{1,3})\s*([+-]\s*\d{1,3})?$", s)
     if not m:
         return None
@@ -256,14 +278,45 @@ def _split_damage(damage: str) -> list[dict]:
     return out
 
 
+# MC-style flat fields (the Monstrous-Compendium creature shape) aliased into
+# statblock shape — audit G-1-creatures-01: 16 handbook creatures carry these at
+# top level with no statblock sub-object and compiled to a single generic spec.
+_MC_FIELD_ALIASES = (("thac0", "thac0"), ("damage_attack", "damage"),
+                     ("no_of_attacks", "num_attacks"),
+                     ("magic_resistance", "magic_resistance"),
+                     ("morale", "morale"), ("hit_dice", "hd"),
+                     ("armor_class", "ac"), ("hp", "hp"))
+
+
+def _statblock_of(entity: dict) -> tuple[dict, dict]:
+    """(statblock-shaped dict, canonical-key -> source-field-name map).
+
+    The nested statblock wins when present; otherwise MC flat fields alias in,
+    keeping the FLAT names in provenance (audit G-1-creatures-01 fix shape)."""
+    sb = entity.get("statblock")
+    if isinstance(sb, dict) and sb:
+        return sb, {dst: f"statblock.{dst}" for _, dst in _MC_FIELD_ALIASES}
+    alias: dict[str, Any] = {}
+    fields: dict[str, str] = {}
+    for src, dst in _MC_FIELD_ALIASES:
+        if entity.get(src) not in (None, ""):
+            alias[dst] = entity[src]
+            fields[dst] = src
+    return alias, fields
+
+
 def statblock_2e(entity: dict, pack: dict) -> list[dict]:
-    """Roll specs from a 2e NPC/creature envelope (v2 extraction shape)."""
+    """Roll specs from a 2e NPC/creature envelope (v2 extraction shape, or the
+    MC flat creature shape via _statblock_of)."""
     specs: list[dict] = []
-    sb = entity.get("statblock") or {}
+    sb, _field_of = _statblock_of(entity)
     name = entity.get("name", "?")
 
     def prov(field: str, raw: Any) -> dict:
         return {"entity": name, "field": field, "raw": raw}
+
+    def fld(key: str) -> str:
+        return _field_of.get(key, f"statblock.{key}")
 
     thac0 = sb.get("thac0")
     if thac0 not in (None, ""):
@@ -271,19 +324,19 @@ def statblock_2e(entity: dict, pack: dict) -> list[dict]:
             t = _ocr_int(str(thac0).strip())
             specs.append({"key": "attack", "label": f"attack (THAC0 {t})", "purpose": "attack",
                           "check": {"kind": "attack", "params": {"thac0": t}},
-                          "needs": ["ac (target)"], "provenance": prov("statblock.thac0", thac0)})
+                          "needs": ["ac (target)"], "provenance": prov(fld("thac0"), thac0)})
         except ValueError:
             specs.append({"key": "attack", "unparsed": True,
-                          "provenance": prov("statblock.thac0", thac0)})
+                          "provenance": prov(fld("thac0"), thac0)})
 
     for dspec in _split_damage(str(sb.get("damage") or "")):
-        dspec["provenance"] = prov("statblock.damage", sb.get("damage"))
+        dspec["provenance"] = prov(fld("damage"), sb.get("damage"))
         specs.append(dspec)
 
     na = str(sb.get("num_attacks") or "").strip()
     if na:
         specs.append({"key": "num_attacks", "info": na, "purpose": "info",
-                      "provenance": prov("statblock.num_attacks", na)})
+                      "provenance": prov(fld("num_attacks"), na)})
 
     mr = str(sb.get("magic_resistance") or "").strip()
     if mr:
@@ -292,7 +345,7 @@ def statblock_2e(entity: dict, pack: dict) -> list[dict]:
             specs.append({"key": "magic_resistance", "label": f"magic resistance {m.group(1)}%",
                           "purpose": "percent",
                           "check": {"kind": "percent", "params": {"pct": int(m.group(1))}},
-                          "provenance": prov("statblock.magic_resistance", mr)})
+                          "provenance": prov(fld("magic_resistance"), mr)})
 
     morale = str(sb.get("morale") or "").strip()
     if morale:
@@ -302,7 +355,16 @@ def statblock_2e(entity: dict, pack: dict) -> list[dict]:
             specs.append({"key": "morale", "label": f"morale check ({morale})",
                           "purpose": "morale",
                           "check": {"kind": "morale", "params": {"morale": rating}},
-                          "provenance": prov("statblock.morale", morale)})
+                          "provenance": prov(fld("morale"), morale)})
+        else:
+            # printed morale with no parseable rating (band name, OCR wound):
+            # VISIBLE, never silent (audit G-2-npc-a-13)
+            specs.append({"key": "morale", "purpose": "info", "raw_morale": morale,
+                          "requires_confirmation": True,
+                          "note": "morale printed but no rating parsed — 2e band "
+                                  "names map to ratings (champion = 15-16, "
+                                  "provisional); confirm the number",
+                          "provenance": prov(fld("morale"), morale)})
 
     desc = entity.get("descriptor") or {}
     hd = desc.get("level_hd") or sb.get("hd")
@@ -310,6 +372,25 @@ def statblock_2e(entity: dict, pack: dict) -> list[dict]:
     printed = str(sb.get("hp") or "").strip()
     # class-leveled characters roll CLASS dice (G4); monsters roll the pack die
     parsed = parse_class_hp(char_class, hd) if char_class else None
+    # a class string that DIDN'T parse must never silently degrade to monster
+    # dice (audit G-2-npc-a-09 / G-5-clean-sample-02/-03): flag the fallback,
+    # and surface multiclass component dice when they parse
+    class_unparsed_note = None
+    if char_class and not parsed:
+        comps = []
+        if re.search(r"[,/]", str(char_class)):
+            comps = [parse_class_hp(c.strip(), None)
+                     for c in re.split(r"[,/]", str(char_class))]
+        comp_txt = ""
+        if comps and all(comps):
+            comp_txt = (" — component class HD: "
+                        + ", ".join(c["expr"] for c in comps)
+                        + " (2e multiclass averages HP across classes; not "
+                          "auto-computed)")
+        class_unparsed_note = (
+            f"class string {str(char_class)!r} not parsed as single-class"
+            f"{comp_txt}; the monster-die fallback is SUSPECT — class-leveled "
+            "cutters never roll d8s (G4)")
     prov_field = "descriptor.char_class" if parsed else "descriptor.level_hd"
     prov_raw = char_class if parsed else hd
     if not parsed and hd:
@@ -322,6 +403,10 @@ def statblock_2e(entity: dict, pack: dict) -> list[dict]:
             spec["note"] = parsed["note"]
         if parsed.get("suspect"):
             spec["requires_confirmation"] = True
+        if class_unparsed_note:
+            spec["requires_confirmation"] = True
+            spec["note"] = (spec.get("note", "") + " | " if spec.get("note") else "") \
+                + class_unparsed_note
         if printed.isdigit():
             cc = hp_range_crosscheck(int(printed), parsed["expr"])
             allow = parsed.get("con_allowance", 0)
@@ -335,10 +420,13 @@ def statblock_2e(entity: dict, pack: dict) -> list[dict]:
         specs.append(spec)
     elif printed.isdigit():
         # printed HP with no derivable dice: VISIBLE, never silent (G5)
+        note = ("no HD or class-level parse — HP roll not derivable; "
+                "printed value shown")
+        if class_unparsed_note:
+            note += " | " + class_unparsed_note
         specs.append({"key": "hp", "purpose": "info", "printed_hp": int(printed),
-                      "note": "no HD or class-level parse — HP roll not derivable; "
-                              "printed value shown",
-                      "provenance": prov("statblock.hp", printed)})
+                      "note": note,
+                      "provenance": prov(fld("hp"), printed)})
 
     # save targets are law — emit the ask, not an invented number
     specs.append({"key": "save", "purpose": "save", "needs": ["target (save matrices are law — Mechanus/caller supplies)"],
@@ -423,6 +511,16 @@ def statblock_5e(entity: dict, pack: dict) -> list[dict]:
 # Prose sweep (OCR-lenient, honest about its grade)
 # ---------------------------------------------------------------------------
 
+def _in_stat_array(text: str, m: re.Match) -> bool:
+    """True when a COUNT-LESS d-match (' D 15' -> 1d15) sits inside a 2e
+    ability-score array ('S 16, D 13, C 16, I 15, W 14, Ch 8') — the audit's
+    recurring prose-sweep false positive (G-2/G-3, seven specs denied)."""
+    if m.group(1):                      # explicit count like '2d6' — never the artifact
+        return False
+    ctx = text[max(0, m.start() - 30): m.end() + 30]
+    return len(re.findall(r"\b(?:S|D|C|I|W|Ch)\s?\d{1,2}\b", ctx)) >= 3
+
+
 def prose_sweep(entity: dict) -> list[dict]:
     """Find dice and percent-chances in prose fields — flagged, low-confidence."""
     specs: list[dict] = []
@@ -438,6 +536,8 @@ def prose_sweep(entity: dict) -> list[dict]:
 
     for fname, text in fields:
         for m in _DICE_RE.finditer(text):
+            if _in_stat_array(text, m):
+                continue
             expr = clean_dice_text(m)
             if not expr:
                 continue

@@ -2,8 +2,10 @@
 
 > Mimir remembers. Mechanus rules. **Modron rolls.**
 
-Design doc (with its sisters): [`pipeline/mimir/MODRON.md`](../mimir/MODRON.md).
-Registered in the project `.mcp.json` as `modron` (stdio, `python server.py`).
+Design doc (beside this impl): [`MODRON.md`](MODRON.md); the family-level docs
+live at `pipeline/mimir/` (the spine).
+Registered in the project `.mcp.json` as `modron` (stdio, py.exe launcher by
+full path — see CLAUDE.md MCP registration).
 
 ## Layout
 

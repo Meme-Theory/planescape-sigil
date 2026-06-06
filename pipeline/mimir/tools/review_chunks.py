@@ -316,7 +316,8 @@ def primary_book(ent: dict) -> str:
     eid = ent["id"]
     for marker in ("planes-of-law", "planes-of-chaos", "planes-of-conflict", "hellbound",
                    "in-the-cage", "factols-manifesto", "manifesto", "uncaged"):
-        if any(marker in str(s.get("src", "")) for s in srcs):
+        if any(marker in str(s.get("src", "")) or marker in str(s.get("loc", ""))
+               for s in srcs):
             return marker.replace("factols-manifesto", "manifesto")
     if ent["type"] in ("saying", "adventure") and ":" in eid:
         return eid.split(":")[1]
@@ -463,6 +464,10 @@ def main() -> int:
         json.dumps({"total": qtotal, "buckets": {k: sorted(v, key=lambda x: x["id"])
                                                  for k, v in sorted(buckets.items())}},
                    indent=1, ensure_ascii=False), encoding="utf-8")
+    for k, v in buckets.items():                            # one file per court bucket
+        (REVIEW / f"quarantine-{k}.json").write_text(
+            json.dumps({"bucket": k, "n": len(v), "items": sorted(v, key=lambda x: x["id"])},
+                       indent=1, ensure_ascii=False), encoding="utf-8")
 
     n_ent = conn.execute("SELECT COUNT(*) c FROM entities").fetchone()["c"]
     store.close()

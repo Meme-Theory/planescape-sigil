@@ -121,7 +121,10 @@ def _validate_effects(effects: list[dict]) -> None:
         if e.get("op") not in _EFFECT_OPS:
             raise ModifierError(f"unknown effect op {e.get('op')!r} (known: {sorted(_EFFECT_OPS)})")
         if e["op"] in ("add", "sub", "extra_crit_dice"):
-            parse(str(e["expr"]).format(**{k: 1 for k in _placeholders(str(e["expr"]))}))
+            # placeholders fill with a LAWFUL die size — filling with 1 made
+            # '1d{die}' read 1d1 and refused the registry's own shipping shapes
+            # at define_modifier time (audit validator_placeholder_fill)
+            parse(str(e["expr"]).format(**{k: 6 for k in _placeholders(str(e["expr"]))}))
         if e["op"] in ("reroll",) and "cmp" not in e:
             raise ModifierError("reroll effect needs a cmp")
         if e["op"] in ("min_die", "max_die") and "value" not in e:
@@ -301,6 +304,13 @@ def compose(base: Node, instances: list[ModInstance], *, purpose: str | None = N
             eff_purpose = eff.get("applies_to")
             if eff_purpose and purpose and eff_purpose != purpose:
                 continue  # split-purpose effect for a different roll kind
+            if eff_purpose and not purpose:
+                # bare roll() carries no purpose: every half of a split-purpose
+                # modifier fires — disclosed, never silent (audit B-2-core-2e-07)
+                comp.notes.append(
+                    f"{inst.id}: split-purpose effect ({eff_purpose}) applied "
+                    "without purpose context — bare roll() fires every half; "
+                    "use roll_check/roll_damage or pass a purpose")
             op = eff["op"]
             if op in ("d20_state", "d20_upgrade"):
                 if not d20_allowed:

@@ -111,3 +111,20 @@ recorded dockets stay pinned to `018b2eed42e9afe7`.*
 
 — *Mechanus V&V, executed by the Mechanus session; every number above is reproducible
 from the transcript, the suite, or the ledger.*
+
+---
+
+## Addendum — 2026-06-06 (audit stamp; everything above is the historical 2026-06-05 record, unmodified)
+
+- **law_version has moved twice:** `018b2eed42e9afe7` (in force for every probe above)
+  → `a15604342754bf34` with the 2026-06-06 §M planar-law pour (MECHANUS.md §3a — 7 law
+  families, 199 ids, `planar_law` live) → `0d05d408b20e7314` with the 2026-06-06
+  correction-docket apply (MECHANUS.md §10, the Mechanus Assize row). Dockets recorded
+  under the old version stay pinned to it by design — that is the stamp's purpose;
+  nothing above is re-stamped.
+- **The suite has grown:** 107 passed (post-F1/F2, as reported) → **121** (the
+  planar-law pack incl. `test_no_verbatim_leak`, plus the docket-C5 sha-reproducibility
+  pin; 121 collected live on 2026-06-06).
+- **This report was audited** by the 2026-06-06 Mechanus audit (`build/mechanus/review/`,
+  chunk court-doc): the 47/47 probe record, the F1–F3 findings table, and the residual-
+  risks section stand as written — true of the 2026-06-05 state they describe.

@@ -136,9 +136,15 @@ def realms_store(planes_store):
 @needs_corpus
 def test_realms_attest_both_names_or_refuse(realms_store):
     st, (nrealm, ndeity, refused) = realms_store
-    assert nrealm == 47 and ndeity >= 40    # 48 cards − Blood Tor (designed refusal)
-    # the one designed refusal: Blood Tor's name survives only as a shredded header
-    assert [r[0] for r in refused] == ["Blood Tor"]
+    # 47/47 post-docket: Blood Tor attests (_name_rx whitespace-tolerant join),
+    # Noctos' Domain REMOVED (the moon is a layer epithet, not a power's realm),
+    # Glass Tarn -> Goldfire and Centerspire -> Windwrath renamed per witnesses
+    # (Great Audit, Meme ADOPTED 2026-06-06)
+    assert nrealm == 47 and ndeity >= 40
+    assert refused == []
+    assert st.exists("realm:blood-tor")
+    assert st.exists("realm:goldfire") and st.exists("realm:windwrath")
+    assert not st.exists("realm:noctos-domain") and not st.exists("deity:noctos")
 
 
 @needs_corpus

@@ -75,6 +75,13 @@ the 2e→5e uplift and the "answer-key" arbitration work.
 - **fields:** `ability_mods`, `traits[]`, `society`, `origin_plane`, `playable`(bool), `subtype`
 - **taxon:** outsider-type → family (eladrin/guardinal/archon/tanar'ri/baatezu/yugoloth/rilmani/aeon/psychopomp/modron…) → member
 - **edges:** origin_plane→`native_to` · family→`is_a`(role: member)
+- **POURED 2026-06-06 (PWH round): the book's "eight available races"** — aasimar · bariaur ·
+  genasi (4 elemental variants as attested sub-records) · githzerai · planar half-elf ·
+  planar human · rogue modron · tiefling. Curated cards (`parse/pwh.py RACE_CARDS`,
+  paraphrased mechanics + page witnesses), name-attested per card page; variants attest
+  individually or stay off the node. `native_to` minted only where the target plane node
+  stands (bariaur→ysgard, githzerai→limbo, rogue-modron→mechanus); collective origins
+  ("the Upper Planes") stay fields. Outsider taxon still awaits the MC appendices.
 
 ### dim:deity — a power / divine entity  *(wiki Powers 281; mimir Powers 226 — HIGH VOLUME)*
 - **attested:** On Hallowed Ground, deities index; wiki Powers/Divine realms; mimir Powers/Pantheons
@@ -225,6 +232,18 @@ the 2e→5e uplift and the "answer-key" arbitration work.
 - **attested:** Planewalker's Handbook, SRD 5.1/5.2, every class source
 - **fields:** `level`, `school`, `classes[]`, `components`, `range`, `duration`, `effect`, `planar_keyed`(bool), `reversible`
 - **edges:** classes→`castable_by` · planar→`keyed_to`(plane) · same spell across editions→`same_as`
+- **POURED 2026-06-06 (PWH round): 57 spells** from Magic on the Planes (printed 112-131),
+  parsed (`parse/pwh.py extract_spells`): rigid head = NAME + `(School[, Elemental [X]]; Level N)`
+  gated by the closed 2e school vocabulary; `Level I` OCR mapped to 1 (it hid two priest
+  spells). **Stat binding is verified-or-absent:** the two-column reflow scrambles adjacent-head
+  statlines, so fields bind only when exactly one group sits in the head's gap; 12
+  reflow-scrambled spells promoted via `SPELL_STAT_CURATIONS` (hand-read, page-witnessed,
+  semantics-bound — sphere names / area targets / family templates), stamped `stats_cured`.
+  Dual-class spells merge by name with `level_by_class`/`stats_by_class` disclosed when the
+  print differs (Protection from Prime is W2/P1). 8 spells carry the book's own HELLBOUND
+  origin tag → `attested_in role=first-printed-in` edges. 1 head-lost quarantine
+  (`pwh-spell-head-lost`, printed p130 — promotion needs a print reading). Mechanics TEXT
+  stays un-poured (M6 lane); statline attributes ride the node like creature statblocks.
 
 ### dim:rule — a mechanical rule / subsystem
 - **fields:** `category`(planar-effect|faction-ability|combat|travel|morale), `text`, `applies_to[]`, `edition`
@@ -240,7 +259,18 @@ the 2e→5e uplift and the "answer-key" arbitration work.
 
 ### dim:class — a class or 2e kit (planar kits)
 - **fields:** `edition`, `abilities[]`, `requirements`, `is_kit`(bool), `parent_class`
+- **POURED 2026-06-06 (PWH round): 11** — 4 base-class stubs (fighter/wizard/priest/rogue,
+  `is_kit: false`; the spine `castable_by` and `kit_of` point at) + 7 kits as curated cards
+  (`parse/pwh.py KIT_CARDS`): 4 planewalker kits + 3 location kits (abyssal warrior ·
+  floating sorcerer · hinterland bandit — grade-C p100 recovered by OCR-form alias, the
+  Blood Tor law). Location kits edge `located_in` where the plane stands (abyss, outlands).
+  Proficiency MECHANICS are M12 in the handoff; kit requirement fields name them.
 ### dim:psionic — a psionic power / wild talent
+- **RE-PARKED 2026-06-06 (registry correction):** the close-out expected psionics to pour
+  with the Planewalker's Handbook — **the book has no psionics section** (three scattered
+  asides: printed pp. 8, 92, 141; "psionicists are basically wizards, as far as most
+  planewalkers are concerned"). No identities to pour, none invented. The dim waits for a
+  psionics-bearing book (The Will and the Way / Dark Sun line — not in the corpus).
 ### dim:hazard — an environmental danger (razorvine, plane-specific perils)  *(mimir Hazards 12)*
 ### dim:table — a random/reference table (encounter, planar-effect, slide)  *(mimir Encounter Lists 21)*
 - **fields:** `dice`, `entries[{roll,result}]`, `context` · **edges:** result→`references`
@@ -509,3 +539,5 @@ language, saying, adventure, timeline, fiction, rumor, map, symbol, audio, proxy
 | 2026-06-06 | **Rule/effect substance HANDED OFF — Mimir keeps who/what/where/when; Mechanus gets what GOVERNS; Modron gets what the dice APPLY** (Meme's lane ruling; `build/family/rule-effect-handoff.md`) | `dim:rule` + `dim:planar-trait` become POINTER dims (node = name + witness + Mechanus `law_id`, joined by `exhibits`); `dim:table` substance → Modron rollables (Mimir holds identity + `used_at`); `dim:hazard` splits (existence/where = Mimir, law = Mechanus M7, dice = Modron D7); `dim:spell`/`dim:psionic` keep identity + who/where only (mechanics = Mechanus M6). The handoff lists M1-M8 / D1-D9 with page witnesses; numbered Qs to both siblings; Mimir mints pointer edges only after their ids exist. |
 | 2026-06-06 | **Seven-dim round EXECUTED: proxy 4 · sect 6 · settlement 11 · saying 31 · adventure 31 · creature 16 · timeline +4 events** (`parse/boxset.py` + `parse/monstrous.py`; pours `pour_boxset`/`pour_creatures`/`pour_timeline`) | Mechanical where the books anchor (named `proxy of` bindings mint deity stubs; `SYNOPSIS:`-carded adventures; attribution-dashed sayings θ=0.6 with prose-attribution + letter-space guards; the MC parser handles THREE reflow formats — inline, label/value alternation w/ wrapped labels, split-column run-zip — plus a type-signature correction pass); curated-and-attested where they don't (sect/settlement cards). Creatures: 16 clean admit, 9 QUARANTINE by name (`mc-parse`, reasons recorded — v1b re-OCR path); name fragments skipped as page-spillover. Timeline: 4 phrase-witnessed Blood War chronology events (`before` chain, `part_of` event:the-blood-war, source:hellbound minted). |
 | 2026-06-06 | **REGISTRY CLOSE-OUT — all 43 dims now poured (26), handoff-pending (4), book-pending (4), or proposed-closed (8)** | Poured 26 (+`subject` lane). **Handoff-pending:** rule · planar-trait · table · hazard (pointer-dims; await Mechanus/Modron ids per the lane ruling). **Book-pending:** spell · race · class · psionic (identities pour with the Planewalker's Handbook). **PROPOSED-CLOSED (Meme to ratify):** cant-term → cant sibling owns the lexicon · audio → dabus owns renders · rumor → fold to `hook` grain · region → wards live as location kind:ward · philosophy → carried by faction/sect fields · language/map/symbol → parked-thin (map awaits the player/DM-pair design). The mass spot-check workflow has its full target list. |
+| 2026-06-06 | **GREAT AUDIT APPLIED — 824 entities reviewed, docket adopted verbatim, ONE re-pour** (Meme: "Misbinds are expected - Implement the correction docket; good audit") | All 314 confirmed findings + 35 court promotes landed: `cage.ENTRY_CURATIONS` (14 witnessed anchor-spans; all 10 head-lost entries RECOVERED, queue drained), `HOOK_ADJUDICATIONS` (stable book×object×flavor×page keys — seed ids renumber), `monstrous.CREATURE_CURATIONS` (22; renames re-slug ids; 6 recoveries admit), `DIALOG_ADJUDICATIONS` (28 reject + 1 rebind + 14 vision-over-θ promotes), `ITEM_CURATIONS` (7 drops, 4 de-fusions), 18 card fixes (Goldfire, Windwrath, Noctos removed, Blood Tor attests, gate_town verified-or-absent), curations.json 3→130 via the universal `_admit_seed` rail. **REGISTRY RATIFIED (same ruling): all 8 proposed-closed dims CLOSED** — cant-term→cant · audio→dabus · rumor→hook grain · region→ward locations · philosophy→faction/sect fields · language/map/symbol parked-thin. End state: **814 entities · 1,817 edges · 91 quarantined (6 adjudicated buckets)** · suite 104 · integrity 0 hard. V&V round 5 in VERIFICATION.md; docket + run records in `build/mimir/review/`. |
+| 2026-06-06 | **PWH ROUND EXECUTED — the player bible (2620) pours race 8 · class 11 · spell 57 (+1 head-lost q) · faction 3rd-witness ×15; psionic RE-PARKED (wrong book)** (`parse/pwh.py` + `pour_pwh`; 891 entities · 1,988 edges) | Registry close-out's book-pending lane: races + kits = curated cards, name-attested per page (genasi's 4 variants attest individually; hinterland bandit recovered via OCR-form alias). Spells = parsed identities (school-vocab-gated heads; `Level I`→1 recovered 2 priest spells) + **verified-or-absent stat binding** — the 2-column reflow scrambles adjacent-head statlines, so ambiguous gaps bind NOTHING and 12 hand-read `SPELL_STAT_CURATIONS` promote with page witnesses + semantic whys; per-class divergence ships as `level_by_class`/`stats_by_class` (Protection from Prime W2/P1), never averaged. 8 HELLBOUND origin tags → `first-printed-in` edges; printed-p130's name-shredded L7 priest spell QUARANTINED with everything knowable (never guessed). **Psionic correction:** PWH has no psionics section — re-parked with the wrong-book note, waits for a psionics-bearing source. Sibling offers M9-M13/D10-D12 + the queued equipment item round live in `build/family/rule-effect-handoff.md` §PWH. |

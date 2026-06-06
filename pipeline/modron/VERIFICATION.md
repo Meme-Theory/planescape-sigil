@@ -1,13 +1,16 @@
 # Modron V&V Campaign — 2026-06-05 (live wire)
 
 Comprehensive verification & validation of the running `modron` MCP server,
-executed over the actual stdio transport (not the test harness). ~50 live
-checks across six phases. **Three real defects found, fixed, and pinned by
-regression tests** — which is the campaign doing its job.
+executed over the actual stdio transport (not the test harness). 43 live
+checks across six phases (the verdict table is the count of record). **Three
+real defects found, fixed, and pinned by regression tests** — which is the
+campaign doing its job.
 
-Suite after campaign: **140 passed**. Ledger evidence: `build/modron/rolls.db`
-(sessions `ses:vnv-campaign-e50023`, `ses:friendly-fiend-shakedown-f41bfe`).
-Fixtures: `build/modron/vnv/`.
+Suite after campaign: 140 passed (143 post-fixes; 171 after the rule-effect
+handoff; **185 after audit round 2 — see below**). Ledger evidence:
+`build/modron/rolls.db` (sessions `ses:vnv-campaign-e50023`,
+`ses:friendly-fiend-shakedown-f41bfe`). Fixtures: `build/modron/vnv/`.
+*(Header counts corrected 2026-06-06 per audit F-2-verification-claims.)*
 
 ## Verdict table
 
@@ -103,3 +106,63 @@ specific and instructive; and the fairness protocol survives the strongest
 test we can mount — **a commitment computed before the server ever saw the
 phrase, and every ledgered face reproduced by an independent implementation
 written from the published derivation alone.** The dice are lawful.
+
+---
+
+# Round 2 — the Great Audit (2026-06-06)
+
+Docket-first mass review of everything Modron is: ~100 data rows vs their
+witnesses (FG&G/SRD text caches quotable; official-scan reflow cite-only),
+the whole ledger replayed, an independent PMF enumerator vs `analysis`, the
+87-entity fleet compiled, four docs vs the code. Record:
+`build/modron/review/` (PLAN.md · integrity-report.json · chunks/ ·
+correction-docket.md · run-summary.md · workflow-results.json).
+
+**Shape:** mechanical integrity pass (0 hard) → 18 review chunks →
+refute-first adversarial verify (2 independent refuters per data-changing
+finding) → two resolution courts (Mechanus law ids; FG&G cites), each
+double-refuted → deterministic merge. **101 findings → 93 deduped →
+88 VERIFIED · 5 refuted · 0 under-verified; courts 22/22.** Store snapshot
+byte-identical across the audit (nothing mutated until adoption).
+
+**Adopted and applied (correction-docket, all lanes):**
+- **L1 packs** — 2e ability/proficiency gain FG&G's nat-1/nat-20 auto rules;
+  **reaction is now FG&G Table 10.7's 2D disposition matrix** (`bands_by`,
+  default column disclosed; flat provisional bands condemned); initiative
+  drops weapon-speed adds (FG&G: ties only); every 2e kind carries its
+  fgg-text cite; 5e kinds carry SRD page cites; 1/2 HD = 2d2 (printed 283);
+  2e-planescape law refs upgraded to minted Mechanus ids (+ miniflux and
+  styx-memory refs added).
+- **L2 modifiers** — all six core-2e "(FG&G cite pending)" refs resolved to
+  quoted pages; all five planescape mechanus refs upgraded to minted law ids.
+- **L3 rollables** — IOOfo adjudicated **10% CONFIRMED** (flag retired);
+  magma chart restored to the print's **seven** natural-AC bands; Scald
+  relabeled to Smoke (its actual chapter); ice extreme-cold tier minted;
+  slags trio book page corrected 115→118 + paraphrase reworded;
+  acheron witness widened p4-5; `lkp:2e:pandemonium:everymans-madness`
+  minted (56 quirk names). Registry 34 → **36**.
+- **L4 code** (each pinned): MC flat-creature adapter (`_statblock_of` — 16
+  creatures now compile fully; fleet 440→502 specs); class-HD ladder per
+  FG&G (rogues/wizards cap 10; `ILL` specialist; multiclass and unparseable
+  class codes flag loudly, never silent); **analysis cs/cf now counts kept
+  NATURALS via a joint (natural, value) distribution** (engine was right,
+  analysis was wrong); `verify_session` sweeps ALL rolls (the old
+  `history(limit=500)` cap could PASS a long night unchecked) + counter
+  cross-check; bare `roll()` discloses split-purpose double-fire; morale
+  band-names emit visible flagged specs; 0-level accepts both glyphs;
+  `parse_hd` takes explicit printed dice; prose sweep guards the
+  ability-array false-positive class; `_validate_effects` fills placeholders
+  with a lawful die size.
+- **L5 docs** — §3 derivation names byte order; §7 table now lists all 17
+  tools; README pointer fixed; these header counts corrected.
+- **L6 filed to siblings** — 20 findings recorded for Mimir (stat-shifted
+  creatures, fractional attack rates, morale OCR wounds, the hp-roster
+  delta: Parakk derives) and Mechanus (F4/F6 reaffirmed). Not applied here.
+
+**Gates after apply:** suite **185 passed** (171 + 14 audit regressions) ·
+integrity **0 hard · 0 soft** · math fixtures **49/49** (the enumerator and
+`analysis` now agree everywhere) · ledger replay **50/50** · pending refs
+**1** (the M7-parked ash-pocket note — held by law until TSR 2634 pours) ·
+**`tests/smoke_server.py` minted: 18/18 through the exact configured py.exe
+spawn** (Modron was the last sibling without a stdio smoke). The dice are
+still lawful — and now the books they cite are, too.

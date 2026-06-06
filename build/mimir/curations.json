@@ -1,16 +1,1076 @@
 {
-  "_doc": "Adjudication ledger — vision/human rulings applied at Mimir's gate and preserved across every rebuild (merge_curated). Keyed by entity id; `set` patches dot-paths into the envelope; `adjudication` is the provenance of the ruling; `waivers` downgrade a named HARD check with a page witness (a check that legitimately doesn't apply to this entity).",
-  "npc:uncaged:cirily": {
-    "set": { "fields.descriptor.level_hd": "7+10" },
-    "adjudication": { "by": "vision", "loc": "uncaged:p22", "was": "740",
-      "note": "OCR fused 7+10 -> 740 (ate the +); hp 44 is lawful under 7d8+10 = [17,66]" }
+ "_doc": "Adjudication ledger — vision/human rulings applied at Mimir's gate and preserved across every rebuild (merge_curated). Keyed by entity id; `set` patches dot-paths into the envelope; `adjudication` is the provenance of the ruling; `waivers` downgrade a named HARD check with a page witness (a check that legitimately doesn't apply to this entity).",
+ "npc:uncaged:cirily": {
+  "set": {
+   "fields.descriptor.level_hd": "7+10"
   },
-  "npc:uncaged:patch": {
-    "waivers": [
-      { "check": "statblock_fields", "witness": "uncaged:p78",
-        "reason": "sentient razorvine: a stationary plant (MV 0) legitimately has no magic resistance, morale, or size in the usual sense; the printed block is AC 5 / hp 45 (9 vines) / THAC0 20 / Dmg 1d3-1d4 / SD regrowth+immunities / Int 10 / XP 97 — complete for its kind at 8 fields, below the 10-field monster floor." }
-    ],
-    "adjudication": { "by": "vision", "loc": "uncaged:p78",
-      "note": "roster entry (contents p78); thin-but-complete plant block, not an extraction miss. Waives the monster-floor schema check only." }
+  "adjudication": {
+   "by": "vision",
+   "loc": "uncaged:p22",
+   "was": "740",
+   "note": "OCR fused 7+10 -> 740 (ate the +); hp 44 is lawful under 7d8+10 = [17,66]"
   }
+ },
+ "npc:uncaged:patch": {
+  "waivers": [
+   {
+    "check": "statblock_fields",
+    "witness": "uncaged:p78",
+    "reason": "sentient razorvine: a stationary plant (MV 0) legitimately has no magic resistance, morale, or size in the usual sense; the printed block is AC 5 / hp 45 (9 vines) / THAC0 20 / Dmg 1d3-1d4 / SD regrowth+immunities / Int 10 / XP 97 — complete for its kind at 8 fields, below the 10-field monster floor."
+   }
+  ],
+  "adjudication": {
+   "by": "vision",
+   "loc": "uncaged:p78",
+   "note": "roster entry (contents p78); thin-but-complete plant block, not an extraction miss. Waives the monster-floor schema check only."
+  }
+ },
+ "saying:in-the-cage:5179f0593a": {
+  "set": {
+   "name": "WHEN UP TO YOUR EYEBALLS IN BUB, ONE KIP'S AS GOOD AS ANOTHER.",
+   "fields.text": "WHEN UP TO YOUR EYEBALLS IN BUB, ONE KIP'S AS GOOD AS ANOTHER."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p61 scan: the pull-quote above '— ANeNYmeus' is the saying; 'THE mERFIIAID'S CUPS' is the next establishment's heading reflowed into the quote block — Great Audit chunk-010"
+ },
+ "dialog:uncaged:5c53a7388b27": {
+  "set": {
+   "fields.owner": "npc:uncaged:koe",
+   "fields.text": "I know that these . . . shady dealings are well justified by the noble end they will bring."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): on-page attribution '— Koe, a rogue asuras' (uncaged reflow p53 ln30-33); neighbor-column interleave removed per page witness"
+ },
+ "dialog:uncaged:62a42e3e497f": {
+  "set": {
+   "fields.owner": "npc:uncaged:rule-of-three"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): quote sits in Rule-of-Three's entry ('he says', uncaged reflow p85 ln33-38); Qaida span overran printed pg 84; verify npc:uncaged:rule-of-three id at apply, else drop"
+ },
+ "dialog:uncaged:9b1c4b537d47": {
+  "set": {
+   "fields.owner": "npc:uncaged:rule-of-three",
+   "fields.page": 85
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Speaker is Rule-of-Three in his own entry (reflow p0085/printed 84): 'Rule-of-Three told him that \"the Sleeping Ones stir at antipeak.\"' Re-bind spoken_by and point page at the witness reflow."
+ },
+ "dialog:uncaged:8c1edba939c6": {
+  "set": {
+   "fields.owner": "npc:uncaged:ylem",
+   "fields.page": 117
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Page attributes the line to Ylem by name ('Ylem said', reflow p0117/printed 116); the Xideous window bled into the neighboring entry."
+ },
+ "dialog:uncaged:14ddeb435a90": {
+  "set": {
+   "fields.owner": "npc:uncaged:harys-hatchis"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): reflow p16 (printed 15): '\"Marian,\" he burbles, \"you could sell virtue to a deva!\"' — he = Harys Hatchis pitching Marian; first-person attribution inside Marian's entry misfired"
+ },
+ "dialog:uncaged:4e2fcd7feb52": {
+  "set": {
+   "fields.owner": "npc:uncaged:kylie",
+   "fields.text": "You're lookin' for something, friend. I can see it in your eyes.",
+   "name": "You're lookin' for something, friend. I can see it in your eyes."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): speaker is Kylie (uncaged reflow p59 ln94-97, her entry head reflow p57); interleave removed per page witness; verify npc:uncaged:kylie id at apply, else drop"
+ },
+ "dialog:uncaged:a30422ef6424": {
+  "set": {
+   "fields.owner": "npc:uncaged:unity-of-rings",
+   "fields.page": 105
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Speaker is the deva Unity-of-Rings (reflow p0105/printed 104, his entry); the Tripicus extraction window bled into the neighboring entry."
+ },
+ "dialog:uncaged:7ef709b707ed": {
+  "set": {
+   "fields.owner": "npc:uncaged:ylem",
+   "fields.page": 117
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Speaker is Ylem in Ylem's entry (reflow p0117/printed 116): '\"I will study magic.\" The modron walked to Kesto Brighteyes's bookshop.'"
+ },
+ "dialog:uncaged:1190dd14d2dc": {
+  "set": {
+   "fields.owner": "npc:uncaged:omott"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): reflow p76 (printed 75) is Omott's entry: 'blunt observations (\"That ritual certainly seems pointless.\")' — Omott speaks it, not Sly Nye; spoken_by edge re-aims at re-pour"
+ },
+ "dialog:uncaged:56528734a305": {
+  "set": {
+   "fields.owner": "npc:uncaged:traban"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): 'as Traban put it' (uncaged reflow p101 ln16) — the words are Traban's, not Tarholt's; verify npc:uncaged:traban id at apply, else drop"
+ },
+ "dialog:uncaged:750d2b697da3": {
+  "set": {
+   "fields.owner": "npc:uncaged:tripicus",
+   "fields.page": 53,
+   "fields.text": "Not losses sustained by the fiends themselves, no. They deserve every ruin, every corpse. I speak of the good"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Testimonial in Koe's entry signed '— Tripicus, an ursinal scholar' (reflow p0054 l.56); interleaved 'use against the baatezu.' excised per reflow p0053 ll.105-106."
+ },
+ "dialog:uncaged:a0d9bdefbd14": {
+  "set": {
+   "fields.owner": "npc:uncaged:ylem",
+   "fields.page": 94,
+   "fields.text": "I now need not dead-book it myself. It's just the tusks this body needs. They will make a high-up spell key."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): 'said the jaunty modron' = Ylem (reflow p0094); column bleed 'family of'/'chaggrins —' excised per the same page."
+ },
+ "dialog:uncaged:b30b04e4ccc4": {
+  "set": {
+   "fields.owner": "npc:uncaged:ylem",
+   "fields.page": 117
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Witnessed reflow page-0117 (printed 116): Ylem 'calls out' the line; Xideous's entry ends printed 115. Page follows the dim's entry-head convention (printed head+1). Confirm npc slug before apply."
+ },
+ "realm:stillsong": {
+  "set": {
+   "fields.note": "the box heads it 'Roaming Power: Stillsong' — 'a god in transition' manifesting as a 40-foot sphere of purest song (p7); the power IS the song, none separately named"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): old note quoted 'one of the few great mysteries of the plane', which is Principality's POWER line (2615-01 reflow p57), not Stillsong's; Stillsong witness is reflow p9"
+ },
+ "dialog:uncaged:b6fa3f8a2a3f": {
+  "set": {
+   "fields.owner": "npc:uncaged:kesto-brighteyes"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): page-0060 (printed 59, Kylie's entry): 'the gnome asked' — the gnome is Kesto Brighteyes; Koe is neither speaker nor entry subject. Quote physically sits in Kylie's span; page semantics left to curator."
+ },
+ "dialog:uncaged:ccf90fd56971": {
+  "set": {
+   "fields.owner": "npc:uncaged:the-grixitt",
+   "fields.page": 43
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): page-0044 (printed 43, the Grixitt's Quick Chant page): dead Expansionist voices 'calling out' the cry inside the Grixitt's monologue. Confirm npc slug before apply."
+ },
+ "dialog:uncaged:acae0de7201f": {
+  "set": {
+   "fields.owner": "npc:uncaged:omott",
+   "fields.page": 75
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): page-0076 (printed 75): Omott annoys priests with the question; verb 'observ' came from the neighboring 'blunt observations'. Confirm npc slug before apply."
+ },
+ "adventure:planes-of-law:the-r-j-g-h-t-s-of": {
+  "set": {
+   "name": "A Gauntlet Thrown",
+   "fields.synopsis": "Two rival orders of paladins are about to start a formalized holy war over minor (well, not to them) differences over the theology - and stewardship - of a holy site. The PCs can try to stop them, or they can choose sides and elect a champion."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Name was a Zander marginal quote on p30; the adventure's p29 title reads A GAU / THReWN — gauntlet-thrown duel plot (audit 2026-06-06) | Great Audit docket (Meme ADOPTED 2026-06-06): p30 sidebar synopsis re-read; stored value had body-text bleed (audit 2026-06-06)"
+ },
+ "portal:sigil:bottle-jug--elemental-air": {
+  "set": {
+   "fields.pages": [
+    109
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): portal witness = PORTAL CHAMBER paragraph, printed p109 (reflow page-0111.txt); p107 is the B&J entry head, p108 the map plate"
+ },
+ "portal:sigil:bottle-jug--elemental-earth": {
+  "set": {
+   "fields.pages": [
+    109
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): portal witness = PORTAL CHAMBER paragraph, printed p109 (reflow page-0111.txt); p107 is the B&J entry head, p108 the map plate"
+ },
+ "portal:sigil:bottle-jug--elemental-fire": {
+  "set": {
+   "fields.pages": [
+    109
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): portal witness = PORTAL CHAMBER paragraph, printed p109 (reflow page-0111.txt); p107 is the B&J entry head, p108 the map plate"
+ },
+ "portal:sigil:bottle-jug--elemental-water": {
+  "set": {
+   "fields.pages": [
+    109
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): portal witness = PORTAL CHAMBER paragraph, printed p109 (reflow page-0111.txt); p107 is the B&J entry head, p108 the map plate"
+ },
+ "portal:sigil:bottle-jug--the-prime": {
+  "set": {
+   "fields.pages": [
+    109
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): portal witness = PORTAL CHAMBER paragraph, printed p109 (reflow page-0111.txt); p107 is the B&J entry head, p108 the map plate"
+ },
+ "portal:sigil:ditch--amun-thys": {
+  "set": {
+   "fields.pages": [
+    9
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): witness sentence is printed p9 (reflow page-0011.txt); the PORTALS section merely starts on p8"
+ },
+ "portal:sigil:golden-bariaur-inn--the-abyss": {
+  "set": {
+   "fields.pages": [
+    9
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): witness sentence is printed p9 (reflow page-0011.txt); the PORTALS section merely starts on p8"
+ },
+ "portal:sigil:great-foundry--mechanus": {
+  "set": {
+   "fields.pages": [
+    9
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): witness sentence is printed p9 (reflow page-0011.txt); the PORTALS section merely starts on p8"
+ },
+ "portal:sigil:great-gymnasium--elysium": {
+  "set": {
+   "fields.pages": [
+    86
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Transcendent Order turquoise-arch witness is printed p86 (reflow page-0088.txt); p84 starts the Portals-and-Mantas section, p85 reflow is empty"
+ },
+ "portal:sigil:hive--limbo": {
+  "set": {
+   "fields.pages": [
+    113
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): witness is in the Xaositect-HQ units paragraph, printed p113 (reflow page-0115.txt); p112 is the Yscoppel's Mounts spread"
+ },
+ "portal:sigil:sigil--the-inner-planes": {
+  "set": {
+   "fields.pages": [
+    31
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): portal-sweep page off-by-one: witness is the 'The Dark: Portals in Sigil' sidebar on printed p31 (reflow page-0033, footer 31); p30 (reflow page-0032) lacks it"
+ },
+ "portal:sigil:the-hall-of-information--elemental-fire": {
+  "set": {
+   "fields.pages": [
+    70
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): witness (incineration-room mirror to Elemental Fire) prints on p70 (reflow page-0072) within the Hall of Information entry; cited entry-head p66 lacks it"
+ },
+ "portal:sigil:the-slags--the-prime": {
+  "set": {
+   "fields.pages": [
+    118
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): vortex witness prints on p118 in 'The Park: Encounters in the Slags' (reflow page-0120); cited entry-head p115 lacks the sentence"
+ },
+ "item:dirk": {
+  "set": {
+   "fields.provenance.pages": [
+    35
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): dirk witnessed in Farrow's CORE PERSONALITY SPECIAL EQUIPMENT, printed p35 (reflow page-0036 l.38); cited span endpoints printed 32/37 lack it — printed 37 (reflow page-0038) is Fell's entry"
+ },
+ "item:gems-from-the-dwarven-mountain": {
+  "set": {
+   "fields.provenance.pages": [
+    63
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): witnessed in Ly'kritch's SPECIAL EQUIPMENT printed p63 (reflow page-0064 ll.90-91); cited span endpoints printed 62/65 lack it — printed 65 is Milori's entry"
+ },
+ "item:dust-of-dryness": {
+  "set": {
+   "fields.provenance.pages": [
+    94
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): witnessed in Seamusxanthuszenus's SPECIAL EQUIPMENT printed p94 (reflow page-0095 ll.22-24); cited span endpoints printed 92/95 lack it"
+ },
+ "item:elixir-of-youth": {
+  "set": {
+   "fields.provenance.pages": [
+    109
+   ]
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): witnessed in Verden's SPECIAL EQUIPMENT printed p109 (reflow page-0110 ll.91-94); cited span endpoints printed 108/111 lack it"
+ },
+ "plane:bytopia": {
+  "set": {
+   "name": "Bytopia"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): display name was the raw id slug; 'Bytopia' attested planes-of-conflict 2615-01 reflow p6 ('The Beast/ands, Bytopia, and Ely-sium') and p4 TOC ('Inhabitant of Bytopia')"
+ },
+ "saying:planes-of-law:2eb1a322c0": {
+  "set": {
+   "fields.text": "WE'VE FOUND YOU GUILTY OF VIOLATING PARAGRAPH 3Y, ARTICLE 12A, OF LAW XXVC — TO WIT: YOU WORE A RING ON YOUR THIRD LEFT FINGER WHILE ENTERING THE FORTRESS. THE SENTENCE IS DEATH."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Great Audit c027: witnessed ddps-planesoflaw-v reflow p21 lines 92-111; FINGER completed from reflow-cut '|_EF+ F'"
+ },
+ "dialog:uncaged:a028b051a73a": {
+  "set": {
+   "fields.text": "Are you still planning that raid on the Armory for next antipeak?"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Column bleed 'information on his loathsome master.' excised; clean quote witnessed at reflow p0098 ll.38-40 (printed 97)."
+ },
+ "dialog:uncaged:cea52e42d5fa": {
+  "set": {
+   "name": "The knowledge belongs to Bragi. He merely shares it with me.",
+   "fields.text": "The knowledge belongs to Bragi. He merely shares it with me."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): page-0013 (printed 12): description text from the facing column ('years old, with dewy milk-white skin that') was spliced mid-quote; the printed quote is contiguous around 'Bragi'."
+ },
+ "saying:planes-of-law:23713fdb8a": {
+  "set": {
+   "fields.text": "WHAT'S A DESERT DOING IN THE LAND OF SNOW AND ICE?"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Great Audit c027: head witnessed ddps-planesoflaw-iv reflow p22 lines 46-53"
+ },
+ "dialog:uncaged:344b466211c6": {
+  "set": {
+   "fields.text": "I shall — I must — have the foremost courier service in Sigil,",
+   "name": "I shall — I must — have the foremost courier service in Sigil,"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): reflow interleave removed: 'Unfortunately for the pair, a spy ferried word of their' spliced mid-quote; clean quote witnessed uncaged reflow p11 ln22-23 ('...in Sigil,' Autochon said)"
+ },
+ "saying:in-the-cage:5427c1b18d": {
+  "set": {
+   "name": "TO YOU, IT IS GREED. TO ME, IT IS NEED.",
+   "fields.text": "TO YOU, IT IS GREED. TO ME, IT IS NEED.",
+   "fields.attribution": "MARIBACH OF THE FATED"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p53 scan: 'T 0 Y 0 U , i+ IS GREED. Te me, 1+ is NEED. — mARIBACH ©F +HE fA+ED'; sweep kept only the final line — Great Audit chunk-010"
+ },
+ "saying:in-the-cage:6a52991657": {
+  "set": {
+   "name": "HERE'S A SHORT LIST OF THINGS I DON'T NEED FROM YOU: YOUR IDEAS, YOUR HELP, AND YOUR BREATH IN MY FACE.",
+   "fields.text": "HERE'S A SHORT LIST OF THINGS I DON'T NEED FROM YOU: YOUR IDEAS, YOUR HELP, AND YOUR BREATH IN MY FACE.",
+   "fields.attribution": "HISAPORI, AN INDEP"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p48 scan witnesses the full list quote ending 'IN mv F A C E . — HISAP0Ri, AN INDEP'; sweep kept only the last three words — Great Audit chunk-010"
+ },
+ "saying:in-the-cage:b1929f0b1f": {
+  "set": {
+   "name": "IT IS NOT ENOUGH TO BE BUSY. ONE MUST ALSO BE PRODUCTIVE.",
+   "fields.text": "IT IS NOT ENOUGH TO BE BUSY. ONE MUST ALSO BE PRODUCTIVE."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p79 scan: 'i+ is N0+ EN0UGH +e BE BUSY. 8NE mus+ ALse BE PK0DUC+IVE. — U+ADAS'; sweep kept only the final two lines — Great Audit chunk-010"
+ },
+ "saying:in-the-cage:ce09f1453b": {
+  "set": {
+   "name": "FOR THE CREATOR OF THE MULTIVERSE, HUMILITY DOESN'T COME EASY — BUT I DO THE BEST I CAN.",
+   "fields.text": "FOR THE CREATOR OF THE MULTIVERSE, HUMILITY DOESN'T COME EASY — BUT I DO THE BEST I CAN.",
+   "fields.attribution": "FACTOL DARIUS OF THE SIGNERS"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p45 scan: quote continues '— BU+ I D© +HE BES+ 1 CAN.' (mistaken for attribution); real attribution reflowed lower as '+ eU DARIUS OF +HE S I G N E R S' (FAC- shredded; Darius = Signers' factol) — Great Audit chunk-010"
+ },
+ "adventure:planes-of-chaos:wicked-wicked-ways": {
+  "set": {
+   "fields.factions": "The Free League, Revolutionary League, and Transcendent Order are most likely to get involved with this adventure.",
+   "fields.n_pcs": "Three to six."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p190 sidebar: full FACTIONS sentence (dehyphenated) + 'N UMBER OF PCs: Three to six.'"
+ },
+ "adventure:planes-of-chaos:ysgaildian-advihtur-is": {
+  "set": {
+   "fields.factions": "Guvners or the Fated may be best. No Dustmen (because they cannot be resurrected).",
+   "fields.n_pcs": "Four to six.",
+   "name": "Snipe Hunt"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p212 sidebar: full FACTIONS sentence (dehyphenated 'can- not') + 'N UMBER OF PCs: Four to six.' | Great Audit docket (Meme ADOPTED 2026-06-06): p212 title head 'SNIPE HUN+' (+=T); stored name was the 'YSGAilDIAN ADVIH+UR.IS' category running head. Chapter ToC p186: 'Snipe Hunt (Low) .... 28'."
+ },
+ "adventure:planes-of-chaos:ysgaildian-advintuili-s": {
+  "set": {
+   "fields.n_pcs": "Two to five.",
+   "name": "The Hammer and the Serpent"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p214 sidebar 'NuMBER OF PCs: Two to / five.' — value clipped at the line break. | Great Audit docket (Meme ADOPTED 2026-06-06): p214 title head 'THE HAmmER AND +HE SERPEN+' (+=T); stored name was the category running head. Chapter ToC p186: 'The llammer and the Serpent (Medium) .... 30'."
+ },
+ "adventure:planes-of-chaos:ysgakdiah-advihtukis": {
+  "set": {
+   "fields.factions": "Fated and Converts are suggested.",
+   "fields.n_pcs": "One to four.",
+   "name": "The Fires of Ysgard"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p216 sidebar 'FACTIONS: Fated and Converts are sug- gested.' (dehyphenated) + 'NUMBER or~ PCs: One to four.' | Great Audit docket (Meme ADOPTED 2026-06-06): p216 title head 'THE fiRES EDf YSGARD' (ED=O); stored name was the 'YSGAkDIAH ADVIH+UkiS' category running head. Chapter ToC p186: 'The Fires ofYsgard (High) .... 32'."
+ },
+ "saying:planes-of-conflict:0bf71cb952": {
+  "set": {
+   "name": "GOOD MUST TRIUMPH OVER EVIL AND VILLAINY. THIS IS THE WILL OF THE MULTIVERSE.",
+   "fields.text": "GOOD MUST TRIUMPH OVER EVIL AND VILLAINY. THIS IS THE WILL OF THE MULTIVERSE.",
+   "fields.attribution": "Benhorven, an ursinal sage"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): text held the attribution fragment 'AN URSINAI. SAGE'; the display quote on 2615-01 reflow p6 reads 'GEBEBD mus+ +RIUmPH EBVER EVIL AND VILLAINY. THIS IS +HE WILL EBF +HE muL+IVERSE.' signed 'BENH$RVEN, / AN URSINAI. SAGE' (glyph-decoded); '- Ciermides, retired planewalker' signs the framing monologue on the same page"
+ },
+ "adventure:planes-of-law:baatlf-ic-advf-n-t-urf-s": {
+  "set": {
+   "fields.n_pcs": "Four to six.",
+   "name": "Night"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p30 sidebar: 'Four to six.' is the NUMBER OF PCS value; stored text was outline step 2 debris (audit 2026-06-06) | Great Audit docket (Meme ADOPTED 2026-06-06): Baator booklet p29 title line NIGH+ heads this adventure; p30 is its continuation + sidebar (audit 2026-06-06)"
+ },
+ "saying:planes-of-law:1f22dac020": {
+  "set": {
+   "fields.text": "THE PLANES ARE GOVERNED BY LAWS. LAWS CAN BE LEARNED. LEARN THE LAWS AND YOU RULE THE MULTIVERSE. THAT IS OUR GOAL.",
+   "fields.attribution": "FACTOL HASHKAR"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Great Audit c027: head THE PLANES witnessed at ddps-planesoflaw-v reflow p17 lines 3-12"
+ },
+ "saying:planes-of-law:8e9273ec23": {
+  "set": {
+   "fields.text": "THE CUTTER WHO COMES TO MOUNT CELESTIA FOR EASY ANSWERS TO HIS TROUBLES IS, WELL, HE'S CLUELESS. GOOD AND LAW MAY BE LOTS OF THINGS, BUT THEY AIN'T EASY.",
+   "fields.attribution": "PALADIN"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Great Audit c027: head + displaced THINGS witnessed ddps-planesoflaw-vi reflow p3 lines 51-64"
+ },
+ "saying:planes-of-law:fc84a87086": {
+  "set": {
+   "fields.text": "BIRDS IN THE FORESTS, FLOWERS IN THE MEADOWS, AND EVERYTHING IN ITS PLACE — WHY ARGUE PERFECTION?"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Great Audit c027: head witnessed ddps-planesoflaw-iii reflow p3 lines 1-7"
+ },
+ "dialog:uncaged:08b262f83f36": {
+  "set": {
+   "fields.text": "Seamus, xanthus, zenus, one, two, three!",
+   "name": "Seamus, xanthus, zenus, one, two, three!"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): reflow p93: 'chanting \"Seamus, xanthus, zenus, one, two, three!\" over and over again' — column interleave inserted caged-animal narration"
+ },
+ "dialog:uncaged:08fb44a118dd": {
+  "set": {
+   "fields.text": "I'm just in the business of gate keys,",
+   "name": "I'm just in the business of gate keys,"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): reflow p89 (printed 88): '\"I'm just in the business of gate keys,\" she admonishes' — interleave from key-golem narration"
+ },
+ "dialog:uncaged:0f615aafa40a": {
+  "set": {
+   "fields.text": "Them and anything else you have! Let the bargaining commence. I always barter!",
+   "name": "Them and anything else you have! Let the bargaining commenc"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): reflow p94 (printed 93): quote cried by Seamus; interleave from chaggrin dissection-chart narration"
+ },
+ "dialog:uncaged:11548aa30036": {
+  "set": {
+   "fields.text": "It's just that I so enjoy my job,",
+   "name": "It's just that I so enjoy my job,"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): reflow p88 (printed 87): '\"It's just that I so enjoy my job,\" she answers' — interleave from Tiwum's-building narration"
+ },
+ "dialog:uncaged:1804cdfc5c1d": {
+  "set": {
+   "fields.text": "and a body'd be hard pressed to tell you from a power!",
+   "name": "and a body'd be hard pressed to tell you from a power!"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): reflow p18 (printed 17): 'Master these, my friend,' he cackles ... 'and a body'd be hard pressed to tell you from a power!' — interleave split 'hard pressed'"
+ },
+ "dialog:uncaged:2ff41e29de91": {
+  "set": {
+   "fields.text": "Everyone should have the right to make money for me,",
+   "name": "Everyone should have the right to make money for me,"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): reflow p121 (printed 120): 'Zadara loves the irony and deception. \"Everyone should have the right to make money for me,\" she says' — interleave from Maze-mapping narration"
+ },
+ "dialog:uncaged:c7adf37deaeb": {
+  "set": {
+   "name": "At least folks in that line won't run from us.",
+   "fields.text": "At least folks in that line won't run from us.",
+   "fields.verb": "sigh",
+   "fields.register": "grave"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): page-0069: Phineas 'just sighs' the line; '\"Death #56\" (words by Morvun, music by Phineas)' is a separate credit caption on the same page. Register per sigh; remap if the verb table differs."
+ },
+ "dialog:uncaged:d375c1deff22": {
+  "set": {
+   "name": "My owner is slowly building a net of contacts and allies,",
+   "fields.text": "My owner is slowly building a net of contacts and allies, both within the faction and without."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): page-0081 (printed 80): dehyphenated 'al-/lies' continues 'both within the faction and without'; 'pretty important chant tucked away in your head' belongs to the thief's separate quote on the same page."
+ },
+ "npc:uncaged:estavan": {
+  "set": {
+   "fields.descriptor.raw": "Pl/d ogre mage/HD 5+2/Fraternity of Order/LE",
+   "fields.descriptor.plane": "Pl",
+   "fields.descriptor.race": "ogre mage",
+   "fields.descriptor.faction": "Fraternity of Order",
+   "fields.descriptor.alignment": "LE",
+   "fields.statblock.name": "Estavan"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"audit\", \"loc\": \"uncaged:p31\", \"was\": \"descriptor {} / statblock.name 'Order/LE)'\", \"note\": \"OCR descriptor wrapped onto two lines; parser took the tail as statblock name and dropped the descriptor. Recovered from the Quick Chant head on p31.\"}"
+ },
+ "npc:uncaged:iarmid": {
+  "set": {
+   "fields.descriptor.raw": "Pl/d aasimar/HD 3+3/Transcendent Order/NG",
+   "fields.descriptor.plane": "Pl",
+   "fields.descriptor.race": "aasimar",
+   "fields.descriptor.faction": "Transcendent Order",
+   "fields.descriptor.alignment": "NG",
+   "fields.statblock.name": "Iarmid"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"audit\", \"loc\": \"uncaged:p49\", \"was\": \"descriptor {} / statblock.name 'Order/NG)'\", \"note\": \"OCR descriptor wrapped two lines; tail parsed as statblock name. Statblock is on reflow page-0049 (cited [47,50] omit it; p50 is a flyer).\"}"
+ },
+ "saying:in-the-cage:5d9fae83bb": {
+  "set": {
+   "name": "YOU, SIRRAH, LOOK IN NEED OF A STROLL. FOLLOW ME TO THE TUNNELS.",
+   "fields.text": "YOU, SIRRAH, LOOK IN NEED OF A STROLL. FOLLOW ME TO THE TUNNELS.",
+   "fields.attribution": "TIEFLING AT THE TWELVE FACTOLS"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p35 scan: quote 'Y9U, SIRRAH. L00K IN NEED ©FA S+R0LL. F0LL0W mE +® +HE +UNNELS.' is attributed '+IEFMNG A+THE TWELVE fAC+01-S'; stored text was that attribution line and stored attribution was the following caption '— THE GEN+LEIIIAN'S RESP0NSE,' — Great Audit chunk-010"
+ },
+ "adventure:planes-of-chaos:arbollian-adventuiles": {
+  "set": {
+   "fields.factions": "Harmonium, Mercykillers, and Guvners would be especially amusing, though also dangerous.",
+   "fields.levels": "Low.",
+   "fields.n_pcs": "One or more.",
+   "name": "Nuts"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p194 sidebar: full FACTIONS sentence; 'Lr:vr 1 \">: Low.' (OCR'd label); 'NuMB! R or PCs: ... One or more.' | Great Audit docket (Meme ADOPTED 2026-06-06): p194 title head 'NU+S' (+=T glyph); stored name was the 'ARBelliAN ADVEN+UilES' category running head. Chapter ToC p186: 'Nuts (Low) .... 10'."
+ },
+ "adventure:planes-of-chaos:p-cs-p-referred": {
+  "set": {
+   "fields.factions": "Any. The Fated are especially appropriate.",
+   "fields.levels": "High.",
+   "name": "Treasure for the Taking"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p198 sidebar: 'FACTIONS: Any. The / Fated are especially appropriate.' + 'L EVELS: High.'; ToC p186 'Treasure for the Taking (High)'. | Great Audit docket (Meme ADOPTED 2026-06-06): Stored name was the 'PCs PREFERRED:' sidebar label, not a title. p198 title head 'TREASURE fE9R +HE TAK.ING'; chapter ToC p186 'Treasure for the Taking (High) .... 14'."
+ },
+ "adventure:planes-of-chaos:p-cs-pr-eferred": {
+  "set": {
+   "fields.factions": "Sensates are best; others are less likely to join the bacchae or be accepted by them.",
+   "fields.levels": "Mid.",
+   "fields.n_pcs": "Three or more.",
+   "name": "Party Reservations"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p196 sidebar: full FACTIONS sentence; 'L EVELS: Mid.'; 'N UMBER OF PCs: Three or more.' | Great Audit docket (Meme ADOPTED 2026-06-06): Stored name was the 'PCs PREFERRED:' sidebar label, not a title. p196 title head 'PAR+Y RESERVA+IEDNS'; chapter ToC p186 'Party Reservations (Medium) .... 12'."
+ },
+ "saying:planes-of-chaos:7e8ee219ad": {
+  "set": {
+   "name": "ETERNAL VIGILANCE IS THE MOST HONORABLE DUTY.",
+   "fields.text": "ETERNAL VIGILANCE IS THE MOST HONORABLE DUTY.",
+   "fields.attribution": "ALLVALDI of HIMINBORG"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p117 (scan): quote block E+ERNAL VIGILANCE / IS +HE mEBS+ / HEBNEBRABLE DU+Y. (EB=O) with attribution Al.l.VAJ,.DI / ~&f HIm IN BED RG = ALLVALDI of HIMINBORG (ED=O); sweep minted the name-line as the text. If the VIGILANCE block was separately swept elsewhere, quarantine this id as attribution debris instead"
+ },
+ "saying:planes-of-law:2ab835acc1": {
+  "set": {
+   "fields.text": "HELLO THERE, SIR: YOU FROM AROUND HERE? NO? THEN COME WITH ME. YOU'RE UNDER ARREST."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Great Audit c027: full quote witnessed ddps-planesoflaw-iii reflow p9 lines 1-9; first word HELLS read as HELLO (O-to-S swap)"
+ },
+ "item:ldl2-2-potions-poisons-oils": {
+  "set": {
+   "name": "1d12+2 potions/poisons/oils",
+   "fields.enhancement": null
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): same combined curation as the ocr-name finding — apply once | Great Audit docket (Meme ADOPTED 2026-06-06): OCR ldl2 = 1d12 (dice-count of consumables, Wooly Cupgrass SPECIAL EQUIPMENT, Uncaged reflow p.0024); +2 is part of the dice expression, not a magic bonus"
+ },
+ "npc:uncaged:koe": {
+  "set": {
+   "fields.descriptor.raw": "Pl/c? asuras/HD 8/CG",
+   "fields.descriptor.plane": "Pl",
+   "fields.descriptor.race": "asuras",
+   "fields.descriptor.level_hd": "8",
+   "fields.descriptor.alignment": "CG",
+   "fields.statblock.name": "Koe"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"audit\", \"loc\": \"uncaged:p56\", \"was\": \"descriptor {} / statblock.name 'CPl/c? asuras/HD 8/CG)'\", \"note\": \"Leading '(' OCR'd as 'C'; parser took the descriptor parenthetical as the statblock name and left descriptor empty.\"}"
+ },
+ "adventure:planes-of-chaos:abyssal-advintuilis": {
+  "set": {
+   "fields.levels": "Low.",
+   "fields.factions": "Any.",
+   "name": "Arsenic"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p188 sidebar 'L EVELS : Low.' + 'f ACTIONS : Any.' — OCR-split labels dropped by the card extractor; ToC p186 'Arsenic (Low)' corroborates. | Great Audit docket (Meme ADOPTED 2026-06-06): p188 title head 'ARSENIC'; stored name was the 'ABYSSAL ADVIN+UiliS' category running head. Chapter ToC p186: 'Arsenic (Low) .... 4'."
+ },
+ "adventure:planes-of-chaos:limbo-advlanturlas": {
+  "set": {
+   "fields.levels": "Mid.",
+   "fields.n_pcs": "Three to six.",
+   "name": "Deliverance"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p202 sidebar 'LEVI 1.5: Mid.' (OCR of LEVELS) + 'NUMBER OF / PCs: Three to six.'; ToC p186 'Deliverance (Medium)' corroborates. | Great Audit docket (Meme ADOPTED 2026-06-06): p202 display title 'D t: J. I V t: RA N C t:'; ToC p186 'Deliverance (Medium) .... 18'; p204 cross-ref 'as in \"Deliverance\"'. Stored name was the category running head."
+ },
+ "saying:planes-of-chaos:fda26269c3": {
+  "set": {
+   "name": "TRUST ME. HOWL ALONG WITH THE REST. YOU'LL FEEL BETTER FOR IT.",
+   "fields.text": "TRUST ME. HOWL ALONG WITH THE REST. YOU'LL FEEL BETTER FOR IT.",
+   "fields.attribution": "MARIS WARROW"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p97 (scan) display-quote fragments TRUS+ mE. / HEBWL ALEBNG WI+H / +HE RES+. / YEBU'LL fEEL / BE++ER FEBR 1+. / -MARIS WARREDW reassemble in file order; EB/ED=O glyphs; Matron Warrow named in the Madhouse prose on the same page"
+ },
+ "adventure:planes-of-law:advfinturfis": {
+  "set": {
+   "fields.factions": "Believers of the Source will want to help a lantern archon achieve his destiny.",
+   "name": "The Silent Aasimon"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p31 sidebar full sentence (audit 2026-06-06) | Great Audit docket (Meme ADOPTED 2026-06-06): Mount Celestia booklet p31 title line TH6 SHJ2N+ AASimeN; oath-of-silence plot confirms SILENT (audit 2026-06-06)"
+ },
+ "adventure:planes-of-law:arcadian-advf-n-t-urcs": {
+  "set": {
+   "fields.factions": "The Harmonium is most involved with this adventure; every other faction would love to get a hold of this kind of information.",
+   "name": "Discovery"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p31 sidebar full sentence (audit 2026-06-06) | Great Audit docket (Meme ADOPTED 2026-06-06): Arcadia booklet p31: title line DISC0V£RY under the ARCADIAN ADVENTURES banner (audit 2026-06-06)"
+ },
+ "adventure:planes-of-law:cf-lestial-advf-nturf-s": {
+  "set": {
+   "fields.factions": "The Fraternity of Order, the Free League, and the Harmonium are all likely candidates.",
+   "name": "A Crown of Light"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p27 sidebar full sentence (audit 2026-06-06) | Great Audit docket (Meme ADOPTED 2026-06-06): Mount Celestia booklet p27 title A CR0WN UGH+; p31 cites it clean as 'A Crown of Light' (audit 2026-06-06)"
+ },
+ "saying:planes-of-law:917f1f27cf": {
+  "set": {
+   "fields.text": "ACHERON IS GONE WRONG.",
+   "fields.attribution": "DEVA ISAB"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Great Audit c027: head witnessed ddps-planesoflaw-ii reflow p3 lines 1-7; blank line 2 read as display spacing"
+ },
+ "dialog:uncaged:1eb46bfcdcc2": {
+  "set": {
+   "fields.text": "No, Phin, we can't! That would give us meaning!",
+   "name": "No, Phin, we can't! That would give us meaning!"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): reflow p72 (printed 71): page OCR shows 'can'tl' — l-for-! glyph swap; normalized per the dice-OCR precedent"
+ },
+ "dialog:uncaged:3be8885324a6": {
+  "set": {
+   "fields.verb": "said",
+   "fields.register": "main"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): page witness uncaged reflow p61 ln41: 'shaking up,\" she said' — stored verb 'order' (and register stern) unsupported by the page"
+ },
+ "adventure:planes-of-chaos:li-mbo-advintuilf-s": {
+  "set": {
+   "fields.n_pcs": "One to six.",
+   "name": "Street Crew"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p200 sidebar 'NUMBER OF / PCs: One to six.' — label broken across lines, extractor missed it. | Great Audit docket (Meme ADOPTED 2026-06-06): p200 title head 'S+REE+ CREW' (+=T); stored name was the 'LI MBe ADVIN+Uilf!S' category running head. Chapter ToC p186: 'Street Crew (Low) .... 16'."
+ },
+ "adventure:planes-of-chaos:limbo-adventuil-es": {
+  "set": {
+   "fields.n_pcs": "Four to six.",
+   "name": "Steal Town"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p204 sidebar 'NUMBER OF / PCs: Four to six.' — label broken across lines, extractor missed it. | Great Audit docket (Meme ADOPTED 2026-06-06): p204 title head 'S+EAL TEDWN'; stored name was the 'LimBe ADVEN+Uil.ES' category running head. Chapter ToC p186: 'Steal Town (High) .... 20'."
+ },
+ "adventure:planes-of-law:mlchanical": {
+  "set": {
+   "fields.factions": "Almost every faction will want to make sure the Brigadiers of Law fail in their mission.",
+   "name": "End Time"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p31 sidebar full sentence (audit 2026-06-06) | Great Audit docket (Meme ADOPTED 2026-06-06): Mechanus booklet p31: title END TIME under the MECHANICAL banner (audit 2026-06-06)"
+ },
+ "dialog:uncaged:73c560f7e2b9": {
+  "set": {
+   "fields.verb": "cried"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Speech verb on the page is 'cried' (reflow p0011 ll.75-77); 'observed' is Shemeshka's action in the following clause."
+ },
+ "adventure:planes-of-chaos:pandim-nic-advl-ntur-is": {
+  "set": {
+   "fields.factions": "Any.",
+   "name": "A Mouse-Eye View"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p206 sidebar 'f ACTIONS: Any.' — OCR-split label dropped by the card extractor. | Great Audit docket (Meme ADOPTED 2026-06-06): p206 title head 'A mEBUSE .. EYE VIEW'; stored name was the 'PANDIM$NIC ADVt:N+UR.IS' category running head. Chapter ToC p186: 'A Mouse-Eye View (Low) .... 22'."
+ },
+ "saying:planes-of-chaos:39be084078": {
+  "set": {
+   "name": "AN ENJOY MY STAY.",
+   "fields.text": "AN ENJOY MY STAY."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p138 (scan) reflow lines 1-3 'AN / ENjffiV / mY S+AY.' are one display quote (ffi=O, j=J, V=Y): AN ENJOY MY STAY. — sweep truncated to the last line; attribution line -+-RAVE...ER..~WELCffimE = TRAVELER('S) WELCOME, second dash line -A XAEDSI+£C+ = A XAOSITECT"
+ },
+ "adventure:planes-of-law:scrambled-eggs": {
+  "set": {
+   "fields.factions": "The factions aren't involved in this adventure."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p27 sidebar full sentence; truncation inverted the meaning (audit 2026-06-06)"
+ },
+ "saying:planes-of-law:6d76e2d550": {
+  "set": {
+   "fields.text": "GOOD. TELL YOU WHAT — YOU LIVE PEACEABLE-LIKE WITH THESE BASHERS, OR I'LL CREASE YOUR SKULL. SOUND FAIR?"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Great Audit c027: head witnessed ddps-planesoflaw-iii reflow p13 lines 53-63"
+ },
+ "adventure:planes-of-chaos:pandemednic-adventuilf-s": {
+  "set": {
+   "fields.factions": "Bleak Cabal preferred.",
+   "fields.n_pcs": "Four to six.",
+   "name": "Mad Dog"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p210 sidebar: 'FACTIONS: Bleak Cabal / preferred.' (clipped at line break) + 'N UMBER OF PCs : Four to six.' | Great Audit docket (Meme ADOPTED 2026-06-06): p210 title head 'MAD DEDG' (ED=O); stored name was the 'PANDEMEDNIC ADVEN+Uilf!S' category running head. Chapter ToC p186: 'Mad Dog (High)'."
+ },
+ "deity:demogorgon": {
+  "set": {
+   "fields.kind": "power"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"great-audit\", \"loc\": \"planes-of-chaos:p18 (reflow page-0022)\", \"was\": \"abyssal lord (quasi-power)\", \"note\": \"p18: 'Promoted powers of the Abyss include Baphomet the minotaur god, Demogorgon, Juiblex the faceless lord, and Yeenoghu of the gnolls' — and p17 (reflow 0021) cites Demogorgon as proof lords 'may advance themselves to become powers'. T"
+ },
+ "dialog:uncaged:c3eb3d311520": {
+  "set": {
+   "fields.verb": "answer"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): page-0030 (printed 29): the 'ask' belongs to the bubber's question; Ebon 'answers' the stored line."
+ },
+ "location:sigil:allesha-s-pantry": {
+  "set": {
+   "fields.kind": "charity kitchen"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): In the Cage p106/107: 'The best known kitchen is Allesha's Pantry' / 'a charity kitchen that would provide free food to anyone who asked'"
+ },
+ "location:sigil:trioptic-nic-epona": {
+  "set": {
+   "fields.kind": "monument"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): In the Cage p79: 'Perhaps the most breathtaking monument in all of Sigil' — a 200-ft statue with three gem portals, not a business; roster-extractor kind fallback corrected to the page's own word."
+ },
+ "dialog:uncaged:d143cd5e95a2": {
+  "set": {
+   "fields.verb": "whine"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): page-0024 (printed 23): 'whining, \"I just hate that musky smell!\"' — verb per print; register unchanged."
+ },
+ "adventure:planes-of-chaos:pahdjmohic-advintuilis": {
+  "set": {
+   "name": "Hoards of Trouble"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p208 title head 'HEDARDS EDf TREDUBLE' (ED=O); stored name was the 'PAHDJMeHIC ADVIN+UiliS' category running head. Chapter ToC p186: 'lloards of Trouble (Medium) .... 24'."
+ },
+ "item:amulet-of-proof-against-more-pleasant": {
+  "set": {
+   "name": "amulet of proof against detection and location"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): page-0100 SPECIAL EQUIPMENT reads 'amulet of proof against detection and location' (Shemeshka); 'more pleasant' is pull-quote bleed from the same page"
+ },
+ "item:maul-of-the-titans-attend-the-odd-art-exhibit": {
+  "set": {
+   "name": "maul of the titans"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): prose debris ('attend the odd art exhibit', Zadara ROLE prose p.0122 l.28) stripped; witness p.0122 'SPECIAL EQUIPMENT: maul of the titans.'"
+ },
+ "item:oltfie-atfwt-tnto-beads-of-force": {
+  "set": {
+   "name": "beads of force"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Saure statblock, reflow page-0092 (printed 91): 'beads of force (7), ring of sustenance' — leading \"oltfie' Atfwt tnto\" is italic-prose OCR debris ('of the Athar into', same page) fused onto the equipment phrase."
+ },
+ "adventure:planes-of-law:baatific": {
+  "set": {
+   "name": "Hot Time in Darkspine"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Baator booklet p27: title H©+ TimE IN DARKSPINC; sidebar quotes the clean spelling (audit 2026-06-06)"
+ },
+ "adventure:planes-of-law:li-t-t-ue-l-o-s-t-g-e-a-r-spiri-t": {
+  "set": {
+   "name": "Little Lost Gear Spirit"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Acheron booklet p27 display head decoded; gear-spirit plot confirms (audit 2026-06-06)"
+ },
+ "saying:planes-of-law:fa85e3beaa": {
+  "set": {
+   "fields.text": "HMMM. A NEW TOY. DROP IT IN THE GLACIER AND WE'LL WATCH IT DIE FOR A FEW YEARS.",
+   "fields.attribution": "BARON MOLIKROTH"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Great Audit c027: name witnessed ddps-planesoflaw-iv reflow p14 line 69 prose + attribution lines 119-120 (LORD OF THE EIGHTH)"
+ },
+ "item:mace-of-pain-inflicts-damage-as-a-mace-2": {
+  "set": {
+   "name": "mace of pain"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): truncated parenthetical rules text stripped from name; witness Uncaged reflow p.0076 'SPECIAL EQUIPMENT: mace of pain (inflicts damage as a mace +2, ...)'"
+ },
+ "adventure:planes-of-conflict:welcebme-to": {
+  "set": {
+   "name": "Welcome To"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p20 display head WELCEBmE +e = WELCOME TO (EB->O, +->T glyph swaps); full title likely continues in unscanned art."
+ },
+ "adventure:planes-of-law:baatlf-ic-advf-n-t-uiues": {
+  "set": {
+   "name": "Inner Workings"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Baator booklet p31: title INNER WORKINGS under the BAATIFIC ADVENTURES banner (audit 2026-06-06)"
+ },
+ "adventure:planes-of-law:hlfichanical": {
+  "set": {
+   "name": "Haywire"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Mechanus booklet p29: title HAYWIRE under the MECHANICAL banner (audit 2026-06-06)"
+ },
+ "item:medallion-ofesp": {
+  "set": {
+   "name": "medallion of ESP"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): OCR dropped space ('ofESP'), Uncaged reflow p.0078 Parakk SPECIAL EQUIPMENT; standard 2e DMG item name"
+ },
+ "saying:in-the-cage:cc7911923f": {
+  "set": {
+   "fields.attribution": "BRYN OHME, COUNCIL OF INNKEEPERS"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p89 scan: quote block '— BRYN eHine, ceuNciu er INNKEEPERS'; body gives the clean witness 'Contact: Bryn Ohme (Pl/bariaur/F2/Fated/LG)' under THE COUNCIL OF INNKEEPERS — Great Audit chunk-010"
+ },
+ "adventure:planes-of-law:adven-t-ures": {
+  "set": {
+   "name": "Hand"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): Acheron booklet p29: banner ADVEN+URES then title line HAND before BACKGROUND (audit 2026-06-06)"
+ },
+ "saying:in-the-cage:84018f6683": {
+  "set": {
+   "fields.attribution": "FACTOL RHYS, THE CIPHERS"
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p38 scan: '— fAC+eU RHYS / +HC CIPHERS' = FACTOL RHYS, THE CIPHERS; cures the OCR'd FACTOU so the resolver can bind spoken_by to the promoted factol npc — Great Audit chunk-010"
+ },
+ "dialog:uncaged:0284c39a2f6f": {
+  "set": {
+   "fields.text": "I deserve this shop! The whole sodding thing!",
+   "content": "I deserve this shop! The whole sodding thing!",
+   "name": "I deserve this shop! The whole sodding thing!",
+   "fields.verb": "proclaim",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p93\", \"was\": \"Yllgarra pushed Seamus ding thing!\", \"note\": \"reflow column interleave; clean quote read from reflow page-0093 (print p92). vision-over-theta: pour_dialog applies curations before the cleanliness theta check.\"}"
+ },
+ "dialog:uncaged:0459d768aacc": {
+  "set": {
+   "fields.text": "Why - why, now I am Seamusxanthuszenus, Slayer of Fiends, Merchant Most Excellent!",
+   "content": "Why - why, now I am Seamusxanthuszenus, Slayer of Fiends, Merchant Most Excellent!",
+   "name": "Why - why, now I am Seamusxanthuszenus, Slayer of Fiends, Merchant Most Excellent!",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p93\", \"was\": \"The cambion gave why, now I am Seamusxanthuszenus, Slayer of Fiends, Merhim a purple hat...\", \"note\": \"column interleave + '*'=OCR'!'; vision-over-theta, applied before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:054f14cfc6d1": {
+  "set": {
+   "fields.text": "Now and ever after, I am Seamusxanthuszenus, Slayer of Fiends!",
+   "content": "Now and ever after, I am Seamusxanthuszenus, Slayer of Fiends!",
+   "name": "Now and ever after, I am Seamusxanthuszenus, Slayer of Fiends!",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p93\", \"was\": \"The presumptuous mephit leapt forward and ever after, I am Seamusxanthuszenus, Slayer ofFiendsl\", \"note\": \"narration prefix excised; 'ofFiendsl'='of Fiends!'. vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:2d93c25789dd": {
+  "set": {
+   "fields.text": "I want all three! I deserve them! The longer the better!",
+   "content": "I want all three! I deserve them! The longer the better!",
+   "name": "I want all three! I deserve them! The longer the better!",
+   "fields.verb": "announce",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p93\", \"was\": \"I want all three] I deserve them! The longer the Normally, t...\", \"note\": \"interleave excised; ']'=OCR'!'; verb witnessed ('announced'). vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:71f874dec5cc": {
+  "set": {
+   "fields.text": "A bit of color up top now. I look unbalanced.",
+   "content": "A bit of color up top now. I look unbalanced.",
+   "name": "A bit of color up top now. I look unbalanced.",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p93\", \"was\": \"A bit of portal, the mephit had another flash of inspiration:\", \"note\": \"column jump after 'A bit of'; clean quote restored from print p92. vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:d40448e9bc80": {
+  "set": {
+   "fields.text": "I am Seamusxanthuszenus, Slayer of Fiends, Merchant Most Excellent, Purveyor of Death!",
+   "content": "I am Seamusxanthuszenus, Slayer of Fiends, Merchant Most Excellent, Purveyor of Death!",
+   "name": "I am Seamusxanthuszenus, Slayer of Fiends, Merchant Most Excellent, Purveyor of Death!",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p93\", \"was\": \"I am SeamusxanFact is, the hedgehoglike thuszenus, Slayer of...\", \"note\": \"grue-narration interleave excised; quote on reflow page-0094 (print p93); verb shout witnessed. vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:dd5bfd313a9a": {
+  "set": {
+   "fields.text": "That'll do, I suppose, but don't you think-",
+   "content": "That'll do, I suppose, but don't you think-",
+   "name": "That'll do, I suppose, but don't you think-",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p93\", \"was\": \"That'll do, I suppose, but don't you he felt he'd done beautifully so far and the musty, dank surthink\", \"note\": \"interleave excised; quote ends mid-word in print (interrupted). vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:df9eb089d464": {
+  "set": {
+   "fields.text": "Does it matter?",
+   "content": "Does it matter?",
+   "name": "Does it matter?",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p93\", \"was\": \"Does it matthe grues: In exchange for a ter?\", \"note\": \"dehyphenated + interleave excised; reflow page-0094 (print p93); verb ask witnessed ('he asked, grinning'). vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:0cf5a4c20c55": {
+  "set": {
+   "fields.text": "There is, of course, no point to what I do, none whatsoever, so I must have the largest crowd and the worst atmosphere possible.",
+   "content": "There is, of course, no point to what I do, none whatsoever, so I must have the largest crowd and the worst atmosphere possible.",
+   "name": "There is, of course, no point to what I do, none whatsoever...",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p69\", \"was\": \"There is, of from the Parts £t Pieces shop that lies below g...\", \"note\": \"interleave excised; speaker is Morvun, half of the owner duo ('Morvun says', print p68). vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:3eb37d559b59": {
+  "set": {
+   "fields.text": "Welcome, welcome, I'm a member of the Athar so now we've gotten that bit of unpleasant news out of the way,",
+   "content": "Welcome, welcome, I'm a member of the Athar so now we've gotten that bit of unpleasant news out of the way,",
+   "name": "Welcome, welcome, I'm a member of the Athar so now we've gotten that bit of unpleasant news out of the way,",
+   "fields.verb": "chuckle",
+   "fields.register": "amused",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p17\", \"was\": \"Welcome, welcome, I'm a member of the Athar so now house of collected wisdom...\", \"note\": \"interleave excised; verb 'he chuckles' witnessed -> register amused (the grace.toml axis). Quote continues on the page ('Please leave your biases...'). vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:64d29322a34c": {
+  "set": {
+   "fields.text": "Powers do things you can't. I do things you can't. Am I a power? Better than you? No, sir! It's just knowledge, friends, and knowledge is the right of every being!",
+   "content": "Powers do things you can't. I do things you can't. Am I a power? Better than you? No, sir! It's just knowledge, friends, and knowledge is the right of every being!",
+   "name": "Powers do things you can't. I do things you can't. Am I a power?...",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p17\", \"was\": \"Powers do things you can't. / do things you can't. ...\", \"note\": \"'/'=italic 'I' glyph; quote is on reflow page-0019 (print p18), same entry. vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:7ff9fac33daa": {
+  "set": {
+   "fields.text": "Be sure to check those baskets for holes - some of 'em are nearly as old as me!",
+   "content": "Be sure to check those baskets for holes - some of 'em are nearly as old as me!",
+   "name": "Be sure to check those baskets for holes - some of 'em are nearly as old as me!",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p87\", \"was\": \"Be sure to check those baskets for thick, oblong spectacles of darkened glass to hide her telltale holes...\", \"note\": \"spectacles-narration interleave excised; quote on reflow page-0088 (print p87); verb call witnessed ('calls out advice'). vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "dialog:uncaged:bf92dfc025e2": {
+  "set": {
+   "fields.text": "I've had to work twice as hard to get my good reputation,",
+   "content": "I've had to work twice as hard to get my good reputation,",
+   "name": "I've had to work twice as hard to get my good reputation,",
+   "fields.verb": "say",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p87\", \"was\": \"I've and all the wondrous magic of its portals - she imagines had to work twice as hard to get my good reputation,\", \"note\": \"interleave excised; print speech continues: 'It's almost been the death of me! I know what folks think when they see a tiefling, and believe me, it ain't Here, take my jink!' — cand"
+ },
+ "dialog:uncaged:dddd48987c69": {
+  "set": {
+   "fields.text": "If Sigil is the City of Doors, then it's also got to be the city of keys - it just follows.",
+   "content": "If Sigil is the City of Doors, then it's also got to be the city of keys - it just follows.",
+   "name": "If Sigil is the City of Doors, then it's also got to be the city of keys - it just follows.",
+   "confidence": 0.95
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): {\"by\": \"vision\", \"loc\": \"uncaged:p87\", \"was\": \"If Sigil is the City of Doors, then it's also got to be the city little too obviously...\", \"note\": \"interleave excised; attribution 'So says Alluvius Ruskin' witnessed. vision-over-theta before pour_dialog's theta check.\"}"
+ },
+ "npc:uncaged:saure": {
+  "set": {
+   "fields.sections.SPECIAL EQUIPMENT": "xaen (a heavy battle staff covered in bony barbs, spikes, and hooks), beads of force (7), ring of sustenance."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p92 witness; OCR interleave rewrote the equipment line"
+ },
+ "npc:uncaged:shemeshka-the-marauder": {
+  "set": {
+   "fields.sections.SPECIAL EQUIPMENT": "razorvine headdress, amulet of proof against detection and location, gem of seeing, mirror of mental prowess, necklace of missiles (9 missiles: 1 8-HD, 2 6-HD, 2 4-HD, and 4 2-HD), ring of mind shielding."
+  },
+  "adjudication": "Great Audit docket (Meme ADOPTED 2026-06-06): p100 witness; column interleave had fused the line"
+ },
+ "npc:uncaged:kylie": {
+  "set": {
+   "fields.statblock.morale": "champion (15)"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-2-14: p58 reflow 'ML champion (IS)' = (15), I->1 S->5 — same substitution as her THAC0 parenthetical"
+ },
+ "npc:uncaged:qaida": {
+  "set": {
+   "fields.statblock.morale": "elite (14)"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-3-05 VISION: page-0084.jpg reads 'ML elite (14); XP 5,000' — the reflow's 'Q4JJ' was the OCR-eaten parenthetical; band elite 13-14 corroborates"
+ },
+ "npc:uncaged:sly-nye": {
+  "set": {
+   "fields.statblock.morale": "steady (12)"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-3-06: p72 reflow 0074:70 'Ml steady C12); XP 630' = ML steady (12) — Ml->ML, C->( paren OCR"
+ },
+ "npc:uncaged:adamok-ebon": {
+  "set": {
+   "fields.statblock.morale": "elite (13)",
+   "fields.statblock.num_attacks": "2 or 1"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-2-02: p29 reflow 0030:72 'M.L elite (13)' (dot broke the tokenizer); 0030:69 '#AT 2 or 1' mode qualifier restored"
+ },
+ "npc:uncaged:autochon-the-bellringer": {
+  "set": {
+   "fields.statblock.num_attacks": "5/2"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-2-06: p11 reflow 0012:66 '*AT 5/2' — the 2e fractional warrior rate, flattened at extraction"
+ },
+ "npc:uncaged:djhek-nlarr": {
+  "set": {
+   "fields.statblock.num_attacks": "3/2"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-2-10: p25 reflow 0026:68 '#AT 3/2'"
+ },
+ "npc:uncaged:tarholt": {
+  "set": {
+   "fields.statblock.num_attacks": "3/2"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-3-08: p100 reflow 0102:63 '#AT 3/2'"
+ },
+ "npc:uncaged:jemorille-the-exile": {
+  "set": {
+   "fields.statblock.num_attacks": "2 (beams) or 1"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-2-12: p50 reflow 0052:68-69 '*AT 2 (beams) or 1 (dagger or short sword)' — mode qualifier restored"
+ },
+ "npc:uncaged:judge-gabberslug": {
+  "set": {
+   "fields.statblock.damage": "1d4/1d4/2d4 (claw/claw/bite)"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-2-11: p40 reflow 0042:66 'Id4/2d4 (claw/claw/bite)' — three modes, the first slash OCR-fused; 1d4/1d4/2d4 restored"
+ },
+ "npc:uncaged:alluvius-ruskin": {
+  "set": {
+   "fields.statblock.hd": "9d4+23"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-2-04/-05: p90 reflow 0090:34 prints 'HD 9d4+23; hp 52' VERBATIM — print-attested non-derivable (witnessed-waiver class); brackets hp 52 correctly where Wil-14 derivation cannot"
+ },
+ "npc:uncaged:ylem": {
+  "set": {
+   "fields.descriptor.char_class": "M5",
+   "fields.descriptor.level_hd": "5"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-4-05 VISION: page-0118.jpg Quick Chant slot reads 'M5' (reflow 'MS'), and the print carries a SPELLS line the reflow shredded (1st: alarm, color spray, feather fall, phantasmal force; 2nd: blindness, web; 3rd: haste) — spells through 3rd + THAC0 19 (W4-6 band) + hp 18 in 5d4 [5,20] = mage 5 confirmed; entry prose: 'I will study magic'"
+ },
+ "npc:uncaged:omott": {
+  "set": {
+   "fields.descriptor.race": "linqua",
+   "fields.descriptor.level_hd": "2",
+   "fields.descriptor.alignment": "N"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-4-03: p76 reflow 0076:65 'CP1/0 linqua/HD 2/N)' — C-for-( garble defeated the descriptor split; HD 2 legible; hp 12 in [2,16]"
+ },
+ "npc:uncaged:the-grixitt": {
+  "set": {
+   "fields.descriptor.char_class": "T1",
+   "fields.descriptor.level_hd": "1"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-4-04: p44 reflow 0044:63 '(Pe/? human/Tl/N)' — l-for-1 in the class slot (the Id4->1d4 family); THAC0 20 + XP 35 corroborate thief 1"
+ },
+ "npc:uncaged:setus": {
+  "set": {
+   "fields.descriptor.char_class": "B1",
+   "fields.descriptor.level_hd": "1"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-3-07: p123 reflow 0125:87 'tiefling/Bl' = B1 (a young boy, bard 1)"
+ },
+ "npc:uncaged:sister-cade": {
+  "set": {
+   "fields.descriptor.char_class": "C1",
+   "fields.descriptor.level_hd": "1"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-3-07: p122 reflow 0124:45 'human/Cl' = C1"
+ },
+ "npc:uncaged:tcha": {
+  "set": {
+   "fields.descriptor.char_class": "F11",
+   "fields.descriptor.level_hd": "11"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-3-07: p123 reflow 0125:21-22 'githyanki/Fll' = F11 ('a powerful githyanki warrior')"
+ },
+ "npc:uncaged:brot-the-mad": {
+  "set": {
+   "fields.descriptor.char_class": "F1",
+   "fields.descriptor.level_hd": "1"
+  },
+  "adjudication": "Modron cross-audit (build/modron/review/correction-docket.md) -> Mimir lane, page-verified + applied 2026-06-06: G-2-07: p121 reflow 0123:57 'bariaur/Fl' = F1 — adjudicated with the l-for-1 family; no contrary value in the entry"
+ }
 }

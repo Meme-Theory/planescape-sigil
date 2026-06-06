@@ -130,3 +130,29 @@ def test_define_local_roundtrip(tmp_path, monkeypatch):
     assert normal_form(comp.ast) == "1d20+1d6"
     with pytest.raises(ModifierError, match="unknown effect op"):
         define_local({"id": "bad", "label": "bad", "effects": [{"op": "wish", "expr": "9"}]})
+
+
+def test_validate_effects_accepts_placeholder_die_sizes():
+    """audit validator_placeholder_fill: '1d{die}' must validate (fill with a
+    lawful die size, not 1) — the registry's own shipping shapes."""
+    from modron.modifiers import _validate_effects
+    _validate_effects([{"op": "add", "expr": "1d{die}"}])
+    _validate_effects([{"op": "extra_crit_dice", "expr": "{n}d{die}"}])
+
+
+def test_split_purpose_bare_roll_discloses_double_fire():
+    """audit B-2-core-2e-07: bare roll() (no purpose) fires BOTH halves of a
+    split-purpose modifier — loudly, never silently."""
+    from modron.grammar import normal_form, parse
+    from modron.modifiers import compose, resolve_mods
+    insts = resolve_mods(["weapon-specialization"], view="2e")
+    comp = compose(parse("1d20"), insts, purpose=None)
+    nf = normal_form(comp.ast)
+    assert "+1" in nf.replace(" ", "") and "+2" in nf.replace(" ", "")
+    assert any("split-purpose" in n and "every half" in n for n in comp.notes)
+    # with a purpose, only the matching half fires and no such note appears
+    atk = compose(parse("1d20"), resolve_mods(["weapon-specialization"], view="2e"),
+                  purpose="attack")
+    nfa = normal_form(atk.ast).replace(" ", "")
+    assert "+1" in nfa and "+2" not in nfa
+    assert not any("split-purpose" in n for n in atk.notes)

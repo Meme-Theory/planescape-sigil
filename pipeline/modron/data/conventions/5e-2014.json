@@ -12,6 +12,10 @@
   },
   "hp_from_hd": { "explicit": true, "note": "5e statblocks print the formula, e.g. 16d10+48" },
   "printed_average_rule": "floor_of_mean",
+  "cites": {
+    "d20_states": "SRD 5.1 p.76 (Advantage and Disadvantage)",
+    "crit_effect": "SRD 5.1 pp.96-97 (Critical Hits)"
+  },
   "checks": {
     "attack": {
       "roll": "1d20",
@@ -22,27 +26,31 @@
       "crit_nat": [20],
       "fumble_nat": [1],
       "nat_crit_auto_hits": true,
-      "nat_fumble_auto_misses": true
+      "nat_fumble_auto_misses": true,
+      "cite": "SRD 5.1 p.94 (Attack Rolls; Rolling 1 or 20)"
     },
     "save": {
       "roll": "1d20",
       "add": ["save_bonus"],
       "d20": true,
       "vs": "dc",
-      "success_op": ">="
+      "success_op": ">=",
+      "cite": "SRD 5.1 p.83 (Saving Throws)"
     },
     "check": {
       "roll": "1d20",
       "add": ["mod"],
       "d20": true,
       "vs": "dc",
-      "success_op": ">="
+      "success_op": ">=",
+      "cite": "SRD 5.1 p.77 (Ability Checks; Typical Difficulty Classes)"
     },
     "initiative": {
       "roll": "1d20",
       "add": ["dex_mod", "bonus"],
       "d20": true,
-      "order": "desc"
+      "order": "desc",
+      "cite": "SRD 5.1 p.90 (Initiative — a Dexterity check; bonus slot is engine convenience for feats/class features)"
     },
     "death_save": {
       "roll": "1d20",
@@ -51,17 +59,20 @@
       "success_op": ">=",
       "crit_nat": [20],
       "fumble_nat": [1],
-      "notes": "nat 20 = regain 1 hp; nat 1 = two failures (law detail — Mechanus's lane; flags surfaced here)"
+      "notes": "nat 20 = regain 1 hp; nat 1 = two failures (law detail — Mechanus's lane; flags surfaced here)",
+      "cite": "SRD 5.1 p.98 (Death Saving Throws; Rolling 1 or 20)"
     },
     "percent": {
       "roll": "1d100",
       "vs": "pct",
-      "success_op": "<="
+      "success_op": "<=",
+      "cite": "SRD 5.1 p.17 (Divine Intervention — instance witness for roll-under percentile; SRD 5.1 states no general percentile rule)"
     },
     "recharge": {
       "roll": "1d6",
       "vs": "threshold",
-      "success_op": ">="
+      "success_op": ">=",
+      "cite": "SRD 5.1 p.259 (Limited Usage: Recharge X-Y — set-membership; threshold >= is equivalent, every SRD recharge range ends at 6)"
     }
   },
   "encounter_doctrine": {

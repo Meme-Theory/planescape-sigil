@@ -65,7 +65,9 @@ python -m pytest tests/test_lawful.py -q   # one module; -k name for one test
 python tests/smoke_server.py               # end-to-end MCP stdio smoke (20 checks)
 
 # Modron (dice engine) — from pipeline/modron/
-python -m pytest tests/ -q
+python -m pytest tests/ -q                 # 185 (incl. 14 audit-round-2 pins)
+py -3.13 tests/smoke_server.py             # 18-probe stdio smoke (configured spawn)
+py -3.13 tools/integrity.py                # the audit rail: 0 hard/0 soft = clean
 
 # dabus (voice engine) — from pipeline/dabus/
 py -3.13 -m pytest tests/ -q               # unit pack (no model needed)
@@ -98,7 +100,7 @@ same spirit (full-path real interpreter), amended letter.
 |---|---|---|---|---|---|
 | knows | what **is** | what **governs** | what the dice **said** | what was **said aloud** | how a Cager would **say it** |
 | owns | `handbook.db` + admission gate | `rulings.db` + mechanical core | `rolls.db` + RNG discipline | `renders.db` + voice packs | lexicon + rewrites (data) + compiled attestations |
-| status | store/gate/server **BUILT + V&V'd**; **3 books + 4 boxed sets** poured across **26 dimensions** (824 entities, 1,820 edges) | core BUILT + V&V'd | BUILT + V&V'd | **BUILT + smoked** (unit 25/25 · live stdio 14/14 incl. a handbook line end-to-end) | **BUILT + V&V'd** (33 tests · 16/16 stdio · live-wire ceremony, `pipeline/cant/VERIFICATION.md`) |
+| status | store/gate/server **BUILT + V&V'd + GREAT-AUDITED** (all entities page-witness reviewed, docket adopted + applied 2026-06-06); **4 books + 4 boxed sets** poured across **29 dimensions** (891 entities, 1,988 edges — PWH round added race/class/spell) | core BUILT + V&V'd | **BUILT + V&V'd + AUDITED** (round 2 docket adopted 2026-06-06: 88 findings applied, 185 tests, 18/18 smoke) | **BUILT + smoked** (unit 25/25 · live stdio 14/14 incl. a handbook line end-to-end) | **BUILT + V&V'd** (33 tests · 16/16 stdio · live-wire ceremony, `pipeline/cant/VERIFICATION.md`) |
 
 Write discipline is structural everywhere: entities enter only through Mimir's gate;
 rulings only through `record_ruling`/`overrule`; rolls only through the guarded append;
@@ -196,11 +198,28 @@ gear-house) · store `build/mimir/handbook.db` · adjudications `build/mimir/cur
 · V&V report `pipeline/mimir/VERIFICATION.md` (30 pinned + 7-tool live wire; 3 defects caught,
 fixed, pinned — edge-dedup, THAC0-OCR, server conn-leak — and the Mechanus L3 seam wired).
 
-**Status: BUILT — 3 books + 4 boxed sets (Uncaged · The Factol's Manifesto · In the Cage ·
-Planes of Law/Chaos/Conflict · Hellbound) poured across 26 dimensions (824 entities · 1,820
-edges · 89 queued for review in six honest buckets).** Registry: 26 poured · 4 handoff-pending
-(rule/planar-trait/table/hazard → Mechanus/Modron ids) · 4 book-pending (spell/race/class/psionic
-→ Planewalker's Hbk) · 8 proposed-closed (DIMENSIONS ledger). The books' WHOLE contents:
+**Status: BUILT — 4 books + 4 boxed sets (Uncaged · The Factol's Manifesto · In the Cage ·
+Planes of Law/Chaos/Conflict · Hellbound · The Planewalker's Handbook) poured across 29
+dimensions (891 entities · 1,988 edges · 92 quarantined in ADJUDICATED buckets).**
+**GREAT-AUDITED 2026-06-06** (V&V round 5):
+every entity page-witness reviewed (47 chunks, adversarial verification), 89-item quarantine
+court, correction docket ADOPTED by Meme and applied — `cage.ENTRY_CURATIONS` recovered all 10
+shredded heads, `HOOK_ADJUDICATIONS`/`DIALOG_ADJUDICATIONS`/`CREATURE_CURATIONS`/`ITEM_CURATIONS`
+hold the per-dim rulings, curations.json (3→130) rides the universal `_admit_seed` rail, audit
+tools live at `pipeline/mimir/tools/{integrity,review_chunks,assemble_docket}.py`.
+Registry: 29 poured · 4 handoff-pending
+(rule/planar-trait/table/hazard → Mechanus/Modron ids) · 1 book-pending (psionic — the PWH
+round corrected the close-out: the book has NO psionics; waits for a psionics-bearing source)
+· 8 CLOSED (ratified with the docket, 2026-06-06 — DIMENSIONS ledger). The books' WHOLE contents:
+- **PWH round (2026-06-06, `parse/pwh.py` + `pour_pwh`): race 8 · class 11 · spell 57** — the
+  "eight available races" + 7 kits (4 planewalker, 3 location) + 4 base-class stubs as curated
+  cards (name-attested per page; genasi's 4 variants attest individually); 57 spells parsed
+  from Magic on the Planes (school-vocab-gated heads; `Level I`→1; **stat binding
+  verified-or-absent** — 12 reflow-scrambles promoted via hand-read `SPELL_STAT_CURATIONS`
+  w/ page witnesses, per-class print divergence ships as `level_by_class`/`stats_by_class`,
+  8 HELLBOUND `first-printed-in` edges, 1 head-lost quarantine). Faction 3rd-witness ×15.
+  Sibling offers (M9-M13 belief-points/portal/proficiency law · D10-D12) + the queued
+  equipment item round: `build/family/rule-effect-handoff.md` §PWH.
 - **npc 71** — Uncaged's 58 (roster-driven split: the contents page is the authoritative entry boundary
   at an auto-calibrated offset — recovered all 41 roster entries vs the 29 font-detection dropped — plus a
   **minor tier** for the appendix's descriptor-only cutters) + **13 factols** promoted from the Manifesto.
@@ -312,7 +331,13 @@ an entity's whole edge neighbourhood), `query_graph`, `list_entities`, `coverage
 ## Mechanus
 
 Design `pipeline/mechanus/MECHANUS.md` · impl `pipeline/mechanus/mechanus/` · stores
-`build/mechanus/` · V&V report `build/mechanus/vnv-report.md` (47/47 live probes).
+`build/mechanus/` · V&V report `build/mechanus/vnv-report.md` (47/47 live probes;
+2026-06-06 addendum) · **audited 2026-06-06** (the Mechanus Assize: 349 units + 1
+bonus, every law row page-verified, correction docket APPLIED — `law_version
+0d05d408b20e7314`, 121 tests; record at `build/mechanus/review/`, Lane E sibling
+re-binds handed off at `build/family/mechanus-audit-lane-e.md`; `tools/integrity.py`
+is the standing post-pour gate, `build/mechanus/review/known-intentional.json` the
+standing don't-flag law).
 
 - **Live tools:** `is_lawful` (the gate's L3 consistency channel — REVIEW-5E §A pack
   for 5e-2014/5e-2024 + 2e THAC0/HP brackets from an 80-pair FG&G harvest),
@@ -352,8 +377,12 @@ Design `pipeline/mechanus/MECHANUS.md` · impl `pipeline/mechanus/mechanus/` · 
 
 Design `pipeline/modron/MODRON.md` · impl `pipeline/modron/modron/` · ledger
 `build/modron/rolls.db` (env `MODRON_LEDGER` overrides) · V&V report
-`pipeline/modron/VERIFICATION.md` (~54 live probes; 3 defects caught, fixed, pinned)
-· family campaign `build/family/integration-tests.md` (G2/G7-half/G8–G12 closed).
+`pipeline/modron/VERIFICATION.md` (round 1: 43 live probes, 3 defects fixed+pinned;
+**round 2 = the Great Audit 2026-06-06**: 88 verified findings adopted+applied,
+docket at `build/modron/review/correction-docket.md`, re-audit rail =
+`tools/integrity.py` + `tools/review_chunks.py`) · family campaign
+`build/family/integration-tests.md` (G2/G7-half/G8–G12 closed) · stdio smoke
+`tests/smoke_server.py` (18 probes, configured spawn).
 
 - **Tool surface (17):** execute — `roll` (full notation: `kh/kl/dh/dl`, `!`/`!!`,
   `r`/`ro`, `min/max`, `cs/cf`, `d%`, `dF`, `adv/dis/ea/crit/repeat`), `roll_check`
@@ -382,7 +411,7 @@ Design `pipeline/modron/MODRON.md` · impl `pipeline/modron/modron/` · ledger
   wasting_contraction) — base packs stay edition-pure, overlays stay house-only.
 - **Rollables registry** (`data/rollables/*.json` + `modron/registry.py`, the
   rule-effect handoff's §D lane): page-cited tables / roll specs / diceless
-  lookups / encounter specs from the corpus (34 Planescape entries — Slags
+  lookups / encounter specs from the corpus (36 Planescape entries — Slags
   vortex, Hive ooze portals, Inner-Planes hazard dice, Acheron landing,
   Harmonium patrol). Source-required at load (unsourced = refused), tables
   coverage-validated, official scans cite-only (paraphrase + page witness),
@@ -421,7 +450,8 @@ Design `pipeline/modron/MODRON.md` · impl `pipeline/modron/modron/` · ledger
 - **Adding notation/effects:** new postfix or function → `grammar.py` registry +
   evaluator arm + a round-trip test; new effect primitive → one entry in
   `modifiers._EFFECT_OPS` + an AST transform + a composition test. Run the suite
-  from `pipeline/modron/` (171 tests); smoke through the *configured* py.exe spawn.
+  from `pipeline/modron/` (185 tests); smoke = `py -3.13 tests/smoke_server.py`
+  (18 probes through the *configured* py.exe spawn, temp ledger).
 
 ## Table loop (.claude/ — shared infra, any session may fix)
 

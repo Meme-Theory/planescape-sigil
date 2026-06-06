@@ -6,8 +6,8 @@
     "applies_to": ["attack"],
     "effects": [{ "op": "add", "expr": "1" }],
     "stacking": "named",
-    "source": { "kind": "core", "ref": "2e:phb:spell:bless (FG&G cite pending pour)" },
-    "notes": "provisional cite — re-anchor to For Gold & Glory when poured"
+    "source": { "kind": "core", "ref": "2e:phb:spell:bless (FG&G p109, fgg-text p0119)" },
+    "notes": "FG&G: 'raises morale, attack rolls, and saving throws against fear effects by +1' — the saves-vs-fear half is situational, asserted by the caller. Cite resolved by audit court-fgg, 2026-06-06 (B-2-core-2e-01)."
   },
   {
     "id": "curse-2e",
@@ -16,7 +16,8 @@
     "applies_to": ["attack"],
     "effects": [{ "op": "sub", "expr": "1" }],
     "stacking": "named",
-    "source": { "kind": "core", "ref": "2e:phb:spell:bless-reversed (FG&G cite pending)" }
+    "source": { "kind": "core", "ref": "2e:phb:spell:bless-reversed (FG&G p109, fgg-text p0119)" },
+    "notes": "FG&G: 'The reverse, curse, applies a -1 penalty to morale and attack rolls'. Cite resolved by audit court-fgg, 2026-06-06 (B-2-core-2e-02)."
   },
   {
     "id": "weapon-specialization",
@@ -28,8 +29,8 @@
       { "op": "add", "expr": "2", "applies_to": "damage" }
     ],
     "stacking": "named",
-    "source": { "kind": "core", "ref": "2e:phb:specialization (FG&G cite pending)" },
-    "notes": "split-purpose effects: the semantic layer applies only the matching purpose"
+    "source": { "kind": "core", "ref": "2e:phb:specialization (FG&G p32, fgg-text p0042)" },
+    "notes": "split-purpose effects: the semantic layer applies only the matching purpose; bare roll() fires both halves WITH a disclosure note (audit B-2-core-2e-07). Cite resolved by audit court-fgg, 2026-06-06."
   },
   {
     "id": "rear-attack",
@@ -38,7 +39,8 @@
     "applies_to": ["attack"],
     "effects": [{ "op": "add", "expr": "2" }],
     "stacking": "untyped",
-    "source": { "kind": "core", "ref": "2e:dmg:combat-modifiers (FG&G cite pending)" }
+    "source": { "kind": "core", "ref": "2e:dmg:combat-modifiers (FG&G p56 Table 8.2, fgg-text p0066)" },
+    "notes": "Cite resolved by audit court-fgg, 2026-06-06 (B-2-core-2e-04)."
   },
   {
     "id": "higher-ground",
@@ -47,7 +49,8 @@
     "applies_to": ["attack"],
     "effects": [{ "op": "add", "expr": "1" }],
     "stacking": "untyped",
-    "source": { "kind": "core", "ref": "2e:dmg:combat-modifiers (FG&G cite pending)" }
+    "source": { "kind": "core", "ref": "2e:dmg:combat-modifiers (FG&G p56 Table 8.2, fgg-text p0066)" },
+    "notes": "Cite resolved by audit court-fgg, 2026-06-06 (B-2-core-2e-05)."
   },
   {
     "id": "magic-weapon-plus",
@@ -56,7 +59,7 @@
     "applies_to": ["attack", "damage"],
     "effects": [{ "op": "add", "expr": "{n}" }],
     "stacking": "named",
-    "source": { "kind": "core", "ref": "2e:dmg:magic-items (FG&G cite pending)" },
-    "notes": "pass params: {n: 1..5}"
+    "source": { "kind": "core", "ref": "2e:dmg:magic-items (FG&G p287, fgg-text p0297)" },
+    "notes": "pass params: {n: 1..5}. FG&G: 'an enchantment bonus of between +1 and +5, which is added to the weapon's attack rolls and damage scores'. Cite resolved by audit court-fgg, 2026-06-06 (B-2-core-2e-06)."
   }
 ]

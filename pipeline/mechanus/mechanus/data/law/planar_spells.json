@@ -67,7 +67,7 @@
    "effect": "Creates a shining light equivalent to continual light in a radius around the recipient — and the crown's brightness reads out how far a petitioner or archon has progressed on their chosen path: near-complete paths shine bright, distant ones tarnish.",
    "keyed_to": "plane:mount-celestia",
    "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [7], "printed": [6]}],
-   "ocr_note": "the radius figure is eaten by OCR ('within a ^foot radius') — radius unattested here; check the print.",
+   "ocr_note": "the radius figure is eaten by OCR ('within a ^foot radius') — radius unattested here; check the print. ALSO: the reflow prose reads 'radius of the caster' while the stat block (Range: Touch, Area: 1 creature) implies the recipient; the row's 'around the recipient' is a harmonization — confirm the center of the light at the same print check.",
    "sweep": true
   },
   {

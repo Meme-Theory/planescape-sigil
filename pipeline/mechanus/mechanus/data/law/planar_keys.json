@@ -85,10 +85,9 @@
   "the-beastlands": {
    "law_id": "law:planar-keys:the-beastlands",
    "plane": "plane:the-beastlands",
-   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [14], "printed": [12]}],
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [14, 15], "printed": [12, 13]}],
    "spell_keys": "Natural items — the larger the item, the higher the spell level it empowers. Abjuration: stones and pebbles (elemental aura's key). Alteration: leaves on the wind. Conjuration/summoning: a foodstuff suited to the creature called (hay or oats for a horse, a fresh haunch for a great cat), or a large quantity of the element for a pseudoelemental. Divination: silver ore. Enchantment/charm: rock crystals, quartz, geodes. Illusion/phantasm: feathers (whispering wind's key). Invocation/evocation: branches off lightning-struck trees (the key for wall of fog, stinking cloud, cloudkill). Necromancy: bone of the general creature type to be affected. Elemental: a naturally created instance of the element (smoke from a fire for Air, a bonfire for Fire, and so on).",
-   "power_keys": "Rarely issued — the nature powers hold that nature self-corrects; keys come only against dire threats to a realm, the plane, or their Prime worshipers' domain. Stronmaus and the powers of Krynn and Toril are the most likely granters (the giant god's keys take metallic form).",
-   "ocr_note": "the description of Stronmaus's key shape is cut at the witnessed page edge ('a metallic ...'); shape detail beyond 'metallic' is unattested here."
+   "power_keys": "Rarely issued — the nature powers hold that nature self-corrects; keys come only against dire threats to a realm, the plane, or their Prime worshipers' domain. Stronmaus and the powers of Krynn and Toril are the most likely granters. The giant god's keys take metallic form — a lightning-bolt rendering, or a glass pendant holding a tiny swirling storm cloud; the Krynnish gods shape theirs as natural items (as the plane's spell keys); the Toril powers issue keys shaped as tomes, books, scrolls, or written music."
   },
   "bytopia": {
    "law_id": "law:planar-keys:bytopia",
