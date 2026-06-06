@@ -1,0 +1,29 @@
+_img/ASoS/Sigilian_Star_Charts.webp
+_img/CCodex/Sigilian.jpg
+_img/CCodex/sigilian_token.png
+_img/MonsterManualExpanded2/githyankicaptain.webp
+_img/MonsterManualExpanded2/githzeraicenobite.webp
+_img/MonsterManualExpanded2/token/githyankicaptain.png
+_img/MonsterManualExpanded2/token/githyankipsiblade.png
+_img/MonsterManualExpanded2/token/githyankipyromind.png
+_img/MonsterManualExpanded2/token/githzeraicenobite.png
+_img/MonsterManualExpanded2/token/githzerailightningfist.png
+_img/MonsterManualExpanded2/token/githzeraishadowmind.png
+_img/TGS1/Planar-Rapier.webp
+_img/mme2_v2/creatures/1/Githyanki Captain.webp
+_img/mme2_v2/creatures/1/Githzerai Cenobite.webp
+_img/mme2_v2/creatures/token2/Githyanki Captain.webp
+_img/mme2_v2/creatures/token2/Githyanki Psi-Blade.webp
+_img/mme2_v2/creatures/token2/Githyanki Pyromind.webp
+_img/mme2_v2/creatures/token2/Githzerai Cenobite.webp
+_img/mme2_v2/creatures/token2/Githzerai Lightning Fist.webp
+_img/mme2_v2/creatures/token2/Githzerai Shadowmind.webp
+_img/mme2_v2/creatures/tokens/Githyanki_Captain.webp
+_img/mme2_v2/creatures/tokens/Githyanki_Psi-Blade.webp
+_img/mme2_v2/creatures/tokens/Githyanki_Pyromind.webp
+_img/mme2_v2/creatures/tokens/Githzerai_Cenobite.webp
+_img/mme2_v2/creatures/tokens/Githzerai_Lightning_Fist.webp
+_img/mme2_v2/creatures/tokens/Githzerai_Shadowmind.webp
+creature/Bruce R. Cordell; Planar Bestiary.json
+creature/Chris Avellone; Planescape Torment Bestiary.json
+creature/Kobold Press; Warlock 29 Planar Bestiary.json

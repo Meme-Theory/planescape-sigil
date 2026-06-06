@@ -1,0 +1,49 @@
+{
+ "_source": {
+  "5e-2024": "SRD 5.2.1 p.256 'Proficiency Bonus by Challenge Rating'",
+  "5e-2014": "formula identical; witnessed by REVIEW-5E §A (54/54 PAitM statblocks, Challenge line carries PB inline)"
+ },
+ "formula": "max(2, ceil(cr/4) + 1)",
+ "brackets": [
+  [
+   0,
+   4,
+   2
+  ],
+  [
+   5,
+   8,
+   3
+  ],
+  [
+   9,
+   12,
+   4
+  ],
+  [
+   13,
+   16,
+   5
+  ],
+  [
+   17,
+   20,
+   6
+  ],
+  [
+   21,
+   24,
+   7
+  ],
+  [
+   25,
+   28,
+   8
+  ],
+  [
+   29,
+   30,
+   9
+  ]
+ ]
+}

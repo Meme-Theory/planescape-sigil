@@ -1,0 +1,129 @@
+{
+ "_source": {
+  "products": [
+   "Planes of Law (2e, TSR 2607) — booklets ii-vi, SPELL KEYS / POWER KEYS sections",
+   "Planes of Chaos (2e, TSR 2603) — per-chapter keys sections",
+   "Planes of Conflict (2e, TSR 2615) — both libers' keys sections"
+  ],
+  "license": "user-purchased official scans — CITE-ONLY: paraphrase distilled against build/ reflow text, no verbatim sentences. Witness pages are reflow indexes (printed page noted where legible).",
+  "handoff": "build/family/rule-effect-handoff.md §M2 (2026-06-06) — accepted in MECHANUS.md §10",
+  "frame": "Spell keys unlock or normalize wizard magic a plane suppresses (most keys add 1 to initiative/casting time — see law:planar-conditions:general:school-alteration-legend). Power keys are deity-granted tokens restoring priest sphere access away from the power's home turf (the M4 frame: law:planar-priest:*). Named physical keys as ITEMS are Mimir's lane (keyed_to edges); the law of what unlocks what, per plane, lives here."
+ },
+ "_family": "law:planar-keys",
+ "_id_scheme": "law:planar-keys:<mimir-plane-slug> (plane row) with sub-ids :spell and :power",
+ "planes": {
+  "acheron": {
+   "law_id": "law:planar-keys:acheron",
+   "plane": "plane:acheron",
+   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [8], "printed": [7]}],
+   "spell_keys": "Sets of words, motions, and substances rigid in form yet empty of meaning; the ritual must be exact and the form held precisely. Battle-mage tradition names them: a 'gray key' unlocks invisibility, a 'blood key' magic missile, the 'lesser fire key' burning hands, the 'great fire key' every elemental fire spell, a 'swords key' enchanted weapon. No spell keys exist for any form of wild magic.",
+   "power_keys": "Rare outside the armies: orc/goblin/hobgoblin officers carry keys for the spheres of Combat, Guardian, Healing, Necromancy, Protection, and War — shaped as florid arcane marching orders or commissions, often time-limited (expiry sometimes written on the key in the baatezu tongue), and sellable for ~1,000 gp+ (owning a STOLEN key is a crime: huge fine and banishment). Lei Kung's keys are absorbed lightning/thunder released a little per spell, transferred only by catching the slain holder's dying breath in a vial; Laduguer's are items forged by the caster, blessed by a duergar priest, functioning only for their maker."
+  },
+  "arcadia": {
+   "law_id": "law:planar-keys:arcadia",
+   "plane": "plane:arcadia",
+   "witness": [{"component": "ddps-planesoflaw-iii", "reflow": [8], "printed": [7]}],
+   "spell_keys": "Symbolic of the plane and the school — always a piece of the plane, bounded by what the caster wants of it. Divination: clear Arcadian spring water in a rectangular container; illusion: the same water muddied with riverbank mud; elemental: the element itself taken from natural surroundings, bounded by an ordinary shape; conjuration: something of the plane that would tempt the desired creature.",
+   "power_keys": "More strictly regulated than anywhere but Mechanus; granted only where they'll do the most good, and most lose their power weekly. Desert powers (Ra, Osiris, Isis, Horus): silver or petrified-wood ankhs and scarabs. Dwarven powers (Clangeddin, Reorx): small anvils, golden battle axes, mithral hammers. Meriadar: a decorated silver bowl — components go in the bowl, raised overhead. Other powers' keys tie to their worship."
+  },
+  "baator": {
+   "law_id": "law:planar-keys:baator",
+   "plane": "plane:baator",
+   "witness": [{"component": "ddps-planesoflaw-iv", "reflow": [8], "printed": [7]}],
+   "spell_keys": "Per-layer, multiplying with depth: on Avernus a single simple key — obsidian broken off the River of Blood's banks — unlocks any spell; each layer down needs progressively more keys (3 on Dis, 9, 27, 81...) until on Nessus nearly every spell wants its own. Stability also varies: layers 1-3 keys almost never change, 4-6 shift roughly every century, 7-9 switch without apparent rhyme (though with some pattern).",
+   "power_keys": "Granted by the gods of the Nine Layers for advantage — and FALSE keys are endemic (handed to rival powers' priests; nonfunctional, embarrassing, or deadly; a knowing eye can spot something slightly askew). A true key usually resembles the granting deity's unholy symbol or is carved from petitioner bone/spirit; it works best in the deity's realm, normally across the power's layer, rarely plane-wide. Common spheres: Charm, Combat, Necromantic, Law, Thought, War, Wards."
+  },
+  "mechanus": {
+   "law_id": "law:planar-keys:mechanus",
+   "plane": "plane:mechanus",
+   "witness": [{"component": "ddps-planesoflaw-v", "reflow": [10], "printed": [9]}],
+   "spell_keys": "Two kinds. (1) Cog-twelfths: each twelfth of a cog bears a school's sigil and color (all schools including the four elemental, excluding necromancy); joined into a whole cog the caster may absorb it — casting ANY spell at will within Mechanus thereafter, but at half efficiency outside; the key is permanent (a cog tattoo), dissolves on death, and excision kills the bearer. (2) The necromantic key: a piece of a modron plus a muttered formula directed at Shang-ti's realm (kept dark); it also waives the school's flesh/hit-point component price.",
+   "power_keys": "Always little cogs, by every power's convention. Each is good for exactly one day; at day's end the key — and whoever carries it — returns to the granting power's realm, where the power or a proxy decides renewal (the rightful owner is sent back where he was taken from; a thief ends the day facing the power). This makes Mechanus one of the safest planes to hold a power key."
+  },
+  "mount-celestia": {
+   "law_id": "law:planar-keys:mount-celestia",
+   "plane": "plane:mount-celestia",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [6], "printed": [5]}],
+   "spell_keys": "All metal, composition scaling with spell level, the SHAPE declaring the school: hearts (necromancy), stars (conjuration), bowls (divination), circles (abjuration), cups (enchantment), wands (alteration), dust or filings (illusion), blades or spikes (invocation/evocation). The channel must be noble metal at its purest — flawless gold, untarnished silver — and the key's purity gates the casting alongside the caster's own (the alignment ladder in law:planar-conditions:mount-celestia).",
+   "power_keys": "Frequently granted, strictly regulated: nonchaotic, nonevil characters can earn them, and all keys rotate every 30, 60, or 90 days, capping the value of stolen ones. Sun gods: bright, glittering, sometimes blinding tokens. Brihaspati: simple scrolls. Dwarven gods: metal tools — hammers, anvils. Halfling powers: homely comforts (pipe smoke, a slow-cooked meal, a decanted wine). Bahamut: golden treasure-shaped keys, granted to any dragon who asks."
+  },
+  "the-abyss": {
+   "law_id": "law:planar-keys:the-abyss",
+   "plane": "plane:the-abyss",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [21], "printed": [17]}],
+   "spell_keys": "Bribes to the lords and powers to let the spell pass — blood or money, usually not the caster's. Necromancy: a death. Elemental: fouling or destroying a pure substance. Alteration: mingling the caster's and recipient's blood. Conjuration/summoning: a toll of wealth equal to 100 gp x spell level (gold draws a rutterkin; only gems tempt a succubus or babau; true tanar'ri answer only to magical items). Divination keys are hoarded by the lords — each divination spell has a SPECIFIC key (shattering a mirror, drinking unholy oil, knowing the subject's full true name). False keys abound (casting while beating a gong; drinking boiling oil — 1d8 damage and a Constitution ability check or lose verbal spells 2-16 days); the most dangerous false key uses the subject's written name, and naming a tanar'ri in a spell always draws its attention at double the usual consequences.",
+   "power_keys": "Vanishingly rare. Abyssal lords' keys are shrunken manes-skull amulets (skin and hair intact) holding a sliver of the lord's own power — working only on the open layers and the granting lord's layers. Abyssal powers' keys mimic their unholy symbols and work outside the power's realm only on a mission furthering that power's ends."
+  },
+  "arborea": {
+   "law_id": "law:planar-keys:arborea",
+   "plane": "plane:arborea",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [42], "printed": [38]}],
+   "spell_keys": "Ritual offerings to the earth and nature spirits (wine, oat cakes, milk, gold, olive oil, unblemished animals, the mage's own blood), scaling by school and level. Conjuration/summoning: food for the creature (low), a carved image of it (mid), speaking its language (high) — force-conjuring spells need none. Divination: an inanimate offering (low), an animate key such as freed doves or a goat's liver (mid), a treasured possession of the caster's (high). Enchantment/charm: capture the target's attention with a joke or riddle — puns are bad form (low); know the target's name, group names sufficing for group spells (mid); offer something the target desires (high). Necromancy: dark gems (low), a goblet of sap/fresh blood/life-giving liquid (mid), pure life energy (high). Elemental: a gift of the OPPOSITE element, scaling (a bucket of water for burning hands; a small forest fire to balance transmute dust to water).",
+   "power_keys": "Handed out with wild abandon and revoked at whim — many last a single trip. Greek gods: emblems of the god's colors, triumphs, or symbols (Hermes' sandals, Athena's owl feather, Ares' bloody spear), hard to hide. The Seldarine: subtle pieces of the natural world (staves sprouting green leaves, ever-blooming flowers, bottled wind released bit by bit, laurel crowns, feather robes, herbal infusions, minerals carved into pipes, blades, chalices)."
+  },
+  "limbo": {
+   "law_id": "law:planar-keys:limbo",
+   "plane": "plane:limbo",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [73], "printed": [69]}],
+   "spell_keys": "Mostly serve to waive Limbo's Intelligence test (some also unlock Inner-Planes summoning). No key ever repeats — not even for the same caster: keys are insight in the moment. Procedure: a successful Spellcraft proficiency roll to recognize what would serve as a key right now, then a Wisdom test to will the components into existence from the chaos-stuff. Two natures: keys of CHANGE (a blown smoke ring, salt dissolving in water — the change itself is the key, cast as it happens, components consumed) suit Alteration, Enchantment/Charm, Illusion/Phantasm; keys of BALANCE (a spinning coin, a dagger poised on a fingertip; stronger keys add risked destruction — an egg or glass sphere balanced on a staff tip) suit Abjuration, Conjuration/Summoning, Invocation/Evocation.",
+   "power_keys": "Open-handedly granted: the award IS the test — unfaithful priests lose the key exactly when they need it most, and Limbo's powers sometimes negate one out of sheer caprice. Most-granted spheres: Charm, Creation, Elemental (Fenmarel Mestarine prefers Weather over Elemental)."
+  },
+  "pandemonium": {
+   "law_id": "law:planar-keys:pandemonium",
+   "plane": "plane:pandemonium",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [94], "printed": [90]}],
+   "spell_keys": "Wind through rock: flutes, whistles, and jugs carved from Pandemonium's stone, held to catch the plane's wind (water added to a jug changes its pitch). Specific tones, combinations, and sequences serve as individual keys — the more grating and discordant the better, and it must sound louder than the plane's own howl.",
+   "power_keys": "The reclusive powers here are stingy. What they grant runs to the spheres of Charm (to promote chaos), Guardian (to shield their agents), and Necromantic (to promote evil)."
+  },
+  "ysgard": {
+   "law_id": "law:planar-keys:ysgard",
+   "plane": "plane:ysgard",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [110], "printed": [106]}],
+   "spell_keys": "The runes, first won by Odin at the Well of Knowledge and passed to the worthy: each school's key is a rune or rune-set, carved onto the spell's material components or spoken aloud if it has none. Per school: abjuration — shield-rune and iron-can't-bite-rune; alteration — change-rune and strength-rune; conjuration — gathering-rune; divination — fortune-rune and lore-rune; enchantment/charm — charm-rune, follow-rune, nith-rune; illusion/phantasm — sight-rune and speech-rune; invocation/evocation — triumph-rune and berserk-rune; necromancy — dead-rune, disease-rune, help-rune, limb-rune; wild magic — chaos-rune; air — shout-rune; earth — strength-rune; fire — quench-rune and spark-rune; water — sea-rune. Runes can also be found carved beneath Yggdrasil's bark near the roots, or at the Well of Mimir (past its giant guardian). A few special spells demand KENNINGS instead — fire wants 'the terror of the birch', battle-magic the 'play of spears'.",
+   "power_keys": "Earned in the deity's eyes — Odin, Thor, Frigga, Loki, and Heimdall grant most, each releasing spells of that power's interest; only Thor's most faithful hold the weather key, never another deity's worshipers. Stolen keys die the moment the power notices — except Loki's: the god of thieves rewards anyone able to steal from him. The other powers grant on whim (usually their symbol or holy object); Combat and Guardian spheres flow most freely, to shield followers from the battle-mad petitioners."
+  },
+  "the-beastlands": {
+   "law_id": "law:planar-keys:the-beastlands",
+   "plane": "plane:the-beastlands",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [14], "printed": [12]}],
+   "spell_keys": "Natural items — the larger the item, the higher the spell level it empowers. Abjuration: stones and pebbles (elemental aura's key). Alteration: leaves on the wind. Conjuration/summoning: a foodstuff suited to the creature called (hay or oats for a horse, a fresh haunch for a great cat), or a large quantity of the element for a pseudoelemental. Divination: silver ore. Enchantment/charm: rock crystals, quartz, geodes. Illusion/phantasm: feathers (whispering wind's key). Invocation/evocation: branches off lightning-struck trees (the key for wall of fog, stinking cloud, cloudkill). Necromancy: bone of the general creature type to be affected. Elemental: a naturally created instance of the element (smoke from a fire for Air, a bonfire for Fire, and so on).",
+   "power_keys": "Rarely issued — the nature powers hold that nature self-corrects; keys come only against dire threats to a realm, the plane, or their Prime worshipers' domain. Stronmaus and the powers of Krynn and Toril are the most likely granters (the giant god's keys take metallic form).",
+   "ocr_note": "the description of Stronmaus's key shape is cut at the witnessed page edge ('a metallic ...'); shape detail beyond 'metallic' is unattested here."
+  },
+  "bytopia": {
+   "law_id": "law:planar-keys:bytopia",
+   "plane": "plane:bytopia",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [32, 33], "printed": [30, 31]}],
+   "spell_keys": "Hand-crafted items or tools evoking the school being restored — and they MUST be manufactured by Bytopian hands on one of the two layers (a nonnative with carpentry cannot carve his own). Conjuration/summoning keys are rare (the school's restriction resists craftwork). Divination: a spyglass or ear trumpet. The necromancy key is deliberately kept dark by the plane's folk. Wide-ranging elemental spells are restored by mimicking the intended effect (dig a shovel of ground to move earth).",
+   "power_keys": "The gnomish gods are generous to gnomes in need; keys usually last just long enough to escape the trouble at hand, then die. Garl Glittergold: gold or jewelry; Flandal Steelskin: small hammers engraved with flames; virtually every gnomish key grants Major access to the Protection and Elemental spheres. Ilmater: a strong blood-red cord wrapped around the priest's wrist — All, Healing, Protection spheres. Kiri-Jolith (to Knights of Solamnia, especially the Order of the Sword): All, Combat, Healing, Sun spheres for the quest's duration."
+  },
+  "elysium": {
+   "law_id": "law:planar-keys:elysium",
+   "plane": "plane:elysium",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [51], "printed": [49]}],
+   "spell_keys": "Only nonevil spellcasters find keys that function for them — and little is needed, since the plane barely hampers good casters. A needed key matches the caster's alignment: lawful (good or neutral) find definitive shapes (a ruler, an abacus); chaotic find playful ones (whistles, small toys, a child's ball or jacks); neutral have it easiest — an item associated with their class or specialty serves (a twig shaped like a wand for a generalist; a lodestone or divining rod for a diviner).",
+   "power_keys": "Shaped by the granting power's portfolio: miniature rakes or scythes from agriculture gods, tiny tridents or veil-worn nets from sea powers, ankhs from desert powers, arms and armor from war gods — some usable in battle as blessed items (the bearer enjoys a bless effect while carrying a functioning key and keeping the power's favor)."
+  },
+  "carceri": {
+   "law_id": "law:planar-keys:carceri",
+   "plane": "plane:carceri",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [12], "printed": [10]}],
+   "spell_keys": "Common items any berk could scavenge — but requirements change WITHOUT WARNING, so no list stays reliable. Last known: alteration — a lead necklace worn wrapped around the caster's wrist; conjuration/summoning — a perfectly round, fist-sized lodestone; divination — a good quantity of the caster's OWN blood (the alternative to sacrificing a comrade); necromancy — the thigh bone of a farastu gehreleth.",
+   "power_keys": "Seldom granted: the powers here read reliance on keys as weakness, preferring priests who survive on wit and strength (a few contrary powers grant on a whim). Keys are prominent portfolio items — Malar's might be animal claws or fangs, Raiden's arrows or drums."
+  },
+  "gehenna": {
+   "law_id": "law:planar-keys:gehenna",
+   "plane": "plane:gehenna",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [29], "printed": [27]}],
+   "spell_keys": "School-focused and pattern-learnable (decent intuition can guess them): currently the necromancy key is the skull of someone slain in anger, Elemental Fire's a hunk of still-warm obsidian. Keys drift continuously — within a year the set is almost entirely different (last year's necromancy key was a yagnoloth fingerbone; next year's might be prime graveyard dirt) — but an expired key keeps working about three years.",
+   "power_keys": "Friendly powers shun Gehenna and its evil residents seldom grant. Sung Chiang might key an especially deserving priest — after making him steal it first."
+  },
+  "the-gray-waste": {
+   "law_id": "law:planar-keys:the-gray-waste",
+   "plane": "plane:the-gray-waste",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [48, 49], "printed": [46, 47]}],
+   "spell_keys": "A different form on each layer — at least three keys per school, each with some affinity to it: charm person on Oinos wants a small mirror reflecting the light of the caster's own eyes; Pluton's necromancy key is said to be a stone plucked from a petitioner's mouth.",
+   "power_keys": "Rarely granted (why sharpen an edge when all ends in gloom?) except to very favored servants — or to followers of pantheon allies: most keys restore a single sphere, the asking power's specialty (a Greek cleric might find his Healing sphere restored in Pluton because Hades stays on good terms with Olympus). Shape: the granting power's holy symbol marked with the sphere it carries."
+  }
+ }
+}

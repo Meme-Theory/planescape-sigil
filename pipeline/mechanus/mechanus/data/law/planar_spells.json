@@ -1,0 +1,134 @@
+{
+ "_source": {
+  "products": [
+   "Planes of Law (2e, TSR 2607) — booklet ii (Acheron: gate ward, gate seal, cubehopper, Lysander's spells), booklet vi (Mount Celestia: Magic of the Archons)",
+   "Planes of Conflict (2e, TSR 2615) — Liber Benevolentiae (Bytopia: value)"
+  ],
+  "license": "user-purchased official scans — CITE-ONLY: spell effects are paraphrased against build/ reflow text, no verbatim sentences; stat lines are mechanical facts.",
+  "handoff": "build/family/rule-effect-handoff.md §M6 (2026-06-06) — accepted in MECHANUS.md §10. The handoff named cubehopper, shield of the archons, and Lysander's kaleidoscope and predicted a fuller sweep: the witnessed pages also yielded gate ward, gate seal, Lysander's bladestorm, the four archon crowns, blessed forgetfulness, and value (rows marked sweep:true). This is the 2e-side corpus CONVERSION.md will draw on.",
+  "lane": "Mechanics live HERE; Mimir keeps thin spell identity nodes (name, castable_by, keyed_to plane) pointing at these law ids — per the handoff's registry-effect section."
+ },
+ "_family": "law:planar-spell",
+ "rows": [
+  {
+   "law_id": "law:planar-spell:gate-ward",
+   "name": "Gate Ward",
+   "class": "wizard", "school": "Abjuration", "level": 2, "reversible": true,
+   "stats": {"range": "0", "components": "V, S, M", "duration": "1 round/level", "casting_time": 3, "area": "1 gate", "save": "None"},
+   "effect": "A lesser surelock: temporarily shuts any one gate between Acheron's cubes. The sealed gate displays the caster's personal seal (or his face, if he has none). Cast just as a creature enters the gate, the creature vanishes in and immediately reappears out of it. Anonymous versions are rumored but unverified. Material: a steel bar engraved with the wizard's seal, bent into a circle.",
+   "keyed_to": "plane:acheron",
+   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [7, 8], "printed": [6, 7]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:planar-spell:gate-seal",
+   "name": "Gate Seal",
+   "class": "wizard", "school": "Abjuration", "level": 3, "reversible": true,
+   "stats": {"range": "0 or special", "components": "V, S, M", "duration": "1 turn/level", "casting_time": 4, "area": "1 gate or battlefield", "save": "None"},
+   "effect": "A more powerful gate ward, differing in duration — and when cast over a battlefield, all cubehopper spells fail within the area of the ongoing battle. Material: a bar of steel.",
+   "keyed_to": "plane:acheron",
+   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [8], "printed": [7]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:planar-spell:cubehopper",
+   "name": "Cubehopper",
+   "class": "wizard", "school": "Alteration", "level": 6,
+   "stats": {"range": "Infinite (plane of Acheron)", "components": "V, S, M", "duration": "1 hour/level", "casting_time": "1 round", "area": "2 cubes of Acheron", "save": "None"},
+   "effect": "Opens a temporary door between any two cubes of Acheron — quick, safe transport for small raiding parties. Closes after one creature per caster level has gone through, or when the duration runs out; the caster can dispel it at will. Battlefield gate seal defeats it. Material: a chip of iron from each cube to be connected. Rumor holds a layer-to-layer variant exists behind a special spell key nobody can name.",
+   "keyed_to": "plane:acheron",
+   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [8], "printed": [7]}]
+  },
+  {
+   "law_id": "law:planar-spell:lysanders-kaleidoscope",
+   "name": "Lysander's Kaleidoscope",
+   "class": "wizard", "school": "Alteration", "level": 3,
+   "stats": {"range": "20 yards", "components": "V, S, M", "duration": "1 turn/level", "casting_time": 3, "area": "1 creature", "save": "Neg."},
+   "effect": "Transforms the target's eyes into bulbous prismatic compound eyes. Anywhere but Ocanthus the fractured vision means -4 on all melee attack rolls, no missile or long-range spell attacks, and -5 Dexterity for the duration; cure blindness does nothing (the target still sees, badly). Dispel magic works, but the reversion demands a system shock roll — failure deals 1-10 damage and permanent blindness (curable only by cure blindness or regeneration). ON Ocanthus the oily black eyes let the target see and avoid every razor shard nearby, with otherwise normal vision. The Hopping Mage's exclusive creation, drawing (it's said) on the Quasielemental Plane of Radiance.",
+   "keyed_to": "plane:acheron",
+   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [24], "printed": [23]}]
+  },
+  {
+   "law_id": "law:planar-spell:lysanders-bladestorm",
+   "name": "Lysander's Bladestorm",
+   "class": "wizard", "school": "Conjuration/Summoning", "level": 7,
+   "stats": {"range": "10 yards/level", "components": "V, S", "duration": "1 round/level", "casting_time": 7, "area": "10 yard radius/level", "save": "1/2"},
+   "effect": "Cast on any layer of Acheron, summons 1d6 shards of Ocanthus razor-ice. Each shard strikes at THAC0 11 for 1d8 damage per caster level — and takes the target's head off on a natural 20. A save vs. spell halves the damage, but nothing stops the beheading except protection from normal missiles or a brooch of shielding (either deflects shards from its owner). A shard attacks once a round until it connects, then shatters into murky water. The Hopping Mage's other exclusive.",
+   "keyed_to": "plane:acheron",
+   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [24, 25], "printed": [23, 24]}],
+   "ocr_note": "damage prints as 'ld.8 points of damage per level' in the reflow — read as 1d8/level; verify against the print before a high-stakes ruling.",
+   "sweep": true
+  },
+  {
+   "law_id": "law:planar-spell:crown-of-radiance",
+   "name": "Crown of Radiance",
+   "class": "priest (archon magic)", "school": "Invocation/Evocation", "level": 3, "sphere": "Sun",
+   "stats": {"range": "Touch", "components": "V, S", "duration": "Until dawn", "casting_time": 3, "area": "1 creature", "save": "None"},
+   "effect": "Creates a shining light equivalent to continual light in a radius around the recipient — and the crown's brightness reads out how far a petitioner or archon has progressed on their chosen path: near-complete paths shine bright, distant ones tarnish.",
+   "keyed_to": "plane:mount-celestia",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [7], "printed": [6]}],
+   "ocr_note": "the radius figure is eaten by OCR ('within a ^foot radius') — radius unattested here; check the print.",
+   "sweep": true
+  },
+  {
+   "law_id": "law:planar-spell:blessed-forgetfulness",
+   "name": "Blessed Forgetfulness (rev. Winged Memory)",
+   "class": "priest (archon magic)", "school": "Enchantment/Charm, Alteration", "level": 4, "sphere": "Thought, Necromancy", "reversible": true,
+   "stats": {"range": "10-foot radius/level", "components": "V, S, M", "duration": "Permanent", "casting_time": 4, "area": "1 creature/level", "save": "Neg."},
+   "effect": "A forget that serves mercy: it undoes the harm of failed fear and horror checks, and lifts madness contracted from Pandemonium's howling winds or the terrors of the Abyss (the cure the wind-madness law names — see law:plane-environment:pandemonium:wind-madness). The reverse, winged memory, restores the mind of a creature wiped by the River Lethe; cast on someone with no memory loss it instead restores one previously-cast spell to a spellcaster's mind, or gives a nonspellcaster the effect of a divination.",
+   "keyed_to": "plane:mount-celestia",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [7, 8], "printed": [6, 7]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:planar-spell:crown-of-flame",
+   "name": "Crown of Flame",
+   "class": "priest (archon magic)", "school": "Invocation/Evocation", "level": 5, "sphere": "Sun",
+   "stats": {"range": "Touch", "components": "V, M", "duration": "1 turn/level", "casting_time": 5, "area": "Caster", "save": "None"},
+   "effect": "The sword archons' battle-light: the caster becomes a blazing beacon of good, burning all INNATELY evil creatures within 10 feet for 2d6 damage per round — fiends, undead, evil spirits, evil faeries; not merely evil characters or petitioners. Also one of the priestly magics used in enchanting a helm of brilliance.",
+   "keyed_to": "plane:mount-celestia",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [8], "printed": [7]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:planar-spell:crown-of-brilliance",
+   "name": "Crown of Brilliance",
+   "class": "priest (archon magic)", "school": "Invocation/Evocation", "level": 6, "sphere": "Sun",
+   "stats": {"range": "Touch", "components": "V, S, M", "duration": "1 round/2 levels (rounded up)", "casting_time": 9, "area": "Special", "save": "None"},
+   "effect": "Cast on properly worn headgear (hat, crown, tiara, helmet, circlet); triggers the moment the wearer strikes a melee blow, turning the headgear into blazing golden light. Opponents in hand-to-hand combat save vs. spell or are blinded 1d4 rounds (-4 attack); even unblinded foes take -2 on attacks against the wearer. Creatures averse to sunlight or penalized in bright light (drow, derro, duergar, goblins, many undead) within 30 feet save vs. spell or flee, and suffer their usual bright-light penalty if they stay; undead other than skeletons or zombies take an extra 1d6 damage each round in the area. Material: an opal (100 gp minimum) on the caster's person; it shatters as the spell completes, and breaking it early ends the spell.",
+   "keyed_to": "plane:mount-celestia",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [8], "printed": [7]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:planar-spell:crown-of-glory",
+   "name": "Crown of Glory",
+   "class": "priest (archon magic)", "school": "Invocation/Evocation", "level": 7, "sphere": "Sun",
+   "stats": {"range": "Touch", "components": "V, S, M", "duration": "1 round/level", "casting_time": "1 round", "area": "Caster", "save": "Negates"},
+   "effect": "Lends the caster, for a time, the aura of a mighty proxy of good: creatures with fewer than 6 Hit Dice are awed — they stop what they are doing and turn to face the caster, and the caster's speech is treated as a suggestion spell, telepathically understood regardless of language. Creatures above 6 HD are immune; a successful save vs. spell shakes off the awe.",
+   "keyed_to": "plane:mount-celestia",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [8], "printed": [7]}],
+   "ocr_note": "the page's two-column reflow interleaves this spell's description with crown of flame's stat block; attribution here follows level/area/save consistency (awe text = the 7th-level caster-aura spell). Verify against the print if contested.",
+   "sweep": true
+  },
+  {
+   "law_id": "law:planar-spell:shield-of-the-archons",
+   "name": "Shield of the Archons (rev. Shield of the Tanar'ri)",
+   "class": "priest (archon magic)", "school": "Abjuration", "level": 7, "sphere": "Protection", "reversible": true,
+   "stats": {"range": "0", "components": "V", "duration": "1 round/2 levels", "casting_time": 1, "area": "120-degree arc", "save": "None"},
+   "effect": "A mystic shield of beneficent energy hangs between the caster and whatever spell, spell-like ability, or magical-device attack (wand, staff...) comes in through its arc — the shield takes the hit instead. Roll 1d20 for every intercepted spell: on a roll less than or equal to the intercepted spell's level the shield shatters (still protecting against the spell that broke it). Area spells that include but don't target the caster grant +4 on the save and -2 damage per die — the same against breath weapons dealing physical damage. Against attacks from several directions the shield interposes toward the most dangerous threat (DM's call). No protection against anything else; castable once per day. The reverse, shield of the tanar'ri, runs on baneful energies and is used by evil priests.",
+   "keyed_to": "plane:mount-celestia",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [8], "printed": [7]}]
+  },
+  {
+   "law_id": "law:planar-spell:value",
+   "name": "Value",
+   "class": "wizard", "school": "Divination", "level": 2,
+   "stats": {"range": "0", "components": "V, S", "duration": "1 round/level", "casting_time": 2, "area": "1 item/level", "save": "None"},
+   "effect": "Appraises the monetary value of a nonmagical item (created by the mage-merchant Latislav Snid to sniff out fakes and forgeries): accuracy chance 15% per caster level, capped at 90% — a percentile roll of 91-95 yields nothing, 96-00 a false value (DM decides high or low). Values the item as a whole, not just materials; can also reveal raw materials' potential worth (an uncut gem as if cut and mounted) at 10% per level. A related nonweapon proficiency (e.g. gemcutting) adds +5% — one such bonus only.",
+   "keyed_to": "plane:bytopia",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [33], "printed": [31]}],
+   "sweep": true
+  }
+ ]
+}

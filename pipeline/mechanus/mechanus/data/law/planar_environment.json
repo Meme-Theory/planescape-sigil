@@ -1,0 +1,119 @@
+{
+ "_source": {
+  "products": [
+   "Planes of Law (2e, TSR 2607) — booklet vi (Mount Celestia), booklet iv (Baator), booklet v (Mechanus)",
+   "Planes of Chaos (2e, TSR 2603) — Pandemonium and Limbo chapters",
+   "Planes of Conflict (2e, TSR 2615) — Liber Malevolentiae (Gray Waste, Gehenna, Carceri), Liber Benevolentiae (Elysium)"
+  ],
+  "license": "user-purchased official scans — CITE-ONLY: paraphrase distilled against build/ reflow text, no verbatim sentences.",
+  "handoff": "build/family/rule-effect-handoff.md §M5 (2026-06-06) — accepted in MECHANUS.md §10. Rows marked sweep:true were found on the witnessed pages beyond the handoff's named examples — same family, same pour.",
+  "frame": "Plane-environment rules with mechanical teeth — what the plane itself does to creatures walking it. Check mechanics and progression dice are Modron's lane (handoff D5/D6); these rows are the governing law those check kinds cite."
+ },
+ "_family": "law:plane-environment",
+ "_id_scheme": "law:plane-environment:<mimir-plane-slug>:<rule-slug> (sigil rides as slug 'sigil'; cross-plane rows use 'lower-planes')",
+ "rows": [
+  {
+   "law_id": "law:plane-environment:mount-celestia:pure-air-bless",
+   "rule": "Mount Celestia's air blesses the worthy: creatures of LG, LN, NG, or CG alignment enjoy a standing bless effect while on the mountain, and lawful good creatures additionally gain a standing protection from evil.",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [5], "printed": [4]}]
+  },
+  {
+   "law_id": "law:plane-environment:mount-celestia:purity-ladder",
+   "rule": "The mountain purifies pilgrims layer by layer: layer 2 acts as slow poison on everyone there; layer 3 neutralizes poison; layer 4 purifies as remove curse; layer 5 cures diseases (magical ones included — lycanthropy, mummy rot); layer 6 acts as a restoration once per year. Nobody has reverse-engineered it; the taken-home water, earth, and air do nothing.",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [5], "printed": [4]}]
+  },
+  {
+   "law_id": "law:plane-environment:mount-celestia:silver-sea",
+   "rule": "The Silver Sea at the mountain's foot is holy water and affects undead and fiends accordingly; even the most powerful cannot survive immersion long.",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [5], "printed": [4]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:plane-environment:pandemonium:wind-madness",
+   "rule": "The howling wind drives visitors down a four-stage madness: save vs. paralyzation periodically (typically daily; hourly in the loudest regions; generally none under shelter, though sleep may call one) — each failure advances one stage. Stage 1 FRUSTRATION: -1 Wisdom and Intelligence while exposed to the noise. Stage 2 DESPAIR: no initiative/apathy; automatically surprised in combat, but +1 attack and damage once engaged. Stage 3 HYSTERIA: on the failed save, run screaming for minutes equal to the margin of failure, then collapse helpless (no fighting, casting, or useful action; can be led; acts as stage 2 in shelter, relapses outside). Stage 4 RESIGNATION: the pain settles into a permanent personal quirk (tic, phobia, mania). Plane-dwellers are assumed long since at stage 4. No permanent cure short of wish or the like — leaving the plane lifts the symptoms, but returning restores the reached stage immediately. (Check cadence and quirk table: Modron D6, citing this row.)",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [88, 89, 90], "printed": [84, 85, 86]}]
+  },
+  {
+   "law_id": "law:plane-environment:pandemonium:everymans-madness-table",
+   "rule": "EVERYMAN'S MADNESS (printed p.87) is the book's menu of playable stage-4 quirks (accident prone, amnesia, barking, compulsive liar, kleptomania, paranoia, pyromania, verbal tics...). The table's substance is a Modron rollable/lookup (D6); this row pins its existence, location, and role in the wind-madness law.",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [91], "printed": [87]}]
+  },
+  {
+   "law_id": "law:plane-environment:the-gray-waste:hope-drain",
+   "rule": "The Waste steals dreams: for every week spent on the plane, save vs. spell or begin losing the sense of self — vivid dreams ransack the victim's memories and desires, and imagination and willpower dissipate with them. One fully succumbed no longer wishes to leave, and within 1d6 months loses his identity and wanders off to shed his mortal guise (the larva slide). Lower-planar denizens are immune. Interplay with charm: a successful charm spell snaps a victim out of the influence for the spell's duration (useless after two weeks under); when it wears off, anger shields him about one week more, then he automatically fails the next weekly save. (Progression check kind: Modron D5, citing this row.)",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [46, 48], "printed": [44, 46]}]
+  },
+  {
+   "law_id": "law:plane-environment:the-gray-waste:wasting-sickness",
+   "rule": "Oinos (first layer only — Niflheim is explicitly free of it) carries the wasting sickness: 10% chance per day of contracting it while walking the layer. The disease drains 1 point each of Strength, Constitution, Dexterity, and Charisma per day until all four reach 0 (death) — it never kills sooner — and cure disease ends it. (Progression dice: Modron D5, citing this row.)",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [52, 53], "printed": [50, 51]}]
+  },
+  {
+   "law_id": "law:plane-environment:the-gray-waste:color-bleach",
+   "rule": "The gloom leaches color: anything brought to the Waste fades fully gray within about a week (bright colors begin fading immediately). Worn color physically pains the locals — newer residents converge on the offender, beat him senseless, and bury the offending colors.",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [46], "printed": [44]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:plane-environment:the-gray-waste:teleport-limits",
+   "rule": "Teleportation onto or around the Waste (spell, innate ability, or item) is impossible on Oinos and fails 75% of the time on Niflheim and Pluton.",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [47], "printed": [45]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:plane-environment:the-gray-waste:apathetic-travel",
+   "rule": "Outside a power's realm, progress on the Waste requires NOT caring: a traveler indifferent to his destination moves about ten times faster than one intent on reaching it. Leaving at all is a matter of will most long-stayers can no longer muster.",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [47, 46], "printed": [45, 44]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:plane-environment:gehenna:slopes-and-falls",
+   "rule": "Gehenna is all slope (5 to 80 degrees where scalable at all, plus overhangs and sheer faces): a fall deals damage equal to HALF the distance rolled in feet, and the victim keeps rolling until an outcropping stops him — or he leaves the face of the layer entirely, into the void no one returns from.",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [28], "printed": [26]}]
+  },
+  {
+   "law_id": "law:plane-environment:gehenna:furnace-ground",
+   "rule": "The ground itself generates each layer's heat and light (no sun); on some layers the heat is enough to make nonnatives burst into flame, and the red light rises and dies with the fumaroles. Chamada's 'caverns' are air bubbles in the magma that refill with boiling rock in about 10 minutes.",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [28], "printed": [26]}]
+  },
+  {
+   "law_id": "law:plane-environment:carceri:prison-law",
+   "rule": "Carceri is the multiverse's prison: getting in is easy, and a prisoner escapes only by becoming stronger than whatever imprisoned him — on a plane whose nature breeds despair, betrayal, and self-hatred. Its six nested orb-layers each devote themselves to a brand of treachery; the named environmental hazards (Porphatys's flesh-melting black snow, Minethys's stinging sands) await their own dice when the layer chapters pour.",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [8], "printed": [6]}],
+   "gap": "per-layer hazard mechanics (black snow damage, sandstorm rules) sit in the layer chapters, not yet distilled — pointer only."
+  },
+  {
+   "law_id": "law:plane-environment:elysium:undead-burn",
+   "rule": "Elysium's positive energy is hostile to undead: any undead creature on the plane takes 2d6 damage per round, immolating entirely at 0 hp.",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [50], "printed": [48]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:plane-environment:elysium:travelers-way",
+   "rule": "The travelers' way: on Elysium, any destination is reachable in hours (a day or two across layers) by those of good and clear conscience — the road itself offers good deeds, and stopping to perform them speeds the journey. The evil, the lazy, and the uncaring wander and get nowhere (which is why fiends who slip in never reach anything worth despoiling).",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [50], "printed": [48]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:plane-environment:limbo:miniflux",
+   "rule": "Even Limbo's stablest regions suffer miniflux: unattended things drift back into chaos. Possessions central to a body's self-image (worn clothes, a swordsman's sword, a mage's spellbook) are maintained automatically by the subconscious; forgotten items (the rope at the bottom of the pack, rarely-used components) may have become something else by the time they're wanted — the DM may call a Wisdom check against miniflux when a long-unused item is produced. (Check kind: Modron D1 family, citing this row.)",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [70], "printed": [66]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:plane-environment:mechanus:common-tongue",
+   "rule": "There is no language barrier within Mechanus: everyone on the plane understands everyone else, whatever they spoke coming in, and mutual incomprehension resumes on leaving. No one knows why.",
+   "witness": [{"component": "ddps-planesoflaw-v", "reflow": [8], "printed": [7]}],
+   "sweep": true
+  },
+  {
+   "law_id": "law:plane-environment:lower-planes:styx-memory",
+   "rule": "The River Styx strips memory along its whole length: a touch or taste forces a save vs. spell or the victim loses knowledge of his past life (even success forgets the past day) — the standard strength on most Lower Planes (Avernus, Nessus, Carceri, the Waste; on Gehenna the print adds loss of ABILITIES unless repelled by an effort of will). In STYGIA the river is at its most potent: the merest drop forces the save at -4 or the victim forgets everything he has ever learned, with a follow-on save vs. paralyzation to keep motor skills and speech. Even powerful magic recovers Styx-lost memories only half the time.",
+   "witness": [
+    {"component": "ddps-planesoflaw-iv", "reflow": [8], "printed": [7]},
+    {"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [29, 11, 47], "printed": [27, 9, 45]}
+   ],
+   "sweep": true
+  }
+ ]
+}

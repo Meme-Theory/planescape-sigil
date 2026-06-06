@@ -1,0 +1,49 @@
+{
+ "_source": {
+  "products": [
+   "Planes of Law (2e, TSR 2607) — booklet ii (Acheron), SEALS AND WARDS section",
+   "In the Cage: A Guide to Sigil (2e, TSR 2609) — Portals chapter"
+  ],
+  "license": "user-purchased official scans — CITE-ONLY: paraphrase distilled against build/ reflow text, no verbatim sentences.",
+  "handoff": "build/family/rule-effect-handoff.md §M3 (2026-06-06) — accepted in MECHANUS.md §10",
+  "frame": "Portal-blocking law: the closed set of magics that hold a portal or gate shut. Full spell mechanics for the two Acheron spells live in law:planar-spell:* (M6); rows here are the governing doctrine. Mimir's portal pour (In the Cage) already witnesses the Sigil half."
+ },
+ "_family": "law:seals-wards",
+ "rows": [
+  {
+   "law_id": "law:seals-wards:sigil-portal-law",
+   "planes": ["sigil"],
+   "rule": "Sigil's portals come in three forms — permanent, temporary, shifting (plus the Hive's one-way ooze portals) — and all answer to the Lady: portals too disruptive to the city's life inevitably disappear, and only the Lady opens new portals in Sigil. A hidden portal is not a closed one: nothing short of strong magic — planar wards or surelock — holds a portal shut.",
+   "witness": [{"component": "ddps-inthecage", "reflow": [10], "printed": [8]}]
+  },
+  {
+   "law_id": "law:seals-wards:planar-wards",
+   "planes": ["sigil"],
+   "rule": "Named in the Sigil portal law as one of the two magics that hold a portal closed. Mechanics are printed in Well of Worlds (TSR 2602) — outside the currently distilled corpus; this row is a pointer, not a spell writeup.",
+   "witness": [{"component": "ddps-inthecage", "reflow": [10], "printed": [8]}],
+   "gap": "Well of Worlds not yet distilled under build/ — mechanics unpoured. When it lands, mint law:planar-spell:planar-ward and link here."
+  },
+  {
+   "law_id": "law:seals-wards:surelock",
+   "planes": ["sigil", "acheron"],
+   "rule": "The stronger of Sigil's two portal-sealing magics (Acheron's gate ward is described as a lesser version of it). Named in both witnesses; its own spell text is not in the currently distilled corpus.",
+   "witness": [
+    {"component": "ddps-inthecage", "reflow": [10], "printed": [8]},
+    {"component": "ddps-planesoflaw-ii", "reflow": [8], "printed": [7]}
+   ],
+   "gap": "surelock's spell block is unpoured (printed in earlier PLANESCAPE material); this row records the doctrine only. Mint law:planar-spell:surelock when its text is distilled."
+  },
+  {
+   "law_id": "law:seals-wards:gate-ward",
+   "planes": ["acheron"],
+   "rule": "Acheron's lesser seal (wizard Abjuration 2, reversible): temporarily shuts any one gate between the cubes for 1 round/level, displaying the caster's seal (or face) on the sealed gate; timed right it bounces a creature entering the gate straight back out. Anonymous versions are rumored, unverified. Full block: law:planar-spell:gate-ward.",
+   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [7, 8], "printed": [6, 7]}]
+  },
+  {
+   "law_id": "law:seals-wards:gate-seal",
+   "planes": ["acheron"],
+   "rule": "Acheron's greater seal (wizard Abjuration 3, reversible): as gate ward but 1 turn/level — and cast over a battlefield it makes all cubehopper spells fail within the battle area. Acheron doctrine: generals seal gates to prevent desertion; these spells are widespread there and little known elsewhere. Full block: law:planar-spell:gate-seal.",
+   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [8], "printed": [7]}]
+  }
+ ]
+}

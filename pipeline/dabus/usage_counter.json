@@ -1,0 +1,38 @@
+{
+  "total_calls": 51,
+  "by_tool": {
+    "list_voices": {
+      "count": 7,
+      "last_called": "2026-06-06T02:55:30+00:00"
+    },
+    "voice_info": {
+      "count": 7,
+      "last_called": "2026-06-06T02:55:30+00:00"
+    },
+    "speak": {
+      "count": 15,
+      "last_called": "2026-06-06T11:28:06+00:00"
+    },
+    "find_renders": {
+      "count": 5,
+      "last_called": "2026-06-06T02:55:36+00:00"
+    },
+    "render_info": {
+      "count": 7,
+      "last_called": "2026-06-06T02:55:37+00:00"
+    },
+    "speak_dialog": {
+      "count": 4,
+      "last_called": "2026-06-06T02:55:36+00:00"
+    },
+    "stack_status": {
+      "count": 3,
+      "last_called": "2026-06-06T02:55:37+00:00"
+    },
+    "usage_stats": {
+      "count": 3,
+      "last_called": "2026-06-06T02:55:37+00:00"
+    }
+  },
+  "last_called": "2026-06-06T11:28:06+00:00"
+}

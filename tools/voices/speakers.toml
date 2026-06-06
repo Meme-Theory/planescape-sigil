@@ -1,0 +1,8 @@
+# dabus casting map — (Mimir speaker entity id) -> (voice pack name).
+# A cast is a DM's creative choice, recastable any time by editing this file.
+# Unknown speakers REFUSE at speak_dialog time — dabus never guesses a voice.
+
+[speakers]
+# PLACEHOLDER cast by the dabus build session (2026-06-05) so the Mimir seam
+# is demonstrable end-to-end — A'kin deserves his own pack; recast at will.
+"npc:uncaged:a-kin" = "grace"

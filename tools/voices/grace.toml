@@ -1,0 +1,33 @@
+# Fall-from-Grace, directed — multi-register voice config for f5-tts_infer-cli.
+# Registers are the same speaker under different reference clips; switch
+# mid-text with [main] / [grace] / [amused] / [stern] tags.
+# Ref transcripts come from the pinned whisper sidecars (see voices/README.md).
+
+model = "F5TTS_v1_Base"
+
+# main = calm counsel (the proven smoke-test ref)
+ref_audio = "C:/sandbox/Planescape/tools/voices/sounds-pst-fallfromgrace/FFG334A.wav"
+ref_text = "Why, I suppose I find it comforting. Besides, I rather like the wings."
+
+gen_text = """
+[main] The portal seals behind you, and the air goes still. Welcome, my friends, to the Dead Nations.
+[grave] This is not a place meant for the living. We are guests here — let us take care not to become residents.
+[amused] Morte... do try to keep your commentary diplomatic. We are surrounded by your kin, after all.
+[stern] Steel out, cutters. The dead have noticed us. Roll for initiative.
+"""
+
+remove_silence = false
+output_dir = "C:/sandbox/Planescape/tools/voices/_renders"
+output_file = "grace_directed.wav"
+
+[voices.grave]
+ref_audio = "C:/sandbox/Planescape/tools/voices/sounds-pst-fallfromgrace/FFG074.wav"
+ref_text = "Cursed is a prison town filled with betrayers and words and deeds. We must take care and watch each other."
+
+[voices.amused]
+ref_audio = "C:/sandbox/Planescape/tools/voices/sounds-pst-fallfromgrace/FFG309.wav"
+ref_text = "Your verbal skills are quite potent. I should have you spend some time at the brothel when we get back."
+
+[voices.stern]
+ref_audio = "C:/sandbox/Planescape/tools/voices/sounds-pst-fallfromgrace/FFG007.wav"
+ref_text = "I cannot allow your evil to continue. Prepare yourself."

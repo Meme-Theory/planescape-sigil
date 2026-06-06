@@ -1,0 +1,35 @@
+# Annah-of-the-Shadows, directed — voice pack (dabus + f5-tts_infer-cli compatible).
+# Refs chosen by the settled-tail doctrine from _pitch_survey.csv (see _refs.md):
+# F5 anchors a render's opening to the ref clip's tail register. Take 3 (main)
+# judged workable by Meme 2026-06-05; the brogue is OOD — if a register drifts,
+# re-roll first (takes are stochastic), then consider the finetune rung.
+
+model = "F5TTS_v1_Base"
+
+# main = level threat, tail -27.7Hz under her median (the proven take-3 ref)
+ref_audio = "sounds-pst-annah/ANA606A.wav"
+ref_text = "You'd better watch yourself, succubus. You step out of line and start hunting for souls, you'll catch my blades."
+
+[voices.saucy]
+# tail -14.8 — "sit in my lap" energy
+ref_audio = "sounds-pst-annah/ANA570C.wav"
+ref_text = "Oh yeah, you trying to sit in my lap, that'll make a grand tale And a short one"
+
+[voices.fedup]
+# tail -13.2 — done with everyone's nonsense
+ref_audio = "sounds-pst-annah/ANA609A.wav"
+ref_text = "I've had enough of you and her. Go on, travel with her then if you like her company. I'll have nothing more to do with you."
+
+[voices.menace]
+# tail +0.0 (rides her median; the grinning-on-a-pike read) — smoother with
+# nfe_step 64 if it runs hot
+ref_audio = "sounds-pst-annah/ANA607C.wav"
+ref_text = "You know, Skull, you're going to be doing your grinning on the tip of a pike one of these days. Aye, and that'll be the least of your worries after I'm through with you."
+
+# The shared mood axis (Mimir dialog registers: main/grave/amused/stern)
+# routed onto Annah's own registers — aliases, disclosed at render time.
+# (Keep LAST: a toml table header captures every key after it.)
+[register_aliases]
+grave = "menace"
+amused = "saucy"
+stern = "fedup"

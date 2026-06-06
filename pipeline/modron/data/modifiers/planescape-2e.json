@@ -1,0 +1,58 @@
+[
+  {
+    "id": "enhanced-school-save-penalty",
+    "label": "Save vs. an enhanced-school spell (-1, Planescape)",
+    "views": ["2e", "2e-planescape"],
+    "applies_to": ["save"],
+    "effects": [{ "op": "sub", "expr": "1" }],
+    "stacking": "named",
+    "source": { "kind": "mechanus", "ref": "law:planar-conditions:* (pending M1 mint; witness: Planes of Chaos TSR 2603 reflow p15/book p11, TABLE II)" },
+    "notes": "On a plane where a school is enhanced, its spells work as if cast one level higher and targets save at -1. WHICH (plane, school) rows are enhanced is law — Mechanus M1's table; the caller asserts the row applies. The caster-level bump itself (e.g. one extra damage die) is spell resolution, not a composable dice modifier — handled at the spec, not here."
+  },
+  {
+    "id": "enhanced-school-protection-bonus",
+    "label": "Save granted by an enhanced protective spell (+1, Planescape)",
+    "views": ["2e", "2e-planescape"],
+    "applies_to": ["save"],
+    "effects": [{ "op": "add", "expr": "1" }],
+    "stacking": "named",
+    "source": { "kind": "mechanus", "ref": "law:planar-conditions:* (pending M1 mint; witness: Planes of Chaos TSR 2603 reflow p15/book p11, TABLE II)" },
+    "notes": "Saving throws made under the protection of an enhanced-school protective spell gain +1. Caller asserts the (plane, school) row per Mechanus M1."
+  },
+  {
+    "id": "spell-key-casting-delay",
+    "label": "Spell key in use (+1 initiative/casting time, Planescape)",
+    "views": ["2e", "2e-planescape"],
+    "applies_to": ["initiative"],
+    "effects": [{ "op": "add", "expr": "1" }],
+    "stacking": "named",
+    "source": { "kind": "mechanus", "ref": "law:planar-conditions:*:spell-keys (pending M2 mint; witness: Planes of Chaos TSR 2603 reflow p15/book p11, TABLE II note)" },
+    "notes": "Most spell keys that restore altered schools add 1 to the spell's initiative/casting time. 2e initiative is low-wins, so +1 is a penalty. Which keys exist where is M2 law; key items are Mimir nodes (keyed_to edges)."
+  },
+  {
+    "id": "wind-madness-frustration",
+    "label": "Wind madness, stage 1 frustration (-1 Wis/Int while exposed)",
+    "views": ["2e-planescape"],
+    "applies_to": ["ability", "proficiency"],
+    "effects": [
+      { "op": "add", "expr": "1", "applies_to": "ability" },
+      { "op": "add", "expr": "1", "applies_to": "proficiency" }
+    ],
+    "stacking": "named",
+    "source": { "kind": "mechanus", "ref": "law:plane-env:pandemonium:madness (pending M5 mint; witness: Planes of Chaos TSR 2603 reflow p89/book p85)" },
+    "notes": "Printed effect: -1 to Wisdom and Intelligence scores while exposed to the noise. Encoded as +1 on the roll-under d20 (success-equivalent: roll+1 <= score == roll <= score-1). Caller asserts the check is Int/Wis-based — Modron executes assertions. Score-driven law beyond checks (spell failure, bonus spells) is Mechanus's lane."
+  },
+  {
+    "id": "wind-madness-despair",
+    "label": "Wind madness, stage 2 despair (+1 attack and damage; auto-surprised)",
+    "views": ["2e-planescape"],
+    "applies_to": ["attack", "damage"],
+    "effects": [
+      { "op": "add", "expr": "1", "applies_to": "attack" },
+      { "op": "add", "expr": "1", "applies_to": "damage" }
+    ],
+    "stacking": "named",
+    "source": { "kind": "mechanus", "ref": "law:plane-env:pandemonium:madness (pending M5 mint; witness: Planes of Chaos TSR 2603 reflow p89/book p85)" },
+    "notes": "Despairing characters fight with desperation: +1 to attack and damage rolls once able to act. They are ALSO automatically surprised in combat even if their group is not — that is an outcome, not a dice effect; the surprise step honors it by assertion."
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "view": "2e",
+  "label": "AD&D 2nd Edition (quotable law: For Gold & Glory; official scans local-only)",
+  "rounding": "down",
+  "crit_effect": "none",
+  "d20_states": {
+    "flat": "1d20",
+    "cancel_to_flat": true,
+    "note": "2e has no advantage machinery; d20_state modifiers are refused with a note"
+  },
+  "hp_from_hd": {
+    "explicit": false,
+    "die": 8,
+    "template": "{n}d8{plus}",
+    "fractional": { "1/2": "1d4", "1/4": "1d2" },
+    "note": "monster HD are d8 (FG&G); '12+24' reads 12d8+24; fractional HD mapping is the standard rendering — provisional until FG&G pours"
+  },
+  "checks": {
+    "attack": {
+      "roll": "1d20",
+      "add": ["hit_bonus"],
+      "d20": true,
+      "vs_template": "thac0 - ac",
+      "params": ["thac0", "ac"],
+      "success_op": ">=",
+      "crit_nat": [20],
+      "fumble_nat": [1],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "derived": { "hits_ac": "thac0 - total" },
+      "notes": "descending AC: you hit AC (THAC0 − roll); nat 20/1 auto rules per FG&G; RAW 2e has no critical damage effect (crit_effect: none)"
+    },
+    "save": {
+      "roll": "1d20",
+      "add": ["save_bonus"],
+      "d20": true,
+      "vs": "target",
+      "success_op": ">=",
+      "categories": ["ppdm", "rsw", "pp", "breath", "spell"],
+      "notes": "save targets come from the class/HD matrices — law (Mechanus/caller supplies the target number)"
+    },
+    "ability": {
+      "roll": "1d20",
+      "vs": "score",
+      "success_op": "<=",
+      "notes": "roll-under: succeed by rolling your ability score or less"
+    },
+    "proficiency": {
+      "roll": "1d20",
+      "add_to_target": ["check_mod"],
+      "vs": "score",
+      "success_op": "<=",
+      "notes": "nonweapon proficiency: roll-under ability, check modifier adjusts the target"
+    },
+    "thief_skill": {
+      "roll": "1d100",
+      "vs": "pct",
+      "success_op": "<="
+    },
+    "percent": {
+      "roll": "1d100",
+      "vs": "pct",
+      "success_op": "<="
+    },
+    "morale": {
+      "roll": "2d10",
+      "vs": "morale",
+      "success_op": "<=",
+      "notes": "holds if 2d10 <= morale rating (A'kin: champion (16))"
+    },
+    "reaction": {
+      "roll": "2d10",
+      "add": ["cha_mod"],
+      "bands": [
+        { "min": 2, "max": 4, "label": "friendly" },
+        { "min": 5, "max": 7, "label": "indifferent" },
+        { "min": 8, "max": 10, "label": "cautious" },
+        { "min": 11, "max": 15, "label": "threatening" },
+        { "min": 16, "max": 99, "label": "hostile" }
+      ],
+      "provisional": true,
+      "notes": "encounter-reaction banding per the common 2e DMG rendering — confirm against For Gold & Glory when it pours"
+    },
+    "surprise": {
+      "roll": "1d10",
+      "vs": 3,
+      "success_op": "<=",
+      "success_means": "surprised",
+      "notes": "1-3 on d10 = surprised; situational mods are law"
+    },
+    "initiative": {
+      "roll": "1d10",
+      "add": ["speed", "mod"],
+      "order": "asc",
+      "notes": "low wins; weapon speed / casting time adds"
+    }
+  },
+  "encounter_doctrine": {
+    "steps": ["check", "table", "number", "hp", "surprise", "distance", "reaction", "initiative", "morale"],
+    "check_default": { "roll": "1d10", "encounter_on": "<=1" },
+    "note": "wandering-encounter doctrine; module set-pieces usually skip 'check' and 'table'; morale arms (never pre-rolls)"
+  },
+  "sources": ["For Gold & Glory (free retroclone, pending pour)", "official 2e scans (user-purchased, local-only)"]
+}

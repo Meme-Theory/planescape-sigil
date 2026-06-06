@@ -1,0 +1,59 @@
+{
+ "_source": "fleet audit of all 334 SRD 5.1 monsters through is_lawful, 2026-06-05; every row adjudicated against the SRD 5.1 PDF print",
+ "attested_deviations": {
+  "lich": [
+   {
+    "check": "skill_bonuses_math",
+    "field": "arcana",
+    "printed": 18,
+    "derivable": [
+     12,
+     19
+    ],
+    "witness": "SRD 5.1 p.325 'Arcana +18'",
+    "reason": "RAW is authoritative; value derives from neither mod+PB nor expertise"
+   }
+  ],
+  "night-hag": [
+   {
+    "check": "skill_bonuses_math",
+    "field": "deception|insight|perception|stealth",
+    "printed": {
+     "deception": 7,
+     "insight": 6,
+     "perception": 6,
+     "stealth": 6
+    },
+    "witness": "SRD 5.1 p.319 'Deception +7, Insight +6, Perception +6, Stealth +6'",
+    "reason": "none of the four derive (legal {5,8}/{6,9}); known WotC math quirk, print-attested"
+   }
+  ],
+  "priest": [
+   {
+    "check": "skill_bonuses_math",
+    "field": "religion",
+    "printed": 4,
+    "derivable": [
+     3,
+     5
+    ],
+    "witness": "SRD 5.1 p.401 'Religion +4'",
+    "reason": "RAW is authoritative; +4 derives from nothing"
+   }
+  ]
+ },
+ "upstream_5e_bits_bugs": {
+  "spider": "passive_perception keyed 12; print p.389 reads 10 (derives from WIS 10)",
+  "blink-dog": "passive_perception keyed 10; print p.368 reads 13 (= 10 + printed Perception +3)",
+  "black-bear": "Skills row dropped; print p.367 has 'Perception +3' (passive 13 then derives)",
+  "swarm-of-ravens": "Skills row dropped; print p.391 has 'Perception +5' (passive 15 then derives)",
+  "half-red-dragon-veteran": "Skills rows dropped (same pattern; MM Athletics +5/Perception +2) \u2014 print verification pending",
+  "halved_xp": [
+   "dretch",
+   "riding-horse",
+   "deep-gnome-svirfneblin",
+   "brass-dragon-wyrmling"
+  ]
+ },
+ "policy": "attested deviations get curated waivers (gate applies via known_waivers); upstream bugs stay flagged \u2014 they are real transcription errors and the whole point of the check"
+}

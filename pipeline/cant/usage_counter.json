@@ -1,0 +1,30 @@
+{
+  "total_calls": 93,
+  "by_tool": {
+    "cant_info": {
+      "count": 10,
+      "last_called": "2026-06-06T11:26:05+00:00"
+    },
+    "transmute": {
+      "count": 43,
+      "last_called": "2026-06-06T11:26:05+00:00"
+    },
+    "decode": {
+      "count": 9,
+      "last_called": "2026-06-06T11:26:05+00:00"
+    },
+    "suggest_terms": {
+      "count": 18,
+      "last_called": "2026-06-06T11:26:05+00:00"
+    },
+    "examples": {
+      "count": 9,
+      "last_called": "2026-06-06T11:26:05+00:00"
+    },
+    "voiceover": {
+      "count": 4,
+      "last_called": "2026-06-06T11:26:05+00:00"
+    }
+  },
+  "last_called": "2026-06-06T11:26:05+00:00"
+}

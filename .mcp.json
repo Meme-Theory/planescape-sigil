@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "mimir": {
+      "type": "stdio",
+      "command": "C:\\Users\\ryan\\AppData\\Local\\Programs\\Python\\Launcher\\py.exe",
+      "args": ["-3.13", "pipeline/mimir/server.py"],
+      "cwd": "C:\\sandbox\\Planescape",
+      "env": {}
+    },
+    "modron": {
+      "type": "stdio",
+      "command": "C:\\Users\\ryan\\AppData\\Local\\Programs\\Python\\Launcher\\py.exe",
+      "args": ["-3.13", "pipeline/modron/server.py"],
+      "cwd": "C:\\sandbox\\Planescape",
+      "env": {}
+    },
+    "mechanus": {
+      "type": "stdio",
+      "command": "C:\\Users\\ryan\\AppData\\Local\\Programs\\Python\\Launcher\\py.exe",
+      "args": ["-3.13", "pipeline/mechanus/server.py"],
+      "cwd": "C:\\sandbox\\Planescape",
+      "env": {}
+    },
+    "dabus": {
+      "type": "stdio",
+      "command": "C:\\sandbox\\Planescape\\tools\\f5-venv\\Scripts\\python.exe",
+      "args": ["pipeline/dabus/server.py"],
+      "cwd": "C:\\sandbox\\Planescape",
+      "env": {}
+    },
+    "cant": {
+      "type": "stdio",
+      "command": "C:\\Users\\ryan\\AppData\\Local\\Programs\\Python\\Launcher\\py.exe",
+      "args": ["-3.13", "pipeline/cant/server.py"],
+      "cwd": "C:\\sandbox\\Planescape",
+      "env": {}
+    }
+  }
+}

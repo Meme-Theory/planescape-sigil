@@ -1,0 +1,95 @@
+{
+ "_source": {
+  "2e": "For Gold & Glory (free 2e retroclone) — decided 2e RAW, MECHANUS.md §10",
+  "method": "80 (Hit Dice, THACO) pairs harvested from bestiary pp.301-384, 2026-06-05; brackets fit canonical 2e monster table with plus-bump",
+  "warrior_table": "FG&G p.27 Table 3.3 (THACO 21-level) — monsters advance on the bracket table below"
+ },
+ "brackets": [
+  [
+   0,
+   0.99,
+   20
+  ],
+  [
+   1,
+   2,
+   19
+  ],
+  [
+   3,
+   4,
+   17
+  ],
+  [
+   5,
+   6,
+   15
+  ],
+  [
+   7,
+   8,
+   13
+  ],
+  [
+   9,
+   10,
+   11
+  ],
+  [
+   11,
+   12,
+   9
+  ],
+  [
+   13,
+   14,
+   7
+  ],
+  [
+   15,
+   16,
+   5
+  ],
+  [
+   17,
+   99,
+   3
+  ]
+ ],
+ "plus_bump": {
+  "rule": "HD bonus of +3 or more counts as the next bracket",
+  "evidence": "6+3→13, 8+8→11, 4+3→15, 7+3→13 all observed"
+ },
+ "_evidence": {
+  "pairs": 80,
+  "fit_after_fraction_fix": "~94%",
+  "outliers_recorded": [
+   {
+    "hd": "13",
+    "thaco": 8,
+    "n": 2
+   },
+   {
+    "hd": "20",
+    "thaco": 5,
+    "n": 1
+   },
+   {
+    "hd": "7",
+    "thaco": 11,
+    "n": 1
+   },
+   {
+    "hd": "10",
+    "thaco": 10,
+    "n": 1
+   },
+   {
+    "hd": "3+3",
+    "thaco": 15,
+    "n": 1
+   }
+  ],
+  "note": "harvest regex initially swallowed '1/2' as '1'; fractional-HD monsters are the <1 bracket (20). severity: soft — 2e prints deviate by author intent."
+ }
+}

@@ -1,0 +1,72 @@
+{
+  "view": "5e-2014",
+  "label": "D&D 5th Edition, 2014 rules (SRD 5.1, CC-BY-4.0)",
+  "rounding": "down",
+  "crit_effect": "double_dice",
+  "d20_states": {
+    "flat": "1d20",
+    "advantage": "2d20kh1",
+    "disadvantage": "2d20kl1",
+    "cancel_to_flat": true,
+    "upgrades": { "elven_accuracy": { "from": "advantage", "to": "3d20kh1" } }
+  },
+  "hp_from_hd": { "explicit": true, "note": "5e statblocks print the formula, e.g. 16d10+48" },
+  "printed_average_rule": "floor_of_mean",
+  "checks": {
+    "attack": {
+      "roll": "1d20",
+      "add": ["attack_bonus"],
+      "d20": true,
+      "vs": "ac",
+      "success_op": ">=",
+      "crit_nat": [20],
+      "fumble_nat": [1],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true
+    },
+    "save": {
+      "roll": "1d20",
+      "add": ["save_bonus"],
+      "d20": true,
+      "vs": "dc",
+      "success_op": ">="
+    },
+    "check": {
+      "roll": "1d20",
+      "add": ["mod"],
+      "d20": true,
+      "vs": "dc",
+      "success_op": ">="
+    },
+    "initiative": {
+      "roll": "1d20",
+      "add": ["dex_mod", "bonus"],
+      "d20": true,
+      "order": "desc"
+    },
+    "death_save": {
+      "roll": "1d20",
+      "d20": true,
+      "vs": 10,
+      "success_op": ">=",
+      "crit_nat": [20],
+      "fumble_nat": [1],
+      "notes": "nat 20 = regain 1 hp; nat 1 = two failures (law detail — Mechanus's lane; flags surfaced here)"
+    },
+    "percent": {
+      "roll": "1d100",
+      "vs": "pct",
+      "success_op": "<="
+    },
+    "recharge": {
+      "roll": "1d6",
+      "vs": "threshold",
+      "success_op": ">="
+    }
+  },
+  "encounter_doctrine": {
+    "steps": ["number", "hp", "initiative"],
+    "note": "5e encounters are budget-built (XP thresholds are law — SRD 5.1 has no budget tables; see MECHANUS.md §3 licensing note); the dice part is HP + initiative."
+  },
+  "sources": ["SRD 5.1 (CC-BY-4.0)"]
+}

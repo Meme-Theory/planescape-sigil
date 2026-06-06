@@ -1,0 +1,94 @@
+{
+  "view": "2e-planescape",
+  "extends": "2e",
+  "label": "AD&D 2e — Planescape setting view (plane-scoped check kinds over the 2e base; sources are official TSR scans: CITE-ONLY, mechanics paraphrased with page witnesses)",
+  "setting": "planescape",
+  "checks": {
+    "limbo_casting": {
+      "roll": "1d20",
+      "vs": "score",
+      "success_op": "<=",
+      "fumble_nat": [20],
+      "nat_fumble_auto_misses": true,
+      "notes": [
+        "Limbo wizard casting test: roll-under the caster's Intelligence to cast ANY wizard spell on the plane (Planes of Chaos, TSR 2603, reflow p70/book p66). Pass params {score: Int}.",
+        "Failure: the spell is lost from memory. Failed in the primal soup: a wild surge occurs automatically. Failed on stable terrain: wild surge only on a natural 20, otherwise no effect.",
+        "Natural 20 always fails AND sparks a wild surge regardless of terrain (reflow p72/book p68) — reported as fumble.",
+        "Wild-magic school riders (reflow p72/book p68): on a SUCCESSFUL wild-magic cast roll level variation (Tome of Magic table — not in corpus); in the soup roll level variation TWICE and apply the more extreme (tie: 1d6 picks); wild magic cast in the soup always sparks a surge even on success.",
+        "Priest spells are not subject to this test (reflow p68/book p64).",
+        "Outcome matrix identity: lkp:2e:limbo:spellcasting-outcomes (TABLE V). Law lane: pending Mechanus M1 mint (law:planar-conditions:limbo:*)."
+      ]
+    },
+    "limbo_alteration": {
+      "roll": "1d100",
+      "add": ["spell_level"],
+      "sub": ["caster_level"],
+      "bands": [
+        { "min": -999, "max": 20, "label": "no special effect" },
+        { "min": 21, "max": 40, "label": "slightly modified appearance" },
+        { "min": 41, "max": 60, "label": "slightly modified appearance and properties" },
+        { "min": 61, "max": 80, "label": "moderately modified appearance and properties" },
+        { "min": 81, "max": 999, "label": "highly modified appearance and properties" }
+      ],
+      "notes": [
+        "Limbo alteration drift (TABLE IV, Planes of Chaos TSR 2603, reflow p70/book p66): when a spell that creates matter or changes shape/form SUCCEEDS (limbo_casting passed), roll 1d100 + spell level - caster level and read the band.",
+        "Pass params {spell_level, caster_level}. The exact result is the DM's, guided by the caster's intention.",
+        "Table identity lives here (its roll carries caster arithmetic a bare roll_table cannot); Mimir points used_at plane:limbo at this kind."
+      ]
+    },
+    "limbo_miniflux": {
+      "roll": "1d20",
+      "vs": "score",
+      "success_op": "<=",
+      "notes": [
+        "Miniflux upkeep check (Planes of Chaos TSR 2603, reflow p70/book p66): when a character reaches for an item unused for some time, the DM may call a Wisdom check — roll-under. Pass params {score: Wis}.",
+        "Failure: the item has drifted — dissolved or become something else (DM adjudicates). Worn clothes and constantly-handled possessions are maintained automatically by self-image.",
+        "Even stable regions of Limbo are subject to miniflux."
+      ]
+    },
+    "wind_madness": {
+      "roll": "1d20",
+      "vs": "target",
+      "success_op": ">=",
+      "notes": [
+        "Pandemonium wind-madness save (Planes of Chaos TSR 2603, reflow p88-89/book p84-85): save vs. paralyzation, cadence DM-called — typically daily; hourly in particularly noisy regions; none in shelter (sleep may still call one). Save targets are law: Mechanus/caller supplies {target}.",
+        "Failure: advance ONE stage on the four-stage track — 1 frustration, 2 despair, 3 hysteria, 4 resignation. Plane-dwellers sit at stage four.",
+        "Stage 1 frustration: -1 Wis and Int while exposed to the noise (modifier wind-madness-frustration).",
+        "Stage 2 despair: automatically surprised in combat; once able to act, +1 to attack and damage (modifier wind-madness-despair).",
+        "Stage 3 hysteria: on the failed save the sod runs amok for minutes equal to the margin of failure (target - total), then collapses helpless — no fighting or casting; in shelter behaves as stage 2.",
+        "Stage 4 resignation: a personal quirk/phobia/mania — roleplay, no fixed dice.",
+        "No permanent cure short of wish; symptoms remit off-plane and revert in full on return. Law lane: pending Mechanus M5 mint (law:plane-env:pandemonium:madness)."
+      ]
+    },
+    "styx_memory": {
+      "roll": "1d20",
+      "vs": "target",
+      "success_op": ">=",
+      "notes": [
+        "River Styx ingestion save, Pandemonium headwaters (Planes of Chaos TSR 2603, reflow p87/book p83): swallowing Styx water calls a save vs. spell. Save targets are law: Mechanus/caller supplies {target}.",
+        "Failure: the past life is forgotten entirely and permanently — spells, class abilities, alignment included.",
+        "SUCCESS STILL COSTS: the entire past day is forgotten.",
+        "In Pandemonium specifically, merely touching the water has no effect (deeper planes differ — their rows arrive with their books)."
+      ]
+    },
+    "wasting_contraction": {
+      "roll": "1d100",
+      "vs": 10,
+      "success_op": "<=",
+      "success_means": "contracted the Wasting",
+      "notes": [
+        "The Wasting — contraction check, Oinos surface, the Gray Waste (Planes of Conflict Liber Malevolentiae, TSR 2615, reflow p53/book p51): 10% chance per day spent walking the layer's surface.",
+        "Progression is diceless: drains 1 point EACH from Str, Con, Dex, and Cha per day; death only when all four reach 0; cure disease ends it.",
+        "Realm exception: Abbathor's Glitterhell admits no disease (reflow p53).",
+        "Law lane: pending Mechanus M5 mint (law:plane-env:gray-waste:wasting). Hope-drain carries no stated dice in the witness — prose color, Mimir's lane."
+      ]
+    }
+  },
+  "sources": [
+    "Planes of Chaos (TSR 2603) — official scan, cite-only; mechanics paraphrased, reflow pages cited",
+    "Planes of Conflict (TSR 2615) — official scan, cite-only",
+    "In the Cage: A Guide to Sigil (TSR 2609) — official scan, cite-only (registry entries)",
+    "The Inner Planes (TSR 2634) — official scan, cite-only (registry entries)",
+    "Planes of Law (TSR 2607) — official scan, cite-only (registry entries)"
+  ]
+}

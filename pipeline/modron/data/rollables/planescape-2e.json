@@ -1,0 +1,340 @@
+[
+  {
+    "id": "lkp:2e:limbo:terrain-maintenance",
+    "label": "Limbo terrain maintenance capacity (TABLE III)",
+    "kind": "lookup",
+    "used_at": ["plane:limbo"],
+    "source": { "product": "Planes of Chaos (TSR 2603)", "page": "reflow p68 / book p64", "cite_only": true },
+    "rows": [
+      { "key": "score 0", "area": "none", "terrain": "none" },
+      { "key": "score 1-4", "area": "10 feet per attribute point", "terrain": "simple (flat meadow)" },
+      { "key": "score 5-10", "area": "10 yards per attribute point", "terrain": "complex (hills, trees, streams)" },
+      { "key": "score 11-18", "area": "100 yards per attribute point", "terrain": "artificial (buildings, streets)" },
+      { "key": "score 19+", "area": "1 mile per attribute point", "terrain": "complex buildings, includes native animals" }
+    ],
+    "notes": "Keyed by Intelligence (conscious maintenance) or Wisdom (trained anarchs, unconscious). While concentrating: no spells, no attacks, no proficiencies, and the Dex bonus to AC is lost (anarchs excepted). Diceless lookup — served, never rolled."
+  },
+  {
+    "id": "lkp:2e:limbo:spellcasting-outcomes",
+    "label": "Spellcasting in Limbo outcome matrix (TABLE V)",
+    "kind": "lookup",
+    "used_at": ["plane:limbo"],
+    "source": { "product": "Planes of Chaos (TSR 2603)", "page": "reflow p72 / book p68", "cite_only": true },
+    "rows": [
+      { "key": "non-wild, Int test passed", "stable_terrain": "spell succeeds", "soup": "spell succeeds" },
+      { "key": "non-wild, Int test failed", "stable_terrain": "spell fails; wild surge on a natural 20", "soup": "spell fails; wild surge occurs" },
+      { "key": "wild magic, Int test passed", "stable_terrain": "succeeds; roll level variation (Tome of Magic)", "soup": "succeeds; roll level variation TWICE, apply the more extreme (tie: 1d6 picks); any surge result fires" },
+      { "key": "wild magic, Int test failed", "stable_terrain": "spell fails; wild surge occurs", "soup": "spell fails; wild surge occurs" }
+    ],
+    "notes": "The rolling door is the 2e-planescape check kind limbo_casting (+ limbo_alteration for matter-shaping drift). Wild magic in the soup always surges, success or no. Level-variation table itself is Tome of Magic — not in corpus; the roll-twice-take-extreme law is the Planescape delta."
+  },
+  {
+    "id": "spc:2e:limbo:guidon-malfunction",
+    "label": "Guidon-compass trinket malfunction (per day in the soup)",
+    "kind": "spec",
+    "used_at": ["plane:limbo"],
+    "source": { "product": "Planes of Chaos (TSR 2603)", "page": "reflow p68 / book p64", "cite_only": true },
+    "spec": { "purpose": "percent", "check": { "kind": "percent", "params": { "pct": 5 } }, "label": "guidon trinket malfunction (5%/day, not cumulative)" },
+    "notes": "Trinkets with permanent locate object sometimes wander when deep in the soup: 5% per day, not cumulative; the owner is led astray a while before it locks back on."
+  },
+  {
+    "id": "spc:2e:limbo:divination-interference",
+    "label": "Divination interference in Limbo (save vs. paralyzation)",
+    "kind": "spec",
+    "used_at": ["plane:limbo"],
+    "source": { "product": "Planes of Chaos (TSR 2603)", "page": "reflow p72 / book p68", "cite_only": true },
+    "spec": { "purpose": "save", "check": { "kind": "save", "params": {} }, "label": "divination portent reading (save vs. paralyzation)", "needs": ["target (save matrices are law — Mechanus/caller supplies)"] },
+    "notes": "Cast divinations face the plane's tumult on top of the casting test: the caster saves vs. paralyzation; failure reads as chaos — no information gained. Pending Mechanus M1 mint (law:planar-conditions:limbo:divination)."
+  },
+  {
+    "id": "spc:2e:limbo:illusion-becomes-real",
+    "label": "Illusion/Phantasm becoming permanently real in Limbo",
+    "kind": "spec",
+    "used_at": ["plane:limbo"],
+    "source": { "product": "Planes of Chaos (TSR 2603)", "page": "reflow p72 / book p68", "cite_only": true },
+    "requires_confirmation": true,
+    "spec": { "purpose": "percent", "check": { "kind": "percent", "params": { "pct": 10 } }, "label": "illusion becomes fully, permanently real (10%)" },
+    "notes": "Each Illusion/Phantasm cast on Limbo has a chance of the effect turning real for good. OCR reads the figure as 'IOOfo' — transcribed 10% (the digit-pair reading); requires_confirmation against the print before it matters at the table."
+  },
+  {
+    "id": "tbl:2e:sigil:slags-vortex-type",
+    "label": "The Slags: vortex type (secret 1d4)",
+    "kind": "table",
+    "used_at": ["location:sigil:the-slags"],
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p120 / book p115", "cite_only": true },
+    "table": {
+      "name": "Slags vortex type",
+      "dice": "1d4",
+      "entries": [
+        { "roll": "1-3", "result": "true vortex: acts as a portal to the Prime — anything touching the edge teleports, all touchers to the SAME DM-chosen Prime locale" },
+        { "roll": "4", "result": "object-vortex: teleports inanimate objects only; a creature touching the edge is hurled straight up 1d6 x 10 feet — falling damage applies (1d6 per 10 feet)" }
+      ]
+    },
+    "notes": "DM rolls in SECRET when the party spots a vortex. Both types look identical: a flat spiral of spinning red mist, 10-20 feet across, hovering ~3 feet up. Duration spec: spc:2e:sigil:slags-vortex-duration; hurl height table: tbl:2e:sigil:slags-vortex-hurl. Mimir's portal node carries this witness already."
+  },
+  {
+    "id": "spc:2e:sigil:slags-vortex-duration",
+    "label": "Slags vortex duration (turns)",
+    "kind": "spec",
+    "used_at": ["location:sigil:the-slags"],
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p120 / book p115", "cite_only": true },
+    "spec": { "purpose": "duration", "expr": "3d6", "label": "vortex lasts (turns)" }
+  },
+  {
+    "id": "tbl:2e:sigil:slags-vortex-hurl",
+    "label": "Slags object-vortex hurl (height + falling dice)",
+    "kind": "table",
+    "used_at": ["location:sigil:the-slags"],
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p120 / book p115", "cite_only": true },
+    "table": {
+      "name": "Slags vortex hurl height",
+      "dice": "1d6",
+      "entries": [
+        { "roll": "1", "result": "hurled 10 feet up — fall for 1d6" },
+        { "roll": "2", "result": "hurled 20 feet up — fall for 2d6" },
+        { "roll": "3", "result": "hurled 30 feet up — fall for 3d6" },
+        { "roll": "4", "result": "hurled 40 feet up — fall for 4d6" },
+        { "roll": "5", "result": "hurled 50 feet up — fall for 5d6" },
+        { "roll": "6", "result": "hurled 60 feet up — fall for 6d6" }
+      ]
+    },
+    "notes": "The print states 10-60 (1d6 x 10) feet with standard falling damage (1d6 per 10 feet) — enumerated here so one roll yields both height and the damage expression."
+  },
+  {
+    "id": "spc:2e:sigil:ooze-portal-save",
+    "label": "Hive ooze portal: touch save (vs. spell)",
+    "kind": "spec",
+    "used_at": ["location:sigil:hive-ward"],
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p107 / book p105", "cite_only": true },
+    "spec": { "purpose": "save", "check": { "kind": "save", "params": {} }, "label": "touched an ooze puddle (save vs. spell)", "needs": ["target (save matrices are law — Mechanus/caller supplies)"] },
+    "notes": "Puddles ~2 feet across, faint amber glow, last about a week, one-way to the Paraelemental Plane of Ooze, one victim at a time, rarely more than a dozen in the Hive. Fail: the body softens and is sucked in — helpless (no climbing out, no casting). Nonliving matter vanishes on contact, no save."
+  },
+  {
+    "id": "spc:2e:sigil:ooze-portal-rescue",
+    "label": "Hive ooze portal: rescuer's Dexterity check at -2",
+    "kind": "spec",
+    "used_at": ["location:sigil:hive-ward"],
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p107 / book p105", "cite_only": true },
+    "spec": { "purpose": "ability", "check": { "kind": "proficiency", "params": { "check_mod": -2 } }, "label": "rescue grab without touching the puddle (Dex check at -2)", "needs": ["score (rescuer's Dex)"] },
+    "notes": "Each rescuer checks Dex at -2 (the penalty is the care not to touch the puddle). Roll-under: check_mod adjusts the target. Alternative outs: dispel magic frees instantly; a single rescuer with Str 15+ making a Str check pulls the victim free; helpers with combined Str 25+ free the victim automatically."
+  },
+  {
+    "id": "spc:2e:sigil:ooze-portal-vanish",
+    "label": "Hive ooze portal: rounds until the victim vanishes",
+    "kind": "spec",
+    "used_at": ["location:sigil:hive-ward"],
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p107 / book p105", "cite_only": true },
+    "spec": { "purpose": "duration", "expr": "1d4+1", "label": "victim vanishes in (rounds)" },
+    "notes": "Unrescued victims vanish in 2-5 rounds, reappearing at a random spot on the Paraelemental Plane of Ooze."
+  },
+  {
+    "id": "spc:2e:sigil:ooze-portal-recovery",
+    "label": "Hive ooze portal: freed victim's recovery (rounds)",
+    "kind": "spec",
+    "used_at": ["location:sigil:hive-ward"],
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p107 / book p105", "cite_only": true },
+    "spec": { "purpose": "duration", "expr": "1d4", "label": "body returns to normal in (rounds)" },
+    "notes": "A freed victim's misshapen body recovers in 1-4 rounds; all actions impossible during recovery. Gas rider: twice/day each puddle vents a 20-foot cloud acting as stinking cloud, dissipating in 3 rounds (DM-timed, no dice). Mephit grab rider: a snagged victim pulls free on a successful Str check; the arm (AC 6) withdraws if dealt 1+ damage; an unresisting victim is dragged in within 1d2 rounds."
+  },
+  {
+    "id": "dmg:2e:inner:ash-pocket",
+    "label": "Ash pocket — heat drain (per round, contact)",
+    "kind": "spec",
+    "used_at": ["plane:inner"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p15", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d6", "label": "ash pocket heat drain / round" },
+    "notes": "Open flame ignites the pocket: everyone inside or within 10 feet saves vs. breath weapon or takes 5d6 (dmg:2e:inner:ash-ignition). Cites pending Mechanus M7 (Inner Planes survival law)."
+  },
+  {
+    "id": "dmg:2e:inner:ash-ignition",
+    "label": "Ash pocket ignition burst",
+    "kind": "spec",
+    "used_at": ["plane:inner"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p15", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "5d6", "label": "ash pocket ignites (save vs. breath weapon for none stated — failed save takes it)" }
+  },
+  {
+    "id": "dmg:2e:inner:dust-pocket",
+    "label": "Dust pocket — abrasion (per round)",
+    "kind": "spec",
+    "used_at": ["plane:inner"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p15", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d4", "label": "dust pocket abrasion / round" },
+    "notes": "Also obscures vision and threatens choking."
+  },
+  {
+    "id": "dmg:2e:inner:fire-pocket",
+    "label": "Fire pocket — unprotected (per round)",
+    "kind": "spec",
+    "used_at": ["plane:inner"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p15", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d20", "label": "fire pocket, unprotected / round" }
+  },
+  {
+    "id": "dmg:2e:inner:ice-pocket",
+    "label": "Ice pocket — unprotected (per round)",
+    "kind": "spec",
+    "used_at": ["plane:inner"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p15", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d4", "label": "ice pocket cold / round" }
+  },
+  {
+    "id": "dmg:2e:inner:magma-pocket",
+    "label": "Magma pocket — proximity while hot (per round)",
+    "kind": "spec",
+    "used_at": ["plane:inner"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p16", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d12", "label": "magma pocket heat / round" },
+    "notes": "Once cooled it reads as an earth pocket; 25% chance something lairs on/in the hardened rock."
+  },
+  {
+    "id": "dmg:2e:inner:salt-pocket",
+    "label": "Salt pocket — crystal storm or moving through the vein (per round)",
+    "kind": "spec",
+    "used_at": ["plane:inner"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p16", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d4", "label": "salt pocket / round" },
+    "notes": "Storm form also stings eyes — visibility halved. Vein form draws moisture; open fresh water must save vs. acid (as a potion) or be ruined."
+  },
+  {
+    "id": "dmg:2e:inner:smoke-pocket",
+    "label": "Smoke pocket — choking (per round on a failed save)",
+    "kind": "spec",
+    "used_at": ["plane:inner"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p17", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d6", "label": "smoke pocket choking / round (failed save)" },
+    "notes": "A save is owed each round of exposure; visibility halved, infravision dead."
+  },
+  {
+    "id": "dmg:2e:inner:water-whirlpool",
+    "label": "Plane of Water — whirlpool battering (per round)",
+    "kind": "spec",
+    "used_at": ["plane:water"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p54", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d6", "label": "whirlpool battering / round" },
+    "notes": "Escape to the fringe needs a successful bend bars/lift gates roll. Whirlpools are fleeting but may linger for years."
+  },
+  {
+    "id": "spc:2e:inner:positive-energy-gain",
+    "label": "Positive Energy Plane — hp gain (per round, unprotected)",
+    "kind": "spec",
+    "used_at": ["plane:positive-energy"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p62", "cite_only": true },
+    "spec": { "purpose": "healing", "expr": "2d6", "label": "positive energy infusion / round" },
+    "notes": "Wounded heal; the healthy gain the points as extra vigor lasting 2d10 turns after leaving. THE TRAP: when the running total reaches DOUBLE the normal maximum, the sod is annihilated in a burst of light. Unprotected travelers also need no air, food, or water — the energy sustains."
+  },
+  {
+    "id": "spc:2e:inner:positive-energy-vigor",
+    "label": "Positive Energy Plane — vigor duration after leaving (turns)",
+    "kind": "spec",
+    "used_at": ["plane:positive-energy"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p62", "cite_only": true },
+    "spec": { "purpose": "duration", "expr": "2d10", "label": "excess vigor lasts (turns)" }
+  },
+  {
+    "id": "dmg:2e:inner:negative-energy-drain",
+    "label": "Negative Energy Plane — life leech (per round, unprotected)",
+    "kind": "spec",
+    "used_at": ["plane:negative-energy"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p66", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "2d6", "label": "negative energy leech / round" },
+    "notes": "Drains until 0 hp — the body withers, dies, and rises transformed (undeath; the law side is M7's)."
+  },
+  {
+    "id": "dmg:2e:inner:ice-paraplane-cold",
+    "label": "Paraelemental Ice — exposure (per round, unprotected)",
+    "kind": "spec",
+    "used_at": ["plane:ice"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p71", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d6", "label": "ice paraplane cold / round (no immunity/protection)" },
+    "notes": "Serious nonmagical cold-weather gear mitigates per the print's terms; deep regions bite THROUGH immunity (dmg:2e:inner:ice-deep-cold)."
+  },
+  {
+    "id": "dmg:2e:inner:ice-deep-cold",
+    "label": "Paraelemental Ice, deep regions — cold that ignores immunity (per round)",
+    "kind": "spec",
+    "used_at": ["plane:ice"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p71", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d6", "label": "deep ice cold / round (even cold-immune)" },
+    "notes": "Where even ice freezes; new ice forms ~a foot a minute underfoot."
+  },
+  {
+    "id": "lkp:2e:inner:magma-ambient-by-ac",
+    "label": "Paraelemental Magma — ambient heat by armor class (per round)",
+    "kind": "lookup",
+    "used_at": ["plane:magma"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p77", "cite_only": true },
+    "rows": [
+      { "key": "AC 4 to 2", "expr": "4d8" },
+      { "key": "AC 1 to -1", "expr": "3d8" },
+      { "key": "AC -2 to -4", "expr": "2d8" },
+      { "key": "AC -5 to -7", "expr": "1d8" },
+      { "key": "AC -8 to -10", "expr": "none" }
+    ],
+    "notes": "Read the row by AC, then roll the expr with roll_damage. Riders on the same page: above the lava surface = half damage; a ring of fire protection or protection from fire caps it at a flat 10/round; unprotected nonvolcanic stone melts in 5 rounds (3d10 to anyone in close contact); nonmagical metal hits melting point in 4 rounds (4d4 to anyone in contact, heat metal limb effects); bursting steam clouds 2d10; flesh saves vs. magical fire at -1 where the print calls for it."
+  },
+  {
+    "id": "dmg:2e:inner:scald-heat",
+    "label": "Scald (Magma/Air border) — heat (per round, no save)",
+    "kind": "spec",
+    "used_at": ["plane:magma", "plane:air"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p87", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d10", "label": "Scald region heat / round (no saving throw)" }
+  },
+  {
+    "id": "dmg:2e:inner:hoarfrost-cold",
+    "label": "Hoarfrost (Steam/Ice border) — frozen mist (per round)",
+    "kind": "spec",
+    "used_at": ["plane:steam", "plane:ice"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p105", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d4", "label": "Hoarfrost cold / round" }
+  },
+  {
+    "id": "dmg:2e:inner:salt-dehydration",
+    "label": "Quasiplane of Salt — dehydration (per round, unprotected)",
+    "kind": "spec",
+    "used_at": ["plane:salt"],
+    "source": { "product": "The Inner Planes (TSR 2634)", "page": "reflow p120", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "2d6", "label": "salt dehydration / round (no magical protection)" }
+  },
+  {
+    "id": "dmg:2e:acheron:freefloat-landing",
+    "label": "Acheron free-floating portal — uncontrolled landing",
+    "kind": "spec",
+    "used_at": ["plane:acheron"],
+    "source": { "product": "Planes of Law (TSR 2607), Acheron booklet", "page": "reflow p5", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "20d6", "label": "drawn to the nearest cube — landing impact" },
+    "notes": "Free-floating portals hang at fixed points while cubes orbit; an arriving walker drifts to the nearest large block and lands hard. Flight negates. Cube COLLISIONS carry no dice in the witness — nearing cubes are seen a day or two out (prose; crush is absolute). D8 amended accordingly."
+  },
+  {
+    "id": "enc:2e:sigil:harmonium-patrol",
+    "label": "Harmonium foot patrol (Sigil)",
+    "kind": "encounter",
+    "used_at": ["location:sigil", "faction:harmonium"],
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p21 / book p19", "cite_only": true },
+    "encounter": {
+      "number_appearing": "2-4",
+      "creature": { "name": "Harmonium watchman (Pl/var/F1-3/Harmonium/L)" },
+      "steps": ["number", "surprise", "distance", "reaction", "initiative"]
+    },
+    "notes": "Patrols of 2-4 watchmen, fighters of level 1-3 (roll 1d3 per watchman; hp by class HD — F: d10/level via parse_class_hp). At least one carries a planar mancatcher (spc:2e:sigil:mancatcher-*). No printed morale — the spec omits it rather than invent one. They never enter the Hive."
+  },
+  {
+    "id": "spc:2e:sigil:mancatcher-struggle",
+    "label": "Planar mancatcher — struggling in the jaws (per round)",
+    "kind": "spec",
+    "used_at": ["faction:harmonium", "item:planar-mancatcher"],
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p21 / book p19", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d2", "label": "struggle damage / round" },
+    "notes": "To-hit: target counts as AC 10, Dex bonuses apply, armor/magic don't (displacement excepted); L/M/S targets only. Caught: shield and Dex AC bonuses lost; 25% chance per round of struggle of being pulled to the ground; controller with leverage can drag the victim about. Break free: bend bars/lift gates, +1d2 damage for the attempt."
+  },
+  {
+    "id": "spc:2e:sigil:mancatcher-shift-shock",
+    "label": "Planar mancatcher — plane-shift attempt shock",
+    "kind": "spec",
+    "used_at": ["faction:harmonium", "item:planar-mancatcher"],
+    "source": { "product": "In the Cage: A Guide to Sigil (TSR 2609)", "page": "reflow p21 / book p19", "cite_only": true },
+    "spec": { "purpose": "damage", "expr": "1d10", "label": "shift attempt shock (each attempt)" },
+    "notes": "Any plane-shift attempt (innate, magical, item) fires it. Rider: per point of shock damage, a cumulative 1% chance (within one entrapment) of being knocked unconscious — after rolling N total shock points, check percent <= N."
+  }
+]

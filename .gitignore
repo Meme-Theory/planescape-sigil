@@ -1,0 +1,56 @@
+# ═══════════════════════════════════════════════════════════════════════
+# Data law (CLAUDE.md) enforced at the git boundary.
+# Default-deny on content/, build/, tools/ — named whitelists only.
+# Pushing is publishing: local-only material NEVER ships, even to a
+# private remote (purchased PDFs, official extractions, PST voice rips,
+# dabus renders, the D&D Beyond inbox).
+# ═══════════════════════════════════════════════════════════════════════
+
+# ── Python / tooling cruft ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+Thumbs.db
+.claude/settings.local.json
+
+# ── D&D Beyond browser-save inbox: user-purchased, local-only ───────────
+D&D Beyond/
+
+# ── content/ corpus (5.2G): freely OBTAINED ≠ freely REDISTRIBUTABLE ────
+# content/official/ is purchased PDFs — never redistributed, full stop.
+# The rest (SRDs, retroclones, fan archives, wiki exports) is re-gatherable
+# via the _meta scripts. Only the provenance charter, the inventory, and
+# the hand-written gather tooling are versioned.
+content/**
+!content/README.md
+!content/INDEX.md
+!content/_meta/
+!content/_meta/**
+content/_meta/tmp/
+content/_meta/*.json
+
+# ── build/ (267M): derived — pipelines rebuild it from content/ ─────────
+# Per-book extraction trees hold the FULL TEXT + images of purchased
+# official PDFs (book.md, reflow/page-*.txt, images/) — local-only.
+# Whitelisted: hand-authored records that survive every rebuild.
+build/**
+!build/**/
+!build/mimir/curations.json
+!build/family/*.md
+!build/mechanus/vnv-report.md
+!build/mechanus/conversion-prior-art.md
+!build/modron/vnv/*.json
+!build/encounters/**
+
+# ── tools/ (6.3G): voice stack — venv, models, clones, rips stay local ──
+# f5-venv (interpreter), F5-TTS (nested clone; patch map lives in README),
+# minilm (ONNX), sounds-* (PST rips — living actors, local-only lane law),
+# _renders/. Whitelisted: the venv/patch map, onboarding scripts, and the
+# hand-tuned voice-pack + cast TOMLs.
+tools/**
+!tools/README.md
+!tools/*.py
+!tools/voices/
+!tools/voices/*.toml
+!tools/voices/README.md

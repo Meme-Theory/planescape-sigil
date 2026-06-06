@@ -1,0 +1,33 @@
+{
+ "_source": {
+  "5e-2014": "SRD 5.1 p.77 'Typical Difficulty Classes' (CC-BY-4.0)",
+  "5e-2024": "SRD 5.2.1 p.6 'Typical Difficulty Classes' (CC-BY-4.0)",
+  "extracted": "2026-06-05, pypdf text layer, both PDFs on disk"
+ },
+ "ladder": [
+  {
+   "task": "Very easy",
+   "dc": 5
+  },
+  {
+   "task": "Easy",
+   "dc": 10
+  },
+  {
+   "task": "Medium",
+   "dc": 15
+  },
+  {
+   "task": "Hard",
+   "dc": 20
+  },
+  {
+   "task": "Very hard",
+   "dc": 25
+  },
+  {
+   "task": "Nearly impossible",
+   "dc": 30
+  }
+ ]
+}

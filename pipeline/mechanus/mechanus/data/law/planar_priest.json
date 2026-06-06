@@ -1,0 +1,39 @@
+{
+ "_source": {
+  "products": [
+   "Planes of Law / Planes of Chaos / Planes of Conflict (2e) — the conditions and POWER KEYS sections passim presuppose and apply this frame"
+  ],
+  "license": "user-purchased official scans — CITE-ONLY: paraphrase distilled against build/ reflow text, no verbatim sentences.",
+  "handoff": "build/family/rule-effect-handoff.md §M4 (2026-06-06) — accepted in MECHANUS.md §10",
+  "frame": "Priest magic on the planes runs on proximity to the granting power: sphere access degrades away from the power's home, and power keys are the sanctioned restoration. The boxes APPLY this law per plane rather than restating it — the precise distance ladder is printed in the campaign box (A DM Guide to the Planes), which is not yet distilled."
+ },
+ "_family": "law:planar-priest",
+ "rows": [
+  {
+   "law_id": "law:planar-priest:off-home-penalty",
+   "rule": "Priests casting on a plane that is not their power's home suffer the standard penalties for doing so — the boxes treat this as settled background law (Baator's divination text invokes it verbatim-by-reference: priests 'suffer the same penalties as always' off their power's plane).",
+   "witness": [{"component": "ddps-planesoflaw-iv", "reflow": [8], "printed": [7]}],
+   "gap": "the penalty ladder itself (sphere access by distance-from-power, by spell level) is campaign-box law (2600, A DM Guide to the Planes) — not yet distilled under build/; this row witnesses the frame, not the table. Joint pour candidate alongside M7."
+  },
+  {
+   "law_id": "law:planar-priest:power-key-restoration",
+   "rule": "A power key restores a priest's curtailed sphere access while planewalking: keys are deity-granted, usually sphere-specific (most often the granting power's specialty), conditional on the power's continued favor, and commonly time-limited or revocable. Every box applies this rule plane-by-plane — the per-plane grant policies, spheres, and shapes live in law:planar-keys:<plane>:power.",
+   "witness": [
+    {"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [49], "printed": [47]},
+    {"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [33], "printed": [31]},
+    {"component": "ddps-planesoflaw-v", "reflow": [10], "printed": [9]}
+   ]
+  },
+  {
+   "law_id": "law:planar-priest:granted-spheres-examples",
+   "rule": "Attested sphere grants (the data behind the frame): Gray Waste keys restore a single sphere, the asking power's specialty (a Greek cleric's Healing sphere in Pluton, by Hades's leave); gnomish keys on Bytopia grant Major access to Protection and Elemental; Ilmater's grant All/Healing/Protection; Kiri-Jolith's grant All/Combat/Healing/Sun for a quest; Acheron's army keys cover Combat, Guardian, Healing, Necromancy, Protection, War; Baator's commonly Charm, Combat, Necromantic, Law, Thought, War, Wards; Limbo's powers favor Charm, Creation, Elemental (Fenmarel: Weather); Pandemonium's favor Charm, Guardian, Necromantic; Ysgard's release the granting power's interest (Thor's weather key exclusive to his faithful).",
+   "witness": [
+    {"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [49], "printed": [47]},
+    {"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [33], "printed": [31]},
+    {"component": "ddps-planesoflaw-ii", "reflow": [8], "printed": [7]},
+    {"component": "ddps-planesoflaw-iv", "reflow": [8], "printed": [7]},
+    {"component": "tsr2603-planes-of-chaos", "reflow": [73, 94, 110], "printed": [69, 90, 106]}
+   ]
+  }
+ ]
+}

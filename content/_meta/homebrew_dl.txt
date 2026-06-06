@@ -1,0 +1,21 @@
+book/MCDM Productions; Arcadia Issue 1.json
+book/MCDM Productions; Arcadia Issue 10.json
+book/MCDM Productions; Arcadia Issue 11.json
+book/MCDM Productions; Arcadia Issue 19.json
+book/MCDM Productions; Arcadia Issue 2.json
+book/MCDM Productions; Arcadia Issue 20.json
+book/MCDM Productions; Arcadia Issue 21.json
+book/MCDM Productions; Arcadia Issue 27.json
+book/MCDM Productions; Arcadia Issue 3.json
+book/MCDM Productions; Arcadia Issue 4.json
+book/MCDM Productions; Arcadia Issue 5.json
+book/MCDM Productions; Arcadia Issue 6.json
+book/MCDM Productions; Arcadia Issue 7.json
+book/MCDM Productions; Arcadia Issue 8.json
+book/MCDM Productions; Arcadia Issue 9.json
+collection/badooga; Carceri - Into the Depths.json
+creature/Acheron; Dante's Inferno.json
+creature/Bruce R. Cordell; Planar Bestiary.json
+creature/Chris Avellone; Planescape Torment Bestiary.json
+creature/Kobold Press; Warlock 29 Planar Bestiary.json
+optionalfeature/Sandwichbear; Notes from the Far Realm.json

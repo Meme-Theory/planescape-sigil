@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bless-2e",
+    "label": "Bless (+1 to attack rolls)",
+    "views": ["2e"],
+    "applies_to": ["attack"],
+    "effects": [{ "op": "add", "expr": "1" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "2e:phb:spell:bless (FG&G cite pending pour)" },
+    "notes": "provisional cite — re-anchor to For Gold & Glory when poured"
+  },
+  {
+    "id": "curse-2e",
+    "label": "Curse (-1 to attack rolls)",
+    "views": ["2e"],
+    "applies_to": ["attack"],
+    "effects": [{ "op": "sub", "expr": "1" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "2e:phb:spell:bless-reversed (FG&G cite pending)" }
+  },
+  {
+    "id": "weapon-specialization",
+    "label": "Weapon specialization (+1 hit / +2 damage)",
+    "views": ["2e"],
+    "applies_to": ["attack", "damage"],
+    "effects": [
+      { "op": "add", "expr": "1", "applies_to": "attack" },
+      { "op": "add", "expr": "2", "applies_to": "damage" }
+    ],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "2e:phb:specialization (FG&G cite pending)" },
+    "notes": "split-purpose effects: the semantic layer applies only the matching purpose"
+  },
+  {
+    "id": "rear-attack",
+    "label": "Attack from the rear (+2 to hit)",
+    "views": ["2e"],
+    "applies_to": ["attack"],
+    "effects": [{ "op": "add", "expr": "2" }],
+    "stacking": "untyped",
+    "source": { "kind": "core", "ref": "2e:dmg:combat-modifiers (FG&G cite pending)" }
+  },
+  {
+    "id": "higher-ground",
+    "label": "Higher ground (+1 to hit)",
+    "views": ["2e"],
+    "applies_to": ["attack"],
+    "effects": [{ "op": "add", "expr": "1" }],
+    "stacking": "untyped",
+    "source": { "kind": "core", "ref": "2e:dmg:combat-modifiers (FG&G cite pending)" }
+  },
+  {
+    "id": "magic-weapon-plus",
+    "label": "Magic weapon +{n} (hit and damage)",
+    "views": ["2e"],
+    "applies_to": ["attack", "damage"],
+    "effects": [{ "op": "add", "expr": "{n}" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "2e:dmg:magic-items (FG&G cite pending)" },
+    "notes": "pass params: {n: 1..5}"
+  }
+]

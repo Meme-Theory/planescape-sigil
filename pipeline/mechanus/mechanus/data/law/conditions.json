@@ -1,0 +1,47 @@
+{
+ "_source": {
+  "both": "5e-bits v5.9.0 Conditions.json per ruleset; closed sets per REVIEW-5E §C"
+ },
+ "conditions": {
+  "5e-2014": [
+   "Blinded",
+   "Charmed",
+   "Deafened",
+   "Exhaustion",
+   "Frightened",
+   "Grappled",
+   "Incapacitated",
+   "Invisible",
+   "Paralyzed",
+   "Petrified",
+   "Poisoned",
+   "Prone",
+   "Restrained",
+   "Stunned",
+   "Unconscious"
+  ],
+  "5e-2024": [
+   "Blinded",
+   "Charmed",
+   "Deafened",
+   "Exhaustion",
+   "Frightened",
+   "Grappled",
+   "Incapacitated",
+   "Invisible",
+   "Paralyzed",
+   "Petrified",
+   "Poisoned",
+   "Prone",
+   "Restrained",
+   "Stunned",
+   "Unconscious"
+  ]
+ },
+ "senses": [
+  "blindsight",
+  "darkvision",
+  "tremorsense",
+  "truesight"
+ ]
+}

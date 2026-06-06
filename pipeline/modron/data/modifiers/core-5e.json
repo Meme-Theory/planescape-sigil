@@ -1,0 +1,161 @@
+[
+  {
+    "id": "bless",
+    "label": "Bless (+1d4 to attacks and saves)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["attack", "save"],
+    "effects": [{ "op": "add", "expr": "1d4" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:spell:bless" },
+    "notes": "concentration; same-name effects don't stack"
+  },
+  {
+    "id": "bane",
+    "label": "Bane (-1d4 to attacks and saves)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["attack", "save"],
+    "effects": [{ "op": "sub", "expr": "1d4" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:spell:bane" }
+  },
+  {
+    "id": "guidance",
+    "label": "Guidance (+1d4 to one ability check)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["check"],
+    "effects": [{ "op": "add", "expr": "1d4" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:spell:guidance" }
+  },
+  {
+    "id": "bardic-inspiration",
+    "label": "Bardic Inspiration (+1dX; die size by bard level)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["attack", "save", "check"],
+    "effects": [{ "op": "add", "expr": "1d{die}" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:class:bard" },
+    "notes": "pass params: {die: 6|8|10|12}"
+  },
+  {
+    "id": "advantage",
+    "label": "Advantage (asserted by caller/DM/Mechanus)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["attack", "save", "check", "initiative"],
+    "effects": [{ "op": "d20_state", "state": "advantage" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:using-ability-scores" }
+  },
+  {
+    "id": "disadvantage",
+    "label": "Disadvantage (asserted by caller/DM/Mechanus)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["attack", "save", "check", "initiative"],
+    "effects": [{ "op": "d20_state", "state": "disadvantage" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:using-ability-scores" }
+  },
+  {
+    "id": "elven-accuracy",
+    "label": "Elven Accuracy (advantage becomes 3d20kh1)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["attack", "check", "save"],
+    "effects": [{ "op": "d20_upgrade", "key": "elven_accuracy" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "xgte:feat:elven-accuracy (not SRD — flagged; encode-by-table if held)" },
+    "notes": "only upgrades an existing advantage; Dex/Int/Wis/Cha attacks per its text (law: Mechanus)"
+  },
+  {
+    "id": "halfling-luck",
+    "label": "Halfling Luck (reroll natural 1 on the d20, once)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["attack", "save", "check"],
+    "effects": [{ "op": "reroll", "cmp": "=1", "once": true, "scope": "d20" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:race:halfling:lucky" }
+  },
+  {
+    "id": "great-weapon-fighting",
+    "label": "Great Weapon Fighting (reroll 1s and 2s on damage dice, once each)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["damage"],
+    "effects": [{ "op": "reroll", "cmp": "<=2", "once": true, "scope": "damage" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:class:fighter:fighting-style" }
+  },
+  {
+    "id": "reliable-talent",
+    "label": "Reliable Talent (treat d20 rolls of 9 or lower as 10)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["check"],
+    "effects": [{ "op": "min_die", "value": 10, "scope": "d20" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:class:rogue:reliable-talent" }
+  },
+  {
+    "id": "brutal-critical",
+    "label": "Brutal Critical (+{n} weapon die on a crit)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["damage"],
+    "effects": [{ "op": "extra_crit_dice", "expr": "{n}d{die}", "applies_when": "crit" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:class:barbarian:brutal-critical" },
+    "notes": "pass params: {n: 1..3, die: weapon die size}"
+  },
+  {
+    "id": "sneak-attack",
+    "label": "Sneak Attack (+{n}d6 damage)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["damage"],
+    "effects": [{ "op": "add", "expr": "{n}d6" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:class:rogue:sneak-attack" },
+    "notes": "pass params: {n: by rogue level}; the extra dice DO double on a crit — compose under crit()"
+  },
+  {
+    "id": "resistance",
+    "label": "Damage resistance (half damage, round down)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["damage"],
+    "effects": [{ "op": "div_total", "by": 2 }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:damage-resistance" }
+  },
+  {
+    "id": "vulnerability",
+    "label": "Damage vulnerability (double damage)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["damage"],
+    "effects": [{ "op": "mult_total", "by": 2 }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:damage-vulnerability" }
+  },
+  {
+    "id": "archery",
+    "label": "Archery fighting style (+2 ranged attack)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["attack"],
+    "effects": [{ "op": "add", "expr": "2" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:class:fighter:fighting-style" }
+  },
+  {
+    "id": "dueling",
+    "label": "Dueling fighting style (+2 damage, one-handed)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["damage"],
+    "effects": [{ "op": "add", "expr": "2" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:class:fighter:fighting-style" }
+  },
+  {
+    "id": "rage-damage",
+    "label": "Rage (+{n} melee damage)",
+    "views": ["5e-2014", "5e-2024"],
+    "applies_to": ["damage"],
+    "effects": [{ "op": "add", "expr": "{n}" }],
+    "stacking": "named",
+    "source": { "kind": "core", "ref": "srd5.1:class:barbarian:rage" },
+    "notes": "pass params: {n: 2|3|4 by level}"
+  }
+]

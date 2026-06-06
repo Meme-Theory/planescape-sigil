@@ -1,0 +1,10 @@
+{
+  "view": "5e-2024",
+  "extends": "5e-2014",
+  "label": "D&D 5th Edition, 2024 rules (SRD 5.2.1, CC-BY-4.0)",
+  "sources": ["SRD 5.2.1 (CC-BY-4.0)"],
+  "notes": [
+    "Dice conventions are unchanged from 5e-2014 at this layer; rule-text deltas (weapon mastery, exhaustion, hiding) are law, i.e. Mechanus's lane.",
+    "SRD 5.2.1 p.202 carries XP budget math (CC-clean) — encounter_budget itself lives in Mechanus; Modron only rolls what the budget summons."
+  ]
+}

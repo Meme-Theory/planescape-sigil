@@ -1,0 +1,31 @@
+{
+ "_source": {
+  "products": ["In the Cage: A Guide to Sigil (2e, TSR 2609)"],
+  "license": "user-purchased official scan — CITE-ONLY: paraphrase distilled against build/ reflow text, no verbatim sentences.",
+  "handoff": "build/family/rule-effect-handoff.md §M8 (2026-06-06) — accepted in MECHANUS.md §10: only the color with mechanical teeth pours here; the rest stays Mimir prose.",
+  "frame": "Sigil's legal machinery as it bears on play. Sigil is not a plane — it rides the id scheme as slug 'sigil'. The planar mancatcher's full dice block is Modron's D9 lane; its governing values are recorded here as the law those specs cite."
+ },
+ "_family": "law:cage",
+ "rows": [
+  {
+   "law_id": "law:cage:plane-shift-ban",
+   "rule": "Spell- and item-based plane shifting does not work in the Cage. Creatures with innate/natural shifting (githyanki, githzerai...) stay 'slippery' — but can shift only to another spot WITHIN Sigil, never to another plane.",
+   "witness": [{"component": "ddps-inthecage", "reflow": [21], "printed": [19]}]
+  },
+  {
+   "law_id": "law:cage:harmonium-patrol",
+   "rule": "The Harmonium keeps its idea of the peace with 2-4-strong watch patrols on foot (Pl/var/F1-3/Harmonium/L). Doctrine: everyone obeys orders; arguing or explaining yourself reads as defiance, which is cause enough for arrest. Every patrol carries at least one planar mancatcher (a +2 rune-engraved mancatcher built to hold shifters: hits as if vs. AC 10 with Dex bonuses applying, L/M/S targets only; a caught victim loses shield and Dex AC bonuses, takes 1d2 per round of struggle with a 25% chance of being pulled down, escapes only on a bend bars/lift gates roll at 1d2 more damage; every plane-shift attempt in the jaws deals 1d10 damage with a cumulative 1%-per-point knockout chance). Patrols never enter the Hive. Feared, not respected.",
+   "witness": [{"component": "ddps-inthecage", "reflow": [21], "printed": [19]}]
+  },
+  {
+   "law_id": "law:cage:execution",
+   "rule": "Mercykiller executions in the Petitioners' Square run three ways — the noose, the blade, the Wyrm — and the condemned always gets a short speech first. The NOOSE serves deserters, embezzlers, murderers, and escaped slaves; a garnish to the hangman buys the side-knot that snaps the spine clean, while the back-knot means slow strangulation. The BLADE is reserved for nobles and powerful faction members (crimes like trying to close a portal to the Outlands, withholding city taxes, libeling the Lady), using Sigil's two pointless executioner's swords, Scythe and Raven — and BY LAW, if the executioner fails to kill in three strokes, the criminal is pardoned and freed. The WYRM is for traitors to the city only (dabus-slayers, revealers of secret gates, those who toll the Lady's portals) — a declared public holiday. Sentences execute promptly (the whole show usually inside 15 minutes after the speeches); the dead are displayed on pikes, the worst in iron cages for the executioner's ravens.",
+   "witness": [{"component": "ddps-inthecage", "reflow": [23], "printed": [21]}]
+  },
+  {
+   "law_id": "law:cage:garnish",
+   "rule": "Sigil runs on garnish (bribes), and the rates are near-codified. Factions that take it: Athar, Godsmen, Ciphers, Fated, Sensates, Dustmen, Signers, Mercykillers, Doomguard; Bleakers and Chaosmen only in a receptive humor; among Guvners only the evil ones; Free League and Revolutionary League never. The Harmonium takes it dressed as 'a fee or fine' — wait for the officer to name one, then pay at least DOUBLE to keep him bought (volunteering a 'donation' uninvited risks reading as an insult). Advocates ask outright — never pay more than a third of the demand (typical asks start at 20 gp). Priests: at least 4-5 silvers as a donation (wealth-god priests want more). Servants: only at hiring or for special favors, never more than 20 gp. Clerks and scribes: small garnishes buy big favors (too much gold makes them nervous; luxury goods work). Guild artisans: 10% as a 'token of esteem' to jump the queue. Underpaying a body's perceived worth is a guaranteed insult.",
+   "witness": [{"component": "ddps-inthecage", "reflow": [20], "printed": [18]}]
+  }
+ ]
+}

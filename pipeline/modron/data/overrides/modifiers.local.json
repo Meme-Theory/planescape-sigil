@@ -1,0 +1,25 @@
+[
+  {
+    "id": "spire-proximity",
+    "label": "Spire proximity (magic dampening: -2)",
+    "views": [
+      "2e"
+    ],
+    "applies_to": [
+      "attack",
+      "check"
+    ],
+    "effects": [
+      {
+        "op": "sub",
+        "expr": "2"
+      }
+    ],
+    "notes": "house dice tech for Outlands rings — V&V demo",
+    "stacking": "named",
+    "source": {
+      "kind": "table",
+      "ref": "local-overlay"
+    }
+  }
+]

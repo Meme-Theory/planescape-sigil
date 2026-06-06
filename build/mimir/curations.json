@@ -1,0 +1,16 @@
+{
+  "_doc": "Adjudication ledger — vision/human rulings applied at Mimir's gate and preserved across every rebuild (merge_curated). Keyed by entity id; `set` patches dot-paths into the envelope; `adjudication` is the provenance of the ruling; `waivers` downgrade a named HARD check with a page witness (a check that legitimately doesn't apply to this entity).",
+  "npc:uncaged:cirily": {
+    "set": { "fields.descriptor.level_hd": "7+10" },
+    "adjudication": { "by": "vision", "loc": "uncaged:p22", "was": "740",
+      "note": "OCR fused 7+10 -> 740 (ate the +); hp 44 is lawful under 7d8+10 = [17,66]" }
+  },
+  "npc:uncaged:patch": {
+    "waivers": [
+      { "check": "statblock_fields", "witness": "uncaged:p78",
+        "reason": "sentient razorvine: a stationary plant (MV 0) legitimately has no magic resistance, morale, or size in the usual sense; the printed block is AC 5 / hp 45 (9 vines) / THAC0 20 / Dmg 1d3-1d4 / SD regrowth+immunities / Int 10 / XP 97 — complete for its kind at 8 fields, below the 10-field monster floor." }
+    ],
+    "adjudication": { "by": "vision", "loc": "uncaged:p78",
+      "note": "roster entry (contents p78); thin-but-complete plant block, not an extraction miss. Waives the monster-floor schema check only." }
+  }
+}

@@ -1,0 +1,258 @@
+{
+ "_source": {
+  "products": [
+   "Planes of Law (2e, TSR 2607) — per-plane booklets ii (Acheron), iii (Arcadia), iv (Baator), v (Mechanus), vi (Mount Celestia)",
+   "Planes of Chaos (2e, TSR 2603) — single book, per-plane chapters",
+   "Planes of Conflict (2e, TSR 2615) — Liber Benevolentiae (Beastlands, Bytopia, Elysium) + Liber Malevolentiae (Carceri, Gehenna, Gray Waste)"
+  ],
+  "license": "user-purchased official scans (content/official/) — CITE-ONLY: every rule below is a paraphrase distilled against the build/ reflow text; no verbatim sentences. Witness pages are reflow page indexes (build/<book>/<component>/reflow/page-NNNN.txt), with printed page given where the footer was legible.",
+  "handoff": "build/family/rule-effect-handoff.md §M1 (2026-06-06) — accepted in MECHANUS.md §10",
+  "method": "hand-distilled from the cited MAGICAL CONDITIONS sections, 2026-06-06; per-plane school rules verified against each page read in full. Dice deltas remain Modron's lane (handoff §D2) — rows here are the governing law those modifiers cite."
+ },
+ "_family": "law:planar-conditions",
+ "_id_scheme": "plane row = law:planar-conditions:<mimir-plane-slug>; school sub-id = law:planar-conditions:<slug>:<school-key> (synthesized by the accessor — slugs match Mimir's plane:* ids so the exhibits join is a suffix match)",
+ "_general": [
+  {
+   "law_id": "law:planar-conditions:general:planar-pathway-keys",
+   "rule": "On the Outer Planes, wizard spells that rely on a pathway to the Ethereal or Inner Planes do not function without a specific spell key (no invisible stalker, no energy drain, etc.). In particular conjure elemental never brings a true Inner-Planes elemental: with the right key it yields a pseudoelemental drawn from the plane itself (pseudoelemental rules: Planes of Chaos box).",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [7], "printed": [5]}]
+  },
+  {
+   "law_id": "law:planar-conditions:general:petitioner-immunity",
+   "rule": "Petitioners are beyond the reach of the healing arts and of necromancy alike — neither touches them at all.",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [7], "printed": [5]}]
+  },
+  {
+   "law_id": "law:planar-conditions:general:school-alteration-legend",
+   "rule": "The boxes' School Alterations tables grade each (plane, school) cell: unaltered; altered (see the plane's text); DIMINISHED (all spells function one level lower; spells above 4th level cannot be cast); ENHANCED (all spells operate as if cast one level higher; targets save at -1, saves against protective enhanced spells gain +1); or NULL (the school simply does not function; keys may restore it). Spell keys may allow altered spells to function normally; most keys add 1 to the spell's initiative or casting time.",
+   "witness": [
+    {"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [7], "printed": [5]},
+    {"component": "tsr2603-planes-of-chaos", "reflow": [15], "printed": [11]}
+   ],
+   "ocr_note": "the per-cell symbol matrix in both printings is OCR-scrambled in the reflow (bullet glyphs collapse); cells are NOT machine-attested here — the per-plane prose sections below carry the attested substance. Verify any single cell against the print before citing it as the table."
+  }
+ ],
+ "planes": {
+  "acheron": {
+   "law_id": "law:planar-conditions:acheron",
+   "plane": "plane:acheron",
+   "witness": [{"component": "ddps-planesoflaw-ii", "reflow": [6, 7], "printed": [5, 6]}],
+   "general": "Every magical action has an equal opposite reaction somewhere on the plane: each spell spawns a frozen 'reflection' crystal (ioun-stone-like) at the moment of effect, which can be captured (spectral hand, any Bigby's hand, certain magical gloves) and used to undo the originating magic so long as no death was involved. Reflections last 1 hour per spell level. Casting with material or somatic components is impossible while two cubes collide (reverberations last up to an hour).",
+   "schools": {
+    "necromancy": {"rule": "Raising undead armies works well. Otherwise necromancy hinges on relative life force: if the caster's level/HD exceeds the target's, the spell works; if weaker, the spell reverses and redoubles on the caster, draining hit points equal to twice the failed spell's level."},
+    "wild-magic": {"rule": "Sharply reduced: wild mages lose two levels of spellcasting ability (including spell slots); range, duration and other factors reduce accordingly; memorization at the lower level; wild surges do not occur on Acheron. Normal ability returns on leaving."},
+    "conjuration-summoning": {"rule": "Summoned creatures must obey the letter of any command (no refusal, however suicidal), but for each creature summoned the caster must provide a petitioner or planar as a magical hostage who trades places with it. The intended hostage saves vs. death magic to avoid it; if the hostage saves, the caster must save vs. death magic or be drawn in instead; if both save, the summoning fails; if the caster is pulled in, the creature arrives unrestrained."},
+    "elemental": {"rule": "Earth magic has no effect on the iron cubes. Air magic works only on cube surfaces and fails within them. Fire magic affects everything — near fire the cubes' iron reacts as heat metal across 10 feet per level of the fire spell. Water magic works normally inside cubes; on surfaces it only rusts the iron in a 10-foot-per-level radius."},
+    "divination": {"rule": "Divinations can never spy on opposing forces (anything of military significance; civilians and small-stakes targets unaffected). Omens are common, skew toward the worst result, and always apply to the caster's entire group."}
+   }
+  },
+  "arcadia": {
+   "law_id": "law:planar-conditions:arcadia",
+   "plane": "plane:arcadia",
+   "witness": [{"component": "ddps-planesoflaw-iii", "reflow": [7, 8], "printed": [6, 7]}],
+   "general": "All spells are ritualized, taking twice as long to cast. Spells not cast for the good of more than one person can simply fail — the caster's frame of mind governs, and selfish intent kills the magic (some evil mages train to mask their thoughts). Creatures native to the plane (not petitioners) are wholly immune to illusions/phantasms unless cast by a power or a peer; the plane's natural animals resist prime-cast summon/control spells entirely (planar casters work normally).",
+   "schools": {
+    "conjuration-summoning": {"rule": "Noble/greater-good purpose: automatically the best possible result, and summoned creatures serve willingly. Selfish or anti-plane purpose: the weakest result is guaranteed and summoned creatures fight the caster's control whenever they can."},
+    "divination": {"rule": "Only divinations determining the course of a group larger than four are effective; cast for smaller parties they reveal nothing (unless the spell is inherently single-target)."},
+    "enchantment-charm": {"rule": "Every target of a charm-type spell (charm, suggestion, geas, etc.) gets an automatic saving throw — or +2 on the save if one is normally allowed. If the target saves, the caster must save vs. spell (unmodified) or fall under the intended victim's sway. Item-enchanting spells are unchanged."},
+    "illusion-phantasm": {"rule": "Illusions always carry some feature revealing them as false (not always immediately apparent). Plane natives (not petitioners) see through them at once; everyone else saves vs. spell at -2.", "ocr_note": "the -2 is as printed in the reflow; a penalty on the disbelief save reads counter to the plane's anti-deception flavor — verify against the print before high-stakes use."},
+    "necromancy": {"rule": "Necromancy promoting common weal/health is twice as effective. Raise-dead and killing spells work only for the common good (defense of a town, conquest in good's name for the many); otherwise they fail badly — summoned/animated undead turn on the summoner and harmful spells rebound on the caster."},
+    "wild-magic": {"rule": "Nullifying effect: wild magic casts as if the caster were two levels lower (range/duration/memorization reduced accordingly); wild surges do not occur. Normal ability returns on leaving."},
+    "elemental": {"rule": "Casters attuned to the land (LN leaning good, or LG leaning neutral) double their elemental spells' effectiveness; other non-chaotic, non-evil casters work normally; chaotic or evil casters' elemental spells fail entirely."}
+   }
+  },
+  "baator": {
+   "law_id": "law:planar-conditions:baator",
+   "plane": "plane:baator",
+   "witness": [{"component": "ddps-planesoflaw-iv", "reflow": [7, 8], "printed": [6, 7]}],
+   "general": "Illusion and phantasm spells suffer no penalties — deception is survival law in the Nine Hells.",
+   "schools": {
+    "conjuration-summoning": {"rule": "Conjuration requires a rigorous ritual including a binding cast on the summoned creature. Verifying the binding takes a successful Spellcraft proficiency roll (or Intelligence check at -5 without it); an imperfect binding leaves the creature free of obligation — and stranded on Baator, likely venting on the caster."},
+    "divination": {"rule": "Results always arrive grim, framed in the worst possible light (with a kernel of truth — this is a plane of law). Casting divination always attracts something bad; roaming fiends are drawn to it. Priests also suffer the usual off-home-plane casting penalties."},
+    "necromancy": {"rule": "Life-granting/healing necromancy performs badly: the caster saves vs. spell or the spell fails. Necromancy causing damage, pain, or controlling undead is cast as if one level higher."},
+    "wild-magic": {"rule": "Wild mages are reduced by one level per layer of depth (a 5th-level wild mage in Dis, the 2nd layer, casts as 3rd level; on Stygia, the 5th, not at all) while keeping their proficiency slots. All wild-magic effects above 4th level simply fail. Spells are not forgotten (a cast attempt still expends the spell); normal outside the plane."},
+    "elemental": {"rule": "Varies by layer, DM-adjudicated: Avernus favors fire and earth; Phlegethos makes water-based spells extremely difficult; Cania intensifies water and air but fire is impossible there without a spell key."}
+   }
+  },
+  "mechanus": {
+   "law_id": "law:planar-conditions:mechanus",
+   "plane": "plane:mechanus",
+   "witness": [{"component": "ddps-planesoflaw-v", "reflow": [8, 10], "printed": [7, 9]}],
+   "general": "Too rigid a plane to leave magic unchanged: wild magic and illusion are nullified outright, and the other schools bend to the gears.",
+   "schools": {
+    "conjuration-summoning": {"rule": "Anything summoned is a perfect slave — and only lawful creatures answer. Obedience scales with alignment affinity: chaotic or opposed casters get letter-only compliance with zero inference; similar alignments get reasonable interpretation; identical alignments get full-effort service, the creature even asking the caster's exact intent."},
+    "divination": {"rule": "Divinations cast by a chaotic being have no effect; those cast by a lawful being work normally."},
+    "illusion-phantasm": {"rule": "Entirely nullified — the illusion does not even manifest."},
+    "necromancy": {"rule": "All necromantic spells (healing included) require a piece of the caster's own body, paid as hit points given up by spell level: 1st=1, 2nd=4, 3rd=8, 4th=12, 5th=16, 6th=20, 7th=24, 8th=28, 9th=32. (The necromantic spell key waives the flesh price — see planar-keys.)"},
+    "wild-magic": {"rule": "Wild magic does not exist here — the school is wholly null, and the attempt itself draws the law's protectors down on the caster."},
+    "elemental": {"rule": "Each element demands a ritual gesture: air — breathe across the components (or palm); earth — cast native Mechanus dirt into the air (cog-wheel dust counts; Nemausus is the true source); fire — strike a spark from one of the cogs during casting; water — spray water into the air from a leather waterskin."}
+   }
+  },
+  "mount-celestia": {
+   "law_id": "law:planar-conditions:mount-celestia",
+   "plane": "plane:mount-celestia",
+   "witness": [{"component": "ddps-planesoflaw-vi", "reflow": [5, 6], "printed": [4, 5]}],
+   "general": "Most magic works, but spells of chaos, disruption, and evil fail utterly — the named casualties (alphabetically): blur, chaos, confusion, contagion, delude, demand, distance distortion, enervation, fool's gold, misdirection, mislead, trap the soul, plus every Chaos-sphere spell. Purity of spirit gates all casting: a cumulative -10% spell-failure penalty per alignment step from lawful good (counted orthogonally on the grid) — LG 0%, NG/LN -10%, CG/N/LE -30%, CN/NE -60%, CE -90% (even a chaotic evil caster keeps a 10% chance).",
+   "schools": {
+    "conjuration-summoning": {"rule": "Conjured lawful creatures serve faithfully to the letter; good creatures serve willingly and never turn on a deserving caster. Chaotic, evil, or true-neutral creatures can be summoned only with the right keys and resist service — they gain an extra saving throw for every action demanded in the cause of Good. Evil or chaotic mages cannot compel any summoned creature at all."},
+    "divination": {"rule": "All divinations are true — falsehood cannot survive the mountain, so false divinations fail (bad news still arrives intact). The loophole: obscured alignments, altered auras, undetectable lies, and glibness-fueled speech also register as absolutely true."},
+    "necromancy": {"rule": "Life-enhancing necromancy is twice as effective (restoration restores two levels; doubled durations; hold undead affects double the targets). Killing spells rebound and reverse: the intended target's strength doubles (double HD and damage, AC improves by 1)."},
+    "wild-magic": {"rule": "Reduced one level per layer (a 5th-level wild mage on the 2nd layer casts as 3rd, with 5th-level slots; on the 5th layer not at all); wild-magic effects above 4th level fail; spells are not forgotten and recover off-plane."},
+    "elemental": {"rule": "Summoned elementals are tamed and soothed — they serve willingly with no chance of slipping control. Wild, directly destructive elemental magic simply fails: no floods, earthquakes, or firestorms except those the plane's powers make."}
+   }
+  },
+  "the-abyss": {
+   "law_id": "law:planar-conditions:the-abyss",
+   "plane": "plane:the-abyss",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [19, 20, 21], "printed": [15, 16, 17]}],
+   "general": "Magic draws the Abyssal lords' attention; retaliation scales with the spell — binding and coercion trigger the worst responses, offensive magic next, wards and defenses less, tricks and information least (DM-arbitrated, rarely predictable, one or two responses per adventure). Each layer's physical nature constrains magic by common sense (rot layers defeat purify food and drink, briny layers drown fireballs, storm layers shred cloud spells) — DM arbitrates per layer.",
+   "schools": {
+    "alteration": {"rule": "The plane's corruption warps alterations: on every attempt the caster (or recipient) saves vs. spell — success casts normally; failure warps the result. A warped living target becomes a more corrupted form of itself (human to githzerai or tiefling, dwarf to duergar/derro, elf to drow, halfling to goblin, plant to razorvine/viper tree; a tanar'ri shifts class up or down); nonliving targets degenerate to ooze, darkness, or foul dust. (A fuller effects listing is printed on the back of the Abyss poster map.)"},
+    "conjuration-summoning": {"rule": "Risky: the chance a tanar'ri answers the call instead is the summoning spell's level x 10%."},
+    "divination": {"rule": "Works, but true tanar'ri and Abyssal lords on their home plane instantly detect scrutiny and can counterattack THROUGH the spell's path in a form mirroring the divination (clairaudience invites sonic counters, clairvoyance/true seeing visual ones, know alignment mental ones such as confusion/chaos/emotion, legend lore returns false knowledge; detect magic is the exception — any counterspell). The path closes after twice the divination's spell level in channeled spell levels. ESP vs. any tanar'ri (even disguised) forces a save vs. death magic: success = feebleminded 2-12 hours (fragments of useful information on recovery); failure = madness until heal/restoration/limited wish or better, plus spell levels burned by the counterattacker's rank — least 1, lesser 2, greater 3, true 4, Abyssal lord 8 — half of them permanently (round in the player's favor)."},
+    "illusion-phantasm": {"rule": "Enhanced — all illusions operate at one level higher (longer durations, stronger shadow magic, more believable tanar'ri illusions)."},
+    "necromancy": {"rule": "Works well (especially in Thanatos). Flaw in animate dead: petitioners, manes, and other lesser creatures can possess the animated bodies, usually to attack the caster. Reincarnation always returns a tanar'ri form (usually dretch or manes), and a good-aligned soul that dies here comes back a bodak."},
+    "wild-magic": {"rule": "Enhanced, and wilder: when a wild surge sparks, roll twice on the Wild Surge Table (Tome of Magic) and the worse result occurs."},
+    "elemental": {"rule": "No Inner-Planes access: elemental spells do not function without spell keys. Even keyed, protective elemental spells must save vs. breath weapon whenever their failure would expose the caster to damage (they fail at the worst moment); destructive elemental spells are enhanced by +1 damage per die."}
+   }
+  },
+  "arborea": {
+   "law_id": "law:planar-conditions:arborea",
+   "plane": "plane:arborea",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [41, 42], "printed": [37, 38]}],
+   "general": "Kind to mages who respect the plane's nature; the backlash on those who don't is worse than not casting at all.",
+   "schools": {
+    "enchantment-charm": {"rule": "Emotion-driven spells (fear, charm person, friends, emotion...) are stronger: saves at -4 and doubled durations. The emotional charge risks backlash — an unadjusted save roll of 1-4 sends the target berserk AT the caster (+2 attack and damage), relenting only when the caster dies or the target takes damage (then it usually flees). Enchantments without an emotional component (sleep, deeppockets, enchanted weapon, shadow walk) work normally."},
+    "divination": {"rule": "Respected but prop-bound: no divination works without entrails to read, omens to interpret, or signs drawn from the stars — all casting times increase by 1 round per spell level."},
+    "necromancy": {"rule": "Shaky everywhere: death/undead necromancy does not function; healing works normally in most regions. Olympus: necromancy is Hecate's province — her approval plus the sacrifice of a fatted black calf, sheep, or pig (the spell key), and she approves only evil purposes. Arvandor: the Seldarine forbid it almost entirely; it works sporadically at Labelas's and Corellon's whim — their followers succeed 10% per caster level; reincarnation is possible there but raise dead and resurrection are not."},
+    "conjuration-summoning": {"rule": "Every layer (except Amun-thys's realm) answers monster summoning with its nature spirits. Summoning fiends or other Lower-Planar creatures (nightmares, spectral steeds) brings down the wrath of the Furies."},
+    "elemental": {"rule": "The elements are inaccessible without a key, except air magic in Arvandor (Aerdrie Faenya's gift) and water magic on Ossa's second layer (conduits to the Plane of Water)."}
+   }
+  },
+  "limbo": {
+   "law_id": "law:planar-conditions:limbo",
+   "plane": "plane:limbo",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [70, 71, 72, 73], "printed": [66, 67, 68, 69]}],
+   "general": "To cast ANY wizard spell anywhere in Limbo the caster first passes an Intelligence test; failure spends the spell (lost from memory) with no effect. A failed cast inside the primal soup automatically triggers a wild surge; on stable terrain a failed cast surges only on a natural 20. (TABLE V, printed p.68, is the full stable-vs-soup matrix; its roll specs are Modron's D1 lane.)",
+   "schools": {
+    "alteration": {"rule": "Dangerous: when a successful spell calls matter into being or reshapes it, roll percentile + spell level - caster level on TABLE IV (printed p.66): 20 or less no special effect; 21-40 slightly modified appearance; 41-60 slightly modified appearance and properties; 61-80 moderately modified; 81+ highly modified — the spell runs wild, the caster's subconscious supplying a related shape (a polymorph-to-newt can land a green dragon: both reptiles)."},
+    "conjuration-summoning": {"rule": "The powers answer wish and limited wish frivolously. Find familiar senses 1d4 candidates at 1-6, 2-12, 3-18... hours' walk; the caster picks one and must reach it before the (secretly rolled) casting time expires; a 'no familiar available' result becomes a SPECIAL familiar (DM's invention — faerie dragon, pseudodragon, mephit, oversized normal...). Conjured elementals interpret instructions as loosely as possible and have very short attention spans — controlling one here is for the desperate."},
+    "divination": {"rule": "Besides the general Intelligence test, the caster saves vs. paralyzation; on failure the portents are too chaotic and the spell yields no information."},
+    "illusion-phantasm": {"rule": "Chaos matter follows the spell's form: every illusion/phantasm cast has a 10% chance of becoming fully, permanently real (as permanent as Limbo allows)."},
+    "wild-magic": {"rule": "On stable terrain a successful wild-magic spell rolls level variation normally (Tome of Magic p.6); in the soup roll level variation TWICE and apply the more extreme (tie: 1d6 picks), and if either roll indicates a surge, it surges. Wild magic cast in the soup always sparks a wild surge, Intelligence test or no."},
+    "elemental": {"rule": "Limbo behaves like raw elements mixed: elemental spells that don't fizzle are amplified — duration and area of effect doubled; instantaneous spells persist 1-6 rounds; single-target spells affect a 1-10 foot radius."}
+   }
+  },
+  "pandemonium": {
+   "law_id": "law:planar-conditions:pandemonium",
+   "plane": "plane:pandemonium",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [92, 93], "printed": [88, 89]}],
+   "general": "Two layers of trouble: the plane's magical nature alters schools, and its physical nature (dark, wind, roar) fights the casting itself.",
+   "schools": {
+    "alteration": {"rule": "Matter-calling and matter-reshaping alterations (solid fog, alter self...) bleed energy: durations shorten as if the caster were one level lower (minimum 1 round), and the plane's evil leaves the results subtly foul to every sense."},
+    "conjuration-summoning": {"rule": "Per the campaign-set general rules, plus: find familiar, limited wish, and wish do not work on this plane."},
+    "divination": {"rule": "The DM secretly saves vs. paralyzation for the caster (a test of will to read the portents): success is normal; failure yields misleading information."},
+    "necromancy": {"rule": "Slight negative-energy surplus: life-generating necromancy (clone, reincarnation) requires the caster to pass an Intelligence test or the spell is spent with no effect; damaging and undead-manipulating necromancy is unchanged."},
+    "wild-magic": {"rule": "Enhanced (the extra level), and level variation is rolled twice with the more extreme result applied; if either roll indicates a wild surge, it occurs."},
+    "elemental": {"rule": "Rock, wind, and a little water — no fire: keys exist for earth, air, and water pseudoelementals; none exist for fire. Pseudoelementals conjured here are chaotic with a tinge of madness and evil — far less tractable, so commands need careful wording."}
+   },
+   "casting_physical": {
+    "rule": "The noise causes deafness (as the spell) in most places, and in severe locations also deals shout-like damage; the DM may raise the listed surprise penalty, adjust vocal-miscast chances, and add a die or two of sonic damage in the loudest spots. Sound-borne spells (audible glamer, message, suggestion, power words) are negated by the roar beyond about 10 feet of their center — negation chance = double the local miscast chance. Casting with material components in the wind requires a Dexterity check or the components are swept away and the spell is wasted (gone from memory, no effect). Cloud-producing and flame-producing spells are useless in the wind.",
+    "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [93], "printed": [89]}]
+   }
+  },
+  "ysgard": {
+   "law_id": "law:planar-conditions:ysgard",
+   "plane": "plane:ysgard",
+   "witness": [{"component": "tsr2603-planes-of-chaos", "reflow": [108, 109], "printed": [104, 105]}],
+   "general": "The Norse powers take an active hand in all magic on the plane — each school bends toward its patron deity's portfolio.",
+   "schools": {
+    "alteration": {"rule": "Warrior-enhancing spells (enlarge, jump, strength, fly, haste, polymorph, stoneskin, infravision) work perfectly. Elemental-flavored alterations (burning hands, water breathing, move earth) do not function (see elemental). Space-warping spells (dimension door, duo-dimension, teleport, teleport without error) need rare special keys — Loki circulates false ones with fatal results (victims land in Carceri, Pandemonium, or an Abyssal lord's palace). Sheltering spells (Leomund's tiny hut, Mordenkainen's magnificent mansion) need a key Frigga sometimes grants. Illusory/deceptive alterations (alter self, delude, mirage arcana, vacancy) are Loki's: they behave until danger arrives — then fail without explanation unless the key is known. Mental spells (Rary's mnemonic enhancer, the extension line) are Odin's, rune-keyed to the worthy. Warding spells (guards and wards, magic mouth) are Heimdall's: they function within sight of Bifrost, nowhere else without a key. Fog, wind, and weather spells are Thor's alone — no keys are known."},
+    "conjuration-summoning": {"rule": "Monster summoning yields only einheriar on the first layer, giants or ogres on the second, dwarves or trolls on the third. Conjuring Inner-Planes elementals is impossible; calling creatures from other Outer Planes fails one time in ten."},
+    "divination": {"rule": "Enhanced under Odin: range and duration doubled, but spying is one creature at a time — scrying a location, a mob, or an epic event fails."},
+    "necromancy": {"rule": "All necromantic spells run effectively one level higher (spectral hand casts as a 3rd-level spell). Curing/healing is socially scorned; destructive necromancy against Hel's followers may attract her attention."},
+    "wild-magic": {"rule": "Enhanced exactly as on Pandemonium: the extra level, plus double level-variation rolls taking the more extreme result; either roll indicating a surge triggers it. Recorded Ysgard surges include berserker rages, animal shapeshifting, gigantism, frost and steam effects, and elemental storms."},
+    "elemental": {"rule": "Mortal wizards' weather spells do nothing. Other elemental spells work normally once their key is known and are otherwise unavailable; fire works keyless in Muspelheim, ice in Jotunheim, elemental light in Vanaheim."}
+   }
+  },
+  "the-beastlands": {
+   "law_id": "law:planar-conditions:the-beastlands",
+   "plane": "plane:the-beastlands",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [14], "printed": [12]}],
+   "general": "Most magic works as intended; Nature's plane bends the exceptions.",
+   "schools": {
+    "alteration": {"rule": "The mortai (living cloud creatures) make every spell manipulating wind, air, or weather fail automatically (feather fall, fly, gust of wind, wind wall...). Even fly only lifts creatures that can normally fly."},
+    "conjuration-summoning": {"rule": "Monster summoning draws only residents of the plane (of appropriate Hit Dice) — and the summoned beast arrives under no compulsion to serve."},
+    "divination": {"rule": "Divinations calling on other-planar knowledge or beings (contact other plane...) do not function — 'unnatural' resources have no place here."},
+    "enchantment-charm": {"rule": "The Beastlands' 'normal animals' are not normal: spells that control or charm normal animals cannot control them."},
+    "necromancy": {"rule": "Harmful, damage-causing necromancy (chill touch, energy drain...) casts at one experience level lower — without the usual diminished-school cap, so spells above 4th remain castable."},
+    "elemental": {"rule": "Air fails without a key (the mortai). Fire is enhanced in Krigala (Selera's constant burn) and diminished in Karasuthra (Noctos drains its heat; again without the 4th-level cap). Water is enhanced near large waters (Oceanus, Bear Lake, the Forgotten Lake); Earth is enhanced near mountains and great outcrops (the Forbidden Plateau)."}
+   }
+  },
+  "bytopia": {
+   "law_id": "law:planar-conditions:bytopia",
+   "plane": "plane:bytopia",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [32], "printed": [30]}],
+   "general": "Possibly the least restrictive plane for spellcasting — no plane-wide overrides; most magic functions as intended.",
+   "schools": {
+    "conjuration-summoning": {"rule": "Only items and creatures that already exist on the plane can be summoned (Evard's black tentacles automatically fails — no such thing lives on Bytopia). Judge by the plane's nature: artisans and craftwork, not mechanized machinery."},
+    "divination": {"rule": "Functions normally but the procedure must route through the plane's elements or products: clairvoyance needs a local reflective surface (pond, Bytopian-made mirror); clairaudience needs an ear against a local tree, and so on."},
+    "necromancy": {"rule": "Life-sustaining necromancy is enhanced; damaging or killing necromancy is diminished."},
+    "elemental": {"rule": "Wide-ranging elemental spells (control weather, part water, move earth...) require the caster to save vs. spell or the spell has no effect. Otherwise elemental magic is normal in Dothion and enhanced in rawer Shurrock."}
+   }
+  },
+  "elysium": {
+   "law_id": "law:planar-conditions:elysium",
+   "plane": "plane:elysium",
+   "witness": [{"component": "planes-of-conflict-2615-01-liber-benevolentiae", "reflow": [50, 51], "printed": [48, 49]}],
+   "general": "At once the least and most restrictive of the three Conflict good planes: everything not listed works normally.",
+   "schools": {
+    "conjuration-summoning": {"rule": "No summoning spell functions on a NATIVE of Elysium. Summonings can pull nonnatives currently on the plane (PCs included), but every good-aligned being gains +4 on the save to resist."},
+    "divination": {"rule": "Divinations that obscure, hide, or falsify (false vision, screen) fail 100% of the time; the rest operate normally."},
+    "enchantment-charm": {"rule": "Charm and hold spells fail against natives (petitioners included); against visitors they work, but good-aligned beings (PCs included) save at +4. Other enchantment/charm spells are normal."},
+    "necromancy": {"rule": "Any necromantic spell that harms or damages automatically fails — with a 33% chance of backlash, the caster suffering his own spell's intended effect."},
+    "elemental": {"rule": "Normal, except Water spells are enhanced on Thalasia (the fourth layer). Summoned pseudoelementals arrive free — the spell binds nothing — but called in the cause of good they serve willingly and fully."}
+   }
+  },
+  "carceri": {
+   "law_id": "law:planar-conditions:carceri",
+   "plane": "plane:carceri",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [11, 12], "printed": [9, 10]}],
+   "general": "Catch-as-catch-can, with one constant: magic cast for selfish purposes — the individual's gain at the whole's cost — functions at maximum effectiveness (that fact is the only 'key' a survivor needs). Spells cast to benefit others need actual spell keys to amount to much.",
+   "schools": {
+    "alteration": {"rule": "Bends every result toward the greatest available evil; where a spell can yield none, it turns hostile in aspect instead (flames writhe into tortured faces, sigils twist into screaming ones)."},
+    "conjuration-summoning": {"rule": "The summoning brings the creature but does not bind it: the caster must offer a bribe or show of good faith to gain service, or the creature — almost always hostile if intelligent — turns on him."},
+    "divination": {"rule": "Divination demands the sacrifice of a comrade, the spell taking shape in the spreading pool of blood (the spell-key alternative: a good quantity of the caster's OWN blood). Diviners are universally hated here."},
+    "necromancy": {"rule": "Healing functions at half normal power. Undead-creating and damaging necromancy is more efficacious: raised undead are automatically free-willed (and may attack the caster); damage-causing spells gain +1 damage per caster level."},
+    "elemental": {"rule": "Varies by layer: Water strongest in Porphatys (works well in Agathys too), Air dominates Minethys, Earth is very effective in Colothys. Favored elements roughly double their effects; disfavored ones are virtually powerless (DM adjudicates)."}
+   }
+  },
+  "gehenna": {
+   "law_id": "law:planar-conditions:gehenna",
+   "plane": "plane:gehenna",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [29], "printed": [27]}],
+   "general": "Mean-spirited modifications throughout; brute power profits.",
+   "schools": {
+    "conjuration-summoning": {"rule": "Summoning draws only natives of Gehenna — even gate cannot break the barrier. As on Baator the terms must be rigorously defined (successful Spellcraft proficiency check, or Intelligence at -4) or the summoned creature keeps free will; most use it to tear the summoner apart."},
+    "divination": {"rule": "Divination requires a death: stake out a captured enemy and perform the spell in its entrails — preferably still attached to the living victim."},
+    "enchantment-charm": {"rule": "Diminished: spells above 4th level do not work, and all function at one level lower."},
+    "invocation-evocation": {"rule": "Enhanced: spells function one level higher and all saves against the school are at -1."},
+    "necromancy": {"rule": "Harm gains +1 per die of damage; healing loses 1 per die. Commanding/creating undead casts one level higher; turning attempts resolve one level lower."},
+    "elemental": {"rule": "Fire and Earth are linked and potent in the furnaces: on the first three layers both cast as if two levels higher, and any spell involving one involves the other. Water is unaffected on layer one and nonfunctional on layers two and three. On Krangath (the dead fourth) no fire spell works; Water and Air function only as blasts of freezing steam."}
+   }
+  },
+  "the-gray-waste": {
+   "law_id": "law:planar-conditions:the-gray-waste",
+   "plane": "plane:the-gray-waste",
+   "witness": [{"component": "planes-of-conflict-2615-02-liber-malevolentiae", "reflow": [48], "printed": [46]}],
+   "general": "Spells always take the most evil effect possible — an inattentive caster injures comrades or draws hostile attention. All color-based spells (color spray, prismatic sphere...) are utterly ineffective.",
+   "schools": {
+    "necromancy": {"rule": "Never raises mindless undead: everything raised is free-willed and evil-aligned (a mere apprentice can field a ghoul pack — and nothing stronger until far greater power). Necromancy for good purposes fails automatically unless cast by a power or proxy, or inside a realm with a special feature."},
+    "conjuration-summoning": {"rule": "Summonings usually drag a Blood War skirmisher off the Oinos lines — it obeys the letter of its binding, resents it, and remembers the summoner for later. Power level is uncapped: monster summoning I can net a pit fiend (the spell's laws still bind it for the duration)."},
+    "enchantment-charm": {"rule": "The hopeless natives save at +3 vs. charm (and get a save even when the spell normally allows none). A successful charm snaps the target out of the Waste's influence for the spell's duration (not if held more than two weeks); when it wears off, anger shields him about one more week — and then the next weekly save against the numbing fails automatically, no roll. Enchantments on objects are enhanced ~25% (duration, area) if the enchantment could conceivably serve evil; a good-only enchantment fails outright."},
+    "divination": {"rule": "Reveals little: messages arrive tinged with despair, promising sad ends — and may simply be false, since the plane doesn't differentiate truth from lie. It answers the caster's psyche; the same spell cast twice can return two different results."},
+    "elemental": {"rule": "Basically unchanged, except summoned pseudoelementals are always evil and all summoned elementals are free from the moment of conjuration — they may serve, attack, or wander off."}
+   }
+  }
+ }
+}
