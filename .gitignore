@@ -43,14 +43,17 @@ build/**
 !build/modron/vnv/*.json
 !build/encounters/**
 
-# ── tools/ (6.3G): voice stack — venv, models, clones, rips stay local ──
+# ── tools/ (6.3G): voice stack — venv, models, clones, audio stay local ─
 # f5-venv (interpreter), F5-TTS (nested clone; patch map lives in README),
-# minilm (ONNX), sounds-* (PST rips — living actors, local-only lane law),
-# _renders/. Whitelisted: the venv/patch map, onboarding scripts, and the
-# hand-tuned voice-pack + cast TOMLs.
+# minilm (ONNX), and all rip/render AUDIO (200M, re-rippable). Text
+# work-product ships: voice-pack + cast TOMLs, _refs.md ref doctrine,
+# per-clip transcripts, pitch surveys, provenance notes.
 tools/**
 !tools/README.md
 !tools/*.py
 !tools/voices/
-!tools/voices/*.toml
-!tools/voices/README.md
+!tools/voices/**/
+!tools/voices/**/*.toml
+!tools/voices/**/*.md
+!tools/voices/**/*.txt
+!tools/voices/**/*.csv
