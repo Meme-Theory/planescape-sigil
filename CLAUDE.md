@@ -100,7 +100,7 @@ same spirit (full-path real interpreter), amended letter.
 |---|---|---|---|---|---|
 | knows | what **is** | what **governs** | what the dice **said** | what was **said aloud** | how a Cager would **say it** |
 | owns | `handbook.db` + admission gate | `rulings.db` + mechanical core | `rolls.db` + RNG discipline | `renders.db` + voice packs | lexicon + rewrites (data) + compiled attestations |
-| status | store/gate/server **BUILT + V&V'd + GREAT-AUDITED** (all entities page-witness reviewed, docket adopted + applied 2026-06-06); **4 books + 4 boxed sets** poured across **29 dimensions** (891 entities, 1,988 edges — PWH round added race/class/spell) | core BUILT + V&V'd | **BUILT + V&V'd + AUDITED** (round 2 docket adopted 2026-06-06: 88 findings applied, 185 tests, 18/18 smoke) | **BUILT + smoked** (unit 25/25 · live stdio 14/14 incl. a handbook line end-to-end) | **BUILT + V&V'd** (33 tests · 16/16 stdio · live-wire ceremony, `pipeline/cant/VERIFICATION.md`) |
+| status | store/gate/server **BUILT + V&V'd + GREAT-AUDITED** (all entities page-witness reviewed, docket adopted + applied 2026-06-06); **4 books + 4 boxed sets** poured across **29 dimensions** (928 entities, 2,028 edges — PWH rounds added race/class/spell + 38 equipment items) | core BUILT + V&V'd | **BUILT + V&V'd + AUDITED** (round 2 docket adopted 2026-06-06: 88 findings applied, 185 tests, 18/18 smoke) | **BUILT + smoked** (unit 25/25 · live stdio 14/14 incl. a handbook line end-to-end) | **BUILT + V&V'd** (33 tests · 16/16 stdio · live-wire ceremony, `pipeline/cant/VERIFICATION.md`) |
 
 Write discipline is structural everywhere: entities enter only through Mimir's gate;
 rulings only through `record_ruling`/`overrule`; rolls only through the guarded append;
@@ -200,7 +200,7 @@ fixed, pinned — edge-dedup, THAC0-OCR, server conn-leak — and the Mechanus L
 
 **Status: BUILT — 4 books + 4 boxed sets (Uncaged · The Factol's Manifesto · In the Cage ·
 Planes of Law/Chaos/Conflict · Hellbound · The Planewalker's Handbook) poured across 29
-dimensions (891 entities · 1,988 edges · 92 quarantined in ADJUDICATED buckets).**
+dimensions (928 entities · 2,028 edges · 92 quarantined in ADJUDICATED buckets).**
 **GREAT-AUDITED 2026-06-06** (V&V round 5):
 every entity page-witness reviewed (47 chunks, adversarial verification), 89-item quarantine
 court, correction docket ADOPTED by Meme and applied — `cage.ENTRY_CURATIONS` recovered all 10
@@ -218,8 +218,14 @@ round corrected the close-out: the book has NO psionics; waits for a psionics-be
   verified-or-absent** — 12 reflow-scrambles promoted via hand-read `SPELL_STAT_CURATIONS`
   w/ page witnesses, per-class print divergence ships as `level_by_class`/`stats_by_class`,
   8 HELLBOUND `first-printed-in` edges, 1 head-lost quarantine). Faction 3rd-witness ×15.
-  Sibling offers (M9-M13 belief-points/portal/proficiency law · D10-D12) + the queued
-  equipment item round: `build/family/rule-effect-handoff.md` §PWH.
+  Sibling offers (M9-M13 belief-points/portal/proficiency law · D10-D13): see
+  `build/family/rule-effect-handoff.md` §PWH. **Equipment round EXECUTED same day:
+  item 106→143** — 38 cards (green steel w/ tables · bariaur ×5 · modron ×3 ·
+  etheroscope · sickle/scythe · 26 magical incl. the scythe/sickle family, planar
+  wards/mancatcher/trap, shifters' manacles, planar protections), 38/38 attested,
+  dual-source merge proved on `item:planar-wards` (The Grixitt's gear gained its
+  rulebook card), `used_by` faction bindings (mancatcher→harmonium,
+  manacles→mercykillers); the 4 item-embedded d100 tables ride handoff D13.
 - **npc 71** — Uncaged's 58 (roster-driven split: the contents page is the authoritative entry boundary
   at an auto-calibrated offset — recovered all 41 roster entries vs the 29 font-detection dropped — plus a
   **minor tier** for the appendix's descriptor-only cutters) + **13 factols** promoted from the Manifesto.

@@ -138,10 +138,12 @@ RULES TEXT stayed un-poured, per the M6 lane. Page cites below are reflow-PDF pa
 
 ### Mimir's own queued follow-up (not a sibling lane)
 
-- **Planewalking-equipment item round** — PDF 134-143 (printed 132-141): Baatorian
-  green steel, bariaur equipment, celestial etheroscope, modron equipment, sickles &
-  scythes, new magical items, planar protections → `item` nodes (kind: equipment),
-  the marquee invoke-at-the-table dim. Queued as its own card round.
+- **Planewalking-equipment item round** — **EXECUTED 2026-06-06**: 38 cards poured
+  (12 tools-of-the-trade + 26 magical/protections), all 38 attested; dual-source
+  merge proved on `item:planar-wards` (The Grixitt's gear gained its rulebook
+  mechanics); `used_by` edges to harmonium (planar mancatcher) + mercykillers
+  (shifters' manacles). The printed-136 "What to Look For" survey lists EXISTING
+  core/ToM items — cross-refs, recorded here, never minted.
 - The **cant glossary** (PDF 152-159) feeds the cant sibling's harvest, not this doc.
 
 ### Open questions (continuing the numbering)

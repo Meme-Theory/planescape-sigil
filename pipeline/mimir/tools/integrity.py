@@ -36,8 +36,8 @@ REL_CATALOG = {
     "located_in", "member_of", "native_to", "occurred_at", "opens_from", "opposed_to",
     "opposes", "part_of", "participated_in", "protects", "realm_of", "references",
     "ruled_by", "schemes_around", "seats", "seeks", "serves", "set_in", "spied_on_by",
-    "spies_on", "spoken_by", "summoned", "supplies", "wields",
-}  # castable_by/kit_of/native_to: the PWH round (race/class/spell), 2026-06-06
+    "spies_on", "spoken_by", "summoned", "supplies", "used_by", "wields",
+}  # castable_by/kit_of/native_to + used_by(item->faction): the PWH rounds, 2026-06-06
 
 # Documented-expected dangling edges (gate.py prints these as expected at pour time):
 #  * references → see_also cutters in books not yet poured (Uncaged p-refs)

@@ -2348,6 +2348,45 @@ def pour_pwh(store):
                            edition="2e", provenance={"loc": f"pp{wit[0]}-{wit[-1]}"})
             n["faction_witness"] = n.get("faction_witness", 0) + 1
 
+    # — planewalking equipment (printed 132-141): the marquee invoke-at-the-table
+    #   dim grows its first GENERIC stock (no wielder, no wields edge). Cards merge
+    #   dual-source onto any same-id node an NPC pour already minted.
+    for card in PW.ITEM_CARDS:
+        rep = PW.attest_item_card(card, pages)
+        if rep["refused"]:
+            n["refused"].append((card["id"], "name-unattested"))
+            continue
+        old = store.get(card["id"]) or {}
+        fields = dict(old.get("fields") or {})
+        fields.update({"kind": card["kind"], "magical": card["magical"],
+                       "properties": card["properties"], "pages": rep["pages"]})
+        for k in ("cost", "weight", "table", "origin", "works_on"):
+            if card.get(k):
+                fields[k] = card[k]
+        prov = old.get("provenance") or {"value_sources": [], "method": "card-attestation"}
+        srcs = prov.get("value_sources") or []
+        if not any(s.get("src") == PW.BOOK for s in srcs):
+            srcs.append({"src": PW.BOOK, "loc": f"pp{rep['pages'][0]}-{rep['pages'][-1]}"})
+        prov["value_sources"] = srcs
+        table_text = " ".join(r for rows in (card.get("table") or {}).values() for r in rows)
+        content = ((old.get("content") or "") + f"\n\n[{PW.BOOK}] {card['name']} "
+                   f"({card['kind']}{', magical' if card['magical'] else ', nonmagical'}). "
+                   f"{card['gloss']}. " + " ".join(card["properties"]) + " " + table_text).strip()
+        _admit_seed(store, {"type": "item", "id": card["id"], "name": old.get("name") or card["name"],
+                            "edition": "2e", "fields": fields, "content": content,
+                            "provenance": prov,
+                            "confidence": max(old.get("confidence") or 0, 0.95),
+                            "curated": old.get("curated") or {},
+                            "source_sha": old.get("source_sha") or sha},
+                    "pwh-item-card", len(rep["pages"]))
+        store.add_edge("attested_in", card["id"], sid, src_type="item", tgt_type="source",
+                       edition="2e")
+        if card.get("used_by") and store.exists(card["used_by"]):
+            store.add_edge("used_by", card["id"], card["used_by"],
+                           src_type="item", tgt_type="faction", edition="2e")
+            n["edges"] += 1
+        n["item"] = n.get("item", 0) + 1
+
     # — spells (parsed; identity certain, stats verified-or-absent) —
     w, wrej = PW.extract_spells(pages, PW.WIZARD_PAGES, "wizard")
     p, prej = PW.extract_spells(pages, PW.PRIEST_PAGES, "priest")
@@ -2510,8 +2549,8 @@ def main():
           f"{hpart} part_of links · {hcross} cross-book pivots")
     print(f"dialog   : {dadm} utterances bound (spoken_by, register-tagged) · {dqd} queued (<θ {D.THETA_DIALOG})")
     print(f"planewalker's-hbk: {pw['race']} races · {pw['kit']} kits + {pw['base_class']} base classes · "
-          f"{pw['spell']} spells · {pw['spell_q']} spell-quarantine · {pw['edges']} typed edges · "
-          f"{pw.get('faction_witness', 0)} faction 3rd-witnesses"
+          f"{pw['spell']} spells · {pw['spell_q']} spell-quarantine · {pw.get('item', 0)} equipment items · "
+          f"{pw['edges']} typed edges · {pw.get('faction_witness', 0)} faction 3rd-witnesses"
           + (f" · REFUSED: {pw['refused']}" if pw['refused'] else " · 0 refused")
           + f"   ·   total: {cov['admitted_total']} entities, {cov['edges']} edges")
     if unresolved:

@@ -251,6 +251,382 @@ KIT_CARDS = [
 # kit-structure rubric pages (attest base classes here)
 KIT_CHAPTER_PAGES = list(range(92, 104))
 
+# ---------------------------------------------------------------- item cards
+# Planewalking Equipment, printed 132-141 (PDF 134-143). Mechanics are
+# PARAPHRASE; printed tables transcribe only legible cells ("verified or absent"
+# at the cell level — a weight the reflow lost stays absent). The four embedded
+# d100 tables (fiend globe / grue bottle / elemental-breathing potion /
+# outer-planar-protection scroll) are TABLE substance → Modron's lane (handoff
+# §PWH D13); the cards keep identity + the note. The printed-136 "What to Look
+# For" survey lists EXISTING core/ToM items — cross-refs, not identities this
+# book owns; recorded in the ledger, never minted.
+ITEM_CARDS = [
+    # — tools of the trade (nonmagical) —
+    {"id": "item:baatorian-green-steel", "name": "Baatorian Green Steel",
+     "pages": [134, 136], "kind": "material", "magical": False,
+     "aliases": ["green steel"],
+     "properties": [
+         "ore of Avernus (Baator's first layer) tempered into a metal lighter than steel",
+         "razor-fine edges: weapons deal more damage than standard counterparts",
+         "armor sits two AC classes better than its standard counterpart",
+         "NOT magical; at least 4x the standard price; rare even in Sigil markets"],
+     "table": {"armor (cost gp / weight lbs / AC)": [
+                   "banded mail 800 / 20 / 2", "chain mail 350 / 25 / 3",
+                   "plate mail 2,500 / 30 / 1", "scale mail 500 / 25 / 4"],
+               "weapons (cost gp / weight lbs / dmg S-M / L)": [
+                   "dagger 8 / — / 1d4+1 / 1d4", "knife 2 / — / 1d4 / 1d3",
+                   "javelin 2 / 1 / 1d8 / 1d8", "spear 4 / 3 / 1d8 / 1d10",
+                   "bastard sword 100 / 5 / 1H 1d10, 2H 2d6 / 1H 1d12+1, 2H 2d10",
+                   "long sword 60 / 2 / 1d10 / 1d12+1", "scimitar 60 / 2 / 1d10 / 1d10",
+                   "short sword 40 / 2 / 1d8 / 1d10",
+                   "two-handed sword 200 / 8 / 1d12 / 2d10"]},
+     "origin": "the wastelands of Avernus, Baator",
+     "gloss": "the baatezu's lighter, crueler metal — four times the jink, twice the edge"},
+    {"id": "item:bariaur-armor", "name": "Bariaur Armor", "pages": [136],
+     "kind": "armor", "magical": False,
+     "aliases": ["8ariaur armor"],          # the scan renders the B as 8
+     "properties": ["mail tailored to bariaur physiology; AC identical to humanoid armor",
+                    "costs and weighs more for the extra material; most bariaur go light"],
+     "table": {"cost gp / weight lbs": [
+         "banded mail 250 / 50", "brigantine 150 / 45", "bronze plate mail 500 / 60",
+         "chain mail 90 / 55", "field plate 2,500 / 75", "full plate 5,000-15,000 / 85",
+         "leather 7 / 25", "padded 5 / 20", "plate mail 720 / 65", "ring mail 150 / 45",
+         "splint mail 100 / 50", "studded leather 25 / 40"]},
+     "origin": None, "gloss": "planar armorers fit the goat-bodied; barding is for primes"},
+    {"id": "item:bariaur-harness", "name": "Bariaur Harness", "pages": [136],
+     "kind": "equipment", "magical": False, "cost": "3 gp", "weight": "4 lbs",
+     "properties": ["frame backpack for the bariaur back: 90 lbs capacity, 3.5 x 3 x 1 ft"],
+     "origin": None, "gloss": "the wanderer's pack, built for four legs"},
+    {"id": "item:bariaur-horned-helm", "name": "Bariaur Horned Helm", "pages": [136],
+     "kind": "armor", "magical": False, "cost": "45 gp", "weight": "10 lbs",
+     "aliases": ["homed helm"],     # the scan's own form
+     "properties": [
+         "spiked helm: charge still deals 1d8 (+Str) but a failed save vs breath "
+         "costs only HALF the damage dealt (the horns absorb the shock)",
+         "lets bariaur females make charging attacks",
+         "tailor-made per wearer: 1d6+2 days construction"],
+     "origin": None, "gloss": "horns for the hornless, shock-absorbers for the horned"},
+    {"id": "item:bariaur-saddle", "name": "Bariaur Saddle", "pages": [136],
+     "kind": "equipment", "magical": False, "cost": "10 gp", "weight": "10 lbs",
+     "aliases": ["bariaur addle"],
+     "properties": ["leather harness-saddle for carrying a two-foot when expedience demands"],
+     "origin": None, "gloss": "for hauling slow-movers — dignity not included"},
+    {"id": "item:bariaur-shoes", "name": "Bariaur Shoes", "pages": [136],
+     "kind": "equipment", "magical": False, "cost": "5 gp (set of four)",
+     "aliases": ["bariaur 110es", "bariaur hoes"],
+     "properties": ["iron-shod foot protection for rough ground; negligible weight"],
+     "origin": None, "gloss": "horseshoes that would offend a horse"},
+    {"id": "item:celestial-etheroscope", "name": "Celestial Etheroscope", "pages": [136],
+     "kind": "tool", "magical": False, "cost": "1,000 gp", "weight": "50 lbs",
+     "aliases": ["etheroscope"],            # display-font head; the body witnesses
+     "properties": [
+         "brass-bound lenses, tubes, and colored-liquid vials, 2 x 1 x 1 ft, extremely delicate",
+         "used exclusively with the planology proficiency to read a plane's tides of fortune",
+         "only specially trained planar craftsmen can build one; nonmagical despite appearances"],
+     "origin": None, "gloss": "fortune-telling for planologists, plumbing for everyone else"},
+    {"id": "item:modron-armor", "name": "Modron Armor", "pages": [136, 137],
+     "kind": "armor", "magical": False, "cost": "120 gp", "weight": "75 lbs",
+     "properties": ["flat bolted/strapped metal sheets over the cube: AC 4",
+                    "no tailoring — every rogue modron is the same size"],
+     "origin": None, "gloss": "plate for a box; one size fits all, literally"},
+    {"id": "item:modron-storage-container", "name": "Modron Storage Container",
+     "pages": [137], "kind": "equipment", "magical": False, "cost": "5 gp", "weight": "10 lbs",
+     "properties": ["metal-and-leather box bolted to the chassis: 100 lbs capacity, 1.5 x 3 x 1 ft"],
+     "origin": None, "gloss": "luggage you bolt on"},
+    {"id": "item:modron-clothing", "name": "Modron Clothing", "pages": [137],
+     "kind": "equipment", "magical": False,
+     "aliases": ["clotiijng"],              # MooRON CLOTIIJNG — the page's own form
+     "properties": ["cloaks and (more commonly) belts cut for the cube run 3-5x normal price"],
+     "origin": None, "gloss": "a human has very little need for a 12-foot-long belt"},
+    {"id": "item:sickle", "name": "Sickle", "pages": [137],
+     "kind": "weapon", "magical": False, "cost": "6 sp", "weight": "3 lbs",
+     "properties": ["one-handed chiv: 1-ft curved blade sharp on the concave side",
+                    "size S, type S, speed 4, dmg 1d4+1 (S-M) / 1d4 (L)",
+                    "easily hidden in a belt; for cutting stalks, not swathes"],
+     "origin": None, "gloss": "the small harvest blade — favored where it looks innocent"},
+    {"id": "item:scythe", "name": "Scythe", "pages": [137],
+     "kind": "weapon", "magical": False, "cost": "5 gp", "weight": "8 lbs",
+     "properties": ["two-handed: 3.5-4 ft blade on a curved, pegged haft",
+                    "size M, type P/S, speed 8, dmg 1d6+1 (S-M) / 1d8 (L)",
+                    "takes practice to swing at a berk's head; wicked-looking"],
+     "origin": None,
+     "gloss": "the big harvest blade — valued as a tool topside, as a statement below"},
+    # — new magical items —
+    {"id": "item:bakus-trumpet", "name": "Baku's Trumpet", "pages": [139],
+     "kind": "wondrous", "magical": True,
+     "properties": [
+         "nondescript brass horn of the Upper Planes; sounding it deals 1d8 to evil "
+         "creatures within 40 ft, who also save vs paralyzation or flee as per fear",
+         "3 uses/day; an evil user saves vs paralyzation or is struck mute — "
+         "it never functions for them"],
+     "origin": "the Upper Planes", "gloss": "the baku's bellow, bottled in brass"},
+    {"id": "item:bottled-breath", "name": "Bottled Breath", "pages": [139],
+     "kind": "wondrous", "magical": True,
+     "aliases": ["bomed breatii"],          # BomED BREATII — tt/th fusions
+     "properties": [
+         "clear bottle of limitless pure air: uncork and drink a breath",
+         "sustains a body indefinitely where nothing's breathable",
+         "open longer than one round and the magic goes inert — recork every draught"],
+     "origin": None, "gloss": "an empty-looking bottle a berk's life hangs on"},
+    {"id": "item:chains-of-light", "name": "Chains of Light", "pages": [139],
+     "kind": "wondrous", "magical": True,
+     "aliases": ["chai s of light"],        # CHAI s OF LIGHT — dropped N
+     "properties": [
+         "chains forged of solid sunbeams (the chant names Reorx, or Clangeddin's halls, "
+         "or plain Arcadian smithies)",
+         "binding an evil creature lights them like continual light; evil/chaotic onlookers "
+         "save or are blinded 1d6 rounds (-4 attacks, saves, AC); LG/NG/LN gaze freely",
+         "a struggling captive takes escalating heat-or-cold: 1d2, then 1d4, 1d6… "
+         "to 1d12/round, whichever hurts it more; stops when the struggle stops"],
+     "origin": "Arcadia (by the chant)", "gloss": "sunlight that holds a fiend still"},
+    {"id": "item:fiend-globe", "name": "Fiend Globe", "pages": [139],
+     "kind": "wondrous", "magical": True,
+     "properties": [
+         "hollow ceramic globe under 3 inches; breaking it summons a minor fiend "
+         "(d100 table, nupperibo through night hag) that serves faithfully for 1 hour, "
+         "then is drawn home; single-use",
+         "works even on planes where summoning is normally impossible — only an "
+         "antimagic shell stops it",
+         "the chant: baatezu lords mint them as rewards for faithful servants",
+         "embedded d100 fiend table → Modron rollable (handoff D13)"],
+     "origin": "the Lower Planes (baatezu work)", "gloss": "break glass for emergency fiend"},
+    {"id": "item:grue-bottle", "name": "Grue Bottle", "pages": [139, 140],
+     "kind": "wondrous", "magical": True,
+     "properties": [
+         "opaque bottle: shake and open for a temporary Inner-Planes gate that pours "
+         "out a grue, mephit, or rarer elemental being (d100 table)",
+         "the first (random) creature binds to the bottle and serves 10d10+50 rounds "
+         "TOTAL across summonings, usable once per week; the count survives new owners",
+         "when its term ends the creature is NOT sent home — it acts as its nature "
+         "dictates, usually on the last summoner",
+         "embedded d100 elemental table → Modron rollable (handoff D13)"],
+     "origin": "the Inner Planes (gate-work)", "gloss": "an elemental on layaway, with a temper"},
+    {"id": "item:horn-caps-of-battering", "name": "Horn Caps of Battering", "pages": [140],
+     "kind": "wondrous", "magical": True,
+     "properties": [
+         "1-inch brass caps for a bariaur's natural horns: his charge strikes "
+         "construction (walls, doors) as a battering ram",
+         "natural horns only — a horned helm's spikes won't take them"],
+     "origin": None, "gloss": "the bariaur as siege engine"},
+    {"id": "item:net-of-crystal-capturing", "name": "Net of Crystal Capturing", "pages": [140],
+     "kind": "wondrous", "magical": True,
+     "aliases": ["net of cry tal capturing"],
+     "properties": [
+         "2 x 2 ft crystal-laced net, useless as a weapon; catches spell crystals "
+         "(attack vs AC 3; a miss means save vs spell or the crystal takes effect)",
+         "holds one crystal indefinitely; the obvious use is releasing it on an enemy",
+         "spell crystals spill from prime wizards' castings — unbidden summonings and "
+         "divination demands"],
+     "origin": None, "gloss": "a butterfly net for stray prime magic"},
+    {"id": "item:oil-of-stone-integration", "name": "Oil of Stone Integration", "pages": [140],
+     "kind": "potion", "magical": True,
+     "properties": [
+         "coat a cutter and ALL possessions (1d10+10 rounds to apply; one flask does "
+         "two man-sized bodies or one plus gear): pass through stone and earth as if absent",
+         "stone weapons and earthen creatures (elementals included) can't harm the user — "
+         "who also can't touch or handle stone",
+         "a coated stone object is untouchable and immovable till the oil fades",
+         "each application lasts 10d6+30 minutes"],
+     "origin": None, "gloss": "swim the rock, forfeit the road"},
+    {"id": "item:planar-compass", "name": "Planar Compass", "pages": [140, 141],
+     "kind": "wondrous", "magical": True,
+     "aliases": ["planar compa"],
+     "properties": [
+         "6-inch iron sphere that splits to a 4-inch cavity: seal a fragment of a plane "
+         "inside and an arrow juts out pointing to the nearest portal, conduit, path, "
+         "or vortex leading there",
+         "keeps pointing until you arrive or the fragment comes out",
+         "the Outer-Planes cousin of the Tome of Magic's elemental compass"],
+     "origin": None, "gloss": "feed it a souvenir, follow the needle"},
+    {"id": "item:planar-wards", "name": "Planar Wards", "pages": [141],
+     "kind": "wards", "magical": True,
+     "properties": [
+         "sets of 4-8 carved white-stone blocks (the chant: cut from Sigil's destroyed "
+         "portals), numbered for activation order; one command word fires the set",
+         "emanates an invisible wall (stones up to 60 yards apart, any pattern; extends "
+         "60 yards up and down) inside which portals, gates, and conduits cannot open",
+         "teleport/plane-shift entry stops at the wall — a spell aimed inside delivers "
+         "the body 60 yards short, unharmed",
+         "deactivated by command from within; otherwise lasts 1d4 weeks, then the "
+         "blocks are plain stone — never rechargeable",
+         "based on the 4th-level priest spell surelock; expensive and rare"],
+     "origin": "Sigil (by the chant)", "gloss": "a fence against doors themselves"},
+    {"id": "item:planar-mancatcher", "name": "Planar Mancatcher", "pages": [141],
+     "kind": "weapon", "magical": True,
+     "used_by": "faction:harmonium",
+     "properties": [
+         "+2 mancatcher in rune-graven steel, built to hold what plane-shifts: "
+         "githyanki, githzerai, tanar'ri, and kin",
+         "catches S/M/L targets at effective AC 10 (Dex applies; armor and magic don't); "
+         "damage and effects as a normal mancatcher",
+         "a held shifter's plane shift or teleport FAILS and costs 1d10 damage per "
+         "attempt, with a cumulative 1% per point chance of knockout",
+         "Harmonium patrols carry them by preference"],
+     "origin": None, "gloss": "the law's answer to 'you can't hold me'"},
+    {"id": "item:portal-trap", "name": "Portal Trap", "pages": [141],
+     "kind": "wondrous", "magical": True,
+     "properties": [
+         "half-inch lead ball; speak the command word (often etched on it) and set it "
+         "in a portal's framework, active or not",
+         "the next use of the portal detonates a 6d6 fireball (as a 6th-level wizard) "
+         "THROUGH BOTH ENDS — half the force out each side, any portal type",
+         "the portal itself survives; the framework is destroyed 1% of the time"],
+     "origin": None, "gloss": "a toll nobody wants to pay"},
+    {"id": "item:potion-of-elemental-breathing", "name": "Potion of Elemental Breathing",
+     "pages": [141], "kind": "potion", "magical": True,
+     "properties": [
+         "as a potion of water breathing for some other element: variants exist for "
+         "every Inner Plane without (or with marginal) breathable atmosphere",
+         "d100 variant table (water incl. Steam/Ooze · fire incl. Magma · earth incl. "
+         "Mineral · smoke · ash · salt · dust) → Modron rollable (handoff D13)",
+         "75% chance of two doses, 25% of four; each dose lasts 1 hour + 1d10 minutes"],
+     "origin": None, "gloss": "lungs by the bottle, element by the label"},
+    {"id": "item:ring-of-the-bariaur-lord", "name": "Ring of the Bariaur Lord",
+     "pages": [141, 142], "kind": "wondrous", "magical": True,
+     "properties": [
+         "ram's-head ring, active only on a bariaur",
+         "foot- and leg-shaped magic items (boots, shoes, slippers, leggings…) transform "
+         "to bariaur-usable forms keeping their magic (DM's discretion)",
+         "the transformation holds while the bariaur wears ring and item both"],
+     "origin": None, "gloss": "finally, boots of speed for four hooves"},
+    {"id": "item:scourge-of-lightning", "name": "Scourge of Lightning", "pages": [142],
+     "kind": "weapon", "magical": True,
+     "properties": [
+         "4-ft barbed whip (1 ft of handle), 1d4 per lash; shreds ordinary clothes in "
+         "two rounds, leather in three",
+         "+2 weapon in the Abyss",
+         "electrified at will: a sparking hit adds 2d8 electrical (save vs spell for half)",
+         "a tanar'ri of 5+ HD triggers the lightning freely; anyone else 5 times/day",
+         "petitioner-discipline on the Lower Planes, the Abyss especially"],
+     "origin": "the Abyss", "gloss": "pain with a power cord"},
+    {"id": "item:scythe-of-flame", "name": "Scythe/Sickle of Flame", "pages": [142],
+     "kind": "weapon", "magical": True,
+     "aliases": ["scythe of flame"],
+     "properties": [
+         "+3 enchantment on ANY plane (Upper- or Lower-Planes work — both claim it, "
+         "both field champions who swing it)",
+         "command word wreathes the blade in REAL flame: torchlight, ignites flammables, "
+         "+1d6 vs the flame-vulnerable",
+         "flare lasts three hours or until the word is spoken again"],
+     "origin": "disputed — Upper or Lower Planes", "gloss": "the harvest, lit"},
+    {"id": "item:scythe-of-light", "name": "Scythe/Sickle of Light", "pages": [142],
+     "kind": "weapon", "magical": True,
+     "aliases": ["scythe of light", "scytiie/sickle of ugiit"],
+     "properties": [
+         "Mount Celestia's make: +4 weapon on its home plane",
+         "command word (inscribed in the gold-tinged blade) turns undead as a "
+         "7th-level cleric, 3/day",
+         "the same word raises a continual-light sphere for up to an hour, 3/day; "
+         "dispellable at will but every use counts"],
+     "origin": "Mount Celestia", "works_on": "plane:mount-celestia",
+     "gloss": "the archons' answer to the grim reaper"},
+    {"id": "item:scythe-of-pain", "name": "Scythe/Sickle of Pain", "pages": [142],
+     "kind": "weapon", "magical": True,
+     "aliases": ["scythe of pain"],
+     "properties": [
+         "baatezu petitioner-discipline; only baatezu of 6+ HD carry them — any other "
+         "berk seen with one is marked for death on sight",
+         "+3 weapon on Baator",
+         "command word: a hit forces save vs spell or an agony rush — Dexterity -3, "
+         "AC two grades worse, -4 to attack and damage, for 1d6 rounds"],
+     "origin": "Baator", "works_on": "plane:baator",
+     "gloss": "order, enforced one shriek at a time"},
+    {"id": "item:scythe-of-paralyzation", "name": "Scythe/Sickle of Paralyzation",
+     "pages": [142], "kind": "weapon", "magical": True,
+     "aliases": ["scythe of paralyzation"],
+     "properties": [
+         "Outlands work, sold to anyone with the jink: a +2 weapon",
+         "speak its name (written on haft or pegs) and hits force save vs paralyzation "
+         "or the victim can't move for 2d4 rounds",
+         "1d10 activations a day — and the dark of it: nobody knows the count till "
+         "the charges are gone"],
+     "origin": "the Outlands", "works_on": "plane:the-outlands",
+     "gloss": "stillness for sale, supply uncertain"},
+    {"id": "item:scroll-of-outer-planar-protection",
+     "name": "Scroll of Outer-Planar Protection", "pages": [142],
+     "kind": "scroll", "magical": True,
+     "aliases": ["scrolls of protection"],   # head shredded; the body line witnesses (page-restricted)
+     "properties": [
+         "reads as most protection scrolls (reading time 8): a mobile 10-ft-radius "
+         "circle around the reader",
+         "wards a maximum of 50 Hit Dice of creatures for 1d6+10 rounds; attacks out "
+         "are possible, and creatures over the HD cap can press in",
+         "never affects creatures on their home plane",
+         "d100 type table (celestials · neutrals · fiends · modrons · slaadi · all "
+         "outer-planar — each including the matching plane-touched and natives) → "
+         "Modron rollable (handoff D13)"],
+     "origin": None, "gloss": "a chalk circle against half the multiverse"},
+    {"id": "item:shifters-manacles", "name": "Shifters' Manacles", "pages": [143],
+     "kind": "wondrous", "magical": True,
+     "used_by": "faction:mercykillers",
+     "aliases": ["shifters manacles"],
+     "properties": [
+         "Mercykiller commission: the Prison kept losing prisoners who plane-shift "
+         "at will, so their mages forged manacles no shifting magic escapes",
+         "big, heavy, non-adjusting (built fast and in bulk) — but the Prison stocks "
+         "sizes for almost anything",
+         "the metal resists rust, magic, and (by special enchantment) psionics",
+         "a shift attempt fails and costs 1d10 damage of nerve-fire, with 2% per "
+         "point cumulative chance of unconsciousness for 1d3 turns"],
+     "origin": "Sigil (the Prison)", "gloss": "the birdcage's birdcage"},
+    {"id": "item:seeker-stones", "name": "Seeker Stones", "pages": [143],
+     "kind": "wondrous", "magical": True,
+     "properties": [
+         "a matched pair of clear peridot balls; speak the inscribed words and a "
+         "glowing arrow inside homes on the mate within 10 miles",
+         "the arrow fattens and brightens with closeness, dying within 5 feet; it "
+         "re-fires if the gap reopens; reversed words dispel",
+         "either stone seeks independently of the other",
+         "chant whispers of planar-spanning sets — no reliable blood has seen one"],
+     "origin": None, "gloss": "a compass that points at your partner"},
+    {"id": "item:transient-sword", "name": "Transient Sword", "pages": [143],
+     "kind": "weapon", "magical": True,
+     "properties": [
+         "a long sword +2 by every test, tome, and sage — until the wielder changes "
+         "planes and notices nothing changed",
+         "its enchantment is tied to NO plane: always +2, everywhere",
+         "origins unknown, possibly permanently obscured"],
+     "origin": "unknown", "gloss": "the sword that never heard of plane-bleed"},
+    {"id": "item:vambraces-of-evils-warding", "name": "Vambraces of Evil's Warding",
+     "pages": [143], "kind": "armor", "magical": True,
+     "aliases": ["vambraces"],
+     "properties": [
+         "rune-graven metal armbands; trace the runes and they flash blue, then ward "
+         "until removed",
+         "missiles fired by evil creatures attack at -4; misses are drawn to the "
+         "vambraces and bounce (magical ammunition keeps its bonus but obeys)",
+         "melee, auto-hitting, and area attacks are unaffected",
+         "the chant: forged from spirits of Arcadia's fallen petitioners — and an evil "
+         "wearer takes 2d8 every 10 rounds for the insult"],
+     "origin": "Arcadia (by the chant)", "gloss": "dead heroes still catching arrows"},
+    {"id": "item:ring-of-gehennan-fire-resistance",
+     "name": "Ring of Gehennan Fire Resistance", "pages": [143],
+     "kind": "wondrous", "magical": True,
+     "properties": [
+         "exemplar of the planar-protection trade: guards against the lava, magma, "
+         "and heat OF GEHENNA — and nothing else's",
+         "useless against the plane of Fire, dragon breath, or Muspelheim's volcanos",
+         "single-plane focus makes it markedly cheaper than the multiuse article"],
+     "origin": "Sigil bazaars", "works_on": "plane:gehenna",
+     "gloss": "fire insurance, one furnace only"},
+    {"id": "item:inner-planar-amulet", "name": "Inner-Planar Amulet", "pages": [143],
+     "kind": "wondrous", "magical": True,
+     # descriptive handle — the book names the CLASS ("items… usually an amulet…
+     # useful only on a single plane"), not a proper item; the alias witnesses it
+     "aliases": ["these amulets"],
+     "properties": [
+         "Sigil wizards infuse a single Inner Plane's essence at creation: one amulet "
+         "carries that plane's breathing, protection, and movement needs together",
+         "works only on its plane; burns out 6+1d4 days after activation",
+         "the single-plane planar-protection trade's Inner-Planes face"],
+     "origin": "Sigil", "gloss": "a week of survival on a chain"},
+]
+
+
+def attest_item_card(card, pages):
+    pp = attest_name(card["name"], card.get("aliases", []), pages, set(card["pages"]))
+    return {"pages": pp, "refused": not pp}
+
 # ---------------------------------------------------------------- spells
 WIZARD_PAGES = list(range(114, 127))    # printed 112-124
 PRIEST_PAGES = list(range(127, 134))    # printed 125-131
@@ -657,12 +1033,29 @@ if __name__ == "__main__":
         assert c["kind"] in ("planewalker", "location")
         assert c["located_in"] in (None,) or c["located_in"] in known_planes, c["id"]
 
+    # --- item cards well-formed ----------------------------------------------
+    item_planes = {"plane:gehenna", "plane:baator", "plane:mount-celestia",
+                   "plane:the-outlands"}
+    factions = {"faction:harmonium", "faction:mercykillers"}
+    for c in ITEM_CARDS:
+        assert c["id"].startswith("item:") and c["id"] not in seen, c["id"]
+        seen.add(c["id"])
+        assert c["pages"] and all(134 <= p <= 143 for p in c["pages"]), c["id"]
+        assert isinstance(c["magical"], bool) and c["properties"], c["id"]
+        assert c.get("used_by") in (None,) or c["used_by"] in factions, c["id"]
+        assert c.get("works_on") in (None,) or c["works_on"] in item_planes, c["id"]
+    assert len(ITEM_CARDS) == 38      # 12 tools-of-the-trade + 26 magical/protections
+
     # --- attestation refuses what the text lacks ----------------------------
     fake_pages = {72: "The AASIMAR are plane-touched.", 73: "Bariaur roam Ysgard."}
     rep = attest_race_card(RACE_CARDS[0], fake_pages)   # aasimar claims pp 72-73
     assert rep["pages"] == [72] and not rep["refused"]
     rep2 = attest_race_card(RACE_CARDS[3], fake_pages)  # githzerai claims p77 — absent
     assert rep2["refused"]
+    rep3 = attest_item_card(ITEM_CARDS[0], {134: "tempered green steel of Avernus"})
+    assert rep3["pages"] == [134] and not rep3["refused"]   # alias rescues
+    rep4 = attest_item_card(ITEM_CARDS[0], {134: "ordinary iron only"})
+    assert rep4["refused"]
 
     # --- head + name assembly ------------------------------------------------
     pages = {114: "\n".join([
