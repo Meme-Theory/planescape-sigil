@@ -100,7 +100,7 @@ same spirit (full-path real interpreter), amended letter.
 |---|---|---|---|---|---|
 | knows | what **is** | what **governs** | what the dice **said** | what was **said aloud** | how a Cager would **say it** |
 | owns | `handbook.db` + admission gate | `rulings.db` + mechanical core | `rolls.db` + RNG discipline | `renders.db` + voice packs | lexicon + rewrites (data) + compiled attestations |
-| status | store/gate/server **BUILT + V&V'd + GREAT-AUDITED** (all entities page-witness reviewed, docket adopted + applied 2026-06-06); **4 books + 4 boxed sets** poured across **29 dimensions** (928 entities, 2,028 edges — PWH rounds added race/class/spell + 38 equipment items) | core BUILT + V&V'd | **BUILT + V&V'd + AUDITED** (round 2 docket adopted 2026-06-06: 88 findings applied, 185 tests, 18/18 smoke) | **BUILT + smoked** (unit 25/25 · live stdio 14/14 incl. a handbook line end-to-end) | **BUILT + V&V'd** (33 tests · 16/16 stdio · live-wire ceremony, `pipeline/cant/VERIFICATION.md`) |
+| status | store/gate/server **BUILT + V&V'd + GREAT-AUDITED** (all entities page-witness reviewed, docket adopted + applied 2026-06-06); **5 books + 4 boxed sets** poured across **29 dimensions** (1,008 entities, 2,199 edges — PWH added race/class/spell/equipment; Inner Planes added the elemental skeleton) | core BUILT + V&V'd | **BUILT + V&V'd + AUDITED** (round 2 docket adopted 2026-06-06: 88 findings applied, 185 tests, 18/18 smoke) | **BUILT + smoked** (unit 25/25 · live stdio 14/14 incl. a handbook line end-to-end) | **BUILT + V&V'd** (33 tests · 16/16 stdio · live-wire ceremony, `pipeline/cant/VERIFICATION.md`) |
 
 Write discipline is structural everywhere: entities enter only through Mimir's gate;
 rulings only through `record_ruling`/`overrule`; rolls only through the guarded append;
@@ -198,9 +198,17 @@ gear-house) · store `build/mimir/handbook.db` · adjudications `build/mimir/cur
 · V&V report `pipeline/mimir/VERIFICATION.md` (30 pinned + 7-tool live wire; 3 defects caught,
 fixed, pinned — edge-dedup, THAC0-OCR, server conn-leak — and the Mechanus L3 seam wired).
 
-**Status: BUILT — 4 books + 4 boxed sets (Uncaged · The Factol's Manifesto · In the Cage ·
-Planes of Law/Chaos/Conflict · Hellbound · The Planewalker's Handbook) poured across 29
-dimensions (928 entities · 2,028 edges · 92 quarantined in ADJUDICATED buckets).**
+**Status: BUILT — 5 books + 4 boxed sets (Uncaged · The Factol's Manifesto · In the Cage ·
+Planes of Law/Chaos/Conflict · Hellbound · The Planewalker's Handbook · The Inner Planes)
+poured across 29 dimensions (1,008 entities · 2,199 edges · 92 quarantined in ADJUDICATED
+buckets).** **Inner Planes round (2026-06-06, `parse/inner.py` + `pour_inner`):** all 18
+inner planes stand (13 minted + 5 Cage stubs enriched; anchor-based page WINDOWS — the
+print offset drifts), 44 sites (Doomguard's citadel network text-bound `used_by`), 4
+double-witnessed realms (Crimson Pillar/Kossuth et al.), 17 power stubs (elemental lords +
+archomentals, typed honestly), proxy Jay Burning-Hand→Hastsezini, 160 creature-index
+inhabitants as plane FIELDS (real creature nodes await the MC appendices). The §M7-UNPARK
+survival-law witness package is posted in `rule-effect-handoff.md` (Q6 to Mechanus);
+hazard pointer-nodes mint after M7 law ids exist.
 **GREAT-AUDITED 2026-06-06** (V&V round 5):
 every entity page-witness reviewed (47 chunks, adversarial verification), 89-item quarantine
 court, correction docket ADOPTED by Meme and applied — `cage.ENTRY_CURATIONS` recovered all 10

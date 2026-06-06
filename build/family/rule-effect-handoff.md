@@ -152,3 +152,58 @@ RULES TEXT stayed un-poured, per the M6 lane. Page cites below are reflow-PDF pa
   the existing M1/M2/M4 rows with PWH page cites over new families?
 - **Q5 → Modron:** D12's tiefling tables are player-facing chargen rollables — in
   scope for the registry, or parked until a chargen lane exists?
+
+---
+
+## §M7-UNPARK — The Inner Planes (2634) survival-law witness package
+(added 2026-06-06, Mimir session — the joint pour landed: 18 planes + 44 sites +
+4 realms + 17 powers entity-poured this day, so M7's parking condition is lifted)
+
+Reserved id family `law:inner-survival:<topic>` (MECHANUS.md §3a). Per-plane
+conditions can ALSO extend `law:planar-conditions:<mimir-slug>` — the slugs now
+exist (`plane:elemental-air` … `plane:quasi-vacuum`, `plane:energy-positive`/`-negative`)
+so the `exhibits` suffix-join works unchanged. Pages are reflow-PDF of
+`build/the-inner-planes/planescape-2634-inner-planes` (print offset DRIFTS +2→+1;
+trust these anchors, not arithmetic).
+
+| plane | conditions | hazards | spell keys | school-alteration margin table |
+|---|---|---|---|---|
+| elemental-air | 31 | 23 | 30 | 31 |
+| elemental-earth | 31,42 | 33 | 30,40 | 31 |
+| elemental-fire | 42,51 | 43,44,50,51 | 40,50 | — |
+| elemental-water | — | 53,54,62 | 60 | — |
+| energy-positive | 65 | 62,66 | — | — |
+| energy-negative | 65,70 | 66 | 68 | 69 |
+| para-ice | 70 | 71,76 | 74 | — |
+| para-magma | 82 | 76,77 | 80 | 81 |
+| para-ooze | 82,88 | 83 | 86 | — |
+| para-smoke | 88,93 | 89,94 | 92 | — |
+| quasi-lightning | 98 | 94,95,98 | 96 | 97 |
+| quasi-mineral | 98,101 | 98,102 | 100 | 97 |
+| quasi-radiance | 101 | 102,106 | 104 | — |
+| quasi-steam | — | 106 | 108 | — |
+| quasi-ash | — | 116 | 114 | — |
+| quasi-dust | — | 116,120 | 118 | — |
+| quasi-salt | 123 | 120,121,123,124 | 122 | — |
+| quasi-vacuum | 123 | 123,124,125 | 122,126 | — |
+
+('—' cells: the rubric is UNIFORM — every chapter opens with Physical
+Conditions immediately after its narrator intro at the window's low edge; the
+display-font head just evaded the sweep there. Windows overlap by 1-2 pages, so
+boundary anchors may sit one page into the neighbor's window.)
+
+General law (the Elemental Primer, PDF 6-21): combat in elemental environs
+(PDF ~19), magic use / general conditions / wizard+priest restrictions /
+magical items (PDF ~20-21), elemental pockets (~15), the Derithrex magic-level
+scale (named at PDF 96, the Eye). Suffocation pgs: 62/87/123 (the original M7
+witness note) land inside the windows above.
+
+Suggested topics for `law:inner-survival:<topic>`: breathing/suffocation ·
+temperature (heat-by-natural-AC, the Fire table PDF 44; cold) · pressure/
+crushing · vision (radiance-blindness, smoke, fire's infravision-wash) ·
+movement (solid-matter travel, currents, wind force) · desiccation (Salt) ·
+life/level drain (the energy planes) · disintegration (Dust/Vacuum).
+
+**Q6 → Mechanus:** pour M7 from these witnesses? Per-plane conditions rows as
+`law:planar-conditions:<slug>` extensions vs survival topics under
+`law:inner-survival:*` — your call; Mimir mints `exhibits` edges either way.

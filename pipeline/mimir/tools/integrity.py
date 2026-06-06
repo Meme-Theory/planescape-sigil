@@ -31,7 +31,7 @@ OUT = S.ROOT / "build/mimir/review/integrity-report.json"
 # functions in gate.py). A rel outside this list after a re-pour is drift.
 REL_CATALOG = {
     "allied_with", "aspect_of", "attested_in", "authored_by", "before", "castable_by",
-    "concerns", "connects_to", "defends", "employs", "funds", "gate_to", "has_ward",
+    "concerns", "connects_to", "defends", "dwells_in", "employs", "funds", "gate_to", "has_ward",
     "headquartered_in", "hires", "hub_of", "involves", "kit_of", "layer_of", "led_by",
     "located_in", "member_of", "native_to", "occurred_at", "opens_from", "opposed_to",
     "opposes", "part_of", "participated_in", "protects", "realm_of", "references",

@@ -29,6 +29,7 @@ import planes as P                                  # the three Planes boxes: cu
 import boxset as B                                  # box-section harvest: proxy/sect/settlement/saying/adventure/timeline
 import monstrous as MC                              # 2e Monstrous Compendium parser (creature dim)
 import pwh as PW                                    # The Planewalker's Handbook: races + kits (cards) + spells (parsed)
+import inner as IN                                  # The Inner Planes: 18 planes + sites/realms/powers, M7's joint pour
 
 # Mechanus is the gate's L3 lawfulness channel (VALIDATION §2). Import her judge as a LIBRARY —
 # the same seam store.py is for the siblings, no MCP-over-MCP. Guarded: if she isn't importable
@@ -2467,6 +2468,183 @@ def pour_pwh(store):
     return n
 
 
+# --- BOOK 9: The Inner Planes (2634) — the elemental skeleton (M7's joint pour) --------------
+def pour_inner(store):
+    """18 inner planes (5 merge onto Cage stubs) + ~40 sites + 4 double-witnessed
+    realms + 17 power stubs + 1 proxy, all curated-card text-validated; the
+    back-matter creature index rides plane nodes as inhabitants[] fields. The
+    survival LAW stays out — it is the M7 witness package (handoff §M7-unpark).
+    Returns a counts dict."""
+    n = {"plane_new": 0, "plane_merged": 0, "site": 0, "realm": 0, "deity": 0,
+         "proxy": 0, "edges": 0, "inhabitants": 0, "refused": []}
+    pages = IN.load_component(ROOT / "build")
+    sid, sname, tsr, year = IN.SOURCE
+
+    sha = None
+    sj = ROOT / "build" / IN.COMPONENT / "source.json"
+    if sj.exists():
+        sha = (json.loads(sj.read_text(encoding="utf-8")) or {}).get("sha256")
+
+    _admit_seed(store, {"type": "source", "id": sid, "name": sname, "edition": "2e",
+                        "fields": {"tsr": tsr, "year": year, "kind": "accessory",
+                                   "line": "Planescape",
+                                   "designers": "Monte Cook with William W. Connors"},
+                        "content": f"{sname} TSR {tsr} Planescape elemental paraelemental "
+                                   "quasielemental energy planes survival conditions hazards sites",
+                        "provenance": {"value_sources": [{"src": IN.BOOK}], "method": "seed"},
+                        "confidence": 1.0, "curated": {}, "source_sha": sha}, "book", 1)
+
+    idx, idx_wit = IN.parse_creature_index(pages)
+
+    # — the 18 planes (merge-aware: 5 In-the-Cage stubs enrich, 13 mint) —
+    for card in IN.PLANE_CARDS:
+        rep = IN.attest_plane_card(card, pages)
+        if rep["refused"]:
+            n["refused"].append((card["id"], "name-unattested"))
+            continue
+        old = store.get(card["id"]) or {}
+        existed = bool(old)
+        fields = dict(old.get("fields") or {})
+        fields.update({"kind": card["kind"], "pages": rep["pages"], "book": IN.BOOK})
+        for k in ("composition", "epithet", "hazards_note"):
+            if card.get(k):
+                fields[k] = card[k]
+        if card["sites"]:
+            fields["sites"] = card["sites"]
+        roster = idx.get(card["id"])
+        if roster:
+            fields["inhabitants"] = [f"{nm} ({src})" for nm, src in roster]
+            fields["inhabitants_pages"] = idx_wit.get(card["id"], [])
+            n["inhabitants"] += len(roster)
+        prov = old.get("provenance") or {"value_sources": [], "method": "card-attestation"}
+        srcs = prov.get("value_sources") or []
+        if not any(s.get("src") == IN.BOOK for s in srcs):
+            srcs.append({"src": IN.BOOK, "loc": f"pp{rep['pages'][0]}-{rep['pages'][-1]}"})
+        prov["value_sources"] = srcs
+        content = ((old.get("content") or "") + f"\n\n[{IN.BOOK}] "
+                   + (card["epithet"] + " — " if card.get("epithet") else "")
+                   + card["gloss"] + ". " + card["hazards_note"]
+                   + (" Inhabitants: " + " ".join(nm for nm, _ in roster) if roster else "")).strip()
+        _admit_seed(store, {"type": "plane", "id": card["id"],
+                            "name": old.get("name") or card["name"], "edition": "2e",
+                            "fields": fields, "content": content, "provenance": prov,
+                            "confidence": max(old.get("confidence") or 0, 0.95),
+                            "curated": old.get("curated") or {},
+                            "source_sha": old.get("source_sha") or sha},
+                    "inner-plane-card", len(rep["pages"]))
+        store.add_edge("attested_in", card["id"], sid, src_type="plane", tgt_type="source",
+                       edition="2e")
+        if store.exists("cosmology:the-inner-planes"):
+            store.add_edge("part_of", card["id"], "cosmology:the-inner-planes",
+                           src_type="plane", tgt_type="cosmology", edition="2e")
+            n["edges"] += 1
+        n["plane_merged" if existed else "plane_new"] += 1
+
+    # — power stubs BEFORE realms (realm_of needs the deity id) —
+    for nm, kind, pid, win, gloss, al in IN.POWER_STUBS:
+        pp = IN.attest_window(nm, al, pages, win)
+        if not pp:
+            n["refused"].append((f"deity:{S.slug(nm)}", "power-unattested"))
+            continue
+        did = f"deity:{S.slug(nm)}"
+        old = store.get(did) or {}
+        fields = dict(old.get("fields") or {})
+        fields.setdefault("kind", kind)
+        fields["home_plane"] = pid
+        fields.setdefault("pages", pp)
+        prov = old.get("provenance") or {"value_sources": [], "method": "card-attestation"}
+        srcs = prov.get("value_sources") or []
+        if not any(s.get("src") == IN.BOOK for s in srcs):
+            srcs.append({"src": IN.BOOK, "loc": f"p{pp[0]}"})
+        prov["value_sources"] = srcs
+        _admit_seed(store, {"type": "deity", "id": did, "name": old.get("name") or nm,
+                            "edition": "2e", "fields": fields,
+                            "content": ((old.get("content") or "") +
+                                        f"\n\n[{IN.BOOK}] {nm} — {kind}. {gloss}").strip(),
+                            "provenance": prov,
+                            "confidence": max(old.get("confidence") or 0, 0.95),
+                            "curated": old.get("curated") or {},
+                            "source_sha": old.get("source_sha") or sha},
+                    "inner-power-stub", len(pp))
+        store.add_edge("attested_in", did, sid, src_type="deity", tgt_type="source", edition="2e")
+        store.add_edge("dwells_in", did, pid, src_type="deity", tgt_type="plane", edition="2e")
+        n["edges"] += 1
+        n["deity"] += 1
+
+    # — realms (double-witnessed; realm_of → deity, located_in → plane) —
+    for card in IN.REALM_CARDS:
+        nm, power, pid, win, gloss, al = card
+        rep = IN.attest_realm(card, pages)
+        if not rep["ok"]:
+            n["refused"].append((f"realm:{S.slug(nm)}", rep["why"]))
+            continue
+        rid = f"realm:{S.slug(re.sub(r'^the ', '', nm, flags=re.I))}"
+        did = f"deity:{S.slug(power)}"
+        _admit_seed(store, {"type": "realm", "id": rid, "name": nm, "edition": "2e",
+                            "fields": {"power": power, "plane": pid,
+                                       "realm_pages": rep["realm_pages"],
+                                       "power_pages": rep["power_pages"], "aliases": al},
+                            "content": f"{nm} realm of {power}. {gloss}",
+                            "provenance": {"value_sources": [{"src": IN.BOOK,
+                                                              "loc": f"pp{rep['realm_pages'][0]}"}],
+                                           "method": "realm-card-double-witness"},
+                            "confidence": 0.95, "curated": {}, "source_sha": sha},
+                    "inner-realm-card", len(rep["realm_pages"]) + len(rep["power_pages"]))
+        store.add_edge("attested_in", rid, sid, src_type="realm", tgt_type="source", edition="2e")
+        if store.exists(did):
+            store.add_edge("realm_of", rid, did, src_type="realm", tgt_type="deity", edition="2e")
+            n["edges"] += 1
+        store.add_edge("located_in", rid, pid, src_type="realm", tgt_type="plane", edition="2e")
+        n["edges"] += 1
+        n["realm"] += 1
+
+    # — sites → locations (kind: site) —
+    for nm, pid, win, gloss, fac, al in IN.SITE_CARDS:
+        rep = IN.attest_site(nm, al, pages, win)
+        if rep["refused"]:
+            n["refused"].append((f"location:{S.slug(nm)}", "site-unattested"))
+            continue
+        lid = f"location:inner:{S.slug(re.sub(r'^the ', '', nm, flags=re.I))}"
+        _admit_seed(store, {"type": "location", "id": lid, "name": nm, "edition": "2e",
+                            "fields": {"kind": "site", "plane": pid, "pages": rep["pages"],
+                                       **({"aliases": al} if al else {})},
+                            "content": f"{nm} — {gloss}. Inner Planes site.",
+                            "provenance": {"value_sources": [{"src": IN.BOOK,
+                                                              "loc": f"pp{rep['pages'][0]}-{rep['pages'][-1]}"}],
+                                           "method": "card-attestation"},
+                            "confidence": 0.95, "curated": {}, "source_sha": sha},
+                    "inner-site-card", len(rep["pages"]))
+        store.add_edge("attested_in", lid, sid, src_type="location", tgt_type="source", edition="2e")
+        store.add_edge("located_in", lid, pid, src_type="location", tgt_type="plane", edition="2e")
+        n["edges"] += 1
+        if fac and store.exists(fac):
+            store.add_edge("used_by", lid, fac, src_type="location", tgt_type="faction", edition="2e")
+            n["edges"] += 1
+        n["site"] += 1
+
+    # — the proxy (the boxset pattern: named binding, power already minted) —
+    for nm, power, pid, win, gloss in IN.PROXY_CARDS:
+        pp = IN.attest_window(nm, [], pages, win)
+        if not pp:
+            n["refused"].append((f"proxy:{S.slug(nm)}", "proxy-unattested"))
+            continue
+        prid = f"proxy:{S.slug(nm)}"
+        _admit_seed(store, {"type": "proxy", "id": prid, "name": nm, "edition": "2e",
+                            "fields": {"powers": [power], "plane": pid, "pages": pp},
+                            "content": f"{nm} proxy of {power}. {gloss}",
+                            "provenance": {"value_sources": [{"src": IN.BOOK, "loc": f"p{pp[0]}"}],
+                                           "method": "card-attestation"},
+                            "confidence": 0.95, "curated": {}, "source_sha": sha},
+                    "inner-proxy-card", len(pp))
+        store.add_edge("attested_in", prid, sid, src_type="proxy", tgt_type="source", edition="2e")
+        did = f"deity:{S.slug(power)}"
+        if store.exists(did):
+            store.add_edge("serves", prid, did, src_type="proxy", tgt_type="deity", edition="2e")
+            n["edges"] += 1
+        n["proxy"] += 1
+    return n
+
+
 def main():
     npcdir = ROOT / "build/uncaged-faces-of-sigil/ps-uncaged-facesofsigil/npc"
     nodes = [json.loads(p.read_text(encoding="utf-8"))
@@ -2523,6 +2701,7 @@ def main():
     hadm, hqd, hpart, hcross = pour_plothooks(store)   # mechanically-tagged adventure seeds (all three books)
     dadm, dqd = pour_dialog(store)                      # the NPC voice vector (bound speech, register-tagged)
     pw = pour_pwh(store)                                # BOOK 8: The Planewalker's Handbook (race/class/spell)
+    inn = pour_inner(store)                             # BOOK 9: The Inner Planes (the elemental skeleton)
     cov = store.coverage()
     adj = [e for e, r, d in admitted if e.get("curated")]
     print(f"=== MIMIR GATE — Uncaged ({len(nodes)} npc) ===")
@@ -2551,7 +2730,11 @@ def main():
     print(f"planewalker's-hbk: {pw['race']} races · {pw['kit']} kits + {pw['base_class']} base classes · "
           f"{pw['spell']} spells · {pw['spell_q']} spell-quarantine · {pw.get('item', 0)} equipment items · "
           f"{pw['edges']} typed edges · {pw.get('faction_witness', 0)} faction 3rd-witnesses"
-          + (f" · REFUSED: {pw['refused']}" if pw['refused'] else " · 0 refused")
+          + (f" · REFUSED: {pw['refused']}" if pw['refused'] else " · 0 refused"))
+    print(f"inner-planes: {inn['plane_new']} planes minted + {inn['plane_merged']} enriched · "
+          f"{inn['site']} sites · {inn['realm']} realms · {inn['deity']} powers · {inn['proxy']} proxy · "
+          f"{inn['inhabitants']} index-inhabitants · {inn['edges']} typed edges"
+          + (f" · REFUSED: {inn['refused']}" if inn['refused'] else " · 0 refused")
           + f"   ·   total: {cov['admitted_total']} entities, {cov['edges']} edges")
     if unresolved:
         print(f"          plot edges unresolved (not poured): {sorted(set(unresolved))}")
