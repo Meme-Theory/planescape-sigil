@@ -1,0 +1,74 @@
+{
+  "_source": {
+    "2e": "For Gold & Glory (free 2e retroclone) — decided 2e RAW, MECHANUS.md §10",
+    "pour": "F6 (build/family/integration-tests.md): serve the 2e save matrices — encounter stat-chain audit + the lawyers' table, 2026-06-06",
+    "mechanics": "FG&G p.69 (printed 59): a saving throw is 1d20 + applicable modifiers, succeeding on equal-or-exceed the class/level score; saves are instinctive — awareness of the danger is not required",
+    "rules_page": "FG&G p.70 (printed 60): category definitions, priority order, creature mapping, voluntary failure, ability-checks-as-saves, modifier law (bonuses/penalties move the DIE, not the required score; GM situational range -4..+4)",
+    "tables": "FG&G p.27 Table 3.2 (warrior) · p.30 Table 3.9 (wizard) · p.32 Table 3.12 (priest) · p.34 Table 3.13 (rogue)",
+    "page_convention": "p.N cites build/mechanus/fgg-text/p00NN.txt (PDF index — the FG&G law-cite convention)"
+  },
+  "categories": ["paralyzation-poison-death", "rod-staff-wand", "petrification-polymorph", "breath-weapon", "spell"],
+  "priority": {
+    "rule": "When an effect straddles categories, the save is chosen by priority running from paralyzation/poison/death (highest) down to spell (lowest) — poison delivered from a wand saves vs. poison, not vs. wand. Spell is also the catch-all for effects with no definite classification. (FG&G p.70)",
+    "order": ["paralyzation-poison-death", "rod-staff-wand", "petrification-polymorph", "breath-weapon", "spell"]
+  },
+  "groups": {
+    "warrior": {
+      "cite": "FG&G p.27 Table 3.2",
+      "brackets": [
+        [1, 2, [14, 16, 15, 17, 17]],
+        [3, 4, [13, 15, 14, 16, 16]],
+        [5, 6, [11, 13, 12, 13, 14]],
+        [7, 8, [10, 12, 11, 12, 13]],
+        [9, 10, [8, 10, 9, 9, 11]],
+        [11, 12, [7, 9, 8, 8, 10]],
+        [13, 14, [5, 7, 6, 5, 8]],
+        [15, 16, [4, 6, 5, 4, 7]],
+        [17, 99, [3, 5, 4, 4, 6]]
+      ]
+    },
+    "wizard": {
+      "cite": "FG&G p.30 Table 3.9",
+      "brackets": [
+        [1, 5, [14, 11, 13, 15, 12]],
+        [6, 10, [13, 9, 11, 13, 10]],
+        [11, 15, [11, 7, 9, 11, 8]],
+        [16, 20, [10, 5, 7, 9, 6]],
+        [21, 99, [8, 3, 5, 7, 4]]
+      ]
+    },
+    "priest": {
+      "cite": "FG&G p.32 Table 3.12",
+      "brackets": [
+        [1, 3, [10, 14, 13, 16, 15]],
+        [4, 6, [9, 13, 12, 15, 14]],
+        [7, 9, [7, 11, 10, 13, 12]],
+        [10, 12, [6, 10, 9, 12, 11]],
+        [13, 15, [5, 9, 8, 11, 10]],
+        [16, 18, [4, 8, 7, 10, 9]],
+        [19, 99, [2, 6, 5, 8, 7]]
+      ]
+    },
+    "rogue": {
+      "cite": "FG&G p.34 Table 3.13",
+      "brackets": [
+        [1, 4, [13, 14, 12, 16, 15]],
+        [5, 8, [12, 12, 11, 15, 13]],
+        [9, 12, [11, 10, 10, 14, 11]],
+        [13, 16, [10, 8, 9, 13, 9]],
+        [17, 20, [9, 6, 8, 12, 7]],
+        [21, 99, [8, 4, 7, 11, 5]]
+      ]
+    }
+  },
+  "creatures": {
+    "rule": "Creatures and NPCs without ability scores take the warrior progression keyed to their Hit Dice; a creature that casts wizard or priest spells uses that caster's progression instead, and one with thief abilities uses the rogue's. (FG&G p.70)",
+    "hd_mapping": "Hit Dice stand in for warrior level on Table 3.2; fractional and sub-1 HD land on the lowest (1-2) row — the table prints no lower bracket",
+    "plus_bump": "An HD bonus of +3 or more counts the creature one Hit Die greater for THACO AND saving throws (FG&G p.309) — the same effective-HD law the thac0_2e table applies"
+  },
+  "modifiers": {
+    "rule": "Bonuses and penalties modify the DIE ROLL, never the required score. Witnessed sources (FG&G p.70): high wisdom vs. mental effects; exceptional constitution vs. poison; high dexterity vs. dodgeable effects; magical items per description; magical armor's enchantment bonus vs. externally-damaging effects only (no help vs. gas, poison, or mental attacks); per-spell/per-poison modifiers; GM situational calls in the -4..+4 band",
+    "voluntary_failure": "A character may consciously choose to fail a save — it must be clearly declared, and the effect then works as normal (FG&G p.70)",
+    "ability_checks": "Where an ability score could avert the harm, an ability check replaces the save (FG&G p.70)"
+  }
+}

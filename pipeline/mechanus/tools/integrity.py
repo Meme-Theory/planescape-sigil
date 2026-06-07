@@ -50,6 +50,7 @@ BOOK_DIR = {
     "planes-of-conflict-2615-01-liber-benevolentiae": "planes-of-conflict",
     "planes-of-conflict-2615-02-liber-malevolentiae": "planes-of-conflict",
     "ddps-inthecage": "in-the-cage-a-guide-to-sigil",
+    "planescape-2634-inner-planes": "the-inner-planes",
 }
 
 GREAT_RING = {
@@ -67,6 +68,8 @@ EXPECTED_FAMILY_COUNTS = {
     "law:planar-conditions": 109, "law:planar-keys": 48, "law:seals-wards": 5,
     "law:planar-priest": 3, "law:plane-environment": 18, "law:planar-spell": 12,
     "law:cage": 4,
+    # M7 pour 2026-06-06: 9 general topics + 18 plane profiles + 82 hazard sub-ids
+    "law:inner-survival": 109,
 }
 SHINGLE = 10  # the cite-only law's verbatim threshold (test_planar_law.py)
 
@@ -93,9 +96,14 @@ def _norm_tokens(text: str) -> list[str]:
 
 
 def _rule_text(row: dict) -> str:
-    return (row.get("rule") or row.get("effect") or row.get("general")
-            or " ".join(filter(None, (row.get("spell_keys"), row.get("power_keys"))))
-            or "")
+    """All of a row's governing prose (mirror of tests/test_planar_law.py):
+    inner-survival plane rows carry `conditions`; the pockets row a `per_type`
+    map — concatenated so the U1 sweeps miss nothing."""
+    extra = " ".join(str(v) for v in (row.get("per_type") or {}).values())
+    return " ".join(filter(None, (
+        row.get("rule"), row.get("effect"), row.get("general"),
+        row.get("conditions"), row.get("spell_keys"), row.get("power_keys"),
+        extra)))
 
 
 # ---------------------------------------------------------------------------
@@ -109,8 +117,9 @@ def check_u1() -> dict:
     if fam_counts != EXPECTED_FAMILY_COUNTS:
         flag("u1.family_counts", "law:*", "hard",
              f"expected {EXPECTED_FAMILY_COUNTS}, got {fam_counts}")
-    if total != 199:
-        flag("u1.total_199", "law:*", "hard", f"planar total {total} != 199")
+    # 199 (§M pour) + 109 (M7 inner-survival pour, 2026-06-06) = 308
+    if total != 308:
+        flag("u1.total_308", "law:*", "hard", f"planar total {total} != 308")
 
     seen: set[str] = set()
     ocr_rows: list[str] = []
@@ -589,10 +598,10 @@ def check_u8() -> list[dict]:
     lv = tables.law_version()
     m = re.search(r"law_version ([0-9a-f]{16})", mech_md)
     claim("MECHANUS.md", "header law_version literal", m.group(1) if m else None, lv)
-    claim("MECHANUS.md", "199 law ids across 7 families",
-          bool(re.search(r"199 law ids across 7 families", mech_md)),
-          sum(len(v) for v in tables.planar_law_index().values()) == 199)
-    m = re.search(r"(\d+) tests \+ 20-check stdio smoke", mech_md)
+    claim("MECHANUS.md", "308 law ids across 8 families",
+          bool(re.search(r"308 law ids across 8 families", mech_md)),
+          sum(len(v) for v in tables.planar_law_index().values()) == 308)
+    m = re.search(r"(\d+) tests \+ \d+-check stdio smoke", mech_md)
     try:
         out = subprocess.run(
             ["py", "-3.13", "-m", "pytest", "tests/", "--collect-only", "-q"],
@@ -618,8 +627,8 @@ def check_u8() -> list[dict]:
     claude_md = (REPO / "CLAUDE.md").read_text(encoding="utf-8")
     claim("CLAUDE.md", "47/47 live probes cited", "47/47" in claude_md, True)
     claim("CLAUDE.md", "334-monster fleet audit cited", "334-monster" in claude_md, True)
-    claim("CLAUDE.md", "planar law: 7 families/199 ids cited",
-          bool(re.search(r"7 page-cited law families \(199 ids\)", claude_md)), True)
+    claim("CLAUDE.md", "planar law: 8 families/308 ids cited",
+          bool(re.search(r"8 page-cited law families \(308 ids\)", claude_md)), True)
     return claims
 
 

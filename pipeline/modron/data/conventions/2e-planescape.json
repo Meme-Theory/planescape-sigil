@@ -82,7 +82,141 @@
         "The Wasting — contraction check, Oinos surface, the Gray Waste (Planes of Conflict Liber Malevolentiae, TSR 2615, reflow p53/book p51): 10% chance per day spent walking the layer's surface.",
         "Progression is diceless: drains 1 point EACH from Str, Con, Dex, and Cha per day; death only when all four reach 0; cure disease ends it.",
         "Realm exception: Abbathor's Glitterhell admits no disease (reflow p53).",
-        "Law lane: Mechanus law:plane-environment:the-gray-waste:wasting-sickness (ref upgraded from pending-M5 by audit court-mechanus, 2026-06-06). Hope-drain carries no stated dice in the witness — prose color, Mimir's lane."
+        "Law lane: Mechanus law:plane-environment:the-gray-waste:wasting-sickness (ref upgraded from pending-M5 by audit court-mechanus, 2026-06-06). Hope-drain is separately minted law (law:plane-environment:the-gray-waste:hope-drain — weekly save vs. spell); its progression check kind is hope_drain (the D5 follow-up, closed 2026-06-06), not this kind."
+      ]
+    },
+    "hope_drain": {
+      "roll": "1d20",
+      "vs": "target",
+      "success_op": ">=",
+      "notes": [
+        "The Gray Waste hope-drain — weekly save vs. spell (Planes of Conflict Liber Malevolentiae, TSR 2615, reflow p46-48/book p44-46): for every week spent on the plane, save or begin losing the sense of self. Save targets are law: Mechanus/caller supplies {target}.",
+        "Failure: vivid dreams ransack the victim's memories and desires; imagination and willpower dissipate with them. One fully succumbed no longer wishes to leave and within 1d6 months sheds his mortal guise (the larva slide) — roll 1d6 months at the point of full surrender.",
+        "Charm interplay: a successful charm spell snaps a victim out for the spell's duration (useless after two weeks under). When it wears off, anger shields him about one week more, then he AUTOMATICALLY FAILS the next weekly save — an automatic failure is diceless law, serve it, never roll a die for it.",
+        "Lower-planar denizens are immune.",
+        "Law lane: Mechanus law:plane-environment:the-gray-waste:hope-drain (minted at the Assize; her row cites this kind by name as its progression check — the D5 follow-up, Lane-E remnant closed 2026-06-06)."
+      ]
+    },
+    "planar_sense": {
+      "roll": "1d20",
+      "vs_template": "score - 1",
+      "params": ["score"],
+      "success_op": "<=",
+      "crit_nat": [1],
+      "fumble_nat": [20],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "notes": [
+        "Planar sense NWP (The Planewalker's Handbook, TSR 2620, reflow p101/book p99): 1 slot, Wisdom, General, check modifier -1 (baked into the target). Pass params {score: Wis}.",
+        "Predicts imminent conditions on any plane — breathability, gravity, ground stability, temperature — up to one hour before they occur. Of great use on chaotic planes; rarely helpful on the unchanging planes of law.",
+        "Law lane: Mechanus M12 planewalking-proficiencies (pending mint — witness: TSR 2620 reflow p101-103; handoff §PWH D10/Q4). Slot/category mechanics are chargen law, carried here as data."
+      ]
+    },
+    "chaos_shaping": {
+      "roll": "1d20",
+      "vs": "score",
+      "success_op": "<=",
+      "crit_nat": [1],
+      "fumble_nat": [20],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "notes": [
+        "Chaos shaping NWP (TSR 2620, reflow p101/book p99): 1 slot, Wisdom, General, check modifier 0. Pass params {score: Wis}. ANARCHS ONLY — the innate ability is determined per the Planes of Chaos rules.",
+        "A trained anarch maintains Limbo terrain with the SUBCONSCIOUS mind: uses Wisdom rather than Intelligence on the terrain-maintenance table, keeps shaping while distracted, unconscious, or asleep, and is free to act while shaping.",
+        "Capacity table: lkp:2e:limbo:terrain-maintenance (registry). Untrained shapers use Intelligence and lose the terrain when distracted.",
+        "Law lane: Mechanus M12 (pending mint — witness: TSR 2620 reflow p101)."
+      ]
+    },
+    "planar_survival": {
+      "roll": "1d20",
+      "vs_template": "score - 2",
+      "params": ["score"],
+      "success_op": "<=",
+      "crit_nat": [1],
+      "fumble_nat": [20],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "notes": [
+        "Planar survival NWP (TSR 2620, reflow p101/book p99): 2 slots, Intelligence, General, check modifier -2 (baked). Pass params {score: Int}. Taken PER PLANE — each plane is its own proficiency; no basher learns them all.",
+        "Knows a plane's general characteristics; on that plane, checks whether something is safe — edible plants, drinkable water, gravity shifts. Only CONSTANT, ESTABLISHED dangers (the stuff of texts) can be detected; the new, rare, or remote cannot. Environment only — never denizens.",
+        "A modified version of the Fated-only 'plane knowledge' proficiency (The Factol's Manifesto, TSR 2611).",
+        "Law lane: Mechanus M12 (pending mint — witness: TSR 2620 reflow p101)."
+      ]
+    },
+    "planology": {
+      "roll": "1d20",
+      "vs": "score",
+      "add_to_target": ["check_mod"],
+      "success_op": "<=",
+      "crit_nat": [1],
+      "fumble_nat": [20],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "notes": [
+        "Planology NWP (TSR 2620, reflow p101-102/book p99-100): 1 slot, Intelligence, category Wizard/Priest, check modifier 0. Pass params {score: Int}; looking N days into the future adds a CUMULATIVE -1 per day — pass check_mod: -N.",
+        "Requires a celestial etheroscope (Mimir item:celestial-etheroscope, described book p134). Reads the tides of fortune on a plane; result bands: tbl:2e:nwp:planology-fortune (registry, 1d20 — DM may choose instead of rolling).",
+        "A FAILED check reads false or empty AND denies any further attempt for that time period.",
+        "Law lane: Mechanus M12 (pending mint — witness: TSR 2620 reflow p101-102)."
+      ]
+    },
+    "portal_feel": {
+      "roll": "1d20",
+      "vs_template": "score - 3",
+      "params": ["score"],
+      "success_op": "<=",
+      "crit_nat": [1],
+      "fumble_nat": [20],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "notes": [
+        "Portal feel NWP, FIRST use (TSR 2620, reflow p102/book p100): 2 slots, Intelligence, General. A successful check at -3 (baked) grants a general feel for SAFETY — whether the portal opens onto direct and immediate harm (DM interprets). Pass params {score: Int}.",
+        "The proficiency's second use (divining the destination) is the sibling kind portal_feel_destination (-5).",
+        "Law lane: Mechanus M12 (pending mint — witness: TSR 2620 reflow p102)."
+      ]
+    },
+    "portal_feel_destination": {
+      "roll": "1d20",
+      "vs_template": "score - 5",
+      "params": ["score"],
+      "success_op": "<=",
+      "crit_nat": [1],
+      "fumble_nat": [20],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "notes": [
+        "Portal feel NWP, SECOND use (TSR 2620, reflow p102/book p100): a successful check at -5 (baked) divines the location of the portal's other end — at the very least the destination PLANE, though not necessarily the exact site. Pass params {score: Int}.",
+        "Never reveals the gate key. The safety read is the sibling kind portal_feel (-3); one proficiency, two uses, two printed modifiers.",
+        "Law lane: Mechanus M12 (pending mint — witness: TSR 2620 reflow p102)."
+      ]
+    },
+    "spell_recovery": {
+      "roll": "1d20",
+      "vs_template": "score - 5",
+      "params": ["score"],
+      "success_op": "<=",
+      "crit_nat": [1],
+      "fumble_nat": [20],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "notes": [
+        "Spell recovery NWP (TSR 2620, reflow p102/book p100): 2 slots, Intelligence, category Wizard/Priest, check modifier -5 (baked). Pass params {score: Int}.",
+        "Grabs hold of a spell lost ONLY to the magical conditions of a plane, layer, or realm (an illusion on Mechanus) before it fades from memory. Spells that fail for other reasons — magic resistance, successful saves — can never be recovered this way.",
+        "Law lane: Mechanus M12 (pending mint — witness: TSR 2620 reflow p102)."
+      ]
+    },
+    "planar_direction_sense": {
+      "roll": "1d20",
+      "vs_template": "score + 1",
+      "params": ["score"],
+      "success_op": "<=",
+      "crit_nat": [1],
+      "fumble_nat": [20],
+      "nat_crit_auto_hits": true,
+      "nat_fumble_auto_misses": true,
+      "notes": [
+        "Planar direction sense NWP (TSR 2620, reflow p103/book p101): 1 slot, Wisdom, General, check modifier +1 (baked — positive = easier, the add_to_target direction). Pass params {score: Wis}.",
+        "Standard compass directions don't exist on the planes: this skill navigates by landmarks and benchmarks — not which way is north, but the way back to Plague-Mort, the tower of Nirrecles, or the gate to Sigil. The page offers it as the model 'planar version' of an existing proficiency (direction sense).",
+        "Law lane: Mechanus M12 (pending mint — witness: TSR 2620 reflow p103; the -1..-10 DM-discretion amendments to existing proficiencies on the same page are M12 law, not check kinds)."
       ]
     }
   },
@@ -91,6 +225,7 @@
     "Planes of Conflict (TSR 2615) — official scan, cite-only",
     "In the Cage: A Guide to Sigil (TSR 2609) — official scan, cite-only (registry entries)",
     "The Inner Planes (TSR 2634) — official scan, cite-only (registry entries)",
-    "Planes of Law (TSR 2607) — official scan, cite-only (registry entries)"
+    "Planes of Law (TSR 2607) — official scan, cite-only (registry entries)",
+    "The Planewalker's Handbook (TSR 2620) — official scan, cite-only (planar NWP kinds + registry entries; handoff §PWH D10/D12/D13)"
   ]
 }

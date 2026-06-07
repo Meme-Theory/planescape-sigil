@@ -42,7 +42,15 @@ BOOK_REFLOW = {
     "manifesto":  ROOT / "build/the-factol-s-manifesto/planescape-2611-the-factols-manifesto/reflow",
     "in-the-cage": ROOT / "build/in-the-cage-a-guide-to-sigil/ddps-inthecage/reflow",
     "hellbound":  ROOT / "build/hellbound-the-blood-war/ddps-hellboundbloodwar-ii/reflow",
+    # 2620 + 2634 (audit round 2026-06-06): their pour lanes store `pages` fields as
+    # REFLOW FILE numbers already (anchor-window law) — resolution is as-is, no offsets.
+    "the-planewalker-s-handbook":
+        ROOT / "build/the-planewalker-s-handbook/planescape-2620-the-planewalkers-handbook/reflow",
+    "the-inner-planes":
+        ROOT / "build/the-inner-planes/planescape-2634-inner-planes/reflow",
 }
+PWH = "the-planewalker-s-handbook"
+INNER = "the-inner-planes"
 CAGE_OFFSET = 2                                             # printed -> reflow file
 
 MISSES: list[str] = []                                      # any unresolvable page file = dumper bug
@@ -160,6 +168,10 @@ def resolve(ent: dict, edges_in: list, maps: dict) -> tuple[list[str], str]:
             if e["rel"] == "wields":
                 add(BOOK_REFLOW["uncaged"], maps["npc_pages"].get(e["other"], []))
         conv = "printed" if files else "structural"
+        if any(s.get("src") == PWH for s in srcs):           # PWH equipment card (file nums)
+            had = bool(files)
+            add(BOOK_REFLOW[PWH], f.get("pages") or [])
+            conv = "mixed" if had else "scan"
     elif t == "fiction":
         for s in srcs:
             add(BOOK_REFLOW["uncaged"], _loc_pages(str(s.get("src", ""))))
@@ -199,6 +211,9 @@ def resolve(ent: dict, edges_in: list, maps: dict) -> tuple[list[str], str]:
         if any(s.get("src") == "factols-manifesto" for s in srcs) and not files:
             add(BOOK_REFLOW["manifesto"], [5, 6])
             conv = "printed"
+        if any(s.get("src") == INNER for s in srcs):         # 2634 site card (file nums)
+            add(BOOK_REFLOW[INNER], f.get("pages") or [])
+            conv = "scan"
     elif t == "portal":
         add(BOOK_REFLOW["in-the-cage"], f.get("pages") or [], CAGE_OFFSET)
         conv = "printed+2"
@@ -214,6 +229,11 @@ def resolve(ent: dict, edges_in: list, maps: dict) -> tuple[list[str], str]:
                 if comp and lf.get("pages"):
                     add(_comp_dir(comp), lf["pages"][:1])
                     conv = "mixed" if conv == "printed+2" else "scan"
+        if any(s.get("src") == INNER for s in srcs):         # 2634 card + creature-index witness
+            had = bool(files)
+            add(BOOK_REFLOW[INNER], f.get("pages") or [])
+            add(BOOK_REFLOW[INNER], f.get("inhabitants_pages") or [])
+            conv = "mixed" if had else "scan"
     elif t == "layer":
         comp = maps["layer_comp"].get(eid)
         if comp and any(s.get("src", "").startswith("planes-of") for s in srcs):
@@ -223,11 +243,14 @@ def resolve(ent: dict, edges_in: list, maps: dict) -> tuple[list[str], str]:
             add(BOOK_REFLOW["in-the-cage"], f.get("pages") or [], CAGE_OFFSET)
             conv = "printed+2"
     elif t == "realm":
+        if any(s.get("src") == INNER for s in srcs):         # 2634 double-witness pages
+            add(BOOK_REFLOW[INNER], (f.get("realm_pages") or []) + (f.get("power_pages") or []))
+            conv = "scan"
         comp = maps["realm_comp"].get(eid)
         if comp:
             add(_comp_dir(comp), f.get("pages") or [])
             conv = "scan"
-        elif src0 == "in-the-cage":
+        elif not files and src0 == "in-the-cage":
             add(BOOK_REFLOW["in-the-cage"], f.get("pages") or [], CAGE_OFFSET)
             conv = "printed+2"
     elif t == "deity":
@@ -249,6 +272,9 @@ def resolve(ent: dict, edges_in: list, maps: dict) -> tuple[list[str], str]:
                     comps = maps["sweep_by_book"].get(ss, [])
                 for comp in comps:
                     add(_comp_dir(comp), pages)
+                conv = "scan"
+            elif ss == INNER:                                # 2634 power stub (loc = witness page)
+                add(BOOK_REFLOW[INNER], _loc_pages(loc) or f.get("pages") or [])
                 conv = "scan"
     elif t == "event":
         for s in srcs:
@@ -290,7 +316,15 @@ def resolve(ent: dict, edges_in: list, maps: dict) -> tuple[list[str], str]:
         book = src0
         for comp in maps["sweep_by_book"].get(book, []):
             add(_comp_dir(comp), [f.get("page")])
+        if src0 == INNER:                                    # 2634 proxy (pages list, file nums)
+            add(BOOK_REFLOW[INNER], f.get("pages") or [])
         conv = "scan"
+    elif t in ("race", "class", "spell"):                    # PWH dims: pages = file nums
+        if any(s.get("src") == PWH for s in srcs):
+            add(BOOK_REFLOW[PWH], f.get("pages") or [])
+            for v in (f.get("variants") or []):              # genasi's four attest individually
+                add(BOOK_REFLOW[PWH], v.get("pages") or [])
+            conv = "scan"
     elif t == "creature":
         comp = maps["mc_by_dir"].get(f.get("mc_component", ""))
         if comp:
@@ -310,12 +344,15 @@ def resolve(ent: dict, edges_in: list, maps: dict) -> tuple[list[str], str]:
     return out, (conv if out else "structural")
 
 
-def primary_book(ent: dict) -> str:
+def primary_book(ent: dict, scope: tuple = ()) -> str:
+    """Scoped runs label by the scoped book FIRST (a merged plane audits under 2634,
+    not its older cage label); unscoped keeps the great-audit ordering, new books last."""
     srcs = ((ent.get("provenance") or {}).get("value_sources")) or []
     src0 = str(srcs[0].get("src", "")) if srcs else ""
     eid = ent["id"]
-    for marker in ("planes-of-law", "planes-of-chaos", "planes-of-conflict", "hellbound",
-                   "in-the-cage", "factols-manifesto", "manifesto", "uncaged"):
+    for marker in (*scope,
+                   "planes-of-law", "planes-of-chaos", "planes-of-conflict", "hellbound",
+                   "in-the-cage", "factols-manifesto", "manifesto", "uncaged", PWH, INNER):
         if any(marker in str(s.get("src", "")) or marker in str(s.get("loc", ""))
                for s in srcs):
             return marker.replace("factols-manifesto", "manifesto")
@@ -329,6 +366,8 @@ def primary_book(ent: dict) -> str:
 # ---- quarantine resolution -------------------------------------------------------
 def quarantine_reflow(row_type: str, env: dict, reason: str, maps: dict) -> list[str]:
     f = env.get("fields") or {}
+    if reason.startswith("pwh-spell"):                      # 2620 buckets: pages = file nums
+        return _files(BOOK_REFLOW[PWH], f.get("pages") or [])
     if reason == "cage-head-lost":                          # pages hide in the why text
         pages = [int(m) for m in re.findall(r"pg(\d+)", env.get("content") or "")]
         return _files(BOOK_REFLOW["in-the-cage"], pages, CAGE_OFFSET)
@@ -359,7 +398,19 @@ def quarantine_reflow(row_type: str, env: dict, reason: str, maps: dict) -> list
     return []
 
 
-def main() -> int:
+def main(argv=None) -> int:
+    import argparse
+    ap = argparse.ArgumentParser(description="Great-Audit chunk dumper (optionally book-scoped)")
+    ap.add_argument("--books", default="", help="csv of provenance src names to scope the dump to")
+    ap.add_argument("--out", default="", help="subdir under build/mimir/review (REQUIRED with --books)")
+    args = ap.parse_args(argv)
+    scope = tuple(b.strip() for b in args.books.split(",") if b.strip())
+    if scope and not args.out:
+        print("--books requires --out — scoped runs never clobber the great-audit chunks")
+        return 2
+    review = (REVIEW / args.out) if args.out else REVIEW
+    chunks_dir = review / "chunks"
+
     store = S.HandbookStore(S.DEFAULT_DB, readonly=True)
     maps = build_maps()
     conn = store.conn
@@ -371,6 +422,13 @@ def main() -> int:
         fields_of[e["id"]] = e.get("fields") or {}
         ents.append(e)
 
+    def cites_scope(env: dict) -> bool:
+        ss = ((env.get("provenance") or {}).get("value_sources")) or []
+        return any(str(s.get("src", "")) in scope for s in ss)
+
+    if scope:                                                # merged nodes ride in: any src hit
+        ents = [e for e in ents if cites_scope(e)]
+
     edges_out = defaultdict(list)
     edges_in = defaultdict(list)
     for g in conn.execute("SELECT rel, src_id, tgt_id, role FROM edges"):
@@ -380,10 +438,10 @@ def main() -> int:
     # group by (dim, book) then split
     groups = defaultdict(list)
     for e in ents:
-        groups[(e["type"], primary_book(e))].append(e)
+        groups[(e["type"], primary_book(e, scope))].append(e)
 
-    CHUNKS.mkdir(parents=True, exist_ok=True)
-    for old in CHUNKS.glob("chunk-*.json"):
+    chunks_dir.mkdir(parents=True, exist_ok=True)
+    for old in chunks_dir.glob("chunk-*.json"):
         old.unlink()
 
     # Pack (dim, book) groups into ~CHUNK_SIZE batches. Small same-book groups SHARE a
@@ -415,7 +473,7 @@ def main() -> int:
             cur_dims.add(dim)
     flush()
 
-    manifest = {"chunks": [], "total_entities": 0, "misses": 0}
+    manifest = {"chunks": [], "total_entities": 0, "misses": 0, "scope": list(scope)}
     seen_ids = set()
     cn = 0
     for dim, book, batch in batches:
@@ -440,7 +498,7 @@ def main() -> int:
                 })
                 assert e["id"] not in seen_ids, f"duplicate dump: {e['id']}"
                 seen_ids.add(e["id"])
-            out = CHUNKS / f"chunk-{cn:03d}.json"
+            out = chunks_dir / f"chunk-{cn:03d}.json"
             out.write_text(json.dumps({"chunk": cn, "dim": dim, "book": book,
                                        "entities": recs}, indent=1, ensure_ascii=False),
                            encoding="utf-8")
@@ -453,6 +511,8 @@ def main() -> int:
     buckets = defaultdict(list)
     for r in conn.execute("SELECT id, type, name, entity, reason, docket, held_at FROM quarantine"):
         env = json.loads(r["entity"]) if r["entity"] else {}
+        if scope and not cites_scope(env):
+            continue
         docket = json.loads(r["docket"]) if r["docket"] else {}
         buckets[r["reason"]].append({
             "id": r["id"], "type": r["type"], "name": r["name"], "reason": r["reason"],
@@ -460,12 +520,12 @@ def main() -> int:
             "reflow_files": quarantine_reflow(r["type"], env, r["reason"], maps),
         })
     qtotal = sum(len(v) for v in buckets.values())
-    (REVIEW / "quarantine.json").write_text(
+    (review / "quarantine.json").write_text(
         json.dumps({"total": qtotal, "buckets": {k: sorted(v, key=lambda x: x["id"])
                                                  for k, v in sorted(buckets.items())}},
                    indent=1, ensure_ascii=False), encoding="utf-8")
     for k, v in buckets.items():                            # one file per court bucket
-        (REVIEW / f"quarantine-{k}.json").write_text(
+        (review / f"quarantine-{k}.json").write_text(
             json.dumps({"bucket": k, "n": len(v), "items": sorted(v, key=lambda x: x["id"])},
                        indent=1, ensure_ascii=False), encoding="utf-8")
 
@@ -474,10 +534,9 @@ def main() -> int:
 
     manifest["misses"] = len(MISSES)
     manifest["miss_paths"] = sorted(set(MISSES))
-    (REVIEW / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False),
+    (review / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False),
                                           encoding="utf-8")
 
-    structural = sum(1 for c in manifest["chunks"] for _ in c["ids"])  # recount below
     n_struct = 0
     for c in manifest["chunks"]:
         data = json.loads(Path(c["file"]).read_text(encoding="utf-8"))
@@ -485,7 +544,14 @@ def main() -> int:
     print(f"chunks: {cn} files · {len(seen_ids)} entities (store has {n_ent}) · "
           f"{n_struct} structural · quarantine {qtotal} in {len(buckets)} buckets · "
           f"page-misses {len(MISSES)}")
-    assert len(seen_ids) == n_ent, f"coverage hole: dumped {len(seen_ids)} != store {n_ent}"
+    if scope:
+        from collections import Counter
+        dims = Counter(e["type"] for e in ents)
+        print("scoped dims: " + " · ".join(f"{k} {v}" for k, v in sorted(dims.items())))
+        assert len(seen_ids) == len(ents), \
+            f"coverage hole: dumped {len(seen_ids)} != scoped population {len(ents)}"
+    else:
+        assert len(seen_ids) == n_ent, f"coverage hole: dumped {len(seen_ids)} != store {n_ent}"
     if MISSES:
         print("MISSING PAGE FILES (dumper bug or convention error):")
         for mp in sorted(set(MISSES)):

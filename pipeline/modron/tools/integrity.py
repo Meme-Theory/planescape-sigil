@@ -92,6 +92,9 @@ REFLOW_MAP = {
         ROOT / "build/in-the-cage-a-guide-to-sigil/ddps-inthecage/reflow",
     "The Inner Planes (TSR 2634)":
         ROOT / "build/the-inner-planes/planescape-2634-inner-planes/reflow",
+    # PWH added with the D10/D12/D13 acceptance round, 2026-06-06:
+    "The Planewalker's Handbook (TSR 2620)":
+        ROOT / "build/the-planewalker-s-handbook/planescape-2620-the-planewalkers-handbook/reflow",
     "Planes of Law (TSR 2607), Acheron booklet":
         ROOT / "build/planes-of-law/ddps-planesoflaw-ii/reflow",
     "Planes of Conflict (TSR 2615), Liber Malevolentiae":
@@ -103,6 +106,7 @@ NOTE_PRODUCT_HINTS = [
     ("Planes of Conflict", "Planes of Conflict (TSR 2615), Liber Malevolentiae"),
     ("In the Cage", "In the Cage: A Guide to Sigil (TSR 2609)"),
     ("The Inner Planes", "The Inner Planes (TSR 2634)"),
+    ("The Planewalker's Handbook", "The Planewalker's Handbook (TSR 2620)"),
     ("Planes of Law", "Planes of Law (TSR 2607), Acheron booklet"),
 ]
 
@@ -936,14 +940,15 @@ def run_checks() -> dict:
     info["tools"] = n_tools
     if ENGINE_VERSION != "1":
         v("doc_engine_version", "hard", "modron/__init__.py", ENGINE_VERSION)
-    if info["rollables"] != 36:
+    if info["rollables"] != 47:
         v("doc_rollables_count", "hard", "registry",
-          f"{info['rollables']} != documented 36 (34 + ice-extreme-cold + "
-          "everymans-madness, audit 2026-06-06)")
+          f"{info['rollables']} != documented 47 (36 post-audit + 4 D13 item "
+          "tables + 6 D12 chargen + planology-fortune, PWH round 2026-06-06)")
     if info["modifiers"] != 29:
         v("doc_modifier_count", "hard", "modifiers", f"{info['modifiers']} != documented 29 (28+overlay)")
     own_kinds = {view: len(raw.get("checks") or {}) for view, raw in packs_raw.items()}
-    if own_kinds != {"2e": 10, "2e-planescape": 6, "5e-2014": 7, "5e-2024": 0}:
+    # 2e-planescape 6 -> 15: + hope_drain (Lane-E/D5) + 8 planar NWP kinds (D10), 2026-06-06
+    if own_kinds != {"2e": 10, "2e-planescape": 15, "5e-2014": 7, "5e-2024": 0}:
         v("doc_kind_counts", "hard", "conventions", f"{own_kinds}")
     info["check_kinds"] = kind_count
 
@@ -953,10 +958,10 @@ def run_checks() -> dict:
         cwd=str(MODRON_DIR), capture_output=True, text=True, encoding="utf-8")
     m = re.search(r"(\d+) tests collected", proc.stdout)
     n_tests = int(m.group(1)) if m else -1
-    if n_tests != 185:
+    if n_tests != 195:
         v("doc_test_count", "hard", "pytest --collect-only",
-          f"collected {n_tests} != documented 185 (171 + 14 audit regressions; "
-          f"rc={proc.returncode})")
+          f"collected {n_tests} != documented 195 (185 post-audit + 10 PWH-"
+          f"acceptance pins, 2026-06-06; rc={proc.returncode})")
     info["tests_collected"] = n_tests
 
     # ---- G: fleet compile (read-only; outputs feed the lane-G chunks) -----------

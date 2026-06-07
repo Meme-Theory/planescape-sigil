@@ -148,6 +148,7 @@ PLANAR_LAW_FILES = {
     "law:plane-environment": "planar_environment.json",
     "law:planar-spell": "planar_spells.json",
     "law:cage": "cage_law.json",
+    "law:inner-survival": "inner_survival.json",
 }
 
 
@@ -201,6 +202,17 @@ def _planar_rows(family: str) -> list[dict[str, Any]]:
                 rows.append({"law_id": f"{row['law_id']}:{kind}", "_sub": True,
                              "plane": row["plane"], "rule": row[f"{kind}_keys"],
                              "witness": row["witness"]})
+    elif family == "law:inner-survival":
+        # M7 (handoff §M7-UNPARK): general topic rows + per-plane survival
+        # profiles; each hazard synthesizes a sub-id so Mimir's hazard
+        # pointer-nodes and Modron damage specs can cite exact grain.
+        rows.extend(doc.get("general", []))
+        for row in doc["planes"].values():
+            rows.append(row)
+            for key, sub in row.get("hazards", {}).items():
+                rows.append({"law_id": f"{row['law_id']}:{key}", "_sub": True,
+                             "plane": row["plane"], "rule": sub["rule"],
+                             "witness": sub.get("witness", row["witness"])})
     else:
         rows.extend(doc["rows"])
     return rows
@@ -256,3 +268,30 @@ def thac0_expected_2e(hd: str) -> int:
         if lo <= effective <= hi:
             return thac0
     raise ValueError(f"HD {hd} outside bracket table")
+
+
+SAVE_GROUPS_2E = ("warrior", "wizard", "priest", "rogue")
+
+
+def saves_2e(group: str, level: int) -> dict[str, int]:
+    """2e save scores for a class group at a level — FG&G Tables 3.2/3.9/3.12/3.13
+    (F6 pour). Returns {category: score}; success is 1d20+mods >= score (p.69)."""
+    data = _load("save_matrix_2e.json")
+    if group not in data["groups"]:
+        raise KeyError(f"unknown save group {group!r} — one of {SAVE_GROUPS_2E}")
+    for lo, hi, scores in data["groups"][group]["brackets"]:
+        if lo <= level <= hi:
+            return dict(zip(data["categories"], scores))
+    raise ValueError(f"level {level} outside the {group} save table")
+
+
+def saves_2e_monster(hd: str) -> dict[str, int]:
+    """Creature saves: warrior progression keyed to Hit Dice (FG&G p.70), with
+    the p.309 plus-bump (+3-or-more counts one HD greater — same law as THACO).
+    Fractional / sub-1 HD land the lowest printed bracket (1-2). Spellcasting
+    or thief-skilled creatures should use saves_2e() with the proper group —
+    that choice is the caller's (the rule names it, the data can't detect it)."""
+    dice, plus = parse_hd_2e(hd)
+    effective = dice + (1 if (dice >= 1 and plus >= 3) else 0)
+    level = max(1, int(effective))
+    return saves_2e("warrior", min(level, 99))

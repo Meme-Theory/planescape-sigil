@@ -1621,7 +1621,7 @@
    "curations_sha256": "3ff220ac5388827b73715412caa14ded5287af7719e52c82d05d20da8b21449f"
   },
   "mechanus": {
-   "law_version": "0d05d408b20e7314",
+   "law_version": "972ff12b18087c03",
    "text_caches": {
     "fgg": {
      "pages": 384,
@@ -1643,7 +1643,7 @@
   "modron": {
    "engine_version": "1",
    "data_sha256": {
-    "pipeline/modron/data/conventions/2e-planescape.json": "a6630f452edfee7be041ebccf3610923465b762631f9bb9a71f9c2e44b6ee676",
+    "pipeline/modron/data/conventions/2e-planescape.json": "4250df8dcbd2115babd6412e3527d0c86f49431388872728ec97ba28c8b61929",
     "pipeline/modron/data/conventions/2e.json": "b821cd566d291a85b7f8450663cc725035c4cf0080f057e2c0a681db5c6968d9",
     "pipeline/modron/data/conventions/5e-2014.json": "fe3e51e7f387a0404147e6718d629be8f4667361bf4dcc9076c9b574c87299cb",
     "pipeline/modron/data/conventions/5e-2024.json": "6f8b69589ba3afeb49d6033ff69738dbed458cbea87e80a475c6d1dea7d31aa8",
@@ -1651,7 +1651,7 @@
     "pipeline/modron/data/modifiers/core-5e.json": "2e9dbbdebff0d9af43bb4c838d822b05537fd1f8da068bf5562581bcc8d64341",
     "pipeline/modron/data/modifiers/planescape-2e.json": "5f82f0eb3c10e22e448ede702f0497d7eb1c3d512da45534aa9374464dd986c2",
     "pipeline/modron/data/overrides/modifiers.local.json": "d8f7f946470d60880c068363c2075ef3c06458548a79d3fe963d51e17a699f41",
-    "pipeline/modron/data/rollables/planescape-2e.json": "e0ab6aa9d4510f7fc3862058ec51591433e9df256efc0dba00c6254a93f75f68"
+    "pipeline/modron/data/rollables/planescape-2e.json": "be8cd6f6f168bd36263174c02207c96c057acc543bd54ff5ee0f610e3ec80021"
    }
   }
  }

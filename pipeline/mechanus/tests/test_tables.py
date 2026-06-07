@@ -88,3 +88,50 @@ def test_conditions_loaded_per_view():
     for view in tables.VIEWS_5E:
         c = tables.conditions(view)
         assert "Poisoned" in c and len(c) == 15
+
+
+# --- 2e save matrix (F6 pour, FG&G Tables 3.2/3.9/3.12/3.13) ----------------
+
+@pytest.mark.parametrize("group,level,expected", [
+    # one pin per printed corner + interior spot-checks, all five categories
+    ("warrior", 1,  {"paralyzation-poison-death": 14, "rod-staff-wand": 16,
+                     "petrification-polymorph": 15, "breath-weapon": 17, "spell": 17}),
+    ("warrior", 17, {"paralyzation-poison-death": 3, "rod-staff-wand": 5,
+                     "petrification-polymorph": 4, "breath-weapon": 4, "spell": 6}),
+    ("wizard", 5,   {"paralyzation-poison-death": 14, "rod-staff-wand": 11,
+                     "petrification-polymorph": 13, "breath-weapon": 15, "spell": 12}),
+    ("wizard", 21,  {"paralyzation-poison-death": 8, "rod-staff-wand": 3,
+                     "petrification-polymorph": 5, "breath-weapon": 7, "spell": 4}),
+    ("priest", 19,  {"paralyzation-poison-death": 2, "rod-staff-wand": 6,
+                     "petrification-polymorph": 5, "breath-weapon": 8, "spell": 7}),
+    ("rogue", 9,    {"paralyzation-poison-death": 11, "rod-staff-wand": 10,
+                     "petrification-polymorph": 10, "breath-weapon": 14, "spell": 11}),
+    ("rogue", 21,   {"paralyzation-poison-death": 8, "rod-staff-wand": 4,
+                     "petrification-polymorph": 7, "breath-weapon": 11, "spell": 5}),
+])
+def test_saves_2e_printed_pins(group, level, expected):
+    assert tables.saves_2e(group, level) == expected
+
+
+def test_saves_2e_bracket_boundaries():
+    # priest 3->4 boundary: ppd 10 drops to 9 (Table 3.12)
+    assert tables.saves_2e("priest", 3)["paralyzation-poison-death"] == 10
+    assert tables.saves_2e("priest", 4)["paralyzation-poison-death"] == 9
+    with pytest.raises(ValueError):
+        tables.saves_2e("warrior", 0)       # table starts at 1
+    with pytest.raises(ValueError):
+        tables.saves_2e("wizard", 100)      # past the 21-99 terminal bracket
+    with pytest.raises(KeyError):
+        tables.saves_2e("bard", 1)          # not a group — bards ride rogue
+
+
+def test_saves_2e_monster_mapping():
+    # HD -> warrior level (FG&G p.70); plus-bump shared with THACO (p.309)
+    assert tables.saves_2e_monster("7")["paralyzation-poison-death"] == 10   # 7-8 row
+    # plus-bump is next-DIE not next-bracket (the thac0 7+3->13 lesson):
+    assert tables.saves_2e_monster("7+3") == tables.saves_2e("warrior", 8)   # 7->8, same row
+    assert tables.saves_2e_monster("8+3")["paralyzation-poison-death"] == 8  # 8->9, 9-10 row
+    assert tables.saves_2e_monster("7+1") == tables.saves_2e_monster("7")    # +1 never bumps
+    assert tables.saves_2e_monster("1/2") == tables.saves_2e("warrior", 1)   # sub-1 HD floors
+    assert tables.saves_2e_monster("1-1") == tables.saves_2e("warrior", 1)   # demoted floors too
+    assert tables.saves_2e_monster("20")["spell"] == 6                       # 17+ terminal row

@@ -27,6 +27,15 @@ BOOK_DIR = {
     "planes-of-conflict-2615-01-liber-benevolentiae": "planes-of-conflict",
     "planes-of-conflict-2615-02-liber-malevolentiae": "planes-of-conflict",
     "ddps-inthecage": "in-the-cage-a-guide-to-sigil",
+    "planescape-2634-inner-planes": "the-inner-planes",
+}
+
+INNER_PLANES = {
+    "elemental-air", "elemental-earth", "elemental-fire", "elemental-water",
+    "energy-positive", "energy-negative",
+    "para-ice", "para-magma", "para-ooze", "para-smoke",
+    "quasi-lightning", "quasi-mineral", "quasi-radiance", "quasi-steam",
+    "quasi-ash", "quasi-dust", "quasi-salt", "quasi-vacuum",
 }
 
 GREAT_RING = {
@@ -50,10 +59,15 @@ def _all_rows():
 
 
 def _rule_text(row) -> str:
-    """A row's governing text: conditions plane rows carry `general`, keys
-    plane rows carry the two key prose fields, everything else `rule`/`effect`."""
-    return (row.get("rule") or row.get("effect") or row.get("general")
-            or " ".join(filter(None, (row.get("spell_keys"), row.get("power_keys")))))
+    """A row's governing prose, ALL of it — conditions plane rows carry
+    `general`, keys plane rows the two key fields, inner-survival plane rows
+    `conditions`, the pockets row a `per_type` map; everything else
+    `rule`/`effect`. Concatenated so the shingle test sweeps every field."""
+    extra = " ".join(str(v) for v in (row.get("per_type") or {}).values())
+    return " ".join(filter(None, (
+        row.get("rule"), row.get("effect"), row.get("general"),
+        row.get("conditions"), row.get("spell_keys"), row.get("power_keys"),
+        extra)))
 
 
 # --- schema law -------------------------------------------------------------
@@ -138,6 +152,40 @@ def test_spells_keyed_to_planes():
         assert row["keyed_to"].split(":", 1)[1] in GREAT_RING, row["law_id"]
         assert row.get("stats"), f"{row['law_id']} lacks a stat block"
         assert row.get("level"), row["law_id"]
+
+
+def test_inner_survival_coverage():
+    """M7 (handoff §M7-UNPARK, Q6): all 18 inner planes profiled, general
+    topics present, hazard sub-ids resolve, witnessed prohibitions carried."""
+    doc = tables._load("inner_survival.json")
+    assert set(doc["planes"].keys()) == INNER_PLANES
+    for slug, row in doc["planes"].items():
+        assert row["plane"] == f"plane:{slug}"
+        assert row["law_id"] == f"law:inner-survival:{slug}"
+        assert row.get("hazards"), f"{slug}: no hazards distilled"
+    gen = {r["law_id"] for r in doc["general"]}
+    assert {"law:inner-survival:general:elemental-pockets",
+            "law:inner-survival:general:elemental-guides",
+            "law:inner-survival:general:magic-use",
+            "law:inner-survival:general:school-alterations-legend",
+            "law:inner-survival:general:priest-level-loss",
+            "law:inner-survival:general:item-plus-loss"} <= gen
+    # hazard sub-id grain (the XR-3 join): exact rows resolve with their dice
+    heat = tables.planar_law("law:inner-survival:elemental-fire:heat")
+    assert heat["_sub"] and "6d10" in heat["rule"]
+    veins = tables.planar_law("law:inner-survival:quasi-salt:crystal-veins")
+    assert "2d10" in veins["rule"]
+    # plane lookup reaches survival rows (sub-rows stay folded)
+    ids = {r["law_id"] for r in tables.planar_law_for_plane("plane:quasi-vacuum")}
+    assert "law:inner-survival:quasi-vacuum" in ids
+    assert "law:inner-survival:general:elemental-pockets" in ids
+    assert not any(i.count(":") == 3 and i.startswith("law:inner-survival:quasi-")
+                   for i in ids), "hazard sub-rows leaked into plane lookup"
+    # chapter-head absolute prohibitions, witnessed
+    assert tables.planar_law("law:inner-survival:elemental-water")["prohibition"] == "fire"
+    assert tables.planar_law("law:inner-survival:quasi-vacuum")["prohibition"] == "air"
+    # Great Ring untouched by this pour
+    assert tables.planar_law_for_plane("plane:the-outlands") == []
 
 
 def test_law_version_includes_planar_files():

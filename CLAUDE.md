@@ -65,7 +65,7 @@ python -m pytest tests/test_lawful.py -q   # one module; -k name for one test
 python tests/smoke_server.py               # end-to-end MCP stdio smoke (20 checks)
 
 # Modron (dice engine) — from pipeline/modron/
-python -m pytest tests/ -q                 # 185 (incl. 14 audit-round-2 pins)
+python -m pytest tests/ -q                 # 195 (incl. audit-round-2 + PWH-acceptance pins)
 py -3.13 tests/smoke_server.py             # 18-probe stdio smoke (configured spawn)
 py -3.13 tools/integrity.py                # the audit rail: 0 hard/0 soft = clean
 
@@ -100,7 +100,7 @@ same spirit (full-path real interpreter), amended letter.
 |---|---|---|---|---|---|
 | knows | what **is** | what **governs** | what the dice **said** | what was **said aloud** | how a Cager would **say it** |
 | owns | `handbook.db` + admission gate | `rulings.db` + mechanical core | `rolls.db` + RNG discipline | `renders.db` + voice packs | lexicon + rewrites (data) + compiled attestations |
-| status | store/gate/server **BUILT + V&V'd + GREAT-AUDITED** (all entities page-witness reviewed, docket adopted + applied 2026-06-06); **5 books + 4 boxed sets** poured across **29 dimensions** (1,008 entities, 2,199 edges — PWH added race/class/spell/equipment; Inner Planes added the elemental skeleton) | core BUILT + V&V'd | **BUILT + V&V'd + AUDITED** (round 2 docket adopted 2026-06-06: 88 findings applied, 185 tests, 18/18 smoke) | **BUILT + smoked** (unit 25/25 · live stdio 14/14 incl. a handbook line end-to-end) | **BUILT + V&V'd** (33 tests · 16/16 stdio · live-wire ceremony, `pipeline/cant/VERIFICATION.md`) |
+| status | store/gate/server **BUILT + V&V'd + GREAT-AUDITED** (all entities page-witness reviewed, docket adopted + applied 2026-06-06); **5 books + 4 boxed sets** poured across **29 dimensions** (1,008 entities, 2,199 edges — PWH added race/class/spell/equipment; Inner Planes added the elemental skeleton) | core BUILT + V&V'd | **BUILT + V&V'd + AUDITED** (round 2 docket adopted 2026-06-06: 88 findings applied; PWH-acceptance round same day: D10/D12/D13 + hope_drain landed — 195 tests, 18/18 smoke, 47 rollables) | **BUILT + smoked** (unit 25/25 · live stdio 14/14 incl. a handbook line end-to-end) | **BUILT + V&V'd** (33 tests · 16/16 stdio · live-wire ceremony, `pipeline/cant/VERIFICATION.md`) |
 
 Write discipline is structural everywhere: entities enter only through Mimir's gate;
 rulings only through `record_ruling`/`overrule`; rolls only through the guarded append;
@@ -174,16 +174,28 @@ agents load at session start — restart or use `/agents` after edits):
 - **`abishai`** (5th-lawyer / SRD-lawyer) — 5e-2014 + 5e-2024; SRD quotes ship
   attribution; 2014 encounter budgets stay refused.
 
-A third stands apart from the bar: **`morte`** (mimir-steward / skullwright) —
-Mimir's ENGINE STEWARD, the formalized named-session. Invoke as the primary
-session agent for any Mimir work (pours, dimension design, gate/store/parse
-maintenance, V&V, curation rounds); it carries the pour playbook + the spine's
-throughline at `.claude/agent-memory/morte/` (state header + round records),
-so session handoffs cost nothing. Never calls `record_ruling`/`force` (mint
-law); law offers go through `build/family/rule-effect-handoff.md` and the
+Three ENGINE STEWARDS stand apart from the bar — the formalized named-sessions,
+invoked as the primary session agent (`claude --agent <name>`) or a normal
+subagent for their engine's work; each carries its playbook + throughline at
+`.claude/agent-memory/<name>/` (state header + round records), so session
+handoffs cost nothing. None calls
+`record_ruling`/`overrule`/`force` (mint law — stewards draft dockets; the DM's
+voice records them); cross-lane offers go through `build/family/` and the
 cross-agent ledger in project memory.
 
-Both return docket-shaped verdicts, never invent die faces, and keep persistent
+- **`morte`** (mimir-steward / skullwright) — Mimir's: pours, dimension design,
+  gate/store/parse maintenance, V&V, curation rounds; the pour playbook.
+- **`primus`** (mechanus-steward / law-keeper) — Mechanus's: law-data pours
+  (page-cited paraphrase), lawfulness checks (hard/soft + fleet audit),
+  docket-first audit rounds (the integrity rail), text-cache re-pours, the
+  law_version ceremony with its ride-alongs.
+- **`nordom`** (modron-steward / dice-wright) — Modron's: grammar/engine/
+  analysis, convention packs & check kinds, modifier/rollables registries +
+  compiler, ledger law, smoke/integrity gates, docket-first audit rounds; the
+  round playbook. Mint law held structurally (`disallowedTools` denies
+  force/record_ruling/overrule).
+
+The lawyers return docket-shaped verdicts, never invent die faces, and keep persistent
 memory at `.claude/agent-memory/<name>/` (`MEMORY.md` index + full trials in
 `trials/`, primed with live verified sessions). **Record law:** `.claude/rules/`
 are the requirements, `.claude/templates/` the formats — skills direct, templates
@@ -194,9 +206,10 @@ format, rules require. Their grep-able page-cited law caches live at
 **Agent mint-shapes** live at `.claude/agent-templates/` — `dm.md` (campaign-bound
 director; ancestor = `encounter-director`), `mvp.md` (NPC → agent promotion; the
 bar + ceremony are in its header), `rules-lawyer.md` (the lemure/abishai pattern
-for a new view's lawyer), `engine-steward.md` (the morte pattern: one steward per
-family engine, agent-memory as the session throughline — mint Mechanus/Modron
-stewards from it when their sessions retire). Mint = copy below the header comment to
+for a new view's lawyer), `engine-steward.md` (the morte/primus/nordom pattern:
+one steward per family engine, agent-memory as the session throughline — mint
+dabus/cant stewards from it when their sessions retire; Meme names the
+steward at mint). Mint = copy below the header comment to
 `.claude/agents/<name>.md`, fill every `<angle>`, seed agent-memory, reload via
 `/agents`. Lane law holds at mint time: no minted agent gets `force` or
 `record_ruling` — fiat and dockets stay the DM's voice.
@@ -358,11 +371,13 @@ an entity's whole edge neighbourhood), `query_graph`, `list_entities`, `coverage
 Design `pipeline/mechanus/MECHANUS.md` · impl `pipeline/mechanus/mechanus/` · stores
 `build/mechanus/` · V&V report `build/mechanus/vnv-report.md` (47/47 live probes;
 2026-06-06 addendum) · **audited 2026-06-06** (the Mechanus Assize: 349 units + 1
-bonus, every law row page-verified, correction docket APPLIED — `law_version
-0d05d408b20e7314`, 121 tests; record at `build/mechanus/review/`, Lane E sibling
-re-binds handed off at `build/family/mechanus-audit-lane-e.md`; `tools/integrity.py`
-is the standing post-pour gate, `build/mechanus/review/known-intentional.json` the
-standing don't-flag law).
+bonus, every law row page-verified, correction docket APPLIED; record at
+`build/mechanus/review/`, Lane E sibling re-binds handed off at
+`build/family/mechanus-audit-lane-e.md`; `tools/integrity.py` is the standing
+post-pour gate, `build/mechanus/review/known-intentional.json` the standing
+don't-flag law) · **M7 + save-matrix pours 2026-06-06** (`law_version
+972ff12b18087c03`, 132 tests, 21-check smoke — chain from the Assize's
+`0d05d408b20e7314` via the M7 pour's `982b6bb290abc7f0`).
 
 - **Live tools:** `is_lawful` (the gate's L3 consistency channel — REVIEW-5E §A pack
   for 5e-2014/5e-2024 + 2e THAC0/HP brackets from an 80-pair FG&G harvest),
@@ -372,15 +387,20 @@ standing don't-flag law).
   Invoke tools (`view`/`rule_search`/`delta`/`convert`/`resolve`/…) are **parked
   NOT_POURED** until Mimir's store lands — that error is intended.
 - **Planar law poured (2026-06-06, MECHANUS.md §3a):** the rule-effect handoff §M
-  accepted — 7 page-cited law families (199 ids) distilled from the three Planes
-  boxes + In the Cage: per-plane magical conditions (all 16 Great Ring planes),
-  spell/power keys, seals & wards, planar-priest frame, plane-environment law
-  (wind-madness, the Wasting, hope-drain…), planar spells, Cage law. Ids reuse
-  Mimir's plane slugs (`law:planar-conditions:the-abyss` ⟷ `plane:the-abyss`) for
-  her `exhibits` edges; Modron deltas cite them as `{kind: mechanus, ref}` (the D2
-  seam). Rows are PARAPHRASE — official scans stay cite-only, enforced by a
-  shingle test against the witnessed reflow pages. M7 (Inner Planes survival)
-  parked for the joint 2634 pour.
+  accepted — 8 page-cited law families (308 ids) distilled from the three Planes
+  boxes + In the Cage + The Inner Planes: per-plane magical conditions (all 16
+  Great Ring planes), spell/power keys, seals & wards, planar-priest frame,
+  plane-environment law (wind-madness, the Wasting, hope-drain…), planar spells,
+  Cage law, and **M7 inner-planes survival law** (poured same day from the
+  §M7-UNPARK package: 9 general topics + 18 plane profiles + 82 hazard sub-ids —
+  the XR-3 join grain). Ids reuse Mimir's plane slugs
+  (`law:planar-conditions:the-abyss` ⟷ `plane:the-abyss`) for her `exhibits`
+  edges; Modron deltas cite them as `{kind: mechanus, ref}` (the D2 seam). Rows
+  are PARAPHRASE — official scans stay cite-only, enforced by a shingle test
+  against the witnessed reflow pages. Inner-plane school-alterations/keys =
+  deferred M1/M2-extension round. **F6 also landed:** the FG&G 2e save matrices
+  (`save_matrix_2e.json`; `tables.saves_2e{,_monster}` accessors, p.309
+  plus-bump shared with the THAC0 lane).
 - **Law is data:** `mechanus/data/law/*.json`, every table page-cited, the set
   content-addressed as `law_version` (stamped into every docket and answer). Changing
   law data changes `law_version`; code changes don't.
@@ -431,14 +451,19 @@ docket at `build/modron/review/correction-docket.md`, re-audit rail =
   New edition or house crit range = JSON drop-in, no code. New check kind = a pack
   `checks` entry (templates use `roll`, params, `add`/`sub`, `success_op`,
   `vs`/`vs_template`, `derived`, `bands`). **Setting = a view too (handoff §D,
-  2026-06-06):** `2e-planescape` extends `2e` with plane-scoped kinds
+  2026-06-06):** `2e-planescape` extends `2e` with 15 setting kinds — plane-scoped
   (limbo_casting/alteration/miniflux, wind_madness, styx_memory,
-  wasting_contraction) — base packs stay edition-pure, overlays stay house-only.
+  wasting_contraction, hope_drain) + the 8 PWH planar NWPs (planar_sense,
+  chaos_shaping, planar_survival, planology, portal_feel ×2 uses,
+  spell_recovery, planar_direction_sense — printed check modifiers BAKED,
+  law cites pending-M12) — base packs stay edition-pure, overlays house-only.
 - **Rollables registry** (`data/rollables/*.json` + `modron/registry.py`, the
   rule-effect handoff's §D lane): page-cited tables / roll specs / diceless
-  lookups / encounter specs from the corpus (36 Planescape entries — Slags
+  lookups / encounter specs from the corpus (47 Planescape entries — Slags
   vortex, Hive ooze portals, Inner-Planes hazard dice, Acheron landing,
-  Harmonium patrol). Source-required at load (unsourced = refused), tables
+  Harmonium patrol; PWH round added the 4 D13 item d100s, 3 tiefling chargen
+  d100s + 3 racial lookups, planology fortune). Source-required at load
+  (unsourced = refused), tables
   coverage-validated, official scans cite-only (paraphrase + page witness),
   OCR-doubt flagged `requires_confirmation`. Served via `roll_table` (table
   ids) and `rollables` (id or `used_at` discovery — a resolving Mimir entity
@@ -475,7 +500,7 @@ docket at `build/modron/review/correction-docket.md`, re-audit rail =
 - **Adding notation/effects:** new postfix or function → `grammar.py` registry +
   evaluator arm + a round-trip test; new effect primitive → one entry in
   `modifiers._EFFECT_OPS` + an AST transform + a composition test. Run the suite
-  from `pipeline/modron/` (185 tests); smoke = `py -3.13 tests/smoke_server.py`
+  from `pipeline/modron/` (195 tests); smoke = `py -3.13 tests/smoke_server.py`
   (18 probes through the *configured* py.exe spawn, temp ledger).
 
 ## Table loop (.claude/ — shared infra, any session may fix)

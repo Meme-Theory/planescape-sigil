@@ -76,8 +76,8 @@ async def main() -> int:
             check("parked tool returns NOT_POURED", "NOT_POURED" in parked.get("error", ""), parked)
 
             pl = await call("planar_law")
-            check("planar_law index lists 7 families",
-                  len(pl.get("families", {})) == 7 and len(pl.get("law_version", "")) == 16, pl)
+            check("planar_law index lists 8 families",
+                  len(pl.get("families", {})) == 8 and len(pl.get("law_version", "")) == 16, pl)
 
             pl = await call("planar_law", law_id="law:plane-environment:the-gray-waste:wasting-sickness")
             check("planar_law resolves the Wasting with witness",
@@ -90,9 +90,14 @@ async def main() -> int:
                   {"law:planar-conditions:limbo", "law:planar-keys:limbo",
                    "law:plane-environment:limbo:miniflux"} <= ids, sorted(ids))
 
+            pl = await call("planar_law", law_id="law:inner-survival:elemental-fire:heat")
+            check("planar_law resolves M7 inner-survival hazard grain",
+                  "6d10" in pl.get("row", {}).get("rule", "")
+                  and pl["row"]["witness"][0]["component"] == "planescape-2634-inner-planes", pl)
+
             pl = await call("planar_law", plane="plane:the-outlands")
-            check("planar_law refuses honestly off-corpus (M7 parked named)",
-                  "M7 parked" in pl.get("error", ""), pl)
+            check("planar_law refuses honestly off-corpus (Outlands unpoured)",
+                  "await their own pours" in pl.get("error", ""), pl)
 
             docket = {
                 "ruling_id": "rul:smoke:test:001", "question": "Does the smoke test pass?",

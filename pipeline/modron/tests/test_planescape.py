@@ -41,7 +41,8 @@ def test_setting_pack_extends_2e_base():
     assert "attack" in pack["checks"] and "morale" in pack["checks"]
     # the setting kinds ride on top
     for kind in ("limbo_casting", "limbo_alteration", "limbo_miniflux",
-                 "wind_madness", "styx_memory", "wasting_contraction"):
+                 "wind_madness", "styx_memory", "wasting_contraction",
+                 "hope_drain"):
         assert kind in pack["checks"], kind
     # and the BASE pack stays pure — no setting kinds leak into plain 2e
     base = conventions.get_pack("2e")
@@ -200,6 +201,32 @@ def test_styx_memory_success_still_costs():
     assert any("past day" in n for n in rc["notes"])
 
 
+def test_hope_drain_weekly_save_vs_spell():
+    """D5 follow-up (Lane-E, closed 2026-06-06): the Gray Waste hope-drain is
+    a weekly save vs. spell — plain save vs supplied target; the notes carry
+    the charm interplay, the diceless auto-fail, and the 1d6-month slide."""
+    rc = semantics.roll_check("hope_drain", "2e-planescape", {"target": 14},
+                              None, stream(12))
+    out = rc["outcome"]
+    assert out["op"] == ">=" and out["target"] == 14
+    assert out["success"] == (rc["total"] >= 14)
+    notes = " ".join(rc["notes"])
+    assert "law:plane-environment:the-gray-waste:hope-drain" in notes
+    assert "AUTOMATICALLY FAILS" in notes      # the charm wear-off rider
+    assert "1d6 months" in notes               # the larva slide
+
+
+def test_wasting_note_rebind_lane_e():
+    """Lane-E remnant pin: the wasting_contraction notes must no longer deny
+    dice the witness states — they cite the minted hope-drain law id and point
+    at the hope_drain kind, never at 'prose color / Mimir's lane'."""
+    spec, _ = conventions.get_check_spec("2e-planescape", "wasting_contraction")
+    notes = " ".join(spec["notes"])
+    assert "law:plane-environment:the-gray-waste:hope-drain" in notes
+    assert "hope_drain" in notes
+    assert "prose color" not in notes
+
+
 # ---------------------------------------------------------------------------
 # Registry: load law, doors, D4/D7/D8/D9 content
 # ---------------------------------------------------------------------------
@@ -244,6 +271,176 @@ def test_d4_slags_vortex_table_via_find_table():
     rows = {e["roll"]: e["result"] for e in t["entries"]}
     assert "Prime" in rows["1-3"]
     assert "1d6 x 10 feet" in rows["4"]
+
+
+D13_TABLES = {
+    "tbl:2e:item:fiend-globe-summons": "item:fiend-globe",
+    "tbl:2e:item:grue-bottle-summons": "item:grue-bottle",
+    "tbl:2e:item:potion-of-elemental-breathing-type":
+        "item:potion-of-elemental-breathing",
+    "tbl:2e:item:scroll-of-outer-planar-protection-type":
+        "item:scroll-of-outer-planar-protection",
+}
+
+
+def test_d13_item_tables_load_tile_and_bind():
+    """Handoff D13 (PWH equipment round): the four item-embedded d100 tables.
+    Each tiles 1-100 exactly (00=100 percentile law), binds used_at to the
+    Mimir item id it's embedded in, and cites the PWH reflow page."""
+    for tid, item_id in D13_TABLES.items():
+        row = registry.get(tid)
+        assert row["kind"] == "table", tid
+        assert item_id in row["used_at"], tid
+        assert "2620" in row["source"]["product"], tid
+        assert row["source"]["cite_only"] is True, tid
+        report = validate_table(row["table"])
+        assert report["verdict"] == "ok", (tid, report)
+        assert report["range"] == [1, 100], tid
+
+
+def test_d13_cell_adjudications_and_bands():
+    """Pin the audited cells: grue 97 = Xorn (rn-fusion adjudicated, disclosed
+    in notes), fiend globe 00 = Night hag, the scroll's 40-wide fiends band,
+    and the potion's seven-element split."""
+    grue = registry.get("tbl:2e:item:grue-bottle-summons")
+    cells = {e["roll"]: e["result"] for e in grue["table"]["entries"]}
+    assert cells["97"] == "Xorn"
+    assert "Xom" in grue["notes"]              # the adjudication is disclosed
+    assert cells["00"] == "Nereid"
+
+    globe = registry.get("tbl:2e:item:fiend-globe-summons")
+    gcells = {e["roll"]: e["result"] for e in globe["table"]["entries"]}
+    assert gcells["00"] == "Night hag"
+    assert gcells["01-15"] == "Nupperibo"
+
+    scroll = registry.get("tbl:2e:item:scroll-of-outer-planar-protection-type")
+    scells = {e["roll"]: e["result"] for e in scroll["table"]["entries"]}
+    assert "fiends" in scells["26-65"]         # the widest band
+    assert "githzerai" in scells["76-86"]      # slaadi excl. githzerai
+
+    potion = registry.get("tbl:2e:item:potion-of-elemental-breathing-type")
+    assert len(potion["table"]["entries"]) == 7
+
+
+def test_d12_tiefling_chargen_tables():
+    """Handoff D12 + Q5 (answered IN SCOPE 2026-06-06): the three tiefling
+    chargen d100s — Abilities (roll 5x), Appearance (1d4x), Side Effects
+    (via Appearance 88-89). Player-facing tables are registry tables like
+    any other: page-cited, coverage-validated, used_at the race id."""
+    for tid in ("tbl:2e:race:tiefling-abilities",
+                "tbl:2e:race:tiefling-appearance",
+                "tbl:2e:race:tiefling-side-effects"):
+        row = registry.get(tid)
+        assert row["kind"] == "table", tid
+        assert "race:tiefling" in row["used_at"], tid
+        report = validate_table(row["table"])
+        assert report["verdict"] == "ok", (tid, report)
+        assert report["range"] == [1, 100], tid
+
+    abilities = registry.get("tbl:2e:race:tiefling-abilities")
+    assert "FIVE times" in abilities["notes"]          # the roll-count law
+    assert len(abilities["table"]["entries"]) == 32
+
+    appearance = registry.get("tbl:2e:race:tiefling-appearance")
+    cells = {e["roll"]: e["result"] for e in appearance["table"]["entries"]}
+    # 88-89 chains to the side-effects table BY ID — the join Mimir points at
+    assert "tbl:2e:race:tiefling-side-effects" in cells["88-89"]
+
+
+def test_d12_chargen_lookups_serve_and_parse():
+    """The racial starting-age/aging/level-limit lookups: diceless SERVED rows;
+    every dice expression in starting-age is engine-parseable data."""
+    age = registry.get("lkp:2e:chargen:starting-age")
+    assert age["kind"] == "lookup" and len(age["rows"]) == 8
+    for r in age["rows"]:
+        for fld in ("starting_age", "max_age"):
+            expr = r[fld]
+            if expr not in ("N/A", "no limit"):
+                parse(expr)                            # raises on garbage
+    tief = next(r for r in age["rows"] if r["key"] == "Tiefling")
+    assert tief["starting_age"] == "17+2d4"
+
+    limits = registry.get("lkp:2e:chargen:racial-level-limits")
+    assert len(limits["rows"]) == 11                   # 8 races, genasi x4
+    human = next(r for r in limits["rows"] if r["key"] == "Human")
+    assert all(human[c] == "U" for c in
+               ("fighter", "ranger", "paladin", "wizard",
+                "cleric", "druid", "thief", "bard"))
+    tlim = next(r for r in limits["rows"] if r["key"] == "Tiefling")
+    assert tlim["cleric"] == 10                        # OCR 'to' adjudicated
+
+    aging = registry.get("lkp:2e:chargen:aging-effects")
+    gith = next(r for r in aging["rows"] if r["key"] == "Githzerai")
+    assert gith["venerable"] == 250
+    # all three lookups bind every PWH race id, rogue-modron included
+    for lid in ("lkp:2e:chargen:starting-age", "lkp:2e:chargen:aging-effects",
+                "lkp:2e:chargen:racial-level-limits"):
+        assert "race:rogue-modron" in registry.get(lid)["used_at"], lid
+
+
+# ---------------------------------------------------------------------------
+# D10 — planar NWP check kinds (the M12 applied values; law pending her mint)
+# ---------------------------------------------------------------------------
+
+D10_NWP_KINDS = {
+    # kind: (score passed, expected effective target)
+    "planar_sense": (14, 13),               # Wis, -1 baked
+    "chaos_shaping": (14, 14),              # Wis, 0
+    "planar_survival": (15, 13),            # Int, -2 baked
+    "portal_feel": (16, 13),                # Int, -3 baked (safety read)
+    "portal_feel_destination": (16, 11),    # Int, -5 baked (where it goes)
+    "spell_recovery": (16, 11),             # Int, -5 baked
+    "planar_direction_sense": (10, 11),     # Wis, +1 baked (easier)
+}
+
+
+def test_d10_planar_nwp_kinds_bake_printed_modifiers():
+    """Each PWH planar NWP rides the proficiency mechanism (roll-under,
+    nat-1/nat-20 law) with its PRINTED check modifier baked into the target —
+    the modifier is law, never caller-remembered."""
+    for i, (kind, (score, want)) in enumerate(sorted(D10_NWP_KINDS.items())):
+        rc = semantics.roll_check(kind, "2e-planescape", {"score": score},
+                                  None, stream(40 + i))
+        out = rc["outcome"]
+        assert out["op"] == "<=", kind
+        assert out["target"] == want, (kind, out["target"], want)
+        nat = out["natural"]
+        if nat == 1:
+            assert out["success"] is True, kind     # nat 1 always succeeds
+        elif nat == 20:
+            assert out["success"] is False, kind    # nat 20 always fails
+        else:
+            assert out["success"] == (rc["total"] <= want), kind
+
+
+def test_d10_planology_cumulative_future_penalty():
+    """Planology: looking N days ahead is a cumulative -1 per day, carried as
+    check_mod (add_to_target — the proficiency idiom)."""
+    rc = semantics.roll_check("planology", "2e-planescape",
+                              {"score": 15, "check_mod": -3}, None, stream(48))
+    assert rc["outcome"]["target"] == 12
+    notes = " ".join(rc["notes"])
+    assert "celestial etheroscope" in notes.lower()
+    assert "tbl:2e:nwp:planology-fortune" in notes
+
+
+def test_d10_planology_fortune_table():
+    row = registry.get("tbl:2e:nwp:planology-fortune")
+    assert "item:celestial-etheroscope" in row["used_at"]
+    report = validate_table(row["table"])
+    assert report["verdict"] == "ok" and report["range"] == [1, 20]
+    cells = {e["roll"]: e["result"] for e in row["table"]["entries"]}
+    assert "Catastrophe" in cells["1"] and "Providence" in cells["20"]
+    assert "-1" in cells["2-5"] and "+1" in cells["16-19"]
+
+
+def test_d10_chaos_shaping_points_at_terrain_lookup():
+    """Chaos shaping binds the EXISTING Limbo terrain-maintenance lookup —
+    one capacity table, two doors (untrained Int / trained-anarch Wis)."""
+    spec, _ = conventions.get_check_spec("2e-planescape", "chaos_shaping")
+    notes = " ".join(spec["notes"])
+    assert "lkp:2e:limbo:terrain-maintenance" in notes
+    assert "ANARCHS ONLY" in notes
 
 
 def test_d4_ooze_portal_bundle():

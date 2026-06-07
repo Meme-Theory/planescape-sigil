@@ -222,7 +222,12 @@ class Ledger:
         sql += " ORDER BY rank LIMIT ?"
         args.append(limit)
         with self._conn() as cx:
-            return [json.loads(r["docket"]) for r in cx.execute(sql, args)]
+            try:
+                rows = cx.execute(sql, args).fetchall()
+            except sqlite3.OperationalError:  # bad FTS syntax (hyphens…) → quote terms (Mimir store.py pattern)
+                args[0] = " OR ".join(f'"{t}"' for t in topic.split())
+                rows = cx.execute(sql, args).fetchall()
+            return [json.loads(r["docket"]) for r in rows]
 
     def house_rules(self, scope: str | None = None) -> list[dict[str, Any]]:
         sql = "SELECT docket FROM rulings WHERE kind = 'house-rule' AND superseded_by IS NULL"

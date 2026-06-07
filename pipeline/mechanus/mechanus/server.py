@@ -294,8 +294,8 @@ async def handle_call_tool(name: str, arguments: dict | None) -> list[types.Text
                 rows = tables.planar_law_for_plane(args["plane"])
                 if not rows:
                     return _err(f"no planar law rows touch {args['plane']!r} — "
-                                "Great Ring planes + sigil are poured; the Outlands and "
-                                "Inner Planes await their own pours (M7 parked)",
+                                "Great Ring + sigil + the 18 Inner Planes are poured; "
+                                "the Outlands and the Astral await their own pours",
                                 planes_poured=sorted({p for f in tables.PLANAR_LAW_FILES
                                                       for r in tables._planar_rows(f)
                                                       for p in tables._row_planes(f, r)}))
@@ -309,7 +309,8 @@ async def handle_call_tool(name: str, arguments: dict | None) -> list[types.Text
                           "families": {f: len(ids) for f, ids in tables.planar_law_index().items()},
                           "id_scheme": ("law:<family-tail>:<plane-or-topic>[:<school|spell|power|rule>] — "
                                         "plane slugs match Mimir's plane:* ids; sigil rides as 'sigil'"),
-                          "handoff": "build/family/rule-effect-handoff.md §M (M7 inner-planes survival parked: joint pour)"})
+                          "handoff": ("build/family/rule-effect-handoff.md §M poured — M1-M6/M8 as §3a; "
+                                      "M7 = law:inner-survival (§M7-UNPARK, poured 2026-06-06)")})
 
         if name == "record_ruling":
             try:

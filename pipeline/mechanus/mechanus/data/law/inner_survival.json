@@ -1,0 +1,517 @@
+{
+  "_source": {
+    "name": "The Inner Planes (TSR 2634)",
+    "component": "planescape-2634-inner-planes",
+    "book_dir": "the-inner-planes",
+    "pour": "M7 (rule-effect handoff §M7-UNPARK, Q6) — survival law only",
+    "license": "official scan, cite-only: every row is paraphrase (shingle-tested against its witnessed reflow pages)",
+    "page_convention": "witness reflow:[N] = build/the-inner-planes/planescape-2634-inner-planes/reflow/page-NNNN.txt; printed = reflow-1, read off page footers (uniform across the book where footers survive OCR)",
+    "deferred": "per-plane wizard school alterations, spell/power keys, and margin tables are an M1/M2-extension follow-up round, NOT poured here; absolute prohibitions are carried on plane rows where the witnessed chapter head states one (Water: Fire / Vacuum: Air)",
+    "id_scheme": "general law = law:inner-survival:general:<topic>; per-plane survival profile = law:inner-survival:<mimir-plane-slug> with hazard sub-ids law:inner-survival:<slug>:<hazard>"
+  },
+  "general": [
+    {
+      "law_id": "law:inner-survival:general:elemental-guides",
+      "planes": ["elemental-air", "elemental-earth", "elemental-fire", "elemental-water", "energy-positive", "energy-negative", "para-ice", "para-magma", "para-ooze", "para-smoke", "quasi-lightning", "quasi-mineral", "quasi-radiance", "quasi-steam", "quasi-ash", "quasi-dust", "quasi-salt", "quasi-vacuum"],
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [13], "printed": [12]}],
+      "rule": "Native guides (elementals, mephits, long-settled planars) are the reliable way to navigate an infinite plane: with one, a journey to any point in the guide's home plane runs 10d100 hours, and a trip to a neighboring border only 10d10 hours. At DM option a powerful guide shields anyone in physical contact — the traveler ignores the natural environment of every plane the guide itself can survive. Guides demand payment in kind (fuels, perfumes, whatever suits their element) worth no less than 100 gp for each hour of service."
+    },
+    {
+      "law_id": "law:inner-survival:general:border-ethereal-travel",
+      "planes": ["elemental-air", "elemental-earth", "elemental-fire", "elemental-water", "energy-positive", "energy-negative", "para-ice", "para-magma", "para-ooze", "para-smoke", "quasi-lightning", "quasi-mineral", "quasi-radiance", "quasi-steam", "quasi-ash", "quasi-dust", "quasi-salt", "quasi-vacuum"],
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [14], "printed": [13]}],
+      "rule": "The Border Ethereal touches every Inner Plane, so a traveler can cross a plane's distances ethereally and take only a FRACTION of its environmental punishment — e.g. skirting Magma on the Border means somewhat slowed movement and minor heat damage rather than the full furnace. Some natives (certain genies, mighty elementals) perceive ethereal interlopers; ghosts of those killed in the Inner Planes and a few border-dwelling races frequent these fringes."
+    },
+    {
+      "law_id": "law:inner-survival:general:elemental-pockets",
+      "planes": ["elemental-air", "elemental-earth", "elemental-fire", "elemental-water", "energy-positive", "energy-negative", "para-ice", "para-magma", "para-ooze", "para-smoke", "quasi-lightning", "quasi-mineral", "quasi-radiance", "quasi-steam", "quasi-ash", "quasi-dust", "quasi-salt", "quasi-vacuum"],
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [15, 16, 17, 112], "printed": [14, 15, 16, 111]}],
+      "rule": "Foreign element drifts into every plane as pockets, pure or corrupted/mixed. Size: roll 1d8 twice — first for the die (1=1d3, 2=1d4, 3=1d6, 4=1d8, 5=1d10, 6=1d12, 7=1d20, 8=1d100), second for the unit (1=10 yd, 2=100 yd, 3=1,000 yd, 4=1 mile, 5=5 mi, 6=10 mi, 7=25 mi, 8=100 mi); pockets run roughly spherical. A pocket has a 25% chance of housing 1d4 elemental creatures of its own type.",
+      "per_type": {
+        "air": "Open hospitable voids; empty of life only 10–30% of the time (by host-plane severity); occupants are from Air (30%), the host plane (30%), or elsewhere (40%).",
+        "earth": "Floating mountains or stone chunks; 50% lair chance; chief danger is collision in open planes.",
+        "fire": "Glowing flame orb; 50% inhabited; an unprotected creature inside takes 1d20 per round.",
+        "water": "Orb seas (75% inhabited) that big winds break into steam; on solid planes they pool as lakes; drowning is the only innate danger.",
+        "ice": "Drifting bergs; an unprotected explorer takes 1d4 per round of cold; a ready water source.",
+        "magma": "Vents or glowing orbs; 1d12 per round while hot near it; cooled ones harden earth-like with a 25% lair chance.",
+        "ooze": "Wobbling slime bubbles or muck pools, very sticky — pulling free takes a bend bars/lift gates roll.",
+        "smoke": "Chokes like ash; stinking-cloud effect unless a breath-weapon save is made, and each round staying demands a fresh save or 1d6 choking damage; vision halved and infravision dead inside.",
+        "ash": "Choking heat-sink — contact drains warmth for 1d6 per round; flammable: open flame ignites it for 5d6 (breath-weapon save negates) to everyone in or within 10 feet, leaving a Smoke pocket.",
+        "dust": "Swirling abrasive motes — obscures sight, chokes, and rasps 1d4 per round off anyone inside.",
+        "salt": "In airy planes a crystal-hail storm: 1d4 per round, visibility halved; in solids a white vein easily mistaken for Mineral; 5% lair chance; moisture is pulled at 1d4 per round, and open fresh water must save vs. acid (as a potion) or turn undrinkable.",
+        "lightning": "A vast electrical storm — each round inside demands a breath-weapon save or 1d20 from the discharge.",
+        "mineral": "Sharp crystal clusters riddled with air spaces and water pools; the most-inhabited pocket type (75%), usually by miners hostile to claim-jumpers.",
+        "radiance": "A sun-like orb: looking straight at it forces a polymorph save or blindness (as the cause blindness spell); touching the surface acts as one random prismatic-sphere color; the interior matches the quasiplane itself.",
+        "steam": "Cool white vapor banks, harmless to breathe; sight range drops 75%.",
+        "vacuum": "Invisible and deadly: the edge feels like the wall of Otiluke's resilient sphere; entering forces a polymorph save each round — first failure kills outright; vacuum-equipped travelers are exempt.",
+        "negative": "Rare and lethal: each round inside strips one level or Hit Die; only negative plane protection or the like guards against it. (Witnessed in the Ash chapter.)",
+        "positive": "Matter is blasted apart on the Energy Planes themselves; positive pockets elsewhere follow the host chapters."
+      },
+      "note": "negative-pocket entry witnessed at reflow 112 (printed 111); the rest at reflow 15–17."
+    },
+    {
+      "law_id": "law:inner-survival:general:elemental-immunities",
+      "planes": ["elemental-air", "elemental-earth", "elemental-fire", "elemental-water", "energy-positive", "energy-negative", "para-ice", "para-magma", "para-ooze", "para-smoke", "quasi-lightning", "quasi-mineral", "quasi-radiance", "quasi-steam", "quasi-ash", "quasi-dust", "quasi-salt", "quasi-vacuum"],
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [18], "printed": [17]}],
+      "rule": "A plane's natives are immune to that plane's element — attacking them with it is pointless. At home, an elemental trades its elemental attack for a physical strike of comparable damage (it can do this only on its own plane), and canny native creatures simply refuse to use elemental attacks there (a winter wolf in Ice withholds its breath). The DM may rule that rare, legendary attacks supersede the planar environment so that environmental protection alone does not stop them."
+    },
+    {
+      "law_id": "law:inner-survival:general:no-gravity-combat",
+      "planes": ["elemental-air", "elemental-earth", "elemental-fire", "elemental-water", "energy-positive", "energy-negative", "para-ice", "para-magma", "para-ooze", "para-smoke", "quasi-lightning", "quasi-mineral", "quasi-radiance", "quasi-steam", "quasi-ash", "quasi-dust", "quasi-salt", "quasi-vacuum"],
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [18], "printed": [17]}],
+      "rule": "Weightless melee: an attack from above negates the defender's shield unless he holds it overhead (losing it against frontal attacks instead). Attacks from below count as attacks from behind in every respect, thief backstab included — though orientation can flip round to round. Floating targets can be mobbed; the maximum simultaneous attackers by size runs from 8 tiny foes on a tiny target up to 66 tiny foes on a gargantuan one (man-sized target: 18 tiny / 12 small / 8 man-sized / 6 large / 3 huge / 2 gargantuan).",
+      "max_attackers_table": {
+        "_columns": "attacker size T / S / M / L / H / G",
+        "tiny": [8, 6, 3, 2, 1, null],
+        "small": [12, 8, 6, 3, 2, null],
+        "man-sized": [18, 12, 8, 6, 3, 2],
+        "large": [27, 18, 12, 8, 6, 3],
+        "huge": [44, 27, 18, 12, 8, 6],
+        "gargantuan": [66, 44, 27, 18, 12, 8]
+      }
+    },
+    {
+      "law_id": "law:inner-survival:general:magic-use",
+      "planes": ["elemental-air", "elemental-earth", "elemental-fire", "elemental-water", "energy-positive", "energy-negative", "para-ice", "para-magma", "para-ooze", "para-smoke", "quasi-lightning", "quasi-mineral", "quasi-radiance", "quasi-steam", "quasi-ash", "quasi-dust", "quasi-salt", "quasi-vacuum"],
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [19, 20], "printed": [18, 19]}],
+      "rule": "General inner-planar casting law. ABSOLUTE PROHIBITIONS: schools/spheres fundamentally opposed to a plane simply cannot be cast there, and no spell or power key overcomes the plane's basic nature (each chapter lists its own). SUMMONING: only creatures native to the caster's plane or a bordering one answer (the Ethereal borders everything); a native of the caster's own plane arrives UNBOUND by the magic. ELEMENTAL FUSION: conjured elemental matter mingles with the local element — create water on Earth yields mud, fire magic on Ice bursts into steam; keys only partly help. HOME-PLANE NATIVES are not extraplanar: banishment, binding, dispel evil, holy word fail against them, and protection from evil loses only its extraplanar-creature ward. ASTRAL ISOLATION: no direct Inner-to-Astral connection exists, so wizard magic that taps the Astral fails outright and no key mends it (astral spell, duodimension, find familiar reaching through planar pathways). PATHWAY SPELLS reach only the Inner Planes and Ethereal; aimed at the Outer Planes they fail.",
+      "pathway_spells": ["contact other plane", "magic mirror", "vision", "Drawmij's instant summons", "succor", "ensnarement", "Hornung's random dispatcher", "banishment", "dismissal", "demand", "sending", "reincarnation"]
+    },
+    {
+      "law_id": "law:inner-survival:general:school-alterations-legend",
+      "planes": ["elemental-air", "elemental-earth", "elemental-fire", "elemental-water", "energy-positive", "energy-negative", "para-ice", "para-magma", "para-ooze", "para-smoke", "quasi-lightning", "quasi-mineral", "quasi-radiance", "quasi-steam", "quasi-ash", "quasi-dust", "quasi-salt", "quasi-vacuum"],
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [20], "printed": [19]}],
+      "rule": "Legend for the per-chapter wizard-school margin tables (the tables themselves are the deferred M1-extension lane). NULL (∅): the school is dead on that plane without a key. DIMINISHED (<): a spell of the opposed element resolves as if the caster were one level lower, and spells above 4th level cannot be cast at all without a spell key. ENHANCED (+): a spell of the plane's own element resolves at one caster level higher and its targets save at -1. ALTERED (♦): effects warp plane-by-plane, DM adjudication. Where a caster-level shift would change nothing, adjust the target's save instead; where no save applies, swing range, duration, or casting time about 25% in the indicated direction. Conjured creatures that cannot endure the plane's conditions perish swiftly; invocation/evocation spells of an elemental stripe obey these elemental rules (fireball is both evocation and Elemental Fire)."
+    },
+    {
+      "law_id": "law:inner-survival:general:priest-level-loss",
+      "planes": ["elemental-air", "elemental-earth", "elemental-fire", "elemental-water", "energy-positive", "energy-negative", "para-ice", "para-magma", "para-ooze", "para-smoke", "quasi-lightning", "quasi-mineral", "quasi-radiance", "quasi-steam", "quasi-ash", "quasi-dust", "quasi-salt", "quasi-vacuum"],
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [20], "printed": [19]}],
+      "rule": "Priests skip the wizard school alterations (absolute prohibitions still bind) and may even cast astral spell across the missing planar connection — but distance from the power's home costs spellcasting levels. Only spellcasting suffers: hit points, proficiencies, THAC0, and undead turning are untouched. For a power dwelling in the Inner Planes, count one step per intervening plane on the shortest route.",
+      "loss_by_power_home": {
+        "outer-plane": -3,
+        "astral": -2,
+        "prime": -1,
+        "ethereal": 0,
+        "adjacent-inner-plane": 0,
+        "other-inner-plane": "-1 to -3 (one per intervening plane, shortest route)"
+      },
+      "note": "PWH carries a second witness for this chart (priest level-loss, PDF 111/158) — lands with the M11 enrichment round."
+    },
+    {
+      "law_id": "law:inner-survival:general:item-plus-loss",
+      "planes": ["elemental-air", "elemental-earth", "elemental-fire", "elemental-water", "energy-positive", "energy-negative", "para-ice", "para-magma", "para-ooze", "para-smoke", "quasi-lightning", "quasi-mineral", "quasi-radiance", "quasi-steam", "quasi-ash", "quasi-dust", "quasi-salt", "quasi-vacuum"],
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [20], "printed": [19]}],
+      "rule": "Magical items wilt with distance from their forge: one plus of power per plane removed. Worked in the Inner Planes, an item forged on the Outer Planes or in Sigil runs at -4, the Astral -3, the Prime -2, the Ethereal -1, an adjacent Inner Plane -1, another Inner Plane -2 (non-adjacent routes trace through the Ethereal). A +3 blade of outer-planar make is mundane metal here. Items that mimic spells also obey the school-alteration rules as the DM adjudicates.",
+      "loss_by_forge_origin": {
+        "outer-plane-or-sigil": -4,
+        "astral": -3,
+        "prime": -2,
+        "ethereal": -1,
+        "adjacent-inner-plane": -1,
+        "other-inner-plane": -2
+      },
+      "note": "PWH carries a second witness for this chart (item bonus loss, PDF 113/159) — lands with the M11 enrichment round."
+    }
+  ],
+  "planes": {
+    "elemental-air": {
+      "law_id": "law:inner-survival:elemental-air",
+      "plane": "plane:elemental-air",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [21, 23], "printed": [20, 22]}],
+      "conditions": "The gentlest Inner Plane: the air is breathable and so pristine that sight — normal and infravision alike — reaches twice its usual range. The killers here are weather, falling forever, and the locals.",
+      "hazards": {
+        "storms": {
+          "rule": "Wind is the plane's great hazard: a 1d20 ladder runs from becalmed sweetness (a +3 boon) up through breezes, gales, and storms to the tornado's -10. The listed adjustment applies to saves (creatures or items), attack rolls, proficiency and ability checks, and whatever else the DM judges wind-touched — calm zones actually grant bonuses. Conditions can lurch a full step in a single turn and last anywhere from minutes to years.",
+          "velocity_1d20": {"1-2": "calm (+3)", "3-4": "light breeze (+2)", "5-6": "moderate breeze (+1)", "7-8": "strong breeze (0)", "9-10": "light gale (-1)", "11-12": "moderate gale (-2)", "13": "strong gale (-3)", "14": "light storm (-4)", "15": "moderate storm (-5)", "16": "strong storm (-6)", "17": "hurricane (-7)", "18": "whirlwind (-8)", "19": "cyclone (-9)", "20": "tornado (-10)"}
+        }
+      }
+    },
+    "elemental-earth": {
+      "law_id": "law:inner-survival:elemental-earth",
+      "plane": "plane:elemental-earth",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [31, 33], "printed": [30, 32]}],
+      "conditions": "An endless solid: no air for outsiders beyond scattered pockets, no light in the depths, and the plane itself resents intruders. Sound is the working sense here — stone carries it beautifully.",
+      "hazards": {
+        "breathing": {
+          "rule": "Outside air pockets there is nothing to breathe: hold your breath under the DMG's drowning rules, carry magic on the airy earth model, or die. A native guide's company often lets an outsider breathe normally — the natives don't explain why."
+        },
+        "pressure": {
+          "rule": "Arrivals materialize entombed, and the plane squeezes back: anyone trapped in the solid takes 1d2 damage per turn as the stone closes in. Dug passages self-heal — a man-sized bore seals over 1d6 days, larger and smaller ones proportionally; natives know permanence tricks they rarely teach."
+        },
+        "senses": {
+          "rule": "Vision is nil inside the solid (x-ray sight, echolocation, or sharing a guide's senses excepted). Sound betrays everything: even an ethereal or phased creature's passing hisses audibly to 60 feet, 90 for keen ears or trained noise-detection."
+        },
+        "gravity": {
+          "rule": "Whether gravity is absent or self-canceling, the result is the same: there is no down. Crossing an open pocket needs its own propulsion — crawling along the substance always works."
+        }
+      }
+    },
+    "elemental-fire": {
+      "law_id": "law:inner-survival:elemental-fire",
+      "plane": "plane:elemental-fire",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [42, 43, 44], "printed": [41, 42, 43]}],
+      "conditions": "The Crematorium consumes whatever it touches. Volcanic stone alone shrugs off the blaze — obsidian or basalt islands and pumice deserts give footing and relief from open flame, though never from the heat.",
+      "hazards": {
+        "material-destruction": {
+          "rule": "On arrival: unprotected flammables (wood, paper, cloth) flare and are gone within a round, dealing 1d10 to an unshielded wearer — magical examples save vs. magical fire at -6. Unprotected fluids flash to vapor, scalding anyone exposed for 2d10; magical fluids save at -4 (holy water gets no such grace), and water or ice cannot be conjured onto this plane at all. Ordinary non-volcanic stone runs molten in 2 rounds and boils away 2 rounds later (3d10 to anyone in close contact; living stone like earth elementals or golems burns for 1d10 per round; magical stone saves at -2). Plain metal reaches melting heat in 2 rounds — 4d10 on contact plus heat-metal style limb effects; magical metal saves unmodified."
+        },
+        "heat": {
+          "rule": "Bare flesh cooks by toughness — natural AC sets the burn each round of exposure, d10s from a brutal 6d10 against soft AC 10–8, one die fewer per bracket, to nothing at -8 or better (brackets in the damage_by_natural_ac table). Fire protection magic is simply the price of entry.",
+          "damage_by_natural_ac": {"10 to 8": "6d10", "7 to 5": "5d10", "4 to 2": "4d10", "1 to -1": "3d10", "-2 to -4": "2d10", "-5 to -7": "1d10", "-8 to -10": "nil"}
+        },
+        "atmosphere": {
+          "rule": "What passes for air is a thin, toxic, half-burning gas mix: each round of breathing it forces a breath-weapon save or 1d10 damage. Holding your breath merely postpones — once you gasp, the save runs at -2. Anything that blocks or slows poison helps; spells like breathe fire or magma and airy fire solve it; the breathless are exempt."
+        },
+        "vision": {
+          "rule": "Light is everywhere but flame is hard to see through: nonnatives see 120 feet (natives roughly double), and smoky-quartz spectacles sold in the City of Brass stretch an outsider's range to 240. Infravision is useless — the whole plane glows."
+        },
+        "pocket-consumption": {
+          "rule": "Fire eats foreign pockets at about 20 yards of diameter a day — kin elements (ash, magma, smoke, radiance) at a tolerant 10, water-kin (water, ice, steam, ooze, salt) at a hungry 40. A mile-wide refuge lasts under three months."
+        },
+        "detonation": {
+          "rule": "Explosive vapor clouds sometimes pool before igniting; when one finally blows, figure the blast region on the elemental-pocket size table at half scale."
+        }
+      }
+    },
+    "elemental-water": {
+      "law_id": "law:inner-survival:elemental-water",
+      "plane": "plane:elemental-water",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [51, 53, 54], "printed": [50, 52, 53]}],
+      "conditions": "A surfaceless, floorless, gravityless fresh sea, lit throughout by a soft blue-green glow — and because nothing weighs, terrestrial depth-pressure never appears. The chapter head bars Elemental Fire casting outright (pockets and warded enclaves like the City of Glass excepted).",
+      "prohibition": "fire",
+      "hazards": {
+        "breathing": {
+          "rule": "Water-breathers thrive. Everyone else holds their breath by the standard rules or arranges magic — airy water, water breathing, a ring of the same — or an elemental guide's gift."
+        },
+        "senses": {
+          "rule": "Clear as it is, the Deep limits sight to about 60 feet (aquatic natives double that); infravision works at half range, 30 feet for most folk, and never beyond 60 even for natives. Sound carries enormous distances but nonnatives cannot tell where it came from."
+        },
+        "combat": {
+          "rule": "Every fight is an underwater fight — the DMG's underwater combat rules govern wholesale, minus gravity's contributions (a netted prisoner has no bottom to sink to)."
+        },
+        "currents": {
+          "rule": "The Deep's winds: a 1d20 ladder runs from dead still (a +3 boon) up through bores, flows, and tides to the doom tide's -10 — the adjustment touches saves, attacks, proficiency and ability checks alike, exactly as Air's storm ladder does. Natives feel a current and compensate; visitors must check (proficiency or ability) to hold course. A second 1d20 sets persistence, from 1d6 rounds at the bottom to 1d6 centuries at the top; affected regions size like elemental pockets.",
+          "strength_1d20": {"1-2": "still (+3)", "3-4": "light current (+2)", "5-6": "moderate current (+1)", "7-8": "strong current (0)", "9-10": "light bore (-1)", "11-12": "moderate bore (-2)", "13": "strong bore (-3)", "14": "light flow (-4)", "15": "moderate flow (-5)", "16": "strong flow (-6)", "17": "light tide (-7)", "18": "moderate tide (-8)", "19": "strong tide (-9)", "20": "doom tide (-10)"},
+          "duration_1d20": {"1-2": "1d6 rounds", "3-4": "1d6 turns", "5-6": "1d6 hours", "7-8": "1d6 days", "9-10": "1d6 weeks", "11-12": "1d6 fortnights", "13-14": "1d6 months", "15-16": "1d6 years", "17-18": "1d6 decades", "19-20": "1d6 centuries"}
+        },
+        "whirlpools": {
+          "rule": "Where two great currents grind, a whirlpool spins up; its danger radius rolls on the elemental-pocket size table. Crossing that line forces a breath-weapon save or the vortex drags you to its fringe; a second failed save sucks you to the heart, where flotsam and shear batter you for 1d6 per round and only a bend bars/lift gates roll claws you back out. They persist per the current-duration table, and 30% hide a true vortex at the center — to elsewhere in the plane or the Prime."
+        },
+        "burn-water": {
+          "rule": "A dissolved Mineral or Ooze pocket leaves acidic taint roughly twice the parent pocket's size: entering forces a breath-weapon save — 2d10 on failure, half on success — and objects must save vs. acid or be ruined."
+        },
+        "red-tides": {
+          "rule": "Fast currents (treat as a moderate tide) infected with disease: contact afflicts as cause disease — debilitating if you keep the water out of your body, deadly if you breathe or swallow it."
+        }
+      }
+    },
+    "energy-positive": {
+      "law_id": "law:inner-survival:energy-positive",
+      "plane": "plane:energy-positive",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [61, 62, 63], "printed": [60, 61, 62]}],
+      "conditions": "Pure life-force without matter: no ground, no sky, no gravity — even foreign element pockets are blasted to particles on arrival. The danger is not deprivation but surfeit.",
+      "hazards": {
+        "energy-surfeit": {
+          "rule": "An unprotected visitor GAINS 2d6 hit points every round — glorious healing, then a death sentence: points above normal maximum persist 2d10 turns after leaving, and the instant a creature's total reaches DOUBLE its normal maximum it detonates, consumed from within. Nonmagical objects must save vs. disintegration or scatter into component elements. The positive plane protection spell (the negative version's twin) walls the energy out."
+        },
+        "breathing": {
+          "rule": "Airless — but an unprotected body absorbing the ambient flood neither suffocates nor starves; the plane sustains lungs and belly alike. Shielded travelers lose that gift and must carry their own air: spells on the water-breathing model (adapt the body) or airy-water model (convert the medium) both fail, since energy refuses conversion."
+        },
+        "movement": {
+          "rule": "Swimming through the radiance crawls at half swimming speed. The real trick is to simply fix a destination in mind — thought teleports you there, and intervening walls count for little."
+        },
+        "senses": {
+          "rule": "The brilliance blinds unshielded eyes instantly; a plain blindfold is the proven guard, while darkness magic is devoured outright. Whoever can still see makes out nothing past 100 feet. Touch sharpens in compensation — a Wisdom check at -6 senses movement within 25 feet — but sensation-inflicting magic (a symbol of pain) lands at double effect."
+        },
+        "shield-lowering": {
+          "rule": "The wounded can gamble on dropping protection a heartbeat to drink healing: a Dexterity check to be quick enough (failure wastes the round harmlessly), then a Wisdom check to hold the floodgate (failure strips the protection entirely, exposing you to the full plane). Both made: gain 2d6 hp, keep the ward, one round spent."
+        }
+      }
+    },
+    "energy-negative": {
+      "law_id": "law:inner-survival:energy-negative",
+      "plane": "plane:energy-negative",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [65, 66], "printed": [64, 65]}],
+      "conditions": "The plane of annihilation — a limitless hunger where any living thing is a beacon and existence itself drains away.",
+      "hazards": {
+        "life-drain": {
+          "rule": "Exposure leeches 2d6 hit points per round from the living until zero — whereupon the victim withers, dies, and rises THAT INSTANT as a random undead (wraiths and spectres lead the lottery). Matter conjured here crumbles to nothing within a round. Optional harsher law: a save vs. death magic each round or lose an experience level, with total loss making the victim undead. Negative plane protection holds either version off."
+        },
+        "breathing": {
+          "rule": "Breathing the void is as hopeless as breathing stone, and there is no matter for an airy-element spell to transform — no breath magic or carried air (bottled breath) are the only answers."
+        },
+        "senses": {
+          "rule": "Blackness beyond any pit: vision counts as wholly negated and nothing dispels it — light magic is swallowed in an eyeblink. The thick dark muffles the rest too: hearing and touch work at half."
+        },
+        "movement": {
+          "rule": "Travel is by naked will: a planewalker pushes through at a speed equal to the average of her movement rate and her Wisdom score."
+        }
+      }
+    },
+    "para-ice": {
+      "law_id": "law:inner-survival:para-ice",
+      "plane": "plane:para-ice",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [69, 70, 71], "printed": [68, 69, 70]}],
+      "conditions": "A glacier with neither base nor surface, marrying Earth's crushing solidity to Fire's ferocity of temperature — and it HAS gravity. Border bands each carry their own law: the walkable Precipice under Air; the Sea of Frozen Lives toward Water; the Stinging Storm of salt-ice hail toward Salt; the lightless cold of the Frigid Void toward Vacuum; the Fog of Unyielding Frost toward Steam — breathable vapor that freezes unprotected lungs; and the Shimmering Drifts toward Lightning, whose charged snow forces a save vs. spell each turn or the victim wanders as if confused.",
+      "hazards": {
+        "freezing": {
+          "rule": "Cold is the constant: 1d6 per round to anyone without immunity or magical warmth. Honest mundane measures — heavy winter dress, covered skin, shelter from wind and open water — stretch that to 1d6 per TURN. Some reaches ignore mundane gear entirely and deal the unprotected double. Deeper still, energy itself congeals: light freezes (sight fails), speaking or thinking clearly demands a save vs. petrification, and where even ice freezes the cold-immune take 1d6 per round while fresh ice accretes around them at a foot a minute."
+        },
+        "pressure": {
+          "rule": "The paraplane closes voids exactly as Elemental Earth does: 1d2 per turn to the entombed, dug passages sealing in 1d6 days — though Ice offers far more natural caverns and fissures."
+        },
+        "breathing": {
+          "rule": "The Precipice has plentiful cold air. Below, the plane is solid: magic or held breath, with fissures and pockets offering a 75% chance of an atmosphere thick enough to live on."
+        },
+        "vision": {
+          "rule": "A solid mass like Earth — sight needs open space, a light source, and air for that light to burn in. Open flame is treacherous: it melts the walls (icefalls, dousing refreeze), and in the coldest reaches fire itself freezes — half the time into inert ice-like flame, half into coldfire, a black flame shedding cold instead of heat and almost no light."
+        },
+        "avalanches": {
+          "rule": "Fissures, chasms, and overloaded cliffs let go at any sudden loud noise — an explosion, a thunderous spell — burying whoever stands beneath; the buried must save. (The resolution table continues past the witnessed page — only the trigger and the save demand are claimed here.)"
+        }
+      }
+    },
+    "para-magma": {
+      "law_id": "law:inner-survival:para-magma",
+      "plane": "plane:para-magma",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [76, 77], "printed": [75, 76]}],
+      "conditions": "Fire that sticks: the worst of the Crematorium poured over the worst of the Anvil. Toward Dust lies the Sands, cooler but murder on metal and machinery; toward Ash, a checkerboard of frigid ash islands laced with blistering magma channels punishes any single protection.",
+      "hazards": {
+        "temperature": {
+          "rule": "Slightly gentler than Fire, still lethal: flammables ignite within a round (1d10 to an unshielded wearer; magical pieces save vs. magical fire at -2). Fluids boil instantly — 2d10 from the scald; magical fluids save at -1 (holy water excluded as ever). Non-volcanic stone runs liquid in 5 rounds (3d10 in close contact; living stone creatures take 1d6 per round; volcanic stone is virtually immune; magical stone saves unmodified). Metal hits melting heat in 4 rounds — 4d4 on contact plus heat-metal limb effects; magical metal saves at +2."
+        },
+        "heat": {
+          "rule": "Flesh exposed to the paraplane burns by toughness each round, on the same natural-AC brackets as Elemental Fire but a die size gentler — d8s, from 6d8 against soft AC 10–8 stepping down a die per bracket to nothing at -8 or better (the damage_by_natural_ac table carries the brackets). Riding ABOVE the molten surface halves the toll (mind the bursting bubbles and geysers). Protection from magma is the true answer; protection from fire or a ring of fire protection caps the burn at a flat 10 per round.",
+          "damage_by_natural_ac": {"10 to 8": "6d8", "7 to 5": "5d8", "4 to 2": "4d8", "1 to -1": "3d8", "-2 to -4": "2d8", "-5 to -7": "1d8", "-8 to -10": "nil"}
+        },
+        "atmosphere": {
+          "rule": "Below the surface, magma is as unbreathable as stone — held breath or magic. Above it, the air is so caustic that one unfiltered, unprotected lungful forces a save vs. poison — failure is instant death."
+        },
+        "vision": {
+          "rule": "Above the melt, nonnatives see 120 feet and natives about twice that; below, nothing short of x-ray magic serves. The ambient heat washes infravision out entirely."
+        },
+        "blazing-clouds": {
+          "rule": "Drifting banks of burning acid vapor: entry forces a breath-weapon save or 2d10 (half on success). Immunity to fire OR acid grants +4 on the save; immunity to both makes the cloud harmless."
+        }
+      }
+    },
+    "para-ooze": {
+      "law_id": "law:inner-survival:para-ooze",
+      "plane": "plane:para-ooze",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [82, 83], "printed": [81, 82]}],
+      "conditions": "Filth given a plane: survivable — among the gentler Inner Planes, mechanically — but pestilent, and its hazards announce nothing: reckon any of them 90% unseen by a casual traveler, 50% even by the wary. Disease finds everyone here, paladins included.",
+      "hazards": {
+        "breathing": {
+          "rule": "The muck behaves enough like water that water-breathing ITEMS work unchanged (a ring of water breathing serves); spells need recasting for the density — airy ooze in place of airy water. True water-breathers fare worst: gills cannot strain the primordial sludge, so fish and merfolk need magic too."
+        },
+        "vision": {
+          "rule": "The slime is translucent — about 15 feet of sight with a light source. No open flame burns here; magical or biochemical glow is the only lamp."
+        },
+        "acid-pools": {
+          "rule": "Caustic concentrations strong enough to eat glass, sized on the elemental-pocket table at half scale. Strength on 1d6: very diluted (save +4, 1d4), diluted (+2, 1d6), weak (unadjusted, 1d8), strong (unadjusted, 1d10), concentrated (-2, 1d12), very concentrated (-4, 1d20). Entering — and every round staying — forces an adjusted breath-weapon save; failure takes the listed damage, success half. Objects save or dissolve; the acid-immune pass untouched. Bottled, the stuff is a trade good."
+        },
+        "disease-pockets": {
+          "rule": "Infection zones, pocket-table sized at half scale: entry afflicts as cause disease with an immediate Constitution check — pass for a debilitating course, fail for a deadly one."
+        },
+        "pockets": {
+          "rule": "Local pockets run Earth-like in the thick reaches and Water-like in the thin; drifting air bubbles form breathable (if foul) cysts, and earth pockets give rare solid footing — often hollowed, often trapped."
+        }
+      }
+    },
+    "para-smoke": {
+      "law_id": "law:inner-survival:para-smoke",
+      "plane": "plane:para-smoke",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [87, 88, 89], "printed": [86, 87, 88]}],
+      "conditions": "Superheated, gravityless murk where solid ground is a drifting cinder. The border bands grade the poison: Scald toward Fire burns 1d10 a round with NO save; the Eternal Haze toward Air demands a save vs. poison each round — success still costs 1d10, failure suffocates outright; the Embers toward Ash sear exposed flesh with glowing flakes; the Gray Way toward Vacuum is breathable madness — its vapors eat intelligence, hallucination by hallucination, into violence only restoration unwinds; the Sea of Stars borders Radiance and the Aurora, Lightning.",
+      "hazards": {
+        "breathing": {
+          "rule": "The core atmosphere is flatly lethal: one unprotected breath kills on the spot. A breathe smoke spell (or equivalent filter) is the whole difference between visiting and dying."
+        },
+        "explosive-pockets": {
+          "rule": "The smoke carries flame happily — torches and lanterns burn, which matters because some gas accumulations are both toxic and violently combustible (pocket-table size at half scale). Open flame touching one detonates it: everyone caught saves vs. breath weapon or takes 2d20, half on success."
+        },
+        "hot-spots": {
+          "rule": "Freshly manifested smoke still carries Elemental Fire's furnace heat (pocket-table size at half scale): anyone inside suffers the Fire plane's own heat regime while it lasts."
+        },
+        "vision": {
+          "rule": "Thirty feet of sight at best with light in hand; natives manage two or three times that. Most of the paraplane is pitch dark, and infravision drowns in the ambient warmth — only the very hottest things (an efreeti, say) stand out."
+        },
+        "movement": {
+          "rule": "As the plane of Air: no gravity, and the practiced trick of declaring a direction 'down' and falling that way works here too — just remember how little you can see before something looms out of the haze."
+        }
+      }
+    },
+    "quasi-lightning": {
+      "law_id": "law:inner-survival:quasi-lightning",
+      "plane": "plane:quasi-lightning",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [93, 94, 95], "printed": [92, 93, 94]}],
+      "conditions": "Black storm cloud without end — thunder, wind, and arcing power. The air itself is clean and breathable, tasting of ozone and metal. Borders run from the Subdued Cacophony (Air) through twin Dark Lands (Smoke, Steam), the blinding Bright Land (Radiance), the berg-strewn Glistening Crystal (Ice), to a standing wall of cascade against Positive Energy.",
+      "hazards": {
+        "bolts": {
+          "rule": "Each round, a nonnative stands a 10% chance of drawing a bolt — and carrying more metal than a single dagger makes the strike AUTOMATIC. The quasiplane's bolts hit for 1d8×10, fiercer than lightning anywhere else; save vs. rod for half. The thunderclap behind each strike forces a second rod save or 2d4 hours of deafness. Protection from lightning and kin ward off the shock entirely — the thunder still rings."
+        },
+        "lightning-balls": {
+          "rule": "Dancing motes of charge that hit like the plane's bolts — but a successful save means a clean dodge, no damage at all. The nuisance: a ball follows its chosen target, striking round after round until it spends itself."
+        },
+        "plasma-pockets": {
+          "rule": "Cloud-charged reservoirs at full elemental-pocket size: blundering in flash-fries for an instant 20d10. Even total immunity to electricity leaves 2d10 of it."
+        },
+        "vision-halo": {
+          "rule": "Sight ranges from a few feet to a few hundred as the storms allow — but every object in the quasiplane wears a faint electrical halo, so nothing needs a torch and INVISIBILITY simply fails."
+        },
+        "movement": {
+          "rule": "Fly by any means that works in air, or master the Air-plane trick of re-deciding which way is down."
+        }
+      }
+    },
+    "quasi-mineral": {
+      "law_id": "law:inner-survival:quasi-mineral",
+      "plane": "plane:quasi-mineral",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [98], "printed": [97]}],
+      "conditions": "An endless underground of workable ore — no surface, no weather, no light except near the Radiance and Positive borders. Stone carries sound the way Earth does: ethereal or phased passers-by hiss audibly to 60 feet, 90 for keen or trained ears.",
+      "hazards": {
+        "breathing": {
+          "rule": "No native air beyond scattered pockets and dug tunnels — bring magical respiration or live where others have already opened the way."
+        },
+        "fossilization": {
+          "rule": "The plane claims its visitors: every day, a nonnative must save vs. petrification or begin slowing, stiffening, and turning to stone. That ratchet — not the natives — is what keeps the treasure trove unmined."
+        }
+      }
+    },
+    "quasi-radiance": {
+      "law_id": "law:inner-survival:quasi-radiance",
+      "plane": "plane:quasi-radiance",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [101, 102], "printed": [100, 101]}],
+      "conditions": "Light as substance — beauty that maims. The air itself is clean and breathable despite the heat; the light and the burn are the killers.",
+      "hazards": {
+        "blindness": {
+          "rule": "Unprotected eyes are blinded even as they marvel. A thick blindfold serves; so, oddly, does magical darkness, which survives here only as a weak gray shade — yet shade enough for mortal eyes."
+        },
+        "material-burn": {
+          "rule": "Unprotected flammables ignite on arrival and are ash within a round (1d6 to the wearer unless shielded; magical items save vs. magical fire at -2). Fluids — frozen ones included — flash to vapor: 2d6 from the scald; magical fluids save (holy water excluded)."
+        },
+        "heat": {
+          "rule": "Flesh burns by toughness each round on the familiar natural-AC brackets, two die sizes gentler than the Crematorium — d6s, topping at 6d6 against AC 10–8 and fading to nothing at -8 or better (brackets in the damage_by_natural_ac table). Protection from fire or a ring of fire resistance is standard equipment.",
+          "damage_by_natural_ac": {"10 to 8": "6d6", "7 to 5": "5d6", "4 to 2": "4d6", "1 to -1": "3d6", "-2 to -4": "2d6", "-5 to -7": "1d6", "-8 to -10": "nil"}
+        },
+        "color-storms": {
+          "rule": "Churning prismatic tempests that even natives dread: caught creatures save vs. paralyzation or are flung 1d100 miles across the quasiplane in a swirl of color."
+        }
+      }
+    },
+    "quasi-steam": {
+      "law_id": "law:inner-survival:quasi-steam",
+      "plane": "plane:quasi-steam",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [105, 106], "printed": [104, 105]}],
+      "conditions": "Not hot — cool, clinging mist that dampens everything it touches. Borders: near-liquid murk toward Water; sparkling wisps toward Positive; the Shard Forest toward Mineral, whose drifting crystal slivers cut even slaad hide; the Death Cloud toward Lightning, charged banks that jolt passers for 3d6 (save vs. rod for half); the Realm of Cloying Fear toward Ooze, all stench and oily paste; and Hoarfrost toward Ice, where frozen mist sheathes everything and bites for 1d4 cold per round.",
+      "hazards": {
+        "breathing-drag": {
+          "rule": "The saturated air is breathable but heavy: air-breathing creatures labor under it as if slowed (the spell). A water breathing spell lifts even that."
+        },
+        "vision": {
+          "rule": "Ten to a hundred feet of sight, never more — and often just a size-and-shape silhouette in the banks until whatever it is comes close. Hunter's country."
+        },
+        "steam-pockets": {
+          "rule": "Pockets of genuinely scalding vapor hide among the cool mists, at standard elemental-pocket size: 2d6 to anyone not heat-immune, save vs. rod for half."
+        },
+        "movement": {
+          "rule": "As the plane of Air, with one mercy: the mists are thick enough to swim through, so falling is optional rather than mandatory."
+        }
+      }
+    },
+    "quasi-ash": {
+      "law_id": "law:inner-survival:quasi-ash",
+      "plane": "plane:quasi-ash",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [110, 111, 112], "printed": [109, 110, 111]}],
+      "conditions": "A solid gray-white flake-mass that drinks warmth — Fire's exhausted aftermath trying to steal its heat back. Gravity holds here.",
+      "hazards": {
+        "heat-drain": {
+          "rule": "The plane siphons warmth from everything: 2d6 per TURN to anyone not magically warded against cold — and ordinary cold immunity does NOT exempt the living. Creatures of Fire, Smoke, Magma, or other heat-natured stock fare far worse, losing a full Hit Die of damage every ROUND. Mundane and even magical heat sources barely dent the effect."
+        },
+        "breathing-vision": {
+          "rule": "Solid flakes or choking powder-cloud — either way, no breathing and no seeing without magic. Natural flame cannot ignite (no air to feed it); magical light pushes barely 10 yards through the murk; infravision dies, its residual heat swallowed at once."
+        },
+        "mage-powder": {
+          "rule": "Some reaches drink magic the way the rest drinks heat: any spell cast there simply fails, and the caster must save vs. spell or find the plane has drunk deeper — casting locked away one hour per point the save missed. Items and effects already running when you enter are spared."
+        },
+        "negative-pockets": {
+          "rule": "Rare wells of negative energy: each round inside strips a level or Hit Die. Only negative plane protection or the like answers."
+        },
+        "sludge": {
+          "rule": "Spilled water and ash breed a viscous trap (pocket-table size at half scale): the moment something warm-blooded touches it, the slime drinks the heat and petrifies around the victim like quick-set plaster. Companions with picks free a captive easily; alone, it's a bend bars/lift gates roll or the long dark."
+        },
+        "movement": {
+          "rule": "Earth's travel rules at packed-soil density throughout — easier digging, but collapses come twice as often as in Earth. Gravity means walking: no open-area fall-trick here."
+        }
+      }
+    },
+    "quasi-dust": {
+      "law_id": "law:inner-survival:quasi-dust",
+      "plane": "plane:quasi-dust",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [115, 116], "printed": [114, 115]}],
+      "conditions": "A dark expanse of drifting particulate on winds too faint to feel, where negative energy unmakes all matter. Borders: the Tumbling Rocks toward Earth, where coalesced masses grind together; the Wasting Place toward Ash, abrasion plus heat-theft; the Consumption toward Salt, where fluids crystallize fatally; and the Storm of Annihilation against Negative Energy, where matter doesn't just decay — it violently explodes.",
+      "hazards": {
+        "disintegration": {
+          "rule": "Erosion begins the instant a nonnative arrives and never pauses: at the end of every TURN, save vs. breath weapon — failure costs 2d6, success half. At zero hit points the victim breaks apart as if struck by a disintegration spell; nonliving gear saves vs. disintegration or crumbles. Worse: while on the plane, ordinary healing magic cannot restore points this erosion took unless paired with restoration, negative plane protection, or similar."
+        },
+        "breathing": {
+          "rule": "The whisper-thin atmosphere cannot be breathed without magic — nor will it feed a mundane flame."
+        },
+        "vision": {
+          "rule": "No natural light, no burning torches. With magical light, sight runs more or less normally to about 90 feet before the drifting dusts close in; infravision works at a 60-foot ceiling."
+        }
+      }
+    },
+    "quasi-salt": {
+      "law_id": "law:inner-survival:quasi-salt",
+      "plane": "plane:quasi-salt",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [119, 120, 121], "printed": [118, 119, 120]}],
+      "conditions": "A lightless solid block of crystal alkali under full gravity — the plane of endless thirst. Its border bands: the Saline Sea toward Water, brine so lethal mere contact risks fatal blood-poisoning; the Stinging Storm of acrid hail toward Ice; the Stagnant Sea toward Ooze, caustic enough to eat metal; the Consumption shared with Dust, desiccation and disintegration at once; the Flats toward Vacuum, both planes' burdens; and the Crystal Range against Negative Energy, where the drain accelerates to total — a living body bled to a salt statue almost instantly.",
+      "hazards": {
+        "dehydration": {
+          "rule": "From the first moment, the plane pulls fluid: 2d6 per round without magical protection. Aquatic creatures (mermen, nereids) take double; elemental creatures of Water, Ooze, or Ice lose a Hit Die or level each round until consumed. None of this damage heals while you remain on the plane."
+        },
+        "fluid-spoilage": {
+          "rule": "Carried water and other fluids sour fast: at the top of each hour, every open or stoppered supply saves vs. acid or turns salt-fouled — poisonous before the plane even absorbs it."
+        },
+        "breathing": {
+          "rule": "A solid mass: no breathing without magic, save in cracks, fissures, stray air pockets, and the non-solid border bands."
+        },
+        "vision": {
+          "rule": "No light and almost no open space — normal vision has nothing to work with."
+        },
+        "movement": {
+          "rule": "Travel as through Elemental Earth's substance, with one mercy: the consistency never exceeds soft rock."
+        },
+        "crystal-veins": {
+          "rule": "Glass-clear blades lace the salt like ore veins, invisible until met — even passwall travel cannot thread them. Blundering into a laced region forces a breath-weapon save that selects the table: on a SUCCESS roll 1d6 — 1 unharmed, 2 minor cut 1d4, 3 major cut 1d6, 4 minor laceration 1d8, 5 major laceration 1d10, 6 severe injury 2d8; on a FAILURE roll 1d6 — 1–4 an arm or leg severed (2d10 and -2 Dexterity), 5 bisection, 6 decapitation — the last two instantly fatal, the victim's water bled into the hungry ground."
+        }
+      }
+    },
+    "quasi-vacuum": {
+      "law_id": "law:inner-survival:quasi-vacuum",
+      "plane": "plane:quasi-vacuum",
+      "witness": [{"component": "planescape-2634-inner-planes", "reflow": [123, 124], "printed": [122, 123]}],
+      "conditions": "The Empty Reach: no light, no air, no water, no warmth, almost no matter — one uniform void without border bands. The graybeards' horror stories are half wrong: pressure exists (slight) and temperature holds (cool); bodies do not burst here. The chapter head bars Elemental Air casting outright.",
+      "prohibition": "air",
+      "hazards": {
+        "breathing": {
+          "rule": "No air — and no matter to make air FROM, so the whole airy-element / breathe-element spell family fails, as do magical items drawing on the Elemental Air school. Hold your breath, or cast no breath and simply do without."
+        },
+        "gaseous-drain": {
+          "rule": "The void unmakes gas-bodied creatures: smoke paraelementals and their like lose a Hit Die or level for every round of exposure."
+        },
+        "vision": {
+          "rule": "Nothing shines natively and no flame can burn — but with nothing in the way, any light you bring (magical included) reaches DOUBLE its normal range. Infravision enjoys the same doubling: 90 feet becomes 180."
+        },
+        "vacuum-welding": {
+          "rule": "Articulated mechanisms seize in the void: every hour, a save vs. acid — simple joints (a knee of plate armor) at +4, complex clockwork at -4. Failure freezes the mechanism solid; repair is possible only after returning it to a breathable atmosphere."
+        },
+        "movement": {
+          "rule": "Travel by the Air-plane fall-trick — choose a down and drop. Wings and anything that beats against a medium are USELESS here; magical propulsion (fly, brooms, carpets) works fine, but items that merely mimic wings do not."
+        }
+      }
+    }
+  }
+}

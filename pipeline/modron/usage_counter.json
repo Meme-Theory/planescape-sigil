@@ -1,74 +1,74 @@
 {
-  "total_calls": 164,
+  "total_calls": 200,
   "by_tool": {
     "roll_check": {
-      "count": 31,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 35,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "rollables": {
-      "count": 20,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 24,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "conventions": {
-      "count": 6,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 8,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "modifiers": {
-      "count": 4,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 6,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "parse_expr": {
-      "count": 5,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 7,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "dice_stats": {
-      "count": 14,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 16,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "session_open": {
-      "count": 10,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 12,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "roll": {
-      "count": 18,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 22,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "roll_damage": {
       "count": 5,
       "last_called": "2026-06-05T22:44:19+00:00"
     },
     "force": {
-      "count": 4,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 6,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "verify": {
-      "count": 11,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 13,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "session_close": {
-      "count": 14,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 18,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "roll_table": {
-      "count": 7,
-      "last_called": "2026-06-06T19:25:08+00:00"
+      "count": 9,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "encounter_rolls": {
       "count": 6,
       "last_called": "2026-06-05T23:00:00+00:00"
     },
     "define_modifier": {
-      "count": 5,
-      "last_called": "2026-06-06T19:25:09+00:00"
+      "count": 7,
+      "last_called": "2026-06-07T00:43:13+00:00"
     },
     "history": {
       "count": 1,
       "last_called": "2026-06-05T20:06:38+00:00"
     },
     "usage_stats": {
-      "count": 3,
-      "last_called": "2026-06-06T19:25:09+00:00"
+      "count": 5,
+      "last_called": "2026-06-07T00:43:13+00:00"
     }
   },
-  "last_called": "2026-06-06T19:25:09+00:00"
+  "last_called": "2026-06-07T00:43:13+00:00"
 }

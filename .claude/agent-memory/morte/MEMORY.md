@@ -23,10 +23,16 @@
   needs a psionics-bearing source) · 8 CLOSED (ratified).
 - **Manifest:** pinned + RECONSTITUTED at the state above (re-pin after every
   pour — curator duty). law_version seam: 0d05d408b20e7314.
+- **PWH+Inner audit (2026-06-06): docket PROPOSED, awaiting Meme** —
+  `build/mimir/review/audit-pwh-inner/correction-docket.md`: 200/200 reviewed,
+  160 clean / 40 flagged, 45 confirmed findings (0 refuted), lanes card 34 /
+  module 11 / curations 0; court 1 hold. Apply = card+rule edits, ONE re-pour
+  (entities unchanged; edges −1 dwells_in +1 located_in +1 first-printed-in),
+  rail, re-pin. review_chunks.py now has 2620/2634 + --books scoped mode.
 - **Last commits:** 95482b6 (PWH pour) · c19a10c (equipment round) · d4bb7e4
   (Inner Planes). Commit/push only when Meme authorizes in-session.
-- **Next likely rounds:** PAitM pour (XR-4b — capture COMPLETE, pour the 5e
-  aspects + answer-key pairs, jointly with Mechanus) · 2600 core box
+- **Next likely rounds:** APPLY the pwh-inner audit docket (on sign-off) ·
+  PAitM pour (XR-4b — capture COMPLETE, jointly with Mechanus) · 2600 core box
   (gate-towns 11→16, MS creatures via monstrous.py, dual-source Sigil) ·
   hazard pointer mint (BLOCKED on Q6) · L6/Lane-E/XR-1/XR-2 (see ledger).
 
@@ -37,6 +43,7 @@
 | 2026-06-06 | PWH (2620): race 8 · class 11 · spell 57 (+1 head-lost q) · faction 3rd-witness ×15 · psionic re-parked | `rounds/2026-06-06-pwh.md` |
 | 2026-06-06 | PWH equipment: item 106→143 (38 cards; planar-wards dual-source merge proved) | `rounds/2026-06-06-pwh-equipment.md` |
 | 2026-06-06 | Inner Planes (2634): 18 planes · 44 sites · 4 realms · 17 powers · 1 proxy · M7 unparked (§M7-UNPARK posted, Q6) | `rounds/2026-06-06-inner-planes.md` |
+| 2026-06-06 | PWH+Inner AUDIT: 200/200 adversarial review, 45 findings (0 refuted), docket PROPOSED; review_chunks.py scoped mode | `rounds/2026-06-06-audit-pwh-inner.md` |
 
 ## Distilled lessons (the playbook's living edge)
 
@@ -75,3 +82,21 @@
 - **Doomguard citadel network** text-bound used_by at Sealt/Exhalus/Alluvius/
   Crumbling; Former Flame unbound (no witness) — faction presence is
   edge-worthy when the page says it.
+- **Curated card text needs the parser's witness discipline:** the audit's
+  worst defects were HAND-WRITTEN fields — hazards_note clauses crossing
+  chapter boundaries (the Ice splash quote on energy-negative; an invented
+  10d6), glosses importing out-of-book canon (Earthlord/Water Lord), origins
+  inferred from use-locus. Cards quote-or-paraphrase ON-PAGE only; hedges
+  preserved verbatim; works_on = plane-keyed FUNCTION, never origin.
+- **Stat-line continuations are a parser class:** print wraps area_of_effect;
+  reflow displaces the tail 0-2 lines (even past Saving Throw) — 6 of 57 PWH
+  spells truncated. Rule-first (continuation grammar + self-test), never six
+  curations. Sibling class: reversible lives in the BODY ("The reverse of
+  this spell, NAME,") when the head tag drops.
+- **Audit pattern, proven twice:** scoped chunk dump (exact-reconcile the pour
+  records) → wave-throttled reviewers (shared RUBRIC.md) → sonnet refuter
+  batches re-reading pages fresh → mechanical preseeds I run myself → docket
+  PROPOSED, store untouched. 0% refutation = conservative line-cited finders,
+  not lax refuters — check refuters quote line numbers.
+- **Harness Grep can no-match strings present in UTF-8 reflow** — reviewers
+  fall back to byte-level Python sweeps; put it in the next rubric.

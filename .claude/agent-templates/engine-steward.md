@@ -6,12 +6,17 @@
      round history, distilled lessons) so a fresh invocation costs no
      re-learning and no handoff ceremony.
 
-     Canonical minted example — read it before minting a sibling:
-     .claude/agents/morte.md (Mimir / the knowledge spine).
-     Mintable siblings when their sessions retire: a Mechanus steward
-     (law engine: law tables, lawful checks, rulings ledger, text caches),
-     a Modron steward (dice engine: grammar, packs, rollables, ledger),
-     a dabus steward (voice stack), a cant steward (lexicon/harvest).
+     Canonical minted examples — read one before minting a sibling:
+     .claude/agents/morte.md (Mimir / the knowledge spine),
+     .claude/agents/primus.md (Mechanus / the law engine, minted 2026-06-06;
+     MECHANUS.md §10 records the ceremony), and .claude/agents/nordom.md
+     (Modron / the dice engine, minted 2026-06-06; MODRON.md §11 records the
+     ceremony — and holds the mint law STRUCTURALLY via frontmatter
+     `disallowedTools: mcp__modron__force, mcp__mechanus__record_ruling,
+     mcp__mechanus__overrule`; recommended for future mints — belt and
+     suspenders over prompt-law alone).
+     Mintable siblings when their sessions retire: a dabus steward
+     (voice stack), a cant steward (lexicon/harvest).
 
      PREREQUISITES (no engine, no steward):
      1. The engine EXISTS: design doc + impl + stores + V&V record, per
@@ -26,10 +31,12 @@
      docs; seed .claude/agent-memory/<name>/MEMORY.md with a state-of-the-
      engine header + empty round index + rounds/ dir, PRIMED with the
      engine's current live state (counts, version stamps, open lanes);
-     restart or /agents. House naming: in-voice Planescape constructs that
-     SERVE rather than rule (Morte — the skull that remembers; suggest:
-     Nordom for Modron, the scrivener-shape for Mechanus). Colors taken:
-     pink (lemure), red (abishai), yellow (morte).
+     restart or /agents. House naming: offer an in-voice construct as the
+     default, but MEME NAMES THE STEWARD AT MINT — his call overrides any
+     suggestion here (precedents: Morte — the skull that remembers; Primus
+     for Mechanus, over the suggested scrivener-shape; Nordom for Modron —
+     Meme's call, converging with the suggestion). Colors taken: pink
+     (lemure), red (abishai), yellow (morte), orange (primus), cyan (nordom).
 
      LANE LAW AT MINT TIME (from CLAUDE.md, binding): no minted agent gets
      `force` or `record_ruling`/`overrule` — fiat and dockets stay the DM's

@@ -91,6 +91,22 @@ def test_precedents_fts_and_scope(ledger):
     assert ledger.precedents("druids") == []
 
 
+def test_precedents_hyphenated_topic_quote_fallback(ledger):
+    """F4 (build/family/integration-tests.md): a hyphenated topic (`spell-like`)
+    hits FTS5 column-filter syntax and crashed precedents with OperationalError.
+    The fix is Mimir's quote-fallback (store.py search): raw MATCH first, on
+    OperationalError retry with each term quoted + OR-joined."""
+    ledger.record_ruling(docket(
+        ruling_id="rul:global:spell-like-abilities:001", scope="global",
+        question="Do spell-like abilities require components?", confidence=0.8,
+        candidates=[{"position": "no components — innate", "fate": "ADOPTED"},
+                    {"position": "as the written spell", "fate": "rejected",
+                     "why": "innate reading holds for 2e"}]))
+    hits = ledger.precedents("spell-like")  # raw MATCH raises; the fallback must serve
+    assert len(hits) == 1 and hits[0]["ruling_id"] == "rul:global:spell-like-abilities:001"
+    assert ledger.precedents("nonsense-topic") == []  # fallback path, clean miss
+
+
 def test_precedents_resolve_overrules(ledger):
     ledger.record_ruling(docket())
     ledger.overrule("rul:tofw:grapple-while-invisible:001",

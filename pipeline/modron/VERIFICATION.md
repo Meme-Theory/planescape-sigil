@@ -7,7 +7,8 @@ real defects found, fixed, and pinned by regression tests** — which is the
 campaign doing its job.
 
 Suite after campaign: 140 passed (143 post-fixes; 171 after the rule-effect
-handoff; **185 after audit round 2 — see below**). Ledger evidence:
+handoff; **185 after audit round 2; 195 after the PWH acceptance round — see
+below**). Ledger evidence:
 `build/modron/rolls.db` (sessions `ses:vnv-campaign-e50023`,
 `ses:friendly-fiend-shakedown-f41bfe`). Fixtures: `build/modron/vnv/`.
 *(Header counts corrected 2026-06-06 per audit F-2-verification-claims.)*
@@ -166,3 +167,22 @@ integrity **0 hard · 0 soft** · math fixtures **49/49** (the enumerator and
 **`tests/smoke_server.py` minted: 18/18 through the exact configured py.exe
 spawn** (Modron was the last sibling without a stdio smoke). The dice are
 still lawful — and now the books they cite are, too.
+
+## Round 3 addendum — the PWH acceptance round (2026-06-06, same day)
+
+Handoff §PWH (Q5 + D10/D12/D13) + the Lane-E hope-drain remnant, accepted and
+implemented (MODRON.md §9 carries dispositions; §11 the ruling). What changed:
+`hope_drain` + 8 planar-NWP check kinds (printed modifiers baked via
+`vs_template`); registry 36→47 (4 D13 item d100s · 3 tiefling chargen d100s ·
+3 racial lookups · planology fortune); integrity gained the PWH
+`REFLOW_MAP` row — new-entry witness pages now RESOLVE and ride the shingle
+court (which convicted 7 of this round's own strings; re-worded to 0 the same
+run: the cite-only law works on its author).
+
+**Gates after the round:** suite **195 passed** (185 + 10 acceptance pins) ·
+smoke **18/18** (re-run after data changes) · integrity **0 hard · 0 soft**
+(47 rollables · 15 setting kinds · census pins moved WITH dated comments) ·
+pending refs **1** (M7 — Mechanus's Q6 pour observed IN FLIGHT, uncommitted;
+upgrade imminent) · **uncage pin DEFERRED, deliberately**: the manifest is not
+re-pinned over a sibling's mid-round law state; Mechanus's post-pour pin
+captures this round's two data files. D11 stays BLOCKED(Q4/M9), untouched.
